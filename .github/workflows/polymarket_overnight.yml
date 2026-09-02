@@ -1,0 +1,41 @@
+name: Polymarket Overnight Scan
+
+# LÃ¤uft alle 10 Minuten, das ganze Jahr Ã¼ber. Das Script selbst
+# entscheidet anhand der Uhrzeit (Europe/Berlin), ob es im Nachtfenster
+# ist und tatsÃ¤chlich arbeitet - auÃŸerhalb des Fensters beendet es sich
+# sofort, ohne API-Calls oder Commits. Dadurch musst du den Cron nicht
+# vor dem Schlafengehen manuell an-/ausschalten.
+on:
+  schedule:
+    - cron: "*/10 * * * *"
+  workflow_dispatch: {}   # erlaubt manuelles Starten Ã¼ber den "Run workflow" Button
+
+permissions:
+  contents: write   # nÃ¶tig, damit der Workflow Ergebnisse zurÃ¼ck ins Repo committen darf
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: AbhÃ¤ngigkeiten installieren
+        run: pip install requests pandas
+
+      - name: Snapshot ausfÃ¼hren
+        run: python scripts/polymarket_snapshot.py
+
+      - name: Ergebnisse committen
+        run: |
+        mkdir -p data
+          git config user.name "polymarket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Snapshot $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push
