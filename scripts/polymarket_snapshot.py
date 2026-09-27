@@ -41,6 +41,7 @@ import pandas as pd
 import requests
 
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
+GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
 
 # ---------------------------------------------------------------------
 # Konfiguration
@@ -70,25 +71,33 @@ def in_night_window(now):
 
 
 def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
+    # Die alte Offset-Pagination auf /markets wird von Polymarket nicht mehr
+    # unterstützt (liefert ab einem gewissen Offset HTTP 422). Die Gamma-API
+    # verlangt inzwischen Keyset-Pagination über /markets/keyset mit
+    # after_cursor statt offset - "active" lässt sich dort nicht serverseitig
+    # filtern, daher wird das Feld unten pro Markt geprüft.
     markets = []
-    offset = 0
+    cursor = None
     while True:
-        params = {"closed": "false", "active": "true", "limit": batch_size, "offset": offset}
+        params = {"closed": "false", "limit": batch_size}
+        if cursor:
+            params["after_cursor"] = cursor
         try:
-            resp = requests.get(GAMMA_URL, params=params, timeout=20)
+            resp = requests.get(GAMMA_KEYSET_URL, params=params, timeout=20)
             resp.raise_for_status()
-            batch = resp.json()
+            data = resp.json()
         except requests.RequestException as e:
-            print(f"[Warnung] Fehler bei Offset {offset}: {e}")
+            print(f"[Warnung] Fehler bei Cursor {cursor!r}: {e}")
             break
-        if not batch:
-            break
+        batch = data.get("markets", [])
         for m in batch:
+            if not m.get("active", True):
+                continue
             vol = float(m.get("volumeNum") or m.get("volume") or 0)
             if vol >= min_volume:
                 markets.append(m)
-        offset += batch_size
-        if len(batch) < batch_size:
+        cursor = data.get("next_cursor")
+        if not cursor:
             break
         time.sleep(0.1)
     return markets
