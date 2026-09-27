@@ -1,0 +1,28 @@
+{
+  "cash": 92.0,
+  "positions": [
+    {
+      "market_id": "4844770",
+      "frage": "Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?",
+      "slug": "titled-tuesday-2026-09-29-top5-nihal-sarin",
+      "shares": 3.9806936358660505,
+      "einstandskurs": 1.0048499999999998,
+      "letzter_kurs": 1.0048499999999998,
+      "liquiditaet": 40.0,
+      "end_date": "2026-10-14T03:59:00Z",
+      "eingestiegen": "2026-09-27T14:48:08.492116+02:00"
+    },
+    {
+      "market_id": "4844826",
+      "frage": "Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?",
+      "slug": "titled-tuesday-2026-09-29-top8-jan-krzysztof-duda",
+      "shares": 3.9806936358660505,
+      "einstandskurs": 1.0048499999999998,
+      "letzter_kurs": 1.0048499999999998,
+      "liquiditaet": 40.0,
+      "end_date": "2026-10-14T03:59:00Z",
+      "eingestiegen": "2026-09-27T14:48:08.492116+02:00"
+    }
+  ],
+  "started": "2026-09-27T14:48:08.492116+02:00"
+}
