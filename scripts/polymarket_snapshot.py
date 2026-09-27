@@ -2,12 +2,8 @@
 Polymarket Snapshot (für GitHub Actions)
 ==========================================
 
-Wird alle 10 Minuten von einem Cron-Workflow aufgerufen. Prüft zuerst,
-ob die aktuelle Uhrzeit (Europe/Berlin) im konfigurierten Nachtfenster
-liegt - falls nicht, beendet sich das Script sofort (kein API-Call,
-kein Commit).
-
-Innerhalb des Fensters:
+Wird rund um die Uhr von einem Cron-Workflow aufgerufen (siehe
+INTERVAL_MINUTES / die .yml für den genauen Takt):
   1. Lädt ALLE offenen Yes/No-Märkte von der Polymarket Gamma-API
   2. Filtert auf Yes+No < THRESHOLD
   3. Hängt jeden Treffer als Zeile an data/snapshots.csv an (Rohdaten,
@@ -47,9 +43,7 @@ GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
 # Konfiguration
 # ---------------------------------------------------------------------
 THRESHOLD = 1.0
-INTERVAL_MINUTES = 10                # muss zum Cron-Takt in der .yml passen
-WINDOW_START = (22, 0)               # Nachtfenster Start (Stunde, Minute), lokal
-WINDOW_STOP = (8, 30)                # Nachtfenster Ende (Stunde, Minute), lokal
+INTERVAL_MINUTES = 15                # muss zum Cron-Takt in der .yml passen
 TIMEZONE = "Europe/Berlin"
 BATCH_SIZE = 100
 MIN_VOLUME = 0.0
@@ -57,17 +51,6 @@ MIN_VOLUME = 0.0
 DATA_DIR = "data"
 SNAPSHOTS_CSV = os.path.join(DATA_DIR, "snapshots.csv")
 SUMMARY_CSV = os.path.join(DATA_DIR, "summary.csv")
-
-
-def in_night_window(now):
-    start_h, start_m = WINDOW_START
-    stop_h, stop_m = WINDOW_STOP
-    start = now.replace(hour=start_h, minute=start_m, second=0, microsecond=0)
-    stop = now.replace(hour=stop_h, minute=stop_m, second=0, microsecond=0)
-    if start <= stop:
-        return start <= now <= stop
-    # Fenster geht über Mitternacht (z.B. 22:00 - 08:30)
-    return now >= start or now <= stop
 
 
 def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
@@ -199,11 +182,7 @@ def main():
     tz = ZoneInfo(TIMEZONE)
     now = datetime.now(tz)
 
-    if not in_night_window(now):
-        print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: außerhalb des Nachtfensters, überspringe.")
-        return
-
-    print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: im Nachtfenster, lade Märkte...")
+    print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: lade Märkte...")
     markets = fetch_all_open_markets()
 
     rows = []

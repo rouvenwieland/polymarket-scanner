@@ -1,18 +1,20 @@
-name: Polymarket Overnight Scan
+name: Polymarket Scan
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    # Läuft rund um die Uhr. Ein voller Durchlauf (Keyset-Pagination über
+    # alle offenen Märkte) dauert inzwischen ~11 Minuten, daher 15-Minuten-
+    # Takt statt 10 - sonst reihen sich die Läufe unnötig in der Warteschlange.
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
-# Ein voller Scan-Durchlauf (Keyset-Pagination über alle offenen Märkte)
-# kann inzwischen mehrere Minuten dauern. Ohne concurrency-Guard könnten
-# sich zwei Cron-Läufe überlappen und sich beim Commit/Push in die Quere
-# kommen - stattdessen wird ein laufender Lauf zu Ende geführt, bevor der
-# nächste startet.
+# Falls ein Durchlauf doch mal länger als 15 Minuten braucht, verhindert der
+# concurrency-Guard, dass sich zwei Läufe überlappen und sich beim
+# Commit/Push in die Quere kommen - der nächste wartet, statt parallel zu
+# starten.
 concurrency:
   group: polymarket-snapshot
   cancel-in-progress: false
