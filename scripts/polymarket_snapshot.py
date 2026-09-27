@@ -99,7 +99,7 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
         cursor = data.get("next_cursor")
         if not cursor:
             break
-        time.sleep(0.1)
+        time.sleep(0.05)
     return markets
 
 
@@ -199,7 +199,7 @@ def main():
     tz = ZoneInfo(TIMEZONE)
     now = datetime.now(tz)
 
-    if not in_night_window(now) and not os.environ.get("FORCE_RUN"):
+    if not in_night_window(now):
         print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: außerhalb des Nachtfensters, überspringe.")
         return
 
