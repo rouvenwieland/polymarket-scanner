@@ -199,7 +199,7 @@ def main():
     tz = ZoneInfo(TIMEZONE)
     now = datetime.now(tz)
 
-    if not in_night_window(now):
+    if not in_night_window(now) and not os.environ.get("FORCE_RUN"):
         print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: außerhalb des Nachtfensters, überspringe.")
         return
 

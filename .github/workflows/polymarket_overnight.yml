@@ -24,6 +24,8 @@ jobs:
         run: pip install requests pandas
 
       - name: Snapshot ausführen
+        env:
+          FORCE_RUN: "1"
         run: python scripts/polymarket_snapshot.py
 
       - name: Ergebnisse committen
