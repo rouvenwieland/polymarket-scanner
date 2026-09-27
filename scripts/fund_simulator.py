@@ -48,6 +48,7 @@ MAX_POSITION_FRACTION_OF_LIQUIDITY = 0.10   # max. Positionsgröße relativ zur 
 MAX_OPEN_POSITIONS = 12       # Diversifikations-Deckel bei 100 USD Kapital
 IMPACT_COEFFICIENT = 0.15     # linearer Preiseinfluss: effektiver Preis = mid * (1 ± coef * notional/liquidity)
 MIN_TRADE_NOTIONAL = 2.0      # Trades unter diesem Betrag lohnen sich nicht (Rundungsrauschen)
+MAX_EFFECTIVE_BUY_PRICE = 0.999   # Sicherheitsnetz: Kauf nur, wenn nach Market-Impact noch ein Edge bleibt
 
 
 def _empty_state():
@@ -212,6 +213,11 @@ def _select_new_trades(state, hits, now):
 
         impact = IMPACT_COEFFICIENT * (notional / max(h["liquiditaet"], 1.0))
         effective_sum = h["summe"] * (1 + min(impact, 0.3))
+        if effective_sum >= MAX_EFFECTIVE_BUY_PRICE:
+            # Der Market Impact bei dieser Positionsgröße frisst den Edge
+            # komplett auf (oder dreht ihn sogar ins Minus) - kein Trade,
+            # lieber Kasse halten als garantiert mit Verlust einsteigen.
+            continue
         shares = notional / effective_sum
 
         state["cash"] -= notional
