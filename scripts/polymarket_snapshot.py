@@ -11,6 +11,9 @@ INTERVAL_MINUTES / die .yml für den genauen Takt):
   4. Aggregiert data/snapshots.csv neu zu data/summary.csv (pro Markt:
      erster/letzter Treffer, geschätzte Dauer, Volumen, Zeit bis
      Terminierung)
+  5. Lässt den simulierten Arbitrage-Fonds (fund_simulator.py) auf den
+     schon geladenen Marktdaten einen Schritt laufen: offene Positionen
+     glattstellen/auszahlen, neue Treffer ggf. kaufen.
 
 Das Commit + Push übernimmt der GitHub-Actions-Workflow, nicht dieses
 Script.
@@ -35,6 +38,8 @@ from zoneinfo import ZoneInfo
 
 import pandas as pd
 import requests
+
+import fund_simulator
 
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
@@ -213,6 +218,11 @@ def main():
         rebuild_summary(tz)
     else:
         print("Keine Treffer in diesem Run.")
+
+    # Fonds-Simulation läuft unabhängig davon, ob dieser Run neue Treffer
+    # gebracht hat - offene Positionen müssen auch sonst auf Auflösung/
+    # Konvergenz geprüft werden. Nutzt die schon geladenen Marktdaten weiter.
+    fund_simulator.run_fund_step(markets, rows, now)
 
 
 if __name__ == "__main__":
