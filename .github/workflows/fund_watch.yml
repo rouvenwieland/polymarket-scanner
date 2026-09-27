@@ -1,0 +1,45 @@
+name: Fonds-Watch
+
+on:
+  schedule:
+    # 5 Minuten ist laut GitHub-Doku das kürzeste zuverlässig unterstützte
+    # Cron-Intervall für Actions-Schedules - kürzere Angaben werden unter
+    # Last stark verzögert/übersprungen. Damit wird das Fonds-Portfolio
+    # trotzdem deutlich öfter beobachtet als beim 15-Minuten-Vollscan.
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Gleiche Gruppe wie polymarket_overnight.yml - siehe Kommentar dort.
+concurrency:
+  group: polymarket-data-write
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests
+
+      - name: Offene Fonds-Positionen prüfen
+        run: python scripts/fund_watch.py
+
+      - name: Ergebnisse committen
+        run: |
+          mkdir -p data
+          git config user.name "polymarket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Fonds-Watch $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push

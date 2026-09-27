@@ -6,9 +6,19 @@ Simuliert einen kleinen Fonds, der die Strategie des Scanners tatsächlich
 "fährt": bei jedem Snapshot-Lauf werden Yes+No < 1-Treffer gekauft (beide
 Seiten gleichzeitig) und entweder bis zur Marktauflösung gehalten (Auszahlung
 1.00 USD je Paar) oder vorher wieder verkauft, sobald Yes+No wieder auf ~1.00
-gestiegen ist. Es wird NICHTS echtes gehandelt - das hier ist Papier-Trading,
-das ausschließlich mit den ohnehin schon vom Scanner geladenen Marktdaten
-rechnet (kein zusätzlicher API-Call, siehe run_fund_step()).
+gestiegen ist. Es wird NICHTS echtes gehandelt - das hier ist Papier-Trading.
+
+Zwei Einstiegspunkte teilen sich dieselbe Positions-Logik (_evaluate_position):
+  - run_fund_step()      wird vom großen Scan (polymarket_snapshot.py) aufgerufen.
+    Liefert neue Kaufkandidaten UND nutzt die dabei ohnehin schon geladenen
+    ~200.000 Marktdaten, um alle offenen Positionen mit zu bewerten. Das ist
+    das "Portfolio", aus dem neue Positionen ausgewählt werden.
+  - watch_positions_step() wird vom hochfrequenten fund_watch.py aufgerufen
+    (siehe .github/workflows/fund_watch.yml). Kauft NICHTS Neues, sondern holt
+    für jede offene Position gezielt nur ihren einen Markt per Einzel-Lookup
+    (GET /markets/{id}) und prüft Konvergenz/Auflösung - viel schneller als
+    ein voller Scan, damit gehaltene Positionen nicht erst beim nächsten
+    15-Minuten-Lauf bemerkt werden.
 
 Vereinfachungen, die bewusst in Kauf genommen werden:
   - Slippage/Market Impact ist ein einfaches lineares Modell
@@ -32,6 +42,11 @@ import json
 import os
 from datetime import datetime
 
+import requests
+
+GAMMA_URL = "https://gamma-api.polymarket.com/markets"
+TIMEZONE = "Europe/Berlin"
+
 DATA_DIR = "data"
 STATE_JSON = os.path.join(DATA_DIR, "fund_state.json")
 TRADES_CSV = os.path.join(DATA_DIR, "fund_trades.csv")
@@ -49,6 +64,48 @@ MAX_OPEN_POSITIONS = 12       # Diversifikations-Deckel bei 100 USD Kapital
 IMPACT_COEFFICIENT = 0.15     # linearer Preiseinfluss: effektiver Preis = mid * (1 ± coef * notional/liquidity)
 MIN_TRADE_NOTIONAL = 2.0      # Trades unter diesem Betrag lohnen sich nicht (Rundungsrauschen)
 MAX_EFFECTIVE_BUY_PRICE = 0.999   # Sicherheitsnetz: Kauf nur, wenn nach Market-Impact noch ein Edge bleibt
+
+
+def parse_prices(market):
+    try:
+        outcomes = json.loads(market.get("outcomes", "[]"))
+        prices = json.loads(market.get("outcomePrices", "[]"))
+    except (json.JSONDecodeError, TypeError):
+        return None
+    if len(outcomes) != 2 or len(prices) != 2:
+        return None
+    idx_map = {str(o).strip().lower(): i for i, o in enumerate(outcomes)}
+    if "yes" not in idx_map or "no" not in idx_map:
+        return None
+    yi, ni = idx_map["yes"], idx_map["no"]
+    try:
+        return float(prices[yi]), float(prices[ni])
+    except (ValueError, TypeError):
+        return None
+
+
+def fetch_market_by_id(market_id):
+    """Einzel-Lookup für den schnellen Watcher - viel billiger als eine volle
+    Keyset-Pagination über alle Märkte. Gibt None zurück, wenn der Markt nicht
+    (mehr) auffindbar ist (dann wird die Position als aufgelöst behandelt)."""
+    for url in (f"{GAMMA_URL}/{market_id}", f"{GAMMA_URL}/slug/{market_id}"):
+        try:
+            resp = requests.get(url, timeout=15)
+        except requests.RequestException as e:
+            print(f"[Warnung] Fehler beim Einzel-Lookup {market_id}: {e}")
+            return None
+        if resp.status_code == 404:
+            continue
+        try:
+            resp.raise_for_status()
+            data = resp.json()
+        except (requests.RequestException, ValueError):
+            continue
+        if isinstance(data, list):
+            data = data[0] if data else None
+        if isinstance(data, dict) and data:
+            return data
+    return None
 
 
 def _empty_state():
@@ -134,50 +191,87 @@ def _score(spread, liquidity, days_to_end):
     return (spread / horizon) * (0.5 + 0.5 * liquidity_weight)
 
 
-def _mark_positions(state, markets_by_id, now):
-    """Aktualisiert offene Positionen: verkauft bei Konvergenz, zahlt bei
-    Marktauflösung aus 1.00 USD/Paar. Gibt (cash, positions_value) zurück."""
+def _evaluate_position(pos, market):
+    """Gemeinsame Entscheidungslogik für eine offene Position, egal ob der
+    Markt aus einem vollen Scan (markets_by_id-Lookup) oder einem gezielten
+    Einzel-Lookup (fetch_market_by_id) stammt.
+
+    Gibt ein dict zurück:
+      {"action": "settle"} .......... Markt aufgelöst -> 1.00 USD/Paar
+      {"action": "sell", "effective_sum": x} .. Konvergenz -> jetzt glattstellen
+      {"action": "hold", "current_sum": x oder None} .. weiter halten
+    """
+    if market is None:
+        return {"action": "settle", "note": "Markt nicht mehr auffindbar -> als aufgelöst behandelt"}
+    if market.get("closed"):
+        return {"action": "settle", "note": "Markt als geschlossen/aufgelöst markiert"}
+
+    prices = parse_prices(market)
+    if prices is None:
+        return {"action": "hold", "current_sum": None}
+
+    yes_p, no_p = prices
+    current_sum = yes_p + no_p
+    if current_sum >= SELL_CONVERGENCE:
+        liquidity_now = float(market.get("liquidityNum") or market.get("liquidity") or pos["liquiditaet"])
+        notional = pos["shares"] * current_sum
+        impact = IMPACT_COEFFICIENT * (notional / max(liquidity_now, 1.0))
+        effective_sum = current_sum * (1 - min(impact, 0.3))
+        return {"action": "sell", "effective_sum": effective_sum, "current_sum": current_sum}
+
+    return {"action": "hold", "current_sum": current_sum}
+
+
+def _apply_decision(state, pos, decision, now):
+    """Führt eine _evaluate_position()-Entscheidung aus (Kasse/Log/Positionsliste
+    aktualisieren). Gibt True zurück, wenn die Position geschlossen wurde."""
+    if decision["action"] == "settle":
+        proceeds = pos["shares"] * 1.0
+        state["cash"] += proceeds
+        log_trade(now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
+                  pos["shares"], 1.0, proceeds, state["cash"], decision["note"])
+        return True
+
+    if decision["action"] == "sell":
+        proceeds = pos["shares"] * decision["effective_sum"]
+        state["cash"] += proceeds
+        log_trade(now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
+                  pos["shares"], decision["effective_sum"], proceeds, state["cash"],
+                  f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})")
+        return True
+
+    # hold
+    if decision.get("current_sum") is not None:
+        pos["letzter_kurs"] = decision["current_sum"]
+    return False
+
+
+def _positions_value(positions):
+    return sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
+
+
+def _mark_positions_from_markets(state, markets_by_id, now):
+    """Voller-Scan-Variante: Marktdaten liegen schon als dict vor."""
     still_open = []
     for pos in state["positions"]:
         market = markets_by_id.get(pos["market_id"])
-        if market is None:
-            # Markt taucht nicht mehr unter den offenen Märkten auf ->
-            # aufgelöst/geschlossen. Sauberer Payout von 1.00 USD/Paar.
-            proceeds = pos["shares"] * 1.0
-            state["cash"] += proceeds
-            log_trade(now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
-                      pos["shares"], 1.0, proceeds, state["cash"],
-                      "Markt nicht mehr aktiv -> als aufgelöst behandelt")
-            continue
-
-        from polymarket_snapshot import parse_prices
-        prices = parse_prices(market)
-        if prices is None:
-            # Kein sauberes Yes/No-Preispaar mehr lesbar - Position unverändert
-            # halten, mit letztem bekannten Kurs bewerten.
+        decision = _evaluate_position(pos, market)
+        closed = _apply_decision(state, pos, decision, now)
+        if not closed:
             still_open.append(pos)
-            continue
-
-        yes_p, no_p = prices
-        current_sum = yes_p + no_p
-        pos["letzter_kurs"] = current_sum
-
-        if current_sum >= SELL_CONVERGENCE:
-            liquidity_now = float(market.get("liquidityNum") or market.get("liquidity") or pos["liquiditaet"])
-            notional = pos["shares"] * current_sum
-            impact = IMPACT_COEFFICIENT * (notional / max(liquidity_now, 1.0))
-            effective_sum = current_sum * (1 - min(impact, 0.3))
-            proceeds = pos["shares"] * effective_sum
-            state["cash"] += proceeds
-            log_trade(now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
-                      pos["shares"], effective_sum, proceeds, state["cash"],
-                      f"Konvergenz erreicht (Kurs {current_sum:.3f})")
-        else:
-            still_open.append(pos)
-
     state["positions"] = still_open
-    positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in still_open)
-    return positions_value
+
+
+def _mark_positions_via_lookup(state, now):
+    """Watcher-Variante: jede Position bekommt ihren eigenen Einzel-API-Call."""
+    still_open = []
+    for pos in state["positions"]:
+        market = fetch_market_by_id(pos["market_id"])
+        decision = _evaluate_position(pos, market)
+        closed = _apply_decision(state, pos, decision, now)
+        if not closed:
+            still_open.append(pos)
+    state["positions"] = still_open
 
 
 def _select_new_trades(state, hits, now):
@@ -238,10 +332,9 @@ def _select_new_trades(state, hits, now):
 
 
 def run_fund_step(markets, hits, now):
-    """Ein Simulationsschritt: Positionen bewerten/glattstellen, dann neue
-    Treffer aus diesem Lauf ('hits', gleiche Liste wie snapshots.csv-Zeilen)
-    ggf. kaufen. Nutzt die im Snapshot-Schritt bereits geladenen Marktdaten -
-    kein zusätzlicher API-Call."""
+    """Wird vom großen Scan aufgerufen: Positionen anhand der schon geladenen
+    ~200.000 Marktdaten bewerten/glattstellen, dann neue Treffer aus diesem
+    Lauf ('hits') ggf. kaufen. Kein zusätzlicher API-Call."""
     state = load_state()
     if state["started"] is None:
         state["started"] = now.isoformat()
@@ -253,13 +346,25 @@ def run_fund_step(markets, hits, now):
         if m.get("slug"):
             markets_by_id.setdefault(m["slug"], m)
 
-    positions_value = _mark_positions(state, markets_by_id, now)
+    _mark_positions_from_markets(state, markets_by_id, now)
     _select_new_trades(state, hits, now)
-    # Neue Positionen sind zu Einstandskosten bewertet -> zur Positionswert-
-    # Summe aus _mark_positions dazuzählen (die kannte sie noch nicht).
-    positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in state["positions"])
 
     save_state(state)
-    nav = log_history(now.isoformat(), state["cash"], positions_value, len(state["positions"]))
+    nav = log_history(now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
     print(f"Fonds: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
+          f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
+
+
+def watch_positions_step(now):
+    """Wird vom hochfrequenten fund_watch.py aufgerufen: kauft nichts Neues,
+    prüft nur die schon gehaltenen Positionen per gezieltem Einzel-Lookup."""
+    state = load_state()
+    if not state["positions"]:
+        print("Fonds-Watch: keine offenen Positionen, nichts zu tun.")
+        return
+
+    _mark_positions_via_lookup(state, now)
+    save_state(state)
+    nav = log_history(now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
+    print(f"Fonds-Watch: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
           f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")

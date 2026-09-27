@@ -40,6 +40,7 @@ import pandas as pd
 import requests
 
 import fund_simulator
+from fund_simulator import parse_prices
 
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
@@ -56,6 +57,7 @@ MIN_VOLUME = 0.0
 DATA_DIR = "data"
 SNAPSHOTS_CSV = os.path.join(DATA_DIR, "snapshots.csv")
 SUMMARY_CSV = os.path.join(DATA_DIR, "summary.csv")
+LAST_RUN_STATS_JSON = os.path.join(DATA_DIR, "last_run_stats.json")
 
 
 def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
@@ -89,24 +91,6 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
             break
         time.sleep(0.05)
     return markets
-
-
-def parse_prices(market):
-    try:
-        outcomes = json.loads(market.get("outcomes", "[]"))
-        prices = json.loads(market.get("outcomePrices", "[]"))
-    except (json.JSONDecodeError, TypeError):
-        return None
-    if len(outcomes) != 2 or len(prices) != 2:
-        return None
-    idx_map = {str(o).strip().lower(): i for i, o in enumerate(outcomes)}
-    if "yes" not in idx_map or "no" not in idx_map:
-        return None
-    yi, ni = idx_map["yes"], idx_map["no"]
-    try:
-        return float(prices[yi]), float(prices[ni])
-    except (ValueError, TypeError):
-        return None
 
 
 def format_timedelta(td):
@@ -212,6 +196,16 @@ def main():
             })
 
     print(f"{len(markets)} Märkte geprüft, {len(rows)} Treffer unter Schwelle {THRESHOLD}.")
+
+    # Für das Dashboard: Kennzahlen dieses Laufs maschinenlesbar ablegen, statt
+    # sie aus den Actions-Logs abschreiben zu müssen.
+    os.makedirs(DATA_DIR, exist_ok=True)
+    with open(LAST_RUN_STATS_JSON, "w", encoding="utf-8") as f:
+        json.dump({
+            "timestamp": now.isoformat(),
+            "markets_checked": len(markets),
+            "hits_this_run": len(rows),
+        }, f, ensure_ascii=False, indent=2)
 
     if rows:
         append_snapshot_rows(rows)

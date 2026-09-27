@@ -11,12 +11,12 @@ on:
 permissions:
   contents: write
 
-# Falls ein Durchlauf doch mal länger als 15 Minuten braucht, verhindert der
-# concurrency-Guard, dass sich zwei Läufe überlappen und sich beim
-# Commit/Push in die Quere kommen - der nächste wartet, statt parallel zu
-# starten.
+# Gleiche concurrency-Gruppe wie fund_watch.yml: beide Workflows committen
+# in dasselbe data/-Verzeichnis, ohne gemeinsame Gruppe könnten sich ihre
+# Pushes gegenseitig als "non-fast-forward" ablehnen. Mit cancel-in-progress
+# false wartet der jeweils andere Lauf einfach, statt parallel zu starten.
 concurrency:
-  group: polymarket-snapshot
+  group: polymarket-data-write
   cancel-in-progress: false
 
 jobs:
