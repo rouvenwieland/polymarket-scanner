@@ -774,3 +774,59 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-09-28T10:05:22.550814+02:00,5065612,Exact Score: Real Sociedad de Fútbol 5 - 4 RC Deportivo A Coruña?,lal-rso-dep-2026-10-11-exact-score-5-4,0.455,0.54,0.9950000000000001,0.0,19.759,2026-10-11T14:15:00Z
 2026-09-28T10:05:22.550814+02:00,5065725,Exact Score: Real Betis Balompié 0 - 5 CA Osasuna?,lal-bet-osa-2026-10-11-exact-score-0-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T16:30:00Z
 2026-09-28T10:05:22.550814+02:00,5065891,Exact Score: Real Racing Club 4 - 1 Valencia CF?,lal-rrc-val-2026-10-11-exact-score-4-1,0.475,0.52,0.995,0.0,13.9998,2026-10-11T19:00:00Z
+2026-09-28T11:29:11.942274+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-09-28T11:29:11.942274+02:00,3207566,FC CFR 1907 Cluj vs. FC Universitatea Cluj: Neither team to score first?,rou1-fcc-fuc-2026-08-10-first-to-score-neither,0.46,0.535,0.9950000000000001,100.0,5.424,2026-10-08T17:30:00Z
+2026-09-28T11:29:11.942274+02:00,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,will-kyren-williams-be-the-highest-scoring-fantasy-football-player-of-the-2026-27-nfl-season-20260806180814417,0.1355,0.7495,0.885,5.0,26.921,2027-01-27T04:59:00Z
+2026-09-28T11:29:11.942274+02:00,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,will-derrick-henry-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131593,0.125,0.75,0.875,5.0,27.36896,2027-01-27T04:59:00Z
+2026-09-28T11:29:11.942274+02:00,4220267,Will Travis Kelce have 75.5+ receptions in the 2026-27 NFL regular season?,travis-kelce-75pt5-receptions-2026-27,0.51,0.485,0.995,0.0,3.9237,2027-01-12T23:59:00Z
+2026-09-28T11:29:11.942274+02:00,4227545,Will Justin Bowick be the 2026 Big 12 Receiving Yards Leader?,will-justin-bowick-be-the-2026-big-12-receiving-yards-leader,0.485,0.51,0.995,0.0,4.9339,2026-12-06T23:59:00Z
+2026-09-28T11:29:11.942274+02:00,4228316,Will Sedrick Alexander be the 2026 SEC Rushing TDs Leader?,will-sedrick-alexander-be-the-2026-sec-rushing-tds-leader,0.485,0.51,0.995,0.0,4.65,2026-12-06T23:59:00Z
+2026-09-28T11:29:11.942274+02:00,4518521,Game 1: Any Player Rampage?,dota2-z10-dawnbu-2026-09-13-game1-any-player-rampage,0.5,0.0,0.5,10.0,0.0,2026-09-20T21:00:00Z
+2026-09-28T11:29:11.942274+02:00,4518523,Game 2: Both Teams Beat Roshan?,dota2-z10-dawnbu-2026-09-13-game2-both-teams-beat-roshan,0.5,0.0,0.5,0.0,0.0,2026-09-20T21:00:00Z
+2026-09-28T11:29:11.942274+02:00,4566920,Will TSG Hoffenheim finish 9th-24th in UEL league phase?,will-tsg-hoffenheim-finish-9th-24th-in-uel-league-phase,0.495,0.5,0.995,0.0,2.7636,2027-02-28T23:59:00Z
+2026-09-28T11:29:11.942274+02:00,4611242,Woking FC vs. Solihull Moors FC: Neither team to score first?,enl-wok-sol-2026-09-29-first-to-score-neither,0.04,0.955,0.995,0.0,1010.3594,2026-09-29T18:45:00Z
+2026-09-28T11:29:11.942274+02:00,4679099,Denmark vs. Portugal: Neither team to score first?,unl-den-prt-2026-10-01-first-to-score-neither,0.04,0.955,0.995,0.0,987.7159,2026-10-01T18:45:00Z
+2026-09-28T11:29:11.942274+02:00,4757297,Will United States win on 2026-10-03?,fif-usa-mex-2026-10-03-usa,0.52,0.455,0.9750000000000001,0.0,183.5889,2026-10-04T02:07:00Z
+2026-09-28T11:29:11.942274+02:00,4763700,Auriense CA to win the second half?,cdr-sjs-aur-2026-10-04-second-half-result-away,0.495,0.5,0.995,0.0,5.6597,2026-10-04T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,4765474,Exact Score: CA Newell's Old Boys 3 - 0 CA Lanús?,arg-new-lan-2026-10-03-exact-score-3-0,0.48,0.515,0.995,0.0,10.8393,2026-10-03T20:00:00Z
+2026-09-28T11:29:11.942274+02:00,4835576,Exact Score: Northern Ireland 3 - 3 Georgia?,unl-nir-geo-2026-10-05-exact-score-3-3,0.48,0.515,0.995,0.0,12.8195,2026-10-05T18:45:00Z
+2026-09-28T11:29:11.942274+02:00,4844745,Will Benjamin Bok finish in the Top 5 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top5-benjamin-bok,0.47,0.525,0.995,0.0,221.5,2026-10-14T03:59:00Z
+2026-09-28T11:29:11.942274+02:00,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top5-nihal-sarin,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-28T11:29:11.942274+02:00,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top8-jan-krzysztof-duda,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-28T11:29:11.942274+02:00,4846915,Salisbury FC to win the second half?,efa-sal3-dul-2026-10-03-second-half-result-home,0.495,0.5,0.995,0.0,2.98,2026-10-03T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,4880340,Exact Score: Forres Mechanics FC 3 - 3 Stirling University FC?,scoc-fmf-su-2026-10-03-exact-score-3-3,0.49,0.505,0.995,0.0,8.78,2026-10-03T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,4924361,Exact Margin: Tie,cfb-sjst-hawaii-2026-10-04-exact-margin-tie,0.495,0.5,0.995,0.0,0.0,2026-10-04T04:00:00Z
+2026-09-28T11:29:11.942274+02:00,4952493,Exact Score: FK Rostov 0 - 1 FK Akron Tolyatti?,rus-ros-akr-2026-10-09-exact-score-0-1,0.48,0.515,0.995,0.0,13.774,2026-10-09T16:30:00Z
+2026-09-28T11:29:11.942274+02:00,4961706,Exact Score: Gangwon FC 5 - 1 Bucheon FC 1995?,kor-gwo-bch-2026-10-09-exact-score-5-1,0.48,0.515,0.995,0.0,11.5657,2026-10-09T07:30:00Z
+2026-09-28T11:29:11.942274+02:00,4986416,Exact Score: Gençlerbirliği SK 0 - 2 Amed Sportif?,tur-gen-ame-2026-10-10-exact-score-0-2,0.475,0.52,0.995,0.0,12.8356,2026-10-10T10:30:00Z
+2026-09-28T11:29:11.942274+02:00,4986525,Exact Score: Samsunspor 5 - 0 Trabzonspor?,tur-sam-tra-2026-10-10-exact-score-5-0,0.47,0.525,0.995,0.0,12.2398,2026-10-10T13:00:00Z
+2026-09-28T11:29:11.942274+02:00,4988642,Exact Score: CS Marítimo 4 - 0 FC Porto?,por-csm-por-2026-10-10-exact-score-4-0,0.46,0.535,0.9950000000000001,0.0,15.7687,2026-10-10T17:00:00Z
+2026-09-28T11:29:11.942274+02:00,4991386,Exact Score: AD Tarma 1 - 0 FC Cajamarca?,per1-adt-fcc-2026-10-10-exact-score-1-0,0.48,0.515,0.995,0.0,12.9922,2026-10-10T18:00:00Z
+2026-09-28T11:29:11.942274+02:00,5000020,Exact Score: Ventforet Kōfu 4 - 1 Tochigi City FC?,ja2-ven-tct-2026-10-10-exact-score-4-1,0.48,0.515,0.995,0.0,12.6311,2026-10-10T07:00:00Z
+2026-09-28T11:29:11.942274+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-09-28T11:29:11.942274+02:00,5009896,Exact Score: 1. FSV Mainz 05 0 - 0 Bayer 04 Leverkusen?,bun-mai-b04-2026-10-10-exact-score-0-0,0.48,0.515,0.995,0.0,136.3224,2026-10-10T13:30:00Z
+2026-09-28T11:29:11.942274+02:00,5013378,Aston Villa FC vs. Brentford FC: Both Teams to Score in Second Half,epl-ast-bre-2026-10-10-btts-second-half,0.48,0.515,0.995,0.0,88.6686,2026-10-10T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,5018628,Exact Score: Leicester City FC 3 - 1 Peterborough United FC?,el1-lei-pet-2026-10-10-exact-score-3-1,0.48,0.515,0.995,0.0,16.2396,2026-10-10T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,5023507,Exact Score: Aurora FC 2 - 2 CSD Xelajú MC?,gtm-aur-xel-2026-10-10-exact-score-2-2,0.475,0.52,0.995,0.0,13.5498,2026-10-10T21:00:00Z
+2026-09-28T11:29:11.942274+02:00,5025358,Exact Score: AFC Fylde 5 - 5 Scunthorpe United FC?,enl-fyl-scu-2026-10-10-exact-score-5-5,0.49,0.505,0.995,0.0,9.4198,2026-10-10T14:00:00Z
+2026-09-28T11:29:11.942274+02:00,5036188,Will the price of Solana be above $145 on October 4?,solana-above-145-on-october-4-2026,0.028,0.9715,0.9995,0.0,4732.18887,2026-10-04T16:00:00Z
+2026-09-28T11:29:11.942274+02:00,5036665,Exact Score: Inter Miami CF 4 - 1 D.C. United SC?,mls-mia-dcu-2026-10-10-exact-score-4-1,0.485,0.51,0.995,0.0,13.3594,2026-10-10T23:30:00Z
+2026-09-28T11:29:11.942274+02:00,5037462,Exact Score: CA Boston River 4 - 4 CA Juventud de Las Piedras?,uru1-bri-juv-2026-10-04-exact-score-4-4,0.475,0.52,0.995,0.0,14.3161,2026-10-04T16:00:00Z
+2026-09-28T11:29:11.942274+02:00,5040091,Exact Score: CF América 0 - 1 CF Monterrey?,mex-ame-mon1-2026-10-10-exact-score-0-1,0.485,0.51,0.995,0.0,15.2813,2026-10-11T03:00:00Z
+2026-09-28T11:29:11.942274+02:00,5042937,Exact Score: CA Aldosivi 0 - 0 CA Sarmiento?,arg-ald-cas-2026-10-09-exact-score-0-0,0.49,0.505,0.995,0.0,4.9198,2026-10-09T17:30:00Z
+2026-09-28T11:29:11.942274+02:00,5043014,Exact Score: Gimnasia y Esgrima de La Plata 5 - 4 CA Tucumán?,arg-gim-cat-2026-10-09-exact-score-5-4,0.475,0.52,0.995,0.0,9.6649,2026-10-09T21:00:00Z
+2026-09-28T11:29:11.942274+02:00,5043944,Exact Score: Académico de Viseu FC 3 - 1 Estoril Praia?,por-acv-est-2026-10-10-exact-score-3-1,0.475,0.52,0.995,0.0,13.9998,2026-10-10T19:30:00Z
+2026-09-28T11:29:11.942274+02:00,5044059,Exact Score: Rio Ave FC 3 - 2 CD Nacional?,por-rio-nac-2026-10-11-exact-score-3-2,0.485,0.51,0.995,0.0,8.5688,2026-10-11T14:30:00Z
+2026-09-28T11:29:11.942274+02:00,5046496,Exact Score: CR Vasco da Gama 3 - 1 Clube do Remo?,bra-vas-cre-2026-10-10-exact-score-3-1,0.485,0.51,0.995,0.0,13.1694,2026-10-10T20:00:00Z
+2026-09-28T11:29:11.942274+02:00,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,bra2-juv-ber-2026-10-11-exact-score-5-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T19:00:00Z
+2026-09-28T11:29:11.942274+02:00,5047020,Exact Score: Club Universitario de Deportes 0 - 4 FBC Melgar?,per1-cud-fbm-2026-10-10-exact-score-0-4,0.49,0.505,0.995,0.0,9.4195,2026-10-11T00:00:00Z
+2026-09-28T11:29:11.942274+02:00,5047448,Exact Score: CDP Junior FC 0 - 1 Internacional de Bogotá?,col1-cjf-cle-2026-10-10-exact-score-0-1,0.48,0.515,0.995,0.0,14.3198,2026-10-10T23:10:00Z
+2026-09-28T11:29:11.942274+02:00,5047451,Exact Score: CDP Junior FC 1 - 0 Internacional de Bogotá?,col1-cjf-cle-2026-10-10-exact-score-1-0,0.48,0.515,0.995,0.0,14.0825,2026-10-10T23:10:00Z
+2026-09-28T11:29:11.942274+02:00,5048138,Exact Score: Abha Saudi Club 5 - 4 Al Faisaly Saudi Club?,spl-abh-fai-2026-10-11-exact-score-5-4,0.49,0.505,0.995,0.0,5.3731,2026-10-11T13:40:00Z
+2026-09-28T11:29:11.942274+02:00,5055744,Game 1: Both Teams Destroy Inhibitors?,lol-hrts-vlr-2026-09-28-game1-both-teams-destroy-inhibitors,0.495,0.5,0.995,0.0,2.56,2026-09-28T22:00:00Z
+2026-09-28T11:29:11.942274+02:00,5055878,Game 1: Both Teams Slay a Dragon?,lol-ksa-uae-2026-09-28-game1-both-teams-slay-dragon,0.495,0.5,0.995,0.0,2.56,2026-09-29T08:30:00Z
+2026-09-28T11:29:11.942274+02:00,5065607,Exact Score: Real Sociedad de Fútbol 4 - 5 RC Deportivo A Coruña?,lal-rso-dep-2026-10-11-exact-score-4-5,0.49,0.505,0.995,0.0,4.9198,2026-10-11T14:15:00Z
+2026-09-28T11:29:11.942274+02:00,5065725,Exact Score: Real Betis Balompié 0 - 5 CA Osasuna?,lal-bet-osa-2026-10-11-exact-score-0-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T16:30:00Z
+2026-09-28T11:29:11.942274+02:00,5065891,Exact Score: Real Racing Club 4 - 1 Valencia CF?,lal-rrc-val-2026-10-11-exact-score-4-1,0.475,0.52,0.995,0.0,13.9998,2026-10-11T19:00:00Z
+2026-09-28T11:29:11.942274+02:00,5067244,Exact Score: Escorpiones de Belén 3 - 0 Deportivo Saprissa?,fpd-esc-sap-2026-10-11-exact-score-3-0,0.48,0.515,0.995,0.0,15.2518,2026-10-11T23:00:00Z
+2026-09-28T11:29:11.942274+02:00,5069169,Exact Score: FSK Bukovyna Chernivtsi 5 - 3 FK Polissia?,ukr1-buk-pol-2026-10-11-exact-score-5-3,0.485,0.51,0.995,0.0,12.3345,2026-10-11T15:00:00Z

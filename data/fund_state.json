@@ -1,24 +1,13 @@
 {
-  "cash": 75.55509598029042,
+  "cash": 72.92984171329155,
   "positions": [
-    {
-      "market_id": "4593703",
-      "frage": "Will Chronicle have the highest ACS at VALORANT Champions 2026?",
-      "slug": "will-chronicle-have-the-highest-acs-at-valorant-champions-2026",
-      "shares": 18.030783107710427,
-      "einstandskurs": 0.928625690943351,
-      "letzter_kurs": 0.928625690943351,
-      "liquiditaet": 640.7631,
-      "end_date": "2026-10-20T03:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
-    },
     {
       "market_id": "4844770",
       "frage": "Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?",
       "slug": "titled-tuesday-2026-09-29-top5-nihal-sarin",
       "shares": 2.426401892267192,
       "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.9989989999999999,
+      "letzter_kurs": 0.99,
       "liquiditaet": 40.0,
       "end_date": "2026-10-14T03:59:00Z",
       "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
@@ -29,21 +18,43 @@
       "slug": "titled-tuesday-2026-09-29-top8-jan-krzysztof-duda",
       "shares": 2.426401892267192,
       "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.9989989999999999,
+      "letzter_kurs": 0.99,
       "liquiditaet": 40.0,
       "end_date": "2026-10-14T03:59:00Z",
       "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
     },
     {
-      "market_id": "3503884",
-      "frage": "Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",
-      "slug": "justin-herbert-4099pt5-passing-yards-2026-27",
-      "shares": 3.3338695083944914,
-      "einstandskurs": 0.9946999999999999,
-      "letzter_kurs": 0.9946999999999999,
-      "liquiditaet": 33.162,
+      "market_id": "4757297",
+      "frage": "Will United States win on 2026-10-03?",
+      "slug": "fif-usa-mex-2026-10-03-usa",
+      "shares": 18.551360363774155,
+      "einstandskurs": 0.989625,
+      "letzter_kurs": 0.989625,
+      "liquiditaet": 183.5889,
+      "end_date": "2026-10-04T02:07:00Z",
+      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
+    },
+    {
+      "market_id": "3401701",
+      "frage": "Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?",
+      "slug": "will-derrick-henry-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131593",
+      "shares": 3.081656298381422,
+      "einstandskurs": 0.8881249999999999,
+      "letzter_kurs": 0.8881249999999999,
+      "liquiditaet": 27.36896,
       "end_date": "2027-01-27T04:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
+    },
+    {
+      "market_id": "3400211",
+      "frage": "Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?",
+      "slug": "will-kyren-williams-be-the-highest-scoring-fantasy-football-player-of-the-2026-27-nfl-season-20260806180814417",
+      "shares": 2.9969664078372436,
+      "einstandskurs": 0.8982749999999999,
+      "letzter_kurs": 0.8982749999999999,
+      "liquiditaet": 26.921,
+      "end_date": "2027-01-27T04:59:00Z",
+      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

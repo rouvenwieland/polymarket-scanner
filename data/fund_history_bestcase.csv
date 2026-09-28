@@ -1,3 +1,4 @@
-timestamp,kasse,positionswert,nav,rendite_pct,offene_positionen
-2026-09-28T09:52:55.524283+02:00,0.0,100.0,100.0,0.0,50
-2026-09-28T10:05:22.550814+02:00,0.0,100.0905,100.0905,0.09,50
+timestamp,kasse,positionswert,nav,rendite_pct,offene_positionen,terminierungswert,diskontierter_terminierungswert,diskontierte_rendite_pct
+2026-09-28T09:52:55.524283+02:00,0.0,100.0,100.0,0.0,50,,,
+2026-09-28T10:05:22.550814+02:00,0.0,100.0905,100.0905,0.09,50,,,
+2026-09-28T11:29:11.942274+02:00,2.0202,98.4951,100.5153,0.515,49,101.6031,101.5061,1.506
