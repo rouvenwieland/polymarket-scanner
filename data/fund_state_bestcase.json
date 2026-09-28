@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 36.85283313621878,
   "positions": [
     {
       "market_id": "4844770",
@@ -145,105 +145,6 @@
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },
     {
-      "market_id": "5079054",
-      "frage": "Oleksandr Pikhalonok: 1+ shots",
-      "slug": "unl-geo-ukr-2026-09-28-shots-oleksandr-pikhalonok-90048814-gte1",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.28,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078541",
-      "frage": "Saba Goglichidze: Anytime Goalscorer",
-      "slug": "unl-geo-ukr-2026-09-28-ags-saba-goglichidze-90117566",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.18,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078682",
-      "frage": "Deniss Melniks: 1+ assists",
-      "slug": "unl-lat-cyp-2026-09-28-assists-deniss-melniks-90111469-gte1",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.18,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5079194",
-      "frage": "Dmitrijs Zelenkovs: 4+ shots on target",
-      "slug": "unl-lat-cyp-2026-09-28-shots-on-target-dmitrijs-zelenkovs-90079280-gte4",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.3,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078714",
-      "frage": "Otar Kiteishvili: 2+ assists",
-      "slug": "unl-geo-ukr-2026-09-28-assists-otar-kiteishvili-90033384-gte2",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078732",
-      "frage": "Loizos Loizou: 2+ assists",
-      "slug": "unl-lat-cyp-2026-09-28-assists-loizos-loizou-90087311-gte2",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078981",
-      "frage": "Giorgi Kochorashvili: 5+ shots",
-      "slug": "unl-geo-ukr-2026-09-28-shots-giorgi-kochorashvili-90086639-gte5",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "5078988",
-      "frage": "Dennis Cirkin: 2+ shots",
-      "slug": "unl-lat-cyp-2026-09-28-shots-dennis-cirkin-90085106-gte2",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-09-28T16:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4963213",
-      "frage": "Will Amazon (AMZN) finish week of September 28 above $260?",
-      "slug": "amzn-above-260-on-october-2-2026",
-      "shares": 2.047379618678821,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 2406.314,
-      "end_date": "2026-10-02T20:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
       "market_id": "4790946",
       "frage": "Wydad Sportif Témara vs. Union Touarga Sports: Both Teams to Score",
       "slug": "mar1-wst-uts-2026-10-02-btts",
@@ -263,39 +164,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 1.92,
       "end_date": "2026-10-02T01:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4727535",
-      "frage": "Exact Score: Barbados 2 - 3 Bermuda?",
-      "slug": "conl-brb-ber-2026-10-02-exact-score-2-3",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.1198,
-      "end_date": "2026-10-03T00:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4727455",
-      "frage": "Exact Score: St. Kitts and Nevis 2 - 2 Cuba?",
-      "slug": "conl-skn-cub-2026-10-02-exact-score-2-2",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.3605,
-      "end_date": "2026-10-02T21:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4880352",
-      "frage": "Exact Score: Threave Rovers FC 0 - 1 Invergordon FC?",
-      "slug": "scoc-thr-if-2026-10-03-exact-score-0-1",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.3598,
-      "end_date": "2026-10-03T14:00:00Z",
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },
     {
@@ -376,17 +244,6 @@
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },
     {
-      "market_id": "4848749",
-      "frage": "Exact Score: CA Bucaramanga 3 - 1 CDP Junior FC?",
-      "slug": "col1-cab-cjf-2026-10-04-exact-score-3-1",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.1598,
-      "end_date": "2026-10-04T23:10:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
       "market_id": "4915811",
       "frage": "San Jose State vs. Hawai'i: Both Teams to Score Points - Q3",
       "slug": "cfb-sjst-hawaii-2026-10-04-3q-btts-points",
@@ -431,17 +288,6 @@
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },
     {
-      "market_id": "5009470",
-      "frage": "Exact Score: Sunderland AFC 4 - 0 Brighton & Hove Albion FC?",
-      "slug": "epl-sun-bri-2026-10-10-exact-score-4-0",
-      "shares": 2.047379618678821,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 91.5392,
-      "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
       "market_id": "5036125",
       "frage": "Shanghai Shenhua FC vs. Yunnan Yukun FC: Both Teams to Score",
       "slug": "chi-sgr-yun-2026-10-10-btts",
@@ -475,39 +321,6 @@
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },
     {
-      "market_id": "5043077",
-      "frage": "Exact Score: CA Unión 3 - 0 CSyD Defensa y Justicia?",
-      "slug": "arg-uni-def-2026-10-09-exact-score-3-0",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.1597,
-      "end_date": "2026-10-10T00:45:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4991588",
-      "frage": "Exact Score: FC Hradec Králové 0 - 1 SK Artis Brno?",
-      "slug": "cze1-fhk-art-2026-10-10-exact-score-0-1",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 14.2597,
-      "end_date": "2026-10-10T13:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4992251",
-      "frage": "Exact Score: Avispa Fukuoka 3 - 0 Fagiano Okayama?",
-      "slug": "jap-avi-fag-2026-10-10-exact-score-3-0",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.3598,
-      "end_date": "2026-10-10T06:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
       "market_id": "5075159",
       "frage": "Exact Score: SBV Excelsior 2 - 0 FC Groningen?",
       "slug": "ere-exc-gro-2026-10-11-exact-score-2-0",
@@ -526,17 +339,6 @@
       "einstandskurs": 0.995,
       "letzter_kurs": 0.995,
       "liquiditaet": 8.7214,
-      "end_date": "2026-10-10T06:00:00Z",
-      "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
-    },
-    {
-      "market_id": "4992247",
-      "frage": "Exact Score: Avispa Fukuoka 2 - 0 Fagiano Okayama?",
-      "slug": "jap-avi-fag-2026-10-10-exact-score-2-0",
-      "shares": 2.0473796186788213,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 8.5192,
       "end_date": "2026-10-10T06:00:00Z",
       "eingestiegen": "2026-09-28T17:44:48.949767+02:00"
     },

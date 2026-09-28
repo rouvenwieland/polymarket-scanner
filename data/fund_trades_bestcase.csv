@@ -191,3 +191,21 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T17:44:48.949767+02:00,KAUF,4992295,Exact Score: FC Tōkyō 0 - 3 Urawa Red Diamonds?,2.0474,0.995,-2.0371,4.0743,"Spread 0.50%, Liquiditaet 9 USD"
 2026-09-28T17:44:48.949767+02:00,KAUF,4992247,Exact Score: Avispa Fukuoka 2 - 0 Fagiano Okayama?,2.0474,0.995,-2.0371,2.0371,"Spread 0.50%, Liquiditaet 9 USD"
 2026-09-28T17:44:48.949767+02:00,KAUF,5046995,Exact Score: CD Huachipato 5 - 1 O'Higgins FC?,2.0474,0.995,-2.0371,0.0,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5079054,Oleksandr Pikhalonok: 1+ shots,2.0474,1.0,2.0474,2.0474,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078541,Saba Goglichidze: Anytime Goalscorer,2.0474,1.0,2.0474,4.0948,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078682,Deniss Melniks: 1+ assists,2.0474,1.0,2.0474,6.1421,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5079194,Dmitrijs Zelenkovs: 4+ shots on target,2.0474,1.0,2.0474,8.1895,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078714,Otar Kiteishvili: 2+ assists,2.0474,1.0,2.0474,10.2369,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078732,Loizos Loizou: 2+ assists,2.0474,1.0,2.0474,12.2843,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078981,Giorgi Kochorashvili: 5+ shots,2.0474,1.0,2.0474,14.3317,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5078988,Dennis Cirkin: 2+ shots,2.0474,1.0,2.0474,16.379,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4963213,Will Amazon (AMZN) finish week of September 28 above $260?,2.0474,1.0,2.0474,18.4264,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4727535,Exact Score: Barbados 2 - 3 Bermuda?,2.0474,1.0,2.0474,20.4738,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4727455,Exact Score: St. Kitts and Nevis 2 - 2 Cuba?,2.0474,1.0,2.0474,22.5212,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4880352,Exact Score: Threave Rovers FC 0 - 1 Invergordon FC?,2.0474,1.0,2.0474,24.5686,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4848749,Exact Score: CA Bucaramanga 3 - 1 CDP Junior FC?,2.0474,1.0,2.0474,26.6159,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5009470,Exact Score: Sunderland AFC 4 - 0 Brighton & Hove Albion FC?,2.0474,1.0,2.0474,28.6633,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,5043077,Exact Score: CA Unión 3 - 0 CSyD Defensa y Justicia?,2.0474,1.0,2.0474,30.7107,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4991588,Exact Score: FC Hradec Králové 0 - 1 SK Artis Brno?,2.0474,1.0,2.0474,32.7581,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4992251,Exact Score: Avispa Fukuoka 3 - 0 Fagiano Okayama?,2.0474,1.0,2.0474,34.8055,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T18:00:04.467960+02:00,VERKAUF,4992247,Exact Score: Avispa Fukuoka 2 - 0 Fagiano Okayama?,2.0474,1.0,2.0474,36.8528,Konvergenz erreicht (Kurs 1.000)
