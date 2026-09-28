@@ -494,3 +494,68 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-09-28T00:47:13.188721+02:00,5053975,Exact Score: Chongqing Tonglianglong FC 5 - 4 Shandong Taishan FC?,chi-ton-sha-2026-10-11-exact-score-5-4,0.49,0.505,0.995,0.0,9.8301,2026-10-11T11:35:00Z
 2026-09-28T00:47:13.188721+02:00,5054139,Exact Score: Gwangju FC 5 - 1 Ulsan HD FC?,kor-gwa-uls-2026-10-11-exact-score-5-1,0.48,0.515,0.995,0.0,14.7693,2026-10-11T05:00:00Z
 2026-09-28T00:47:13.188721+02:00,5055878,Game 1: Both Teams Slay a Dragon?,lol-ksa-uae-2026-09-28-game1-both-teams-slay-dragon,0.495,0.5,0.995,0.0,2.56,2026-09-29T06:30:00Z
+2026-09-28T03:22:38.263482+02:00,1833105,Will there be 9+ no-hitters thrown during the 2026 MLB season?,will-there-be-9-no-hitters-thrown-during-the-2026-mlb-season,0.004,0.9955,0.9995,663.3323000000001,362.36261,2026-11-01T03:59:00Z
+2026-09-28T03:22:38.263482+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-09-28T03:22:38.263482+02:00,2749469,Lai Ching-te impeached by December 31?,lai-ching-te-impeached-by-december-31,0.028,0.9715,0.9995,314.92792599999996,8302.33723,2027-01-01T04:59:00Z
+2026-09-28T03:22:38.263482+02:00,3069203,Independiente Santa Fe to win the second half?,col1-dep-isf-2026-08-05-second-half-result-away,0.49,0.505,0.995,0.0,2.5412,2026-09-29T20:30:00Z
+2026-09-28T03:22:38.263482+02:00,3489602,Will the Republican Party candidate win the 2026 KS-03 House election?,will-the-republican-party-candidate-win-the-2026-ks-03-house-election,0.091,0.9085,0.9994999999999999,508.52509299999997,225.94963,2026-11-04T04:59:00Z
+2026-09-28T03:22:38.263482+02:00,3582058,Will Liang Wen-tao win the next Kinmen County Magistrate election?,will-liang-wen-tao-win-the-next-kinmen-county-magistrate-election-202608131357161504,0.0295,0.97,0.9994999999999999,412.47,1099.5566,2026-11-28T23:59:00Z
+2026-09-28T03:22:38.263482+02:00,3849490,Will Henan keep the most clean sheets in the 2026 Chinese Super League?,will-henan-keep-the-most-clean-sheets-in-chinese-super-league-2026,0.495,0.5,0.995,0.0,4.8629,2027-01-01T04:59:00Z
+2026-09-28T03:22:38.263482+02:00,3866461,Will South Korea ETF (EWY) hit (LOW) $170 in September?,will-ewy-dip-to-170-in-september-2026,0.09,0.905,0.995,2956.304394,211.2142,2026-10-01T03:59:59.999Z
+2026-09-28T03:22:38.263482+02:00,3959678,"Will Jonathan Taylor have 1,000+ rushing yards in the 2026-27 NFL regular season?",jonathan-taylor-1000-rushing-yards-2026-27,0.505,0.49,0.995,0.0,229.5137,2027-01-27T04:59:00Z
+2026-09-28T03:22:38.263482+02:00,4046903,Will ByteDance's valuation hit (LOW) $525B by September 30?,will-bytedances-valuation-hit-low-525b-by-september-30-20260829014000009,0.051,0.9485,0.9995,436.60555400000004,53.67901,2026-10-01T19:00:00Z
+2026-09-28T03:22:38.263482+02:00,4411003,Will Lesotho win AFCON 2027 qualifying Group A?,will-lesotho-win-afcon-2027-qualifying-group-a,0.018,0.9815,0.9995,1056.8811,721.04625,2027-03-31T03:59:00Z
+2026-09-28T03:22:38.263482+02:00,4518521,Game 1: Any Player Rampage?,dota2-z10-dawnbu-2026-09-13-game1-any-player-rampage,0.5,0.0,0.5,10.0,0.0,2026-09-20T21:00:00Z
+2026-09-28T03:22:38.263482+02:00,4518523,Game 2: Both Teams Beat Roshan?,dota2-z10-dawnbu-2026-09-13-game2-both-teams-beat-roshan,0.5,0.0,0.5,0.0,0.0,2026-09-20T21:00:00Z
+2026-09-28T03:22:38.263482+02:00,4566920,Will TSG Hoffenheim finish 9th-24th in UEL league phase?,will-tsg-hoffenheim-finish-9th-24th-in-uel-league-phase,0.495,0.5,0.995,0.0,2.7636,2027-02-28T23:59:00Z
+2026-09-28T03:22:38.263482+02:00,4567008,Will there be 3+ NFL Scorigamis in the 2026-27 regular season?,will-there-be-3-nfl-scorigamis-in-the-2026-27-regular-season,0.755,0.24,0.995,0.0,93.3884,2027-01-12T00:00:00Z
+2026-09-28T03:22:38.263482+02:00,4610499,Slovenia vs. North Macedonia: Both Teams to Score in Second Half,unl-slv-mac-2026-09-29-btts-second-half,0.5,0.495,0.995,0.0,62.4596,2026-09-29T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4622511,Seychelles vs. Sri Lanka: Both Teams to Score in Second Half,fif-sey-sri-2026-09-30-btts-second-half,0.495,0.5,0.995,0.0,62.2197,2026-09-30T13:00:00Z
+2026-09-28T03:22:38.263482+02:00,4657350,Exact Score: FK Austria Wien 2 - 3 FC Internazionale Milano?,uwcl-faw-im-2026-10-01-exact-score-2-3,0.475,0.52,0.995,0.0,12.8355,2026-10-01T16:45:00Z
+2026-09-28T03:22:38.263482+02:00,4720783,Exact Score: Faroe Islands 1 - 1 Slovakia?,unl-far-svk-2026-10-02-exact-score-1-1,0.48,0.515,0.995,10.0,12.8846,2026-10-02T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4740029,Will the fight end before Round 2?,ufc-nat7-wan2-2026-10-03-ends-before-round-2,0.495,0.5,0.995,0.0,7.1312,2026-10-04T03:59:59.999Z
+2026-09-28T03:22:38.263482+02:00,4749559,Exact Score: Any Other Score?,el1-bur-hud-2026-10-03-exact-score-any-other,0.455,0.54,0.9950000000000001,0.0,12.5144,2026-10-03T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,4749579,Exact Score: Blackpool FC 1 - 3 Leicester City FC?,el1-bla-lei-2026-10-03-exact-score-1-3,0.485,0.51,0.995,0.0,9.9394,2026-11-24T19:45:00Z
+2026-09-28T03:22:38.263482+02:00,4753256,Exact Score: Switzerland 3 - 2 Slovenia?,unl-che-slv-2026-10-03-exact-score-3-2,0.48,0.515,0.995,0.0,14.1998,2026-10-03T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4755165,Exact Score: Any Other Score?,enl-sol-hal-2026-10-03-exact-score-any-other,0.47,0.525,0.995,0.0,11.349,2026-10-03T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,4791787,Exact Score: Deveronvale FC 3 - 0 Troon FC?,scoc-dev-tro-2026-10-03-exact-score-3-0,0.48,0.515,0.995,0.0,13.1161,2026-10-03T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,4835576,Exact Score: Northern Ireland 3 - 3 Georgia?,unl-nir-geo-2026-10-05-exact-score-3-3,0.48,0.515,0.995,0.0,12.8195,2026-10-05T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4836731,Northern Ireland vs. Georgia: Both Teams to Score in Second Half,unl-nir-geo-2026-10-05-btts-second-half,0.495,0.5,0.995,0.0,61.8987,2026-10-05T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top5-nihal-sarin,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-28T03:22:38.263482+02:00,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top8-jan-krzysztof-duda,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-28T03:22:38.263482+02:00,4880254,Exact Score: Kirkintilloch Rob Roy FC 1 - 2 Banks O'Dee FC?,scoc-kir-dee-2026-10-03-exact-score-1-2,0.495,0.5,0.995,0.0,7.3599,2026-10-03T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,4880340,Exact Score: Forres Mechanics FC 3 - 3 Stirling University FC?,scoc-fmf-su-2026-10-03-exact-score-3-3,0.49,0.505,0.995,0.0,8.78,2026-10-03T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,4880780,Exact Score: Algeria 3 - 2 Niger?,fif-alg-nig-2026-10-06-exact-score-3-2,0.49,0.505,0.995,0.0,8.78,2026-10-06T19:30:00Z
+2026-09-28T03:22:38.263482+02:00,4924361,Exact Margin: Tie,cfb-sjst-hawaii-2026-10-04-exact-margin-tie,0.495,0.5,0.995,0.0,0.0,2026-10-04T04:00:00Z
+2026-09-28T03:22:38.263482+02:00,4936016,Will SpaceX (SPCX) hit (HIGH) $170 in October?,will-spcx-reach-170-in-october-2026,0.495,0.5,0.995,0.0,10.6793,2026-11-01T03:59:59.999Z
+2026-09-28T03:22:38.263482+02:00,4967729,Exact Score: Dundalk FC 2 - 5 Bohemians Dublin FC?,irl1-dun-boh-2026-10-02-exact-score-2-5,0.465,0.53,0.9950000000000001,9.9898,16.3599,2026-10-02T18:45:00Z
+2026-09-28T03:22:38.263482+02:00,4970551,Exact Score: Eintracht Braunschweig 0 - 1 Holstein Kiel?,bl2-bra-ksv-2026-10-09-exact-score-0-1,0.48,0.515,0.995,0.0,13.9941,2026-10-09T16:30:00Z
+2026-09-28T03:22:38.263482+02:00,4992310,Exact Score: FC Tōkyō 2 - 3 Urawa Red Diamonds?,jap-fct-ura-2026-10-10-exact-score-2-3,0.485,0.51,0.995,0.0,12.8366,2026-10-10T06:00:00Z
+2026-09-28T03:22:38.263482+02:00,4993964,"M15 Monastir, Qualifying: Completed Match: Youssef Kadiri Hassani vs Juan Ignacio Lombisano",itf-hassan1-lombis1-2026-09-27-completed-match,0.54,0.455,0.9950000000000001,11888.0,1.2,2026-10-04T09:00:00Z
+2026-09-28T03:22:38.263482+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-09-28T03:22:38.263482+02:00,5009720,Exact Score: FC Augsburg 1 - 4 FC Bayern München?,bun-aug-bay-2026-10-10-exact-score-1-4,0.46,0.535,0.9950000000000001,0.0,612.7846,2026-10-10T13:30:00Z
+2026-09-28T03:22:38.263482+02:00,5021000,Exact Score: Rangers FC 3 - 0 Kilmarnock FC?,scop-ran-kil-2026-10-10-exact-score-3-0,0.48,0.515,0.995,0.0,14.1996,2026-10-10T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,5021133,Exact Score: Heart of Midlothian FC 3 - 2 St Mirren FC?,scop-hmi-stm-2026-10-10-exact-score-3-2,0.48,0.515,0.995,0.0,14.2597,2026-10-10T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,5023507,Exact Score: Aurora FC 2 - 2 CSD Xelajú MC?,gtm-aur-xel-2026-10-10-exact-score-2-2,0.475,0.52,0.995,0.0,13.5498,2026-10-10T21:00:00Z
+2026-09-28T03:22:38.263482+02:00,5025358,Exact Score: AFC Fylde 5 - 5 Scunthorpe United FC?,enl-fyl-scu-2026-10-10-exact-score-5-5,0.49,0.505,0.995,0.0,9.4198,2026-10-10T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,5026501,FC Halifax Town vs. Gateshead FC: Both Teams to Score,enl-hal-gat-2026-10-10-btts,0.505,0.49,0.995,0.0,98.9191,2026-10-10T14:00:00Z
+2026-09-28T03:22:38.263482+02:00,5027512,Exact Score: HNK Hajduk Split 3 - 3 GNK Dinamo Zagreb?,hr1-haj-din-2026-10-10-exact-score-3-3,0.48,0.515,0.995,0.0,16.3695,2026-10-10T13:00:00Z
+2026-09-28T03:22:38.263482+02:00,5029784,Exact Score: Bryne FK 5 - 3 Lyn 1896 FK?,nor2-bry-lyn-2026-10-04-exact-score-5-3,0.475,0.52,0.995,9.9898,15.5992,2026-10-04T12:30:00Z
+2026-09-28T03:22:38.263482+02:00,5036472,Exact Score: Chicago Fire FC 0 - 4 New York City FC?,mls-chi-nyc-2026-10-10-exact-score-0-4,0.49,0.505,0.995,0.0,9.1397,2026-10-10T18:30:00Z
+2026-09-28T03:22:38.263482+02:00,5037341,Exact Score: Gaziantep FK 3 - 5 Çorum FK?,tur-gfk-cf-2026-10-11-exact-score-3-5,0.485,0.51,0.995,0.0,10.5883,2026-10-11T13:00:00Z
+2026-09-28T03:22:38.263482+02:00,5040091,Exact Score: CF América 0 - 1 CF Monterrey?,mex-ame-mon1-2026-10-10-exact-score-0-1,0.485,0.51,0.995,0.0,15.2813,2026-10-11T03:00:00Z
+2026-09-28T03:22:38.263482+02:00,5041291,"Jingshan, China, Qualifying: Completed Match: Terence Atmane vs Dominik Palan",atp-atmane-palan-2026-09-28-completed-match,0.56,0.435,0.9950000000000001,640.0,12.2482,2026-10-05T05:00:00Z
+2026-09-28T03:22:38.263482+02:00,5042937,Exact Score: CA Aldosivi 0 - 0 CA Sarmiento?,arg-ald-cas-2026-10-09-exact-score-0-0,0.49,0.505,0.995,0.0,4.9198,2026-10-09T17:30:00Z
+2026-09-28T03:22:38.263482+02:00,5042951,Exact Score: CA Aldosivi 4 - 0 CA Sarmiento?,arg-ald-cas-2026-10-09-exact-score-4-0,0.48,0.515,0.995,0.0,12.4581,2026-10-09T17:30:00Z
+2026-09-28T03:22:38.263482+02:00,5043225,Exact Score: CA Tigre 4 - 3 CA Banfield?,arg-tig-ban-2026-10-10-exact-score-4-3,0.48,0.515,0.995,0.0,12.8456,2026-10-10T22:15:00Z
+2026-09-28T03:22:38.263482+02:00,5043944,Exact Score: Académico de Viseu FC 3 - 1 Estoril Praia?,por-acv-est-2026-10-10-exact-score-3-1,0.475,0.52,0.995,0.0,13.9998,2026-10-10T19:30:00Z
+2026-09-28T03:22:38.263482+02:00,5044059,Exact Score: Rio Ave FC 3 - 2 CD Nacional?,por-rio-nac-2026-10-11-exact-score-3-2,0.485,0.51,0.995,0.0,8.5688,2026-10-11T14:30:00Z
+2026-09-28T03:22:38.263482+02:00,5046496,Exact Score: CR Vasco da Gama 3 - 1 Clube do Remo?,bra-vas-cre-2026-10-10-exact-score-3-1,0.485,0.51,0.995,0.0,13.1694,2026-10-10T20:00:00Z
+2026-09-28T03:22:38.263482+02:00,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,bra2-juv-ber-2026-10-11-exact-score-5-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T19:00:00Z
+2026-09-28T03:22:38.263482+02:00,5046665,Exact Score: FCV Farul Constanţa 1 - 3 FC Petrolul Ploieşti?,rou1-ffc-fpp-2026-10-11-exact-score-1-3,0.485,0.51,0.995,0.0,11.7038,2026-10-11T18:00:00Z
+2026-09-28T03:22:38.263482+02:00,5046688,Exact Score: Zamalek SC 4 - 1 El Ahly SC?,egy1-zas-eas-2026-10-11-exact-score-4-1,0.485,0.51,0.995,0.0,13.3595,2026-10-11T17:00:00Z
+2026-09-28T03:22:38.263482+02:00,5047448,Exact Score: CDP Junior FC 0 - 1 Internacional de Bogotá?,col1-cjf-cle-2026-10-10-exact-score-0-1,0.48,0.515,0.995,0.0,14.3198,2026-10-10T23:10:00Z
+2026-09-28T03:22:38.263482+02:00,5047451,Exact Score: CDP Junior FC 1 - 0 Internacional de Bogotá?,col1-cjf-cle-2026-10-10-exact-score-1-0,0.48,0.515,0.995,0.0,14.0825,2026-10-10T23:10:00Z
+2026-09-28T03:22:38.263482+02:00,5048138,Exact Score: Abha Saudi Club 5 - 4 Al Faisaly Saudi Club?,spl-abh-fai-2026-10-11-exact-score-5-4,0.49,0.505,0.995,0.0,5.3731,2026-10-11T13:40:00Z
+2026-09-28T03:22:38.263482+02:00,5055878,Game 1: Both Teams Slay a Dragon?,lol-ksa-uae-2026-09-28-game1-both-teams-slay-dragon,0.495,0.5,0.995,0.0,2.56,2026-09-29T06:30:00Z
+2026-09-28T03:22:38.263482+02:00,5057356,Exact Score: SS Lazio 5 - 3 AC Monza?,sea-laz-mon-2026-10-11-exact-score-5-3,0.485,0.51,0.995,0.0,8.5688,2026-10-11T13:00:00Z
