@@ -116,3 +116,78 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T11:29:11.942274+02:00,KAUF,5069169,Exact Score: FSK Bukovyna Chernivtsi 5 - 3 FK Polissia?,2.0304,0.995,-2.0202,6.0606,"Spread 0.50%, Liquiditaet 12 USD"
 2026-09-28T11:29:11.942274+02:00,KAUF,4227545,Will Justin Bowick be the 2026 Big 12 Receiving Yards Leader?,2.0304,0.995,-2.0202,4.0404,"Spread 0.50%, Liquiditaet 5 USD"
 2026-09-28T11:29:11.942274+02:00,KAUF,4228316,Will Sedrick Alexander be the 2026 SEC Rushing TDs Leader?,2.0304,0.995,-2.0202,2.0202,"Spread 0.50%, Liquiditaet 5 USD"
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5055878,Game 1: Both Teams Slay a Dragon?,2.0101,1.0,2.0101,4.0303,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4880340,Exact Score: Forres Mechanics FC 3 - 3 Stirling University FC?,2.0101,1.0,2.0101,6.0403,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4846915,Salisbury FC to win the second half?,2.0101,1.0,2.0101,8.0504,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4835576,Exact Score: Northern Ireland 3 - 3 Georgia?,2.0101,1.0,2.0101,10.0604,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4924361,Exact Margin: Tie,2.0101,1.0,2.0101,12.0705,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5018628,Exact Score: Leicester City FC 3 - 1 Peterborough United FC?,2.0101,1.0,2.0101,14.0805,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5000020,Exact Score: Ventforet Kōfu 4 - 1 Tochigi City FC?,2.0101,1.0,2.0101,16.0906,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5043944,Exact Score: Académico de Viseu FC 3 - 1 Estoril Praia?,2.0101,1.0,2.0101,18.1006,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5047448,Exact Score: CDP Junior FC 0 - 1 Internacional de Bogotá?,2.0101,1.0,2.0101,20.1107,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5023507,Exact Score: Aurora FC 2 - 2 CSD Xelajú MC?,2.0101,1.0,2.0101,22.1207,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5047451,Exact Score: CDP Junior FC 1 - 0 Internacional de Bogotá?,2.0101,1.0,2.0101,24.1308,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5040091,Exact Score: CF América 0 - 1 CF Monterrey?,2.0101,1.0,2.0101,26.1408,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5036665,Exact Score: Inter Miami CF 4 - 1 D.C. United SC?,2.0101,1.0,2.0101,28.1509,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5065891,Exact Score: Real Racing Club 4 - 1 Valencia CF?,2.0101,1.0,2.0101,30.1609,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5065725,Exact Score: Real Betis Balompié 0 - 5 CA Osasuna?,2.0101,1.0,2.0101,32.171,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5055744,Game 1: Both Teams Destroy Inhibitors?,2.0304,1.0,2.0304,34.2013,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4757297,Will United States win on 2026-10-03?,2.072,1.0,2.072,36.2733,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4611242,Woking FC vs. Solihull Moors FC: Neither team to score first?,2.0304,1.0,2.0304,38.3037,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4679099,Denmark vs. Portugal: Neither team to score first?,2.0304,1.0,2.0304,40.3341,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,2.3088,1.0,2.3088,42.6429,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,2.2827,1.0,2.2827,44.9256,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4765474,Exact Score: CA Newell's Old Boys 3 - 0 CA Lanús?,2.0304,1.0,2.0304,46.956,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5037462,Exact Score: CA Boston River 4 - 4 CA Juventud de Las Piedras?,2.0304,1.0,2.0304,48.9863,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4763700,Auriense CA to win the second half?,2.0304,1.0,2.0304,51.0167,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5009896,Exact Score: 1. FSV Mainz 05 0 - 0 Bayer 04 Leverkusen?,2.0304,1.0,2.0304,53.0471,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5013378,Aston Villa FC vs. Brentford FC: Both Teams to Score in Second Half,2.0304,1.0,2.0304,55.0774,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4844745,Will Benjamin Bok finish in the Top 5 of Titled Tuesday on September 29?,2.0304,1.0,2.0304,57.1078,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4961706,Exact Score: Gangwon FC 5 - 1 Bucheon FC 1995?,2.0304,1.0,2.0304,59.1382,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4952493,Exact Score: FK Rostov 0 - 1 FK Akron Tolyatti?,2.0304,1.0,2.0304,61.1685,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3207566,FC CFR 1907 Cluj vs. FC Universitatea Cluj: Neither team to score first?,2.0304,1.0,2.0304,63.1989,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5043014,Exact Score: Gimnasia y Esgrima de La Plata 5 - 4 CA Tucumán?,2.0304,1.0,2.0304,65.2292,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4988642,Exact Score: CS Marítimo 4 - 0 FC Porto?,2.0304,1.0,2.0304,67.2596,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4991386,Exact Score: AD Tarma 1 - 0 FC Cajamarca?,2.0304,1.0,2.0304,69.29,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5067244,Exact Score: Escorpiones de Belén 3 - 0 Deportivo Saprissa?,2.0304,1.0,2.0304,71.3203,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,5069169,Exact Score: FSK Bukovyna Chernivtsi 5 - 3 FK Polissia?,2.0304,1.0,2.0304,73.3507,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4227545,Will Justin Bowick be the 2026 Big 12 Receiving Yards Leader?,2.0304,1.0,2.0304,75.3811,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4228316,Will Sedrick Alexander be the 2026 SEC Rushing TDs Leader?,2.0304,1.0,2.0304,77.4114,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,KAUF,5078789,Vladislavs Gutkovskis: 3+ goals + assists,2.0474,0.995,-2.0371,75.3743,"Spread 0.50%, Liquiditaet 1 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5079054,Oleksandr Pikhalonok: 1+ shots,2.0474,0.995,-2.0371,73.3371,"Spread 0.50%, Liquiditaet 1 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078541,Saba Goglichidze: Anytime Goalscorer,2.0474,0.995,-2.0371,71.3,"Spread 0.50%, Liquiditaet 1 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078682,Deniss Melniks: 1+ assists,2.0474,0.995,-2.0371,69.2629,"Spread 0.50%, Liquiditaet 1 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5079194,Dmitrijs Zelenkovs: 4+ shots on target,2.0474,0.995,-2.0371,67.2257,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078714,Otar Kiteishvili: 2+ assists,2.0474,0.995,-2.0371,65.1886,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078732,Loizos Loizou: 2+ assists,2.0474,0.995,-2.0371,63.1514,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078981,Giorgi Kochorashvili: 5+ shots,2.0474,0.995,-2.0371,61.1143,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5078988,Dennis Cirkin: 2+ shots,2.0474,0.995,-2.0371,59.0771,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4963213,Will Amazon (AMZN) finish week of September 28 above $260?,2.0474,0.995,-2.0371,57.04,"Spread 0.50%, Liquiditaet 2406 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4790946,Wydad Sportif Témara vs. Union Touarga Sports: Both Teams to Score,2.0474,0.995,-2.0371,55.0029,"Spread 0.50%, Liquiditaet 83 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4919481,North Texas vs. Tulsa: Both Teams to Score a Touchdown,2.0474,0.995,-2.0371,52.9657,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4727535,Exact Score: Barbados 2 - 3 Bermuda?,2.0474,0.995,-2.0371,50.9286,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4727455,Exact Score: St. Kitts and Nevis 2 - 2 Cuba?,2.0474,0.995,-2.0371,48.8914,"Spread 0.50%, Liquiditaet 7 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4880352,Exact Score: Threave Rovers FC 0 - 1 Invergordon FC?,2.0474,0.995,-2.0371,46.8543,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4963899,Will SK hynix (SKHY) hit (LOW) $171 Week of September 28 2026?,2.0474,0.995,-2.0371,44.8171,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5073625,Exact Score: Argentina 5 - 1 Burkina Faso?,2.0474,0.995,-2.0371,42.78,"Spread 0.50%, Liquiditaet 9 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4728125,Exact Score: CD Ceuta 6 de Junio 1 - 1 UB Lebrijana?,2.0474,0.995,-2.0371,40.7429,"Spread 0.50%, Liquiditaet 5 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4918950,Boston College vs. SMU: Both Teams to Score Points - Q3,2.0474,0.995,-2.0371,38.7057,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4916599,BYU vs. TCU: Game Goes to Overtime,2.0474,0.995,-2.0371,36.6686,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4918462,Miami (FL) vs. Clemson: Both Teams to Score Points - Q4,2.0474,0.995,-2.0371,34.6314,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4917128,Kentucky vs. South Carolina: Both Teams to Score Points - Q3,2.0474,0.995,-2.0371,32.5943,"Spread 0.50%, Liquiditaet 1 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4848749,Exact Score: CA Bucaramanga 3 - 1 CDP Junior FC?,2.0474,0.995,-2.0371,30.5571,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4915811,San Jose State vs. Hawai'i: Both Teams to Score Points - Q3,2.0474,0.995,-2.0371,28.52,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5015324,PSV vs. SC Heerenveen: Both Teams to Score,2.0474,0.995,-2.0371,26.4829,"Spread 0.50%, Liquiditaet 100 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4883524,Exact Score: Grenada 0 - 3 Bonaire?,2.0474,0.995,-2.0371,24.4457,"Spread 0.50%, Liquiditaet 6 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4877496,Exact Score: Belarus 2 - 3 Finland?,2.0474,0.995,-2.0371,22.4086,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5009470,Exact Score: Sunderland AFC 4 - 0 Brighton & Hove Albion FC?,2.0474,0.995,-2.0371,20.3714,"Spread 0.50%, Liquiditaet 92 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5036125,Shanghai Shenhua FC vs. Yunnan Yukun FC: Both Teams to Score,2.0474,0.995,-2.0371,18.3343,"Spread 0.50%, Liquiditaet 82 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5023487,Will CD Malacateco vs. CD Guastatoya end in a draw?,2.0474,0.995,-2.0371,16.2971,"Spread 0.50%, Liquiditaet 27 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5013826,Arsenal FC vs. Leeds United FC: Both Teams to Score in First Half,2.0474,0.995,-2.0371,14.26,"Spread 0.50%, Liquiditaet 16 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5043077,Exact Score: CA Unión 3 - 0 CSyD Defensa y Justicia?,2.0474,0.995,-2.0371,12.2229,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4991588,Exact Score: FC Hradec Králové 0 - 1 SK Artis Brno?,2.0474,0.995,-2.0371,10.1857,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4992251,Exact Score: Avispa Fukuoka 3 - 0 Fagiano Okayama?,2.0474,0.995,-2.0371,8.1486,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5075159,Exact Score: SBV Excelsior 2 - 0 FC Groningen?,2.0474,0.995,-2.0371,6.1114,"Spread 0.50%, Liquiditaet 20 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4992295,Exact Score: FC Tōkyō 0 - 3 Urawa Red Diamonds?,2.0474,0.995,-2.0371,4.0743,"Spread 0.50%, Liquiditaet 9 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,4992247,Exact Score: Avispa Fukuoka 2 - 0 Fagiano Okayama?,2.0474,0.995,-2.0371,2.0371,"Spread 0.50%, Liquiditaet 9 USD"
+2026-09-28T17:44:48.949767+02:00,KAUF,5046995,Exact Score: CD Huachipato 5 - 1 O'Higgins FC?,2.0474,0.995,-2.0371,0.0,"Spread 0.50%, Liquiditaet 13 USD"

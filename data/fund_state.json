@@ -1,5 +1,5 @@
 {
-  "cash": 72.92984171329155,
+  "cash": 97.424099740379,
   "positions": [
     {
       "market_id": "4844770",
@@ -22,39 +22,6 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-14T03:59:00Z",
       "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
-    },
-    {
-      "market_id": "4757297",
-      "frage": "Will United States win on 2026-10-03?",
-      "slug": "fif-usa-mex-2026-10-03-usa",
-      "shares": 18.551360363774155,
-      "einstandskurs": 0.989625,
-      "letzter_kurs": 0.989625,
-      "liquiditaet": 183.5889,
-      "end_date": "2026-10-04T02:07:00Z",
-      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
-    },
-    {
-      "market_id": "3401701",
-      "frage": "Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?",
-      "slug": "will-derrick-henry-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131593",
-      "shares": 3.081656298381422,
-      "einstandskurs": 0.8881249999999999,
-      "letzter_kurs": 0.8881249999999999,
-      "liquiditaet": 27.36896,
-      "end_date": "2027-01-27T04:59:00Z",
-      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
-    },
-    {
-      "market_id": "3400211",
-      "frage": "Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?",
-      "slug": "will-kyren-williams-be-the-highest-scoring-fantasy-football-player-of-the-2026-27-nfl-season-20260806180814417",
-      "shares": 2.9969664078372436,
-      "einstandskurs": 0.8982749999999999,
-      "letzter_kurs": 0.8982749999999999,
-      "liquiditaet": 26.921,
-      "end_date": "2027-01-27T04:59:00Z",
-      "eingestiegen": "2026-09-28T11:29:11.942274+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

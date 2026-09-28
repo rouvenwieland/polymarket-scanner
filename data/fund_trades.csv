@@ -10,3 +10,6 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T11:29:11.942274+02:00,KAUF,4757297,Will United States win on 2026-10-03?,18.5514,0.9896,-18.3589,78.3588,"Spread 2.50%, Liquiditaet 184 USD"
 2026-09-28T11:29:11.942274+02:00,KAUF,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,3.0817,0.8881,-2.7369,75.6219,"Spread 12.50%, Liquiditaet 27 USD"
 2026-09-28T11:29:11.942274+02:00,KAUF,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,2.997,0.8983,-2.6921,72.9298,"Spread 11.50%, Liquiditaet 27 USD"
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4757297,Will United States win on 2026-10-03?,18.5514,0.997,18.4957,91.4256,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,3.0817,0.9906,3.0525,94.4781,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,2.997,0.983,2.946,97.4241,Konvergenz erreicht (Kurs 1.000)
