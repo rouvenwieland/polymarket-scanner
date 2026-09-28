@@ -257,3 +257,14 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T23:24:34.469429+02:00,KAUF,5016451,Exact Score: AS Saint-Étienne 1 - 5 Rodez Aveyron Football?,2.0532,0.995,-2.043,4.0859,"Spread 0.50%, Liquiditaet 11 USD"
 2026-09-28T23:24:34.469429+02:00,KAUF,5047058,Exact Score: Club Universitario de Deportes 5 - 0 FBC Melgar?,2.0532,0.995,-2.043,2.043,"Spread 0.50%, Liquiditaet 13 USD"
 2026-09-28T23:24:34.469429+02:00,KAUF,5037017,Exact Score: Los Angeles FC 0 - 2 Vancouver Whitecaps FC?,2.0532,0.995,-2.043,0.0,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:44:05.828205+02:00,VERKAUF,3866261,"Will Tesla, Inc. (TSLA) hit (LOW) $345 in September?",2.0532,1.0,2.0532,2.0532,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4595279,Will NoMan have the most first bloods at VALORANT Champions 2026?,2.3348,1.0,2.3348,4.388,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4963451,"Will Tesla, Inc. (TSLA) hit (HIGH) $390 Week of September 28 2026?",2.0532,1.0,2.0532,6.4412,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4792229,Londrina EC vs. Criciúma EC: Both Teams to Score,2.0532,1.0,2.0532,8.4945,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4738540,Tochigi City FC leading at halftime?,2.0532,1.0,2.0532,10.5477,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,5056807,Will Limavady United FC win on 2026-10-03?,2.0532,1.0,2.0532,12.6009,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,5062714,Exact Score: Crystal Palace FC 1 - 4 Nottingham Forest FC?,2.0532,1.0,2.0532,14.6541,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,5010167,Exact Score: Chelsea FC 3 - 4 AFC Bournemouth?,2.0532,1.0,2.0532,16.7074,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4952493,Exact Score: FK Rostov 0 - 1 FK Akron Tolyatti?,2.0532,1.0,2.0532,18.7606,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,5021061,Exact Score: FK Obolon Kyiv 1 - 2 FK Kryvbas Kryvyi Rih?,2.0532,1.0,2.0532,20.8138,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:44:05.828205+02:00,VERKAUF,5047058,Exact Score: Club Universitario de Deportes 5 - 0 FBC Melgar?,2.0532,1.0,2.0532,22.867,Konvergenz erreicht (Kurs 1.000)
