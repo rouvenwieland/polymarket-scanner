@@ -1,17 +1,5 @@
 {
-  "cash": 94.26923,
-  "positions": [
-    {
-      "market_id": "4903979",
-      "frage": "Will GPT Sol's output price be at or below $5 in 2026?",
-      "slug": "will-gpt-sol-output-price-be-5-or-below-in-2026",
-      "shares": 6.2387611245679455,
-      "einstandskurs": 0.9185749999999999,
-      "letzter_kurs": 0.9185749999999999,
-      "liquiditaet": 57.3077,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-09-28T09:16:53.703979+02:00"
-    }
-  ],
+  "cash": 100.46309052988379,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
