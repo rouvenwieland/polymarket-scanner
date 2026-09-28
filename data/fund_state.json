@@ -1,5 +1,5 @@
 {
-  "cash": 97.424099740379,
+  "cash": 94.41300974037901,
   "positions": [
     {
       "market_id": "4844770",
@@ -22,6 +22,17 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-14T03:59:00Z",
       "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+    },
+    {
+      "market_id": "4595279",
+      "frage": "Will NoMan have the most first bloods at VALORANT Champions 2026?",
+      "slug": "will-noman-have-the-most-first-bloods-at-valorant-champions-2026",
+      "shares": 3.3903898662913448,
+      "einstandskurs": 0.8881249999999999,
+      "letzter_kurs": 0.8881249999999999,
+      "liquiditaet": 30.1109,
+      "end_date": "2026-11-18T04:59:00Z",
+      "eingestiegen": "2026-09-28T23:24:34.469429+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

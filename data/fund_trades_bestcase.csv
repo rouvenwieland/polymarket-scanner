@@ -209,3 +209,51 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T18:00:04.467960+02:00,VERKAUF,4991588,Exact Score: FC Hradec Králové 0 - 1 SK Artis Brno?,2.0474,1.0,2.0474,32.7581,Konvergenz erreicht (Kurs 1.000)
 2026-09-28T18:00:04.467960+02:00,VERKAUF,4992251,Exact Score: Avispa Fukuoka 3 - 0 Fagiano Okayama?,2.0474,1.0,2.0474,34.8055,Konvergenz erreicht (Kurs 1.000)
 2026-09-28T18:00:04.467960+02:00,VERKAUF,4992247,Exact Score: Avispa Fukuoka 2 - 0 Fagiano Okayama?,2.0474,1.0,2.0474,36.8528,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5042937,Exact Score: CA Aldosivi 0 - 0 CA Sarmiento?,2.0101,1.0,2.0101,38.8629,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5044059,Exact Score: Rio Ave FC 3 - 2 CD Nacional?,2.0101,1.0,2.0101,40.8729,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5065607,Exact Score: Real Sociedad de Fútbol 4 - 5 RC Deportivo A Coruña?,2.0101,1.0,2.0101,42.883,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4986416,Exact Score: Gençlerbirliği SK 0 - 2 Amed Sportif?,2.0304,1.0,2.0304,44.9133,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4986525,Exact Score: Samsunspor 5 - 0 Trabzonspor?,2.0304,1.0,2.0304,46.9437,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,AUSZAHLUNG,5078789,Vladislavs Gutkovskis: 3+ goals + assists,2.0474,1.0,2.0474,48.9911,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4963899,Will SK hynix (SKHY) hit (LOW) $171 Week of September 28 2026?,2.0474,1.0,2.0474,51.0385,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5073625,Exact Score: Argentina 5 - 1 Burkina Faso?,2.0474,1.0,2.0474,53.0858,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4918950,Boston College vs. SMU: Both Teams to Score Points - Q3,2.0474,1.0,2.0474,55.1332,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5015324,PSV vs. SC Heerenveen: Both Teams to Score,2.0474,1.0,2.0474,57.1806,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4883524,Exact Score: Grenada 0 - 3 Bonaire?,2.0474,1.0,2.0474,59.228,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5023487,Will CD Malacateco vs. CD Guastatoya end in a draw?,2.0474,1.0,2.0474,61.2754,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5013826,Arsenal FC vs. Leeds United FC: Both Teams to Score in First Half,2.0474,1.0,2.0474,63.3227,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,5075159,Exact Score: SBV Excelsior 2 - 0 FC Groningen?,2.0474,1.0,2.0474,65.3701,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,VERKAUF,4992295,Exact Score: FC Tōkyō 0 - 3 Urawa Red Diamonds?,2.0474,1.0,2.0474,67.4175,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,KAUF,3866261,"Will Tesla, Inc. (TSLA) hit (LOW) $345 in September?",2.0532,0.995,-2.043,65.3746,"Spread 0.50%, Liquiditaet 14689 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4595279,Will NoMan have the most first bloods at VALORANT Champions 2026?,2.3348,0.875,-2.043,63.3316,"Spread 12.50%, Liquiditaet 30 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4963451,"Will Tesla, Inc. (TSLA) hit (HIGH) $390 Week of September 28 2026?",2.0532,0.995,-2.043,61.2886,"Spread 0.50%, Liquiditaet 16809 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4792229,Londrina EC vs. Criciúma EC: Both Teams to Score,2.0532,0.995,-2.043,59.2457,"Spread 0.50%, Liquiditaet 877 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4738540,Tochigi City FC leading at halftime?,2.0532,0.995,-2.043,57.2027,"Spread 0.50%, Liquiditaet 1319 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5056807,Will Limavady United FC win on 2026-10-03?,2.0532,0.995,-2.043,55.1598,"Spread 0.50%, Liquiditaet 1537 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4685200,Exact Score: Korea Republic 2 - 1 Venezuela?,2.0532,0.995,-2.043,53.1168,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4880355,Exact Score: Threave Rovers FC 1 - 1 Invergordon FC?,2.0532,0.995,-2.043,51.0739,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4757951,Exact Score: Racing Louisville FC 1 - 2 Utah Royals FC?,2.0532,0.995,-2.043,49.0309,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4925129,Exact Margin: Ball State by 1-6,2.0532,0.995,-2.043,46.988,"Spread 0.50%, Liquiditaet 3 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5083568,Isaiah Likely: Anytime Touchdown,2.0532,0.995,-2.043,44.945,"Spread 0.50%, Liquiditaet 3 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5084404,LeQuint Allen Jr.: Anytime Touchdown,2.0532,0.995,-2.043,42.9021,"Spread 0.50%, Liquiditaet 3 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5083644,Brevin Jordan: Anytime Touchdown,2.0532,0.995,-2.043,40.8591,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5091952,Jake Briningstool: Anytime Touchdown,2.0532,0.995,-2.043,38.8161,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4883533,Exact Score: Grenada 3 - 3 Bonaire?,2.0532,0.995,-2.043,36.7732,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4965275,Al Hazem SC vs. NEOM SC: Both Teams to Score,2.0532,0.995,-2.043,34.7302,"Spread 0.50%, Liquiditaet 92 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5062714,Exact Score: Crystal Palace FC 1 - 4 Nottingham Forest FC?,2.0532,0.995,-2.043,32.6873,"Spread 0.50%, Liquiditaet 190 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5064492,SC Freiburg vs. FC Schalke 04: Both Teams to Score in Second Half,2.0532,0.995,-2.043,30.6443,"Spread 0.50%, Liquiditaet 102 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5082524,FC Midtjylland vs. FC København: Both Teams to Score in Second Half,2.0532,0.995,-2.043,28.6014,"Spread 0.50%, Liquiditaet 63 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5010167,Exact Score: Chelsea FC 3 - 4 AFC Bournemouth?,2.0532,0.995,-2.043,26.5584,"Spread 0.50%, Liquiditaet 33 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4956172,Exact Score: SE Palmeiras 4 - 1 EC Bahia?,2.0532,0.995,-2.043,24.5155,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5090952,"M25 Zaragoza, Main Draw: Completed Match: Pedro Rodenas vs Oscar Jose Gutierrez",2.0532,0.995,-2.043,22.4725,"Spread 0.50%, Liquiditaet 0 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4952493,Exact Score: FK Rostov 0 - 1 FK Akron Tolyatti?,2.0532,0.995,-2.043,20.4295,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4974148,Exact Score: AS Nancy-Lorraine 5 - 1 En Avant Guingamp?,2.0532,0.995,-2.043,18.3866,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,3207537,FC CFR 1907 Cluj vs. FC Universitatea Cluj: Draw at halftime?,2.0532,0.995,-2.043,16.3436,"Spread 0.50%, Liquiditaet 6 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,4283674,Antigua GFC vs. CSD Municipal: Neither team to score first?,2.0532,0.995,-2.043,14.3007,"Spread 0.50%, Liquiditaet 6 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5057432,Exact Score: US Sassuolo Calcio 4 - 5 AC Milan?,2.0532,0.995,-2.043,12.2577,"Spread 0.50%, Liquiditaet 28 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5016294,Exact Score: Clermont Foot 63 2 - 3 Red Star FC?,2.0532,0.995,-2.043,10.2148,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5018570,Exact Score: Doncaster Rovers FC 0 - 1 Burton Albion FC?,2.0532,0.995,-2.043,8.1718,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5021061,Exact Score: FK Obolon Kyiv 1 - 2 FK Kryvbas Kryvyi Rih?,2.0532,0.995,-2.043,6.1289,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5016451,Exact Score: AS Saint-Étienne 1 - 5 Rodez Aveyron Football?,2.0532,0.995,-2.043,4.0859,"Spread 0.50%, Liquiditaet 11 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5047058,Exact Score: Club Universitario de Deportes 5 - 0 FBC Melgar?,2.0532,0.995,-2.043,2.043,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-28T23:24:34.469429+02:00,KAUF,5037017,Exact Score: Los Angeles FC 0 - 2 Vancouver Whitecaps FC?,2.0532,0.995,-2.043,0.0,"Spread 0.50%, Liquiditaet 13 USD"
