@@ -94,7 +94,12 @@ PROFILES = {
         "min_liquidity": 0.0,            # keine Mindest-Liquidität - kauft auch in sehr dünnen Märkten
         "min_spread": 0.01,
         "sell_convergence": None,        # verkauft NIE vorzeitig - haelt im Zweifel bis zur Auflösung
-        "max_position_fraction": 0.5,    # darf einen deutlich größeren Anteil der Liquidität "aufkaufen"
+        "max_position_fraction": None,   # KEIN künstlicher Liquiditäts-Deckel - die einzige Grenze
+                                          # ist, wie groß eine Position sein darf, bevor der simulierte
+                                          # Kaufimpact den Edge auffrisst (siehe _max_notional_for_edge).
+                                          # So kann auch in sehr dünnen Märkten noch eine kleine,
+                                          # gerade noch profitable Position entstehen, statt dass eine
+                                          # starre Fraktion den Trade von vornherein verhindert.
         "impact_coefficient": 0.15,      # Kaufimpact bleibt simuliert
         "max_open_positions": 20,
         "reallocate": False,
@@ -337,6 +342,25 @@ def _mark_positions_via_lookup(profile, state, now):
     state["positions"] = still_open
 
 
+def _max_notional_for_edge(summe, liquidity, impact_coefficient):
+    """Größte Positionsgröße, bei der der simulierte Kaufimpact den Kurs noch
+    NICHT über MAX_EFFECTIVE_BUY_PRICE treibt (danach wäre der Trade ein
+    Garantie-Verlust). Ohne Impact-Modell (impact_coefficient=0) gibt es keine
+    solche Grenze. Das ersetzt eine feste, willkürliche Liquiditäts-Fraktion:
+    bei sehr dünner Liquidität erlaubt das trotzdem eine kleine, gerade noch
+    profitable Position, statt den Trade komplett zu verweigern."""
+    if impact_coefficient <= 0:
+        return math.inf
+    # Kleiner Sicherheitsabstand (1e-6), damit die Rekonstruktion von
+    # effective_sum aus diesem Notional wegen Floating-Point-Rundung nicht
+    # hauchdünn über MAX_EFFECTIVE_BUY_PRICE landet und der Trade am eigenen
+    # Sicherheitsnetz scheitert, obwohl er genau dafür berechnet wurde.
+    ratio = (MAX_EFFECTIVE_BUY_PRICE - 1e-6) / summe - 1.0
+    if ratio <= 0:
+        return 0.0
+    return liquidity * ratio / impact_coefficient
+
+
 def _execute_buy(profile, state, h, spread, days, now):
     """Kauft eine Position gemäß Profil (mit/ohne Impact, mit/ohne
     Liquiditäts-Deckel). Gibt True zurück, wenn tatsächlich gekauft wurde."""
@@ -344,17 +368,17 @@ def _execute_buy(profile, state, h, spread, days, now):
         liquidity_cap = profile["max_position_fraction"] * h["liquiditaet"]
     else:
         liquidity_cap = math.inf
+    edge_cap = _max_notional_for_edge(h["summe"], h["liquiditaet"], profile["impact_coefficient"])
 
-    notional = min(state.get("_per_slot_notional", state["cash"]), liquidity_cap, state["cash"])
+    notional = min(state.get("_per_slot_notional", state["cash"]), liquidity_cap, edge_cap, state["cash"])
     if notional < MIN_TRADE_NOTIONAL:
         return False
 
     impact = profile["impact_coefficient"] * (notional / max(h["liquiditaet"], 1.0))
     effective_sum = h["summe"] * (1 + min(impact, 0.3))
     if effective_sum >= MAX_EFFECTIVE_BUY_PRICE:
-        # Der Market Impact bei dieser Positionsgröße frisst den Edge
-        # komplett auf (oder dreht ihn sogar ins Minus) - kein Trade,
-        # lieber Kasse halten als garantiert mit Verlust einsteigen.
+        # Sollte durch edge_cap eigentlich schon ausgeschlossen sein - bleibt
+        # als Sicherheitsnetz gegen Rundungseffekte.
         return False
     shares = notional / effective_sum
 
