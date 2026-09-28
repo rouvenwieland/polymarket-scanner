@@ -1,5 +1,50 @@
 {
-  "cash": 100.46309052988379,
-  "positions": [],
+  "cash": 75.55509598029042,
+  "positions": [
+    {
+      "market_id": "4593703",
+      "frage": "Will Chronicle have the highest ACS at VALORANT Champions 2026?",
+      "slug": "will-chronicle-have-the-highest-acs-at-valorant-champions-2026",
+      "shares": 18.030783107710427,
+      "einstandskurs": 0.928625690943351,
+      "letzter_kurs": 0.928625690943351,
+      "liquiditaet": 640.7631,
+      "end_date": "2026-10-20T03:59:00Z",
+      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+    },
+    {
+      "market_id": "4844770",
+      "frage": "Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?",
+      "slug": "titled-tuesday-2026-09-29-top5-nihal-sarin",
+      "shares": 2.426401892267192,
+      "einstandskurs": 0.9989989999999999,
+      "letzter_kurs": 0.9989989999999999,
+      "liquiditaet": 40.0,
+      "end_date": "2026-10-14T03:59:00Z",
+      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+    },
+    {
+      "market_id": "4844826",
+      "frage": "Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?",
+      "slug": "titled-tuesday-2026-09-29-top8-jan-krzysztof-duda",
+      "shares": 2.426401892267192,
+      "einstandskurs": 0.9989989999999999,
+      "letzter_kurs": 0.9989989999999999,
+      "liquiditaet": 40.0,
+      "end_date": "2026-10-14T03:59:00Z",
+      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+    },
+    {
+      "market_id": "3503884",
+      "frage": "Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",
+      "slug": "justin-herbert-4099pt5-passing-yards-2026-27",
+      "shares": 3.3338695083944914,
+      "einstandskurs": 0.9946999999999999,
+      "letzter_kurs": 0.9946999999999999,
+      "liquiditaet": 33.162,
+      "end_date": "2027-01-27T04:59:00Z",
+      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

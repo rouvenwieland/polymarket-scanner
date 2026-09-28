@@ -49,3 +49,21 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T09:52:55.524283+02:00,KAUF,5065759,Exact Score: UD Almería 4 - 5 CD Leganés?,2.0101,0.995,-2.0,4.0,"Spread 0.50%, Liquiditaet 5 USD"
 2026-09-28T09:52:55.524283+02:00,KAUF,5065607,Exact Score: Real Sociedad de Fútbol 4 - 5 RC Deportivo A Coruña?,2.0101,0.995,-2.0,2.0,"Spread 0.50%, Liquiditaet 5 USD"
 2026-09-28T09:52:55.524283+02:00,KAUF,5065725,Exact Score: Real Betis Balompié 0 - 5 CA Osasuna?,2.0101,0.995,-2.0,0.0,"Spread 0.50%, Liquiditaet 3 USD"
+2026-09-28T10:05:22.550814+02:00,VERKAUF,4721382,Bosnia and Herzegovina vs. Sweden: Both Teams to Score,2.0101,1.0,2.0101,2.0101,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,4691035,Seattle Sounders FC vs. Sporting Kansas City: Both Teams to Score in Second Half,2.0101,1.0,2.0101,4.0201,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,5065502,RC Deportivo A Coruña to win the second half?,2.0101,1.0,2.0101,6.0302,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,3207541,FC Universitatea Cluj to win the second half?,2.0101,1.0,2.0101,8.0402,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,4283651,CSD Municipal leading at halftime?,2.0101,1.0,2.0101,10.0503,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,5027338,Exact Score: FC Košice 3 - 2 KFC Komárno?,2.0101,1.0,2.0101,12.0603,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,4995287,Exact Score: FC Goa 5 - 0 Chennaiyin FC?,2.0101,1.0,2.0101,14.0704,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,5046433,Exact Score: CD Oriente Petrolero 2 - 2 Club ABB?,2.0101,1.0,2.0101,16.0804,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,VERKAUF,5065759,Exact Score: UD Almería 4 - 5 CD Leganés?,2.0101,1.0,2.0101,18.0905,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,KAUF,5011148,Will the lowest temperature in Jinan be 15°C on September 28?,2.0202,0.995,-2.0101,16.0804,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4593703,Will Chronicle have the highest ACS at VALORANT Champions 2026?,2.173,0.925,-2.0101,14.0704,"Spread 7.50%, Liquiditaet 641 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4963513,Will NVIDIA (NVDA) close at >$250 on the final day of trading of the week of Sep 28 – Oct 2?,2.0202,0.995,-2.0101,12.0603,"Spread 0.50%, Liquiditaet 1209 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4993587,Exact Score: FK Bodø/Glimt 5 - 4 Kristiansund BK?,2.0304,0.99,-2.0101,10.0503,"Spread 1.00%, Liquiditaet 17 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,5009484,Exact Score: Sunderland AFC 2 - 3 Brighton & Hove Albion FC?,2.0202,0.995,-2.0101,8.0402,"Spread 0.50%, Liquiditaet 740 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4748298,Will the match end in a draw?,2.0202,0.995,-2.0101,6.0302,"Spread 0.50%, Liquiditaet 96 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4961392,Exact Score: Shenzhen Xinpengcheng FC 2 - 3 Henan FC?,2.0202,0.995,-2.0101,4.0201,"Spread 0.50%, Liquiditaet 15 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,5018405,Exact Score: Cambridge United FC 5 - 0 Blackpool FC?,2.0202,0.995,-2.0101,2.0101,"Spread 0.50%, Liquiditaet 15 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,2.0202,0.995,-2.0101,0.0,"Spread 0.50%, Liquiditaet 3 USD"

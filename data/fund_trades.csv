@@ -1,3 +1,7 @@
 timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T09:16:53.703979+02:00,KAUF,4903979,Will GPT Sol's output price be at or below $5 in 2026?,6.2388,0.9186,-5.7308,94.2692,"Spread 9.5%, Liquiditaet 57 USD"
 2026-09-28T09:44:17.093437+02:00,VERKAUF,4903979,Will GPT Sol's output price be at or below $5 in 2026?,6.2388,0.9928,6.1939,100.4631,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,KAUF,4593703,Will Chronicle have the highest ACS at VALORANT Champions 2026?,18.0308,0.9286,-16.7438,83.7192,"Spread 7.50%, Liquiditaet 641 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,2.4264,0.999,-2.424,81.2953,"Spread 1.00%, Liquiditaet 40 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,2.4264,0.999,-2.424,78.8713,"Spread 1.00%, Liquiditaet 40 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,3503884,"Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",3.3339,0.9947,-3.3162,75.5551,"Spread 2.00%, Liquiditaet 33 USD"
