@@ -2,8 +2,9 @@
 Dashboard-Generator
 ====================
 
-Baut aus den Daten in data/ (summary.csv, fund_state.json, fund_history.csv,
-fund_trades.csv, last_run_stats.json) die HTML-Seite für das Claude-Artefakt
+Baut aus den Daten in data/ (summary.csv, last_run_stats.json und je Fonds-
+Profil fund_state*.json/fund_history*.csv/fund_trades*.csv, siehe
+FUND_PROFILES unten) die HTML-Seite für das Claude-Artefakt
 "Polymarket Arbitrage Monitor". Lokal ausführbar:
 
     python dashboard/render_dashboard.py [--data-dir data] [--out dashboard/output.html]
@@ -21,6 +22,31 @@ import re
 from datetime import datetime, timezone
 
 STARTING_CAPITAL = 100.0
+
+# Muss zu scripts/fund_simulator.py PROFILES passen (Dateinamen + Reihenfolge).
+FUND_PROFILES = [
+    {
+        "key": "conservative", "label": "Konservativ",
+        "state_json": "fund_state.json", "history_csv": "fund_history.csv", "trades_csv": "fund_trades.csv",
+        "desc": "Mindest-Liquidität 15 USD, Mindest-Spread 1%, Kaufimpact simuliert, verkauft bei Konvergenz.",
+        "empty_note": "Mindest-Spread (1&thinsp;%) und Mindest-Liquidität (15&thinsp;USD) erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt.",
+        "open_by_default": True,
+    },
+    {
+        "key": "aggressive", "label": "Aggressiv",
+        "state_json": "fund_state_aggressive.json", "history_csv": "fund_history_aggressive.csv", "trades_csv": "fund_trades_aggressive.csv",
+        "desc": "Keine Mindest-Liquidität (kauft auch in sehr dünnen Märkten), hält aber im Zweifel bis zur Auflösung statt früh zu verkaufen. Kaufimpact bleibt simuliert.",
+        "empty_note": "Mindest-Spread (1&thinsp;%) erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt (Liquidität allein ist hier keine Hürde).",
+        "open_by_default": False,
+    },
+    {
+        "key": "best_case", "label": "Best Case (unrealistisch)",
+        "state_json": "fund_state_bestcase.json", "history_csv": "fund_history_bestcase.csv", "trades_csv": "fund_trades_bestcase.csv",
+        "desc": "Ignoriert Liquidität UND Marktimpact komplett, handelt exakt zum notierten Kurs, nimmt jeden positiven Spread mit und schichtet aktiv in bessere Gelegenheiten um. Eine bewusst unrealistische Obergrenze.",
+        "empty_note": "positiven Spread hat (praktisch jeder Treffer zählt hier).",
+        "open_by_default": False,
+    },
+]
 
 
 def esc(s):
@@ -284,6 +310,24 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 .pill.payout{ background:#1d3a6b; color:#7ab3ff; }
 
 .freqnote{ font-size:12px; color:var(--muted-2); margin-top:10px; }
+
+.compare{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
+@media (max-width:720px){ .compare{ grid-template-columns:1fr; } }
+.compare-card{ border:1px solid var(--border); background:var(--surface); border-radius:12px; padding:16px; }
+.compare-card .label{ font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; font-weight:700; }
+.compare-card .nav{ font-size:22px; font-weight:800; font-family:"IBM Plex Mono",monospace; margin-top:6px; }
+.compare-card .sub{ font-size:12px; color:var(--muted); margin-top:6px; display:flex; justify-content:space-between; }
+
+details.funddetail{ border:1px solid var(--border); background:var(--surface); border-radius:12px; margin-bottom:12px; overflow:hidden; }
+details.funddetail summary{
+  cursor:pointer; list-style:none; padding:14px 16px; display:flex; align-items:center; gap:10px;
+  font-weight:700; font-size:14px;
+}
+details.funddetail summary::-webkit-details-marker{ display:none; }
+details.funddetail summary .sumchev{ transition:transform .15s ease; color:var(--muted); flex:none; }
+details.funddetail[open] summary .sumchev{ transform:rotate(90deg); }
+details.funddetail summary .sumdesc{ font-weight:500; font-size:12px; color:var(--muted-2); }
+details.funddetail .funddetail-body{ padding:0 16px 16px; border-top:1px solid var(--border); padding-top:16px; }
 </style>
 """
 
@@ -331,9 +375,6 @@ SCRIPT = """
 
 def render(data_dir):
     summary_rows = load_csv(os.path.join(data_dir, "summary.csv"))
-    fund_state = load_json(os.path.join(data_dir, "fund_state.json"), {"cash": STARTING_CAPITAL, "positions": [], "started": None})
-    fund_history = load_csv(os.path.join(data_dir, "fund_history.csv"))
-    fund_trades = load_csv(os.path.join(data_dir, "fund_trades.csv"))
     last_run = load_json(os.path.join(data_dir, "last_run_stats.json"), {})
 
     data = []
@@ -385,54 +426,110 @@ def render(data_dir):
           <td>{esc(o['zeit_bis_ende'])}</td>
         </tr>"""
 
-    fund_cash = fund_state["cash"]
-    fund_positions = fund_state["positions"]
-    fund_positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in fund_positions)
-    fund_nav = fund_cash + fund_positions_value
-    fund_return_pct = (fund_nav / STARTING_CAPITAL - 1) * 100
-
-    navchart_html = build_navchart(fund_history)
-    if navchart_html is None:
-        navchart_html = '<div class="empty">Noch zu wenig Verlauf für einen Chart &mdash; der Fonds sammelt gerade seine erste Kursreihe.</div>'
+    fund_results = []
+    for fp in FUND_PROFILES:
+        state = load_json(os.path.join(data_dir, fp["state_json"]), {"cash": STARTING_CAPITAL, "positions": [], "started": None})
+        history = load_csv(os.path.join(data_dir, fp["history_csv"]))
+        trades = load_csv(os.path.join(data_dir, fp["trades_csv"]))
+        positions = state["positions"]
+        positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
+        nav = state["cash"] + positions_value
+        fund_results.append({
+            "profile": fp, "state": state, "history": history, "trades": trades,
+            "positions": positions, "positions_value": positions_value, "nav": nav,
+            "return_pct": (nav / STARTING_CAPITAL - 1) * 100,
+        })
 
     now_utc = datetime.now(timezone.utc)
-    position_cards_html = ""
-    for p in sorted(fund_positions, key=lambda p: -(p["shares"] * (p.get("letzter_kurs", p["einstandskurs"]) - p["einstandskurs"]))):
-        letzter = p.get("letzter_kurs", p["einstandskurs"])
-        pnl_abs = p["shares"] * (letzter - p["einstandskurs"])
-        pnl_pct = (letzter / p["einstandskurs"] - 1) * 100
-        pnl_cls = "pos" if pnl_abs >= 0 else "neg"
-        dte = days_to_end(p.get("end_date"), now_utc)
-        laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
-        position_cards_html += f"""
-        <div class="card fund">
-          <div class="q">{esc(p['frage'])}</div>
-          <div class="row"><span>Anteile</span><span>{p['shares']:.2f}</span></div>
-          <div class="row"><span>Einstand</span><span>{p['einstandskurs']:.3f}</span></div>
-          <div class="row"><span>Letzter Kurs</span><span>{letzter:.3f}</span></div>
-          <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
-          <div class="row"><span>Liquidität</span><span>{money(p['liquiditaet'])}</span></div>
-          <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
+
+    compare_html = ""
+    for fr in fund_results:
+        compare_html += f"""
+        <div class="compare-card">
+          <div class="label">{esc(fr['profile']['label'])}</div>
+          <div class="nav">{fr['nav']:.2f}&nbsp;USD</div>
+          <span class="retpill {ret_class(fr['return_pct'])}">{fr['return_pct']:+.2f}%</span>
+          <div class="sub"><span>Positionen</span><span>{len(fr['positions'])}</span></div>
+          <div class="sub"><span>Kasse</span><span>{fr['state']['cash']:.2f} USD</span></div>
         </div>"""
 
-    if not fund_positions:
-        position_cards_html = ('<div class="empty">Der Fonds hält aktuell keine Position &mdash; er wartet auf einen Treffer, der '
-                               'Mindest-Spread (1&thinsp;%) und Mindest-Liquidität (15&thinsp;USD) erfüllt <b>und</b> bei dem nach dem '
-                               'Market-Impact-Modell noch ein Edge übrig bleibt.</div>')
+    def render_fund_detail(fr):
+        fp = fr["profile"]
+        navchart_html = build_navchart(fr["history"])
+        if navchart_html is None:
+            navchart_html = '<div class="empty">Noch zu wenig Verlauf für einen Chart &mdash; der Fonds sammelt gerade seine erste Kursreihe.</div>'
 
-    action_pill = {"KAUF": "buy", "VERKAUF": "sell", "AUSZAHLUNG": "payout"}
-    trade_rows_html = ""
-    for t in list(reversed(fund_trades))[:20]:
-        cls = action_pill.get(t["aktion"], "buy")
-        trade_rows_html += f"""<tr>
-          <td class="mono">{t['timestamp'][:16].replace('T',' ')}</td>
-          <td><span class="pill {cls}">{t['aktion']}</span></td>
-          <td>{esc(t['frage'])}</td>
-          <td class="num">{float(t['betrag']):+.2f}</td>
-          <td class="num">{float(t['kasse_danach']):.2f}</td>
-        </tr>"""
-    if not fund_trades:
-        trade_rows_html = '<tr><td colspan="5" style="color:var(--muted); padding:14px;">Noch keine Trades protokolliert.</td></tr>'
+        position_cards_html = ""
+        for p in sorted(fr["positions"], key=lambda p: -(p["shares"] * (p.get("letzter_kurs", p["einstandskurs"]) - p["einstandskurs"]))):
+            letzter = p.get("letzter_kurs", p["einstandskurs"])
+            pnl_abs = p["shares"] * (letzter - p["einstandskurs"])
+            pnl_pct = (letzter / p["einstandskurs"] - 1) * 100
+            pnl_cls = "pos" if pnl_abs >= 0 else "neg"
+            dte = days_to_end(p.get("end_date"), now_utc)
+            laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
+            position_cards_html += f"""
+            <div class="card fund">
+              <div class="q">{esc(p['frage'])}</div>
+              <div class="row"><span>Anteile</span><span>{p['shares']:.2f}</span></div>
+              <div class="row"><span>Einstand</span><span>{p['einstandskurs']:.3f}</span></div>
+              <div class="row"><span>Letzter Kurs</span><span>{letzter:.3f}</span></div>
+              <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
+              <div class="row"><span>Liquidität</span><span>{money(p['liquiditaet'])}</span></div>
+              <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
+            </div>"""
+        if not fr["positions"]:
+            position_cards_html = (f'<div class="empty">Der Fonds hält aktuell keine Position &mdash; er wartet auf einen Treffer, der '
+                                   f'{fp["empty_note"]}</div>')
+
+        action_pill = {"KAUF": "buy", "VERKAUF": "sell", "AUSZAHLUNG": "payout", "UMSCHICHTUNG": "sell"}
+        trade_rows_html = ""
+        for t in list(reversed(fr["trades"]))[:20]:
+            cls = action_pill.get(t["aktion"], "buy")
+            trade_rows_html += f"""<tr>
+              <td class="mono">{t['timestamp'][:16].replace('T',' ')}</td>
+              <td><span class="pill {cls}">{t['aktion']}</span></td>
+              <td>{esc(t['frage'])}</td>
+              <td class="num">{float(t['betrag']):+.2f}</td>
+              <td class="num">{float(t['kasse_danach']):.2f}</td>
+            </tr>"""
+        if not fr["trades"]:
+            trade_rows_html = '<tr><td colspan="5" style="color:var(--muted); padding:14px;">Noch keine Trades protokolliert.</td></tr>'
+
+        return f"""
+      <details class="funddetail"{' open' if fp['open_by_default'] else ''}>
+        <summary>
+          <svg class="sumchev" width="10" height="10" viewBox="0 0 10 10"><path d="M2 1l5 4-5 4" stroke="currentColor" stroke-width="1.6" fill="none"/></svg>
+          <span>{esc(fp['label'])}</span>
+          <span class="retpill {ret_class(fr['return_pct'])}">{fr['return_pct']:+.2f}%</span>
+          <span class="sumdesc">{esc(fp['desc'])}</span>
+        </summary>
+        <div class="funddetail-body">
+          <div class="fundhero">
+            <div class="navblock">
+              <span class="navlabel">NAV</span>
+              <span class="navvalue">{fr['nav']:.2f}&nbsp;USD</span>
+            </div>
+            <span class="retpill {ret_class(fr['return_pct'])}">{fr['return_pct']:+.2f}%</span>
+            <div class="fundstats">
+              <div>Kasse<b>{fr['state']['cash']:.2f} USD</b></div>
+              <div>Offene Positionen<b>{len(fr['positions'])}</b></div>
+              <div>In Positionen gebunden<b>{fr['positions_value']:.2f} USD</b></div>
+            </div>
+            {navchart_html}
+          </div>
+          <div class="cards">{position_cards_html}
+          </div>
+          <div class="tablewrap" style="margin-top:12px;">
+            <table>
+              <thead><tr><th>Zeit</th><th>Aktion</th><th>Markt</th><th class="num">Betrag (USD)</th><th class="num">Kasse danach</th></tr></thead>
+              <tbody>{trade_rows_html}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </details>"""
+
+    fund_details_html = "".join(render_fund_detail(fr) for fr in fund_results)
 
     stand_dt = last_run.get("timestamp")
     if stand_dt:
@@ -482,31 +579,12 @@ def render(data_dir):
   <section>
     <div class="section-head">
       <h2>Arbitrage-Fonds (Simulation)</h2>
-      <p>Papier-Trading auf Basis der Scan-Treffer &middot; Start 100.00 USD</p>
+      <p>Drei parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; je Start 100.00 USD</p>
     </div>
-    <div class="fundhero">
-      <div class="navblock">
-        <span class="navlabel">NAV</span>
-        <span class="navvalue">{fund_nav:.2f}&nbsp;USD</span>
-      </div>
-      <span class="retpill {ret_class(fund_return_pct)}">{fund_return_pct:+.2f}%</span>
-      <div class="fundstats">
-        <div>Kasse<b>{fund_cash:.2f} USD</b></div>
-        <div>Offene Positionen<b>{len(fund_positions)}</b></div>
-        <div>In Positionen gebunden<b>{fund_positions_value:.2f} USD</b></div>
-      </div>
-      {navchart_html}
+    <div class="compare">{compare_html}
     </div>
-    <div class="cards">{position_cards_html}
-    </div>
-    <div class="tablewrap" style="margin-top:12px;">
-      <table>
-        <thead><tr><th>Zeit</th><th>Aktion</th><th>Markt</th><th class="num">Betrag (USD)</th><th class="num">Kasse danach</th></tr></thead>
-        <tbody>{trade_rows_html}
-        </tbody>
-      </table>
-    </div>
-    <p class="freqnote">Neue Positionen wählt der große Scan (alle ~15&thinsp;Min., voller Marktüberblick). Offene Positionen werden zusätzlich alle ~5&thinsp;Min. einzeln nachverfolgt (fund_watch.py), damit Konvergenz/Auflösung schneller auffällt als beim nächsten Vollscan.</p>
+    {fund_details_html}
+    <p class="freqnote">Neue Positionen wählt der große Scan (alle ~15&thinsp;Min., voller Marktüberblick). Offene Positionen werden zusätzlich alle ~5&thinsp;Min. einzeln nachverfolgt (fund_watch.py), damit Konvergenz/Auflösung schneller auffällt als beim nächsten Vollscan. "Best Case" ist bewusst unrealistisch (kein Marktimpact, keine Liquiditätsschranke) und dient als theoretische Obergrenze zum Vergleich.</p>
   </section>
 
   <section>
@@ -543,8 +621,8 @@ def render(data_dir):
 
   <footer>
     Scan-Logik: alle offenen Yes/No-Märkte der Polymarket-Gamma-API werden per Keyset-Pagination geladen und auf <code>Yes-Preis + No-Preis &lt; 1.00</code> geprüft. Ein Treffer ist <b>keine garantierte risikofreie Arbitrage</b> &mdash; Spread, Slippage und Settlement-Timing sind nicht eingerechnet, und die meisten Treffer oben haben kein Handelsvolumen.<br>
-    Fonds-Logik: reines Papier-Trading, es wird nichts echt gehandelt. Gekauft wird nur bei Mindest-Spread und Mindest-Liquidität und nur wenn nach einem einfachen Marktimpact-Modell noch ein Edge übrig bleibt. Auszahlung bei Marktauflösung wird als sauberes 1.00&nbsp;USD/Paar angenommen.<br>
-    Rohdaten &amp; Verlauf: <a href="https://github.com/rouvenwieland/polymarket-scanner" target="_blank" rel="noopener">github.com/rouvenwieland/polymarket-scanner</a> &middot; <code>data/summary.csv</code>, <code>data/fund_state.json</code>, <code>data/fund_trades.csv</code>, <code>data/fund_history.csv</code><br>
+    Fonds-Logik: reines Papier-Trading, es wird nichts echt gehandelt. Drei Profile mit unterschiedlichem Realismus-Grad (siehe Beschreibung je Fonds oben) - von "hält sich an Mindest-Liquidität und Marktimpact" bis "Best Case ohne jede Realismus-Bremse". Auszahlung bei Marktauflösung wird bei allen drei als sauberes 1.00&nbsp;USD/Paar angenommen.<br>
+    Rohdaten &amp; Verlauf: <a href="https://github.com/rouvenwieland/polymarket-scanner" target="_blank" rel="noopener">github.com/rouvenwieland/polymarket-scanner</a> &middot; <code>data/summary.csv</code>, <code>data/fund_state*.json</code>, <code>data/fund_trades*.csv</code>, <code>data/fund_history*.csv</code><br>
     Aktualisierung: automatisch jeden Morgen um 7&thinsp;Uhr, dazu jederzeit auf Zuruf ("aktualisiere").
   </footer>
 </div>

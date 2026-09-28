@@ -1,44 +1,57 @@
 """
-Polymarket-Arbitrage-Fonds (Simulation)
-========================================
+Polymarket-Arbitrage-Fonds (Simulation) - drei parallele Strategien
+=====================================================================
 
-Simuliert einen kleinen Fonds, der die Strategie des Scanners tatsächlich
-"fährt": bei jedem Snapshot-Lauf werden Yes+No < 1-Treffer gekauft (beide
-Seiten gleichzeitig) und entweder bis zur Marktauflösung gehalten (Auszahlung
-1.00 USD je Paar) oder vorher wieder verkauft, sobald Yes+No wieder auf ~1.00
-gestiegen ist. Es wird NICHTS echtes gehandelt - das hier ist Papier-Trading.
+Simuliert DREI unabhängige, gleich gestartete (je 100 USD) Papier-Trading-
+Fonds, die dieselbe Grundstrategie fahren - Yes+No < 1 kaufen (beide Seiten),
+bis Marktauflösung halten (1.00 USD/Paar) oder vorzeitig bei Konvergenz
+verkaufen - sich aber in ihrem Realismus-Grad unterscheiden (siehe PROFILES
+unten). Kein Fonds handelt irgendetwas echtes.
 
-Zwei Einstiegspunkte teilen sich dieselbe Positions-Logik (_evaluate_position):
-  - run_fund_step()      wird vom großen Scan (polymarket_snapshot.py) aufgerufen.
-    Liefert neue Kaufkandidaten UND nutzt die dabei ohnehin schon geladenen
-    ~200.000 Marktdaten, um alle offenen Positionen mit zu bewerten. Das ist
-    das "Portfolio", aus dem neue Positionen ausgewählt werden.
-  - watch_positions_step() wird vom hochfrequenten fund_watch.py aufgerufen
-    (siehe .github/workflows/fund_watch.yml). Kauft NICHTS Neues, sondern holt
-    für jede offene Position gezielt nur ihren einen Markt per Einzel-Lookup
-    (GET /markets/{id}) und prüft Konvergenz/Auflösung - viel schneller als
-    ein voller Scan, damit gehaltene Positionen nicht erst beim nächsten
-    15-Minuten-Lauf bemerkt werden.
+  - "conservative"  Mindest-Liquidität, Mindest-Spread, Kaufimpact-Modell,
+                     verkauft bei Konvergenz. Das ursprüngliche, realistischste
+                     Modell (unveränderte Datendateien für Kontinuität).
+  - "aggressive"     Ignoriert die Mindest-Liquidität (kauft auch in sehr
+                     dünnen Märkten, soweit die Positionsgröße es zulässt),
+                     hält aber im Zweifel bis zur Auflösung statt früh zu
+                     verkaufen. Kaufimpact bleibt simuliert.
+  - "best_case"      Ignoriert Liquidität UND Marktimpact komplett (kauft/
+                     verkauft exakt zum notierten Kurs), nimmt jeden
+                     positiven Spread mit, und schichtet aktiv um: ist das
+                     Positionslimit voll, wird die schwächste offene Position
+                     verkauft, wenn eine deutlich bessere Gelegenheit
+                     auftaucht. Eine bewusst unrealistische Obergrenze dafür,
+                     was die Strategie im besten Fall hergeben würde.
 
-Vereinfachungen, die bewusst in Kauf genommen werden:
-  - Slippage/Market Impact ist ein einfaches lineares Modell
-    (siehe IMPACT_COEFFICIENT), keine echte Orderbuch-Tiefe.
+Zwei Einstiegspunkte teilen sich dieselbe Positions-Logik, jeweils für alle
+drei Profile:
+  - run_all_fund_steps()    wird vom großen Scan (polymarket_snapshot.py)
+    aufgerufen. Nutzt die dabei schon geladenen ~200.000 Marktdaten, um
+    offene Positionen alle drei Fonds zu bewerten UND neue Kandidaten
+    auszuwählen.
+  - watch_all_positions_step() wird vom hochfrequenten fund_watch.py
+    aufgerufen (siehe .github/workflows/fund_watch.yml). Kauft NICHTS Neues,
+    holt für jede offene Position alle drei Fonds gezielt nur ihren einen
+    Markt per Einzel-Lookup. Ein Fonds ohne offene Position verursacht dabei
+    keinen API-Call.
+
+Vereinfachungen, die bewusst in Kauf genommen werden (variieren je Profil,
+siehe oben):
+  - Slippage/Market Impact ist, wenn simuliert, ein einfaches lineares
+    Modell (IMPACT_COEFFICIENT), keine echte Orderbuch-Tiefe.
   - Auszahlung bei Marktauflösung wird als sauberes 1.00 USD/Paar simuliert
-    (keine Redemption-Gebühren, kein Gegenparteirisiko).
-  - Die Liquiditätsangabe der Gamma-API (liquidityNum) ist eine grobe Proxy-
-    Größe für "wie viel könnte man hier realistisch handeln", keine
-    tatsächliche Orderbuchtiefe.
-  - Keine Trading-Fees/Gas modelliert (Polymarket erhebt aktuell auch keine
-    klassischen Taker-Fees auf den meisten Märkten).
+    (keine Redemption-Gebühren, kein Gegenparteirisiko) - für alle Profile.
+  - Die Liquiditätsangabe der Gamma-API (liquidityNum) ist, wenn genutzt,
+    eine grobe Proxy-Größe, keine tatsächliche Orderbuchtiefe.
+  - Keine Trading-Fees/Gas modelliert.
 
-Persistenter Zustand liegt in DATA_DIR:
-  - fund_state.json   aktuelle Kasse + offene Positionen (Source of Truth)
-  - fund_trades.csv   Handelsjournal (jeder Kauf/Verkauf/jede Auszahlung)
-  - fund_history.csv  NAV-Zeitreihe (ein Eintrag pro Lauf, auch ohne Trades)
+Persistenter Zustand liegt in DATA_DIR, je Profil unter eigenen Dateinamen
+(siehe PROFILES[...]["state_json"/"trades_csv"/"history_csv"]).
 """
 
 import csv
 import json
+import math
 import os
 from datetime import datetime
 
@@ -48,22 +61,61 @@ GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 TIMEZONE = "Europe/Berlin"
 
 DATA_DIR = "data"
-STATE_JSON = os.path.join(DATA_DIR, "fund_state.json")
-TRADES_CSV = os.path.join(DATA_DIR, "fund_trades.csv")
-HISTORY_CSV = os.path.join(DATA_DIR, "fund_history.csv")
+
+STARTING_CAPITAL = 100.0
+MIN_TRADE_NOTIONAL = 2.0          # Trades unter diesem Betrag lohnen sich nicht (Rundungsrauschen)
+MAX_EFFECTIVE_BUY_PRICE = 0.999   # universeller Sicherheitsnetz-Wert: nie zu einem Garantie-Verlust kaufen
 
 # ---------------------------------------------------------------------
-# Strategie-Konfiguration
+# Strategie-Profile
 # ---------------------------------------------------------------------
-STARTING_CAPITAL = 100.0
-MIN_LIQUIDITY = 15.0          # USD, darunter gilt ein Markt als nicht handelbar
-MIN_SPREAD = 0.01             # nur Treffer mit >= 1% Abstand von 1.00 sind einen Trade wert
-SELL_CONVERGENCE = 0.997      # bei Yes+No >= diesem Wert vorzeitig glattstellen
-MAX_POSITION_FRACTION_OF_LIQUIDITY = 0.10   # max. Positionsgröße relativ zur Liquidität
-MAX_OPEN_POSITIONS = 12       # Diversifikations-Deckel bei 100 USD Kapital
-IMPACT_COEFFICIENT = 0.15     # linearer Preiseinfluss: effektiver Preis = mid * (1 ± coef * notional/liquidity)
-MIN_TRADE_NOTIONAL = 2.0      # Trades unter diesem Betrag lohnen sich nicht (Rundungsrauschen)
-MAX_EFFECTIVE_BUY_PRICE = 0.999   # Sicherheitsnetz: Kauf nur, wenn nach Market-Impact noch ein Edge bleibt
+PROFILES = {
+    "conservative": {
+        "key": "conservative",
+        "label": "Konservativ",
+        "state_json": "fund_state.json",
+        "trades_csv": "fund_trades.csv",
+        "history_csv": "fund_history.csv",
+        "min_liquidity": 15.0,
+        "min_spread": 0.01,
+        "sell_convergence": 0.997,
+        "max_position_fraction": 0.10,   # Anteil der gemeldeten Liquidität, den eine Position max. ausmachen darf
+        "impact_coefficient": 0.15,
+        "max_open_positions": 12,
+        "reallocate": False,
+        "reallocate_factor": None,
+    },
+    "aggressive": {
+        "key": "aggressive",
+        "label": "Aggressiv",
+        "state_json": "fund_state_aggressive.json",
+        "trades_csv": "fund_trades_aggressive.csv",
+        "history_csv": "fund_history_aggressive.csv",
+        "min_liquidity": 0.0,            # keine Mindest-Liquidität - kauft auch in sehr dünnen Märkten
+        "min_spread": 0.01,
+        "sell_convergence": None,        # verkauft NIE vorzeitig - haelt im Zweifel bis zur Auflösung
+        "max_position_fraction": 0.5,    # darf einen deutlich größeren Anteil der Liquidität "aufkaufen"
+        "impact_coefficient": 0.15,      # Kaufimpact bleibt simuliert
+        "max_open_positions": 20,
+        "reallocate": False,
+        "reallocate_factor": None,
+    },
+    "best_case": {
+        "key": "best_case",
+        "label": "Best Case (unrealistisch)",
+        "state_json": "fund_state_bestcase.json",
+        "trades_csv": "fund_trades_bestcase.csv",
+        "history_csv": "fund_history_bestcase.csv",
+        "min_liquidity": 0.0,            # keine Liquiditätsschranke
+        "min_spread": 0.0001,            # nimmt praktisch jeden positiven Spread mit
+        "sell_convergence": 0.999,       # nimmt Gewinne zügig mit
+        "max_position_fraction": None,   # KEIN Liquiditäts-Deckel auf die Positionsgröße
+        "impact_coefficient": 0.0,       # KEIN Marktimpact - handelt exakt zum notierten Kurs
+        "max_open_positions": 50,        # praktisch unbegrenzt diversifiziert
+        "reallocate": True,              # schichtet aktiv in bessere Gelegenheiten um
+        "reallocate_factor": 1.25,       # neue Gelegenheit muss 25% besser bewertet sein als die schwächste Position
+    },
+}
 
 
 def parse_prices(market):
@@ -112,10 +164,11 @@ def _empty_state():
     return {"cash": STARTING_CAPITAL, "positions": [], "started": None}
 
 
-def load_state():
-    if not os.path.isfile(STATE_JSON):
+def load_state(profile):
+    path = os.path.join(DATA_DIR, profile["state_json"])
+    if not os.path.isfile(path):
         return _empty_state()
-    with open(STATE_JSON, "r", encoding="utf-8") as f:
+    with open(path, "r", encoding="utf-8") as f:
         state = json.load(f)
     state.setdefault("cash", STARTING_CAPITAL)
     state.setdefault("positions", [])
@@ -123,9 +176,10 @@ def load_state():
     return state
 
 
-def save_state(state):
+def save_state(profile, state):
     os.makedirs(DATA_DIR, exist_ok=True)
-    with open(STATE_JSON, "w", encoding="utf-8") as f:
+    path = os.path.join(DATA_DIR, profile["state_json"])
+    with open(path, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
@@ -139,8 +193,8 @@ def _append_csv(path, fieldnames, row):
         writer.writerow(row)
 
 
-def log_trade(timestamp, action, market_id, frage, shares, price, amount, cash_after, note=""):
-    _append_csv(TRADES_CSV, [
+def log_trade(profile, timestamp, action, market_id, frage, shares, price, amount, cash_after, note=""):
+    _append_csv(os.path.join(DATA_DIR, profile["trades_csv"]), [
         "timestamp", "aktion", "market_id", "frage", "anteile",
         "preis", "betrag", "kasse_danach", "notiz",
     ], {
@@ -156,9 +210,9 @@ def log_trade(timestamp, action, market_id, frage, shares, price, amount, cash_a
     })
 
 
-def log_history(timestamp, cash, positions_value, n_open):
+def log_history(profile, timestamp, cash, positions_value, n_open):
     nav = cash + positions_value
-    _append_csv(HISTORY_CSV, [
+    _append_csv(os.path.join(DATA_DIR, profile["history_csv"]), [
         "timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
     ], {
         "timestamp": timestamp,
@@ -187,11 +241,18 @@ def _score(spread, liquidity, days_to_end):
     # schneller wieder frei). sqrt(Liquidität) als sanfter Tiebreaker
     # Richtung "besser handelbar", ohne die Kernkennzahl zu dominieren.
     horizon = max(days_to_end if days_to_end else 0.25, 0.25)
-    liquidity_weight = min(1.0, liquidity / 100.0) ** 0.5
+    liquidity_weight = min(1.0, max(liquidity, 0.0) / 100.0) ** 0.5
     return (spread / horizon) * (0.5 + 0.5 * liquidity_weight)
 
 
-def _evaluate_position(pos, market):
+def _position_score(pos, now):
+    letzter = pos.get("letzter_kurs", pos["einstandskurs"])
+    spread = max(0.0, 1.0 - letzter)
+    days = _days_to_end(pos.get("end_date"), now)
+    return _score(spread, pos.get("liquiditaet", 0.0), days)
+
+
+def _evaluate_position(pos, market, profile):
     """Gemeinsame Entscheidungslogik für eine offene Position, egal ob der
     Markt aus einem vollen Scan (markets_by_id-Lookup) oder einem gezielten
     Einzel-Lookup (fetch_market_by_id) stammt.
@@ -212,30 +273,32 @@ def _evaluate_position(pos, market):
 
     yes_p, no_p = prices
     current_sum = yes_p + no_p
-    if current_sum >= SELL_CONVERGENCE:
+
+    sell_convergence = profile["sell_convergence"]
+    if sell_convergence is not None and current_sum >= sell_convergence:
         liquidity_now = float(market.get("liquidityNum") or market.get("liquidity") or pos["liquiditaet"])
         notional = pos["shares"] * current_sum
-        impact = IMPACT_COEFFICIENT * (notional / max(liquidity_now, 1.0))
+        impact = profile["impact_coefficient"] * (notional / max(liquidity_now, 1.0))
         effective_sum = current_sum * (1 - min(impact, 0.3))
         return {"action": "sell", "effective_sum": effective_sum, "current_sum": current_sum}
 
     return {"action": "hold", "current_sum": current_sum}
 
 
-def _apply_decision(state, pos, decision, now):
+def _apply_decision(profile, state, pos, decision, now):
     """Führt eine _evaluate_position()-Entscheidung aus (Kasse/Log/Positionsliste
     aktualisieren). Gibt True zurück, wenn die Position geschlossen wurde."""
     if decision["action"] == "settle":
         proceeds = pos["shares"] * 1.0
         state["cash"] += proceeds
-        log_trade(now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
+        log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
                   pos["shares"], 1.0, proceeds, state["cash"], decision["note"])
         return True
 
     if decision["action"] == "sell":
         proceeds = pos["shares"] * decision["effective_sum"]
         state["cash"] += proceeds
-        log_trade(now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
+        log_trade(profile, now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
                   pos["shares"], decision["effective_sum"], proceeds, state["cash"],
                   f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})")
         return True
@@ -250,38 +313,77 @@ def _positions_value(positions):
     return sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
 
 
-def _mark_positions_from_markets(state, markets_by_id, now):
+def _mark_positions_from_markets(profile, state, markets_by_id, now):
     """Voller-Scan-Variante: Marktdaten liegen schon als dict vor."""
     still_open = []
     for pos in state["positions"]:
         market = markets_by_id.get(pos["market_id"])
-        decision = _evaluate_position(pos, market)
-        closed = _apply_decision(state, pos, decision, now)
+        decision = _evaluate_position(pos, market, profile)
+        closed = _apply_decision(profile, state, pos, decision, now)
         if not closed:
             still_open.append(pos)
     state["positions"] = still_open
 
 
-def _mark_positions_via_lookup(state, now):
+def _mark_positions_via_lookup(profile, state, now):
     """Watcher-Variante: jede Position bekommt ihren eigenen Einzel-API-Call."""
     still_open = []
     for pos in state["positions"]:
         market = fetch_market_by_id(pos["market_id"])
-        decision = _evaluate_position(pos, market)
-        closed = _apply_decision(state, pos, decision, now)
+        decision = _evaluate_position(pos, market, profile)
+        closed = _apply_decision(profile, state, pos, decision, now)
         if not closed:
             still_open.append(pos)
     state["positions"] = still_open
 
 
-def _select_new_trades(state, hits, now):
+def _execute_buy(profile, state, h, spread, days, now):
+    """Kauft eine Position gemäß Profil (mit/ohne Impact, mit/ohne
+    Liquiditäts-Deckel). Gibt True zurück, wenn tatsächlich gekauft wurde."""
+    if profile["max_position_fraction"] is not None:
+        liquidity_cap = profile["max_position_fraction"] * h["liquiditaet"]
+    else:
+        liquidity_cap = math.inf
+
+    notional = min(state.get("_per_slot_notional", state["cash"]), liquidity_cap, state["cash"])
+    if notional < MIN_TRADE_NOTIONAL:
+        return False
+
+    impact = profile["impact_coefficient"] * (notional / max(h["liquiditaet"], 1.0))
+    effective_sum = h["summe"] * (1 + min(impact, 0.3))
+    if effective_sum >= MAX_EFFECTIVE_BUY_PRICE:
+        # Der Market Impact bei dieser Positionsgröße frisst den Edge
+        # komplett auf (oder dreht ihn sogar ins Minus) - kein Trade,
+        # lieber Kasse halten als garantiert mit Verlust einsteigen.
+        return False
+    shares = notional / effective_sum
+
+    state["cash"] -= notional
+    state["positions"].append({
+        "market_id": h["market_id"],
+        "frage": h["frage"],
+        "slug": h["slug"],
+        "shares": shares,
+        "einstandskurs": effective_sum,
+        "letzter_kurs": effective_sum,
+        "liquiditaet": h["liquiditaet"],
+        "end_date": h["end_date"],
+        "eingestiegen": now.isoformat(),
+    })
+    log_trade(profile, now.isoformat(), "KAUF", h["market_id"], h["frage"],
+              shares, effective_sum, -notional, state["cash"],
+              f"Spread {spread*100:.2f}%, Liquiditaet {h['liquiditaet']:.0f} USD")
+    return True
+
+
+def _select_new_trades(profile, state, hits, now):
     open_ids = {p["market_id"] for p in state["positions"]}
     candidates = []
     for h in hits:
         if h["market_id"] in open_ids:
             continue
         spread = 1.0 - h["summe"]
-        if spread < MIN_SPREAD or h["liquiditaet"] < MIN_LIQUIDITY:
+        if spread < profile["min_spread"] or h["liquiditaet"] < profile["min_liquidity"]:
             continue
         days = _days_to_end(h["end_date"], now)
         if days is not None and days <= 0:
@@ -289,53 +391,43 @@ def _select_new_trades(state, hits, now):
         candidates.append((h, spread, days))
 
     candidates.sort(key=lambda c: -_score(c[1], c[0]["liquiditaet"], c[2]))
-
-    free_slots = MAX_OPEN_POSITIONS - len(state["positions"])
-    if free_slots <= 0 or not candidates or state["cash"] < MIN_TRADE_NOTIONAL:
+    if not candidates:
         return
 
-    picks = candidates[:free_slots]
-    per_slot_notional = state["cash"] / len(picks)
+    free_slots = profile["max_open_positions"] - len(state["positions"])
 
+    if free_slots <= 0:
+        if not profile["reallocate"] or not state["positions"]:
+            return
+        best_h, best_spread, best_days = candidates[0]
+        best_score = _score(best_spread, best_h["liquiditaet"], best_days)
+        worst_pos = min(state["positions"], key=lambda p: _position_score(p, now))
+        worst_score = _position_score(worst_pos, now)
+        if worst_score > 0 and best_score < worst_score * profile["reallocate_factor"]:
+            return  # keine Gelegenheit deutlich genug besser als die schwächste Position
+
+        proceeds = worst_pos["shares"] * worst_pos.get("letzter_kurs", worst_pos["einstandskurs"])
+        state["cash"] += proceeds
+        state["positions"].remove(worst_pos)
+        log_trade(profile, now.isoformat(), "UMSCHICHTUNG", worst_pos["market_id"], worst_pos["frage"],
+                  worst_pos["shares"], worst_pos.get("letzter_kurs", worst_pos["einstandskurs"]), proceeds,
+                  state["cash"], "Für bessere Gelegenheit glattgestellt")
+        free_slots = 1
+
+    picks = candidates[:free_slots]
+    state["_per_slot_notional"] = state["cash"] / len(picks)
     for h, spread, days in picks:
         if state["cash"] < MIN_TRADE_NOTIONAL:
             break
-        liquidity_cap = MAX_POSITION_FRACTION_OF_LIQUIDITY * h["liquiditaet"]
-        notional = min(per_slot_notional, liquidity_cap, state["cash"])
-        if notional < MIN_TRADE_NOTIONAL:
-            continue
-
-        impact = IMPACT_COEFFICIENT * (notional / max(h["liquiditaet"], 1.0))
-        effective_sum = h["summe"] * (1 + min(impact, 0.3))
-        if effective_sum >= MAX_EFFECTIVE_BUY_PRICE:
-            # Der Market Impact bei dieser Positionsgröße frisst den Edge
-            # komplett auf (oder dreht ihn sogar ins Minus) - kein Trade,
-            # lieber Kasse halten als garantiert mit Verlust einsteigen.
-            continue
-        shares = notional / effective_sum
-
-        state["cash"] -= notional
-        state["positions"].append({
-            "market_id": h["market_id"],
-            "frage": h["frage"],
-            "slug": h["slug"],
-            "shares": shares,
-            "einstandskurs": effective_sum,
-            "letzter_kurs": effective_sum,
-            "liquiditaet": h["liquiditaet"],
-            "end_date": h["end_date"],
-            "eingestiegen": now.isoformat(),
-        })
-        log_trade(now.isoformat(), "KAUF", h["market_id"], h["frage"],
-                  shares, effective_sum, -notional, state["cash"],
-                  f"Spread {spread*100:.1f}%, Liquiditaet {h['liquiditaet']:.0f} USD")
+        _execute_buy(profile, state, h, spread, days, now)
+    state.pop("_per_slot_notional", None)
 
 
-def run_fund_step(markets, hits, now):
+def run_fund_step(profile, markets, hits, now):
     """Wird vom großen Scan aufgerufen: Positionen anhand der schon geladenen
     ~200.000 Marktdaten bewerten/glattstellen, dann neue Treffer aus diesem
     Lauf ('hits') ggf. kaufen. Kein zusätzlicher API-Call."""
-    state = load_state()
+    state = load_state(profile)
     if state["started"] is None:
         state["started"] = now.isoformat()
 
@@ -346,25 +438,35 @@ def run_fund_step(markets, hits, now):
         if m.get("slug"):
             markets_by_id.setdefault(m["slug"], m)
 
-    _mark_positions_from_markets(state, markets_by_id, now)
-    _select_new_trades(state, hits, now)
+    _mark_positions_from_markets(profile, state, markets_by_id, now)
+    _select_new_trades(profile, state, hits, now)
 
-    save_state(state)
-    nav = log_history(now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
-    print(f"Fonds: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
+    save_state(profile, state)
+    nav = log_history(profile, now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
+    print(f"Fonds [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
           f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
 
 
-def watch_positions_step(now):
+def run_all_fund_steps(markets, hits, now):
+    for profile in PROFILES.values():
+        run_fund_step(profile, markets, hits, now)
+
+
+def watch_positions_step(profile, now):
     """Wird vom hochfrequenten fund_watch.py aufgerufen: kauft nichts Neues,
     prüft nur die schon gehaltenen Positionen per gezieltem Einzel-Lookup."""
-    state = load_state()
+    state = load_state(profile)
     if not state["positions"]:
-        print("Fonds-Watch: keine offenen Positionen, nichts zu tun.")
+        print(f"Fonds-Watch [{profile['label']}]: keine offenen Positionen, nichts zu tun.")
         return
 
-    _mark_positions_via_lookup(state, now)
-    save_state(state)
-    nav = log_history(now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
-    print(f"Fonds-Watch: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
+    _mark_positions_via_lookup(profile, state, now)
+    save_state(profile, state)
+    nav = log_history(profile, now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
+    print(f"Fonds-Watch [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
           f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
+
+
+def watch_all_positions_step(now):
+    for profile in PROFILES.values():
+        watch_positions_step(profile, now)

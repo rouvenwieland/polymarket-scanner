@@ -21,7 +21,7 @@ import fund_simulator
 
 def main():
     now = datetime.now(ZoneInfo(fund_simulator.TIMEZONE))
-    fund_simulator.watch_positions_step(now)
+    fund_simulator.watch_all_positions_step(now)
 
 
 if __name__ == "__main__":

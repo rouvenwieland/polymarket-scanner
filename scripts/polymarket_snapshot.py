@@ -216,7 +216,7 @@ def main():
     # Fonds-Simulation läuft unabhängig davon, ob dieser Run neue Treffer
     # gebracht hat - offene Positionen müssen auch sonst auf Auflösung/
     # Konvergenz geprüft werden. Nutzt die schon geladenen Marktdaten weiter.
-    fund_simulator.run_fund_step(markets, rows, now)
+    fund_simulator.run_all_fund_steps(markets, rows, now)
 
 
 if __name__ == "__main__":
