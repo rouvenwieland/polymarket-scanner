@@ -190,7 +190,29 @@ def save_state(profile, state):
 
 def _append_csv(path, fieldnames, row):
     os.makedirs(DATA_DIR, exist_ok=True)
-    file_exists = os.path.isfile(path)
+    if os.path.isfile(path):
+        with open(path, "r", newline="", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            existing_header = next(reader, None)
+        if existing_header is not None and existing_header != fieldnames:
+            # Schema hat sich erweitert (z.B. neue Kennzahl-Spalten) - alte
+            # Zeilen behalten, aber auf den neuen Header migrieren, damit
+            # csv.DictReader nicht an der Spaltenzahl verrutscht. Fehlende
+            # neue Felder bleiben in den alten Zeilen leer (kein Wert
+            # verfügbar für die Vergangenheit).
+            with open(path, "r", newline="", encoding="utf-8") as f:
+                old_rows = list(csv.DictReader(f))
+            with open(path, "w", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer.writeheader()
+                for old_row in old_rows:
+                    writer.writerow({k: old_row.get(k, "") for k in fieldnames})
+            file_exists = True
+        else:
+            file_exists = True
+    else:
+        file_exists = False
+
     with open(path, "a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         if not file_exists:
@@ -215,17 +237,48 @@ def log_trade(profile, timestamp, action, market_id, frage, shares, price, amoun
     })
 
 
-def log_history(profile, timestamp, cash, positions_value, n_open):
+ANNUAL_DISCOUNT_RATE = 0.02  # angenommene Inflation/Opportunitätskosten p.a. für die Kapitalbindungs-Diskontierung
+
+
+def _discount_factor(days, rate=ANNUAL_DISCOUNT_RATE):
+    """Abzinsungsfaktor für in `days` Tagen fällige 1.00 USD, bei angenommener
+    Rate `rate` p.a. - reine Kapitalbindungs-Näherung, kein Marktzins."""
+    if days is None or days <= 0:
+        return 1.0
+    return 1.0 / ((1.0 + rate) ** (days / 365.25))
+
+
+def termination_value_of(position, now):
+    """Was man für DIESE Position bekäme, wenn der Markt sofort reguläer
+    terminieren/auszahlen würde: 1.00 USD je gehaltenem Anteilspaar,
+    unabhängig vom aktuell notierten Kurs."""
+    return position["shares"] * 1.0
+
+
+def discounted_termination_value_of(position, now):
+    days = _days_to_end(position.get("end_date"), now)
+    return termination_value_of(position, now) * _discount_factor(days)
+
+
+def log_history(profile, now, cash, positions):
+    positions_value = _positions_value(positions)
     nav = cash + positions_value
+    termination_value = cash + sum(termination_value_of(p, now) for p in positions)
+    discounted_value = cash + sum(discounted_termination_value_of(p, now) for p in positions)
+
     _append_csv(os.path.join(DATA_DIR, profile["history_csv"]), [
         "timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
+        "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct",
     ], {
-        "timestamp": timestamp,
+        "timestamp": now.isoformat(),
         "kasse": round(cash, 4),
         "positionswert": round(positions_value, 4),
         "nav": round(nav, 4),
         "rendite_pct": round((nav / STARTING_CAPITAL - 1) * 100, 3),
-        "offene_positionen": n_open,
+        "offene_positionen": len(positions),
+        "terminierungswert": round(termination_value, 4),
+        "diskontierter_terminierungswert": round(discounted_value, 4),
+        "diskontierte_rendite_pct": round((discounted_value / STARTING_CAPITAL - 1) * 100, 3),
     })
     return nav
 
@@ -466,7 +519,7 @@ def run_fund_step(profile, markets, hits, now):
     _select_new_trades(profile, state, hits, now)
 
     save_state(profile, state)
-    nav = log_history(profile, now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
+    nav = log_history(profile, now, state["cash"], state["positions"])
     print(f"Fonds [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
           f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
 
@@ -486,7 +539,7 @@ def watch_positions_step(profile, now):
 
     _mark_positions_via_lookup(profile, state, now)
     save_state(profile, state)
-    nav = log_history(profile, now.isoformat(), state["cash"], _positions_value(state["positions"]), len(state["positions"]))
+    nav = log_history(profile, now, state["cash"], state["positions"])
     print(f"Fonds-Watch [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
           f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
 

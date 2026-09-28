@@ -22,6 +22,13 @@ import re
 from datetime import datetime, timezone
 
 STARTING_CAPITAL = 100.0
+ANNUAL_DISCOUNT_RATE = 0.02  # muss zu scripts/fund_simulator.py ANNUAL_DISCOUNT_RATE passen
+
+
+def discount_factor(days, rate=ANNUAL_DISCOUNT_RATE):
+    if days is None or days <= 0:
+        return 1.0
+    return 1.0 / ((1.0 + rate) ** (days / 365.25))
 
 # Muss zu scripts/fund_simulator.py PROFILES passen (Dateinamen + Reihenfolge).
 FUND_PROFILES = [
@@ -159,6 +166,62 @@ def build_navchart(history, width=1000, height=180):
       <polyline points="{line_pts}" fill="none" stroke="{end_color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
       <circle cx="{endx:.1f}" cy="{endy:.1f}" r="3.5" fill="{end_color}"/>
       <text x="{max(endx-70,pad_x):.1f}" y="{max(endy-10,14):.1f}" font-size="12" font-weight="700" fill="{end_color}" font-family="IBM Plex Mono, monospace">{values[-1]:.2f}</text>
+    </svg>'''
+
+
+def build_value_chart(history, width=1000, height=200):
+    """Terminierungswert (was man bei sofortiger regulärer Auszahlung aller
+    offenen Positionen bekäme) und derselbe Wert abgezinst für die
+    Kapitalbindung bis zur Fälligkeit. Nutzt nur Zeilen, in denen beide
+    Felder vorhanden sind (ältere history.csv-Zeilen vor Einführung dieser
+    Kennzahl bleiben für diesen Chart leer, tauchen aber weiter im
+    NAV-Chart auf)."""
+    rows = [r for r in history if r.get("terminierungswert") and r.get("diskontierter_terminierungswert")]
+    if len(rows) < 2:
+        return None
+
+    term_vals = [float(r["terminierungswert"]) for r in rows]
+    disc_vals = [float(r["diskontierter_terminierungswert"]) for r in rows]
+    all_vals = term_vals + disc_vals + [STARTING_CAPITAL]
+    vmin, vmax = min(all_vals), max(all_vals)
+    if vmax - vmin < 0.5:
+        vmin -= 1
+        vmax += 1
+    pad = (vmax - vmin) * 0.12
+    vmin -= pad
+    vmax += pad
+    n = len(rows)
+    pad_x = 4
+
+    def X(i):
+        return pad_x + i / (n - 1) * (width - 2 * pad_x)
+
+    def Y(v):
+        return height - 28 - (v - vmin) / (vmax - vmin) * (height - 44)
+
+    def polyline(values, color, dash=""):
+        pts = " ".join(f"{X(i):.1f},{Y(v):.1f}" for i, v in enumerate(values))
+        dash_attr = f' stroke-dasharray="{dash}"' if dash else ""
+        return f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="2"{dash_attr} stroke-linejoin="round" stroke-linecap="round"/>'
+
+    baseline = ""
+    if vmin <= STARTING_CAPITAL <= vmax:
+        by = Y(STARTING_CAPITAL)
+        baseline = (f'<line x1="{pad_x}" y1="{by:.1f}" x2="{width-pad_x}" y2="{by:.1f}" '
+                    f'stroke="var(--muted-2)" stroke-width="1" stroke-dasharray="3,4"/>')
+
+    term_line = polyline(term_vals, "var(--accent)")
+    disc_line = polyline(disc_vals, "var(--warn)", dash="6,4")
+    endx = X(n - 1)
+
+    return f'''<svg class="navchart" viewBox="0 0 {width} {height}" preserveAspectRatio="none" role="img" aria-label="Terminierungswert-Verlauf">
+      {baseline}
+      {term_line}
+      {disc_line}
+      <circle cx="{endx:.1f}" cy="{Y(term_vals[-1]):.1f}" r="3.5" fill="var(--accent)"/>
+      <circle cx="{endx:.1f}" cy="{Y(disc_vals[-1]):.1f}" r="3.5" fill="var(--warn)"/>
+      <text x="{max(endx-90,pad_x):.1f}" y="{max(Y(term_vals[-1])-10,14):.1f}" font-size="12" font-weight="700" fill="var(--accent)" font-family="IBM Plex Mono, monospace">{term_vals[-1]:.2f}</text>
+      <text x="{max(endx-90,pad_x):.1f}" y="{min(Y(disc_vals[-1])+20,height-6):.1f}" font-size="12" font-weight="700" fill="var(--warn)" font-family="IBM Plex Mono, monospace">{disc_vals[-1]:.2f}</text>
     </svg>'''
 
 
@@ -300,6 +363,10 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 .fundstats div{ font-size:12px; color:var(--muted); }
 .fundstats b{ display:block; font-size:15px; color:var(--text); font-family:"IBM Plex Mono",monospace; margin-top:2px; }
 .navchart{ display:block; width:100%; height:auto; margin-top:14px; }
+.charttitle{ font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; font-weight:700; margin-top:4px; }
+.chartlegend{ display:flex; gap:16px; flex-wrap:wrap; font-size:12px; color:var(--muted); margin-top:4px; }
+.chartlegend span{ display:flex; align-items:center; gap:6px; }
+.chartlegend i{ width:16px; height:0; border-top-width:2px; border-top-style:solid; display:inline-block; }
 
 .card.fund .row{ display:flex; justify-content:space-between; font-size:12px; color:var(--muted); font-family:"IBM Plex Mono",monospace; }
 .card.fund .pnl.pos{ color:var(--accent); }
@@ -426,6 +493,8 @@ def render(data_dir):
           <td>{esc(o['zeit_bis_ende'])}</td>
         </tr>"""
 
+    now_utc = datetime.now(timezone.utc)
+
     fund_results = []
     for fp in FUND_PROFILES:
         state = load_json(os.path.join(data_dir, fp["state_json"]), {"cash": STARTING_CAPITAL, "positions": [], "started": None})
@@ -434,13 +503,16 @@ def render(data_dir):
         positions = state["positions"]
         positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
         nav = state["cash"] + positions_value
+        termination_value = state["cash"] + sum(p["shares"] for p in positions)
+        discounted_value = state["cash"] + sum(
+            p["shares"] * discount_factor(days_to_end(p.get("end_date"), now_utc)) for p in positions
+        )
         fund_results.append({
             "profile": fp, "state": state, "history": history, "trades": trades,
             "positions": positions, "positions_value": positions_value, "nav": nav,
             "return_pct": (nav / STARTING_CAPITAL - 1) * 100,
+            "termination_value": termination_value, "discounted_value": discounted_value,
         })
-
-    now_utc = datetime.now(timezone.utc)
 
     compare_html = ""
     for fr in fund_results:
@@ -451,6 +523,8 @@ def render(data_dir):
           <span class="retpill {ret_class(fr['return_pct'])}">{fr['return_pct']:+.2f}%</span>
           <div class="sub"><span>Positionen</span><span>{len(fr['positions'])}</span></div>
           <div class="sub"><span>Kasse</span><span>{fr['state']['cash']:.2f} USD</span></div>
+          <div class="sub"><span>Terminierungswert</span><span>{fr['termination_value']:.2f} USD</span></div>
+          <div class="sub"><span>&nbsp;&nbsp;davon diskontiert</span><span>{fr['discounted_value']:.2f} USD</span></div>
         </div>"""
 
     def render_fund_detail(fr):
@@ -458,6 +532,10 @@ def render(data_dir):
         navchart_html = build_navchart(fr["history"])
         if navchart_html is None:
             navchart_html = '<div class="empty">Noch zu wenig Verlauf für einen Chart &mdash; der Fonds sammelt gerade seine erste Kursreihe.</div>'
+
+        valuechart_html = build_value_chart(fr["history"])
+        if valuechart_html is None:
+            valuechart_html = '<div class="empty">Noch zu wenig Verlauf für diesen Chart &mdash; die Kennzahl wurde gerade erst eingeführt.</div>'
 
         position_cards_html = ""
         for p in sorted(fr["positions"], key=lambda p: -(p["shares"] * (p.get("letzter_kurs", p["einstandskurs"]) - p["einstandskurs"]))):
@@ -467,6 +545,10 @@ def render(data_dir):
             pnl_cls = "pos" if pnl_abs >= 0 else "neg"
             dte = days_to_end(p.get("end_date"), now_utc)
             laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
+            term_value = p["shares"] * 1.0
+            dfac = discount_factor(dte)
+            disc_value = term_value * dfac
+            abschlag_pct = (1 - dfac) * 100
             position_cards_html += f"""
             <div class="card fund">
               <div class="q">{esc(p['frage'])}</div>
@@ -476,6 +558,8 @@ def render(data_dir):
               <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
               <div class="row"><span>Liquidität</span><span>{money(p['liquiditaet'])}</span></div>
               <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
+              <div class="row" style="border-top:1px dashed var(--border); padding-top:6px; margin-top:2px;"><span>Terminierungswert</span><span>{term_value:.2f} USD</span></div>
+              <div class="row"><span>Diskontiert ({ANNUAL_DISCOUNT_RATE*100:.0f}%&thinsp;p.a.)</span><span>{disc_value:.2f} USD (&minus;{abschlag_pct:.1f}%)</span></div>
             </div>"""
         if not fr["positions"]:
             position_cards_html = (f'<div class="empty">Der Fonds hält aktuell keine Position &mdash; er wartet auf einen Treffer, der '
@@ -515,7 +599,23 @@ def render(data_dir):
               <div>Offene Positionen<b>{len(fr['positions'])}</b></div>
               <div>In Positionen gebunden<b>{fr['positions_value']:.2f} USD</b></div>
             </div>
+            <div class="charttitle">NAV (Marktpreis-bewertet)</div>
             {navchart_html}
+          </div>
+          <div class="fundhero">
+            <div class="navblock">
+              <span class="navlabel">Terminierungswert</span>
+              <span class="navvalue">{fr['termination_value']:.2f}&nbsp;USD</span>
+            </div>
+            <div class="fundstats">
+              <div>Diskontiert ({ANNUAL_DISCOUNT_RATE*100:.0f}%&thinsp;p.a.)<b>{fr['discounted_value']:.2f} USD</b></div>
+              <div>Abschlag durch Kapitalbindung<b>{(1 - fr['discounted_value']/fr['termination_value'])*100 if fr['termination_value'] else 0:.2f}%</b></div>
+            </div>
+            <div class="chartlegend">
+              <span><i style="border-top-color:var(--accent);"></i>Terminierungswert (Auszahlung 1.00&nbsp;USD/Paar, sofort)</span>
+              <span><i style="border-top-color:var(--warn); border-top-style:dashed;"></i>Diskontiert (Kapitalbindung bis Fälligkeit)</span>
+            </div>
+            {valuechart_html}
           </div>
           <div class="cards">{position_cards_html}
           </div>
@@ -622,6 +722,7 @@ def render(data_dir):
   <footer>
     Scan-Logik: alle offenen Yes/No-Märkte der Polymarket-Gamma-API werden per Keyset-Pagination geladen und auf <code>Yes-Preis + No-Preis &lt; 1.00</code> geprüft. Ein Treffer ist <b>keine garantierte risikofreie Arbitrage</b> &mdash; Spread, Slippage und Settlement-Timing sind nicht eingerechnet, und die meisten Treffer oben haben kein Handelsvolumen.<br>
     Fonds-Logik: reines Papier-Trading, es wird nichts echt gehandelt. Drei Profile mit unterschiedlichem Realismus-Grad (siehe Beschreibung je Fonds oben) - von "hält sich an Mindest-Liquidität und Marktimpact" bis "Best Case ohne jede Realismus-Bremse". Auszahlung bei Marktauflösung wird bei allen drei als sauberes 1.00&nbsp;USD/Paar angenommen.<br>
+    Terminierungswert &amp; Diskontierung: der Terminierungswert ist, was man bekäme, würden alle offenen Positionen sofort regulär ausgezahlt (1.00&nbsp;USD je gehaltenem Anteilspaar) - unabhängig vom aktuell notierten Marktpreis. Der diskontierte Wert rechnet zusätzlich ein, dass das Geld bis zur echten Fälligkeit gebunden ist: er wird mit angenommenen {ANNUAL_DISCOUNT_RATE*100:.0f}% p.a. (Kapitalbindungskosten/Inflations-Näherung, kein realer Marktzins) über die Restlaufzeit der jeweiligen Position abgezinst.<br>
     Rohdaten &amp; Verlauf: <a href="https://github.com/rouvenwieland/polymarket-scanner" target="_blank" rel="noopener">github.com/rouvenwieland/polymarket-scanner</a> &middot; <code>data/summary.csv</code>, <code>data/fund_state*.json</code>, <code>data/fund_trades*.csv</code>, <code>data/fund_history*.csv</code><br>
     Aktualisierung: automatisch jeden Morgen um 7&thinsp;Uhr, dazu jederzeit auf Zuruf ("aktualisiere").
   </footer>
