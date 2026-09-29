@@ -308,3 +308,38 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-29T03:08:21.685529+02:00,KAUF,5084640,Exact Score: CA Platense 0 - 4 AA Argentinos Juniors?,2.0724,0.995,-2.0621,2.0621,"Spread 0.50%, Liquiditaet 5 USD"
 2026-09-29T03:17:04.107925+02:00,VERKAUF,5055455,Game 1: Ends in Daytime?,2.0724,1.0,2.0724,4.1345,Konvergenz erreicht (Kurs 1.000)
 2026-09-29T03:17:04.107925+02:00,VERKAUF,5027869,Exact Score: Colorado Springs Switchbacks FC 5 - 3 Oakland Roots SC?,2.0724,1.0,2.0724,6.2069,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5047020,Exact Score: Club Universitario de Deportes 0 - 4 FBC Melgar?,2.0101,1.0,2.0101,8.2169,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,4877496,Exact Score: Belarus 2 - 3 Finland?,2.0474,1.0,2.0474,10.2643,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5036125,Shanghai Shenhua FC vs. Yunnan Yukun FC: Both Teams to Score,2.0474,1.0,2.0474,12.3117,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,4685200,Exact Score: Korea Republic 2 - 1 Venezuela?,2.0532,1.0,2.0532,14.3649,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5082524,FC Midtjylland vs. FC København: Both Teams to Score in Second Half,2.0532,1.0,2.0532,16.4181,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5095616,Game 1: Both Teams Slay a Dragon?,2.0724,1.0,2.0724,18.4906,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,4991649,Exact Score: Bohemians Praha 1905 4 - 0 FC Baník Ostrava?,2.0724,1.0,2.0724,20.563,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5068946,Exact Score: FK LNZ Cherkasy 4 - 0 FK Kudrivka?,2.0724,1.0,2.0724,22.6354,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5069068,Exact Score: Aberdeen FC 4 - 2 St Johnstone FC?,2.0724,1.0,2.0724,24.7078,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5069080,Exact Score: Aberdeen FC 5 - 2 St Johnstone FC?,2.0724,1.0,2.0724,26.7802,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5009991,Exact Score: 1. FSV Mainz 05 3 - 4 Bayer 04 Leverkusen?,2.0724,1.0,2.0724,28.8527,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5047032,Exact Score: FK Teplice 0 - 1 SK Sigma Olomouc?,2.0724,1.0,2.0724,30.9251,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5046455,Exact Score: El Qanah Club 4 - 4 El Masry SC?,2.0724,1.0,2.0724,32.9975,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5048232,Exact Score: Al Shabab Saudi Club 0 - 3 Al Taawoun Saudi Club?,2.0724,1.0,2.0724,35.0699,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5046628,Exact Score: FCV Farul Constanţa 1 - 0 FC Petrolul Ploieşti?,2.0724,1.0,2.0724,37.1423,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,VERKAUF,5084640,Exact Score: CA Platense 0 - 4 AA Argentinos Juniors?,2.0724,1.0,2.0724,39.2147,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T08:53:46.424174+02:00,KAUF,3961326,Will Palantir (PLTR) close above $192 end of September?,2.0743,0.995,-2.0639,37.1508,"Spread 0.50%, Liquiditaet 402 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5070357,Exact Score: VfB Stuttgart 4 - 2 Greuther Furth?,2.0743,0.995,-2.0639,35.0869,"Spread 0.50%, Liquiditaet 16 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,4751454,Rochdale AFC leading at halftime?,2.0743,0.995,-2.0639,33.0229,"Spread 0.50%, Liquiditaet 1244 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,4791763,Exact Score: Newton Stewart FC 2 - 2 Johnstone Burgh FC?,2.0743,0.995,-2.0639,30.959,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5042896,Exact Score: Brighton and Hove Albion WFC 5 - 2 Charlton Athletic?,2.0743,0.995,-2.0639,28.8951,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5118276,Will Nico Collins finish Week 4 of the 2026-27 NFL regular season with the most scrimmage yards?,2.0743,0.995,-2.0639,26.8311,"Spread 0.50%, Liquiditaet 35 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5118386,Will Rome Odunze finish Week 4 of the 2026-27 NFL regular season with the most scrimmage yards?,2.0743,0.995,-2.0639,24.7672,"Spread 0.50%, Liquiditaet 34 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5091503,Will Kacmarek: Anytime Touchdown,2.0743,0.995,-2.0639,22.7033,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,4844788,Will Yoseph Theolifus Taher finish in the Top 5 of Titled Tuesday on September 29?,2.0848,0.99,-2.0639,20.6393,"Spread 1.00%, Liquiditaet 0 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5112951,New Mexico State vs. Florida International: Both Teams to Score a Touchdown - Q4,2.0743,0.995,-2.0639,18.5754,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,4970704,Exact Score: 1. FC Heidenheim 2 - 0 1. FC Kaiserslautern?,2.0743,0.995,-2.0639,16.5115,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5017780,Exact Score: Empoli FC 1 - 2 Palermo FC?,2.0743,0.995,-2.0639,14.4475,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5057337,Exact Score: SS Lazio 3 - 2 AC Monza?,2.0743,0.995,-2.0639,12.3836,"Spread 0.50%, Liquiditaet 23 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5010180,Exact Score: Middlesbrough FC 5 - 3 Wolverhampton Wanderers FC?,2.0743,0.995,-2.0639,10.3197,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5112995,Sam Houston vs. Liberty: Pick-Six Scored,2.0743,0.995,-2.0639,8.2557,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5054144,Exact Score: Gwangju FC 5 - 2 Ulsan HD FC?,2.0743,0.995,-2.0639,6.1918,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5114120,Exact Margin: Tie,2.0743,0.995,-2.0639,4.1279,"Spread 0.50%, Liquiditaet 5 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5113408,Exact Margin: Purdue by 7-12,2.0743,0.995,-2.0639,2.0639,"Spread 0.50%, Liquiditaet 4 USD"
+2026-09-29T08:53:46.424174+02:00,KAUF,5113729,Exact Margin: San Diego State by 1-6,2.0743,0.995,-2.0639,0.0,"Spread 0.50%, Liquiditaet 2 USD"

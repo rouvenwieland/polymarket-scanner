@@ -1044,3 +1044,71 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-09-29T03:08:21.685529+02:00,5095605,Game 3: Both Teams Slay Baron Nashor?,lol-fsk-tsc-2026-09-29-game3-both-teams-slay-baron,0.5,0.495,0.995,0.0,2.36,2026-09-29T23:00:00Z
 2026-09-29T03:08:21.685529+02:00,5095616,Game 1: Both Teams Slay a Dragon?,lol-esb-wd-2026-09-29-game1-both-teams-slay-dragon,0.495,0.5,0.995,0.0,2.36,2026-09-29T22:00:00Z
 2026-09-29T03:08:21.685529+02:00,5105789,Tay Martin: Team First TD (Detroit Lions),nfl-det-car-2026-10-05-team-first-td-58-tay-martin,0.5,0.495,0.995,0.0,10.2598,2026-10-05T00:20:00Z
+2026-09-29T08:53:46.424174+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-09-29T08:53:46.424174+02:00,3251595,Will Mexico GDP growth in Q3 2026 be between 1.5% and 2.0%?,will-mexico-gdp-growth-in-q3-2026-be-between-1pt5-and-2pt0-20260731151540699,0.0765,0.923,0.9995,14833.763905,772.7534,2026-10-30T06:00:00Z
+2026-09-29T08:53:46.424174+02:00,3401688,Will Ja'Tavion Sanders be the highest-scoring TE of the 2026-27 NFL season?,will-jatavion-sanders-be-the-highest-scoring-te-of-the-2026-27-nfl-season-20260806224131179,0.4485,0.55,0.9985,29.6,4.02697,2027-01-27T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3502659,Will George Pickens have 8.5+ receiving touchdowns in the 2026-27 NFL regular season?,george-pickens-8pt5-receiving-touchdowns-2026-27,0.27,0.725,0.995,0.0,21.6077,2027-01-27T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3503882,"Will Jaxson Dart have 3,400.5+ passing yards in the 2026-27 NFL regular season?",jaxson-dart-3400pt5-passing-yards-2026-27,0.03,0.9695,0.9995,0.0,21.37987,2027-01-27T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3523794,Will the Republican Party candidate win the 2026 TX-06 House election by 0%-5%?,will-the-republican-party-candidate-win-the-2026-tx-06-house-election-by-0-5,0.029,0.9695,0.9985,167.5,10253.03617,2027-07-01T03:59:00Z
+2026-09-29T08:53:46.424174+02:00,3530201,Will Estudiantes (RC) win the 2026 Liga Profesional (Argentina)?,2026-soccer-liga-profesional-argentina-winner-estudiantes-rc,0.465,0.53,0.9950000000000001,62.0,4.4124,2027-01-01T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3530209,Will Newell's Old Boys win the 2026 Liga Profesional (Argentina)?,2026-soccer-liga-profesional-argentina-winner-newells-old-boys,0.45,0.545,0.9950000000000001,0.0,7.0576,2027-01-01T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3543924,Will FC Cajamarca be runner-up in the 2026 Peru Liga 1?,2026-soccer-peru-liga-1-runner-up-fc-cajamarca,0.48,0.515,0.995,0.0,17.0438,2027-01-01T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3847894,Will Norrby IF be promoted to Allsvenskan (Sweden)?,will-norrby-if-be-promoted-to-allsvenskan-sweden-2026,0.485,0.51,0.995,55.0,1.3243,2027-01-01T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3914315,Will Örgryte IS keep the most clean sheets in the 2026 Allsvenskan (Sweden)?,will-orgryte-is-keep-the-most-clean-sheets-in-allsvenskan-sweden-2026,0.485,0.51,0.995,0.0,5.304,2027-01-01T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,3961326,Will Palantir (PLTR) close above $192 end of September?,pltr-above-192-on-september-30-2026,0.33,0.665,0.9950000000000001,0.0,401.7679,2026-09-30T20:00:00Z
+2026-09-29T08:53:46.424174+02:00,4166606,Will a Democratic Party candidate win the 2026 CA-13 House election by 5%-10%?,will-a-democratic-party-candidate-win-the-2026-ca-13-house-election-by-5-10,0.39,0.605,0.995,0.0,57.9747,2026-11-03T12:00:00Z
+2026-09-29T08:53:46.424174+02:00,4216643,Will Brock Bowers have 120.5+ receptions in the 2026-27 NFL regular season?,brock-bowers-120pt5-receptions-2026-27,0.49,0.505,0.995,0.0,3.2239,2027-01-12T23:59:00Z
+2026-09-29T08:53:46.424174+02:00,4227708,Will Dylan Lonergan be the 2026 Big Ten Passing TDs Leader?,will-dylan-lonergan-be-the-2026-big-ten-passing-tds-leader,0.485,0.51,0.995,0.0,8.6679,2026-12-06T23:59:00Z
+2026-09-29T08:53:46.424174+02:00,4518360,Exact Score: Huddersfield Town AFC 0 - 1 Luton Town FC?,el1-hud-lut-2026-09-26-exact-score-0-1,0.49,0.505,0.995,0.0,7.1599,2026-11-03T19:45:00Z
+2026-09-29T08:53:46.424174+02:00,4518521,Game 1: Any Player Rampage?,dota2-z10-dawnbu-2026-09-13-game1-any-player-rampage,0.5,0.0,0.5,10.0,0.0,2026-09-20T21:00:00Z
+2026-09-29T08:53:46.424174+02:00,4518523,Game 2: Both Teams Beat Roshan?,dota2-z10-dawnbu-2026-09-13-game2-both-teams-beat-roshan,0.5,0.0,0.5,0.0,0.0,2026-09-20T21:00:00Z
+2026-09-29T08:53:46.424174+02:00,4751454,Rochdale AFC leading at halftime?,el2-roc-swi-2026-10-03-halftime-result-home,0.295,0.7,0.9949999999999999,0.0,1244.4327,2026-10-03T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,4790946,Wydad Sportif Témara vs. Union Touarga Sports: Both Teams to Score,mar1-wst-uts-2026-10-02-btts,0.495,0.5,0.995,0.0,82.6589,2026-10-02T18:00:00Z
+2026-09-29T08:53:46.424174+02:00,4791763,Exact Score: Newton Stewart FC 2 - 2 Johnstone Burgh FC?,scoc-new-jb-2026-10-03-exact-score-2-2,0.48,0.515,0.995,0.0,13.9898,2026-10-03T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top5-nihal-sarin,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-29T08:53:46.424174+02:00,4844788,Will Yoseph Theolifus Taher finish in the Top 5 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top5-yoseph-theolifus-taher,0.49,0.5,0.99,0.0,0.0,2026-10-14T03:59:00Z
+2026-09-29T08:53:46.424174+02:00,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,titled-tuesday-2026-09-29-top8-jan-krzysztof-duda,0.49,0.5,0.99,0.0,40.0,2026-10-14T03:59:00Z
+2026-09-29T08:53:46.424174+02:00,4880355,Exact Score: Threave Rovers FC 1 - 1 Invergordon FC?,scoc-thr-if-2026-10-03-exact-score-1-1,0.48,0.515,0.995,0.0,14.2894,2026-10-03T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,4883533,Exact Score: Grenada 3 - 3 Bonaire?,conl-grn-bon-2026-10-05-exact-score-3-3,0.48,0.515,0.995,0.0,13.0655,2026-10-06T00:00:00Z
+2026-09-29T08:53:46.424174+02:00,4915811,San Jose State vs. Hawai'i: Both Teams to Score Points - Q3,cfb-sjst-hawaii-2026-10-04-3q-btts-points,0.5,0.495,0.995,0.0,2.16,2026-10-04T04:00:00Z
+2026-09-29T08:53:46.424174+02:00,4916599,BYU vs. TCU: Game Goes to Overtime,cfb-byu-tcu-2026-10-03-overtime,0.5,0.495,0.995,0.0,2.16,2026-10-03T23:00:00Z
+2026-09-29T08:53:46.424174+02:00,4917128,Kentucky vs. South Carolina: Both Teams to Score Points - Q3,cfb-uk-sc-2026-10-03-3q-btts-points,0.5,0.495,0.995,0.0,1.08,2026-10-03T20:15:00Z
+2026-09-29T08:53:46.424174+02:00,4917648,Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H,cfb-bowlgr-miaoh-2026-10-03-2h-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-03T19:30:00Z
+2026-09-29T08:53:46.424174+02:00,4919481,North Texas vs. Tulsa: Both Teams to Score a Touchdown,cfb-ntx-tulsa-2026-10-01-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-02T01:00:00Z
+2026-09-29T08:53:46.424174+02:00,4965275,Al Hazem SC vs. NEOM SC: Both Teams to Score,spl-haz-neo-2026-10-09-btts,0.49,0.505,0.995,0.0,91.6586,2026-10-09T13:50:00Z
+2026-09-29T08:53:46.424174+02:00,4970704,Exact Score: 1. FC Heidenheim 2 - 0 1. FC Kaiserslautern?,bl2-hei-fck-2026-10-09-exact-score-2-0,0.485,0.51,0.995,0.0,13.1195,2026-10-09T16:30:00Z
+2026-09-29T08:53:46.424174+02:00,4974148,Exact Score: AS Nancy-Lorraine 5 - 1 En Avant Guingamp?,fr2-asn-gui-2026-10-09-exact-score-5-1,0.475,0.52,0.995,9.9898,14.1295,2026-10-09T18:00:00Z
+2026-09-29T08:53:46.424174+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-09-29T08:53:46.424174+02:00,5010180,Exact Score: Middlesbrough FC 5 - 3 Wolverhampton Wanderers FC?,elc-mid-wol-2026-10-10-exact-score-5-3,0.475,0.52,0.995,9.9898,12.7195,2026-10-10T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,5017780,Exact Score: Empoli FC 1 - 2 Palermo FC?,itsb-emp-pal-2026-10-10-exact-score-1-2,0.48,0.515,0.995,0.0,14.2598,2026-10-10T13:00:00Z
+2026-09-29T08:53:46.424174+02:00,5018570,Exact Score: Doncaster Rovers FC 0 - 1 Burton Albion FC?,el1-don-bur-2026-10-10-exact-score-0-1,0.48,0.515,0.995,0.0,14.3195,2026-10-10T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,5036481,Exact Score: Chicago Fire FC 4 - 1 New York City FC?,mls-chi-nyc-2026-10-10-exact-score-4-1,0.48,0.515,0.995,0.0,14.7693,2026-10-10T18:30:00Z
+2026-09-29T08:53:46.424174+02:00,5036851,Exact Score: Austin FC 1 - 5 Nashville SC?,mls-aus-nas-2026-10-10-exact-score-1-5,0.49,0.505,0.995,0.0,9.1397,2026-10-11T00:30:00Z
+2026-09-29T08:53:46.424174+02:00,5041459,Kaden Wetjen: Team First TD (Pittsburgh Steelers),nfl-pit-cle-2026-10-02-team-first-td-74-kaden-wetjen,0.495,0.5,0.995,0.0,2.3599,2026-10-02T00:15:00Z
+2026-09-29T08:53:46.424174+02:00,5042896,Exact Score: Brighton and Hove Albion WFC 5 - 2 Charlton Athletic?,wsl-brh-cha-2026-10-04-exact-score-5-2,0.485,0.51,0.995,0.0,10.1599,2026-10-04T13:00:00Z
+2026-09-29T08:53:46.424174+02:00,5046496,Exact Score: CR Vasco da Gama 3 - 1 Clube do Remo?,bra-vas-cre-2026-10-10-exact-score-3-1,0.485,0.51,0.995,0.0,13.1694,2026-10-10T20:00:00Z
+2026-09-29T08:53:46.424174+02:00,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,bra2-juv-ber-2026-10-11-exact-score-5-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T19:00:00Z
+2026-09-29T08:53:46.424174+02:00,5046733,Exact Score: FCV Farul Constanţa 4 - 3 FC Petrolul Ploieşti?,rou1-ffc-fpp-2026-10-11-exact-score-4-3,0.485,0.51,0.995,0.0,11.9368,2026-10-11T18:00:00Z
+2026-09-29T08:53:46.424174+02:00,5048138,Exact Score: Abha Saudi Club 5 - 4 Al Faisaly Saudi Club?,spl-abh-fai-2026-10-11-exact-score-5-4,0.49,0.505,0.995,0.0,5.3731,2026-10-11T13:40:00Z
+2026-09-29T08:53:46.424174+02:00,5049745,Exact Score: Brøndby IF 5 - 3 Lyngby BK?,den-bro-lyn-2026-10-11-exact-score-5-3,0.48,0.515,0.995,0.0,13.003,2026-10-11T14:00:00Z
+2026-09-29T08:53:46.424174+02:00,5054144,Exact Score: Gwangju FC 5 - 2 Ulsan HD FC?,kor-gwa-uls-2026-10-11-exact-score-5-2,0.48,0.515,0.995,0.0,14.0194,2026-10-11T05:00:00Z
+2026-09-29T08:53:46.424174+02:00,5057337,Exact Score: SS Lazio 3 - 2 AC Monza?,sea-laz-mon-2026-10-11-exact-score-3-2,0.245,0.75,0.995,0.0,22.9298,2026-10-11T13:00:00Z
+2026-09-29T08:53:46.424174+02:00,5070357,Exact Score: VfB Stuttgart 4 - 2 Greuther Furth?,clf-vfb-sgf-2026-10-01-exact-score-4-2,0.48,0.515,0.995,0.0,16.0293,2026-10-01T15:30:00Z
+2026-09-29T08:53:46.424174+02:00,5083568,Isaiah Likely: Anytime Touchdown,nfl-ari-nyg-2026-10-04-anytime-td-isaiah-likely,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-29T08:53:46.424174+02:00,5083644,Brevin Jordan: Anytime Touchdown,nfl-dal-hou-2026-10-04-anytime-td-brevin-jordan,0.5,0.495,0.995,0.0,2.36,2026-10-04T17:00:00Z
+2026-09-29T08:53:46.424174+02:00,5084404,LeQuint Allen Jr.: Anytime Touchdown,nfl-jax-cin-2026-10-04-anytime-td-lequint-allen-jr,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-29T08:53:46.424174+02:00,5088302,Exact Score: FC Universitatea Cluj 4 - 3 FC Rapid 1923?,rou1-fuc-fcr-2026-10-12-exact-score-4-3,0.485,0.51,0.995,0.0,12.7914,2026-10-12T18:00:00Z
+2026-09-29T08:53:46.424174+02:00,5088385,Exact Score: CR Flamengo 5 - 0 Fluminense FC?,bra-fla-flu-2026-10-11-exact-score-5-0,0.485,0.51,0.995,0.0,14.2993,2026-10-11T20:30:00Z
+2026-09-29T08:53:46.424174+02:00,5089242,Exact Score: Coritiba FBC 1 - 3 Botafogo FR?,bra-cor-bot-2026-10-12-exact-score-1-3,0.48,0.515,0.995,0.0,14.3198,2026-10-12T19:00:00Z
+2026-09-29T08:53:46.424174+02:00,5090952,"M25 Zaragoza, Main Draw: Completed Match: Pedro Rodenas vs Oscar Jose Gutierrez",itf-rodena1-gutier1-2026-09-29-completed-match,0.5,0.495,0.995,0.0,0.2,2026-10-06T16:00:00Z
+2026-09-29T08:53:46.424174+02:00,5091503,Will Kacmarek: Anytime Touchdown,nfl-mia-min-2026-10-04-anytime-td-will-kacmarek,0.495,0.5,0.995,0.0,2.1198,2026-10-04T20:05:00Z
+2026-09-29T08:53:46.424174+02:00,5091952,Jake Briningstool: Anytime Touchdown,nfl-kc-lv-2026-10-04-anytime-td-jake-briningstool,0.5,0.495,0.995,0.0,2.1199,2026-10-04T20:25:00Z
+2026-09-29T08:53:46.424174+02:00,5095605,Game 3: Both Teams Slay Baron Nashor?,lol-fsk-tsc-2026-09-29-game3-both-teams-slay-baron,0.5,0.495,0.995,0.0,2.36,2026-09-29T23:00:00Z
+2026-09-29T08:53:46.424174+02:00,5105789,Tay Martin: Team First TD (Detroit Lions),nfl-det-car-2026-10-05-team-first-td-58-tay-martin,0.5,0.495,0.995,0.0,10.2598,2026-10-05T00:20:00Z
+2026-09-29T08:53:46.424174+02:00,5112951,New Mexico State vs. Florida International: Both Teams to Score a Touchdown - Q4,cfb-nmxst-flint-2026-10-07-4q-btts-td,0.5,0.495,0.995,0.0,2.12,2026-10-07T23:30:00Z
+2026-09-29T08:53:46.424174+02:00,5112995,Sam Houston vs. Liberty: Pick-Six Scored,cfb-smho-librty-2026-10-08-pick-six,0.5,0.495,0.995,0.0,2.36,2026-10-08T23:00:00Z
+2026-09-29T08:53:46.424174+02:00,5113408,Exact Margin: Purdue by 7-12,cfb-minnst-pur-2026-10-10-exact-margin-short-7-12,0.465,0.53,0.9950000000000001,0.0,4.0259,2026-10-11T00:00:00Z
+2026-09-29T08:53:46.424174+02:00,5113729,Exact Margin: San Diego State by 1-6,cfb-sdst-oregst-2026-10-10-exact-margin-long-1-6,0.495,0.5,0.995,0.0,2.2944,2026-10-10T22:00:00Z
+2026-09-29T08:53:46.424174+02:00,5114120,Exact Margin: Tie,cfb-iowa-wash-2026-10-09-exact-margin-tie,0.465,0.53,0.9950000000000001,0.0,5.0454,2026-10-10T01:00:00Z
+2026-09-29T08:53:46.424174+02:00,5118276,Will Nico Collins finish Week 4 of the 2026-27 NFL regular season with the most scrimmage yards?,will-nico-collins-finish-week-4-of-the-2026-27-nfl-regular-season-with-the-most-scrimmage-yards,0.49,0.505,0.995,0.0,34.8978,2026-10-06T04:59:00Z
+2026-09-29T08:53:46.424174+02:00,5118386,Will Rome Odunze finish Week 4 of the 2026-27 NFL regular season with the most scrimmage yards?,will-rome-odunze-finish-week-4-of-the-2026-27-nfl-regular-season-with-the-most-scrimmage-yards,0.49,0.505,0.995,0.0,33.6008,2026-10-06T04:59:00Z
