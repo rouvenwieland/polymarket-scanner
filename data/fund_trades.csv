@@ -18,3 +18,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-29T20:53:05.805023+02:00,VERKAUF,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,2.4264,0.9992,2.4244,100.199,Konvergenz erreicht (Kurs 1.000)
 2026-09-29T20:53:05.805023+02:00,VERKAUF,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,2.4264,0.9963,2.4174,102.6164,Konvergenz erreicht (Kurs 1.000)
 2026-09-29T20:53:05.805023+02:00,KAUF,5120358,Will FK Livyi Bereh win on 2026-10-12?,15.8673,0.8374,-13.2869,89.3296,"Spread 17.50%, Liquiditaet 133 USD"
+2026-09-30T00:46:17.127907+02:00,VERKAUF,5120358,Will FK Livyi Bereh win on 2026-10-12?,15.8673,0.9834,15.6038,104.9334,Konvergenz erreicht (Kurs 1.000)

@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 64.87990080662055,
   "positions": [
     {
       "market_id": "5046585",
@@ -90,17 +90,6 @@
       "eingestiegen": "2026-09-28T23:24:34.469429+02:00"
     },
     {
-      "market_id": "5091952",
-      "frage": "Jake Briningstool: Anytime Touchdown",
-      "slug": "nfl-kc-lv-2026-10-04-anytime-td-jake-briningstool",
-      "shares": 2.0532208669251077,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.1199,
-      "end_date": "2026-10-04T20:25:00Z",
-      "eingestiegen": "2026-09-28T23:24:34.469429+02:00"
-    },
-    {
       "market_id": "4917648",
       "frage": "Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H",
       "slug": "cfb-bowlgr-miaoh-2026-10-03-2h-btts-td",
@@ -167,17 +156,6 @@
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
-      "market_id": "4790827",
-      "frage": "HUS Agadir vs. Maghreb AS de Fès: Both Teams to Score in First Half",
-      "slug": "mar1-hua-mad-2026-10-03-btts-first-half",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4.6783,
-      "end_date": "2026-10-03T16:00:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
       "market_id": "4883436",
       "frage": "El Salvador leading at halftime?",
       "slug": "conl-mart-slv-2026-10-05-halftime-result-away",
@@ -200,94 +178,6 @@
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
-      "market_id": "5120358",
-      "frage": "Will FK Livyi Bereh win on 2026-10-12?",
-      "slug": "ukr1-liv-zor-2026-10-12-liv",
-      "shares": 2.508609737425483,
-      "einstandskurs": 0.825,
-      "letzter_kurs": 0.825,
-      "liquiditaet": 132.8685,
-      "end_date": "2026-10-12T10:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4053846",
-      "frage": "Will Chainlink reach $20 in September?",
-      "slug": "will-chainlink-reach-20-in-september-2026",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1190.6473,
-      "end_date": "2026-10-01T04:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5056772",
-      "frage": "Will Carrick Rangers vs. Crusaders FC end in a draw?",
-      "slug": "nirl1-car-cru-2026-10-03-draw",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1665.0924,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4776830",
-      "frage": "RB Ōmiya Ardija leading at halftime?",
-      "slug": "ja2-teg-omi-2026-10-04-halftime-result-away",
-      "shares": 2.0800030486191194,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 1233.0638,
-      "end_date": "2026-10-04T10:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4978719",
-      "frage": "Exact Score: Mauritius 2 - 3 Sri Lanka?",
-      "slug": "fif-mri-sri-2026-10-02-exact-score-2-3",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 3.5597,
-      "end_date": "2026-10-02T15:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4727499",
-      "frage": "Exact Score: Martinique 0 - 2 Honduras?",
-      "slug": "conl-mart-hnd-2026-10-02-exact-score-0-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.1599,
-      "end_date": "2026-10-03T00:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4727556",
-      "frage": "Exact Score: Bonaire 2 - 1 Grenada?",
-      "slug": "conl-bon-grn-2026-10-02-exact-score-2-1",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.36,
-      "end_date": "2026-10-03T00:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4756926",
-      "frage": "Exact Score: Haddington Athletic FC 0 - 2 Cumbernauld Colts FC?",
-      "slug": "scoc-had-cmb-2026-10-03-exact-score-0-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3595,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
       "market_id": "5131375",
       "frage": "Will MicroStrategy (MSTR) hit (HIGH) $155 Week of September 28 2026?",
       "slug": "will-mstr-reach-155-by-september-28-2026",
@@ -299,50 +189,6 @@
       "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
     },
     {
-      "market_id": "4751582",
-      "frage": "Exact Score: Any Other Score?",
-      "slug": "el2-col-pvl-2026-10-03-exact-score-any-other",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 3.5197,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4847161",
-      "frage": "Exact Score: Tonbridge Angels FC 3 - 0 Torquay United FC?",
-      "slug": "efa-ton-tor-2026-10-03-exact-score-3-0",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.1199,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5037438",
-      "frage": "Exact Score: CA Boston River 1 - 2 CA Juventud de Las Piedras?",
-      "slug": "uru1-bri-juv-2026-10-04-exact-score-1-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3399,
-      "end_date": "2026-10-04T16:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5029332",
-      "frage": "Exact Score: Morocco 3 - 2 Ghana?",
-      "slug": "fif-mar-gha-2026-10-04-exact-score-3-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3598,
-      "end_date": "2026-10-04T19:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
       "market_id": "4985713",
       "frage": "Will Aldrich Potgieter finish in the Top 20 at the 2026 Bank of Utah Championship?",
       "slug": "2026-bank-of-utah-championship-top20-aldrich-potgieter",
@@ -351,193 +197,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 0.0,
       "end_date": "2026-10-04T00:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4948434",
-      "frage": "Avaí FC vs. Londrina EC: Both Teams to Score",
-      "slug": "bra2-ava-lon-2026-10-07-btts",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 80.6594,
-      "end_date": "2026-10-07T22:30:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5015324",
-      "frage": "PSV vs. SC Heerenveen: Both Teams to Score",
-      "slug": "ere-psv-her1-2026-10-09-btts",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 80.4194,
-      "end_date": "2026-10-09T18:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5073711",
-      "frage": "Exact Score: Jordan 5 - 1 Venezuela?",
-      "slug": "fif-jor-ven-2026-10-06-exact-score-5-1",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 3.5598,
-      "end_date": "2026-10-06T17:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4911830",
-      "frage": "Exact Score: CR Brasil 0 - 1 AC Goianiense?",
-      "slug": "bra2-crb-acg-2026-10-07-exact-score-0-1",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 8.8397,
-      "end_date": "2026-10-07T23:30:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5113921",
-      "frage": "Exact Margin: Stanford by 25+",
-      "slug": "cfb-stan-nd-2026-10-10-exact-margin-long-25-plus",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 45.4759,
-      "end_date": "2026-10-10T19:30:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4955808",
-      "frage": "Exact Score: CA Grau 5 - 4 CD Los Chankas?",
-      "slug": "per1-cag-clc-2026-10-08-exact-score-5-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.1197,
-      "end_date": "2026-10-08T20:30:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5010498",
-      "frage": "Exact Score: Derby County FC 3 - 0 Wrexham AFC?",
-      "slug": "elc-der-wre-2026-10-10-exact-score-3-0",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 15.7893,
-      "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5016318",
-      "frage": "Exact Score: Clermont Foot 63 5 - 4 Red Star FC?",
-      "slug": "fr2-clf-rst-2026-10-10-exact-score-5-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.2595,
-      "end_date": "2026-10-10T12:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4991572",
-      "frage": "Exact Score: FC Viktoria Plzeň 4 - 4 FK Mladá Boleslav?",
-      "slug": "cze1-fvp-fmb-2026-10-10-exact-score-4-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3797,
-      "end_date": "2026-10-10T13:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5021754",
-      "frage": "Exact Score: Cheltenham Town FC 2 - 0 Salford City FC?",
-      "slug": "el2-che-sal-2026-10-10-exact-score-2-0",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3797,
-      "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4991232",
-      "frage": "Exact Score: CD Cobresal 4 - 1 CD Universidad de Concepción?",
-      "slug": "chi1-cdc-cu1-2026-10-10-exact-score-4-1",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3597,
-      "end_date": "2026-10-10T18:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "4991214",
-      "frage": "Exact Score: FC Universitario 3 - 2 CDT Real Oruro?",
-      "slug": "bol1-uvi-oru-2026-10-10-exact-score-3-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.1598,
-      "end_date": "2026-10-10T19:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5037051",
-      "frage": "Exact Score: Los Angeles FC 5 - 4 Vancouver Whitecaps FC?",
-      "slug": "mls-laf-vwh-2026-10-10-exact-score-5-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.8257,
-      "end_date": "2026-10-11T02:30:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5016741",
-      "frage": "Exact Score: Puntarenas FC 5 - 4 LD Alajuelense?",
-      "slug": "fpd-pun-ala-2026-10-10-exact-score-5-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3595,
-      "end_date": "2026-10-10T23:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5047376",
-      "frage": "Exact Score: Once Caldas 5 - 1 Llaneros FC?",
-      "slug": "col1-onc-llf-2026-10-10-exact-score-5-1",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.4899,
-      "end_date": "2026-10-10T21:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5072715",
-      "frage": "Exact Score: NK Lokomotiva Zagreb 4 - 4 NK Varaždin?",
-      "slug": "hr1-lok-var-2026-10-11-exact-score-4-4",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3395,
-      "end_date": "2026-10-11T13:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    },
-    {
-      "market_id": "5065884",
-      "frage": "Exact Score: RCD Mallorca 4 - 2 UD Las Palmas?",
-      "slug": "es2-rm-lpm-2026-10-11-exact-score-4-2",
-      "shares": 2.080003048619119,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.3995,
-      "end_date": "2026-10-11T16:30:00Z",
       "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
     },
     {

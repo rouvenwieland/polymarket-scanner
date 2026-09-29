@@ -1,17 +1,5 @@
 {
-  "cash": 89.32958787644856,
-  "positions": [
-    {
-      "market_id": "5120358",
-      "frage": "Will FK Livyi Bereh win on 2026-10-12?",
-      "slug": "ukr1-liv-zor-2026-10-12-liv",
-      "shares": 15.86726377071205,
-      "einstandskurs": 0.8373749999999999,
-      "letzter_kurs": 0.8373749999999999,
-      "liquiditaet": 132.8685,
-      "end_date": "2026-10-12T10:00:00Z",
-      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
-    }
-  ],
+  "cash": 104.93336412167454,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

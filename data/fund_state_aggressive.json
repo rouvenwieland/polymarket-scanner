@@ -1,5 +1,5 @@
 {
-  "cash": 1.6147265577586936,
+  "cash": 6.467530342293077,
   "positions": [
     {
       "market_id": "4593703",
@@ -10,28 +10,6 @@
       "letzter_kurs": 1.0,
       "liquiditaet": 640.7631,
       "end_date": "2026-10-20T03:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
-    },
-    {
-      "market_id": "4844770",
-      "frage": "Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?",
-      "slug": "titled-tuesday-2026-09-29-top5-nihal-sarin",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-14T03:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
-    },
-    {
-      "market_id": "4844826",
-      "frage": "Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?",
-      "slug": "titled-tuesday-2026-09-29-top8-jan-krzysztof-duda",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-14T03:59:00Z",
       "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
     },
     {
