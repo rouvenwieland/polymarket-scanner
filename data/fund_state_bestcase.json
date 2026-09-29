@@ -1,5 +1,5 @@
 {
-  "cash": 2.0620564755502278,
+  "cash": 6.206893612334583,
   "positions": [
     {
       "market_id": "4844770",
@@ -277,17 +277,6 @@
       "eingestiegen": "2026-09-28T23:24:34.469429+02:00"
     },
     {
-      "market_id": "5055455",
-      "frage": "Game 1: Ends in Daytime?",
-      "slug": "dota2-kineti-xe-2026-09-28-game1-ends-in-daytime",
-      "shares": 2.072418568392178,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4.2599,
-      "end_date": "2026-09-29T07:00:00Z",
-      "eingestiegen": "2026-09-29T03:08:21.685529+02:00"
-    },
-    {
       "market_id": "5095616",
       "frage": "Game 1: Both Teams Slay a Dragon?",
       "slug": "lol-esb-wd-2026-09-29-game1-both-teams-slay-dragon",
@@ -318,17 +307,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 2.3599,
       "end_date": "2026-10-02T00:15:00Z",
-      "eingestiegen": "2026-09-29T03:08:21.685529+02:00"
-    },
-    {
-      "market_id": "5027869",
-      "frage": "Exact Score: Colorado Springs Switchbacks FC 5 - 3 Oakland Roots SC?",
-      "slug": "uslc-css-oak-2026-10-03-exact-score-5-3",
-      "shares": 2.0724185683921776,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 21.4299,
-      "end_date": "2026-10-04T01:00:00Z",
       "eingestiegen": "2026-09-29T03:08:21.685529+02:00"
     },
     {
