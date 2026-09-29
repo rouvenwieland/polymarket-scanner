@@ -268,3 +268,41 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-28T23:44:05.828205+02:00,VERKAUF,4952493,Exact Score: FK Rostov 0 - 1 FK Akron Tolyatti?,2.0532,1.0,2.0532,18.7606,Konvergenz erreicht (Kurs 1.000)
 2026-09-28T23:44:05.828205+02:00,VERKAUF,5021061,Exact Score: FK Obolon Kyiv 1 - 2 FK Kryvbas Kryvyi Rih?,2.0532,1.0,2.0532,20.8138,Konvergenz erreicht (Kurs 1.000)
 2026-09-28T23:44:05.828205+02:00,VERKAUF,5047058,Exact Score: Club Universitario de Deportes 5 - 0 FBC Melgar?,2.0532,1.0,2.0532,22.867,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5025358,Exact Score: AFC Fylde 5 - 5 Scunthorpe United FC?,2.0101,1.0,2.0101,24.8771,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4728125,Exact Score: CD Ceuta 6 de Junio 1 - 1 UB Lebrijana?,2.0474,1.0,2.0474,26.9244,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4918462,Miami (FL) vs. Clemson: Both Teams to Score Points - Q4,2.0474,1.0,2.0474,28.9718,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5046995,Exact Score: CD Huachipato 5 - 1 O'Higgins FC?,2.0474,1.0,2.0474,31.0192,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4757951,Exact Score: Racing Louisville FC 1 - 2 Utah Royals FC?,2.0532,1.0,2.0532,33.0724,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4925129,Exact Margin: Ball State by 1-6,2.0532,1.0,2.0532,35.1256,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5064492,SC Freiburg vs. FC Schalke 04: Both Teams to Score in Second Half,2.0532,1.0,2.0532,37.1789,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4956172,Exact Score: SE Palmeiras 4 - 1 EC Bahia?,2.0532,1.0,2.0532,39.2321,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,3207537,FC CFR 1907 Cluj vs. FC Universitatea Cluj: Draw at halftime?,2.0532,1.0,2.0532,41.2853,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,4283674,Antigua GFC vs. CSD Municipal: Neither team to score first?,2.0532,1.0,2.0532,43.3385,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5057432,Exact Score: US Sassuolo Calcio 4 - 5 AC Milan?,2.0532,1.0,2.0532,45.3917,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5016294,Exact Score: Clermont Foot 63 2 - 3 Red Star FC?,2.0532,1.0,2.0532,47.445,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5016451,Exact Score: AS Saint-Étienne 1 - 5 Rodez Aveyron Football?,2.0532,1.0,2.0532,49.4982,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,VERKAUF,5037017,Exact Score: Los Angeles FC 0 - 2 Vancouver Whitecaps FC?,2.0532,1.0,2.0532,51.5514,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T03:08:21.685529+02:00,KAUF,5055455,Game 1: Ends in Daytime?,2.0724,0.995,-2.0621,49.4894,"Spread 0.50%, Liquiditaet 4 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5095616,Game 1: Both Teams Slay a Dragon?,2.0724,0.995,-2.0621,47.4273,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5095605,Game 3: Both Teams Slay Baron Nashor?,2.0724,0.995,-2.0621,45.3652,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5041459,Kaden Wetjen: Team First TD (Pittsburgh Steelers),2.0724,0.995,-2.0621,43.3032,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5027869,Exact Score: Colorado Springs Switchbacks FC 5 - 3 Oakland Roots SC?,2.0724,0.995,-2.0621,41.2411,"Spread 0.50%, Liquiditaet 21 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,4917648,Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H,2.0724,0.995,-2.0621,39.1791,"Spread 0.50%, Liquiditaet 2 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5105789,Tay Martin: Team First TD (Detroit Lions),2.0724,0.995,-2.0621,37.117,"Spread 0.50%, Liquiditaet 10 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5036481,Exact Score: Chicago Fire FC 4 - 1 New York City FC?,2.0724,0.995,-2.0621,35.055,"Spread 0.50%, Liquiditaet 15 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,4991649,Exact Score: Bohemians Praha 1905 4 - 0 FC Baník Ostrava?,2.0724,0.995,-2.0621,32.9929,"Spread 0.50%, Liquiditaet 12 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5068946,Exact Score: FK LNZ Cherkasy 4 - 0 FK Kudrivka?,2.0724,0.995,-2.0621,30.9308,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5069068,Exact Score: Aberdeen FC 4 - 2 St Johnstone FC?,2.0724,0.995,-2.0621,28.8688,"Spread 0.50%, Liquiditaet 15 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5069080,Exact Score: Aberdeen FC 5 - 2 St Johnstone FC?,2.0724,0.995,-2.0621,26.8067,"Spread 0.50%, Liquiditaet 15 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5009991,Exact Score: 1. FSV Mainz 05 3 - 4 Bayer 04 Leverkusen?,2.0724,0.995,-2.0621,24.7447,"Spread 0.50%, Liquiditaet 7 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5047032,Exact Score: FK Teplice 0 - 1 SK Sigma Olomouc?,2.0724,0.995,-2.0621,22.6826,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5046455,Exact Score: El Qanah Club 4 - 4 El Masry SC?,2.0724,0.995,-2.0621,20.6206,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5036851,Exact Score: Austin FC 1 - 5 Nashville SC?,2.0724,0.995,-2.0621,18.5585,"Spread 0.50%, Liquiditaet 9 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5049745,Exact Score: Brøndby IF 5 - 3 Lyngby BK?,2.0724,0.995,-2.0621,16.4965,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5088385,Exact Score: CR Flamengo 5 - 0 Fluminense FC?,2.0724,0.995,-2.0621,14.4344,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5046733,Exact Score: FCV Farul Constanţa 4 - 3 FC Petrolul Ploieşti?,2.0724,0.995,-2.0621,12.3723,"Spread 0.50%, Liquiditaet 12 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5048232,Exact Score: Al Shabab Saudi Club 0 - 3 Al Taawoun Saudi Club?,2.0724,0.995,-2.0621,10.3103,"Spread 0.50%, Liquiditaet 11 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5046628,Exact Score: FCV Farul Constanţa 1 - 0 FC Petrolul Ploieşti?,2.0724,0.995,-2.0621,8.2482,"Spread 0.50%, Liquiditaet 8 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5089242,Exact Score: Coritiba FBC 1 - 3 Botafogo FR?,2.0724,0.995,-2.0621,6.1862,"Spread 0.50%, Liquiditaet 14 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5088302,Exact Score: FC Universitatea Cluj 4 - 3 FC Rapid 1923?,2.0724,0.995,-2.0621,4.1241,"Spread 0.50%, Liquiditaet 13 USD"
+2026-09-29T03:08:21.685529+02:00,KAUF,5084640,Exact Score: CA Platense 0 - 4 AA Argentinos Juniors?,2.0724,0.995,-2.0621,2.0621,"Spread 0.50%, Liquiditaet 5 USD"
