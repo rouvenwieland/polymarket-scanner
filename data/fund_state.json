@@ -1,27 +1,16 @@
 {
-  "cash": 97.77466047766553,
+  "cash": 89.32958787644856,
   "positions": [
     {
-      "market_id": "4844770",
-      "frage": "Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?",
-      "slug": "titled-tuesday-2026-09-29-top5-nihal-sarin",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.99,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-14T03:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
-    },
-    {
-      "market_id": "4844826",
-      "frage": "Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?",
-      "slug": "titled-tuesday-2026-09-29-top8-jan-krzysztof-duda",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.99,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-14T03:59:00Z",
-      "eingestiegen": "2026-09-28T10:05:22.550814+02:00"
+      "market_id": "5120358",
+      "frage": "Will FK Livyi Bereh win on 2026-10-12?",
+      "slug": "ukr1-liv-zor-2026-10-12-liv",
+      "shares": 15.86726377071205,
+      "einstandskurs": 0.8373749999999999,
+      "letzter_kurs": 0.8373749999999999,
+      "liquiditaet": 132.8685,
+      "end_date": "2026-10-12T10:00:00Z",
+      "eingestiegen": "2026-09-29T20:53:05.805023+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

@@ -1185,3 +1185,80 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-09-29T15:42:33.636409+02:00,5117778,Exact Score: Burgos CF 5 - 2 Granada CF?,es2-bur-gra-2026-10-12-exact-score-5-2,0.485,0.51,0.995,0.0,11.9815,2026-10-12T14:15:00Z
 2026-09-29T15:42:33.636409+02:00,5123244,Exact Score: Tunisia 1 - 3 Mali?,fif-tun-mli-2026-10-03-exact-score-1-3,0.485,0.51,0.995,0.0,11.1199,2026-10-03T19:00:00Z
 2026-09-29T15:42:33.636409+02:00,5123262,Exact Score: Tunisia 5 - 2 Mali?,fif-tun-mli-2026-10-03-exact-score-5-2,0.485,0.51,0.995,0.0,9.6001,2026-10-03T19:00:00Z
+2026-09-29T20:53:05.805023+02:00,692283,Will Barack Obama announce a Presidential run before 2027?,will-barack-obama-announce-a-presidential-run-before-2027,0.0285,0.9705,0.999,11261.766183999998,12957.43418,2027-01-01T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-09-29T20:53:05.805023+02:00,3543924,Will FC Cajamarca be runner-up in the 2026 Peru Liga 1?,2026-soccer-peru-liga-1-runner-up-fc-cajamarca,0.48,0.515,0.995,0.0,17.0438,2027-01-01T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,3847900,Will Örebro SK be promoted to Allsvenskan (Sweden)?,will-orebro-sk-be-promoted-to-allsvenskan-sweden-2026,0.485,0.51,0.995,55.0,1.3243,2027-01-01T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,3914315,Will Örgryte IS keep the most clean sheets in the 2026 Allsvenskan (Sweden)?,will-orgryte-is-keep-the-most-clean-sheets-in-allsvenskan-sweden-2026,0.485,0.51,0.995,0.0,5.304,2027-01-01T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,3914344,Will CF Montréal keep the most clean sheets in the 2026 MLS?,will-cf-montreal-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,2.7639,2027-01-01T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,3959682,"Will De'Von Achane have 1,000+ rushing yards in the 2026-27 NFL regular season?",devon-achane-1000-rushing-yards-2026-27,0.475,0.52,0.995,0.0,304.2838,2027-01-27T04:59:00Z
+2026-09-29T20:53:05.805023+02:00,4053846,Will Chainlink reach $20 in September?,will-chainlink-reach-20-in-september-2026,0.465,0.53,0.9950000000000001,71.9497,1190.6473,2026-10-01T04:00:00Z
+2026-09-29T20:53:05.805023+02:00,4518521,Game 1: Any Player Rampage?,dota2-z10-dawnbu-2026-09-13-game1-any-player-rampage,0.5,0.0,0.5,10.0,0.0,2026-09-20T21:00:00Z
+2026-09-29T20:53:05.805023+02:00,4518523,Game 2: Both Teams Beat Roshan?,dota2-z10-dawnbu-2026-09-13-game2-both-teams-beat-roshan,0.5,0.0,0.5,0.0,0.0,2026-09-20T21:00:00Z
+2026-09-29T20:53:05.805023+02:00,4609846,Will North Macedonia win on 2026-09-29?,unl-slv-mac-2026-09-29-mac,0.105,0.89,0.995,17994.475273999997,34671.9286,2026-09-29T18:45:00Z
+2026-09-29T20:53:05.805023+02:00,4611348,Gateshead FC vs. Altrincham FC: Draw at halftime?,enl-gat-alt-2026-09-29-halftime-result-draw,0.395,0.6,0.995,0.0,496.098,2026-09-29T18:45:00Z
+2026-09-29T20:53:05.805023+02:00,4727499,Exact Score: Martinique 0 - 2 Honduras?,conl-mart-hnd-2026-10-02-exact-score-0-2,0.49,0.505,0.995,0.0,9.1599,2026-10-03T00:00:00Z
+2026-09-29T20:53:05.805023+02:00,4727556,Exact Score: Bonaire 2 - 1 Grenada?,conl-bon-grn-2026-10-02-exact-score-2-1,0.495,0.5,0.995,0.0,2.36,2026-10-03T00:00:00Z
+2026-09-29T20:53:05.805023+02:00,4751582,Exact Score: Any Other Score?,el2-col-pvl-2026-10-03-exact-score-any-other,0.49,0.505,0.995,0.0,3.5197,2026-10-03T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,4756926,Exact Score: Haddington Athletic FC 0 - 2 Cumbernauld Colts FC?,scoc-had-cmb-2026-10-03-exact-score-0-2,0.49,0.505,0.995,0.0,9.3595,2026-10-03T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,4758932,El Salvador vs. Jamaica: Both Teams to Score in First Half,conl-slv-jam-2026-10-02-btts-first-half,0.495,0.5,0.995,0.0,5.5798,2026-10-03T02:00:00Z
+2026-09-29T20:53:05.805023+02:00,4763747,SD Noja leading at halftime?,cdr-noj-rib-2026-10-04-halftime-result-home,0.485,0.51,0.995,0.0,41.6548,2026-10-04T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,4776830,RB Ōmiya Ardija leading at halftime?,ja2-teg-omi-2026-10-04-halftime-result-away,0.295,0.7,0.9949999999999999,0.0,1233.0638,2026-10-04T10:00:00Z
+2026-09-29T20:53:05.805023+02:00,4790827,HUS Agadir vs. Maghreb AS de Fès: Both Teams to Score in First Half,mar1-hua-mad-2026-10-03-btts-first-half,0.495,0.5,0.995,0.0,4.6783,2026-10-03T16:00:00Z
+2026-09-29T20:53:05.805023+02:00,4847161,Exact Score: Tonbridge Angels FC 3 - 0 Torquay United FC?,efa-ton-tor-2026-10-03-exact-score-3-0,0.495,0.5,0.995,0.0,2.1199,2026-10-03T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,4849184,Harborough Town FC vs. St Albans City FC: Both Teams to Score in First Half,efa-har-alb1-2026-10-03-btts-first-half,0.495,0.5,0.995,0.0,4.6783,2026-10-03T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,4883436,El Salvador leading at halftime?,conl-mart-slv-2026-10-05-halftime-result-away,0.495,0.5,0.995,0.0,2.98,2026-10-05T22:00:00Z
+2026-09-29T20:53:05.805023+02:00,4911830,Exact Score: CR Brasil 0 - 1 AC Goianiense?,bra2-crb-acg-2026-10-07-exact-score-0-1,0.485,0.51,0.995,0.0,8.8397,2026-10-07T23:30:00Z
+2026-09-29T20:53:05.805023+02:00,4915811,San Jose State vs. Hawai'i: Both Teams to Score Points - Q3,cfb-sjst-hawaii-2026-10-04-3q-btts-points,0.5,0.495,0.995,0.0,2.16,2026-10-04T04:00:00Z
+2026-09-29T20:53:05.805023+02:00,4916599,BYU vs. TCU: Game Goes to Overtime,cfb-byu-tcu-2026-10-03-overtime,0.5,0.495,0.995,0.0,2.16,2026-10-03T23:00:00Z
+2026-09-29T20:53:05.805023+02:00,4917128,Kentucky vs. South Carolina: Both Teams to Score Points - Q3,cfb-uk-sc-2026-10-03-3q-btts-points,0.5,0.495,0.995,0.0,1.08,2026-10-03T20:15:00Z
+2026-09-29T20:53:05.805023+02:00,4917648,Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H,cfb-bowlgr-miaoh-2026-10-03-2h-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-03T19:30:00Z
+2026-09-29T20:53:05.805023+02:00,4919481,North Texas vs. Tulsa: Both Teams to Score a Touchdown,cfb-ntx-tulsa-2026-10-01-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-02T01:00:00Z
+2026-09-29T20:53:05.805023+02:00,4948434,Avaí FC vs. Londrina EC: Both Teams to Score,bra2-ava-lon-2026-10-07-btts,0.5,0.495,0.995,0.0,80.6594,2026-10-07T22:30:00Z
+2026-09-29T20:53:05.805023+02:00,4955808,Exact Score: CA Grau 5 - 4 CD Los Chankas?,per1-cag-clc-2026-10-08-exact-score-5-4,0.49,0.505,0.995,0.0,9.1197,2026-10-08T20:30:00Z
+2026-09-29T20:53:05.805023+02:00,4978719,Exact Score: Mauritius 2 - 3 Sri Lanka?,fif-mri-sri-2026-10-02-exact-score-2-3,0.49,0.505,0.995,0.0,3.5597,2026-10-02T15:00:00Z
+2026-09-29T20:53:05.805023+02:00,4985713,Will Aldrich Potgieter finish in the Top 20 at the 2026 Bank of Utah Championship?,2026-bank-of-utah-championship-top20-aldrich-potgieter,0.495,0.5,0.995,0.0,0.0,2026-10-04T00:00:00Z
+2026-09-29T20:53:05.805023+02:00,4991214,Exact Score: FC Universitario 3 - 2 CDT Real Oruro?,bol1-uvi-oru-2026-10-10-exact-score-3-2,0.49,0.505,0.995,0.0,9.1598,2026-10-10T19:00:00Z
+2026-09-29T20:53:05.805023+02:00,4991232,Exact Score: CD Cobresal 4 - 1 CD Universidad de Concepción?,chi1-cdc-cu1-2026-10-10-exact-score-4-1,0.49,0.505,0.995,0.0,9.3597,2026-10-10T18:00:00Z
+2026-09-29T20:53:05.805023+02:00,4991572,Exact Score: FC Viktoria Plzeň 4 - 4 FK Mladá Boleslav?,cze1-fvp-fmb-2026-10-10-exact-score-4-4,0.49,0.505,0.995,0.0,9.3797,2026-10-10T13:00:00Z
+2026-09-29T20:53:05.805023+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-09-29T20:53:05.805023+02:00,5010498,Exact Score: Derby County FC 3 - 0 Wrexham AFC?,elc-der-wre-2026-10-10-exact-score-3-0,0.46,0.535,0.9950000000000001,0.0,15.7893,2026-10-10T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,5015324,PSV vs. SC Heerenveen: Both Teams to Score,ere-psv-her1-2026-10-09-btts,0.495,0.5,0.995,0.0,80.4194,2026-10-09T18:00:00Z
+2026-09-29T20:53:05.805023+02:00,5016318,Exact Score: Clermont Foot 63 5 - 4 Red Star FC?,fr2-clf-rst-2026-10-10-exact-score-5-4,0.485,0.51,0.995,9.9898,9.2595,2026-10-10T12:00:00Z
+2026-09-29T20:53:05.805023+02:00,5016741,Exact Score: Puntarenas FC 5 - 4 LD Alajuelense?,fpd-pun-ala-2026-10-10-exact-score-5-4,0.49,0.505,0.995,0.0,9.3595,2026-10-10T23:00:00Z
+2026-09-29T20:53:05.805023+02:00,5021754,Exact Score: Cheltenham Town FC 2 - 0 Salford City FC?,el2-che-sal-2026-10-10-exact-score-2-0,0.49,0.505,0.995,0.0,9.3797,2026-10-10T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,5029332,Exact Score: Morocco 3 - 2 Ghana?,fif-mar-gha-2026-10-04-exact-score-3-2,0.49,0.505,0.995,0.0,9.3598,2026-10-04T19:00:00Z
+2026-09-29T20:53:05.805023+02:00,5037051,Exact Score: Los Angeles FC 5 - 4 Vancouver Whitecaps FC?,mls-laf-vwh-2026-10-10-exact-score-5-4,0.485,0.51,0.995,0.0,10.8257,2026-10-11T02:30:00Z
+2026-09-29T20:53:05.805023+02:00,5037438,Exact Score: CA Boston River 1 - 2 CA Juventud de Las Piedras?,uru1-bri-juv-2026-10-04-exact-score-1-2,0.49,0.505,0.995,0.0,9.3399,2026-10-04T16:00:00Z
+2026-09-29T20:53:05.805023+02:00,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,bra2-juv-ber-2026-10-11-exact-score-5-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T19:00:00Z
+2026-09-29T20:53:05.805023+02:00,5047376,Exact Score: Once Caldas 5 - 1 Llaneros FC?,col1-onc-llf-2026-10-10-exact-score-5-1,0.485,0.51,0.995,0.0,7.4899,2026-10-10T21:00:00Z
+2026-09-29T20:53:05.805023+02:00,5056772,Will Carrick Rangers vs. Crusaders FC end in a draw?,nirl1-car-cru-2026-10-03-draw,0.2,0.795,0.9950000000000001,59.98599,1665.0924,2026-10-03T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,5062374,Hull City AFC to win the second half?,epl-hul-eve-2026-10-11-second-half-result-home,0.465,0.53,0.9950000000000001,0.0,25.5269,2026-10-11T13:00:00Z
+2026-09-29T20:53:05.805023+02:00,5065884,Exact Score: RCD Mallorca 4 - 2 UD Las Palmas?,es2-rm-lpm-2026-10-11-exact-score-4-2,0.49,0.505,0.995,0.0,9.3995,2026-10-11T16:30:00Z
+2026-09-29T20:53:05.805023+02:00,5067729,CF América vs. CF Monterrey: Both Teams to Score in First Half,mex-ame-mon1-2026-10-10-btts-first-half,0.495,0.5,0.995,0.0,5.4598,2026-10-11T03:00:00Z
+2026-09-29T20:53:05.805023+02:00,5072715,Exact Score: NK Lokomotiva Zagreb 4 - 4 NK Varaždin?,hr1-lok-var-2026-10-11-exact-score-4-4,0.49,0.505,0.995,0.0,9.3395,2026-10-11T13:00:00Z
+2026-09-29T20:53:05.805023+02:00,5073711,Exact Score: Jordan 5 - 1 Venezuela?,fif-jor-ven-2026-10-06-exact-score-5-1,0.49,0.505,0.995,0.0,3.5598,2026-10-06T17:00:00Z
+2026-09-29T20:53:05.805023+02:00,5081927,Exact Score: St. Louis City SC 0 - 1 Los Angeles Galaxy?,mls-stl-lag-2026-10-11-exact-score-0-1,0.49,0.505,0.995,0.0,9.3398,2026-10-11T23:00:00Z
+2026-09-29T20:53:05.805023+02:00,5082164,IK Start vs. Hamarkameratene: Both Teams to Score in First Half,nor-ik-ham-2026-10-11-btts-first-half,0.495,0.5,0.995,0.0,5.5798,2026-10-11T15:00:00Z
+2026-09-29T20:53:05.805023+02:00,5083266,Exact Score: Pumas de la UNAM 4 - 3 CF Cruz Azul?,mex-pum-caz-2026-10-11-exact-score-4-3,0.475,0.52,0.995,0.0,9.5099,2026-10-12T01:00:00Z
+2026-09-29T20:53:05.805023+02:00,5083270,Exact Score: Pumas de la UNAM 5 - 3 CF Cruz Azul?,mex-pum-caz-2026-10-11-exact-score-5-3,0.48,0.515,0.995,0.0,10.8598,2026-10-12T01:00:00Z
+2026-09-29T20:53:05.805023+02:00,5083568,Isaiah Likely: Anytime Touchdown,nfl-ari-nyg-2026-10-04-anytime-td-isaiah-likely,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-29T20:53:05.805023+02:00,5083644,Brevin Jordan: Anytime Touchdown,nfl-dal-hou-2026-10-04-anytime-td-brevin-jordan,0.5,0.495,0.995,0.0,2.36,2026-10-04T17:00:00Z
+2026-09-29T20:53:05.805023+02:00,5084404,LeQuint Allen Jr.: Anytime Touchdown,nfl-jax-cin-2026-10-04-anytime-td-lequint-allen-jr,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-29T20:53:05.805023+02:00,5084638,Exact Score: CA Platense 2 - 1 AA Argentinos Juniors?,arg-pla-aaj-2026-10-11-exact-score-2-1,0.485,0.51,0.995,0.0,9.0599,2026-10-11T20:00:00Z
+2026-09-29T20:53:05.805023+02:00,5084717,Exact Score: CA Talleres 0 - 1 CA Independiente?,arg-tal-ind-2026-10-11-exact-score-0-1,0.48,0.515,0.995,0.0,10.5596,2026-10-12T00:30:00Z
+2026-09-29T20:53:05.805023+02:00,5088435,Exact Score: Modern SC 0 - 1 Sharkia ENPPI?,egy1-mos-se-2026-10-12-exact-score-0-1,0.49,0.505,0.995,0.0,9.1599,2026-10-12T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,5088483,Exact Score: Modern SC 4 - 0 Sharkia ENPPI?,egy1-mos-se-2026-10-12-exact-score-4-0,0.49,0.505,0.995,0.0,9.1599,2026-10-12T14:00:00Z
+2026-09-29T20:53:05.805023+02:00,5088716,Exact Score: SE Palmeiras 5 - 2 SC Corinthians Paulista?,bra-pal-cor1-2026-10-11-exact-score-5-2,0.49,0.505,0.995,0.0,9.1599,2026-10-11T20:30:00Z
+2026-09-29T20:53:05.805023+02:00,5088953,Exact Score: Grêmio FBPA 5 - 4 SC Internacional?,bra-gre-int-2026-10-11-exact-score-5-4,0.495,0.5,0.995,0.0,2.26,2026-10-11T20:30:00Z
+2026-09-29T20:53:05.805023+02:00,5091952,Jake Briningstool: Anytime Touchdown,nfl-kc-lv-2026-10-04-anytime-td-jake-briningstool,0.5,0.495,0.995,0.0,2.1199,2026-10-04T20:25:00Z
+2026-09-29T20:53:05.805023+02:00,5111359,Illinois vs. Michigan State: Both Teams to Score a Touchdown - Q2,cfb-ill-mst-2026-10-10-2q-btts-td,0.5,0.495,0.995,0.0,2.36,2026-10-10T19:30:00Z
+2026-09-29T20:53:05.805023+02:00,5112951,New Mexico State vs. Florida International: Both Teams to Score a Touchdown - Q4,cfb-nmxst-flint-2026-10-07-4q-btts-td,0.5,0.495,0.995,0.0,2.12,2026-10-07T23:30:00Z
+2026-09-29T20:53:05.805023+02:00,5112995,Sam Houston vs. Liberty: Pick-Six Scored,cfb-smho-librty-2026-10-08-pick-six,0.5,0.495,0.995,0.0,2.36,2026-10-08T23:00:00Z
+2026-09-29T20:53:05.805023+02:00,5113921,Exact Margin: Stanford by 25+,cfb-stan-nd-2026-10-10-exact-margin-long-25-plus,0.47,0.525,0.995,0.0,45.4759,2026-10-10T19:30:00Z
+2026-09-29T20:53:05.805023+02:00,5120358,Will FK Livyi Bereh win on 2026-10-12?,ukr1-liv-zor-2026-10-12-liv,0.32,0.505,0.825,0.0,132.8685,2026-10-12T10:00:00Z
+2026-09-29T20:53:05.805023+02:00,5126923,Will the price of Solana be less than $70 on October 6?,will-the-price-of-solana-be-less-than-70-on-october-6-2026,0.4985,0.501,0.9995,0.0,19.21702,2026-10-06T16:00:00Z
+2026-09-29T20:53:05.805023+02:00,5131375,Will MicroStrategy (MSTR) hit (HIGH) $155 Week of September 28 2026?,will-mstr-reach-155-by-september-28-2026,0.5,0.495,0.995,0.0,0.1,2026-10-02T20:00:00Z
+2026-09-29T20:53:05.805023+02:00,5132429,Exact Score: CA Gimnasia y Esgrima de Mendoza 5 - 2 CA Newell's Old Boys?,arg-gye-new-2026-10-12-exact-score-5-2,0.495,0.5,0.995,0.0,6.4699,2026-10-12T21:30:00Z
+2026-09-29T20:53:05.805023+02:00,5132872,Exact Score: FC Famalicão 1 - 5 FC Alverca?,por-fam-alv-2026-10-12-exact-score-1-5,0.495,0.5,0.995,0.0,6.4699,2026-10-12T19:15:00Z
+2026-09-29T20:53:05.805023+02:00,5136394,Will Donald Trump visit Georgia before the midterms?,will-donald-trump-visit-georgia-before-the-midterms,0.455,0.54,0.9950000000000001,0.0,60.3695,2026-11-03T04:59:00Z
