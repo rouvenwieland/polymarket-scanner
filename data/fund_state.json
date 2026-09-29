@@ -1,5 +1,28 @@
 {
-  "cash": 104.93336412167454,
-  "positions": [],
+  "cash": 50.442582060837275,
+  "positions": [
+    {
+      "market_id": "4753358",
+      "frage": "Will CSD Mixco win on 2026-10-03?",
+      "slug": "gtm-mix-mun-2026-10-03-mix",
+      "shares": 58.40954882909427,
+      "einstandskurs": 0.8982552187546292,
+      "letzter_kurs": 0.8982552187546292,
+      "liquiditaet": 525.4498,
+      "end_date": "2026-10-03T17:00:00Z",
+      "eingestiegen": "2026-09-30T00:49:36.463813+02:00"
+    },
+    {
+      "market_id": "4567127",
+      "frage": "Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?",
+      "slug": "will-jaume-martinez-vich-reach-the-semifinals-of-the-2027-ppa-tour-finals",
+      "shares": 2.279071076706545,
+      "einstandskurs": 0.8881249999999999,
+      "letzter_kurs": 0.8881249999999999,
+      "liquiditaet": 20.241,
+      "end_date": "2027-05-10T23:59:00Z",
+      "eingestiegen": "2026-09-30T00:49:36.463813+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

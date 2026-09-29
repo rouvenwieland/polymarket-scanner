@@ -1262,3 +1262,121 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-09-29T20:53:05.805023+02:00,5132429,Exact Score: CA Gimnasia y Esgrima de Mendoza 5 - 2 CA Newell's Old Boys?,arg-gye-new-2026-10-12-exact-score-5-2,0.495,0.5,0.995,0.0,6.4699,2026-10-12T21:30:00Z
 2026-09-29T20:53:05.805023+02:00,5132872,Exact Score: FC Famalicão 1 - 5 FC Alverca?,por-fam-alv-2026-10-12-exact-score-1-5,0.495,0.5,0.995,0.0,6.4699,2026-10-12T19:15:00Z
 2026-09-29T20:53:05.805023+02:00,5136394,Will Donald Trump visit Georgia before the midterms?,will-donald-trump-visit-georgia-before-the-midterms,0.455,0.54,0.9950000000000001,0.0,60.3695,2026-11-03T04:59:00Z
+2026-09-30T00:49:36.463813+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-09-30T00:49:36.463813+02:00,2774004,Will Srđan Amidžić be the next Chairman of the Council of Ministers of Bosnia and Herzegovina?,will-sran-amidi-be-the-next-chairman-of-the-council-of-ministers-of-bosnia-and-herzegovina,0.0265,0.973,0.9994999999999999,12589.435066999999,18379.5648,2028-08-01T03:59:00Z
+2026-09-30T00:49:36.463813+02:00,3530199,Will Deportivo Riestra win the 2026 Liga Profesional (Argentina)?,2026-soccer-liga-profesional-argentina-winner-deportivo-riestra,0.475,0.52,0.995,62.0,3.725,2027-01-01T04:59:00Z
+2026-09-30T00:49:36.463813+02:00,3847900,Will Örebro SK be promoted to Allsvenskan (Sweden)?,will-orebro-sk-be-promoted-to-allsvenskan-sweden-2026,0.485,0.51,0.995,55.0,1.3243,2027-01-01T04:59:00Z
+2026-09-30T00:49:36.463813+02:00,3848825,Will Fulham finish 17th in the 2026-27 Premier League?,will-fulham-finish-17th-in-premier-league-2026-27,0.49,0.505,0.995,0.0,101.874,2027-07-01T03:59:00Z
+2026-09-30T00:49:36.463813+02:00,3914315,Will Örgryte IS keep the most clean sheets in the 2026 Allsvenskan (Sweden)?,will-orgryte-is-keep-the-most-clean-sheets-in-allsvenskan-sweden-2026,0.485,0.51,0.995,0.0,5.304,2027-01-01T04:59:00Z
+2026-09-30T00:49:36.463813+02:00,4175448,Will Memphis Grizzlies advance to the Western Conference Semifinals in the 2027 NBA Playoffs?,will-memphis-grizzlies-advance-to-the-western-conference-semifinals-in-the-2027-nba-playoffs,0.238,0.759,0.997,2555.24,20.49428,2027-05-05T23:59:00Z
+2026-09-30T00:49:36.463813+02:00,4371961,Will Leander Dendoncker record the most assists in the 2026-27 UEFA Conference League?,will-leander-dendoncker-record-the-most-assists-in-the-2026-27-uefa-conference-league,0.475,0.52,0.995,0.0,4.2534,2027-06-16T23:59:00Z
+2026-09-30T00:49:36.463813+02:00,4518521,Game 1: Any Player Rampage?,dota2-z10-dawnbu-2026-09-13-game1-any-player-rampage,0.5,0.0,0.5,10.0,0.0,2026-09-20T21:00:00Z
+2026-09-30T00:49:36.463813+02:00,4518523,Game 2: Both Teams Beat Roshan?,dota2-z10-dawnbu-2026-09-13-game2-both-teams-beat-roshan,0.5,0.0,0.5,0.0,0.0,2026-09-20T21:00:00Z
+2026-09-30T00:49:36.463813+02:00,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,will-jaume-martinez-vich-reach-the-semifinals-of-the-2027-ppa-tour-finals,0.255,0.62,0.875,0.0,20.241,2027-05-10T23:59:00Z
+2026-09-30T00:49:36.463813+02:00,4618332,Exact Score: Anguilla 2 - 2 Aruba?,conl-aia-aru-2026-09-29-exact-score-2-2,0.485,0.51,0.995,0.0,8.5535,2026-09-29T23:00:00Z
+2026-09-30T00:49:36.463813+02:00,4705377,Wydad Sportif Témara vs. Union Touarga Sports: Draw at halftime?,mar1-wst-uts-2026-10-02-halftime-result-draw,0.49,0.505,0.995,0.0,102.0643,2026-10-02T18:00:00Z
+2026-09-30T00:49:36.463813+02:00,4727478,Exact Score: Suriname 2 - 1 Guatemala?,conl-sur-gua-2026-10-02-exact-score-2-1,0.48,0.515,0.995,0.0,14.1995,2026-10-02T22:00:00Z
+2026-09-30T00:49:36.463813+02:00,4728107,Exact Score: CD Tedeón 3 - 1 CD Anaitasuna?,cdr-ted-ana-2026-10-03-exact-score-3-1,0.475,0.52,0.995,0.0,11.1519,2026-10-03T16:00:00Z
+2026-09-30T00:49:36.463813+02:00,4730659,Exact Score: Avaí FC 1 - 0 Ceará SC?,bra2-ava-csc-2026-10-02-exact-score-1-0,0.48,0.515,0.995,0.0,14.1696,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4749580,Exact Score: Blackpool FC 2 - 2 Leicester City FC?,el1-bla-lei-2026-10-03-exact-score-2-2,0.48,0.515,0.995,0.0,11.5458,2026-11-24T19:45:00Z
+2026-09-30T00:49:36.463813+02:00,4753358,Will CSD Mixco win on 2026-10-03?,gtm-mix-mun-2026-10-03-mix,0.39,0.495,0.885,0.0,525.4498,2026-10-03T17:00:00Z
+2026-09-30T00:49:36.463813+02:00,4757023,Bonnyrigg Rose FC leading at halftime?,scoc-cla-bor-2026-10-03-halftime-result-away,0.49,0.505,0.995,0.0,105.8293,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4758932,El Salvador vs. Jamaica: Both Teams to Score in First Half,conl-slv-jam-2026-10-02-btts-first-half,0.495,0.5,0.995,0.0,5.5798,2026-10-03T02:00:00Z
+2026-09-30T00:49:36.463813+02:00,4763747,SD Noja leading at halftime?,cdr-noj-rib-2026-10-04-halftime-result-home,0.485,0.51,0.995,0.0,41.6548,2026-10-04T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4782694,Exact Score: Real Sporting de Gijón 0 - 1 Celta Fortuna?,es2-spo-cel-2026-10-04-exact-score-0-1,0.135,0.86,0.995,0.0,65.9098,2026-10-04T14:15:00Z
+2026-09-30T00:49:36.463813+02:00,4786592,Exact Score: Comunicaciones FC 0 - 1 CSD Suchitepéquez?,gtm-com-suc-2026-10-04-exact-score-0-1,0.49,0.505,0.995,0.0,6.9198,2026-10-05T01:00:00Z
+2026-09-30T00:49:36.463813+02:00,4791767,Exact Score: Newton Stewart FC 3 - 3 Johnstone Burgh FC?,scoc-new-jb-2026-10-03-exact-score-3-3,0.48,0.515,0.995,0.0,12.9451,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4791790,Exact Score: Deveronvale FC 3 - 1 Troon FC?,scoc-dev-tro-2026-10-03-exact-score-3-1,0.48,0.515,0.995,0.0,13.1087,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4849184,Harborough Town FC vs. St Albans City FC: Both Teams to Score in First Half,efa-har-alb1-2026-10-03-btts-first-half,0.495,0.5,0.995,0.0,4.6783,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4883436,El Salvador leading at halftime?,conl-mart-slv-2026-10-05-halftime-result-away,0.495,0.5,0.995,0.0,2.98,2026-10-05T22:00:00Z
+2026-09-30T00:49:36.463813+02:00,4904806,Game 3: Both Teams Destroy Barracks?,dota2-ty-mouz-2026-09-30-game3-both-teams-destroy-barracks,0.315,0.68,0.9950000000000001,0.0,25.5,2026-09-30T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,4911782,Exact Score: Cruzeiro EC 0 - 2 São Paulo FC?,bra-cru-sao-2026-10-07-exact-score-0-2,0.48,0.515,0.995,0.0,12.797,2026-10-08T00:30:00Z
+2026-09-30T00:49:36.463813+02:00,4915811,San Jose State vs. Hawai'i: Both Teams to Score Points - Q3,cfb-sjst-hawaii-2026-10-04-3q-btts-points,0.5,0.495,0.995,0.0,2.16,2026-10-04T04:00:00Z
+2026-09-30T00:49:36.463813+02:00,4916599,BYU vs. TCU: Game Goes to Overtime,cfb-byu-tcu-2026-10-03-overtime,0.5,0.495,0.995,0.0,2.16,2026-10-03T23:00:00Z
+2026-09-30T00:49:36.463813+02:00,4917128,Kentucky vs. South Carolina: Both Teams to Score Points - Q3,cfb-uk-sc-2026-10-03-3q-btts-points,0.5,0.495,0.995,0.0,1.08,2026-10-03T20:15:00Z
+2026-09-30T00:49:36.463813+02:00,4917648,Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H,cfb-bowlgr-miaoh-2026-10-03-2h-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-03T19:30:00Z
+2026-09-30T00:49:36.463813+02:00,4919481,North Texas vs. Tulsa: Both Teams to Score a Touchdown,cfb-ntx-tulsa-2026-10-01-btts-td,0.495,0.5,0.995,0.0,1.92,2026-10-02T01:00:00Z
+2026-09-30T00:49:36.463813+02:00,4936239,Will Pedro de la Vega be in Seattle Sounders FC's Starting 11?,mls-sea-skc-2026-10-01-starting-eleven-home-pedro-de-la-vega-90069629,0.5,0.495,0.995,0.0,0.4,2026-10-02T01:30:00Z
+2026-09-30T00:49:36.463813+02:00,4936881,Will Ronald Donkor be in New York Red Bulls's Starting 11?,mls-nyr-stl-2026-09-26-starting-eleven-home-ronald-donkor-90110762,0.495,0.5,0.995,0.0,0.1,2026-09-26T23:30:00Z
+2026-09-30T00:49:36.463813+02:00,4936923,Will Riley Lynch be in St. Louis City SC's Starting 11?,mls-nyr-stl-2026-09-26-starting-eleven-away-riley-lynch-90125061,0.5,0.495,0.995,0.0,0.2,2026-09-26T23:30:00Z
+2026-09-30T00:49:36.463813+02:00,4942599,Exact Score: CA Platense 4 - 5 Estudiantes de La Plata?,argcopa-pla-elp-2026-10-01-exact-score-4-5,0.242,0.7575,0.9994999999999999,259.9898,228.56774,2026-10-02T00:15:00Z
+2026-09-30T00:49:36.463813+02:00,4955697,Exact Score: FC Zlín 3 - 0 SK Slavia Praha?,cze1-fcz-ssp-2026-10-09-exact-score-3-0,0.475,0.52,0.995,0.0,18.1077,2026-10-09T16:00:00Z
+2026-09-30T00:49:36.463813+02:00,4955948,Exact Score: Sepsi OSK 0 - 0 Dinamo 1948?,rou1-sep-din-2026-10-09-exact-score-0-0,0.48,0.515,0.995,0.0,10.1861,2026-10-09T18:00:00Z
+2026-09-30T00:49:36.463813+02:00,4955969,Exact Score: Ceará SC 5 - 2 Criciúma EC?,bra2-csc-cri-2026-10-08-exact-score-5-2,0.48,0.515,0.995,0.0,12.688,2026-10-08T22:30:00Z
+2026-09-30T00:49:36.463813+02:00,4957742,Exact Score: Al Fateh Saudi Club 1 - 0 Al Ahli Saudi Club?,spl-fat-ahl-2026-10-09-exact-score-1-0,0.49,0.505,0.995,0.0,7.1599,2026-10-09T14:55:00Z
+2026-09-30T00:49:36.463813+02:00,4978793,Exact Score: Kyrgyz Republic 2 - 0 Lebanon?,fif-kyr-lib-2026-10-04-exact-score-2-0,0.48,0.515,0.995,0.0,12.7676,2026-10-04T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,4978838,Exact Score: Sri Lanka 1 - 2 Mauritius?,fif-sri-mri-2026-10-05-exact-score-1-2,0.495,0.5,0.995,0.0,5.5731,2026-10-05T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,4985137,Will the price of Solana be above $95 on October 3?,solana-above-95-on-october-3-2026,0.979,0.0205,0.9994999999999999,255.14574900000002,4804.61642,2026-10-03T16:00:00Z
+2026-09-30T00:49:36.463813+02:00,4985713,Will Aldrich Potgieter finish in the Top 20 at the 2026 Bank of Utah Championship?,2026-bank-of-utah-championship-top20-aldrich-potgieter,0.495,0.5,0.995,0.0,0.0,2026-10-04T00:00:00Z
+2026-09-30T00:49:36.463813+02:00,4991394,Exact Score: AD Tarma 2 - 0 FC Cajamarca?,per1-adt-fcc-2026-10-10-exact-score-2-0,0.48,0.515,0.995,0.0,14.1696,2026-10-10T18:00:00Z
+2026-09-30T00:49:36.463813+02:00,4992748,Exact Score: Al Hilal Saudi Club 3 - 0 Al Ittihad Saudi Club?,spl-hil-ith-2026-10-10-exact-score-3-0,0.475,0.52,0.995,0.0,13.9392,2026-10-10T18:00:00Z
+2026-09-30T00:49:36.463813+02:00,4995222,Exact Score: Bengaluru FC 2 - 3 SC Delhi?,isp-ben-hfc-2026-10-10-exact-score-2-3,0.48,0.515,0.995,0.0,13.6063,2026-10-10T11:30:00Z
+2026-09-30T00:49:36.463813+02:00,4998222,Exact Score: Shanghai Shenhua FC 5 - 4 Yunnan Yukun FC?,chi-sgr-yun-2026-10-10-exact-score-5-4,0.48,0.515,0.995,0.0,14.1697,2026-10-10T11:35:00Z
+2026-09-30T00:49:36.463813+02:00,5000048,Exact Score: Júbilo Iwata 1 - 1 Hokkaidō Consadole Sapporo?,ja2-jub-con-2026-10-10-exact-score-1-1,0.48,0.515,0.995,0.0,6.1002,2026-10-10T09:00:00Z
+2026-09-30T00:49:36.463813+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-09-30T00:49:36.463813+02:00,5016448,Exact Score: AS Saint-Étienne 4 - 1 Rodez Aveyron Football?,fr2-ass-raf-2026-10-10-exact-score-4-1,0.48,0.515,0.995,0.0,13.0055,2026-10-10T18:00:00Z
+2026-09-30T00:49:36.463813+02:00,5018351,Exact Score: Stockport County FC 2 - 2 Barnsley FC?,el1-sto-bar-2026-10-10-exact-score-2-2,0.48,0.515,0.995,0.0,12.4576,2026-10-10T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,5025332,Exact Score: AFC Fylde 3 - 0 Scunthorpe United FC?,enl-fyl-scu-2026-10-10-exact-score-3-0,0.485,0.51,0.995,0.0,13.1096,2026-10-10T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,5036155,Will the price of Solana be above $100 on October 4?,solana-above-100-on-october-4-2026,0.9845,0.015,0.9995,110.050888,6057.2012,2026-10-04T16:00:00Z
+2026-09-30T00:49:36.463813+02:00,5036747,Exact Score: Atlanta United FC 3 - 0 FC Cincinnati?,mls-atl-fcc-2026-10-10-exact-score-3-0,0.485,0.51,0.995,0.0,12.7512,2026-10-10T23:30:00Z
+2026-09-30T00:49:36.463813+02:00,5041446,Ben Skowronek: Team First TD (Pittsburgh Steelers),nfl-pit-cle-2026-10-02-team-first-td-74-ben-skowronek,0.5,0.495,0.995,0.0,2.5598,2026-10-02T00:15:00Z
+2026-09-30T00:49:36.463813+02:00,5046488,Exact Score: FK Csíkszereda Miercurea Ciuc 5 - 5 Universitatea Craiova CS?,rou1-fcm-ucc-2026-10-11-exact-score-5-5,0.495,0.5,0.995,0.0,2.26,2026-10-11T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,5046585,Exact Score: EC Juventude 5 - 5 São Bernardo FC?,bra2-juv-ber-2026-10-11-exact-score-5-5,0.49,0.505,0.995,0.0,3.3731,2026-10-11T19:00:00Z
+2026-09-30T00:49:36.463813+02:00,5047167,Exact Score: CD Universidad Católica 3 - 3 Audax CS Italiano?,chi1-cuc-aci-2026-10-10-exact-score-3-3,0.48,0.515,0.995,0.0,11.553,2026-10-10T23:00:00Z
+2026-09-30T00:49:36.463813+02:00,5047533,Exact Score: Atlético Nacional 1 - 3 AD Pasto?,col1-atn-adp-2026-10-10-exact-score-1-3,0.48,0.515,0.995,0.0,12.7298,2026-10-11T01:15:00Z
+2026-09-30T00:49:36.463813+02:00,5057658,Exact Score: Liverpool Montevideo 2 - 2 CA Progreso?,uru1-liv-pro-2026-10-03-exact-score-2-2,0.485,0.51,0.995,0.0,13.0584,2026-10-03T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,5067729,CF América vs. CF Monterrey: Both Teams to Score in First Half,mex-ame-mon1-2026-10-10-btts-first-half,0.495,0.5,0.995,0.0,5.4598,2026-10-11T03:00:00Z
+2026-09-30T00:49:36.463813+02:00,5072702,Exact Score: NK Lokomotiva Zagreb 3 - 2 NK Varaždin?,hr1-lok-var-2026-10-11-exact-score-3-2,0.485,0.51,0.995,0.0,13.0213,2026-10-11T13:00:00Z
+2026-09-30T00:49:36.463813+02:00,5082164,IK Start vs. Hamarkameratene: Both Teams to Score in First Half,nor-ik-ham-2026-10-11-btts-first-half,0.495,0.5,0.995,0.0,5.5798,2026-10-11T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,5083568,Isaiah Likely: Anytime Touchdown,nfl-ari-nyg-2026-10-04-anytime-td-isaiah-likely,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-30T00:49:36.463813+02:00,5083644,Brevin Jordan: Anytime Touchdown,nfl-dal-hou-2026-10-04-anytime-td-brevin-jordan,0.5,0.495,0.995,0.0,2.36,2026-10-04T17:00:00Z
+2026-09-30T00:49:36.463813+02:00,5084404,LeQuint Allen Jr.: Anytime Touchdown,nfl-jax-cin-2026-10-04-anytime-td-lequint-allen-jr,0.495,0.5,0.995,0.0,2.56,2026-10-04T17:00:00Z
+2026-09-30T00:49:36.463813+02:00,5088073,Exact Score: FC Argeș Pitești 5 - 0 FC CFR 1907 Cluj?,rou1-fap-fcc-2026-10-12-exact-score-5-0,0.485,0.51,0.995,0.0,12.8697,2026-10-12T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,5088507,Exact Score: Cusco FC 1 - 2 Club Alianza Lima?,per1-cuf-cal-2026-10-11-exact-score-1-2,0.48,0.515,0.995,0.0,13.9946,2026-10-11T23:30:00Z
+2026-09-30T00:49:36.463813+02:00,5091923,Ladd McConkey: Team First TD (Los Angeles Chargers),nfl-lac-sea-2026-10-04-team-first-td-65-ladd-mcconkey,0.495,0.5,0.995,0.0,2.5597,2026-10-04T20:25:00Z
+2026-09-30T00:49:36.463813+02:00,5091963,Noah Gray: Anytime Touchdown,nfl-kc-lv-2026-10-04-anytime-td-noah-gray,0.495,0.5,0.995,0.0,2.1199,2026-10-04T20:25:00Z
+2026-09-30T00:49:36.463813+02:00,5111359,Illinois vs. Michigan State: Both Teams to Score a Touchdown - Q2,cfb-ill-mst-2026-10-10-2q-btts-td,0.5,0.495,0.995,0.0,2.36,2026-10-10T19:30:00Z
+2026-09-30T00:49:36.463813+02:00,5112951,New Mexico State vs. Florida International: Both Teams to Score a Touchdown - Q4,cfb-nmxst-flint-2026-10-07-4q-btts-td,0.5,0.495,0.995,0.0,2.12,2026-10-07T23:30:00Z
+2026-09-30T00:49:36.463813+02:00,5112995,Sam Houston vs. Liberty: Pick-Six Scored,cfb-smho-librty-2026-10-08-pick-six,0.5,0.495,0.995,0.0,2.36,2026-10-08T23:00:00Z
+2026-09-30T00:49:36.463813+02:00,5113895,Exact Margin: Kansas State by 13-18,cfb-hou-kanst-2026-10-10-exact-margin-short-13-18,0.475,0.52,0.995,0.0,23.6354,2026-10-10T19:30:00Z
+2026-09-30T00:49:36.463813+02:00,5114850,Will Jason Myers be the highest-scoring K in Week 4 of the 2026-27 NFL season?,will-jason-myers-be-the-highest-scoring-k-in-week-4-of-the-2026-27-nfl-season,0.465,0.53,0.9950000000000001,0.0,2.6634,2026-10-06T04:59:00Z
+2026-09-30T00:49:36.463813+02:00,5118094,Exact Score: CD Tenerife 5 - 0 Girona FC?,es2-cdt-gir-2026-10-12-exact-score-5-0,0.48,0.515,0.995,0.0,16.1797,2026-10-12T19:00:00Z
+2026-09-30T00:49:36.463813+02:00,5119064,Exact Score: Dijon Football Côte d'Or 5 - 3 FC Metz?,fr2-dij-met-2026-10-12-exact-score-5-3,0.485,0.51,0.995,0.0,13.0213,2026-10-12T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5130721,Adana: Completed Match: Fiona Crawley vs Elena Pridankina,wta-crawley-pridank-2026-09-30-completed-match,0.535,0.46,0.9950000000000001,0.0,3.3,2026-10-07T08:00:00Z
+2026-09-30T00:49:36.463813+02:00,5131375,Will MicroStrategy (MSTR) hit (HIGH) $155 Week of September 28 2026?,will-mstr-reach-155-by-september-28-2026,0.5,0.495,0.995,0.0,0.1,2026-10-02T20:00:00Z
+2026-09-30T00:49:36.463813+02:00,5133586,Cucurella: 3+ shots on target,unl-esp-hrv-2026-09-29-shots-on-target-cucurella-90054785-gte3,0.1,0.56,0.66,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133602,Ivan Perišić: 3+ shots on target,unl-esp-hrv-2026-09-29-shots-on-target-ivan-perisic-90031213-gte3,0.495,0.5,0.995,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133612,Josip Mišić: 4+ shots on target,unl-esp-hrv-2026-09-29-shots-on-target-josip-misic-90043709-gte4,0.25,0.5,0.75,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133670,Dion Drena Beljo: 1+ shots on target,unl-esp-hrv-2026-09-29-shots-on-target-dion-drena-beljo-90085580-gte1,0.5,0.1,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133718,Giacomo Benvenuti: Anytime Goalscorer,unl-smr-alb-2026-09-29-ags-giacomo-benvenuti-90124321,0.25,0.5,0.75,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133748,Lorenzo Capicchioni: 2+ goals,unl-smr-alb-2026-09-29-goals-lorenzo-capicchioni-90107209-gte2,0.25,0.5,0.75,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133762,Lorenzo Lazzari: 3+ goals,unl-smr-alb-2026-09-29-goals-lorenzo-lazzari-90107207-gte3,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133773,Giacomo Benvenuti: 3+ goals,unl-smr-alb-2026-09-29-goals-giacomo-benvenuti-90124321-gte3,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133778,Gabriel Capicchioni: 3+ goals,unl-smr-alb-2026-09-29-goals-gabriel-capicchioni-90133787-gte3,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133847,Lorenzo Lazzari: 1+ assists,unl-smr-alb-2026-09-29-assists-lorenzo-lazzari-90107207-gte1,0.495,0.5,0.995,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133917,Mario Mitaj: 2+ assists,unl-smr-alb-2026-09-29-assists-mario-mitaj-90089125-gte2,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133960,Nicola Nanni: 3+ goals + assists,unl-smr-alb-2026-09-29-goals-plus-assists-nicola-nanni-90068033-gte3,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133966,Lorenzo Capicchioni: 2+ goals + assists,unl-smr-alb-2026-09-29-goals-plus-assists-lorenzo-capicchioni-90107209-gte2,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5133970,Lorenzo Capicchioni: 3+ goals + assists,unl-smr-alb-2026-09-29-goals-plus-assists-lorenzo-capicchioni-90107209-gte3,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134000,Michele Cevoli: 3+ goals + assists,unl-smr-alb-2026-09-29-goals-plus-assists-michele-cevoli-90070737-gte3,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134134,Nicola Nanni: 5+ shots,unl-smr-alb-2026-09-29-shots-nicola-nanni-90068033-gte5,0.25,0.5,0.75,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134226,Gabriel Capicchioni: 1+ shots,unl-smr-alb-2026-09-29-shots-gabriel-capicchioni-90133787-gte1,0.5,0.1,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134240,Simone Giocondi: 3+ shots,unl-smr-alb-2026-09-29-shots-simone-giocondi-90121583-gte3,0.495,0.5,0.995,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134250,Juljan Shehu: 3+ shots,unl-smr-alb-2026-09-29-shots-juljan-shehu-90076126-gte3,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134294,Anis Mehmeti: 5+ shots,unl-smr-alb-2026-09-29-shots-anis-mehmeti-90090393-gte5,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134374,Marcello Mularoni: 3+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-marcello-mularoni-90070213-gte3,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134400,Dante Rossi: 4+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-dante-rossi-90088859-gte4,0.1,0.75,0.85,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134404,Giacomo Benvenuti: 2+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-giacomo-benvenuti-90124321-gte2,0.1,0.5,0.6,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134418,Gabriel Capicchioni: 3+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-gabriel-capicchioni-90133787-gte3,0.25,0.5,0.75,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134436,Juljan Shehu: 3+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-juljan-shehu-90076126-gte3,0.44,0.515,0.9550000000000001,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134481,Anis Mehmeti: 4+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-anis-mehmeti-90090393-gte4,0.1,0.56,0.66,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134485,Mario Mitaj: 2+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-mario-mitaj-90089125-gte2,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134518,Ernest Muçi: 3+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-ernest-muci-90057979-gte3,0.1,0.505,0.605,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5134531,Ardian Ismajli: 3+ shots on target,unl-smr-alb-2026-09-29-shots-on-target-ardian-ismajli-90039815-gte3,0.44,0.5,0.94,0.0,0.0,2026-09-29T18:45:00Z
+2026-09-30T00:49:36.463813+02:00,5137161,Exact Score: Club Always Ready 4 - 5 Club Independiente Petrolero?,bol1-alw-idp-2026-10-12-exact-score-4-5,0.49,0.505,0.995,0.0,9.4195,2026-10-12T21:15:00Z
+2026-09-30T00:49:36.463813+02:00,5137275,Exact Score: National Bank of Egypt Club 3 - 2 Tala'ea El Gaish SC?,egy1-nbo-teg-2026-10-13-exact-score-3-2,0.485,0.51,0.995,0.0,13.1656,2026-10-13T14:00:00Z
+2026-09-30T00:49:36.463813+02:00,5137740,Exact Score: Botafogo FC 1 - 1 Ceará SC?,bra2-bot-csc-2026-10-12-exact-score-1-1,0.485,0.51,0.995,0.0,8.5688,2026-10-13T00:00:00Z
+2026-09-30T00:49:36.463813+02:00,5139953,"W15 Varna, Main Draw: Completed Match: Rada Koleva vs Viktoria Veleva",itf-koleva1-veleva1-2026-09-30-completed-match,0.535,0.46,0.9950000000000001,0.0,2.5,2026-10-07T07:00:00Z
+2026-09-30T00:49:36.463813+02:00,5140008,"W15 Trelew, Main Draw: Completed Match: Sol Ailin Larraya Guidi vs Maria Florencia Urrutia",itf-guidi1-urruti1-2026-09-30-completed-match,0.535,0.46,0.9950000000000001,0.0,2.5,2026-10-07T15:00:00Z
+2026-09-30T00:49:36.463813+02:00,5140565,Cody White: Anytime Touchdown,nfl-kc-lv-2026-10-04-anytime-td-cody-white,0.5,0.495,0.995,0.0,9.7296,2026-10-04T20:25:00Z
+2026-09-30T00:49:36.463813+02:00,5142017,CD Godoy Cruz vs. Club Atletico Los Andes: Both Teams to Score in Second Half,argpn-god-ala-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.6596,2026-10-04T21:00:00Z
