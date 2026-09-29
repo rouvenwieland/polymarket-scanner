@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 14.545893886542466,
   "positions": [
     {
       "market_id": "4844770",
@@ -277,17 +277,6 @@
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
-      "market_id": "4942604",
-      "frage": "Estudiantes de La Plata to score first vs. CA Platense?",
-      "slug": "argcopa-pla-elp-2026-10-01-first-to-score-away",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 47.8413,
-      "end_date": "2026-10-02T00:15:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
       "market_id": "4690041",
       "frage": "Exact Score: British Virgin Islands 3 - 3 Montserrat?",
       "slug": "conl-vgb-msr-2026-10-01-exact-score-3-3",
@@ -296,50 +285,6 @@
       "letzter_kurs": 0.9950000000000001,
       "liquiditaet": 15.3891,
       "end_date": "2026-10-01T19:00:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
-      "market_id": "4730713",
-      "frage": "Operário Ferroviário EC leading at halftime?",
-      "slug": "bra2-juv-ope-2026-10-02-halftime-result-away",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1154.0981,
-      "end_date": "2026-10-02T23:45:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
-      "market_id": "4928151",
-      "frage": "Steelers vs. Browns: Both Teams to Score Points - 1Q",
-      "slug": "nfl-pit-cle-2026-10-02-1q-btts-points",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.8394,
-      "end_date": "2026-10-02T00:15:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
-      "market_id": "4747398",
-      "frage": "Cádiz CF to score first vs. CD Leganés?",
-      "slug": "es2-cad-leg-2026-10-03-first-to-score-home",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 330.5499,
-      "end_date": "2026-10-03T16:30:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
-      "market_id": "5059831",
-      "frage": "Nueva Chicago vs. CD Maipu: Both Teams to Score",
-      "slug": "argpn-chi-mai-2026-10-03-btts",
-      "shares": 2.0779848409346373,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 159.3694,
-      "end_date": "2026-10-03T20:00:00Z",
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
@@ -475,17 +420,6 @@
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
-      "market_id": "4955757",
-      "frage": "Exact Score: CD San Antonio Bulo Bulo 4 - 4 CD Real Tomayapo?",
-      "slug": "bol1-ant-tom-2026-10-09-exact-score-4-4",
-      "shares": 2.0779848409346378,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 13.2997,
-      "end_date": "2026-10-09T19:00:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
       "market_id": "5113863",
       "frage": "Exact Margin: Houston by 1-6",
       "slug": "cfb-hou-kanst-2026-10-10-exact-margin-long-1-6",
@@ -527,17 +461,6 @@
       "letzter_kurs": 0.9950000000000001,
       "liquiditaet": 25.5269,
       "end_date": "2026-10-11T13:00:00Z",
-      "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
-    },
-    {
-      "market_id": "5015524",
-      "frage": "Exact Score: Real Madrid CF 4 - 0 Villarreal CF?",
-      "slug": "lal-rea-vil-2026-10-10-exact-score-4-0",
-      "shares": 2.0779848409346373,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 12.2011,
-      "end_date": "2026-10-10T19:00:00Z",
       "eingestiegen": "2026-09-29T15:42:33.636409+02:00"
     },
     {
