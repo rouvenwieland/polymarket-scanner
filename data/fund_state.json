@@ -1,5 +1,17 @@
 {
-  "cash": 110.17669693888419,
-  "positions": [],
+  "cash": 24.491194365821343,
+  "positions": [
+    {
+      "market_id": "4799625",
+      "frage": "CA Talleres leading at halftime?",
+      "slug": "arg-tal-bel-2026-10-04-halftime-result-home",
+      "shares": 85.7713597041267,
+      "einstandskurs": 0.9989989999999999,
+      "letzter_kurs": 0.9989989999999999,
+      "liquiditaet": 1413.9679,
+      "end_date": "2026-10-04T20:00:00Z",
+      "eingestiegen": "2026-09-30T16:34:55.494544+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

@@ -23,3 +23,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-30T00:49:36.463813+02:00,KAUF,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,2.2791,0.8881,-2.0241,50.4426,"Spread 12.50%, Liquiditaet 20 USD"
 2026-09-30T03:37:45.195528+02:00,VERKAUF,4753358,Will CSD Mixco win on 2026-10-03?,58.4095,0.9841,57.4796,107.9222,Konvergenz erreicht (Kurs 1.000)
 2026-09-30T03:37:45.195528+02:00,VERKAUF,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,2.2791,0.9892,2.2545,110.1767,Konvergenz erreicht (Kurs 1.000)
+2026-09-30T16:34:55.494544+02:00,KAUF,4799625,CA Talleres leading at halftime?,85.7714,0.999,-85.6855,24.4912,"Spread 1.00%, Liquiditaet 1414 USD"
