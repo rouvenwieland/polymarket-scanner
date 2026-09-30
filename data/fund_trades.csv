@@ -26,3 +26,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-30T16:34:55.494544+02:00,KAUF,4799625,CA Talleres leading at halftime?,85.7714,0.999,-85.6855,24.4912,"Spread 1.00%, Liquiditaet 1414 USD"
 2026-09-30T20:49:37.821389+02:00,VERKAUF,4799625,CA Talleres leading at halftime?,85.7714,0.991,84.9969,109.4881,Konvergenz erreicht (Kurs 1.000)
 2026-09-30T21:38:27.436094+02:00,KAUF,5077232,Will Jackson Chourio lead the 2026 MLB Postseason in stolen bases?,5.3545,0.8272,-4.4294,105.0587,"Spread 18.50%, Liquiditaet 44 USD"
+2026-10-01T00:39:41.467519+02:00,VERKAUF,5077232,Will Jackson Chourio lead the 2026 MLB Postseason in stolen bases?,5.3545,0.988,5.2901,110.3487,Konvergenz erreicht (Kurs 1.000)

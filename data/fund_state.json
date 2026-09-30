@@ -1,17 +1,5 @@
 {
-  "cash": 105.05867178513833,
-  "positions": [
-    {
-      "market_id": "5077232",
-      "frage": "Will Jackson Chourio lead the 2026 MLB Postseason in stolen bases?",
-      "slug": "will-jackson-chourio-lead-the-2026-mlb-postseason-in-stolen-bases",
-      "shares": 5.354516606727313,
-      "einstandskurs": 0.8272249999999999,
-      "letzter_kurs": 0.8272249999999999,
-      "liquiditaet": 44.2939,
-      "end_date": "2026-11-16T04:59:00Z",
-      "eingestiegen": "2026-09-30T21:38:27.436094+02:00"
-    }
-  ],
+  "cash": 110.3487230135127,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
