@@ -1,28 +1,5 @@
 {
-  "cash": 99.31918410832014,
-  "positions": [
-    {
-      "market_id": "4593766",
-      "frage": "Will LêwN have the highest ACS at VALORANT Champions 2026?",
-      "slug": "will-lewn-have-the-highest-acs-at-valorant-champions-2026",
-      "shares": 3.068705418719212,
-      "einstandskurs": 0.8881249999999999,
-      "letzter_kurs": 0.8881249999999999,
-      "liquiditaet": 27.25394,
-      "end_date": "2026-10-20T03:59:00Z",
-      "eingestiegen": "2026-10-01T22:58:20.756443+02:00"
-    },
-    {
-      "market_id": "5136271",
-      "frage": "Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half",
-      "slug": "ucl-rcl-spo-2026-10-13-btts-second-half",
-      "shares": 9.21469789886398,
-      "einstandskurs": 0.9946999999999999,
-      "letzter_kurs": 0.9946999999999999,
-      "liquiditaet": 91.6586,
-      "end_date": "2026-10-13T16:45:00Z",
-      "eingestiegen": "2026-10-01T22:58:20.756443+02:00"
-    }
-  ],
+  "cash": 111.37080905126072,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

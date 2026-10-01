@@ -35,3 +35,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-01T16:46:36.733649+02:00,VERKAUF,5131129,Will Cristobal Henriquez Villagra finish in the Top 3 of Titled Tuesday on October 6?,2.4264,0.9984,2.4224,111.2104,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T22:58:20.756443+02:00,KAUF,4593766,Will LêwN have the highest ACS at VALORANT Champions 2026?,3.0687,0.8881,-2.7254,108.485,"Spread 12.50%, Liquiditaet 27 USD"
 2026-10-01T22:58:20.756443+02:00,KAUF,5136271,Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half,9.2147,0.9947,-9.1659,99.3192,"Spread 2.00%, Liquiditaet 92 USD"
+2026-10-02T01:46:41.913664+02:00,VERKAUF,4593766,Will LêwN have the highest ACS at VALORANT Champions 2026?,3.0687,0.9689,2.9734,102.2926,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T01:46:41.913664+02:00,VERKAUF,5136271,Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half,9.2147,0.9852,9.0782,111.3708,Konvergenz erreicht (Kurs 1.000)
