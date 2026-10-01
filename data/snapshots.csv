@@ -1981,3 +1981,53 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-01T18:00:00.567317+02:00,5178713,Toral Bayramov: 4+ shots,unl-aze-lie-2026-10-01-shots-toral-bayramov-90073752-gte4,0.5,0.495,0.995,0.0,1.1198,2026-10-01T16:00:00Z
 2026-10-01T18:00:00.567317+02:00,5179295,Will the price of Solana be between $110 and $120 on October 8?,will-the-price-of-solana-be-between-110-120-on-october-8-2026,0.5,0.495,0.995,0.0,0.1,2026-10-08T16:00:00Z
 2026-10-01T18:00:00.567317+02:00,5179307,Will the price of Solana be greater than $160 on October 8?,will-the-price-of-solana-be-greater-than-160-on-october-8-2026,0.5,0.495,0.995,0.0,0.1,2026-10-08T16:00:00Z
+2026-10-01T22:58:20.756443+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-01T22:58:20.756443+02:00,3195633,Will Lorenzo Musetti Qualify for the Nitto ATP Finals 2026?,will-lorenzo-musetti-qualify-for-the-nitto-atp-finals-2026-20260728191143826,0.0255,0.974,0.9994999999999999,341.2201,165.73591,2026-12-07T04:59:00Z
+2026-10-01T22:58:20.756443+02:00,3530216,Will Talleres (C) win the 2026 Liga Profesional (Argentina)?,2026-soccer-liga-profesional-argentina-winner-talleres-c,0.465,0.53,0.9950000000000001,0.0,7.2878,2027-01-01T04:59:00Z
+2026-10-01T22:58:20.756443+02:00,4371683,Will Midtjylland score the most goals in the UECL league phase?,will-midtjylland-score-the-most-goals-in-the-uecl-league-phase,0.445,0.5545,0.9995,0.0,35.22915,2027-01-31T23:59:00Z
+2026-10-01T22:58:20.756443+02:00,4593766,Will LêwN have the highest ACS at VALORANT Champions 2026?,will-lewn-have-the-highest-acs-at-valorant-champions-2026,0.1255,0.7495,0.875,0.0,27.25394,2026-10-20T03:59:00Z
+2026-10-01T22:58:20.756443+02:00,4782762,UD Las Palmas to score first vs. Real Valladolid CF?,es2-lpm-vld-2026-10-04-first-to-score-home,0.5,0.495,0.995,0.0,1436.1384,2026-10-04T16:30:00Z
+2026-10-01T22:58:20.756443+02:00,4917883,Wyoming vs. North Dakota State: Both Teams to Score a Touchdown - Q1,cfb-wyom-ndkst-2026-10-03-1q-btts-td,0.5,0.495,0.995,0.0,1.08,2026-10-03T19:30:00Z
+2026-10-01T22:58:20.756443+02:00,4963954,Will US Dollar Index (DXY) hit (LOW) 100.00 Week of September 28 2026?,will-dxy-dip-to-100-by-september-28-2026,0.495,0.5,0.995,0.0,0.8839,2026-10-02T21:00:00Z
+2026-10-01T22:58:20.756443+02:00,4970501,Exact Score: West Ham United FC 0 - 0 Queens Park Rangers FC?,elc-whu-qpr-2026-10-09-exact-score-0-0,0.48,0.515,0.995,0.0,6.4394,2026-10-09T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,4999904,Exact Score: Tokushima Vortis 4 - 5 FC Imabari?,ja2-tok-imb-2026-10-10-exact-score-4-5,0.49,0.505,0.995,0.0,5.1195,2026-10-10T05:00:00Z
+2026-10-01T22:58:20.756443+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-01T22:58:20.756443+02:00,5015324,PSV vs. SC Heerenveen: Both Teams to Score,ere-psv-her1-2026-10-09-btts,0.5,0.495,0.995,0.0,81.8489,2026-10-09T18:00:00Z
+2026-10-01T22:58:20.756443+02:00,5015565,Real Madrid CF vs. Villarreal CF: Neither team to score first?,lal-rea-vil-2026-10-10-first-to-score-neither,0.48,0.515,0.995,0.0,21.3787,2026-10-10T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5023544,Exact Score: CSD Suchitepéquez 1 - 0 CSD Mixco?,gtm-suc-mix-2026-10-10-exact-score-1-0,0.475,0.52,0.995,0.0,13.7209,2026-10-10T23:00:00Z
+2026-10-01T22:58:20.756443+02:00,5029747,Bryne FK vs. Lyn 1896 FK: Draw at halftime?,nor2-bry-lyn-2026-10-04-halftime-result-draw,0.35,0.645,0.995,0.0,1392.1084,2026-10-04T12:30:00Z
+2026-10-01T22:58:20.756443+02:00,5040650,Exact Margin: Cowboys by 7-12,nfl-dal-hou-2026-10-04-exact-margin-long-7-12,0.5,0.495,0.995,0.0,2.3199,2026-10-04T17:00:00Z
+2026-10-01T22:58:20.756443+02:00,5049346,Will the Boston Bruins record 80+ points?,will-the-boston-bruins-record-80-points,0.89,0.105,0.995,0.02,11896.9956,2027-04-30T03:59:00Z
+2026-10-01T22:58:20.756443+02:00,5064851,Hull City AFC vs. Everton FC: Both Teams to Score in First Half,epl-hul-eve-2026-10-11-btts-first-half,0.49,0.505,0.995,0.0,26.0098,2026-10-11T13:00:00Z
+2026-10-01T22:58:20.756443+02:00,5084244,Will Nathan MacKinnon record 80+ points in the 2026-27 regular season?,will-nathan-mackinnon-record-80-points-in-the-2026-27-regular-season,0.8945,0.105,0.9994999999999999,166.381813,63.48093,2027-04-30T03:59:00Z
+2026-10-01T22:58:20.756443+02:00,5119065,Exact Score: Dijon Football Côte d'Or 4 - 5 FC Metz?,fr2-dij-met-2026-10-12-exact-score-4-5,0.49,0.505,0.995,0.0,5.5996,2026-10-12T18:45:00Z
+2026-10-01T22:58:20.756443+02:00,5119658,Pumas de la UNAM vs. CF Cruz Azul: Both Teams to Score in Second Half,mex-pum-caz-2026-10-11-btts-second-half,0.495,0.5,0.995,0.0,61.7565,2026-10-12T01:00:00Z
+2026-10-01T22:58:20.756443+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-01T22:58:20.756443+02:00,5136271,Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half,ucl-rcl-spo-2026-10-13-btts-second-half,0.485,0.495,0.98,0.0,91.6586,2026-10-13T16:45:00Z
+2026-10-01T22:58:20.756443+02:00,5137122,Exact Score: CF Universidad de Chile 4 - 1 CD Ñublense?,chi1-cud-cdu-2026-10-12-exact-score-4-1,0.48,0.515,0.995,0.0,14.7993,2026-10-12T21:00:00Z
+2026-10-01T22:58:20.756443+02:00,5142017,CD Godoy Cruz vs. Club Atletico Los Andes: Both Teams to Score in Second Half,argpn-god-ala-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.6596,2026-10-04T21:00:00Z
+2026-10-01T22:58:20.756443+02:00,5153171,"Will it rain in New York, NY on October 1?",where-will-it-rain-on-october-1-2026-new-york-ny,0.0055,0.5045,0.5099999999999999,784.27,0.34297,2026-10-02T18:00:00Z
+2026-10-01T22:58:20.756443+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-01T22:58:20.756443+02:00,5169385,Exact Score: Portsmouth FC 5 - 4 Sheffield United FC?,elc-por-she-2026-10-14-exact-score-5-4,0.495,0.5,0.995,0.0,7.1198,2026-10-14T18:45:00Z
+2026-10-01T22:58:20.756443+02:00,5173041,China Open: Completed Match: Sonay Kartal vs Xinyu Wang,wta-kartal-wa-2026-10-01-completed-match,0.525,0.47,0.995,13172.0,4.6997,2026-10-09T03:00:00Z
+2026-10-01T22:58:20.756443+02:00,5175381,Will 25% to 34% of Cattle inventory be in D1-D4 drought this week?,ag-commodity-drought-cattle-2026-10-06-25-34,0.5,0.495,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-01T22:58:20.756443+02:00,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,ag-commodity-drought-soybeans-2026-10-06-0-14,0.495,0.5,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-01T22:58:20.756443+02:00,5179614,Exact Score: Columbus Crew 4 - 0 Charlotte FC?,mls-clb-clt-2026-10-14-exact-score-4-0,0.48,0.515,0.995,0.0,12.948,2026-10-14T23:30:00Z
+2026-10-01T22:58:20.756443+02:00,5179666,Exact Score: St. Louis City SC 5 - 0 Vancouver Whitecaps FC?,mls-stl-vwh-2026-10-14-exact-score-5-0,0.48,0.515,0.995,0.0,14.3198,2026-10-15T00:30:00Z
+2026-10-01T22:58:20.756443+02:00,5179772,Exact Score: FC Dallas 5 - 4 Seattle Sounders FC?,mls-dal-sea-2026-10-14-exact-score-5-4,0.48,0.515,0.995,0.0,14.3198,2026-10-15T00:30:00Z
+2026-10-01T22:58:20.756443+02:00,5179786,Exact Score: Chicago Fire FC 1 - 0 Philadelphia Union?,mls-chi-phi-2026-10-14-exact-score-1-0,0.49,0.505,0.995,0.0,8.4804,2026-10-15T00:30:00Z
+2026-10-01T22:58:20.756443+02:00,5179860,Exact Score: Real Salt Lake 3 - 5 San Jose Earthquakes?,mls-rsl-sje-2026-10-14-exact-score-3-5,0.495,0.5,0.995,0.0,3.5316,2026-10-15T01:30:00Z
+2026-10-01T22:58:20.756443+02:00,5182221,San Diego FC vs. Houston Dynamo: Both Teams to Score in First Half,mls-sdg-hou-2026-10-14-btts-first-half,0.495,0.5,0.995,0.0,5.4598,2026-10-15T02:30:00Z
+2026-10-01T22:58:20.756443+02:00,5183190,D.C. United SC vs. New York Red Bulls: Both Teams to Score in First Half,mls-dcu-nyr-2026-10-14-btts-first-half,0.495,0.5,0.995,0.0,5.2798,2026-10-14T23:30:00Z
+2026-10-01T22:58:20.756443+02:00,5184238,Exact Score: ŠK Slovan Bratislava 2 - 3 VfB Stuttgart?,ucl-sba-stu-2026-10-14-exact-score-2-3,0.455,0.54,0.9950000000000001,0.0,17.6392,2026-10-14T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5184254,Exact Score: ŠK Slovan Bratislava 4 - 5 VfB Stuttgart?,ucl-sba-stu-2026-10-14-exact-score-4-5,0.455,0.54,0.9950000000000001,0.0,17.1392,2026-10-14T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5187739,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half,wsl2-nfo-bur-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.4596,2026-10-04T13:00:00Z
+2026-10-01T22:58:20.756443+02:00,5189300,Exact Score: PFK CSKA Sofia 3 - 2 AS Monaco FC?,col-csk-asm-2026-10-15-exact-score-3-2,0.48,0.515,0.995,0.0,12.7093,2026-10-15T16:45:00Z
+2026-10-01T22:58:20.756443+02:00,5189388,Exact Score: KF Egnatia Rrogozhinë 4 - 0 FC Midtjylland?,col-egn-mid-2026-10-15-exact-score-4-0,0.475,0.52,0.995,0.0,12.8518,2026-10-15T16:45:00Z
+2026-10-01T22:58:20.756443+02:00,5189438,Exact Score: FC Lugano 3 - 2 FK Crvena zvezda?,col-lug-crv-2026-10-15-exact-score-3-2,0.475,0.52,0.995,0.0,13.9998,2026-10-15T16:45:00Z
+2026-10-01T22:58:20.756443+02:00,5189544,Exact Score: Kuopion PS 5 - 3 Trabzonspor?,col-kps-tra-2026-10-15-exact-score-5-3,0.475,0.52,0.995,0.0,13.9993,2026-10-15T16:45:00Z
+2026-10-01T22:58:20.756443+02:00,5189719,Exact Score: K. Sint-Truidense VV 3 - 3 SK Iberia 1999?,col-kst-sab-2026-10-15-exact-score-3-3,0.49,0.505,0.995,0.0,7.1598,2026-10-15T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5189740,Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Second half draw?,col-bha-kau-2026-10-15-second-half-result-draw,0.495,0.5,0.995,0.0,12.2874,2026-10-15T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5189813,Exact Score: Atalanta BC 5 - 1 Páfos FC?,col-ata-paf-2026-10-15-exact-score-5-1,0.475,0.52,0.995,0.0,12.8518,2026-10-15T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5189956,Exact Score: SC Freiburg 3 - 5 FK Jablonec?,col-scf-jab-2026-10-15-exact-score-3-5,0.49,0.505,0.995,0.0,5.1599,2026-10-15T19:00:00Z
+2026-10-01T22:58:20.756443+02:00,5191178,Exact Score: Al Ahli Saudi Club 1 - 3 Al Nassr Saudi Club?,spl-ahl-nsr-2026-10-15-exact-score-1-3,0.485,0.51,0.995,0.0,9.5188,2026-10-15T18:00:00Z
