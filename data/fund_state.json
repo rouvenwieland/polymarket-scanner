@@ -1,5 +1,5 @@
 {
-  "cash": 102.92920191146317,
+  "cash": 108.78799636816693,
   "positions": [
     {
       "market_id": "5131129",
@@ -11,17 +11,6 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-01T01:12:35.568662+02:00"
-    },
-    {
-      "market_id": "4846865",
-      "frage": "Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?",
-      "slug": "efa-tad-dar2-2026-10-03-exact-score-1-2",
-      "shares": 5.948497034281694,
-      "einstandskurs": 0.9946999999999999,
-      "letzter_kurs": 0.9946999999999999,
-      "liquiditaet": 59.1697,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-10-01T04:10:41.166982+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

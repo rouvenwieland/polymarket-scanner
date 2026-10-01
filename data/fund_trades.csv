@@ -31,3 +31,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-01T01:12:35.568662+02:00,KAUF,5131129,Will Cristobal Henriquez Villagra finish in the Top 3 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,99.0429,"Spread 1.00%, Liquiditaet 40 USD"
 2026-10-01T03:33:13.425622+02:00,VERKAUF,5051025,Will Mike Sullivan win the 2026-27 Jack Adams Award?,9.9438,0.9859,9.8032,108.8462,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T04:10:41.166982+02:00,KAUF,4846865,Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?,5.9485,0.9947,-5.917,102.9292,"Spread 2.00%, Liquiditaet 59 USD"
+2026-10-01T09:42:14.370052+02:00,VERKAUF,4846865,Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?,5.9485,0.9849,5.8588,108.788,Konvergenz erreicht (Kurs 1.000)
