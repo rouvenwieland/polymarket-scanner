@@ -890,3 +890,36 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-01T03:33:13.425622+02:00,VERKAUF,4974298,Exact Score: Montpellier HSC 4 - 5 Grenoble Foot 38?,2.1729,1.0,2.1729,54.3599,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T03:33:13.425622+02:00,VERKAUF,5018436,Exact Score: Bradford City AFC 2 - 0 Leyton Orient FC?,2.1729,1.0,2.1729,56.5328,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T03:33:13.425622+02:00,VERKAUF,4970652,Exact Score: Any Other Score?,2.1729,1.0,2.1729,58.7056,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T04:10:41.166982+02:00,VERKAUF,4846705,Exact Score: Guiseley AFC 0 - 2 Bradford Park Avenue FC?,2.1464,1.0,2.1464,60.8521,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T04:10:41.166982+02:00,VERKAUF,4986507,Exact Score: Samsunspor 1 - 0 Trabzonspor?,2.1464,1.0,2.1464,62.9985,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T04:10:41.166982+02:00,VERKAUF,5046685,Exact Score: Zamalek SC 3 - 2 El Ahly SC?,2.1464,1.0,2.1464,65.1449,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T04:10:41.166982+02:00,KAUF,4846865,Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?,2.2158,0.98,-2.1715,62.9734,"Spread 2.00%, Liquiditaet 59 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5166359,Game 1: Both Teams Destroy Inhibitors?,2.1824,0.995,-2.1715,60.8019,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5166314,Game 1: Both Teams Slay a Dragon?,2.1824,0.995,-2.1715,58.6304,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4705117,Once Caldas to score first vs. Internacional de Bogotá?,2.1824,0.995,-2.1715,56.4589,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5167448,Game 2: Both Teams Destroy Inhibitors?,2.1824,0.995,-2.1715,54.2874,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4008724,CD Universidad de Concepción leading at halftime?,2.1824,0.995,-2.1715,52.1159,"Spread 0.50%, Liquiditaet 874 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4730445,Santos FC to score first vs. São Paulo FC?,2.1824,0.995,-2.1715,49.9444,"Spread 0.50%, Liquiditaet 1258 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5130839,Exact Score: RC Deportivo De La Coruna 1 - 2 FC Porto?,2.1824,0.995,-2.1715,47.7729,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4751250,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score,2.1824,0.995,-2.1715,45.6014,"Spread 0.50%, Liquiditaet 1323 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5123872,Defensor Sporting leading at halftime?,2.1824,0.995,-2.1715,43.4299,"Spread 0.50%, Liquiditaet 313 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4792049,AC Goianiense vs. América FC: Both Teams to Score,2.1824,0.995,-2.1715,41.2585,"Spread 0.50%, Liquiditaet 2264 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4846856,Tadley Calleva FC vs. Dartford FC: Second half draw?,2.1824,0.995,-2.1715,39.087,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4751576,Exact Score: Colchester United FC 1 - 3 Port Vale FC?,2.1824,0.995,-2.1715,36.9155,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5165437,Exact Score: CD Real Santander 5 - 3 Union Magdalena?,2.1824,0.995,-2.1715,34.744,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5027860,Exact Score: Colorado Springs Switchbacks FC 3 - 3 Oakland Roots SC?,2.1824,0.995,-2.1715,32.5725,"Spread 0.50%, Liquiditaet 22 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5073630,Exact Score: Argentina 3 - 5 Burkina Faso?,2.1824,0.995,-2.1715,30.401,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5029276,Exact Score: Senegal 2 - 0 Comoros?,2.1824,0.995,-2.1715,28.2295,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5157989,Will Lamar Jackson score the first touchdown?,2.1824,0.995,-2.1715,26.058,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5057744,Exact Score: Racing Club Montevideo 2 - 2 CA Penarol Montevideo?,2.1824,0.995,-2.1715,23.8865,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4835680,Exact Score: Bosnia and Herzegovina 3 - 3 Poland?,2.1824,0.995,-2.1715,21.715,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5015324,PSV vs. SC Heerenveen: Both Teams to Score,2.1824,0.995,-2.1715,19.5435,"Spread 0.50%, Liquiditaet 82 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4956183,Exact Score: SE Palmeiras 3 - 5 EC Bahia?,2.1824,0.995,-2.1715,17.372,"Spread 0.50%, Liquiditaet 11 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5112975,New Mexico State vs. Florida International: Kickoff or Punt Return Touchdown,2.1824,0.995,-2.1715,15.2005,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4961438,Exact Score: Qingdao Hainiu FC 2 - 3 Beijing Guoan FC?,2.1824,0.995,-2.1715,13.029,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5018525,Exact Score: Mansfield Town FC 1 - 0 Bromley FC?,2.1824,0.995,-2.1715,10.8575,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,4991404,Exact Score: AD Tarma 2 - 1 FC Cajamarca?,2.1824,0.995,-2.1715,8.686,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5020962,Exact Score: FK Kolos Kovalivka 0 - 5 FK Epitsentr Dunaivtsi?,2.1824,0.995,-2.1715,6.5145,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5065524,Exact Score: Real Sociedad de Fútbol 0 - 2 RC Deportivo A Coruña?,2.1824,0.995,-2.1715,4.343,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5018719,Exact Score: Stevenage FC 2 - 2 Wigan Athletic FC?,2.1824,0.995,-2.1715,2.1715,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-01T04:10:41.166982+02:00,KAUF,5031316,Exact Score: PEC Zwolle 5 - 2 SC Cambuur-Leeuwarden?,2.1824,0.995,-2.1715,0.0,"Spread 0.50%, Liquiditaet 18 USD"
