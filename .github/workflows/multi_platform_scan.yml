@@ -1,0 +1,50 @@
+name: Multi-Platform Scan
+
+on:
+  schedule:
+    # Kalshi + PredictIt sind deutlich kleiner als Polymarkts ~200k Märkte,
+    # ein Lauf sollte also schneller sein als der große Polymarket-Scan -
+    # trotzdem bewusst kein engerer Takt als der Haupt-Scan, um die
+    # zusätzliche Last/API-Last auf Kalshi/PredictIt gering zu halten.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# Gleiche concurrency-Gruppe wie die bestehenden Polymarket-Workflows: alle
+# committen in dasselbe data/-Verzeichnis per "git add data/". Auch wenn die
+# Dateien selbst nicht überlappen, lehnt git push einen non-fast-forward-Push
+# ab, sobald ein anderer Workflow dazwischen schon gepusht hat - daher
+# dieselbe Gruppe statt einer eigenen, damit sich die Läufe nicht
+# gegenseitig die Pushes wegschnappen.
+concurrency:
+  group: polymarket-data-write
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests pandas
+
+      - name: Multi-Platform-Scan ausführen
+        run: python scripts/multi_platform_scan.py
+
+      - name: Ergebnisse committen
+        run: |
+          mkdir -p data
+          git config user.name "polymarket-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --quiet --cached || git commit -m "Multi-Platform-Scan $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          git push

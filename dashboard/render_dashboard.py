@@ -53,6 +53,14 @@ FUND_PROFILES = [
         "empty_note": "positiven Spread hat (praktisch jeder Treffer zählt hier).",
         "open_by_default": False,
     },
+    {
+        "key": "cross_platform", "label": "Cross-Platform (Polymarket+Kalshi+PredictIt)",
+        "state_json": "fund_state_crossplatform.json", "history_csv": "fund_history_crossplatform.csv", "trades_csv": "fund_trades_crossplatform.csv",
+        "desc": "Kauft Yes auf einer Plattform + No auf einer anderen für dasselbe, per Textähnlichkeit gematchte Ereignis, wenn die Kombi-Summe nach geschätzten Gebühren unter 1 liegt. Kalshi-Taker-Fee und PredictIt-Gewinn-Fee werden explizit verrechnet.",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "open_by_default": False,
+        "two_legged": True,
+    },
 ]
 
 
@@ -378,8 +386,9 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 
 .freqnote{ font-size:12px; color:var(--muted-2); margin-top:10px; }
 
-.compare{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
-@media (max-width:720px){ .compare{ grid-template-columns:1fr; } }
+.compare{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
+@media (max-width:900px){ .compare{ grid-template-columns:repeat(2,1fr); } }
+@media (max-width:480px){ .compare{ grid-template-columns:1fr; } }
 .compare-card{ border:1px solid var(--border); background:var(--surface); border-radius:12px; padding:16px; }
 .compare-card .label{ font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:.04em; font-weight:700; }
 .compare-card .nav{ font-size:22px; font-weight:800; font-family:"IBM Plex Mono",monospace; margin-top:6px; }
@@ -495,13 +504,27 @@ def render(data_dir):
 
     now_utc = datetime.now(timezone.utc)
 
+    platform_overview = load_json(os.path.join(data_dir, "platform_overview.json"), {})
+    cross_hits_rows = load_csv(os.path.join(data_dir, "cross_platform_hits.csv"))
+    latest_cross_hits = []
+    if cross_hits_rows:
+        latest_ts = max(r["timestamp"] for r in cross_hits_rows)
+        latest_cross_hits = sorted(
+            (r for r in cross_hits_rows if r["timestamp"] == latest_ts),
+            key=lambda r: float(r["summe"]),
+        )
+
     fund_results = []
     for fp in FUND_PROFILES:
         state = load_json(os.path.join(data_dir, fp["state_json"]), {"cash": STARTING_CAPITAL, "positions": [], "started": None})
         history = load_csv(os.path.join(data_dir, fp["history_csv"]))
         trades = load_csv(os.path.join(data_dir, fp["trades_csv"]))
         positions = state["positions"]
-        positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
+        two_legged = fp.get("two_legged", False)
+        if two_legged:
+            positions_value = sum(p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"]) for p in positions)
+        else:
+            positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
         nav = state["cash"] + positions_value
         termination_value = state["cash"] + sum(p["shares"] for p in positions)
         discounted_value = state["cash"] + sum(
@@ -537,30 +560,58 @@ def render(data_dir):
         if valuechart_html is None:
             valuechart_html = '<div class="empty">Noch zu wenig Verlauf für diesen Chart &mdash; die Kennzahl wurde gerade erst eingeführt.</div>'
 
+        two_legged = fp.get("two_legged", False)
         position_cards_html = ""
-        for p in sorted(fr["positions"], key=lambda p: -(p["shares"] * (p.get("letzter_kurs", p["einstandskurs"]) - p["einstandskurs"]))):
-            letzter = p.get("letzter_kurs", p["einstandskurs"])
-            pnl_abs = p["shares"] * (letzter - p["einstandskurs"])
-            pnl_pct = (letzter / p["einstandskurs"] - 1) * 100
-            pnl_cls = "pos" if pnl_abs >= 0 else "neg"
-            dte = days_to_end(p.get("end_date"), now_utc)
-            laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
-            term_value = p["shares"] * 1.0
-            dfac = discount_factor(dte)
-            disc_value = term_value * dfac
-            abschlag_pct = (1 - dfac) * 100
-            position_cards_html += f"""
-            <div class="card fund">
-              <div class="q">{esc(p['frage'])}</div>
-              <div class="row"><span>Anteile</span><span>{p['shares']:.2f}</span></div>
-              <div class="row"><span>Einstand</span><span>{p['einstandskurs']:.3f}</span></div>
-              <div class="row"><span>Letzter Kurs</span><span>{letzter:.3f}</span></div>
-              <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
-              <div class="row"><span>Liquidität</span><span>{money(p['liquiditaet'])}</span></div>
-              <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
-              <div class="row" style="border-top:1px dashed var(--border); padding-top:6px; margin-top:2px;"><span>Terminierungswert</span><span>{term_value:.2f} USD</span></div>
-              <div class="row"><span>Diskontiert ({ANNUAL_DISCOUNT_RATE*100:.0f}%&thinsp;p.a.)</span><span>{disc_value:.2f} USD (&minus;{abschlag_pct:.1f}%)</span></div>
-            </div>"""
+        if two_legged:
+            for p in sorted(fr["positions"], key=lambda p: -(p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"] - p["leg_a"]["einstandskurs"] - p["leg_b"]["einstandskurs"]))):
+                la, lb = p["leg_a"], p["leg_b"]
+                einstand = la["einstandskurs"] + lb["einstandskurs"]
+                letzter = la["letzter_kurs"] + lb["letzter_kurs"]
+                pnl_abs = p["shares"] * (letzter - einstand)
+                pnl_pct = (letzter / einstand - 1) * 100 if einstand else 0.0
+                pnl_cls = "pos" if pnl_abs >= 0 else "neg"
+                dte = days_to_end(p.get("end_date"), now_utc)
+                laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
+                term_value = p["shares"] * 1.0
+                dfac = discount_factor(dte)
+                disc_value = term_value * dfac
+                abschlag_pct = (1 - dfac) * 100
+                position_cards_html += f"""
+                <div class="card fund">
+                  <div class="q">{esc(p['frage'])}</div>
+                  <div class="row"><span>Bein A</span><span>{esc(la['platform'])} &middot; {esc(la['side'])} &middot; {la['letzter_kurs']:.3f}</span></div>
+                  <div class="row"><span>Bein B</span><span>{esc(lb['platform'])} &middot; {esc(lb['side'])} &middot; {lb['letzter_kurs']:.3f}</span></div>
+                  <div class="row"><span>Anteile</span><span>{p['shares']:.2f}</span></div>
+                  <div class="row"><span>Einstand (Summe)</span><span>{einstand:.3f}</span></div>
+                  <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
+                  <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
+                  <div class="row" style="border-top:1px dashed var(--border); padding-top:6px; margin-top:2px;"><span>Terminierungswert</span><span>{term_value:.2f} USD</span></div>
+                  <div class="row"><span>Diskontiert ({ANNUAL_DISCOUNT_RATE*100:.0f}%&thinsp;p.a.)</span><span>{disc_value:.2f} USD (&minus;{abschlag_pct:.1f}%)</span></div>
+                </div>"""
+        else:
+            for p in sorted(fr["positions"], key=lambda p: -(p["shares"] * (p.get("letzter_kurs", p["einstandskurs"]) - p["einstandskurs"]))):
+                letzter = p.get("letzter_kurs", p["einstandskurs"])
+                pnl_abs = p["shares"] * (letzter - p["einstandskurs"])
+                pnl_pct = (letzter / p["einstandskurs"] - 1) * 100
+                pnl_cls = "pos" if pnl_abs >= 0 else "neg"
+                dte = days_to_end(p.get("end_date"), now_utc)
+                laufzeit = f"{dte:.1f} Tage" if dte is not None and dte >= 0 else "steht kurz bevor / überfällig"
+                term_value = p["shares"] * 1.0
+                dfac = discount_factor(dte)
+                disc_value = term_value * dfac
+                abschlag_pct = (1 - dfac) * 100
+                position_cards_html += f"""
+                <div class="card fund">
+                  <div class="q">{esc(p['frage'])}</div>
+                  <div class="row"><span>Anteile</span><span>{p['shares']:.2f}</span></div>
+                  <div class="row"><span>Einstand</span><span>{p['einstandskurs']:.3f}</span></div>
+                  <div class="row"><span>Letzter Kurs</span><span>{letzter:.3f}</span></div>
+                  <div class="row pnl {pnl_cls}"><span>Unrealisiert</span><span>{pnl_abs:+.2f} USD ({pnl_pct:+.1f}%)</span></div>
+                  <div class="row"><span>Liquidität</span><span>{money(p['liquiditaet'])}</span></div>
+                  <div class="row"><span>Restlaufzeit</span><span>{laufzeit}</span></div>
+                  <div class="row" style="border-top:1px dashed var(--border); padding-top:6px; margin-top:2px;"><span>Terminierungswert</span><span>{term_value:.2f} USD</span></div>
+                  <div class="row"><span>Diskontiert ({ANNUAL_DISCOUNT_RATE*100:.0f}%&thinsp;p.a.)</span><span>{disc_value:.2f} USD (&minus;{abschlag_pct:.1f}%)</span></div>
+                </div>"""
         if not fr["positions"]:
             position_cards_html = (f'<div class="empty">Der Fonds hält aktuell keine Position &mdash; er wartet auf einen Treffer, der '
                                    f'{fp["empty_note"]}</div>')
@@ -631,6 +682,33 @@ def render(data_dir):
 
     fund_details_html = "".join(render_fund_detail(fr) for fr in fund_results)
 
+    platform_labels = {"polymarket": "Polymarket", "kalshi": "Kalshi", "predictit": "PredictIt"}
+    platforms_info = platform_overview.get("platforms", {})
+    platform_cards_html = ""
+    for key, label in platform_labels.items():
+        count = platforms_info.get(key, {}).get("open_markets")
+        count_fmt = f"{count:,}".replace(",", ".") if isinstance(count, int) else "-"
+        platform_cards_html += f"""
+        <div class="kpi">
+          <div class="num">{count_fmt}</div>
+          <div class="label">{label} &middot; offene Märkte</div>
+        </div>"""
+
+    cross_hit_rows_html = ""
+    for r in latest_cross_hits[:30]:
+        cross_hit_rows_html += f"""<tr>
+          <td>{esc(r['plattform_a'])}</td>
+          <td>{esc(r['frage_a'])}</td>
+          <td>{esc(r['plattform_b'])}</td>
+          <td>{esc(r['frage_b'])}</td>
+          <td class="mono">{esc(r['seite_a'])}/{esc(r['seite_b'])}</td>
+          <td class="num">{float(r['summe']):.3f}</td>
+          <td class="num">{float(r['score'])*100:.0f}%</td>
+        </tr>"""
+    if not latest_cross_hits:
+        cross_hit_rows_html = ('<tr><td colspan="7" style="color:var(--muted); padding:14px;">'
+                                'Aktuell kein plattformübergreifendes Match mit Kombi-Summe unter 1.00 USD gefunden.</td></tr>')
+
     stand_dt = last_run.get("timestamp")
     if stand_dt:
         try:
@@ -678,8 +756,25 @@ def render(data_dir):
 
   <section>
     <div class="section-head">
+      <h2>Plattform-Übersicht</h2>
+      <p>Offene Märkte je Plattform &middot; Stand {stand_label}</p>
+    </div>
+    <div class="kpis">{platform_cards_html}
+    </div>
+    <div class="tablewrap" style="margin-top:12px;">
+      <table>
+        <thead><tr><th>Plattform A</th><th>Frage A</th><th>Plattform B</th><th>Frage B</th><th>Seiten</th><th class="num">Summe</th><th class="num">Match-Score</th></tr></thead>
+        <tbody>{cross_hit_rows_html}
+        </tbody>
+      </table>
+    </div>
+    <p class="freqnote">Matches werden per Textähnlichkeit (gemeinsame signifikante Wörter) + Enddatum-Nähe gefunden &mdash; eine Heuristik, kein Beweis: ein falsches Match (ähnlicher Wortlaut, andere Auflösungskriterien) ist das Hauptrisiko dieser Strategie. Aktualisiert durch den Multi-Platform-Scan.</p>
+  </section>
+
+  <section>
+    <div class="section-head">
       <h2>Arbitrage-Fonds (Simulation)</h2>
-      <p>Drei parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; je Start 100.00 USD</p>
+      <p>Vier parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; je Start 100.00 USD</p>
     </div>
     <div class="compare">{compare_html}
     </div>
