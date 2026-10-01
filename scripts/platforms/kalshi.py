@@ -63,6 +63,13 @@ def normalize(market):
         "platform": "kalshi",
         "market_id": ticker,
         "question": market.get("title") or market.get("subtitle") or ticker,
+        # Zusätzlicher Text fürs Cross-Platform-Matching (siehe cross_platform.py):
+        # subtitle (falls nicht schon die question) + rules_primary, falls
+        # die API sie liefert - hilft bei anders formulierten Titeln.
+        "extra_text": " ".join(filter(None, [
+            market.get("subtitle") if market.get("title") else "",
+            market.get("rules_primary") or "",
+        ])),
         "yes_price": yes_price,
         "no_price": no_price,
         "volume": volume,

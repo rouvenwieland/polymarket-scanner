@@ -24,15 +24,24 @@ Plattformen statt von Yes+No desselben Marktes:
 ähnlichkeit + Enddatum-Nähe - eine Heuristik, kein Beweis: ein falsches
 Match ist das Hauptrisiko dieser Strategie, siehe cross_platform.py).
 
-Bewusst KONSERVATIV ausgelegt (wie der "conservative"-Fonds bei Polymarket),
-nicht wie "aggressive"/"best_case":
-  - Positionsgröße je Bein ist an die bekannte Marktliquidität gekoppelt
-    (MAX_POSITION_FRACTION der gemeldeten Liquidität/des Volumens) - genau
-    wie beim Polymarket-"conservative"-Fonds. Nur wo Liquidität NICHT
-    verifizierbar ist (PredictIts öffentliche API liefert keine), gilt ein
-    fester, kleiner Not-Deckel (UNKNOWN_LIQUIDITY_LEG_CAP) statt einer
-    offenen Positionsgröße.
-  - Mindest-Spread NACH geschätzten Gebühren (MIN_SPREAD).
+Positionsgröße ist NICHT künstlich auf eine feste Quote der Liquidität
+begrenzt - die Strategie kauft so viel wie bei einer guten Gelegenheit
+sinnvoll möglich ist, begrenzt nur dadurch, wo es nach dem simulierten
+Kaufimpact (siehe unten) noch profitabel bleibt. Das ist derselbe Ansatz,
+den auch der "aggressive"-Fonds bei Polymarket fährt - "konservativ" heißt
+hier NICHT "künstlich klein", sondern "realistisch gerechnet": reale
+Gebühren, reales Impact-Modell, frühzeitiger Verkauf bei Konvergenz statt
+Kapital bis zur Auflösung zu binden.
+  - Positionsgröße je Paar: größte Stückzahl, bei der die Summe aus beiden
+    (je nach eigener Liquidität individuell einpreisten) Kaufimpacts den
+    Trade noch nicht unprofitabel macht (siehe _max_shares_for_edge unten,
+    ein Zwei-Beine-Analogon zu fund_simulator._max_notional_for_edge). Nur
+    für ein Bein OHNE verifizierte Liquidität (aktuell: PredictIts
+    öffentliche API liefert keine) gilt ersatzweise ein fester, kleiner
+    Not-Deckel (UNKNOWN_LIQUIDITY_LEG_CAP) - nicht weil wir uns künstlich
+    zurückhalten wollen, sondern weil ohne Tiefenangabe schlicht keine
+    seriöse Impact-Schätzung möglich ist.
+  - Mindest-Spread NACH geschätzten Gebühren (MIN_SPREAD) als Einstiegs-Filter.
 
 Gebühren werden GENAU dort verrechnet, wo sie real anfallen:
   - Kalshi: Taker-Fee beim Kauf (ceil(0.07*C*P*(1-P)), siehe platforms/kalshi.py).
@@ -47,6 +56,7 @@ Konto-Ebene) wird bewusst NICHT pro Trade verrechnet (siehe platforms/predictit.
 """
 
 import json
+import math
 import os
 
 import fund_simulator
@@ -54,8 +64,8 @@ from platforms import kalshi, predictit
 import cross_platform
 
 MIN_SPREAD = 0.03                 # nach grob geschätzten Gebühren noch 3 Cent Edge pro Paar nötig
-MAX_POSITION_FRACTION = 0.10      # Anteil der bekannten Liquidität/des Volumens je Bein (wie "conservative" bei Polymarket)
-UNKNOWN_LIQUIDITY_LEG_CAP = 10.0  # Not-Deckel für Beine ohne verifizierte Liquidität (aktuell: PredictIt)
+IMPACT_COEFFICIENT = 0.15         # gleicher Wert wie bei den Polymarket-Fonds (fund_simulator.py)
+UNKNOWN_LIQUIDITY_LEG_CAP = 10.0  # Not-Deckel NUR für Beine ohne verifizierte Liquidität (aktuell: PredictIt)
 MAX_OPEN_POSITIONS = 15
 MATCH_THRESHOLD = cross_platform.SIMILARITY_THRESHOLD
 MATCH_MAX_DAYS = cross_platform.MAX_DAYS_APART
@@ -167,18 +177,33 @@ def _leg_entry_fee(platform, shares, price):
     return 0.0  # Polymarket: keine Fee. PredictIt: Gewinn-Fee erst bei Settlement.
 
 
-def _leg_liquidity_notional_cap(market):
-    """Größte Positionsgröße (USD) für EIN Bein, gedeckt durch die bekannte
-    Liquidität/das Volumen dieses Marktes (konservativ, wie beim Polymarket-
-    "conservative"-Fonds: MAX_POSITION_FRACTION der gemeldeten Größe). Wenn
-    keine Liquidität bekannt ist (aktuell: PredictIt liefert keine), greift
-    stattdessen ein fester, kleiner Not-Deckel - das verhindert, dass ein
-    höheres Startkapital automatisch zu beliebig großen Positionen in
-    Märkten führt, deren Tiefe gar nicht überprüft werden kann."""
-    liquidity = market.get("liquidity") or 0.0
-    if liquidity > 0:
-        return MAX_POSITION_FRACTION * liquidity
-    return UNKNOWN_LIQUIDITY_LEG_CAP
+def _max_shares_for_edge(price_a, liquidity_a, price_b, liquidity_b, fee_per_share):
+    """Größte Stückzahl für EIN Anteilspaar (beide Beine zusammen), bei der
+    der simulierte Kaufimpact - je Bein an dessen EIGENE bekannte Liquidität
+    gekoppelt - die Kombi-Summe noch nicht über MAX_EFFECTIVE_BUY_PRICE
+    treibt. Kein künstlicher Fraktions-Deckel: es wird so weit gekauft, wie
+    der Trade noch profitabel bleibt - ein Zwei-Beine-Analogon zu
+    fund_simulator._max_notional_for_edge (das Impact-Modell ist linear in
+    der Stückzahl, daher lässt sich die Grenze direkt auflösen statt sie
+    iterativ zu suchen).
+
+    Für ein Bein OHNE bekannte Liquidität (<=0) wird dessen Impact NICHT
+    modelliert (dafür gibt es schlicht keine Daten) - der Aufrufer muss für
+    dieses Bein stattdessen UNKNOWN_LIQUIDITY_LEG_CAP als harte Grenze
+    durchsetzen, siehe _select_new_trades."""
+    quad_coef = 0.0
+    if liquidity_a > 0:
+        quad_coef += IMPACT_COEFFICIENT * price_a * price_a / liquidity_a
+    if liquidity_b > 0:
+        quad_coef += IMPACT_COEFFICIENT * price_b * price_b / liquidity_b
+
+    # Kleiner Sicherheitsabstand (1e-6), siehe fund_simulator._max_notional_for_edge.
+    headroom = (fund_simulator.MAX_EFFECTIVE_BUY_PRICE - 1e-6) - fee_per_share - price_a - price_b
+    if headroom <= 0:
+        return 0.0
+    if quad_coef <= 0:
+        return math.inf  # beide Beine ohne Liquiditätsdaten - Deckel kommt ausschließlich vom Not-Deckel
+    return headroom / quad_coef
 
 
 def _score(spread, days_to_end):
@@ -218,12 +243,22 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         else:
             end_date = ma.get("end_date") or mb.get("end_date")
 
-        liquidity_cap = min(_leg_liquidity_notional_cap(ma), _leg_liquidity_notional_cap(mb))
+        liquidity_a = ma.get("liquidity") or 0.0
+        liquidity_b = mb.get("liquidity") or 0.0
+        edge_shares_cap = _max_shares_for_edge(price_a, liquidity_a, price_b, liquidity_b, est_fee_per_share)
+        hard_caps = []
+        if liquidity_a <= 0:
+            hard_caps.append(UNKNOWN_LIQUIDITY_LEG_CAP / price_a)
+        if liquidity_b <= 0:
+            hard_caps.append(UNKNOWN_LIQUIDITY_LEG_CAP / price_b)
+        shares_cap = min([edge_shares_cap] + hard_caps) if hard_caps else edge_shares_cap
+        if shares_cap <= 0:
+            continue
 
         candidates.append({
             "pair_id": pair_id, "match": match, "side_a": side_a, "side_b": side_b,
             "summe": summe, "spread": spread, "days": days, "end_date": end_date,
-            "liquidity_cap": liquidity_cap,
+            "shares_cap": shares_cap,
         })
 
     candidates.sort(key=lambda c: -_score(c["spread"], c["days"]))
@@ -239,17 +274,16 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
     for c in picks:
         if state["cash"] < fund_simulator.MIN_TRADE_NOTIONAL:
             break
-        notional = min(per_slot_cash, c["liquidity_cap"] * 2)  # *2, weil zwei Beine je Anteilspaar
-        _execute_buy(profile, state, c, notional, now)
+        cash_based_shares = per_slot_cash / c["summe"]
+        shares = min(cash_based_shares, c["shares_cap"])
+        _execute_buy(profile, state, c, shares, now)
 
 
-def _execute_buy(profile, state, c, notional, now):
+def _execute_buy(profile, state, c, shares, now):
     ma, mb = c["match"]["market_a"], c["match"]["market_b"]
-    notional = min(notional, state["cash"])
-    if notional < fund_simulator.MIN_TRADE_NOTIONAL:
+    if shares * c["summe"] < fund_simulator.MIN_TRADE_NOTIONAL:
         return False
 
-    shares = notional / c["summe"]
     price_a = ma["yes_price"] if c["side_a"] == "yes" else ma["no_price"]
     price_b = mb["yes_price"] if c["side_b"] == "yes" else mb["no_price"]
     fee_a = _leg_entry_fee(ma["platform"], shares, price_a)
@@ -291,7 +325,7 @@ def _execute_buy(profile, state, c, notional, now):
     })
     log_trade(profile, now.isoformat(), "KAUF", c["pair_id"], state["positions"][-1]["frage"],
               shares, c["summe"], -total_cost, state["cash"],
-              f"Spread {c['spread']*100:.2f}% nach geschaetzten Gebuehren, Liquiditaets-Deckel {c['liquidity_cap']:.0f} USD/Bein, "
+              f"Spread {c['spread']*100:.2f}% nach geschaetzten Gebuehren, Edge-Limit {c['shares_cap']:.0f} Anteile, "
               f"Beine: {ma['platform']}/{c['side_a']} + {mb['platform']}/{c['side_b']}")
     return True
 

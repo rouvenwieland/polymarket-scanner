@@ -69,6 +69,11 @@ def normalize(market):
         "platform": "polymarket",
         "market_id": market.get("id") or market.get("slug"),
         "question": market.get("question", "?"),
+        # Zusätzlicher Beschreibungstext, nur fürs Cross-Platform-Matching
+        # genutzt (siehe cross_platform.py) - hilft, Märkte zu matchen, deren
+        # Titel unterschiedlich formuliert ist, deren Auflösungskriterien im
+        # Fließtext aber erkennbar dasselbe Ereignis beschreiben.
+        "extra_text": market.get("description") or "",
         "yes_price": yes_price,
         "no_price": no_price,
         "volume": float(market.get("volumeNum") or market.get("volume") or 0),

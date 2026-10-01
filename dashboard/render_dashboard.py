@@ -56,26 +56,40 @@ FUND_PROFILES = [
     {
         "key": "cross_platform", "label": "Cross-Platform (100 USD)", "starting_capital": 100.0,
         "state_json": "fund_state_crossplatform.json", "history_csv": "fund_history_crossplatform.csv", "trades_csv": "fund_trades_crossplatform.csv",
-        "desc": "Kauft Yes auf einer Plattform + No auf einer anderen für dasselbe, per Textähnlichkeit gematchte Ereignis, wenn die Kombi-Summe nach geschätzten Gebühren unter 1 liegt. Positionsgröße je Bein an bekannte Liquidität gekoppelt (konservativ). Kalshi-Taker-Fee und PredictIt-Gewinn-Fee werden explizit verrechnet.",
-        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "desc": "Kauft Yes auf einer Plattform + No auf einer anderen für dasselbe, per Text-/Beschreibungsähnlichkeit gematchte Ereignis, wenn die Kombi-Summe nach geschätzten Gebühren unter 1 liegt. Positionsgröße ist edge-basiert (kein künstlicher Fraktions-Deckel): so groß wie der simulierte Kaufimpact es noch profitabel zulässt. Kalshi-Taker-Fee und PredictIt-Gewinn-Fee werden explizit verrechnet.",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Text-/Beschreibungsähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch Edge lässt.",
         "open_by_default": False,
         "two_legged": True,
     },
     {
         "key": "cross_platform_1k", "label": "Cross-Platform (1.000 USD)", "starting_capital": 1000.0,
         "state_json": "fund_state_crossplatform_1k.json", "history_csv": "fund_history_crossplatform_1k.csv", "trades_csv": "fund_trades_crossplatform_1k.csv",
-        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 1.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit mehr Kapital skalieren lässt (Positionsgröße bleibt an die Marktliquidität gekoppelt).",
-        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 1.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit mehr Kapital skalieren lässt (Positionsgröße bleibt edge-/liquiditätsbasiert, kein künstlicher Deckel).",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Text-/Beschreibungsähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch Edge lässt.",
         "open_by_default": False,
         "two_legged": True,
     },
     {
         "key": "cross_platform_10k", "label": "Cross-Platform (10.000 USD)", "starting_capital": 10000.0,
         "state_json": "fund_state_crossplatform_10k.json", "history_csv": "fund_history_crossplatform_10k.csv", "trades_csv": "fund_trades_crossplatform_10k.csv",
-        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 10.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit deutlich mehr Kapital skalieren lässt (Positionsgröße bleibt an die Marktliquidität gekoppelt, daher ist bei wenig verfügbaren Gelegenheiten viel Kasse ungenutzt zu erwarten).",
-        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 10.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit deutlich mehr Kapital skalieren lässt (Positionsgröße bleibt edge-/liquiditätsbasiert; bei wenig verfügbaren tiefen Gelegenheiten bleibt dadurch viel Kasse ungenutzt).",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Text-/Beschreibungsähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch Edge lässt.",
         "open_by_default": False,
         "two_legged": True,
+    },
+    {
+        "key": "kalshi_only", "label": "Kalshi Solo (100 USD)", "starting_capital": 100.0,
+        "state_json": "fund_state_kalshi.json", "history_csv": "fund_history_kalshi.csv", "trades_csv": "fund_trades_kalshi.csv",
+        "desc": "Dieselbe Yes+No&lt;1-Strategie wie der Polymarket-\"conservative\"-Fonds, aber auf Kalshis EIGENEN Märkten (keine Cross-Platform-Matches nötig) - zeigt, ob/wie gut die Idee innerhalb dieser einen Plattform funktioniert. Edge-basierte Positionsgröße, Kalshi-Taker-Fee auf beide Seiten beim Kauf verrechnet.",
+        "empty_note": "Mindest-Spread (1,5&thinsp;Cent) nach geschätzter Gebühr erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt.",
+        "open_by_default": False,
+    },
+    {
+        "key": "predictit_only", "label": "PredictIt Solo (100 USD)", "starting_capital": 100.0,
+        "state_json": "fund_state_predictit.json", "history_csv": "fund_history_predictit.csv", "trades_csv": "fund_trades_predictit.csv",
+        "desc": "Dieselbe Yes+No&lt;1-Strategie wie der Polymarket-\"conservative\"-Fonds, aber auf PredictIts EIGENEN Märkten. Da PredictIts öffentliche API keine Liquiditätsangabe liefert, gilt pro Position ein fester, konservativer Not-Deckel statt eines Impact-Modells. PredictIts 10%-Gewinn-Fee wird bei Verkauf/Auflösung verrechnet.",
+        "empty_note": "Mindest-Spread (1,5&thinsp;Cent) nach geschätzter Gebühr erfüllt.",
+        "open_by_default": False,
     },
 ]
 
@@ -402,7 +416,7 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 
 .freqnote{ font-size:12px; color:var(--muted-2); margin-top:10px; }
 
-.compare{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
+.compare{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
 @media (max-width:900px){ .compare{ grid-template-columns:repeat(2,1fr); } }
 @media (max-width:480px){ .compare{ grid-template-columns:1fr; } }
 .compare-card{ border:1px solid var(--border); background:var(--surface); border-radius:12px; padding:16px; }
@@ -702,7 +716,13 @@ def render(data_dir):
 
     platform_labels = {"polymarket": "Polymarket", "kalshi": "Kalshi", "predictit": "PredictIt"}
     platforms_info = platform_overview.get("platforms", {})
-    platform_cards_html = ""
+    total_all_platforms = platform_overview.get("total_open_markets")
+    total_fmt = f"{total_all_platforms:,}".replace(",", ".") if isinstance(total_all_platforms, int) else "-"
+    platform_cards_html = f"""
+        <div class="kpi accent">
+          <div class="num">{total_fmt}</div>
+          <div class="label">Alle Plattformen zusammen &middot; offene Märkte</div>
+        </div>"""
     for key, label in platform_labels.items():
         count = platforms_info.get(key, {}).get("open_markets")
         count_fmt = f"{count:,}".replace(",", ".") if isinstance(count, int) else "-"
@@ -792,7 +812,7 @@ def render(data_dir):
   <section>
     <div class="section-head">
       <h2>Arbitrage-Fonds (Simulation)</h2>
-      <p>Sechs parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; drei davon Polymarket-only (je Start 100 USD), drei Cross-Platform mit identischer Strategie bei 100/1.000/10.000 USD Start (Skalierungstest)</p>
+      <p>Acht parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; drei Polymarket-only (je 100 USD), drei Cross-Platform bei 100/1.000/10.000 USD (Skalierungstest), zwei Single-Platform solo (Kalshi/PredictIt, je 100 USD)</p>
     </div>
     <div class="compare">{compare_html}
     </div>

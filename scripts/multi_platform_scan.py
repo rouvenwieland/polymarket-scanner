@@ -15,6 +15,11 @@ PredictIt:
      10.000 USD Start - identische Strategie, nur Startkapital unterschiedlich)
      je einen Schritt laufen: offene Positionen bewerten/auflösen, neue
      Treffer ggf. kaufen.
+  5. Lässt zusätzlich zwei Single-Platform-Fonds (single_platform_fund.py)
+     je einen Schritt laufen - dieselbe Yes+No<1-Strategie wie beim
+     Polymarket-"conservative"-Fonds, aber auf Kalshis bzw. PredictIts
+     EIGENEN Märkten (keine Cross-Platform-Matches nötig), um zu sehen, ob
+     sich die Idee auch innerhalb jeder einzelnen Plattform lohnt.
 
 Läuft unabhängig vom bestehenden Polymarket-only-Scan (polymarket_snapshot.py)
 und dessen drei Fonds (fund_simulator.py) - deren Daten/State bleiben
@@ -29,6 +34,7 @@ from zoneinfo import ZoneInfo
 
 import cross_platform
 import cross_platform_fund
+import single_platform_fund
 from platforms import kalshi, polymarket, predictit
 
 TIMEZONE = "Europe/Berlin"
@@ -117,6 +123,7 @@ def main():
     write_cross_platform_hits(matches, now)
 
     cross_platform_fund.run_all_fund_steps(matches, now)
+    single_platform_fund.run_all_fund_steps(markets_by_platform, now)
 
 
 if __name__ == "__main__":

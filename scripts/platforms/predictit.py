@@ -74,6 +74,9 @@ def normalize_contract(market, contract):
         "platform": "predictit",
         "market_id": f"{market.get('id')}:{contract.get('id')}",
         "question": question,
+        # PredictIts öffentliche API liefert keinen Beschreibungstext -
+        # bleibt leer (siehe cross_platform.py, das extra_text optional nutzt).
+        "extra_text": "",
         "yes_price": yes_price,
         "no_price": no_price,
         # PredictIts öffentliche API liefert kein Volumen-/Liquiditätsfeld -

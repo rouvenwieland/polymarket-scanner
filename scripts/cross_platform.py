@@ -5,14 +5,33 @@ Cross-Platform-Event-Matching
 Findet Markt-Paare auf unterschiedlichen Plattformen, die vermutlich
 dasselbe Realwelt-Ereignis abbilden - es gibt keine gemeinsame ID über
 Plattformgrenzen, die Fragen sind unterschiedlich formuliert
-("Will X win?" vs "X to win the..."), also wird über Textähnlichkeit
-(Jaccard über Tokens, nach Stoppwort-Filter) plus Enddatum-Nähe gematcht.
+("Will X win?" vs "X to win the..."), also wird über Textähnlichkeit plus
+Enddatum-Nähe gematcht. Drei Signale, der jeweils höchste Wert gewinnt
+("semantisch genug", ohne eine externe Embedding-API zu brauchen):
+
+  1. Jaccard über Titel-Tokens (Stoppwort-gefiltert) - das ursprüngliche
+     Signal, gut bei ähnlichem Wortlaut.
+  2. Containment: wie viele Titel-Tokens der einen Seite tauchen irgendwo
+     im Titel+Beschreibungstext ("extra_text", falls die Plattform einen
+     liefert - Polymarket: description, Kalshi: subtitle/rules_primary,
+     PredictIt: keiner) der anderen Seite auf. Fängt Fälle, in denen der
+     Titel komplett anders klingt, der Fließtext aber dieselbe Frage
+     exakt beschreibt (Jaccard allein würde hier an der schieren Länge
+     des Beschreibungstexts scheitern).
+  3. Fuzzy-Ratio (difflib.SequenceMatcher) auf den rohen Titeln - fängt
+     Umstellungen/Umformulierungen, die weder Jaccard noch Containment
+     als Wortmengen-Überlappung sehen.
+
+Das ist KEINE echte semantische/Embedding-Suche (dafür müsste eine externe
+Embeddings-API aufgerufen werden - Kosten + Latenz + API-Key-Verwaltung in
+der GitHub-Action - aktuell nicht eingerichtet), sondern eine pragmatische,
+kostenlose Annäherung mit mehreren sich ergänzenden Textsignalen.
 
 Blocking: statt jeden Markt mit jedem zu vergleichen (bei ~200k
 Polymarket-Märkten x ein paar tausend Kalshi/PredictIt-Märkten viel zu
 teuer), wird ein inverses Token-Index über die kleinere Plattform gebaut;
-nur Märkte, die mindestens ein signifikantes Token teilen, werden überhaupt
-verglichen.
+nur Märkte, die mindestens ein signifikantes Titel-Token teilen, werden
+überhaupt verglichen.
 
 Für ein gefundenes Match: Yes auf Plattform A + No auf Plattform B (oder
 umgekehrt) zahlt garantiert genau 1.00 USD, WENN beide Plattformen dasselbe
@@ -22,6 +41,7 @@ Match (ähnlicher Wortlaut, aber andere Frage/Auflösungskriterien) ist das
 Hauptrisiko dieser Strategie.
 """
 
+import difflib
 import re
 from datetime import datetime
 
@@ -33,14 +53,28 @@ STOPWORDS = {
 }
 
 _TOKEN_RE = re.compile(r"[a-z0-9]+")
+_YEAR_RE = re.compile(r"\b(20[2-4]\d)\b")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
+FUZZY_WEIGHT = 0.9  # Fuzzy-Ratio etwas vorsichtiger gewichtet als ein echter Token-Treffer
+
+
+def _stem(token):
+    """Sehr grobe Suffix-Normalisierung (kein echter Stemmer/NLTK), nur um
+    die häufigsten Plural-/Verbform-Mismatches abzufangen ("rate" vs
+    "rates", "cut" vs "cuts/cutting") - ohne zusätzliche Abhängigkeit."""
+    for suffix in ("ing", "ed", "es"):
+        if len(token) > len(suffix) + 3 and token.endswith(suffix):
+            return token[: -len(suffix)]
+    if len(token) > 4 and token.endswith("s") and not token.endswith("ss"):
+        return token[:-1]
+    return token
 
 
 def _tokenize(text):
     tokens = _TOKEN_RE.findall((text or "").lower())
-    return {t for t in tokens if t not in STOPWORDS and len(t) > 2}
+    return {_stem(t) for t in tokens if t not in STOPWORDS and len(t) > 2}
 
 
 def _jaccard(a, b):
@@ -49,6 +83,16 @@ def _jaccard(a, b):
     inter = len(a & b)
     union = len(a | b)
     return inter / union if union else 0.0
+
+
+def _containment(a, b):
+    """Anteil von a's Tokens, die auch in b vorkommen - robust gegen
+    Längenunterschiede (anders als Jaccard, das bei einem sehr viel
+    längeren Beschreibungstext auf der anderen Seite sonst fast immer
+    niedrig ausfällt)."""
+    if not a or not b:
+        return 0.0
+    return len(a & b) / len(a)
 
 
 def _parse_date(s):
@@ -66,36 +110,66 @@ def _dates_close(d1, d2, max_days=MAX_DAYS_APART):
     return abs((d1 - d2).total_seconds()) <= max_days * 86400
 
 
-def _build_token_index(markets):
+def _build_token_index(title_tokens_list):
     index = {}
-    for i, m in enumerate(markets):
-        for tok in _tokenize(m["question"]):
+    for i, toks in enumerate(title_tokens_list):
+        for tok in toks:
             index.setdefault(tok, set()).add(i)
     return index
+
+
+def _conflicting_years(question_a, question_b):
+    """Harter Gegenbeweis: enthalten beide Titel je eine (unterschiedliche)
+    Jahreszahl 2020-2049, handelt es sich fast sicher um verschiedene
+    Ereignisse ("... 2026" vs "... 2027") - selbst wenn der restliche Text
+    sehr ähnlich ist (z.B. dieselbe Liga/Mannschaft, anderes Jahr). Ohne
+    diese Prüfung könnte das Enddatum-Fehlen auf einer Seite (dann greift
+    der Datums-Filter nicht) ein solches Fehl-Match durchlassen."""
+    years_a = set(_YEAR_RE.findall(question_a))
+    years_b = set(_YEAR_RE.findall(question_b))
+    return bool(years_a) and bool(years_b) and years_a.isdisjoint(years_b)
+
+
+def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b):
+    if _conflicting_years(question_a, question_b):
+        return 0.0
+    jaccard_score = _jaccard(title_tokens_a, title_tokens_b)
+    containment_score = (
+        _containment(title_tokens_a, full_tokens_b) + _containment(title_tokens_b, full_tokens_a)
+    ) / 2
+    fuzzy_score = difflib.SequenceMatcher(None, question_a, question_b).ratio() * FUZZY_WEIGHT
+    return max(jaccard_score, containment_score, fuzzy_score)
 
 
 def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=MAX_DAYS_APART):
     """Bestes Match pro Markt aus markets_a innerhalb markets_b (andere
     Plattform), sofern Score >= threshold. Gibt Liste (market_a, market_b, score)."""
-    index_b = _build_token_index(markets_b)
-    tokens_b = [_tokenize(m["question"]) for m in markets_b]
+    title_tokens_b = [_tokenize(m["question"]) for m in markets_b]
+    full_tokens_b = [title_tokens_b[i] | _tokenize(m.get("extra_text", "")) for i, m in enumerate(markets_b)]
+    questions_b = [(m.get("question") or "").lower() for m in markets_b]
     dates_b = [_parse_date(m.get("end_date")) for m in markets_b]
+    index_b = _build_token_index(title_tokens_b)
 
     matches = []
     for ma in markets_a:
-        toks_a = _tokenize(ma["question"])
-        if not toks_a:
+        title_toks_a = _tokenize(ma["question"])
+        if not title_toks_a:
             continue
+        full_toks_a = title_toks_a | _tokenize(ma.get("extra_text", ""))
+        question_a = (ma.get("question") or "").lower()
         date_a = _parse_date(ma.get("end_date"))
         candidate_idxs = set()
-        for tok in toks_a:
+        for tok in title_toks_a:
             candidate_idxs |= index_b.get(tok, set())
 
         best_idx, best_score = None, 0.0
         for j in candidate_idxs:
             if not _dates_close(date_a, dates_b[j], max_days):
                 continue
-            score = _jaccard(toks_a, tokens_b[j])
+            score = _combined_score(
+                title_toks_a, full_toks_a, question_a,
+                title_tokens_b[j], full_tokens_b[j], questions_b[j],
+            )
             if score > best_score:
                 best_score, best_idx = score, j
 
