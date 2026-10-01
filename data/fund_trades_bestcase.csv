@@ -957,3 +957,39 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-01T09:42:14.370052+02:00,VERKAUF,5065524,Exact Score: Real Sociedad de Fútbol 0 - 2 RC Deportivo A Coruña?,2.1824,1.0,2.1824,69.4651,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T09:42:14.370052+02:00,VERKAUF,5018719,Exact Score: Stevenage FC 2 - 2 Wigan Athletic FC?,2.1824,1.0,2.1824,71.6475,Konvergenz erreicht (Kurs 1.000)
 2026-10-01T09:42:14.370052+02:00,VERKAUF,5031316,Exact Score: PEC Zwolle 5 - 2 SC Cambuur-Leeuwarden?,2.1824,1.0,2.1824,73.8299,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T10:55:53.536152+02:00,VERKAUF,4917648,Bowling Green vs. Miami (OH): Both Teams to Score a Touchdown - 2H,2.0724,1.0,2.0724,75.9023,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T10:55:53.536152+02:00,VERKAUF,4758932,El Salvador vs. Jamaica: Both Teams to Score in First Half,2.078,1.0,2.078,77.9803,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T10:55:53.536152+02:00,VERKAUF,5166314,Game 1: Both Teams Slay a Dragon?,2.1824,1.0,2.1824,80.1627,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T10:55:53.536152+02:00,AUSZAHLUNG,5167448,Game 2: Both Teams Destroy Inhibitors?,2.1824,1.0,2.1824,82.3451,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-01T10:55:53.536152+02:00,VERKAUF,5165437,Exact Score: CD Real Santander 5 - 3 Union Magdalena?,2.1824,1.0,2.1824,84.5276,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T10:55:53.536152+02:00,KAUF,4951764,Egersunds IK to score first vs. Ranheim?,2.296,0.995,-2.2845,82.243,"Spread 0.50%, Liquiditaet 1605 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4789345,CD Universidad de Concepción vs. CD Huachipato: Both Teams to Score,2.296,0.995,-2.2845,79.9585,"Spread 0.50%, Liquiditaet 1426 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5130906,Exact Score: Stade Lavallois MFC 4 - 4 Stade Rennais FC?,2.296,0.995,-2.2845,77.674,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4963402,Will Tesla (TSLA) finish week of September 28 above $345?,2.296,0.995,-2.2845,75.3894,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4751455,Rochdale AFC vs. Swindon Town FC: Draw at halftime?,2.296,0.995,-2.2845,73.1049,"Spread 0.50%, Liquiditaet 1523 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4755023,Exact Score: Harrogate Town AFC 1 - 1 Hornchurch FC?,2.296,0.995,-2.2845,70.8204,"Spread 0.50%, Liquiditaet 3172 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4886799,Bedford Town FC vs. Wingate & Finchley FC: Both Teams to Score,2.296,0.995,-2.2845,68.5359,"Spread 0.50%, Liquiditaet 143 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4753129,Estonia to score first vs. Luxembourg?,2.296,0.995,-2.2845,66.2513,"Spread 0.50%, Liquiditaet 1283 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4747399,CD Leganés to score first vs. Cádiz CF?,2.296,0.995,-2.2845,63.9668,"Spread 0.50%, Liquiditaet 1350 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4850712,Leiston FC vs. Coventry United FC: Both Teams to Score in Second Half,2.296,0.995,-2.2845,61.6823,"Spread 0.50%, Liquiditaet 63 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4776804,Júbilo Iwata leading at halftime?,2.296,0.995,-2.2845,59.3977,"Spread 0.50%, Liquiditaet 1159 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4917883,Wyoming vs. North Dakota State: Both Teams to Score a Touchdown - Q1,2.296,0.995,-2.2845,57.1132,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5148897,Exact Score: Aston Villa WFC 5 - 1 Crystal Palace?,2.296,0.995,-2.2845,54.8287,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5042896,Exact Score: Brighton and Hove Albion WFC 5 - 2 Charlton Athletic?,2.296,0.995,-2.2845,52.5442,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5083497,J. Michael Sturdivant: Anytime Touchdown,2.296,0.995,-2.2845,50.2596,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5009234,Exact Score: Arsenal FC 2 - 0 Leeds United FC?,2.296,0.995,-2.2845,47.9751,"Spread 0.50%, Liquiditaet 938 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5072799,CA Mineiro vs. Santos FC: Both Teams to Score,2.296,0.995,-2.2845,45.6906,"Spread 0.50%, Liquiditaet 83 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4961643,Exact Score: Incheon United FC 2 - 1 Pohang Steelers FC?,2.296,0.995,-2.2845,43.406,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5018710,Exact Score: Stevenage FC 0 - 2 Wigan Athletic FC?,2.296,0.995,-2.2845,41.1215,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5047008,Exact Score: CD Huachipato 5 - 2 O'Higgins FC?,2.296,0.995,-2.2845,38.837,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5046747,Exact Score: São Paulo FC 2 - 1 EC Vitória?,2.296,0.995,-2.2845,36.5525,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,3549185,CA Bucaramanga vs. Águilas Doradas Rionegro: Neither team to score first?,2.296,0.995,-2.2845,34.2679,"Spread 0.50%, Liquiditaet 59 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,4999904,Exact Score: Tokushima Vortis 4 - 5 FC Imabari?,2.296,0.995,-2.2845,31.9834,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5037368,Exact Score: Beşiktaş JK 1 - 2 Kocaelispor?,2.296,0.995,-2.2845,29.6989,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5083244,Exact Score: Pumas de la UNAM 0 - 3 CF Cruz Azul?,2.296,0.995,-2.2845,27.4143,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5113836,Exact Margin: Charlotte by 25+,2.296,0.995,-2.2845,25.1298,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5132880,Exact Score: FC Famalicão 5 - 2 FC Alverca?,2.296,0.995,-2.2845,22.8453,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,2.296,0.995,-2.2845,20.5608,"Spread 0.50%, Liquiditaet 20 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,3847548,Will Çorum F.K. qualify for the 2027-28 UEFA Champions League?,2.296,0.995,-2.2845,18.2762,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,2.296,0.995,-2.2845,15.9917,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-01T10:55:53.536152+02:00,KAUF,5162447,Will Espanyol record 44 or more points in the 2026-27 LALIGA season?,2.296,0.995,-2.2845,13.7072,"Spread 0.50%, Liquiditaet 1 USD"
