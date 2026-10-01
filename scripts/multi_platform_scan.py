@@ -11,8 +11,10 @@ PredictIt:
   3. Sucht plattformübergreifende Matches (cross_platform.py) und filtert
      daraus Yes/No-Arbitrage-Gelegenheiten (Kombi-Summe < 1 nach grob
      geschätzten Gebühren) - geschrieben nach data/cross_platform_hits.csv.
-  4. Lässt den Cross-Platform-Fonds (cross_platform_fund.py) einen Schritt
-     laufen: offene Positionen bewerten/auflösen, neue Treffer ggf. kaufen.
+  4. Lässt die drei Cross-Platform-Fonds (cross_platform_fund.py, 100/1.000/
+     10.000 USD Start - identische Strategie, nur Startkapital unterschiedlich)
+     je einen Schritt laufen: offene Positionen bewerten/auflösen, neue
+     Treffer ggf. kaufen.
 
 Läuft unabhängig vom bestehenden Polymarket-only-Scan (polymarket_snapshot.py)
 und dessen drei Fonds (fund_simulator.py) - deren Daten/State bleiben
@@ -108,13 +110,13 @@ def main():
 
     matches = cross_platform.find_cross_platform_matches(
         markets_by_platform,
-        threshold=cross_platform_fund.PROFILE["match_threshold"],
-        max_days=cross_platform_fund.PROFILE["match_max_days"],
+        threshold=cross_platform_fund.MATCH_THRESHOLD,
+        max_days=cross_platform_fund.MATCH_MAX_DAYS,
     )
     print(f"{len(matches)} plattformübergreifende Markt-Matches gefunden.")
     write_cross_platform_hits(matches, now)
 
-    cross_platform_fund.run_fund_step(matches, now)
+    cross_platform_fund.run_all_fund_steps(matches, now)
 
 
 if __name__ == "__main__":

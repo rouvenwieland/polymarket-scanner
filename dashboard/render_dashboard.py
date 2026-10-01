@@ -33,30 +33,46 @@ def discount_factor(days, rate=ANNUAL_DISCOUNT_RATE):
 # Muss zu scripts/fund_simulator.py PROFILES passen (Dateinamen + Reihenfolge).
 FUND_PROFILES = [
     {
-        "key": "conservative", "label": "Konservativ",
+        "key": "conservative", "label": "Konservativ", "starting_capital": 100.0,
         "state_json": "fund_state.json", "history_csv": "fund_history.csv", "trades_csv": "fund_trades.csv",
         "desc": "Mindest-Liquidität 15 USD, Mindest-Spread 1%, Kaufimpact simuliert, verkauft bei Konvergenz.",
         "empty_note": "Mindest-Spread (1&thinsp;%) und Mindest-Liquidität (15&thinsp;USD) erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt.",
         "open_by_default": True,
     },
     {
-        "key": "aggressive", "label": "Aggressiv",
+        "key": "aggressive", "label": "Aggressiv", "starting_capital": 100.0,
         "state_json": "fund_state_aggressive.json", "history_csv": "fund_history_aggressive.csv", "trades_csv": "fund_trades_aggressive.csv",
         "desc": "Keine Mindest-Liquidität (kauft auch in sehr dünnen Märkten), hält aber im Zweifel bis zur Auflösung statt früh zu verkaufen. Kaufimpact bleibt simuliert.",
         "empty_note": "Mindest-Spread (1&thinsp;%) erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt (Liquidität allein ist hier keine Hürde).",
         "open_by_default": False,
     },
     {
-        "key": "best_case", "label": "Best Case (unrealistisch)",
+        "key": "best_case", "label": "Best Case (unrealistisch)", "starting_capital": 100.0,
         "state_json": "fund_state_bestcase.json", "history_csv": "fund_history_bestcase.csv", "trades_csv": "fund_trades_bestcase.csv",
         "desc": "Ignoriert Liquidität UND Marktimpact komplett, handelt exakt zum notierten Kurs, nimmt jeden positiven Spread mit und schichtet aktiv in bessere Gelegenheiten um. Eine bewusst unrealistische Obergrenze.",
         "empty_note": "positiven Spread hat (praktisch jeder Treffer zählt hier).",
         "open_by_default": False,
     },
     {
-        "key": "cross_platform", "label": "Cross-Platform (Polymarket+Kalshi+PredictIt)",
+        "key": "cross_platform", "label": "Cross-Platform (100 USD)", "starting_capital": 100.0,
         "state_json": "fund_state_crossplatform.json", "history_csv": "fund_history_crossplatform.csv", "trades_csv": "fund_trades_crossplatform.csv",
-        "desc": "Kauft Yes auf einer Plattform + No auf einer anderen für dasselbe, per Textähnlichkeit gematchte Ereignis, wenn die Kombi-Summe nach geschätzten Gebühren unter 1 liegt. Kalshi-Taker-Fee und PredictIt-Gewinn-Fee werden explizit verrechnet.",
+        "desc": "Kauft Yes auf einer Plattform + No auf einer anderen für dasselbe, per Textähnlichkeit gematchte Ereignis, wenn die Kombi-Summe nach geschätzten Gebühren unter 1 liegt. Positionsgröße je Bein an bekannte Liquidität gekoppelt (konservativ). Kalshi-Taker-Fee und PredictIt-Gewinn-Fee werden explizit verrechnet.",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "open_by_default": False,
+        "two_legged": True,
+    },
+    {
+        "key": "cross_platform_1k", "label": "Cross-Platform (1.000 USD)", "starting_capital": 1000.0,
+        "state_json": "fund_state_crossplatform_1k.json", "history_csv": "fund_history_crossplatform_1k.csv", "trades_csv": "fund_trades_crossplatform_1k.csv",
+        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 1.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit mehr Kapital skalieren lässt (Positionsgröße bleibt an die Marktliquidität gekoppelt).",
+        "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
+        "open_by_default": False,
+        "two_legged": True,
+    },
+    {
+        "key": "cross_platform_10k", "label": "Cross-Platform (10.000 USD)", "starting_capital": 10000.0,
+        "state_json": "fund_state_crossplatform_10k.json", "history_csv": "fund_history_crossplatform_10k.csv", "trades_csv": "fund_trades_crossplatform_10k.csv",
+        "desc": "Identische Strategie wie der 100-USD-Cross-Platform-Fonds, nur mit 10.000 USD Startkapital - zum Testen, wie gut sich die Strategie mit deutlich mehr Kapital skalieren lässt (Positionsgröße bleibt an die Marktliquidität gekoppelt, daher ist bei wenig verfügbaren Gelegenheiten viel Kasse ungenutzt zu erwarten).",
         "empty_note": "plattformübergreifend als dasselbe Ereignis erkannt wurde (Textähnlichkeit + Enddatum-Nähe) <b>und</b> bei dem die Kombi-Summe nach geschätzten Gebühren noch mind. 3&thinsp;Cent Edge lässt.",
         "open_by_default": False,
         "two_legged": True,
@@ -128,7 +144,7 @@ def load_json(path, default):
         return json.load(f)
 
 
-def build_navchart(history, width=1000, height=180):
+def build_navchart(history, width=1000, height=180, starting_capital=STARTING_CAPITAL):
     if len(history) < 2:
         return None
     values = [float(r["nav"]) for r in history]
@@ -152,14 +168,14 @@ def build_navchart(history, width=1000, height=180):
     area_pts = f"{X(0):.1f},{height-16} " + line_pts + f" {X(n-1):.1f},{height-16}"
 
     baseline = ""
-    if vmin <= STARTING_CAPITAL <= vmax:
-        by = Y(STARTING_CAPITAL)
+    if vmin <= starting_capital <= vmax:
+        by = Y(starting_capital)
         baseline = (f'<line x1="{pad_x}" y1="{by:.1f}" x2="{width-pad_x}" y2="{by:.1f}" '
                     f'stroke="var(--muted-2)" stroke-width="1" stroke-dasharray="3,4"/>'
                     f'<text x="{pad_x}" y="{by-6:.1f}" font-size="11" fill="var(--muted-2)" '
-                    f'font-family="IBM Plex Mono, monospace">Start 100.00</text>')
+                    f'font-family="IBM Plex Mono, monospace">Start {starting_capital:,.2f}</text>')
 
-    end_color = "var(--accent)" if values[-1] >= STARTING_CAPITAL else "var(--danger)"
+    end_color = "var(--accent)" if values[-1] >= starting_capital else "var(--danger)"
     endx, endy = X(n - 1), Y(values[-1])
 
     return f'''<svg class="navchart" viewBox="0 0 {width} {height}" preserveAspectRatio="none" role="img" aria-label="NAV-Verlauf">
@@ -177,7 +193,7 @@ def build_navchart(history, width=1000, height=180):
     </svg>'''
 
 
-def build_value_chart(history, width=1000, height=200):
+def build_value_chart(history, width=1000, height=200, starting_capital=STARTING_CAPITAL):
     """Terminierungswert (was man bei sofortiger regulärer Auszahlung aller
     offenen Positionen bekäme) und derselbe Wert abgezinst für die
     Kapitalbindung bis zur Fälligkeit. Nutzt nur Zeilen, in denen beide
@@ -190,7 +206,7 @@ def build_value_chart(history, width=1000, height=200):
 
     term_vals = [float(r["terminierungswert"]) for r in rows]
     disc_vals = [float(r["diskontierter_terminierungswert"]) for r in rows]
-    all_vals = term_vals + disc_vals + [STARTING_CAPITAL]
+    all_vals = term_vals + disc_vals + [starting_capital]
     vmin, vmax = min(all_vals), max(all_vals)
     if vmax - vmin < 0.5:
         vmin -= 1
@@ -213,8 +229,8 @@ def build_value_chart(history, width=1000, height=200):
         return f'<polyline points="{pts}" fill="none" stroke="{color}" stroke-width="2"{dash_attr} stroke-linejoin="round" stroke-linecap="round"/>'
 
     baseline = ""
-    if vmin <= STARTING_CAPITAL <= vmax:
-        by = Y(STARTING_CAPITAL)
+    if vmin <= starting_capital <= vmax:
+        by = Y(starting_capital)
         baseline = (f'<line x1="{pad_x}" y1="{by:.1f}" x2="{width-pad_x}" y2="{by:.1f}" '
                     f'stroke="var(--muted-2)" stroke-width="1" stroke-dasharray="3,4"/>')
 
@@ -386,7 +402,7 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 
 .freqnote{ font-size:12px; color:var(--muted-2); margin-top:10px; }
 
-.compare{ display:grid; grid-template-columns:repeat(4,1fr); gap:12px; margin-bottom:20px; }
+.compare{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; margin-bottom:20px; }
 @media (max-width:900px){ .compare{ grid-template-columns:repeat(2,1fr); } }
 @media (max-width:480px){ .compare{ grid-template-columns:1fr; } }
 .compare-card{ border:1px solid var(--border); background:var(--surface); border-radius:12px; padding:16px; }
@@ -516,7 +532,8 @@ def render(data_dir):
 
     fund_results = []
     for fp in FUND_PROFILES:
-        state = load_json(os.path.join(data_dir, fp["state_json"]), {"cash": STARTING_CAPITAL, "positions": [], "started": None})
+        starting_capital = fp.get("starting_capital", STARTING_CAPITAL)
+        state = load_json(os.path.join(data_dir, fp["state_json"]), {"cash": starting_capital, "positions": [], "started": None})
         history = load_csv(os.path.join(data_dir, fp["history_csv"]))
         trades = load_csv(os.path.join(data_dir, fp["trades_csv"]))
         positions = state["positions"]
@@ -533,7 +550,7 @@ def render(data_dir):
         fund_results.append({
             "profile": fp, "state": state, "history": history, "trades": trades,
             "positions": positions, "positions_value": positions_value, "nav": nav,
-            "return_pct": (nav / STARTING_CAPITAL - 1) * 100,
+            "return_pct": (nav / starting_capital - 1) * 100,
             "termination_value": termination_value, "discounted_value": discounted_value,
         })
 
@@ -552,11 +569,12 @@ def render(data_dir):
 
     def render_fund_detail(fr):
         fp = fr["profile"]
-        navchart_html = build_navchart(fr["history"])
+        starting_capital = fp.get("starting_capital", STARTING_CAPITAL)
+        navchart_html = build_navchart(fr["history"], starting_capital=starting_capital)
         if navchart_html is None:
             navchart_html = '<div class="empty">Noch zu wenig Verlauf für einen Chart &mdash; der Fonds sammelt gerade seine erste Kursreihe.</div>'
 
-        valuechart_html = build_value_chart(fr["history"])
+        valuechart_html = build_value_chart(fr["history"], starting_capital=starting_capital)
         if valuechart_html is None:
             valuechart_html = '<div class="empty">Noch zu wenig Verlauf für diesen Chart &mdash; die Kennzahl wurde gerade erst eingeführt.</div>'
 
@@ -774,7 +792,7 @@ def render(data_dir):
   <section>
     <div class="section-head">
       <h2>Arbitrage-Fonds (Simulation)</h2>
-      <p>Vier parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; je Start 100.00 USD</p>
+      <p>Sechs parallele Papier-Trading-Strategien auf Basis der Scan-Treffer &middot; drei davon Polymarket-only (je Start 100 USD), drei Cross-Platform mit identischer Strategie bei 100/1.000/10.000 USD Start (Skalierungstest)</p>
     </div>
     <div class="compare">{compare_html}
     </div>
