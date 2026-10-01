@@ -1,24 +1,13 @@
 {
-  "cash": 99.04294994953966,
+  "cash": 108.84617191146317,
   "positions": [
-    {
-      "market_id": "5051025",
-      "frage": "Will Mike Sullivan win the 2026-27 Jack Adams Award?",
-      "slug": "will-mike-sullivan-win-the-2026-27-jack-adams-award",
-      "shares": 9.943797581728617,
-      "einstandskurs": 0.8931999999999999,
-      "letzter_kurs": 0.8931999999999999,
-      "liquiditaet": 88.818,
-      "end_date": "2027-07-01T03:59:00Z",
-      "eingestiegen": "2026-10-01T01:12:35.568662+02:00"
-    },
     {
       "market_id": "5131129",
       "frage": "Will Cristobal Henriquez Villagra finish in the Top 3 of Titled Tuesday on October 6?",
       "slug": "titled-tuesday-2026-10-06-top3-cristobal-henriquez-villagra",
       "shares": 2.426401892267192,
       "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.9989989999999999,
+      "letzter_kurs": 0.99,
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-01T01:12:35.568662+02:00"
