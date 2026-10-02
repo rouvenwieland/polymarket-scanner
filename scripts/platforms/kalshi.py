@@ -18,11 +18,43 @@ Gebühren (Kalshi Fee Schedule, bestätigt über docs.kalshi.com/kalshi.com):
 """
 
 import math
+import time
 
 import requests
 
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2/markets"
 LIMIT = 1000
+PAGE_DELAY_SECONDS = 0.15  # etwas Abstand zwischen Seiten, um das Rate-Limit nicht zu reizen
+MAX_RETRIES = 4
+
+
+def _get_with_retry(url, params, timeout=20):
+    """Kalshi rate-limited den vollen Scan (~200+ Seiten) in der Praxis mit
+    HTTP 429 - ein einzelner Fehlschlag brach bisher die GESAMTE Seite ab
+    (0 Märkte für den ganzen Lauf). Jetzt: bei 429/5xx mit exponentiellem
+    Backoff erneut versuchen (Retry-After-Header respektieren, falls
+    vorhanden), erst nach MAX_RETRIES endgültig aufgeben."""
+    delay = 1.0
+    for attempt in range(MAX_RETRIES + 1):
+        try:
+            resp = requests.get(url, params=params, timeout=timeout)
+        except requests.RequestException as e:
+            if attempt == MAX_RETRIES:
+                raise
+            print(f"[Warnung] Kalshi-Netzwerkfehler (Versuch {attempt+1}/{MAX_RETRIES+1}): {e}")
+            time.sleep(delay)
+            delay *= 2
+            continue
+        if resp.status_code == 429 or resp.status_code >= 500:
+            if attempt == MAX_RETRIES:
+                resp.raise_for_status()
+            wait = float(resp.headers.get("Retry-After", delay))
+            print(f"[Warnung] Kalshi HTTP {resp.status_code} (Versuch {attempt+1}/{MAX_RETRIES+1}), warte {wait:.1f}s...")
+            time.sleep(wait)
+            delay *= 2
+            continue
+        resp.raise_for_status()
+        return resp.json()
 
 
 def fetch_all_open_markets(limit=LIMIT):
@@ -33,9 +65,7 @@ def fetch_all_open_markets(limit=LIMIT):
         if cursor:
             params["cursor"] = cursor
         try:
-            resp = requests.get(BASE_URL, params=params, timeout=20)
-            resp.raise_for_status()
-            data = resp.json()
+            data = _get_with_retry(BASE_URL, params)
         except requests.RequestException as e:
             print(f"[Warnung] Kalshi-Fehler bei Cursor {cursor!r}: {e}")
             break
@@ -44,6 +74,7 @@ def fetch_all_open_markets(limit=LIMIT):
         cursor = data.get("cursor")
         if not cursor or not batch:
             break
+        time.sleep(PAGE_DELAY_SECONDS)
     return markets
 
 

@@ -43,7 +43,7 @@ Hauptrisiko dieser Strategie.
 
 import difflib
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 
 STOPWORDS = {
     "will", "the", "a", "an", "of", "in", "on", "for", "to", "by", "be",
@@ -99,9 +99,15 @@ def _parse_date(s):
     if not s:
         return None
     try:
-        return datetime.fromisoformat(str(s).replace("Z", "+00:00"))
+        dt = datetime.fromisoformat(str(s).replace("Z", "+00:00"))
     except ValueError:
         return None
+    if dt.tzinfo is None:
+        # Manche Plattformen liefern Enddaten ohne Zeitzone (naiv) - ohne
+        # diese Normalisierung crasht die Differenzbildung in _dates_close,
+        # sobald eine Seite aware und die andere naiv ist. Annahme: UTC.
+        dt = dt.replace(tzinfo=timezone.utc)
+    return dt
 
 
 def _dates_close(d1, d2, max_days=MAX_DAYS_APART):
