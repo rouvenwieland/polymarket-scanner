@@ -1,24 +1,13 @@
 {
-  "cash": 102.54777066319086,
+  "cash": 117.16451173189,
   "positions": [
-    {
-      "market_id": "4751277",
-      "frage": "Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half",
-      "slug": "el1-bur-hud-2026-10-03-btts-second-half",
-      "shares": 15.006725208824161,
-      "einstandskurs": 0.7003499999999999,
-      "letzter_kurs": 0.7003499999999999,
-      "liquiditaet": 105.0996,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
     {
       "market_id": "5131225",
       "frage": "Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?",
       "slug": "titled-tuesday-2026-10-06-top5-pranav-venkatesh",
       "shares": 2.426401892267192,
       "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.9989989999999999,
+      "letzter_kurs": 0.99,
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"

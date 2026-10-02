@@ -45,3 +45,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,1.0,2.4264,115.4817,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-03T00:12:51.254307+02:00,KAUF,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,15.0067,0.7003,-10.51,104.9717,"Spread 31.00%, Liquiditaet 105 USD"
 2026-10-03T00:12:51.254307+02:00,KAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,102.5478,"Spread 1.00%, Liquiditaet 40 USD"
+2026-10-03T01:24:27.182676+02:00,VERKAUF,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,15.0067,0.974,14.6167,117.1645,Konvergenz erreicht (Kurs 1.000)

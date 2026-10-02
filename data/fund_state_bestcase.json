@@ -1,17 +1,6 @@
 {
-  "cash": 9.88120033750814,
+  "cash": 54.378145512847254,
   "positions": [
-    {
-      "market_id": "4751277",
-      "frage": "Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half",
-      "slug": "el1-bur-hud-2026-10-03-btts-second-half",
-      "shares": 4.773526733095679,
-      "einstandskurs": 0.69,
-      "letzter_kurs": 0.69,
-      "liquiditaet": 105.0996,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
     {
       "market_id": "5216967",
       "frage": "PSIS Semarang vs. FC Adhyaksa Bekasi: Both Teams to Score in Second Half",
@@ -24,17 +13,6 @@
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
-      "market_id": "5150957",
-      "frage": "Exact Score: CA Acassuso 3 - 5 Club Ciudad de Bolivar?",
-      "slug": "argpn-aca-ciu-2026-10-03-exact-score-3-5",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 247.9296,
-      "end_date": "2026-10-03T18:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
       "market_id": "5187739",
       "frage": "Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half",
       "slug": "wsl2-nfo-bur-2026-10-04-btts-second-half",
@@ -43,28 +21,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 62.4596,
       "end_date": "2026-10-04T13:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5067045",
-      "frage": "Real Betis Balompié vs. CA Osasuna: Both Teams to Score in Second Half",
-      "slug": "lal-bet-osa-2026-10-11-btts-second-half",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 95.4596,
-      "end_date": "2026-10-11T16:30:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5010031",
-      "frage": "1. FSV Mainz 05 vs. Bayer 04 Leverkusen: Neither team to score first?",
-      "slug": "bun-mai-b04-2026-10-10-first-to-score-neither",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 27.9622,
-      "end_date": "2026-10-10T13:30:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
@@ -98,61 +54,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 70.932,
       "end_date": "2026-10-13T19:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5218366",
-      "frage": "Will Microsoft Corporation (MSFT) hit (HIGH) $540 Week of October 5 2026?",
-      "slug": "will-msft-reach-540-by-october-5-2026",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.46,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5218959",
-      "frage": "Will Coinbase Global, Inc. (COIN) hit (HIGH) $197.50 Week of October 5 2026?",
-      "slug": "will-coin-reach-197-50-by-october-5-2026",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.46,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5218994",
-      "frage": "Will Micron Technology, Inc. (MU) hit (LOW) $1,020 Week of October 5 2026?",
-      "slug": "will-mu-dip-to-1020-by-october-5-2026",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.46,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5218987",
-      "frage": "Will Micron Technology, Inc. (MU) hit (HIGH) $1,230 Week of October 5 2026?",
-      "slug": "will-mu-reach-1230-by-october-5-2026",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.36,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5219026",
-      "frage": "Will SK hynix (SKHY) hit (LOW) $177 Week of October 5 2026?",
-      "slug": "will-skhy-dip-to-177-by-october-5-2026",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-09T20:00:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
@@ -255,17 +156,6 @@
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
-      "market_id": "5131271",
-      "frage": "Will Haik Martirosyan finish in the Top 8 of Titled Tuesday on October 6?",
-      "slug": "titled-tuesday-2026-10-06-top8-haik-martirosyan",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 22.0,
-      "end_date": "2026-10-21T03:59:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
       "market_id": "5131132",
       "frage": "Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?",
       "slug": "titled-tuesday-2026-10-06-top3-dau-khuong-duy",
@@ -274,39 +164,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 20.0,
       "end_date": "2026-10-21T03:59:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "4963801",
-      "frage": "Will SpaceX (SPCX) close above $170 end of October?",
-      "slug": "spcx-above-170-on-october-30-2026",
-      "shares": 3.310284870186953,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 575.7179,
-      "end_date": "2026-10-30T20:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "4166629",
-      "frage": "Will a Democratic Party candidate win the 2026 CA-15 House election by 45%-50%?",
-      "slug": "will-a-democratic-party-candidate-win-the-2026-ca-15-house-election-by-45-50",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 96.851,
-      "end_date": "2026-11-03T12:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "3503522",
-      "frage": "Will Kyren Williams have 5.5+ rushing touchdowns in the 2026-27 NFL regular season?",
-      "slug": "kyren-williams-5pt5-rushing-touchdowns-2026-27",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 14.2838,
-      "end_date": "2027-01-12T23:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
