@@ -2151,3 +2151,43 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-02T08:13:46.540217+02:00,5193172,Exact Score: New Mexico United 1 - 1 Phoenix Rising FC?,uslc-new-pho-2026-10-04-exact-score-1-1,0.475,0.52,0.995,0.0,12.6654,2026-10-04T22:00:00Z
 2026-10-02T08:13:46.540217+02:00,5193749,Jaylen Wright: Anytime Touchdown,nfl-mia-min-2026-10-04-anytime-td-jaylen-wright,0.505,0.49,0.995,0.0,24.0196,2026-10-04T20:05:00Z
 2026-10-02T08:13:46.540217+02:00,5195857,Will there be 10 or more tech pauses in the VALORANT Champions 2026 Playoffs?,will-there-be-10-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs,0.49,0.505,0.995,0.0,13.2898,2026-11-18T04:59:00Z
+2026-10-02T14:40:59.050255+02:00,701565,"Will Solana reach $320 by December 31, 2026?",will-solana-reach-320-by-december-31-2026,0.026,0.9735,0.9995,124577.90555800001,44048.14454,2027-01-01T05:00:00Z
+2026-10-02T14:40:59.050255+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-02T14:40:59.050255+02:00,3851374,Will Reid Hamer-Jackson win the 2026 Kamloops mayoral election?,will-reid-hamer-jackson-win-the-2026-kamloops-mayoral-election,0.275,0.72,0.995,6511.657947999998,3041.8487,2026-10-18T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,4205838,Will the Dallas Cowboys finish the 2026-27 NFL regular season with the best record?,will-the-dallas-cowboys-finish-the-2026-27-nfl-regular-season-with-the-best-record,0.455,0.54,0.9950000000000001,0.0,25.5238,2027-01-10T23:59:00Z
+2026-10-02T14:40:59.050255+02:00,4397510,Will chesterbb win WSCI 2026 MVP?,will-chesterbb-win-wsci-2026-mvp,0.4805,0.519,0.9995,37.6,8.60691,2026-10-17T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,4720880,Belgium to win the second half?,unl-bel-tur-2026-10-02-second-half-result-home,0.49,0.505,0.995,0.0,345.297,2026-10-02T18:45:00Z
+2026-10-02T14:40:59.050255+02:00,4753181,Croatia to score first vs. England?,unl-hrv-eng-2026-10-03-first-to-score-home,0.335,0.66,0.9950000000000001,0.0,1746.4061,2026-10-03T16:00:00Z
+2026-10-02T14:40:59.050255+02:00,4753675,Spain vs. Czechia: Both Teams to Score in First Half,unl-esp-cze-2026-10-03-btts-first-half,0.12,0.875,0.995,0.0,2956.5636,2026-10-03T18:45:00Z
+2026-10-02T14:40:59.050255+02:00,4755015,Hornchurch FC leading at halftime?,enl-ht-hor-2026-10-03-halftime-result-away,0.13,0.865,0.995,0.0,1263.0282,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4755063,AFC Fylde to score first vs. Southend United FC?,enl-sou-fyl-2026-10-03-first-to-score-away,0.4,0.575,0.975,0.0,1397.6799,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4768224,AA Ponte Preta to score first vs. Cuiabá EC?,bra2-cui-pop-2026-10-03-first-to-score-away,0.15,0.845,0.995,0.0,935.1988,2026-10-03T20:00:00Z
+2026-10-02T14:40:59.050255+02:00,4776825,Vegalta Sendai to score first vs. Júbilo Iwata?,ja2-veg-jub-2026-10-04-first-to-score-home,0.5,0.495,0.995,0.0,1074.0191,2026-10-04T06:00:00Z
+2026-10-02T14:40:59.050255+02:00,4846488,Sheppey United FC leading at halftime?,efa-she2-che1-2026-10-03-halftime-result-home,0.5,0.495,0.995,0.0,113.2116,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4846990,Stafford Rangers FC leading at halftime?,efa-sta2-hal4-2026-10-03-halftime-result-home,0.49,0.505,0.995,0.0,96.4295,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4880762,Niger leading at halftime?,fif-alg-nig-2026-10-06-halftime-result-away,0.495,0.5,0.995,0.0,96.9693,2026-10-06T19:30:00Z
+2026-10-02T14:40:59.050255+02:00,4887214,Cray Wanderers FC vs. Chippenham Town FC: Both Teams to Score,efa-cra1-chi2-2026-10-03-btts,0.615,0.38,0.995,0.0,157.4927,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4910720,Will Eastbourne Borough FC win on 2026-10-03?,efa-tha2-eas1-2026-10-03-eas1,0.6,0.395,0.995,0.0,248.2381,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,4983011,Stroemsgodset IF vs. Aasane Fotball: Both Teams to Score in First Half,nor2-sif-asa-2026-10-03-btts-first-half,0.25,0.745,0.995,0.0,1250.8025,2026-10-03T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,5000503,TOP Oss vs. MVV Maastricht: Both Teams to Score,ned2-oss-maa-2026-10-03-btts,0.59,0.405,0.995,0.0,1485.4258,2026-10-03T14:30:00Z
+2026-10-02T14:40:59.050255+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-02T14:40:59.050255+02:00,5010173,Exact Score: Chelsea FC 5 - 2 AFC Bournemouth?,epl-che-bou-2026-10-10-exact-score-5-2,0.395,0.6,0.995,9.9898,45.36,2026-10-10T14:00:00Z
+2026-10-02T14:40:59.050255+02:00,5013834,TSG 1899 Hoffenheim vs. Hamburger SV: Both Teams to Score in First Half,bun-hof-hsv-2026-10-10-btts-first-half,0.5,0.495,0.995,0.0,37.2697,2026-10-10T13:30:00Z
+2026-10-02T14:40:59.050255+02:00,5062586,Borussia Mönchengladbach to score first vs. 1. FC Köln?,bun-koe-moe-2026-10-11-first-to-score-away,0.49,0.505,0.995,0.0,23.1784,2026-10-11T13:30:00Z
+2026-10-02T14:40:59.050255+02:00,5064357,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in First Half,fl1-tro-olm-2026-10-11-btts-first-half,0.475,0.52,0.995,0.0,20.0166,2026-10-11T18:45:00Z
+2026-10-02T14:40:59.050255+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,5131211,Will Jules Moussard finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-jules-moussard,0.49,0.505,0.995,0.0,52.0,2026-10-21T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-pranav-venkatesh,0.49,0.5,0.99,0.0,40.0,2026-10-21T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,will-celta-vigo-record-46-or-more-points-in-the-2026-27-laliga-season,0.495,0.5,0.995,0.0,1.764,2027-06-14T03:59:00Z
+2026-10-02T14:40:59.050255+02:00,5162920,Game 2: Any Player Ultra Kill?,dota2-1win-nem-2026-10-02-game2-any-player-ultra-kill,0.16,0.445,0.605,0.0,55.0,2026-10-02T17:00:00Z
+2026-10-02T14:40:59.050255+02:00,5175381,Will 25% to 34% of Cattle inventory be in D1-D4 drought this week?,ag-commodity-drought-cattle-2026-10-06-25-34,0.5,0.495,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-02T14:40:59.050255+02:00,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,ag-commodity-drought-soybeans-2026-10-06-0-14,0.495,0.5,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-02T14:40:59.050255+02:00,5182480,Paysandu SC PA vs. Ferroviaria Araraquara SP: Both Teams to Score,bra3-psc-ara-2026-10-03-btts,0.52,0.475,0.995,0.0,1126.3831,2026-10-03T22:30:00Z
+2026-10-02T14:40:59.050255+02:00,5187000,FK Bodø/Glimt vs. BV Borussia 09 Dortmund: Both Teams to Score in Second Half,ucl-bog-bvb-2026-10-14-btts-second-half,0.49,0.505,0.995,0.0,118.3586,2026-10-14T19:00:00Z
+2026-10-02T14:40:59.050255+02:00,5187060,Manchester City FC vs. Paris Saint-Germain FC: Both Teams to Score in Second Half,ucl-mnc-psg-2026-10-14-btts-second-half,0.49,0.505,0.995,0.0,95.4589,2026-10-14T19:00:00Z
+2026-10-02T14:40:59.050255+02:00,5187739,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half,wsl2-nfo-bur-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.4596,2026-10-04T13:00:00Z
+2026-10-02T14:40:59.050255+02:00,5195857,Will there be 10 or more tech pauses in the VALORANT Champions 2026 Playoffs?,will-there-be-10-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs,0.49,0.505,0.995,0.0,13.2898,2026-11-18T04:59:00Z
+2026-10-02T14:40:59.050255+02:00,5199922,"T20 Series South Africa, Women: Warriors vs Lions - Completed match?",criccsat20w-war-lio-2026-10-04-completed-match,0.5,0.495,0.995,0.0,9.3199,2026-10-11T08:00:00Z
+2026-10-02T14:40:59.050255+02:00,5200608,Exact Score: Mansfield Town FC 0 - 3 Oxford United FC?,el1-man-oxf-2026-10-15-exact-score-0-3,0.485,0.51,0.995,0.0,12.7701,2026-10-15T19:00:00Z
+2026-10-02T14:40:59.050255+02:00,5201334,Exact Score: CSD Cobán Imperial 2 - 1 CSD Municipal?,gtm-cob-mun-2026-10-15-exact-score-2-1,0.48,0.515,0.995,0.0,12.578,2026-10-15T21:00:00Z

@@ -1294,3 +1294,40 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-02T10:51:16.412396+02:00,VERKAUF,5065606,Exact Score: Real Sociedad de Fútbol 5 - 3 RC Deportivo A Coruña?,2.2547,1.0,2.2547,78.8871,Konvergenz erreicht (Kurs 1.000)
 2026-10-02T10:51:16.412396+02:00,VERKAUF,5158667,Exact Score: RB Leipzig 5 - 0 PSV?,2.2547,1.0,2.2547,81.1418,Konvergenz erreicht (Kurs 1.000)
 2026-10-02T10:51:16.412396+02:00,VERKAUF,5184054,Exact Score: FK Shakhtar Donetsk 2 - 3 AEK?,2.2547,1.0,2.2547,83.3966,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,4917883,Wyoming vs. North Dakota State: Both Teams to Score a Touchdown - Q1,2.296,1.0,2.296,85.6926,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5189740,Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Second half draw?,2.3064,1.0,2.3064,87.9989,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5142111,CA Central Norte Salta vs. CA Racing de Cordoba: Both Teams to Score in First Half,2.2547,1.0,2.2547,90.2537,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5091365,Exact Score: Churchill Brothers SC 5 - 3 Mumbai City FC?,2.2547,1.0,2.2547,92.5084,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5046460,Exact Score: EC Juventude 0 - 2 São Bernardo FC?,2.2547,1.0,2.2547,94.7631,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5070233,Exact Score: CSD Municipal 2 - 0 CD Marquense?,2.2547,1.0,2.2547,97.0179,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,VERKAUF,5146970,Exact Score: Stoke City FC 1 - 1 Middlesbrough FC?,2.2547,1.0,2.2547,99.2726,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T14:40:59.050255+02:00,KAUF,5162920,Game 2: Any Player Ultra Kill?,5.1277,0.605,-3.1023,96.1703,"Spread 39.50%, Liquiditaet 55 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4755063,AFC Fylde to score first vs. Southend United FC?,3.1818,0.975,-3.1023,93.0681,"Spread 2.50%, Liquiditaet 1398 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4720880,Belgium to win the second half?,3.1179,0.995,-3.1023,89.9658,"Spread 0.50%, Liquiditaet 345 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4755015,Hornchurch FC leading at halftime?,3.1179,0.995,-3.1023,86.8635,"Spread 0.50%, Liquiditaet 1263 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4846488,Sheppey United FC leading at halftime?,3.1179,0.995,-3.1023,83.7613,"Spread 0.50%, Liquiditaet 113 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4887214,Cray Wanderers FC vs. Chippenham Town FC: Both Teams to Score,3.1179,0.995,-3.1023,80.659,"Spread 0.50%, Liquiditaet 157 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4910720,Will Eastbourne Borough FC win on 2026-10-03?,3.1179,0.995,-3.1023,77.5567,"Spread 0.50%, Liquiditaet 248 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4983011,Stroemsgodset IF vs. Aasane Fotball: Both Teams to Score in First Half,3.1179,0.995,-3.1023,74.4545,"Spread 0.50%, Liquiditaet 1251 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4846990,Stafford Rangers FC leading at halftime?,3.1179,0.995,-3.1023,71.3522,"Spread 0.50%, Liquiditaet 96 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5000503,TOP Oss vs. MVV Maastricht: Both Teams to Score,3.1179,0.995,-3.1023,68.2499,"Spread 0.50%, Liquiditaet 1485 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4753181,Croatia to score first vs. England?,3.1179,0.995,-3.1023,65.1476,"Spread 0.50%, Liquiditaet 1746 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4753675,Spain vs. Czechia: Both Teams to Score in First Half,3.1179,0.995,-3.1023,62.0454,"Spread 0.50%, Liquiditaet 2957 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4768224,AA Ponte Preta to score first vs. Cuiabá EC?,3.1179,0.995,-3.1023,58.9431,"Spread 0.50%, Liquiditaet 935 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5182480,Paysandu SC PA vs. Ferroviaria Araraquara SP: Both Teams to Score,3.1179,0.995,-3.1023,55.8408,"Spread 0.50%, Liquiditaet 1126 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4776825,Vegalta Sendai to score first vs. Júbilo Iwata?,3.1179,0.995,-3.1023,52.7386,"Spread 0.50%, Liquiditaet 1074 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4880762,Niger leading at halftime?,3.1179,0.995,-3.1023,49.6363,"Spread 0.50%, Liquiditaet 97 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5010173,Exact Score: Chelsea FC 5 - 2 AFC Bournemouth?,3.1179,0.995,-3.1023,46.534,"Spread 0.50%, Liquiditaet 45 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5013834,TSG 1899 Hoffenheim vs. Hamburger SV: Both Teams to Score in First Half,3.1179,0.995,-3.1023,43.4318,"Spread 0.50%, Liquiditaet 37 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5062586,Borussia Mönchengladbach to score first vs. 1. FC Köln?,3.1179,0.995,-3.1023,40.3295,"Spread 0.50%, Liquiditaet 23 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5187000,FK Bodø/Glimt vs. BV Borussia 09 Dortmund: Both Teams to Score in Second Half,3.1179,0.995,-3.1023,37.2272,"Spread 0.50%, Liquiditaet 118 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5187060,Manchester City FC vs. Paris Saint-Germain FC: Both Teams to Score in Second Half,3.1179,0.995,-3.1023,34.125,"Spread 0.50%, Liquiditaet 95 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5064357,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in First Half,3.1179,0.995,-3.1023,31.0227,"Spread 0.50%, Liquiditaet 20 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5199922,"T20 Series South Africa, Women: Warriors vs Lions - Completed match?",3.1179,0.995,-3.1023,27.9204,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,3851374,Will Reid Hamer-Jackson win the 2026 Kamloops mayoral election?,3.1179,0.995,-3.1023,24.8182,"Spread 0.50%, Liquiditaet 3042 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5200608,Exact Score: Mansfield Town FC 0 - 3 Oxford United FC?,3.1179,0.995,-3.1023,21.7159,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5201334,Exact Score: CSD Cobán Imperial 2 - 1 CSD Municipal?,3.1179,0.995,-3.1023,18.6136,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5131211,Will Jules Moussard finish in the Top 5 of Titled Tuesday on October 6?,3.1179,0.995,-3.1023,15.5113,"Spread 0.50%, Liquiditaet 52 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5195857,Will there be 10 or more tech pauses in the VALORANT Champions 2026 Playoffs?,3.1179,0.995,-3.1023,12.4091,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4205838,Will the Dallas Cowboys finish the 2026-27 NFL regular season with the best record?,3.1179,0.995,-3.1023,9.3068,"Spread 0.50%, Liquiditaet 26 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,3.1179,0.995,-3.1023,6.2045,"Spread 0.50%, Liquiditaet 2 USD"

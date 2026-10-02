@@ -1,5 +1,5 @@
 {
-  "cash": 108.94683598728768,
+  "cash": 48.97341799364384,
   "positions": [
     {
       "market_id": "5131225",
@@ -11,6 +11,28 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-02T02:36:53.145566+02:00"
+    },
+    {
+      "market_id": "5162920",
+      "frage": "Game 2: Any Player Ultra Kill?",
+      "slug": "dota2-1win-nem-2026-10-02-game2-any-player-ultra-kill",
+      "shares": 8.956560680698614,
+      "einstandskurs": 0.6140749999999999,
+      "letzter_kurs": 0.6140749999999999,
+      "liquiditaet": 55.0,
+      "end_date": "2026-10-02T17:00:00Z",
+      "eingestiegen": "2026-10-02T14:40:59.050255+02:00"
+    },
+    {
+      "market_id": "4755063",
+      "frage": "AFC Fylde to score first vs. Southend United FC?",
+      "slug": "enl-sou-fyl-2026-10-03-first-to-score-away",
+      "shares": 55.54544662560751,
+      "einstandskurs": 0.9806999727774366,
+      "letzter_kurs": 0.9806999727774366,
+      "liquiditaet": 1397.6799,
+      "end_date": "2026-10-03T14:00:00Z",
+      "eingestiegen": "2026-10-02T14:40:59.050255+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"
