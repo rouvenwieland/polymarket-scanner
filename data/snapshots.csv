@@ -2031,3 +2031,64 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-01T22:58:20.756443+02:00,5189813,Exact Score: Atalanta BC 5 - 1 Páfos FC?,col-ata-paf-2026-10-15-exact-score-5-1,0.475,0.52,0.995,0.0,12.8518,2026-10-15T19:00:00Z
 2026-10-01T22:58:20.756443+02:00,5189956,Exact Score: SC Freiburg 3 - 5 FK Jablonec?,col-scf-jab-2026-10-15-exact-score-3-5,0.49,0.505,0.995,0.0,5.1599,2026-10-15T19:00:00Z
 2026-10-01T22:58:20.756443+02:00,5191178,Exact Score: Al Ahli Saudi Club 1 - 3 Al Nassr Saudi Club?,spl-ahl-nsr-2026-10-15-exact-score-1-3,0.485,0.51,0.995,0.0,9.5188,2026-10-15T18:00:00Z
+2026-10-02T02:36:53.145566+02:00,676789,Remote IPO before 2027?,remote-ipo-before-2027,0.039,0.9605,0.9995,56573.507806,396.0416,2027-01-01T04:59:00Z
+2026-10-02T02:36:53.145566+02:00,2125854,Will Texas use a new congressional map for the 2026 United States midterm elections?,will-texas-use-a-new-congressional-map-for-the-2026-united-states-midterm-elections,0.932,0.0675,0.9995,20261.830620000015,613.54989,2026-11-03T00:00:00Z
+2026-10-02T02:36:53.145566+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-02T02:36:53.145566+02:00,3195496,Will LGD GAMING Qualify for Worlds 2026?,will-lgd-gaming-qualify-for-worlds-2026-20260728162208153,0.002,0.9955,0.9975,1567.97,316.30914,2026-10-30T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,3491777,Will the Democratic Party candidate win the 2026 MI-13 House election by 35%-40%?,will-the-democratic-party-candidate-win-the-2026-mi-13-house-election-by-35-40,0.051,0.9485,0.9995,157.0,593.42407,2026-11-04T04:59:00Z
+2026-10-02T02:36:53.145566+02:00,3519920,Will the Democratic Party candidate win the 2026 NM-03 House election by 30%-35%?,will-the-democratic-party-candidate-win-the-2026-nm-03-house-election-by-30-35,0.03,0.9695,0.9995,625.052557,2006.05466,2026-11-04T04:59:00Z
+2026-10-02T02:36:53.145566+02:00,4130505,"Will the Bitcoin halving occur by March 31, 2028?",will-the-bitcoin-halving-occur-by-march-31-2028,0.355,0.64,0.995,97.792425,184.2294,2028-04-01T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,4205810,Will the Kansas City Chiefs be the AFC #1 seed for the 2027 NFL Playoffs?,will-the-kansas-city-chiefs-be-the-afc-1-seed-for-the-2027-nfl-playoffs,0.48,0.515,0.995,0.0,5.1738,2027-01-10T23:59:00Z
+2026-10-02T02:36:53.145566+02:00,4705111,Exact Score: Athletic Club 2 - 3 SC Recife?,bra2-ath-rec-2026-10-01-exact-score-2-3,0.128,0.8715,0.9995,348.604739,2971.1782,2026-10-01T23:30:00Z
+2026-10-02T02:36:53.145566+02:00,4740153,Will the fight end before Round 2?,ufc-and28-dam11-2026-10-03-ends-before-round-2,0.425,0.57,0.9949999999999999,0.0,2673.8685,2026-10-04T03:59:59.999Z
+2026-10-02T02:36:53.145566+02:00,4776830,RB Ōmiya Ardija leading at halftime?,ja2-teg-omi-2026-10-04-halftime-result-away,0.285,0.71,0.9949999999999999,0.0,1652.3339,2026-10-04T10:00:00Z
+2026-10-02T02:36:53.145566+02:00,4847199,Chesham United FC vs. Real Bedford FC: Draw at halftime?,efa-che4-rbf-2026-10-03-halftime-result-draw,0.485,0.51,0.995,0.0,122.308,2026-10-03T14:00:00Z
+2026-10-02T02:36:53.145566+02:00,4849628,Mulbarton Wanderers FC vs. Gloucester City AFC: Both Teams to Score,efa-mul-glo1-2026-10-03-btts,0.575,0.42,0.9949999999999999,0.0,150.7427,2026-10-03T14:00:00Z
+2026-10-02T02:36:53.145566+02:00,4910338,Exact Score: CA Sarmiento 1 - 2 CA River Plate?,arg-cas-riv-2026-10-07-exact-score-1-2,0.475,0.52,0.995,0.0,14.3496,2026-10-07T22:30:00Z
+2026-10-02T02:36:53.145566+02:00,4917883,Wyoming vs. North Dakota State: Both Teams to Score a Touchdown - Q1,cfb-wyom-ndkst-2026-10-03-1q-btts-td,0.5,0.495,0.995,0.0,1.08,2026-10-03T19:30:00Z
+2026-10-02T02:36:53.145566+02:00,4952510,Exact Score: FK Rostov 3 - 0 FK Akron Tolyatti?,rus-ros-akr-2026-10-09-exact-score-3-0,0.48,0.515,0.995,0.0,12.5456,2026-10-09T16:30:00Z
+2026-10-02T02:36:53.145566+02:00,4961392,Exact Score: Shenzhen Xinpengcheng FC 2 - 3 Henan FC?,chi-xin-hen-2026-10-09-exact-score-2-3,0.48,0.515,0.995,0.0,14.0393,2026-10-09T11:35:00Z
+2026-10-02T02:36:53.145566+02:00,4963954,Will US Dollar Index (DXY) hit (LOW) 100.00 Week of September 28 2026?,will-dxy-dip-to-100-by-september-28-2026,0.495,0.5,0.995,0.0,0.8839,2026-10-02T21:00:00Z
+2026-10-02T02:36:53.145566+02:00,4977173,Exact Score: Sutton United FC 2 - 1 Boreham Wood FC?,enl-sut-bor-2026-10-09-exact-score-2-1,0.48,0.515,0.995,0.0,11.6803,2026-10-09T18:45:00Z
+2026-10-02T02:36:53.145566+02:00,4991418,Exact Score: Alianza FC 4 - 0 Águilas Doradas Rionegro?,col1-alf-gdr-2026-10-09-exact-score-4-0,0.48,0.515,0.995,0.0,14.1592,2026-10-10T00:30:00Z
+2026-10-02T02:36:53.145566+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-02T02:36:53.145566+02:00,5009439,Exact Score: Sunderland AFC 0 - 2 Brighton & Hove Albion FC?,epl-sun-bri-2026-10-10-exact-score-0-2,0.245,0.75,0.995,0.0,1354.4508,2026-10-10T14:00:00Z
+2026-10-02T02:36:53.145566+02:00,5009554,Exact Score: Charlton Athletic FC 5 - 3 Bristol City FC?,elc-cha-bri-2026-10-10-exact-score-5-3,0.475,0.52,0.995,9.9898,13.0696,2026-10-10T11:30:00Z
+2026-10-02T02:36:53.145566+02:00,5010353,Exact Score: Watford FC 1 - 0 Burnley FC?,elc-wat-bur-2026-10-10-exact-score-1-0,0.255,0.74,0.995,0.0,315.6535,2026-10-10T14:00:00Z
+2026-10-02T02:36:53.145566+02:00,5015324,PSV vs. SC Heerenveen: Both Teams to Score,ere-psv-her1-2026-10-09-btts,0.5,0.495,0.995,0.0,81.8489,2026-10-09T18:00:00Z
+2026-10-02T02:36:53.145566+02:00,5025354,Exact Score: AFC Fylde 4 - 4 Scunthorpe United FC?,enl-fyl-scu-2026-10-10-exact-score-4-4,0.48,0.515,0.995,0.0,15.2692,2026-10-10T14:00:00Z
+2026-10-02T02:36:53.145566+02:00,5040650,Exact Margin: Cowboys by 7-12,nfl-dal-hou-2026-10-04-exact-margin-long-7-12,0.5,0.495,0.995,0.0,2.3199,2026-10-04T17:00:00Z
+2026-10-02T02:36:53.145566+02:00,5057411,Exact Score: US Sassuolo Calcio 2 - 3 AC Milan?,sea-sas-mil-2026-10-11-exact-score-2-3,0.27,0.725,0.995,0.0,21.7593,2026-10-11T16:00:00Z
+2026-10-02T02:36:53.145566+02:00,5083900,Will Adam Fantilli record 50+ goals in the 2026-27 regular season?,will-adam-fantilli-record-50-goals-in-the-2026-27-regular-season,0.129,0.8705,0.9995,0.0,47.54833,2027-04-30T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,5084496,Gunnar Helm: Team First TD (Tennessee Titans),nfl-ten-bal-2026-10-04-team-first-td-78-gunnar-helm,0.48,0.515,0.995,0.0,7.0532,2026-10-04T17:00:00Z
+2026-10-02T02:36:53.145566+02:00,5091476,Greg Dulcich: Anytime Touchdown,nfl-mia-min-2026-10-04-anytime-td-greg-dulcich,0.495,0.5,0.995,0.0,2.3196,2026-10-04T20:05:00Z
+2026-10-02T02:36:53.145566+02:00,5119658,Pumas de la UNAM vs. CF Cruz Azul: Both Teams to Score in Second Half,mex-pum-caz-2026-10-11-btts-second-half,0.495,0.5,0.995,0.0,61.7565,2026-10-12T01:00:00Z
+2026-10-02T02:36:53.145566+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-pranav-venkatesh,0.49,0.5,0.99,0.0,40.0,2026-10-21T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,5134546,Exact Score: Sabah FK 2 - 5 SK Slavia Praha?,ucl-sf-slp-2026-10-13-exact-score-2-5,0.45,0.545,0.9950000000000001,0.0,64.146,2026-10-13T16:45:00Z
+2026-10-02T02:36:53.145566+02:00,5142017,CD Godoy Cruz vs. Club Atletico Los Andes: Both Teams to Score in Second Half,argpn-god-ala-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.6596,2026-10-04T21:00:00Z
+2026-10-02T02:36:53.145566+02:00,5146756,Exact Score: Wolverhampton Wanderers FC 5 - 0 Bolton Wanderers FC?,elc-wol-bol-2026-10-13-exact-score-5-0,0.48,0.515,0.995,0.0,12.6135,2026-10-13T18:45:00Z
+2026-10-02T02:36:53.145566+02:00,5154999,Eyüpspor vs. Göztepe SK: Both Teams to Score,tur-eyu-goz-2026-10-12-btts,0.5,0.495,0.995,0.0,82.4187,2026-10-12T17:00:00Z
+2026-10-02T02:36:53.145566+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,will-celta-vigo-record-46-or-more-points-in-the-2026-27-laliga-season,0.495,0.5,0.995,0.0,1.764,2027-06-14T03:59:00Z
+2026-10-02T02:36:53.145566+02:00,5162925,Game 3: Any Player Ultra Kill?,dota2-1win-nem-2026-10-02-game3-any-player-ultra-kill,0.495,0.5,0.995,0.0,334.51,2026-10-02T18:00:00Z
+2026-10-02T02:36:53.145566+02:00,5169385,Exact Score: Portsmouth FC 5 - 4 Sheffield United FC?,elc-por-she-2026-10-14-exact-score-5-4,0.495,0.5,0.995,0.0,7.1198,2026-10-14T18:45:00Z
+2026-10-02T02:36:53.145566+02:00,5175381,Will 25% to 34% of Cattle inventory be in D1-D4 drought this week?,ag-commodity-drought-cattle-2026-10-06-25-34,0.5,0.495,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-02T02:36:53.145566+02:00,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,ag-commodity-drought-soybeans-2026-10-06-0-14,0.495,0.5,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-02T02:36:53.145566+02:00,5176240,Las Vegas Lights vs. San Antonio FC: Both Teams to Score,uslc-las-san-2026-10-03-btts,0.56,0.435,0.9950000000000001,0.0,870.6743,2026-10-04T02:30:00Z
+2026-10-02T02:36:53.145566+02:00,5179860,Exact Score: Real Salt Lake 3 - 5 San Jose Earthquakes?,mls-rsl-sje-2026-10-14-exact-score-3-5,0.495,0.5,0.995,0.0,3.5316,2026-10-15T01:30:00Z
+2026-10-02T02:36:53.145566+02:00,5181024,"Will Gold (XAUUSD) hit (LOW) $4,150 Week of September 28 2026?",will-xauusd-dip-to-4150-by-september-28-2026-from-october-1,0.82,0.175,0.9949999999999999,609.7,515.9243,2026-10-02T21:00:00Z
+2026-10-02T02:36:53.145566+02:00,5181874,Will Hyperliquid dip to $68 in October?,will-hyperliquid-dip-to-68-in-october-2026,0.505,0.49,0.995,0.0,8.3754,2026-11-01T04:00:00Z
+2026-10-02T02:36:53.145566+02:00,5182221,San Diego FC vs. Houston Dynamo: Both Teams to Score in First Half,mls-sdg-hou-2026-10-14-btts-first-half,0.495,0.5,0.995,0.0,5.4598,2026-10-15T02:30:00Z
+2026-10-02T02:36:53.145566+02:00,5183190,D.C. United SC vs. New York Red Bulls: Both Teams to Score in First Half,mls-dcu-nyr-2026-10-14-btts-first-half,0.495,0.5,0.995,0.0,5.2798,2026-10-14T23:30:00Z
+2026-10-02T02:36:53.145566+02:00,5187739,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half,wsl2-nfo-bur-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.4596,2026-10-04T13:00:00Z
+2026-10-02T02:36:53.145566+02:00,5189300,Exact Score: PFK CSKA Sofia 3 - 2 AS Monaco FC?,col-csk-asm-2026-10-15-exact-score-3-2,0.48,0.515,0.995,0.0,12.7093,2026-10-15T16:45:00Z
+2026-10-02T02:36:53.145566+02:00,5189388,Exact Score: KF Egnatia Rrogozhinë 4 - 0 FC Midtjylland?,col-egn-mid-2026-10-15-exact-score-4-0,0.475,0.52,0.995,0.0,12.8518,2026-10-15T16:45:00Z
+2026-10-02T02:36:53.145566+02:00,5189438,Exact Score: FC Lugano 3 - 2 FK Crvena zvezda?,col-lug-crv-2026-10-15-exact-score-3-2,0.475,0.52,0.995,0.0,13.9998,2026-10-15T16:45:00Z
+2026-10-02T02:36:53.145566+02:00,5189544,Exact Score: Kuopion PS 5 - 3 Trabzonspor?,col-kps-tra-2026-10-15-exact-score-5-3,0.475,0.52,0.995,0.0,13.9993,2026-10-15T16:45:00Z
+2026-10-02T02:36:53.145566+02:00,5189719,Exact Score: K. Sint-Truidense VV 3 - 3 SK Iberia 1999?,col-kst-sab-2026-10-15-exact-score-3-3,0.49,0.505,0.995,0.0,7.1598,2026-10-15T19:00:00Z
+2026-10-02T02:36:53.145566+02:00,5189740,Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Second half draw?,col-bha-kau-2026-10-15-second-half-result-draw,0.495,0.5,0.995,0.0,12.2874,2026-10-15T19:00:00Z
+2026-10-02T02:36:53.145566+02:00,5189956,Exact Score: SC Freiburg 3 - 5 FK Jablonec?,col-scf-jab-2026-10-15-exact-score-3-5,0.49,0.505,0.995,0.0,5.1599,2026-10-15T19:00:00Z
+2026-10-02T02:36:53.145566+02:00,5191178,Exact Score: Al Ahli Saudi Club 1 - 3 Al Nassr Saudi Club?,spl-ahl-nsr-2026-10-15-exact-score-1-3,0.485,0.51,0.995,0.0,9.5188,2026-10-15T18:00:00Z
+2026-10-02T02:36:53.145566+02:00,5193172,Exact Score: New Mexico United 1 - 1 Phoenix Rising FC?,uslc-new-pho-2026-10-04-exact-score-1-1,0.475,0.52,0.995,0.0,12.6654,2026-10-04T22:00:00Z
+2026-10-02T02:36:53.145566+02:00,5193412,Game 2: Both Teams Slay a Dragon?,lol-pcific-fec-2026-10-02-game2-both-teams-slay-dragon,0.495,0.5,0.995,0.0,2.56,2026-10-02T19:00:00Z
