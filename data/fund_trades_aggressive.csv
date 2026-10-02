@@ -10,3 +10,10 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-09-30T00:46:17.127907+02:00,AUSZAHLUNG,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,2.4264,1.0,2.4264,6.4675,Markt als geschlossen/aufgelöst markiert
 2026-09-30T00:49:36.463813+02:00,KAUF,4753358,Will CSD Mixco win on 2026-10-03?,3.6506,0.8858,-3.2338,3.2338,"Spread 11.50%, Liquiditaet 525 USD"
 2026-09-30T00:49:36.463813+02:00,KAUF,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,3.6092,0.896,-3.2338,0.0,"Spread 12.50%, Liquiditaet 20 USD"
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,4593703,Will Chronicle have the highest ACS at VALORANT Champions 2026?,17.948,1.0,17.948,17.948,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,3503884,"Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",4.2903,1.0,4.2903,22.2383,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,4757297,Will United States win on 2026-10-03?,24.8648,1.0,24.8648,47.1031,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,24.8922,1.0,24.8922,71.9953,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,23.1416,1.0,23.1416,95.1369,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,4753358,Will CSD Mixco win on 2026-10-03?,3.6506,1.0,3.6506,98.7875,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,3.6092,1.0,3.6092,102.3967,Markt nicht mehr auffindbar -> als aufgelöst behandelt

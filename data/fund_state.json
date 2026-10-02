@@ -1,17 +1,5 @@
 {
-  "cash": 113.05530183489671,
-  "positions": [
-    {
-      "market_id": "5131225",
-      "frage": "Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?",
-      "slug": "titled-tuesday-2026-10-06-top5-pranav-venkatesh",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.99,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-21T03:59:00Z",
-      "eingestiegen": "2026-10-02T02:36:53.145566+02:00"
-    }
-  ],
+  "cash": 115.4817037271639,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

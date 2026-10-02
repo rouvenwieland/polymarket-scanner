@@ -42,3 +42,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-02T14:40:59.050255+02:00,KAUF,4755063,AFC Fylde to score first vs. Southend United FC?,55.5454,0.9807,-54.4734,48.9734,"Spread 2.50%, Liquiditaet 1398 USD"
 2026-10-02T17:05:44.636472+02:00,VERKAUF,5162920,Game 2: Any Player Ultra Kill?,8.9566,0.9756,8.7378,57.7112,Konvergenz erreicht (Kurs 1.000)
 2026-10-02T17:05:44.636472+02:00,VERKAUF,4755063,AFC Fylde to score first vs. Southend United FC?,55.5454,0.9964,55.3441,113.0553,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,1.0,2.4264,115.4817,Markt nicht mehr auffindbar -> als aufgelöst behandelt
