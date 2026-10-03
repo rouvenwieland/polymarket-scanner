@@ -1,5 +1,5 @@
 {
-  "cash": 54.378145512847254,
+  "cash": 9.220811590035723,
   "positions": [
     {
       "market_id": "5216967",
@@ -46,28 +46,6 @@
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
-      "market_id": "5158959",
-      "frage": "Exact Score: Club Atlético de Madrid 5 - 4 Manchester United FC?",
-      "slug": "ucl-atm-mnu-2026-10-13-exact-score-5-4",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 70.932,
-      "end_date": "2026-10-13T19:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5206737",
-      "frage": "Will Alexander Albon finish on the podium at the 2026 F1 Bahrain Grand Prix?",
-      "slug": "f1-bahrain-grand-prix-driver-podium-albon-2026-10-04",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 5.4199,
-      "end_date": "2026-10-11T07:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
       "market_id": "5110607",
       "frage": "San Diego State vs. Oregon State: Both Teams to Score Points - Q3",
       "slug": "cfb-sdst-oregst-2026-10-10-3q-btts-points",
@@ -76,17 +54,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 1.92,
       "end_date": "2026-10-10T22:00:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5159639",
-      "frage": "Galatasaray SK vs. FC Barcelona: Both Teams to Score in First Half",
-      "slug": "ucl-gal-fcb-2026-10-13-btts-first-half",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 25.8996,
-      "end_date": "2026-10-13T19:00:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
@@ -109,17 +76,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 1.864,
       "end_date": "2026-10-12T03:59:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "5213809",
-      "frage": "Exact Score: Dinamo 1948 0 - 2 FC Botoşani?",
-      "slug": "rou1-din-fcb-2026-10-16-exact-score-0-2",
-      "shares": 3.3102848701869525,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 19.8797,
-      "end_date": "2026-10-16T18:00:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
@@ -209,6 +165,215 @@
       "liquiditaet": 1.9817,
       "end_date": "2027-07-01T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
+    },
+    {
+      "market_id": "5059444",
+      "frage": "Exact Score: CA Temperley 1 - 5 Gimnasia y Esgrima de Jujuy?",
+      "slug": "argpn-cat-ge-2026-10-03-exact-score-1-5",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 244.3693,
+      "end_date": "2026-10-03T18:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5174214",
+      "frage": "Will the lowest temperature in San Francisco be 51°F or below on October 3?",
+      "slug": "lowest-temperature-in-san-francisco-on-october-3-2026-51forbelow",
+      "shares": 3.087497602556735,
+      "einstandskurs": 0.9955,
+      "letzter_kurs": 0.9955,
+      "liquiditaet": 13.25,
+      "end_date": "2026-10-03T12:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5196477",
+      "frage": "Union San Felipe vs. Deportes Iquique: Both Teams to Score in Second Half",
+      "slug": "chl2-usf-iqu-2026-10-04-btts-second-half",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 72.4998,
+      "end_date": "2026-10-04T18:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "4793814",
+      "frage": "Exact Score: NJ/NY Gotham FC 0 - 3 Angel City FC?",
+      "slug": "nwsl-got-ang-2026-10-04-exact-score-0-3",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 60.38,
+      "end_date": "2026-10-04T17:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5163244",
+      "frage": "Will Jacob Cowing score the first touchdown?",
+      "slug": "nfl-den-sf-2026-10-04-first-td-scorer-jacob-cowing",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 26.4799,
+      "end_date": "2026-10-04T20:25:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5167304",
+      "frage": "Will Tommy Tremble score the first touchdown?",
+      "slug": "nfl-det-car-2026-10-05-first-td-scorer-tommy-tremble",
+      "shares": 3.089049108889678,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 35.1594,
+      "end_date": "2026-10-05T00:20:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5083730",
+      "frage": "Woody Marks: Team First TD (Houston Texans)",
+      "slug": "nfl-dal-hou-2026-10-04-team-first-td-60-woody-marks",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 4.1598,
+      "end_date": "2026-10-04T17:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5091812",
+      "frage": "Bo Nix: Team First TD (Denver Broncos)",
+      "slug": "nfl-den-sf-2026-10-04-team-first-td-57-bo-nix",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 6.1597,
+      "end_date": "2026-10-04T20:25:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "4999995",
+      "frage": "Ventforet Kōfu leading at halftime?",
+      "slug": "ja2-ven-tct-2026-10-10-halftime-result-home",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 50.4197,
+      "end_date": "2026-10-10T07:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5070168",
+      "frage": "Will Antigua GFC vs. CSD Cobán Imperial end in a draw?",
+      "slug": "gtm-ant-cob-2026-10-11-draw",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 235.4222,
+      "end_date": "2026-10-12T01:10:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5044079",
+      "frage": "FK Rubin Kazan vs. FK Dinamo Moskva: Draw at halftime?",
+      "slug": "rus-rub-din-2026-10-11-halftime-result-draw",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 53.5597,
+      "end_date": "2026-10-11T16:30:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5013148",
+      "frage": "FC Lorient vs. Paris FC: Both Teams to Score in Second Half",
+      "slug": "fl1-lor-pfc-2026-10-10-btts-second-half",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 19.8586,
+      "end_date": "2026-10-10T18:45:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5082004",
+      "frage": "Los Angeles Galaxy to score first vs. St. Louis City SC?",
+      "slug": "mls-stl-lag-2026-10-11-first-to-score-away",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 27.5592,
+      "end_date": "2026-10-11T23:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5158686",
+      "frage": "RB Leipzig to score first vs. PSV?",
+      "slug": "ucl-rbl-psv-2026-10-13-first-to-score-home",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 17.6286,
+      "end_date": "2026-10-13T19:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5215542",
+      "frage": "Exact Score: AC Horsens 3 - 2 Randers FC?",
+      "slug": "den-hor-ran-2026-10-16-exact-score-3-2",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 20.1395,
+      "end_date": "2026-10-16T17:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "5131204",
+      "frage": "Will Frederik Svane finish in the Top 5 of Titled Tuesday on October 6?",
+      "slug": "titled-tuesday-2026-10-06-top5-frederik-svane",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 52.0,
+      "end_date": "2026-10-21T03:59:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "4163221",
+      "frage": "Will Becerra win the 2026 California gubernatorial election by 15%-20%?",
+      "slug": "will-becerra-win-the-2026-california-gubernatorial-election-by-15-20",
+      "shares": 3.0890491088896788,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 7258.8766,
+      "end_date": "2026-11-03T12:00:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "4171000",
+      "frage": "Will it snow in Minneapolis, MN by October 31?",
+      "slug": "first-snow-2026-minneapolis-mn-by-october-31",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 131.2944,
+      "end_date": "2026-11-04T04:59:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
+    },
+    {
+      "market_id": "3847924",
+      "frage": "Will Sandnes Ulf be promoted to Norway Eliteserien?",
+      "slug": "will-sandnes-ulf-be-promoted-to-norway-eliteserien-2026",
+      "shares": 3.0890491088896783,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1.2938,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-03T03:12:58.049151+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"

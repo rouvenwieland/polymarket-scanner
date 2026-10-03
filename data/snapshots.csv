@@ -2228,3 +2228,42 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-03T00:12:51.254307+02:00,5218987,"Will Micron Technology, Inc. (MU) hit (HIGH) $1,230 Week of October 5 2026?",will-mu-reach-1230-by-october-5-2026,0.5,0.495,0.995,0.0,1.36,2026-10-09T20:00:00Z
 2026-10-03T00:12:51.254307+02:00,5218994,"Will Micron Technology, Inc. (MU) hit (LOW) $1,020 Week of October 5 2026?",will-mu-dip-to-1020-by-october-5-2026,0.495,0.5,0.995,0.0,1.46,2026-10-09T20:00:00Z
 2026-10-03T00:12:51.254307+02:00,5219026,Will SK hynix (SKHY) hit (LOW) $177 Week of October 5 2026?,will-skhy-dip-to-177-by-october-5-2026,0.5,0.495,0.995,0.0,0.2,2026-10-09T20:00:00Z
+2026-10-03T03:12:58.049151+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-03T03:12:58.049151+02:00,3488436,Will the Democratic Party candidate win the 2026 IL-03 House election by 50%-55%?,will-the-democratic-party-candidate-win-the-2026-il-03-house-election-by-50-55,0.181,0.8185,0.9995,831.839652,975.10156,2026-11-04T04:59:00Z
+2026-10-03T03:12:58.049151+02:00,3530559,Will FC Nantes win the 2026-27 Ligue 2?,2027-soccer-ligue-2-winner-fc-nantes,0.494,0.5055,0.9994999999999999,89.0,2.68085,2027-08-01T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,3697682,"Will total votes cast in the 2026 midterm election for Senator from Oregon be 2,200,000 or more?",will-total-votes-cast-in-the-2026-midterm-election-for-senator-from-oregon-be-2200000-or-more,0.297,0.7025,0.9995,2910.0933729999997,416.76576,2026-11-04T04:59:00Z
+2026-10-03T03:12:58.049151+02:00,3847782,Will VfL Bochum be promoted to Bundesliga?,will-vfl-bochum-be-promoted-to-bundesliga-2026-27,0.495,0.5,0.995,0.0,1.9817,2027-07-01T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,3847924,Will Sandnes Ulf be promoted to Norway Eliteserien?,will-sandnes-ulf-be-promoted-to-norway-eliteserien-2026,0.485,0.51,0.995,55.0,1.2938,2027-01-01T04:59:00Z
+2026-10-03T03:12:58.049151+02:00,4163221,Will Becerra win the 2026 California gubernatorial election by 15%-20%?,will-becerra-win-the-2026-california-gubernatorial-election-by-15-20,0.175,0.82,0.9949999999999999,2105.27054,7258.8766,2026-11-03T12:00:00Z
+2026-10-03T03:12:58.049151+02:00,4171000,"Will it snow in Minneapolis, MN by October 31?",first-snow-2026-minneapolis-mn-by-october-31,0.715,0.28,0.995,417.9,131.2944,2026-11-04T04:59:00Z
+2026-10-03T03:12:58.049151+02:00,4793814,Exact Score: NJ/NY Gotham FC 0 - 3 Angel City FC?,nwsl-got-ang-2026-10-04-exact-score-0-3,0.245,0.75,0.995,0.0,60.38,2026-10-04T17:00:00Z
+2026-10-03T03:12:58.049151+02:00,4999995,Ventforet Kōfu leading at halftime?,ja2-ven-tct-2026-10-10-halftime-result-home,0.5,0.495,0.995,0.0,50.4197,2026-10-10T07:00:00Z
+2026-10-03T03:12:58.049151+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-03T03:12:58.049151+02:00,5013148,FC Lorient vs. Paris FC: Both Teams to Score in Second Half,fl1-lor-pfc-2026-10-10-btts-second-half,0.49,0.505,0.995,0.0,19.8586,2026-10-10T18:45:00Z
+2026-10-03T03:12:58.049151+02:00,5044079,FK Rubin Kazan vs. FK Dinamo Moskva: Draw at halftime?,rus-rub-din-2026-10-11-halftime-result-draw,0.485,0.51,0.995,0.0,53.5597,2026-10-11T16:30:00Z
+2026-10-03T03:12:58.049151+02:00,5059444,Exact Score: CA Temperley 1 - 5 Gimnasia y Esgrima de Jujuy?,argpn-cat-ge-2026-10-03-exact-score-1-5,0.11,0.885,0.995,0.0,244.3693,2026-10-03T18:00:00Z
+2026-10-03T03:12:58.049151+02:00,5070168,Will Antigua GFC vs. CSD Cobán Imperial end in a draw?,gtm-ant-cob-2026-10-11-draw,0.5,0.495,0.995,0.0,235.4222,2026-10-12T01:10:00Z
+2026-10-03T03:12:58.049151+02:00,5082004,Los Angeles Galaxy to score first vs. St. Louis City SC?,mls-stl-lag-2026-10-11-first-to-score-away,0.49,0.505,0.995,0.0,27.5592,2026-10-11T23:00:00Z
+2026-10-03T03:12:58.049151+02:00,5083730,Woody Marks: Team First TD (Houston Texans),nfl-dal-hou-2026-10-04-team-first-td-60-woody-marks,0.49,0.505,0.995,0.0,4.1598,2026-10-04T17:00:00Z
+2026-10-03T03:12:58.049151+02:00,5091812,Bo Nix: Team First TD (Denver Broncos),nfl-den-sf-2026-10-04-team-first-td-57-bo-nix,0.48,0.515,0.995,0.0,6.1597,2026-10-04T20:25:00Z
+2026-10-03T03:12:58.049151+02:00,5110607,San Diego State vs. Oregon State: Both Teams to Score Points - Q3,cfb-sdst-oregst-2026-10-10-3q-btts-points,0.5,0.495,0.995,0.0,1.92,2026-10-10T22:00:00Z
+2026-10-03T03:12:58.049151+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5131204,Will Frederik Svane finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-frederik-svane,0.49,0.505,0.995,0.0,52.0,2026-10-21T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-pranav-venkatesh,0.49,0.5,0.99,0.0,40.0,2026-10-21T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5158686,RB Leipzig to score first vs. PSV?,ucl-rbl-psv-2026-10-13-first-to-score-home,0.495,0.5,0.995,0.0,17.6286,2026-10-13T19:00:00Z
+2026-10-03T03:12:58.049151+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5162429,Will Rayan Cherki score 8 or more goals during the 2026-27 English Premier League season?,will-rayan-cherki-score-8-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.7639,2027-06-14T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,will-celta-vigo-record-46-or-more-points-in-the-2026-27-laliga-season,0.495,0.5,0.995,0.0,1.764,2027-06-14T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5163244,Will Jacob Cowing score the first touchdown?,nfl-den-sf-2026-10-04-first-td-scorer-jacob-cowing,0.475,0.52,0.995,0.0,26.4799,2026-10-04T20:25:00Z
+2026-10-03T03:12:58.049151+02:00,5167304,Will Tommy Tremble score the first touchdown?,nfl-det-car-2026-10-05-first-td-scorer-tommy-tremble,0.455,0.54,0.9950000000000001,0.0,35.1594,2026-10-05T00:20:00Z
+2026-10-03T03:12:58.049151+02:00,5174214,Will the lowest temperature in San Francisco be 51°F or below on October 3?,lowest-temperature-in-san-francisco-on-october-3-2026-51forbelow,0.295,0.7005,0.9955,10.0,13.25,2026-10-03T12:00:00Z
+2026-10-03T03:12:58.049151+02:00,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,ag-commodity-drought-soybeans-2026-10-06-0-14,0.495,0.5,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-03T03:12:58.049151+02:00,5187739,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half,wsl2-nfo-bur-2026-10-04-btts-second-half,0.495,0.5,0.995,0.0,62.4596,2026-10-04T13:00:00Z
+2026-10-03T03:12:58.049151+02:00,5196477,Union San Felipe vs. Deportes Iquique: Both Teams to Score in Second Half,chl2-usf-iqu-2026-10-04-btts-second-half,0.5,0.495,0.995,0.0,72.4998,2026-10-04T18:00:00Z
+2026-10-03T03:12:58.049151+02:00,5213731,Exact Score: CS Huancayo 4 - 1 Cusco FC?,per1-csh-cuf-2026-10-16-exact-score-4-1,0.48,0.515,0.995,0.0,14.3193,2026-10-16T18:00:00Z
+2026-10-03T03:12:58.049151+02:00,5215336,Will Trent Grisham hit a home run in the 2026 ALDS?,will-trent-grisham-hit-a-home-run-in-the-2026-alds,0.5,0.495,0.995,0.0,1.864,2026-10-12T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5215341,Will Austin Wells hit a home run in the 2026 ALDS?,will-austin-wells-hit-a-home-run-in-the-2026-alds,0.5,0.495,0.995,0.0,1.964,2026-10-12T03:59:00Z
+2026-10-03T03:12:58.049151+02:00,5215542,Exact Score: AC Horsens 3 - 2 Randers FC?,den-hor-ran-2026-10-16-exact-score-3-2,0.48,0.515,0.995,0.0,20.1395,2026-10-16T17:00:00Z
+2026-10-03T03:12:58.049151+02:00,5216801,Exact Score: Sydney FC 1 - 5 Western Sydney Wanderers FC?,aus-syd-wsw-2026-10-16-exact-score-1-5,0.495,0.5,0.995,0.0,4.6831,2026-10-16T09:00:00Z
+2026-10-03T03:12:58.049151+02:00,5216967,PSIS Semarang vs. FC Adhyaksa Bekasi: Both Teams to Score in Second Half,idn2-sem-adb-2026-10-03-btts-second-half,0.495,0.5,0.995,0.0,62.6596,2026-10-03T12:00:00Z
+2026-10-03T03:12:58.049151+02:00,5217525,Exact Score: Henan FC 0 - 4 Tianjin Jinmen Hu FC?,chi-hen-jin-2026-10-16-exact-score-0-4,0.495,0.5,0.995,0.0,5.1198,2026-10-16T11:35:00Z
