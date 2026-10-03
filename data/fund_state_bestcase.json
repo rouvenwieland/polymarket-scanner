@@ -1,5 +1,5 @@
 {
-  "cash": 2.322353905315222,
+  "cash": 21.45126496940381,
   "positions": [
     {
       "market_id": "5131225",
@@ -156,28 +156,6 @@
       "eingestiegen": "2026-10-03T18:16:29.841941+02:00"
     },
     {
-      "market_id": "5027506",
-      "frage": "Exact Score: HNK Hajduk Split 2 - 3 GNK Dinamo Zagreb?",
-      "slug": "hr1-haj-din-2026-10-10-exact-score-2-3",
-      "shares": 2.2218245297904287,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 12.6196,
-      "end_date": "2026-10-10T13:00:00Z",
-      "eingestiegen": "2026-10-03T18:16:29.841941+02:00"
-    },
-    {
-      "market_id": "4758706",
-      "frage": "Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half",
-      "slug": "nwsl-rac-roy-2026-10-03-btts-second-half",
-      "shares": 2.902942381643946,
-      "einstandskurs": 0.8,
-      "letzter_kurs": 0.8,
-      "liquiditaet": 13.7199,
-      "end_date": "2026-10-03T20:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
       "market_id": "5225801",
       "frage": "Exact Score: Deltras FC 5 - 5 Persiba Balikpapan?",
       "slug": "idn2-del-bal-2026-10-04-exact-score-5-5",
@@ -186,17 +164,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 3.3316,
       "end_date": "2026-10-04T08:30:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
-      "market_id": "5136534",
-      "frage": "CA Defensores de Belgrano leading at halftime?",
-      "slug": "argpn-cfe-ddb-2026-10-04-halftime-result-away",
-      "shares": 2.334024025442369,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 413.5564,
-      "end_date": "2026-10-04T20:00:00Z",
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {
@@ -211,17 +178,6 @@
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {
-      "market_id": "4836833",
-      "frage": "Cyprus vs. Latvia: Both Teams to Score in First Half",
-      "slug": "unl-cyp-lat-2026-10-05-btts-first-half",
-      "shares": 2.334024025442369,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2694.3594,
-      "end_date": "2026-10-05T16:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
       "market_id": "5226218",
       "frage": "Romania vs. Norway: Both Teams to Score",
       "slug": "wwcquefa-rom-nor-2026-10-09-btts",
@@ -230,28 +186,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 82.0178,
       "end_date": "2026-10-09T17:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
-      "market_id": "5206686",
-      "frage": "Will there be a safety car during the 2026 F1 Bahrain Grand Prix?",
-      "slug": "f1-bahrain-grand-prix-safety-car-2026-10-04",
-      "shares": 2.3340240254423694,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 1422.4988,
-      "end_date": "2026-10-11T07:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
-      "market_id": "4970596",
-      "frage": "Exact Score: West Ham United FC 4 - 2 Queens Park Rangers FC?",
-      "slug": "elc-whu-qpr-2026-10-09-exact-score-4-2",
-      "shares": 2.334024025442369,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 14.5893,
-      "end_date": "2026-10-09T19:00:00Z",
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {
@@ -343,17 +277,6 @@
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {
-      "market_id": "5010541",
-      "frage": "Exact Score: Preston North End FC 0 - 3 Millwall FC?",
-      "slug": "elc-pne-mil-2026-10-10-exact-score-0-3",
-      "shares": 2.334024025442369,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 12.2897,
-      "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
       "market_id": "5241836",
       "frage": "FC Zurich vs. FC Thun: Both Teams to Score in First Half",
       "slug": "sui-fcz-thu-2026-10-10-btts-first-half",
@@ -395,17 +318,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 11.8401,
       "end_date": "2026-10-10T16:15:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
-      "market_id": "5027276",
-      "frage": "Exact Score: AS Trenčín 1 - 0 MFK Dukla Banská Bystrica?",
-      "slug": "svk1-tre-dbb-2026-10-10-exact-score-1-0",
-      "shares": 2.334024025442369,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.1598,
-      "end_date": "2026-10-10T13:30:00Z",
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {

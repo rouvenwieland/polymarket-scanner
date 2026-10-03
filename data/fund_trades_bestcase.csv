@@ -1682,3 +1682,11 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T21:19:54.823353+02:00,KAUF,5233984,SS Lazio vs. AC Monza: Neither team to score first in the 1st half?,2.334,0.995,-2.3224,6.9671,"Spread 0.50%, Liquiditaet 11 USD"
 2026-10-03T21:19:54.823353+02:00,KAUF,5044054,Exact Score: PFK CSKA Moskva 5 - 4 FK Rodina Moskva?,2.334,0.995,-2.3224,4.6447,"Spread 0.50%, Liquiditaet 10 USD"
 2026-10-03T21:19:54.823353+02:00,KAUF,5049803,Exact Score: FC Midtjylland 3 - 2 FC København?,2.334,0.995,-2.3224,2.3224,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T21:59:24.160288+02:00,VERKAUF,5027506,Exact Score: HNK Hajduk Split 2 - 3 GNK Dinamo Zagreb?,2.2218,1.0,2.2218,4.5442,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,2.9029,1.0,2.9029,7.4471,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,5136534,CA Defensores de Belgrano leading at halftime?,2.334,1.0,2.334,9.7811,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,4836833,Cyprus vs. Latvia: Both Teams to Score in First Half,2.334,1.0,2.334,12.1152,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,5206686,Will there be a safety car during the 2026 F1 Bahrain Grand Prix?,2.334,1.0,2.334,14.4492,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,4970596,Exact Score: West Ham United FC 4 - 2 Queens Park Rangers FC?,2.334,1.0,2.334,16.7832,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,5010541,Exact Score: Preston North End FC 0 - 3 Millwall FC?,2.334,1.0,2.334,19.1172,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:59:24.160288+02:00,VERKAUF,5027276,Exact Score: AS Trenčín 1 - 0 MFK Dukla Banská Bystrica?,2.334,1.0,2.334,21.4513,Konvergenz erreicht (Kurs 1.000)
