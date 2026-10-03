@@ -22,3 +22,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T14:02:36.092687+02:00,KAUF,4765516,CA Tigre to win the second half?,25.3751,0.9611,-24.3872,24.3872,"Spread 5.00%, Liquiditaet 314 USD"
 2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,26.2925,0.9275,-24.3872,0.0,"Spread 8.00%, Liquiditaet 447 USD"
 2026-10-03T19:19:10.855820+02:00,AUSZAHLUNG,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,69.1478,1.0,69.1478,69.1478,Markt als geschlossen/aufgelöst markiert
+2026-10-03T21:19:54.823353+02:00,KAUF,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,22.7749,0.999,-22.7521,46.3958,"Spread 20.00%, Liquiditaet 14 USD"

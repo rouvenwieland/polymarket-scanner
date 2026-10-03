@@ -1637,3 +1637,48 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T19:19:10.855820+02:00,VERKAUF,5237545,Exact Score: WSG Tirol 2 - 0 SV Ried?,2.2218,1.0,2.2218,51.3097,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T19:19:10.855820+02:00,VERKAUF,5236403,Exact Score: FK IMT Novi Beograd 2 - 5 FK Radnik Surdulica?,2.2218,1.0,2.2218,53.5315,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T19:19:10.855820+02:00,VERKAUF,5237522,Exact Score: Grazer AK 1902 3 - 5 FC Salzburg?,2.2218,1.0,2.2218,55.7533,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,4776779,Blaublitz Akita to win the second half?,3.2996,1.0,3.2996,59.0529,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,AUSZAHLUNG,5218300,Game 3: Ends in Daytime?,2.233,1.0,2.233,61.286,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5227301,Exact Score: Semen Padang FC 0 - 1 PSPS Pekanbaru?,2.2218,1.0,2.2218,63.5078,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5224804,Exact Score: Lithuania 3 - 1 Sweden?,2.2218,1.0,2.2218,65.7296,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5224829,Exact Score: Belarus 0 - 1 Italy?,2.2218,1.0,2.2218,67.9514,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5225147,Exact Score: Belgium 3 - 3 Poland?,2.2218,1.0,2.2218,70.1733,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5231393,Exact Score: Tobol Kostanay 2 - 0 FC Astana?,2.2218,1.0,2.2218,72.3951,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5238465,Exact Score: IK Oddevold 3 - 2 Nordic United FC?,2.2218,1.0,2.2218,74.6169,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5231423,Exact Score: Tobol Kostanay 5 - 5 FC Astana?,2.2218,1.0,2.2218,76.8387,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5237551,Exact Score: WSG Tirol 1 - 3 SV Ried?,2.2218,1.0,2.2218,79.0606,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,VERKAUF,5236338,Exact Score: FK Cukaricki Belgrade 1 - 2 FK Macva Sabac?,2.2218,1.0,2.2218,81.2824,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T21:19:54.823353+02:00,KAUF,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,2.9029,0.8,-2.3224,78.96,"Spread 20.00%, Liquiditaet 14 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5225801,Exact Score: Deltras FC 5 - 5 Persiba Balikpapan?,2.334,0.995,-2.3224,76.6377,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5136534,CA Defensores de Belgrano leading at halftime?,2.334,0.995,-2.3224,74.3153,"Spread 0.50%, Liquiditaet 414 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5167292,Will AJ Dillon score the first touchdown?,2.334,0.995,-2.3224,71.993,"Spread 0.50%, Liquiditaet 56 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,4836833,Cyprus vs. Latvia: Both Teams to Score in First Half,2.334,0.995,-2.3224,69.6706,"Spread 0.50%, Liquiditaet 2694 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5226218,Romania vs. Norway: Both Teams to Score,2.334,0.995,-2.3224,67.3483,"Spread 0.50%, Liquiditaet 82 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5206686,Will there be a safety car during the 2026 F1 Bahrain Grand Prix?,2.334,0.995,-2.3224,65.0259,"Spread 0.50%, Liquiditaet 1422 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,4970596,Exact Score: West Ham United FC 4 - 2 Queens Park Rangers FC?,2.334,0.995,-2.3224,62.7036,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5241237,Exact Score: Valur Reykjavik 5 - 4 FH Hafnarfjordur?,2.334,0.995,-2.3224,60.3812,"Spread 0.50%, Liquiditaet 23 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,4955974,Exact Score: Sepsi OSK 2 - 2 Dinamo 1948?,2.334,0.995,-2.3224,58.0588,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5240872,Exact Score: FC Zurich 4 - 0 FC Thun?,2.334,0.995,-2.3224,55.7365,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5240912,Exact Score: Servette Geneva 2 - 1 FC Sion?,2.334,0.995,-2.3224,53.4141,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5240909,Exact Score: Servette Geneva 2 - 0 FC Sion?,2.334,0.995,-2.3224,51.0918,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5000063,Exact Score: Júbilo Iwata 4 - 1 Hokkaidō Consadole Sapporo?,2.334,0.995,-2.3224,48.7694,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5241600,Exact Score: Asteras Tripolis 3 - 3 Atromitos Athinon?,2.334,0.995,-2.3224,46.4471,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5244015,Exact Score: SV Zulte Waregem 1 - 3 KAA Gent?,2.334,0.995,-2.3224,44.1247,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5010541,Exact Score: Preston North End FC 0 - 3 Millwall FC?,2.334,0.995,-2.3224,41.8024,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5241836,FC Zurich vs. FC Thun: Both Teams to Score in First Half,2.334,0.995,-2.3224,39.48,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5241165,Exact Score: Stjarnan Gardabae 1 - 3 KA Akureyri?,2.334,0.995,-2.3224,37.1577,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5240925,Exact Score: Servette Geneva 1 - 5 FC Sion?,2.334,0.995,-2.3224,34.8353,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5241414,Exact Score: Hapoel Ironi Kiryat Shmona FC 1 - 0 Hapoel Tel Aviv FC?,2.334,0.995,-2.3224,32.513,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5027276,Exact Score: AS Trenčín 1 - 0 MFK Dukla Banská Bystrica?,2.334,0.995,-2.3224,30.1906,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,4981688,Exact Score: Go Ahead Eagles 5 - 2 Sparta Rotterdam?,2.334,0.995,-2.3224,27.8682,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5243976,Exact Score: KRC Genk 3 - 2 KV Kortrijk?,2.334,0.995,-2.3224,25.5459,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5018397,Exact Score: Cambridge United FC 2 - 2 Blackpool FC?,2.334,0.995,-2.3224,23.2235,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5239665,Exact Score: Ironi Tiberias 2 - 1 Hapoel Be`er Sheva FC?,2.334,0.995,-2.3224,20.9012,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5047133,Exact Score: CD Universidad Católica 1 - 1 Audax CS Italiano?,2.334,0.995,-2.3224,18.5788,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5046996,Exact Score: Club Universitario de Deportes 0 - 2 FBC Melgar?,2.334,0.995,-2.3224,16.2565,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5057475,Exact Score: Cagliari Calcio 2 - 1 Juventus FC?,2.334,0.995,-2.3224,13.9341,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5046945,Exact Score: CD Huachipato 3 - 0 O'Higgins FC?,2.334,0.995,-2.3224,11.6118,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5234032,RC Strasbourg Alsace to score first in the 2nd half vs. OGC Nice?,2.334,0.995,-2.3224,9.2894,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5233984,SS Lazio vs. AC Monza: Neither team to score first in the 1st half?,2.334,0.995,-2.3224,6.9671,"Spread 0.50%, Liquiditaet 11 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5044054,Exact Score: PFK CSKA Moskva 5 - 4 FK Rodina Moskva?,2.334,0.995,-2.3224,4.6447,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T21:19:54.823353+02:00,KAUF,5049803,Exact Score: FC Midtjylland 3 - 2 FC København?,2.334,0.995,-2.3224,2.3224,"Spread 0.50%, Liquiditaet 8 USD"

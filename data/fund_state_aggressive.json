@@ -1,5 +1,5 @@
 {
-  "cash": 69.14781834192557,
+  "cash": 46.395765174425584,
   "positions": [
     {
       "market_id": "5131225",
@@ -33,6 +33,17 @@
       "liquiditaet": 446.7328,
       "end_date": "2026-10-09T16:30:00Z",
       "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
+    },
+    {
+      "market_id": "4758706",
+      "frage": "Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half",
+      "slug": "nwsl-rac-roy-2026-10-03-btts-second-half",
+      "shares": 22.774850793143926,
+      "einstandskurs": 0.998999,
+      "letzter_kurs": 0.998999,
+      "liquiditaet": 13.7199,
+      "end_date": "2026-10-03T20:00:00Z",
+      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
