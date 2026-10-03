@@ -1435,3 +1435,15 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T03:12:58.049151+02:00,KAUF,4163221,Will Becerra win the 2026 California gubernatorial election by 15%-20%?,3.089,0.995,-3.0736,15.368,"Spread 0.50%, Liquiditaet 7259 USD"
 2026-10-03T03:12:58.049151+02:00,KAUF,4171000,"Will it snow in Minneapolis, MN by October 31?",3.089,0.995,-3.0736,12.2944,"Spread 0.50%, Liquiditaet 131 USD"
 2026-10-03T03:12:58.049151+02:00,KAUF,3847924,Will Sandnes Ulf be promoted to Norway Eliteserien?,3.089,0.995,-3.0736,9.2208,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5059444,Exact Score: CA Temperley 1 - 5 Gimnasia y Esgrima de Jujuy?,3.089,1.0,3.089,12.3099,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5174214,Will the lowest temperature in San Francisco be 51°F or below on October 3?,3.0875,1.0,3.0875,15.3974,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,4793814,Exact Score: NJ/NY Gotham FC 0 - 3 Angel City FC?,3.089,1.0,3.089,18.4864,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5083730,Woody Marks: Team First TD (Houston Texans),3.089,1.0,3.089,21.5755,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5091812,Bo Nix: Team First TD (Denver Broncos),3.089,1.0,3.089,24.6645,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5013148,FC Lorient vs. Paris FC: Both Teams to Score in Second Half,3.089,1.0,3.089,27.7536,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5082004,Los Angeles Galaxy to score first vs. St. Louis City SC?,3.089,1.0,3.089,30.8426,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5158686,RB Leipzig to score first vs. PSV?,3.089,1.0,3.089,33.9317,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5215542,Exact Score: AC Horsens 3 - 2 Randers FC?,3.089,1.0,3.089,37.0207,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,5131204,Will Frederik Svane finish in the Top 5 of Titled Tuesday on October 6?,3.089,1.0,3.089,40.1098,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,4163221,Will Becerra win the 2026 California gubernatorial election by 15%-20%?,3.089,1.0,3.089,43.1988,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T04:09:20.256213+02:00,VERKAUF,4171000,"Will it snow in Minneapolis, MN by October 31?",3.089,1.0,3.089,46.2878,Konvergenz erreicht (Kurs 1.000)
