@@ -1505,3 +1505,45 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T10:02:24.864902+02:00,VERKAUF,3849154,Will Corinthians finish 3rd in the 2026 Brazil Série A?,2.7567,1.0,2.7567,52.3219,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T10:02:24.864902+02:00,VERKAUF,3530239,Will Defensor Sporting win the 2026 Uruguayan Primera División?,2.7567,1.0,2.7567,55.0786,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T10:02:24.864902+02:00,VERKAUF,5079998,Will David Pastrnak record 100+ points?,2.7567,1.0,2.7567,57.8353,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,3.3103,1.0,3.3103,61.1456,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,4756365,Kidderminster Harriers FC vs. Sutton United FC: Both Teams to Score in Second Half,2.7567,1.0,2.7567,63.9023,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,5195225,Will Austin Hooper score the first touchdown?,2.7567,1.0,2.7567,66.6589,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,5020595,Stockport County FC vs. Barnsley FC: Both Teams to Score in Second Half,2.7567,1.0,2.7567,69.4156,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,5225143,Exact Score: Belgium 4 - 1 Poland?,2.7567,1.0,2.7567,72.1723,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,VERKAUF,5212907,AFC Bournemouth vs. SK Puntigamer Sturm Graz: Both Teams to Score in First Half,2.7567,1.0,2.7567,74.929,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,KAUF,4765516,CA Tigre to win the second half?,2.1909,0.95,-2.0814,72.8476,"Spread 5.00%, Liquiditaet 314 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4768188,Exact Score: Cuiabá EC 0 - 3 AA Ponte Preta?,2.0918,0.995,-2.0814,70.7663,"Spread 0.50%, Liquiditaet 1358 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4756951,Exact Score: Pollok FC 1 - 0 Albion Rovers FC?,2.0918,0.995,-2.0814,68.6849,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,2.2623,0.92,-2.0814,66.6036,"Spread 8.00%, Liquiditaet 447 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4885728,Exact Score: Any Other Score?,2.0918,0.995,-2.0814,64.5222,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4918967,Michigan vs. Minnesota: Both Teams to Score a Touchdown - 2H,2.0918,0.995,-2.0814,62.4408,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4917095,Kentucky vs. South Carolina: Both Teams to Score Points - Q1,2.0918,0.995,-2.0814,60.3595,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4916826,UTSA vs. Rice: Both Teams to Score Points - Q1,2.0918,0.995,-2.0814,58.2781,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4799626,CA Talleres vs. CA Belgrano: Draw at halftime?,2.0918,0.995,-2.0814,56.1968,"Spread 0.50%, Liquiditaet 2212 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5227334,Exact Score: Semen Padang FC 5 - 4 PSPS Pekanbaru?,2.0918,0.995,-2.0814,54.1154,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5182063,Exact Score: Sheffield United LFC 1 - 3 Ipswich Town Lfc?,2.0918,0.995,-2.0814,52.034,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5158012,Will Mack Hollins score the first touchdown?,2.0918,0.995,-2.0814,49.9527,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5221174,Jonquel Jones: Assists O/U 2.5,2.0918,0.995,-2.0814,47.8713,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5083723,KaVontae Turpin: Team First TD (Dallas Cowboys),2.0918,0.995,-2.0814,45.7899,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4961403,Exact Score: Shenzhen Xinpengcheng FC 4 - 3 Henan FC?,2.0918,0.995,-2.0814,43.7086,"Spread 0.50%, Liquiditaet 17 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4974405,Exact Score: Sporting FC 2 - 1 CS Cartaginés?,2.0918,0.995,-2.0814,41.6272,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5016528,Deportivo Alavés vs. Club Atlético de Madrid: Both Teams to Score in Second Half,2.0918,0.995,-2.0814,39.5459,"Spread 0.50%, Liquiditaet 23 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4974400,Exact Score: Sporting FC 0 - 2 CS Cartaginés?,2.0918,0.995,-2.0814,37.4645,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4975935,Exact Score: Any Other Score?,2.0918,0.995,-2.0814,35.3831,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5065919,Exact Score: Real Racing Club 4 - 3 Valencia CF?,2.0918,0.995,-2.0814,33.3018,"Spread 0.50%, Liquiditaet 42 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5009408,Exact Score: VfL Osnabrück 4 - 3 SG Dynamo Dresden?,2.0918,0.995,-2.0814,31.2204,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5017778,Exact Score: Empoli FC 2 - 0 Palermo FC?,2.0918,0.995,-2.0814,29.1391,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5027400,Exact Score: MFK Zemplín Michalovce 5 - 4 FC DAC 1904 Dunajská Streda?,2.0918,0.995,-2.0814,27.0577,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5036702,Exact Score: Orlando City SC 0 - 4 Columbus Crew?,2.0918,0.995,-2.0814,24.9763,"Spread 0.50%, Liquiditaet 18 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5009460,Exact Score: Charlton Athletic FC 0 - 3 Bristol City FC?,2.0918,0.995,-2.0814,22.895,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5031155,Exact Score: Fortuna Sittard 2 - 1 FC Twente?,2.0918,0.995,-2.0814,20.8136,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5062467,Exact Score: Southampton FC 4 - 1 Portsmouth FC?,2.0918,0.995,-2.0814,18.7323,"Spread 0.50%, Liquiditaet 22 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5230079,Exact Score: Nomme Kalju FC 0 - 4 Harju JK Laagri?,2.0918,0.995,-2.0814,16.6509,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5017876,Exact Score: Benevento Calcio 5 - 1 Cesena FC?,2.0918,0.995,-2.0814,14.5695,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5043162,Exact Score: CA Central Córdoba 2 - 1 Estudiantes de La Plata?,2.0918,0.995,-2.0814,12.4882,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4995228,Exact Score: Bengaluru FC 2 - 4 SC Delhi?,2.0918,0.995,-2.0814,10.4068,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5017973,SS Juve Stabia to win the second half?,2.0918,0.995,-2.0814,8.3254,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5049561,Exact Score: Randers FC 3 - 1 Viborg FF?,2.0918,0.995,-2.0814,6.2441,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5182341,Los Angeles FC vs. Austin FC: Both Teams to Score,2.0918,0.995,-2.0814,4.1627,"Spread 0.50%, Liquiditaet 96 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5069032,Exact Score: Aberdeen FC 3 - 0 St Johnstone FC?,2.0918,0.995,-2.0814,2.0814,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,5062650,Exact Score: Hertha BSC 1 - 0 SpVgg Greuther Fürth?,2.0918,0.995,-2.0814,0.0,"Spread 0.50%, Liquiditaet 13 USD"

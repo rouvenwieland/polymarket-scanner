@@ -1,5 +1,5 @@
 {
-  "cash": 48.774394886494775,
+  "cash": 0.0,
   "positions": [
     {
       "market_id": "4751277",
@@ -22,6 +22,28 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
+    },
+    {
+      "market_id": "4765516",
+      "frage": "CA Tigre to win the second half?",
+      "slug": "arg-aaj-tig-2026-10-03-second-half-result-away",
+      "shares": 25.37507353709655,
+      "einstandskurs": 0.9610690352323528,
+      "letzter_kurs": 0.9610690352323528,
+      "liquiditaet": 313.9547,
+      "end_date": "2026-10-04T22:15:00Z",
+      "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
+    },
+    {
+      "market_id": "4970693",
+      "frage": "1. FC Kaiserslautern to win the second half?",
+      "slug": "bl2-hei-fck-2026-10-09-second-half-result-away",
+      "shares": 26.29252647903737,
+      "einstandskurs": 0.9275334366475176,
+      "letzter_kurs": 0.9275334366475176,
+      "liquiditaet": 446.7328,
+      "end_date": "2026-10-09T16:30:00Z",
+      "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
