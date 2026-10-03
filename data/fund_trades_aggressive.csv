@@ -23,3 +23,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,26.2925,0.9275,-24.3872,0.0,"Spread 8.00%, Liquiditaet 447 USD"
 2026-10-03T19:19:10.855820+02:00,AUSZAHLUNG,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,69.1478,1.0,69.1478,69.1478,Markt als geschlossen/aufgelöst markiert
 2026-10-03T21:19:54.823353+02:00,KAUF,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,22.7749,0.999,-22.7521,46.3958,"Spread 20.00%, Liquiditaet 14 USD"
+2026-10-04T00:17:01.658931+02:00,KAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,16.1136,0.9598,-15.4653,30.9305,"Spread 11.50%, Liquiditaet 27 USD"
+2026-10-04T00:17:01.658931+02:00,KAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,16.1706,0.9564,-15.4653,15.4653,"Spread 11.50%, Liquiditaet 29 USD"

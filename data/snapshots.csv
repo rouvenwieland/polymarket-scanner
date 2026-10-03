@@ -2617,3 +2617,83 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-03T21:19:54.823353+02:00,5244778,Exact Score: FK Pardubice 0 - 5 FC Zlín?,cze1-fkp-fcz-2026-10-17-exact-score-0-5,0.495,0.5,0.995,0.0,6.5731,2026-10-17T13:00:00Z
 2026-10-03T21:19:54.823353+02:00,5244873,Exact Score: SK Artis Brno 5 - 2 Bohemians Praha 1905?,cze1-art-bop-2026-10-17-exact-score-5-2,0.49,0.505,0.995,0.0,11.8401,2026-10-17T13:00:00Z
 2026-10-03T21:19:54.823353+02:00,5244941,Exact Score: FK Mladá Boleslav 2 - 0 FK Teplice?,cze1-fmb-fkt-2026-10-17-exact-score-2-0,0.49,0.505,0.995,0.0,13.3599,2026-10-17T13:00:00Z
+2026-10-04T00:17:01.658931+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-04T00:17:01.658931+02:00,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,will-tony-elliott-win-2026-ncaa-coach-of-the-year-20260803150734275,0.1355,0.7495,0.885,0.0,27.45999,2027-02-11T04:59:00Z
+2026-10-04T00:17:01.658931+02:00,3848514,Will Gaziantep finish 15th in the 2026-27 Süper Lig?,will-gaziantep-finish-15th-in-super-lig-2026-27,0.47,0.525,0.995,0.0,5.0434,2027-07-01T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,3849017,Will Fortaleza finish 3rd in the 2026 Brazil Série B?,will-fortaleza-finish-3rd-in-brazil-serie-b-2026,0.485,0.51,0.995,0.0,7.1273,2027-01-01T04:59:00Z
+2026-10-04T00:17:01.658931+02:00,3914374,Will New England Revolution keep the most clean sheets in the 2026 MLS?,will-new-england-revolution-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,1.7639,2027-01-01T04:59:00Z
+2026-10-04T00:17:01.658931+02:00,4371233,Will Luis Quintero score the most goals in the 2026-27 UEFA Europa League?,will-luis-quintero-score-the-most-goals-in-the-2026-27-uefa-europa-league,0.45,0.5495,0.9995,0.0,11.67873,2027-06-09T23:59:00Z
+2026-10-04T00:17:01.658931+02:00,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,will-liz-truluck-reach-the-semifinals-of-the-2027-ppa-tour-finals,0.14,0.745,0.885,0.0,28.761,2027-05-10T23:59:00Z
+2026-10-04T00:17:01.658931+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-04T00:17:01.658931+02:00,4776746,Exact Score: Any Other Score?,ja2-van-yok-2026-10-04-exact-score-any-other,0.165,0.83,0.995,0.0,537.2908,2026-10-04T04:00:00Z
+2026-10-04T00:17:01.658931+02:00,4907823,Bermuda vs. Barbados: Both Teams to Score,conl-ber-brb-2026-10-05-btts,0.5,0.495,0.995,0.0,326.7909,2026-10-06T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,4917941,Florida vs. Missouri: Both Teams to Score Points - Q4,cfb-fl-missr-2026-10-03-4q-btts-points,0.5,0.49,0.99,0.0,0.0,2026-10-03T19:30:00Z
+2026-10-04T00:17:01.658931+02:00,4974240,Exact Score: USL Dunkerque 1 - 5 FC Annecy?,fr2-usd-fca-2026-10-09-exact-score-1-5,0.47,0.525,0.995,9.9898,7.9595,2026-10-09T18:00:00Z
+2026-10-04T00:17:01.658931+02:00,4981530,Hoedd IL vs. Odds BK: Neither team to score first?,nor2-hod-odd-2026-10-03-first-to-score-neither,0.005,0.5,0.505,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-04T00:17:01.658931+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-04T00:17:01.658931+02:00,5025607,Exact Score: FC Halifax Town 2 - 5 Gateshead FC?,enl-hal-gat-2026-10-10-exact-score-2-5,0.465,0.53,0.9950000000000001,0.0,11.3854,2026-10-10T14:00:00Z
+2026-10-04T00:17:01.658931+02:00,5036679,Exact Score: Inter Miami CF 4 - 5 D.C. United SC?,mls-mia-dcu-2026-10-10-exact-score-4-5,0.475,0.52,0.995,0.0,9.6096,2026-10-10T23:30:00Z
+2026-10-04T00:17:01.658931+02:00,5037277,Exact Score: Konyaspor 2 - 4 Rams Başakşehir FK?,tur-kon-iba-2026-10-11-exact-score-2-4,0.06,0.935,0.9950000000000001,0.0,123.1497,2026-10-11T10:30:00Z
+2026-10-04T00:17:01.658931+02:00,5046996,Exact Score: Club Universitario de Deportes 0 - 2 FBC Melgar?,per1-cud-fbm-2026-10-10-exact-score-0-2,0.49,0.505,0.995,0.0,7.1599,2026-10-11T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,5047133,Exact Score: CD Universidad Católica 1 - 1 Audax CS Italiano?,chi1-cuc-aci-2026-10-10-exact-score-1-1,0.49,0.505,0.995,0.0,6.9198,2026-10-10T23:00:00Z
+2026-10-04T00:17:01.658931+02:00,5047585,Exact Score: Deportivo Pereira 5 - 0 AD Cali?,col1-dep-adc-2026-10-11-exact-score-5-0,0.49,0.505,0.995,0.0,5.3857,2026-10-11T19:00:00Z
+2026-10-04T00:17:01.658931+02:00,5049706,Exact Score: Brøndby IF 1 - 1 Lyngby BK?,den-bro-lyn-2026-10-11-exact-score-1-1,0.48,0.515,0.995,0.0,13.8593,2026-10-11T14:00:00Z
+2026-10-04T00:17:01.658931+02:00,5049803,Exact Score: FC Midtjylland 3 - 2 FC København?,den-mid-kob-2026-10-11-exact-score-3-2,0.485,0.51,0.995,0.0,8.4596,2026-10-11T16:00:00Z
+2026-10-04T00:17:01.658931+02:00,5064386,SC Freiburg vs. FC Schalke 04: Both Teams to Score in First Half,bun-fre-s04-2026-10-11-btts-first-half,0.41,0.585,0.9949999999999999,0.0,13.38,2026-10-11T15:30:00Z
+2026-10-04T00:17:01.658931+02:00,5065419,Exact Score: Elche CF 1 - 3 RC Celta de Vigo?,lal-elc-cel-2026-10-11-exact-score-1-3,0.245,0.75,0.995,0.0,22.1899,2026-10-11T12:00:00Z
+2026-10-04T00:17:01.658931+02:00,5067882,Exact Score: Calcio Padova 5 - 2 Carrarese Calcio?,itsb-pad-car-2026-10-11-exact-score-5-2,0.485,0.51,0.995,0.0,9.9199,2026-10-11T15:15:00Z
+2026-10-04T00:17:01.658931+02:00,5069077,Exact Score: Aberdeen FC 4 - 3 St Johnstone FC?,scop-abe-joh-2026-10-11-exact-score-4-3,0.48,0.515,0.995,0.0,12.7058,2026-10-11T13:00:00Z
+2026-10-04T00:17:01.658931+02:00,5083723,KaVontae Turpin: Team First TD (Dallas Cowboys),nfl-dal-hou-2026-10-04-team-first-td-56-kavontae-turpin,0.495,0.5,0.995,0.0,1.08,2026-10-04T17:00:00Z
+2026-10-04T00:17:01.658931+02:00,5084548,Exact Score: CA San Lorenzo de Almagro 4 - 0 CD Riestra?,arg-slo-rie-2026-10-11-exact-score-4-0,0.475,0.52,0.995,0.0,13.4415,2026-10-11T17:45:00Z
+2026-10-04T00:17:01.658931+02:00,5088178,Exact Score: FC Universitatea Cluj 0 - 2 FC Rapid 1923?,rou1-fuc-fcr-2026-10-12-exact-score-0-2,0.485,0.51,0.995,0.0,9.9197,2026-10-12T18:00:00Z
+2026-10-04T00:17:01.658931+02:00,5107359,Exact Score: Angola 5 - 5 Malawi?,afcq-ang-mala-2026-10-06-exact-score-5-5,0.45,0.545,0.9950000000000001,9.9898,7.3993,2026-10-06T19:00:00Z
+2026-10-04T00:17:01.658931+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-pranav-venkatesh,0.49,0.5,0.99,0.0,40.0,2026-10-21T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,5146939,Exact Score: Cardiff City FC 4 - 1 Watford FC?,elc-car-wat-2026-10-13-exact-score-4-1,0.49,0.505,0.995,0.0,6.9198,2026-10-13T18:45:00Z
+2026-10-04T00:17:01.658931+02:00,5158679,Exact Score: RB Leipzig 5 - 3 PSV?,ucl-rbl-psv-2026-10-13-exact-score-5-3,0.485,0.51,0.995,0.0,8.4729,2026-10-13T19:00:00Z
+2026-10-04T00:17:01.658931+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,will-celta-vigo-record-46-or-more-points-in-the-2026-27-laliga-season,0.495,0.5,0.995,0.0,1.764,2027-06-14T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,5169339,Exact Score: Queens Park Rangers FC 5 - 4 Derby County FC?,elc-qpr-der-2026-10-14-exact-score-5-4,0.49,0.505,0.995,0.0,5.3428,2026-10-14T18:45:00Z
+2026-10-04T00:17:01.658931+02:00,5180016,Exact Score: San Diego FC 1 - 0 Houston Dynamo?,mls-sdg-hou-2026-10-14-exact-score-1-0,0.49,0.505,0.995,0.0,7.1598,2026-10-15T02:30:00Z
+2026-10-04T00:17:01.658931+02:00,5180856,World Championship of Legends: Pakistan Champions vs Bangladesh Champions - Most Sixes Bangladesh Champions Winner,cricwcl-pak-ban-2026-10-03-most-sixes-ban,0.5,0.49,0.99,0.0,0.0,2026-10-10T15:30:00Z
+2026-10-04T00:17:01.658931+02:00,5187604,Exact Score: KKS Lech Poznań 4 - 1 Bayer 04 Leverkusen?,uel-lep-lev-2026-10-15-exact-score-4-1,0.485,0.51,0.995,0.0,8.4304,2026-10-15T16:45:00Z
+2026-10-04T00:17:01.658931+02:00,5189426,Exact Score: FC Lugano 0 - 3 FK Crvena zvezda?,col-lug-crv-2026-10-15-exact-score-0-3,0.485,0.51,0.995,0.0,10.1597,2026-10-15T16:45:00Z
+2026-10-04T00:17:01.658931+02:00,5193858,New Mexico United vs. Phoenix Rising FC: Both Teams to Score in Second Half,uslc-new-pho-2026-10-04-btts-second-half,0.41,0.585,0.9949999999999999,0.0,63.4597,2026-10-04T22:00:00Z
+2026-10-04T00:17:01.658931+02:00,5204931,"Will the next Google Gemini Pro model be released by November 30, 2026?",will-the-next-google-gemini-pro-model-be-released-by-november-30-2026,0.56,0.435,0.9950000000000001,1258.85925,332.5273,2026-12-01T04:59:00Z
+2026-10-04T00:17:01.658931+02:00,5215336,Will Trent Grisham hit a home run in the 2026 ALDS?,will-trent-grisham-hit-a-home-run-in-the-2026-alds,0.5,0.495,0.995,0.0,1.864,2026-10-12T03:59:00Z
+2026-10-04T00:17:01.658931+02:00,5223645,Exact Score: FC Energie Cottbus 1 - 3 1. FC Nürnberg?,bl2-fce-fcn-2026-10-16-exact-score-1-3,0.49,0.505,0.995,0.0,8.7743,2026-10-16T16:30:00Z
+2026-10-04T00:17:01.658931+02:00,5224768,Exact Score: Slovakia 4 - 0 Ukraine?,wwcquefa-slov-ukr-2026-10-09-exact-score-4-0,0.48,0.515,0.995,0.0,10.3197,2026-10-09T16:00:00Z
+2026-10-04T00:17:01.658931+02:00,5224899,Exact Score: Greece 5 - 4 England?,wwcquefa-gre-eng-2026-10-09-exact-score-5-4,0.48,0.515,0.995,0.0,13.1538,2026-10-09T16:30:00Z
+2026-10-04T00:17:01.658931+02:00,5226656,Exact Score: RC Deportivo A Coruña 4 - 1 Levante UD?,lal-dep-lev-2026-10-16-exact-score-4-1,0.485,0.51,0.995,0.0,9.7101,2026-10-16T19:00:00Z
+2026-10-04T00:17:01.658931+02:00,5229723,Will Tgr Haas get pole position at the 2026 F1 United States Grand Prix?,f1-united-states-grand-prix-constructor-pole-position-tgr-haas-2026-10-24,0.49,0.505,0.995,0.0,2.5044,2026-10-31T21:00:00Z
+2026-10-04T00:17:01.658931+02:00,5229875,Will Kimi Antonelli finish on the podium at the 2026 F1 United States Grand Prix?,f1-united-states-grand-prix-driver-podium-antonelli-2026-10-25,0.495,0.5,0.995,0.0,1.28,2026-11-01T20:00:00Z
+2026-10-04T00:17:01.658931+02:00,5230079,Exact Score: Nomme Kalju FC 0 - 4 Harju JK Laagri?,est1-kal-har-2026-10-10-exact-score-0-4,0.495,0.5,0.995,0.0,8.1198,2026-10-10T11:30:00Z
+2026-10-04T00:17:01.658931+02:00,5233984,SS Lazio vs. AC Monza: Neither team to score first in the 1st half?,sea-laz-mon-2026-10-11-first-half-first-to-score-neither,0.495,0.5,0.995,0.0,10.8798,2026-10-11T13:00:00Z
+2026-10-04T00:17:01.658931+02:00,5234032,RC Strasbourg Alsace to score first in the 2nd half vs. OGC Nice?,fl1-ogc-str-2026-10-11-second-half-first-to-score-away,0.495,0.5,0.995,0.0,11.5798,2026-10-11T13:00:00Z
+2026-10-04T00:17:01.658931+02:00,5234582,Exact Score: ADO Den Haag 5 - 1 PSV?,ere-ado-psv-2026-10-17-exact-score-5-1,0.48,0.515,0.995,0.0,22.132,2026-10-17T14:30:00Z
+2026-10-04T00:17:01.658931+02:00,5236356,Exact Score: FK Cukaricki Belgrade 5 - 1 FK Macva Sabac?,srb-cuk-mac-2026-10-10-exact-score-5-1,0.455,0.54,0.9950000000000001,0.0,24.0689,2026-10-10T15:00:00Z
+2026-10-04T00:17:01.658931+02:00,5239022,Will Pierceson Coody finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-pierceson-coody,0.495,0.5,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,5239023,Will Nicolas Echavarria finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-nicolas-echavarria,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,5239117,Will Takumi Kanaya finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-takumi-kanaya,0.5,0.495,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,5239143,Will Xander Schauffele finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-xander-schauffele,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-04T00:17:01.658931+02:00,5239938,Exact Score: Fenerbahçe SK 0 - 1 Alanyaspor?,tur-fen-ala-2026-10-17-exact-score-0-1,0.48,0.515,0.995,0.0,20.128,2026-10-17T16:00:00Z
+2026-10-04T00:17:01.658931+02:00,5242592,Exact Score: FK Lokomotiv Moskva 1 - 2 FK Krasnodar?,rus-lok-kra-2026-10-17-exact-score-1-2,0.48,0.515,0.995,0.0,20.9593,2026-10-17T16:30:00Z
+2026-10-04T00:17:01.658931+02:00,5244572,Exact Score: Mirassol FC 4 - 1 SC Internacional?,bra-mir-int-2026-10-16-exact-score-4-1,0.48,0.515,0.995,0.0,19.0298,2026-10-16T23:00:00Z
+2026-10-04T00:17:01.658931+02:00,5244873,Exact Score: SK Artis Brno 5 - 2 Bohemians Praha 1905?,cze1-art-bop-2026-10-17-exact-score-5-2,0.49,0.505,0.995,0.0,11.8401,2026-10-17T13:00:00Z
+2026-10-04T00:17:01.658931+02:00,5246298,Exact Score: Cerezo Ōsaka 1 - 2 Kawasaki Frontale?,jap-cer-kaw-2026-10-17-exact-score-1-2,0.48,0.515,0.995,0.0,21.5784,2026-10-17T06:00:00Z
+2026-10-04T00:17:01.658931+02:00,5246861,Miyabi Moriya: 3+ goals,nwsl-rac-roy-2026-10-03-goals-miyabi-moriya-90110500-gte3,0.1,0.75,0.85,0.0,93.8,2026-10-03T20:00:00Z
+2026-10-04T00:17:01.658931+02:00,5247296,Exact Score: Hamarkameratene 1 - 3 FK Bodø/Glimt?,nor-ham-bog-2026-10-17-exact-score-1-3,0.485,0.51,0.995,0.0,18.0656,2026-10-17T12:00:00Z
+2026-10-04T00:17:01.658931+02:00,5248559,Exact Score: Inter Kashi FC 0 - 3 Odisha FC?,isp-kas-ddy-2026-10-17-exact-score-0-3,0.48,0.515,0.995,0.0,19.0293,2026-10-17T11:30:00Z
+2026-10-04T00:17:01.658931+02:00,5248570,Exact Score: Inter Kashi FC 2 - 3 Odisha FC?,isp-kas-ddy-2026-10-17-exact-score-2-3,0.485,0.51,0.995,0.0,18.0656,2026-10-17T11:30:00Z
+2026-10-04T00:17:01.658931+02:00,5248633,Exact Score: Bengaluru FC 5 - 4 Chennaiyin FC?,isp-ben-che-2026-10-17-exact-score-5-4,0.48,0.515,0.995,0.0,23.0793,2026-10-17T14:00:00Z
+2026-10-04T00:17:01.658931+02:00,5251519,Exact Score: Dalian Yingbo FC 0 - 1 Shenzhen Xinpengcheng FC?,chi-ygb-xin-2026-10-17-exact-score-0-1,0.48,0.515,0.995,0.0,16.9297,2026-10-17T11:00:00Z
+2026-10-04T00:17:01.658931+02:00,5251732,Exact Score: Qingdao Hainiu FC 0 - 1 Liaoning Tieren FC?,chi-hai-tie-2026-10-17-exact-score-0-1,0.49,0.505,0.995,0.0,13.3598,2026-10-17T11:35:00Z
+2026-10-04T00:17:01.658931+02:00,5252238,Exact Score: Shandong Taishan FC 5 - 4 Zhejiang Zhiye FC?,chi-sha-zhe-2026-10-17-exact-score-5-4,0.48,0.515,0.995,0.0,18.7597,2026-10-17T12:00:00Z
+2026-10-04T00:17:01.658931+02:00,5253491,Exact Score: Ulsan HD FC 4 - 3 Bucheon FC 1995?,kor-uls-bch-2026-10-17-exact-score-4-3,0.485,0.51,0.995,0.0,13.1197,2026-10-17T07:30:00Z
+2026-10-04T00:17:01.658931+02:00,5253909,Exact Score: Fujieda MYFC 2 - 3 Montedio Yamagata?,ja2-fuj-mon-2026-10-17-exact-score-2-3,0.49,0.505,0.995,0.0,11.8401,2026-10-17T05:00:00Z
+2026-10-04T00:17:01.658931+02:00,5254365,Fujieda MYFC vs. Montedio Yamagata: Both Teams to Score,ja2-fuj-mon-2026-10-17-btts,0.5,0.495,0.995,0.0,82.6588,2026-10-17T05:00:00Z
+2026-10-04T00:17:01.658931+02:00,5254806,Elizabeth Ball: Anytime Goalscorer,nwsl-kcc-bay-2026-10-03-ags-elizabeth-ball-90143126,0.495,0.5,0.995,0.0,0.2,2026-10-03T22:30:00Z
+2026-10-04T00:17:01.658931+02:00,5254857,Isabel Rodriguez: 2+ goals,nwsl-kcc-bay-2026-10-03-goals-isabel-rodriguez-90143127-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-03T22:30:00Z
+2026-10-04T00:17:01.658931+02:00,5254858,Isabel Rodriguez: 3+ goals,nwsl-kcc-bay-2026-10-03-goals-isabel-rodriguez-90143127-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-03T22:30:00Z
+2026-10-04T00:17:01.658931+02:00,5254861,Hannah Bebar: 2+ goals,nwsl-kcc-bay-2026-10-03-goals-hannah-bebar-90143075-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-03T22:30:00Z
+2026-10-04T00:17:01.658931+02:00,5254927,Jenna Nighswonger: 1+ assists,nwsl-kcc-bay-2026-10-03-assists-jenna-nighswonger-90118637-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-03T22:30:00Z

@@ -1,5 +1,5 @@
 {
-  "cash": 120.425901784789,
+  "cash": 114.80380278478901,
   "positions": [
     {
       "market_id": "5131225",
@@ -11,6 +11,28 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
+    },
+    {
+      "market_id": "3365462",
+      "frage": "Will Tony Elliott win 2026 NCAA Coach of the Year?",
+      "slug": "will-tony-elliott-win-2026-ncaa-coach-of-the-year-20260803150734275",
+      "shares": 3.05696919094932,
+      "einstandskurs": 0.8982749999999999,
+      "letzter_kurs": 0.8982749999999999,
+      "liquiditaet": 27.45999,
+      "end_date": "2027-02-11T04:59:00Z",
+      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
+    },
+    {
+      "market_id": "4567147",
+      "frage": "Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?",
+      "slug": "will-liz-truluck-reach-the-semifinals-of-the-2027-ppa-tour-finals",
+      "shares": 3.2018034566251985,
+      "einstandskurs": 0.8982749999999999,
+      "letzter_kurs": 0.8982749999999999,
+      "liquiditaet": 28.761,
+      "end_date": "2027-05-10T23:59:00Z",
+      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"
