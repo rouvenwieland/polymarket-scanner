@@ -29,6 +29,7 @@ unberührt. Das Commit + Push übernimmt der GitHub-Actions-Workflow.
 import csv
 import json
 import os
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
@@ -44,15 +45,24 @@ CROSS_HITS_CSV = os.path.join(DATA_DIR, "cross_platform_hits.csv")
 
 
 def fetch_all_platforms():
-    """Lädt alle drei Plattformen. Ein Fehler auf einer Plattform (z.B.
-    Kalshi oder PredictIt temporär nicht erreichbar) darf den gesamten Lauf
-    nicht abbrechen - die jeweiligen Connectoren fangen Netzwerkfehler ab
-    und liefern dann einfach eine leere Liste zurück."""
-    markets_by_platform = {
-        "polymarket": polymarket.fetch_all_normalized(),
-        "kalshi": kalshi.fetch_all_normalized(),
-        "predictit": predictit.fetch_all_normalized(),
+    """Lädt alle drei Plattformen PARALLEL (ThreadPoolExecutor - die
+    Fetches sind I/O-gebunden, nicht CPU-gebunden, daher funktioniert das
+    trotz Python-GIL gut). Sequentiell hintereinander würde allein
+    Polymarkts ~10-Minuten-Vollscan den Start von Kalshi/PredictIt
+    unnötig verzögern und zusammen mit Kalshis Retry-Handling bei
+    Rate-Limiting leicht das Zeitbudget des GitHub-Actions-Laufs sprengen.
+    Ein Fehler auf einer Plattform (z.B. Kalshi oder PredictIt temporär
+    nicht erreichbar) darf den gesamten Lauf nicht abbrechen - die
+    jeweiligen Connectoren fangen Netzwerkfehler ab und liefern dann
+    einfach eine leere Liste zurück."""
+    fetchers = {
+        "polymarket": polymarket.fetch_all_normalized,
+        "kalshi": kalshi.fetch_all_normalized,
+        "predictit": predictit.fetch_all_normalized,
     }
+    with ThreadPoolExecutor(max_workers=len(fetchers)) as pool:
+        futures = {name: pool.submit(fn) for name, fn in fetchers.items()}
+        markets_by_platform = {name: future.result() for name, future in futures.items()}
     for name, markets in markets_by_platform.items():
         print(f"{name}: {len(markets)} offene Märkte geladen.")
     return markets_by_platform

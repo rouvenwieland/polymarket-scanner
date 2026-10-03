@@ -25,15 +25,19 @@ import requests
 BASE_URL = "https://api.elections.kalshi.com/trade-api/v2/markets"
 LIMIT = 1000
 PAGE_DELAY_SECONDS = 0.15  # etwas Abstand zwischen Seiten, um das Rate-Limit nicht zu reizen
-MAX_RETRIES = 4
+MAX_RETRIES = 2
+MAX_RETRY_WAIT_SECONDS = 8.0   # Obergrenze pro Wartezeit, auch wenn Retry-After mehr verlangt
+FETCH_DEADLINE_SECONDS = 90.0  # Gesamt-Zeitbudget für den kompletten Scan - siehe fetch_all_open_markets
 
 
 def _get_with_retry(url, params, timeout=20):
-    """Kalshi rate-limited den vollen Scan (~200+ Seiten) in der Praxis mit
-    HTTP 429 - ein einzelner Fehlschlag brach bisher die GESAMTE Seite ab
-    (0 Märkte für den ganzen Lauf). Jetzt: bei 429/5xx mit exponentiellem
-    Backoff erneut versuchen (Retry-After-Header respektieren, falls
-    vorhanden), erst nach MAX_RETRIES endgültig aufgeben."""
+    """Kalshi hat den vollen Scan unter Last mit HTTP 429 abgebrochen - ein
+    einzelner Fehlschlag brach bisher die GESAMTE Seite ab (0 Märkte für den
+    ganzen Lauf). Jetzt: bei 429/5xx kurz mit Backoff erneut versuchen
+    (Retry-After respektiert, aber auf MAX_RETRY_WAIT_SECONDS gedeckelt -
+    bei anhaltendem Rate-Limiting lieber schnell aufgeben als den gesamten
+    Multi-Platform-Scan über das Zeitbudget der GitHub-Action hinaus zu
+    verzögern, siehe FETCH_DEADLINE_SECONDS)."""
     delay = 1.0
     for attempt in range(MAX_RETRIES + 1):
         try:
@@ -48,7 +52,7 @@ def _get_with_retry(url, params, timeout=20):
         if resp.status_code == 429 or resp.status_code >= 500:
             if attempt == MAX_RETRIES:
                 resp.raise_for_status()
-            wait = float(resp.headers.get("Retry-After", delay))
+            wait = min(float(resp.headers.get("Retry-After", delay)), MAX_RETRY_WAIT_SECONDS)
             print(f"[Warnung] Kalshi HTTP {resp.status_code} (Versuch {attempt+1}/{MAX_RETRIES+1}), warte {wait:.1f}s...")
             time.sleep(wait)
             delay *= 2
@@ -60,7 +64,12 @@ def _get_with_retry(url, params, timeout=20):
 def fetch_all_open_markets(limit=LIMIT):
     markets = []
     cursor = None
+    deadline = time.monotonic() + FETCH_DEADLINE_SECONDS
     while True:
+        if time.monotonic() > deadline:
+            print(f"[Warnung] Kalshi-Zeitbudget ({FETCH_DEADLINE_SECONDS:.0f}s) ausgeschöpft - "
+                  f"brich mit {len(markets)} bisher geladenen Märkten ab (anhaltendes Rate-Limiting?).")
+            break
         params = {"limit": limit, "status": "open"}
         if cursor:
             params["cursor"] = cursor
