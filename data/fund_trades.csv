@@ -48,3 +48,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T01:24:27.182676+02:00,VERKAUF,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,15.0067,0.974,14.6167,117.1645,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T14:02:36.092687+02:00,KAUF,4765516,CA Tigre to win the second half?,32.5595,0.9642,-31.3955,85.769,"Spread 5.00%, Liquiditaet 314 USD"
 2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,47.8403,0.9338,-44.6733,41.0958,"Spread 8.00%, Liquiditaet 447 USD"
+2026-10-03T15:17:08.470757+02:00,VERKAUF,4765516,CA Tigre to win the second half?,32.5595,0.9896,32.2195,73.3153,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T15:17:08.470757+02:00,VERKAUF,4970693,1. FC Kaiserslautern to win the second half?,47.8403,0.9847,47.1106,120.4259,Konvergenz erreicht (Kurs 1.000)
