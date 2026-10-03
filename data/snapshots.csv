@@ -2267,3 +2267,46 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-03T03:12:58.049151+02:00,5216801,Exact Score: Sydney FC 1 - 5 Western Sydney Wanderers FC?,aus-syd-wsw-2026-10-16-exact-score-1-5,0.495,0.5,0.995,0.0,4.6831,2026-10-16T09:00:00Z
 2026-10-03T03:12:58.049151+02:00,5216967,PSIS Semarang vs. FC Adhyaksa Bekasi: Both Teams to Score in Second Half,idn2-sem-adb-2026-10-03-btts-second-half,0.495,0.5,0.995,0.0,62.6596,2026-10-03T12:00:00Z
 2026-10-03T03:12:58.049151+02:00,5217525,Exact Score: Henan FC 0 - 4 Tianjin Jinmen Hu FC?,chi-hen-jin-2026-10-16-exact-score-0-4,0.495,0.5,0.995,0.0,5.1198,2026-10-16T11:35:00Z
+2026-10-03T08:34:50.158364+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-03T08:34:50.158364+02:00,2849101,"Will Rho Labs launch a token by December 31, 2026?",will-rho-labs-launch-a-token-by-december-31-2026-20260708174513382,0.1455,0.854,0.9994999999999999,4924.955215,214.18888,2027-01-01T04:59:00Z
+2026-10-03T08:34:50.158364+02:00,3215056,Will two people dissent the December Fed decision?,will-two-people-dissent-the-december-fed-decision-20260730000304476,0.111,0.8885,0.9994999999999999,1155.9366149999998,4052.91037,2026-12-09T15:59:00Z
+2026-10-03T08:34:50.158364+02:00,3530239,Will Defensor Sporting win the 2026 Uruguayan Primera División?,2026-soccer-uruguayan-primera-divisin-winner-defensor-sporting,0.485,0.51,0.995,0.0,7.7738,2027-01-01T04:59:00Z
+2026-10-03T08:34:50.158364+02:00,3847782,Will VfL Bochum be promoted to Bundesliga?,will-vfl-bochum-be-promoted-to-bundesliga-2026-27,0.495,0.5,0.995,0.0,1.9817,2027-07-01T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,3849154,Will Corinthians finish 3rd in the 2026 Brazil Série A?,will-corinthians-finish-3rd-in-brazil-serie-a-2026,0.465,0.53,0.9950000000000001,0.0,8.1033,2027-01-01T04:59:00Z
+2026-10-03T08:34:50.158364+02:00,4740230,Will the fight end before Round 3?,ufc-mar15-ism-2026-10-03-ends-before-round-3,0.31,0.685,0.9950000000000001,0.0,4191.2233,2026-10-04T03:59:59.999Z
+2026-10-03T08:34:50.158364+02:00,4756365,Kidderminster Harriers FC vs. Sutton United FC: Both Teams to Score in Second Half,enl-kid-sut-2026-10-03-btts-second-half,0.5,0.495,0.995,0.0,61.7081,2026-10-03T14:00:00Z
+2026-10-03T08:34:50.158364+02:00,4791641,Will Linlithgow Rose FC vs. Clydebank FC end in a draw?,scoc-lin-clyd-2026-10-03-draw,0.265,0.73,0.995,0.0,496.0438,2026-10-03T14:00:00Z
+2026-10-03T08:34:50.158364+02:00,4845763,CD Riestra leading at halftime?,arg-rie-cac-2026-10-05-halftime-result-home,0.35,0.645,0.995,0.0,2100.1239,2026-10-05T19:45:00Z
+2026-10-03T08:34:50.158364+02:00,4917118,UTEP vs. New Mexico: Both Teams to Score a Touchdown - 2H,cfb-utep-nmx-2026-10-03-2h-btts-td,0.5,0.495,0.995,0.0,2.8799,2026-10-03T20:00:00Z
+2026-10-03T08:34:50.158364+02:00,4955972,Exact Score: Sepsi OSK 1 - 3 Dinamo 1948?,rou1-sep-din-2026-10-09-exact-score-1-3,0.395,0.6,0.995,0.0,23.21,2026-10-09T18:00:00Z
+2026-10-03T08:34:50.158364+02:00,4978471,Will Sri Lanka vs. Mauritius end in a draw?,fif-sri-mri-2026-10-05-draw,0.32,0.675,0.9950000000000001,0.0,591.8771,2026-10-05T15:00:00Z
+2026-10-03T08:34:50.158364+02:00,4994310,USL Dunkerque vs. FC Annecy: Both Teams to Score in Second Half,fr2-usd-fca-2026-10-09-btts-second-half,0.505,0.49,0.995,0.0,71.4597,2026-10-09T18:00:00Z
+2026-10-03T08:34:50.158364+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-03T08:34:50.158364+02:00,5020595,Stockport County FC vs. Barnsley FC: Both Teams to Score in Second Half,el1-sto-bar-2026-10-10-btts-second-half,0.495,0.5,0.995,0.0,62.1594,2026-10-10T14:00:00Z
+2026-10-03T08:34:50.158364+02:00,5066137,AFC Ajax vs. NEC: Both Teams to Score in Second Half,ere-aja-nec-2026-10-10-btts-second-half,0.5,0.495,0.995,0.0,62.4594,2026-10-10T19:00:00Z
+2026-10-03T08:34:50.158364+02:00,5079998,Will David Pastrnak record 100+ points?,will-david-pastrnak-record-100-points,0.645,0.35,0.995,1582.507075,36.5879,2027-04-30T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5110607,San Diego State vs. Oregon State: Both Teams to Score Points - Q3,cfb-sdst-oregst-2026-10-10-3q-btts-points,0.5,0.495,0.995,0.0,1.92,2026-10-10T22:00:00Z
+2026-10-03T08:34:50.158364+02:00,5131132,Will Dau Khuong Duy finish in the Top 3 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top3-dau-khuong-duy,0.495,0.5,0.995,0.0,20.0,2026-10-21T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,titled-tuesday-2026-10-06-top5-pranav-venkatesh,0.49,0.5,0.99,0.0,40.0,2026-10-21T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5156712,Will the price of Solana be above $95 on October 7?,solana-above-95-on-october-7-2026,0.999,0.0005,0.9994999999999999,6600.93,22779.51081,2026-10-07T16:00:00Z
+2026-10-03T08:34:50.158364+02:00,5156715,Will the price of Solana be above $105 on October 7?,solana-above-105-on-october-7-2026,0.976,0.0235,0.9994999999999999,394.736843,5921.90416,2026-10-07T16:00:00Z
+2026-10-03T08:34:50.158364+02:00,5162420,Will James Maddison score 7 or more goals during the 2026-27 English Premier League season?,will-james-maddison-score-7-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.864,2027-06-14T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5162429,Will Rayan Cherki score 8 or more goals during the 2026-27 English Premier League season?,will-rayan-cherki-score-8-or-more-goals-during-the-2026-27-english-premier-league-season,0.5,0.495,0.995,0.0,1.7639,2027-06-14T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5162446,Will Celta Vigo record 46 or more points in the 2026-27 LALIGA season?,will-celta-vigo-record-46-or-more-points-in-the-2026-27-laliga-season,0.495,0.5,0.995,0.0,1.764,2027-06-14T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5175412,Will Under 15% of Soybeans acreage be in D1-D4 drought this week?,ag-commodity-drought-soybeans-2026-10-06-0-14,0.495,0.5,0.995,0.0,0.1,2026-10-08T13:00:00Z
+2026-10-03T08:34:50.158364+02:00,5180201,Game 3: Any Player Rampage?,dota2-ts8-ty-2026-10-03-game3-any-player-rampage,0.315,0.68,0.9950000000000001,0.0,965.5966,2026-10-03T21:00:00Z
+2026-10-03T08:34:50.158364+02:00,5187713,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in First Half,wsl2-nfo-bur-2026-10-04-btts-first-half,0.495,0.5,0.995,0.0,5.3798,2026-10-04T13:00:00Z
+2026-10-03T08:34:50.158364+02:00,5195225,Will Austin Hooper score the first touchdown?,nfl-atl-no-2026-10-06-first-td-scorer-austin-hooper,0.485,0.51,0.995,0.0,2.1599,2026-10-06T00:15:00Z
+2026-10-03T08:34:50.158364+02:00,5197292,New York Yankees to win the 4th inning?,mlb-nyy-tb-2026-10-03-inning-4-winner-away,0.495,0.5,0.995,0.0,0.0,2026-10-03T22:30:00Z
+2026-10-03T08:34:50.158364+02:00,5199191,PFK CSKA Sofia vs. AS Monaco FC: Both Teams to Score,col-csk-asm-2026-10-15-btts,0.5,0.495,0.995,0.0,97.7596,2026-10-15T16:45:00Z
+2026-10-03T08:34:50.158364+02:00,5204375,Atlanta Braves to win the 4th inning?,mlb-atl-lad-2026-10-03-inning-4-winner-away,0.495,0.5,0.995,0.0,0.0,2026-10-03T20:00:00Z
+2026-10-03T08:34:50.158364+02:00,5212023,Exact Score: Sport Lisboa e Benfica 3 - 5 Celtic FC?,uel-ben-cel-2026-10-15-exact-score-3-5,0.47,0.525,0.995,0.0,25.6214,2026-10-15T19:00:00Z
+2026-10-03T08:34:50.158364+02:00,5212201,Exact Score: NEC 4 - 2 PFK Levski Sofia?,uel-nec-lev2-2026-10-15-exact-score-4-2,0.24,0.755,0.995,0.0,836.3198,2026-10-15T19:00:00Z
+2026-10-03T08:34:50.158364+02:00,5212907,AFC Bournemouth vs. SK Puntigamer Sturm Graz: Both Teams to Score in First Half,uel-bou-stu1-2026-10-15-btts-first-half,0.5,0.495,0.995,0.0,24.2944,2026-10-15T19:00:00Z
+2026-10-03T08:34:50.158364+02:00,5213410,Exact Score: SK Beveren 5 - 3 Lommel SK?,bel1-bev-lom-2026-10-09-exact-score-5-3,0.48,0.515,0.995,0.0,13.0955,2026-10-09T18:45:00Z
+2026-10-03T08:34:50.158364+02:00,5215336,Will Trent Grisham hit a home run in the 2026 ALDS?,will-trent-grisham-hit-a-home-run-in-the-2026-alds,0.5,0.495,0.995,0.0,1.864,2026-10-12T03:59:00Z
+2026-10-03T08:34:50.158364+02:00,5218497,Will Alphabet Inc. (GOOGL) hit (LOW) $330 Week of October 5 2026?,will-googl-dip-to-330-by-october-5-2026,0.25,0.745,0.995,0.0,276.2693,2026-10-09T20:00:00Z
+2026-10-03T08:34:50.158364+02:00,5221762,Exact Score: Chattanooga Red Wolves SC 4 - 1 Corpus Christi FC?,usl1-cha-coc-2026-10-03-exact-score-4-1,0.48,0.515,0.995,0.0,9.7395,2026-10-03T22:00:00Z
+2026-10-03T08:34:50.158364+02:00,5222475,Chattanooga Red Wolves SC vs. Corpus Christi FC: Both Teams to Score in Second Half,usl1-cha-coc-2026-10-03-btts-second-half,0.5,0.495,0.995,0.0,61.6091,2026-10-03T22:00:00Z
+2026-10-03T08:34:50.158364+02:00,5225143,Exact Score: Belgium 4 - 1 Poland?,wwcquefa-bel-pol-2026-10-09-exact-score-4-1,0.49,0.505,0.995,0.0,12.9201,2026-10-09T19:15:00Z
+2026-10-03T08:34:50.158364+02:00,5226656,Exact Score: RC Deportivo A Coruña 4 - 1 Levante UD?,lal-dep-lev-2026-10-16-exact-score-4-1,0.485,0.51,0.995,0.0,9.7101,2026-10-16T19:00:00Z

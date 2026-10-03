@@ -1447,3 +1447,44 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T04:09:20.256213+02:00,VERKAUF,5131204,Will Frederik Svane finish in the Top 5 of Titled Tuesday on October 6?,3.089,1.0,3.089,40.1098,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T04:09:20.256213+02:00,VERKAUF,4163221,Will Becerra win the 2026 California gubernatorial election by 15%-20%?,3.089,1.0,3.089,43.1988,Konvergenz erreicht (Kurs 1.000)
 2026-10-03T04:09:20.256213+02:00,VERKAUF,4171000,"Will it snow in Minneapolis, MN by October 31?",3.089,1.0,3.089,46.2878,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5216967,PSIS Semarang vs. FC Adhyaksa Bekasi: Both Teams to Score in Second Half,3.3103,1.0,3.3103,49.5981,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5187739,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in Second Half,3.3103,1.0,3.3103,52.9084,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5215341,Will Austin Wells hit a home run in the 2026 ALDS?,3.3103,1.0,3.3103,56.2187,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5213731,Exact Score: CS Huancayo 4 - 1 Cusco FC?,3.3103,1.0,3.3103,59.529,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5217525,Exact Score: Henan FC 0 - 4 Tianjin Jinmen Hu FC?,3.3103,1.0,3.3103,62.8393,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5216801,Exact Score: Sydney FC 1 - 5 Western Sydney Wanderers FC?,3.3103,1.0,3.3103,66.1496,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5196477,Union San Felipe vs. Deportes Iquique: Both Teams to Score in Second Half,3.089,1.0,3.089,69.2386,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5163244,Will Jacob Cowing score the first touchdown?,3.089,1.0,3.089,72.3277,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5167304,Will Tommy Tremble score the first touchdown?,3.089,1.0,3.089,75.4167,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,4999995,Ventforet Kōfu leading at halftime?,3.089,1.0,3.089,78.5058,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5070168,Will Antigua GFC vs. CSD Cobán Imperial end in a draw?,3.089,1.0,3.089,81.5948,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,5044079,FK Rubin Kazan vs. FK Dinamo Moskva: Draw at halftime?,3.089,1.0,3.089,84.6839,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,VERKAUF,3847924,Will Sandnes Ulf be promoted to Norway Eliteserien?,3.089,1.0,3.089,87.7729,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T08:34:50.158364+02:00,KAUF,4791641,Will Linlithgow Rose FC vs. Clydebank FC end in a draw?,2.7567,0.995,-2.7429,85.03,"Spread 0.50%, Liquiditaet 496 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4756365,Kidderminster Harriers FC vs. Sutton United FC: Both Teams to Score in Second Half,2.7567,0.995,-2.7429,82.2871,"Spread 0.50%, Liquiditaet 62 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5180201,Game 3: Any Player Rampage?,2.7567,0.995,-2.7429,79.5442,"Spread 0.50%, Liquiditaet 966 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5222475,Chattanooga Red Wolves SC vs. Corpus Christi FC: Both Teams to Score in Second Half,2.7567,0.995,-2.7429,76.8013,"Spread 0.50%, Liquiditaet 62 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4740230,Will the fight end before Round 3?,2.7567,0.995,-2.7429,74.0584,"Spread 0.50%, Liquiditaet 4191 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4917118,UTEP vs. New Mexico: Both Teams to Score a Touchdown - 2H,2.7567,0.995,-2.7429,71.3155,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5221762,Exact Score: Chattanooga Red Wolves SC 4 - 1 Corpus Christi FC?,2.7567,0.995,-2.7429,68.5726,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5204375,Atlanta Braves to win the 4th inning?,2.7567,0.995,-2.7429,65.8297,"Spread 0.50%, Liquiditaet 0 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5197292,New York Yankees to win the 4th inning?,2.7567,0.995,-2.7429,63.0868,"Spread 0.50%, Liquiditaet 0 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5187713,Nottingham Forest Lfc vs. Burnley FC Women: Both Teams to Score in First Half,2.7567,0.995,-2.7429,60.3439,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4978471,Will Sri Lanka vs. Mauritius end in a draw?,2.7567,0.995,-2.7429,57.601,"Spread 0.50%, Liquiditaet 592 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4845763,CD Riestra leading at halftime?,2.7567,0.995,-2.7429,54.8581,"Spread 0.50%, Liquiditaet 2100 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5195225,Will Austin Hooper score the first touchdown?,2.7567,0.995,-2.7429,52.1152,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5218497,Will Alphabet Inc. (GOOGL) hit (LOW) $330 Week of October 5 2026?,2.7567,0.995,-2.7429,49.3723,"Spread 0.50%, Liquiditaet 276 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4994310,USL Dunkerque vs. FC Annecy: Both Teams to Score in Second Half,2.7567,0.995,-2.7429,46.6294,"Spread 0.50%, Liquiditaet 71 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5020595,Stockport County FC vs. Barnsley FC: Both Teams to Score in Second Half,2.7567,0.995,-2.7429,43.8865,"Spread 0.50%, Liquiditaet 62 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5066137,AFC Ajax vs. NEC: Both Teams to Score in Second Half,2.7567,0.995,-2.7429,41.1435,"Spread 0.50%, Liquiditaet 62 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,4955972,Exact Score: Sepsi OSK 1 - 3 Dinamo 1948?,2.7567,0.995,-2.7429,38.4006,"Spread 0.50%, Liquiditaet 23 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5213410,Exact Score: SK Beveren 5 - 3 Lommel SK?,2.7567,0.995,-2.7429,35.6577,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5225143,Exact Score: Belgium 4 - 1 Poland?,2.7567,0.995,-2.7429,32.9148,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5199191,PFK CSKA Sofia vs. AS Monaco FC: Both Teams to Score,2.7567,0.995,-2.7429,30.1719,"Spread 0.50%, Liquiditaet 98 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5212201,Exact Score: NEC 4 - 2 PFK Levski Sofia?,2.7567,0.995,-2.7429,27.429,"Spread 0.50%, Liquiditaet 836 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5212023,Exact Score: Sport Lisboa e Benfica 3 - 5 Celtic FC?,2.7567,0.995,-2.7429,24.6861,"Spread 0.50%, Liquiditaet 26 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5212907,AFC Bournemouth vs. SK Puntigamer Sturm Graz: Both Teams to Score in First Half,2.7567,0.995,-2.7429,21.9432,"Spread 0.50%, Liquiditaet 24 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5226656,Exact Score: RC Deportivo A Coruña 4 - 1 Levante UD?,2.7567,0.995,-2.7429,19.2003,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,3849154,Will Corinthians finish 3rd in the 2026 Brazil Série A?,2.7567,0.995,-2.7429,16.4574,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,3530239,Will Defensor Sporting win the 2026 Uruguayan Primera División?,2.7567,0.995,-2.7429,13.7145,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-03T08:34:50.158364+02:00,KAUF,5079998,Will David Pastrnak record 100+ points?,2.7567,0.995,-2.7429,10.9716,"Spread 0.50%, Liquiditaet 37 USD"
