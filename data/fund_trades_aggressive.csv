@@ -21,3 +21,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T00:12:51.254307+02:00,KAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,48.7744,"Spread 1.00%, Liquiditaet 40 USD"
 2026-10-03T14:02:36.092687+02:00,KAUF,4765516,CA Tigre to win the second half?,25.3751,0.9611,-24.3872,24.3872,"Spread 5.00%, Liquiditaet 314 USD"
 2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,26.2925,0.9275,-24.3872,0.0,"Spread 8.00%, Liquiditaet 447 USD"
+2026-10-03T19:19:10.855820+02:00,AUSZAHLUNG,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,69.1478,1.0,69.1478,69.1478,Markt als geschlossen/aufgelöst markiert
