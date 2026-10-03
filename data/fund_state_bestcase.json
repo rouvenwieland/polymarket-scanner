@@ -1,5 +1,5 @@
 {
-  "cash": 10.971612796716098,
+  "cash": 57.83528554650828,
   "positions": [
     {
       "market_id": "5175412",
@@ -101,17 +101,6 @@
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
     },
     {
-      "market_id": "4791641",
-      "frage": "Will Linlithgow Rose FC vs. Clydebank FC end in a draw?",
-      "slug": "scoc-lin-clyd-2026-10-03-draw",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 496.0438,
-      "end_date": "2026-10-03T14:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
       "market_id": "4756365",
       "frage": "Kidderminster Harriers FC vs. Sutton United FC: Both Teams to Score in Second Half",
       "slug": "enl-kid-sut-2026-10-03-btts-second-half",
@@ -123,17 +112,6 @@
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
     {
-      "market_id": "5180201",
-      "frage": "Game 3: Any Player Rampage?",
-      "slug": "dota2-ts8-ty-2026-10-03-game3-any-player-rampage",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 965.5966,
-      "end_date": "2026-10-03T21:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
       "market_id": "5222475",
       "frage": "Chattanooga Red Wolves SC vs. Corpus Christi FC: Both Teams to Score in Second Half",
       "slug": "usl1-cha-coc-2026-10-03-btts-second-half",
@@ -141,39 +119,6 @@
       "einstandskurs": 0.995,
       "letzter_kurs": 0.995,
       "liquiditaet": 61.6091,
-      "end_date": "2026-10-03T22:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "4740230",
-      "frage": "Will the fight end before Round 3?",
-      "slug": "ufc-mar15-ism-2026-10-03-ends-before-round-3",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 4191.2233,
-      "end_date": "2026-10-04T03:59:59.999Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "4917118",
-      "frage": "UTEP vs. New Mexico: Both Teams to Score a Touchdown - 2H",
-      "slug": "cfb-utep-nmx-2026-10-03-2h-btts-td",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.8799,
-      "end_date": "2026-10-03T20:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5221762",
-      "frage": "Exact Score: Chattanooga Red Wolves SC 4 - 1 Corpus Christi FC?",
-      "slug": "usl1-cha-coc-2026-10-03-exact-score-4-1",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.7395,
       "end_date": "2026-10-03T22:00:00Z",
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
@@ -211,28 +156,6 @@
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
     {
-      "market_id": "4978471",
-      "frage": "Will Sri Lanka vs. Mauritius end in a draw?",
-      "slug": "fif-sri-mri-2026-10-05-draw",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 591.8771,
-      "end_date": "2026-10-05T15:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "4845763",
-      "frage": "CD Riestra leading at halftime?",
-      "slug": "arg-rie-cac-2026-10-05-halftime-result-home",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2100.1239,
-      "end_date": "2026-10-05T19:45:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
       "market_id": "5195225",
       "frage": "Will Austin Hooper score the first touchdown?",
       "slug": "nfl-atl-no-2026-10-06-first-td-scorer-austin-hooper",
@@ -241,28 +164,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 2.1599,
       "end_date": "2026-10-06T00:15:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5218497",
-      "frage": "Will Alphabet Inc. (GOOGL) hit (LOW) $330 Week of October 5 2026?",
-      "slug": "will-googl-dip-to-330-by-october-5-2026",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 276.2693,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "4994310",
-      "frage": "USL Dunkerque vs. FC Annecy: Both Teams to Score in Second Half",
-      "slug": "fr2-usd-fca-2026-10-09-btts-second-half",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 71.4597,
-      "end_date": "2026-10-09T18:00:00Z",
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
     {
@@ -288,28 +189,6 @@
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
     {
-      "market_id": "4955972",
-      "frage": "Exact Score: Sepsi OSK 1 - 3 Dinamo 1948?",
-      "slug": "rou1-sep-din-2026-10-09-exact-score-1-3",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 23.21,
-      "end_date": "2026-10-09T18:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5213410",
-      "frage": "Exact Score: SK Beveren 5 - 3 Lommel SK?",
-      "slug": "bel1-bev-lom-2026-10-09-exact-score-5-3",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 13.0955,
-      "end_date": "2026-10-09T18:45:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
       "market_id": "5225143",
       "frage": "Exact Score: Belgium 4 - 1 Poland?",
       "slug": "wwcquefa-bel-pol-2026-10-09-exact-score-4-1",
@@ -318,39 +197,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 12.9201,
       "end_date": "2026-10-09T19:15:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5199191",
-      "frage": "PFK CSKA Sofia vs. AS Monaco FC: Both Teams to Score",
-      "slug": "col-csk-asm-2026-10-15-btts",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 97.7596,
-      "end_date": "2026-10-15T16:45:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5212201",
-      "frage": "Exact Score: NEC 4 - 2 PFK Levski Sofia?",
-      "slug": "uel-nec-lev2-2026-10-15-exact-score-4-2",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 836.3198,
-      "end_date": "2026-10-15T19:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5212023",
-      "frage": "Exact Score: Sport Lisboa e Benfica 3 - 5 Celtic FC?",
-      "slug": "uel-ben-cel-2026-10-15-exact-score-3-5",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 25.6214,
-      "end_date": "2026-10-15T19:00:00Z",
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     },
     {
@@ -373,39 +219,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 9.7101,
       "end_date": "2026-10-16T19:00:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "3849154",
-      "frage": "Will Corinthians finish 3rd in the 2026 Brazil Série A?",
-      "slug": "will-corinthians-finish-3rd-in-brazil-serie-a-2026",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 8.1033,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "3530239",
-      "frage": "Will Defensor Sporting win the 2026 Uruguayan Primera División?",
-      "slug": "2026-soccer-uruguayan-primera-divisin-winner-defensor-sporting",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.7738,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
-    },
-    {
-      "market_id": "5079998",
-      "frage": "Will David Pastrnak record 100+ points?",
-      "slug": "will-david-pastrnak-record-100-points",
-      "shares": 2.7566866323407164,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 36.5879,
-      "end_date": "2027-04-30T03:59:00Z",
       "eingestiegen": "2026-10-03T08:34:50.158364+02:00"
     }
   ],
