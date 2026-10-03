@@ -1,5 +1,5 @@
 {
-  "cash": 2.5757174171303632e-14,
+  "cash": 51.71273436445942,
   "positions": [
     {
       "market_id": "5131225",
@@ -79,17 +79,6 @@
       "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
     },
     {
-      "market_id": "5230079",
-      "frage": "Exact Score: Nomme Kalju FC 0 - 4 Harju JK Laagri?",
-      "slug": "est1-kal-har-2026-10-10-exact-score-0-4",
-      "shares": 2.091820312071435,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 8.1198,
-      "end_date": "2026-10-10T11:30:00Z",
-      "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
-    },
-    {
       "market_id": "5180856",
       "frage": "World Championship of Legends: Pakistan Champions vs Bangladesh Champions - Most Sixes Bangladesh Champions Winner",
       "slug": "cricwcl-pak-ban-2026-10-03-most-sixes-ban",
@@ -156,72 +145,6 @@
       "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
     },
     {
-      "market_id": "4776746",
-      "frage": "Exact Score: Any Other Score?",
-      "slug": "ja2-van-yok-2026-10-04-exact-score-any-other",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 537.2908,
-      "end_date": "2026-10-04T04:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5254806",
-      "frage": "Elizabeth Ball: Anytime Goalscorer",
-      "slug": "nwsl-kcc-bay-2026-10-03-ags-elizabeth-ball-90143126",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-03T22:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5254857",
-      "frage": "Isabel Rodriguez: 2+ goals",
-      "slug": "nwsl-kcc-bay-2026-10-03-goals-isabel-rodriguez-90143127-gte2",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-03T22:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5254858",
-      "frage": "Isabel Rodriguez: 3+ goals",
-      "slug": "nwsl-kcc-bay-2026-10-03-goals-isabel-rodriguez-90143127-gte3",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-03T22:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5254861",
-      "frage": "Hannah Bebar: 2+ goals",
-      "slug": "nwsl-kcc-bay-2026-10-03-goals-hannah-bebar-90143075-gte2",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-03T22:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5254927",
-      "frage": "Jenna Nighswonger: 1+ assists",
-      "slug": "nwsl-kcc-bay-2026-10-03-assists-jenna-nighswonger-90118637-gte1",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.2,
-      "end_date": "2026-10-03T22:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
       "market_id": "5193858",
       "frage": "New Mexico United vs. Phoenix Rising FC: Both Teams to Score in Second Half",
       "slug": "uslc-new-pho-2026-10-04-btts-second-half",
@@ -230,50 +153,6 @@
       "letzter_kurs": 0.9949999999999999,
       "liquiditaet": 63.4597,
       "end_date": "2026-10-04T22:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "4907823",
-      "frage": "Bermuda vs. Barbados: Both Teams to Score",
-      "slug": "conl-ber-brb-2026-10-05-btts",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 326.7909,
-      "end_date": "2026-10-06T00:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5107359",
-      "frage": "Exact Score: Angola 5 - 5 Malawi?",
-      "slug": "afcq-ang-mala-2026-10-06-exact-score-5-5",
-      "shares": 2.3352570559087127,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 7.3993,
-      "end_date": "2026-10-06T19:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "3365462",
-      "frage": "Will Tony Elliott win 2026 NCAA Coach of the Year?",
-      "slug": "will-tony-elliott-win-2026-ncaa-coach-of-the-year-20260803150734275",
-      "shares": 2.6255149950612084,
-      "einstandskurs": 0.885,
-      "letzter_kurs": 0.885,
-      "liquiditaet": 27.45999,
-      "end_date": "2027-02-11T04:59:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5037277",
-      "frage": "Exact Score: Konyaspor 2 - 4 Rams Başakşehir FK?",
-      "slug": "tur-kon-iba-2026-10-11-exact-score-2-4",
-      "shares": 2.3352570559087127,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 123.1497,
-      "end_date": "2026-10-11T10:30:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
@@ -288,50 +167,6 @@
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
-      "market_id": "5224768",
-      "frage": "Exact Score: Slovakia 4 - 0 Ukraine?",
-      "slug": "wwcquefa-slov-ukr-2026-10-09-exact-score-4-0",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.3197,
-      "end_date": "2026-10-09T16:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5236356",
-      "frage": "Exact Score: FK Cukaricki Belgrade 5 - 1 FK Macva Sabac?",
-      "slug": "srb-cuk-mac-2026-10-10-exact-score-5-1",
-      "shares": 2.3352570559087127,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 24.0689,
-      "end_date": "2026-10-10T15:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "4974240",
-      "frage": "Exact Score: USL Dunkerque 1 - 5 FC Annecy?",
-      "slug": "fr2-usd-fca-2026-10-09-exact-score-1-5",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.9595,
-      "end_date": "2026-10-09T18:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5025607",
-      "frage": "Exact Score: FC Halifax Town 2 - 5 Gateshead FC?",
-      "slug": "enl-hal-gat-2026-10-10-exact-score-2-5",
-      "shares": 2.3352570559087127,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 11.3854,
-      "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
       "market_id": "5065419",
       "frage": "Exact Score: Elche CF 1 - 3 RC Celta de Vigo?",
       "slug": "lal-elc-cel-2026-10-11-exact-score-1-3",
@@ -340,28 +175,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 22.1899,
       "end_date": "2026-10-11T12:00:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5036679",
-      "frage": "Exact Score: Inter Miami CF 4 - 5 D.C. United SC?",
-      "slug": "mls-mia-dcu-2026-10-10-exact-score-4-5",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.6096,
-      "end_date": "2026-10-10T23:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5049706",
-      "frage": "Exact Score: Brøndby IF 1 - 1 Lyngby BK?",
-      "slug": "den-bro-lyn-2026-10-11-exact-score-1-1",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 13.8593,
-      "end_date": "2026-10-11T14:00:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
@@ -376,17 +189,6 @@
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
-      "market_id": "5064386",
-      "frage": "SC Freiburg vs. FC Schalke 04: Both Teams to Score in First Half",
-      "slug": "bun-fre-s04-2026-10-11-btts-first-half",
-      "shares": 2.3352570559087136,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 13.38,
-      "end_date": "2026-10-11T15:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
       "market_id": "5084548",
       "frage": "Exact Score: CA San Lorenzo de Almagro 4 - 0 CD Riestra?",
       "slug": "arg-slo-rie-2026-10-11-exact-score-4-0",
@@ -395,28 +197,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 13.4415,
       "end_date": "2026-10-11T17:45:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5067882",
-      "frage": "Exact Score: Calcio Padova 5 - 2 Carrarese Calcio?",
-      "slug": "itsb-pad-car-2026-10-11-exact-score-5-2",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.9199,
-      "end_date": "2026-10-11T15:15:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "4567147",
-      "frage": "Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?",
-      "slug": "will-liz-truluck-reach-the-semifinals-of-the-2027-ppa-tour-finals",
-      "shares": 2.6255149950612084,
-      "einstandskurs": 0.885,
-      "letzter_kurs": 0.885,
-      "liquiditaet": 28.761,
-      "end_date": "2027-05-10T23:59:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
@@ -508,17 +288,6 @@
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
-      "market_id": "5146939",
-      "frage": "Exact Score: Cardiff City FC 4 - 1 Watford FC?",
-      "slug": "elc-car-wat-2026-10-13-exact-score-4-1",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 6.9198,
-      "end_date": "2026-10-13T18:45:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
       "market_id": "5169339",
       "frage": "Exact Score: Queens Park Rangers FC 5 - 4 Derby County FC?",
       "slug": "elc-qpr-der-2026-10-14-exact-score-5-4",
@@ -538,17 +307,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 7.1598,
       "end_date": "2026-10-15T02:30:00Z",
-      "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5189426",
-      "frage": "Exact Score: FC Lugano 0 - 3 FK Crvena zvezda?",
-      "slug": "col-lug-crv-2026-10-15-exact-score-0-3",
-      "shares": 2.335257055908713,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 10.1597,
-      "end_date": "2026-10-15T16:45:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     }
   ],

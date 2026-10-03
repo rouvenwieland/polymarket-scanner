@@ -52,3 +52,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T15:17:08.470757+02:00,VERKAUF,4970693,1. FC Kaiserslautern to win the second half?,47.8403,0.9847,47.1106,120.4259,Konvergenz erreicht (Kurs 1.000)
 2026-10-04T00:17:01.658931+02:00,KAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,3.057,0.8983,-2.746,117.6799,"Spread 11.50%, Liquiditaet 27 USD"
 2026-10-04T00:17:01.658931+02:00,KAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,3.2018,0.8983,-2.8761,114.8038,"Spread 11.50%, Liquiditaet 29 USD"
+2026-10-04T00:45:18.881397+02:00,VERKAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,3.057,0.9878,3.0196,117.8234,Konvergenz erreicht (Kurs 1.000)
+2026-10-04T00:45:18.881397+02:00,VERKAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,3.2018,0.9832,3.1481,120.9716,Konvergenz erreicht (Kurs 1.000)
