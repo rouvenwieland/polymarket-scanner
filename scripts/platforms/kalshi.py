@@ -88,7 +88,12 @@ def fetch_all_open_markets(limit=LIMIT):
 
 
 def normalize(market):
-    if market.get("status") != "open":
+    # Die Query gegen status=open filtert serverseitig korrekt, aber das
+    # status-FELD in der Antwort selbst nutzt ein anderes Vokabular: ein
+    # gerade handelbarer Markt trägt dort "active", nicht "open" - mit dem
+    # falschen Wert hier wurde bisher JEDER geladene Markt verworfen (0
+    # normalisierte Märkte trotz hunderttausender geladener Rohdaten).
+    if market.get("status") != "active":
         return None
     try:
         yes_price = float(market["yes_ask_dollars"])

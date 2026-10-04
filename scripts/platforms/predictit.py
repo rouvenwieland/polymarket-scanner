@@ -36,12 +36,22 @@ Gebühren (PredictIt-Gebührenordnung):
     dokumentiert, nicht in der Pro-Trade-Simulation verrechnet).
 """
 
+import time
+
 import requests
 
 API_URL = "https://www.predictit.org/api/marketdata/all/"
 
 FEE_RATE_PROFIT = 0.10
 FEE_RATE_WITHDRAWAL = 0.05
+
+# Mehrere Fonds (die drei Cross-Platform-Kapitalstufen plus der PredictIt-
+# Solo-Fonds) können Positionen im SELBEN zugrundeliegenden Markt halten -
+# ohne Cache würde jede einen eigenen Einzel-Lookup auf dieselbe outer_id
+# machen und PredictIt dadurch unnötig oft anfragen (hat in der Praxis zu
+# wiederholten HTTP 429 geführt). Cache lebt nur für die Laufzeit des
+# jeweiligen Scan-/Watch-Prozesses (kein TTL nötig).
+_contract_cache = {}
 
 
 def fetch_all_markets():
@@ -101,18 +111,36 @@ def fetch_all_normalized():
 
 def fetch_contract_by_market_id(market_id):
     """Einzel-Lookup für den Watcher. market_id hat das Format '<marketId>:<contractId>'
-    (siehe normalize_contract). Gibt (market, contract) oder (None, None) zurück."""
+    (siehe normalize_contract). Gibt (market, contract) oder (None, None) zurück.
+    Innerhalb eines Laufs gecacht pro outer_id (siehe _contract_cache) und mit
+    einem kurzen Retry bei HTTP 429, da mehrere Positionen/Fonds denselben
+    zugrundeliegenden Markt gleichzeitig abfragen können."""
     try:
         outer_id = market_id.split(":", 1)[0]
         contract_id = int(market_id.split(":", 1)[1])
     except (AttributeError, IndexError, ValueError):
         return None, None
-    try:
-        resp = requests.get(f"https://www.predictit.org/api/marketdata/markets/{outer_id}", timeout=15)
-        resp.raise_for_status()
-        market = resp.json()
-    except (requests.RequestException, ValueError) as e:
-        print(f"[Warnung] PredictIt-Einzel-Lookup {market_id} fehlgeschlagen: {e}")
+
+    market = _contract_cache.get(outer_id)
+    if market is None:
+        delay = 1.0
+        for attempt in range(2):
+            try:
+                resp = requests.get(f"https://www.predictit.org/api/marketdata/markets/{outer_id}", timeout=15)
+                if resp.status_code == 429 and attempt == 0:
+                    time.sleep(delay)
+                    continue
+                resp.raise_for_status()
+                market = resp.json()
+                _contract_cache[outer_id] = market
+                break
+            except (requests.RequestException, ValueError) as e:
+                if attempt == 1:
+                    print(f"[Warnung] PredictIt-Einzel-Lookup {market_id} fehlgeschlagen: {e}")
+                    return None, None
+                time.sleep(delay)
+
+    if market is None:
         return None, None
     for contract in market.get("contracts", []):
         if contract.get("id") == contract_id:
