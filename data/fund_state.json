@@ -1,17 +1,5 @@
 {
-  "cash": 112.20251773246686,
-  "positions": [
-    {
-      "market_id": "5260958",
-      "frage": "Los Angeles Dodgers to win the 3rd inning?",
-      "slug": "mlb-atl-lad-2026-10-04-inning-3-winner-home",
-      "shares": 17.205011442535206,
-      "einstandskurs": 0.6445249999999999,
-      "letzter_kurs": 0.6445249999999999,
-      "liquiditaet": 110.8906,
-      "end_date": "2026-10-05T00:00:00Z",
-      "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
-    }
-  ],
+  "cash": 129.00711775319837,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

@@ -56,3 +56,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-04T00:45:18.881397+02:00,VERKAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,3.2018,0.9832,3.1481,120.9716,Konvergenz erreicht (Kurs 1.000)
 2026-10-04T03:47:12.906690+02:00,VERKAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.9561,2.32,123.2916,Konvergenz erreicht (Kurs 1.000)
 2026-10-04T03:47:12.906690+02:00,KAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.6445,-11.0891,112.2025,"Spread 36.50%, Liquiditaet 111 USD"
+2026-10-04T04:00:10.557503+02:00,VERKAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.9767,16.8046,129.0071,Konvergenz erreicht (Kurs 1.000)
