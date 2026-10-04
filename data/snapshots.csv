@@ -2760,3 +2760,43 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-04T03:47:12.906690+02:00,5253924,Exact Score: Fujieda MYFC 5 - 3 Montedio Yamagata?,ja2-fuj-mon-2026-10-17-exact-score-5-3,0.49,0.505,0.995,0.0,11.5192,2026-10-17T05:00:00Z
 2026-10-04T03:47:12.906690+02:00,5256416,K Beerschot VA vs. RFC Liege: Both Teams to Score in Second Half,bel2-bee-rfcl-2026-10-10-btts-second-half,0.495,0.5,0.995,0.0,62.4196,2026-10-10T18:00:00Z
 2026-10-04T03:47:12.906690+02:00,5260958,Los Angeles Dodgers to win the 3rd inning?,mlb-atl-lad-2026-10-04-inning-3-winner-home,0.195,0.44,0.635,0.0,110.8906,2026-10-05T00:00:00Z
+2026-10-04T15:29:22.636221+02:00,2300184,Will Perplexity's valuation hit (HIGH) $50B by December 31?,will-perplexitys-valuation-hit-high-50b-by-december-31,0.0345,0.965,0.9994999999999999,5820.800322,227.75307,2027-01-01T13:00:00Z
+2026-10-04T15:29:22.636221+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-04T15:29:22.636221+02:00,3504015,Will Team D finish the 2026-27 NFL regular season with the fewest total yards allowed per game?,will-team-d-finish-the-2026-27-nfl-regular-season-with-the-fewest-total-yards-allowed-per-game-20260716001413303,0.495,0.5,0.995,0.0,0.784,2027-01-27T04:59:00Z
+2026-10-04T15:29:22.636221+02:00,3543912,Will Los Chankas be runner-up in the 2026 Peru Liga 1?,2026-soccer-peru-liga-1-runner-up-los-chankas,0.48,0.515,0.995,0.0,12.3179,2027-01-01T04:59:00Z
+2026-10-04T15:29:22.636221+02:00,3543913,Will Sporting Cristal be runner-up in the 2026 Peru Liga 1?,2026-soccer-peru-liga-1-runner-up-sporting-cristal,0.49,0.505,0.995,51.5306,21.1068,2027-01-01T04:59:00Z
+2026-10-04T15:29:22.636221+02:00,3572148,Will Moonshot be the second-best AI Agent Lab at the end of October 2026?,will-moonshot-be-the-second-best-ai-agent-lab-at-the-end-of-october-2026,0.0425,0.957,0.9994999999999999,8327.864192,1157.78546,2026-10-31T16:00:00Z
+2026-10-04T15:29:22.636221+02:00,3849205,Will Coquimbo finish 3rd in the 2026 Chile Primera?,will-coquimbo-finish-3rd-in-chile-primera-2026,0.465,0.53,0.9950000000000001,0.0,7.2373,2027-01-01T04:59:00Z
+2026-10-04T15:29:22.636221+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-04T15:29:22.636221+02:00,4957319,Exact Score: Kashiwa Reysol 3 - 2 Vissel Kōbe?,jap-rey-vis-2026-10-09-exact-score-3-2,0.245,0.75,0.995,0.0,29.6398,2026-10-09T10:00:00Z
+2026-10-04T15:29:22.636221+02:00,4961386,Exact Score: Shenzhen Xinpengcheng FC 1 - 3 Henan FC?,chi-xin-hen-2026-10-09-exact-score-1-3,0.245,0.75,0.995,0.0,22.3797,2026-10-09T11:35:00Z
+2026-10-04T15:29:22.636221+02:00,4961701,Exact Score: Gangwon FC 5 - 0 Bucheon FC 1995?,kor-gwo-bch-2026-10-09-exact-score-5-0,0.245,0.75,0.995,0.0,27.0897,2026-10-09T07:30:00Z
+2026-10-04T15:29:22.636221+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-04T15:29:22.636221+02:00,5009151,Exact Score: 1. FC Magdeburg 3 - 1 Hannover 96?,bl2-fcm-h96-2026-10-10-exact-score-3-1,0.245,0.75,0.995,0.0,22.98,2026-10-10T11:00:00Z
+2026-10-04T15:29:22.636221+02:00,5054931,Shōnan Bellmāre vs. Albirex Niigata: Both Teams to Score in Second Half,ja2-sho-alb-2026-10-11-btts-second-half,0.41,0.585,0.9949999999999999,0.0,72.2197,2026-10-11T09:00:00Z
+2026-10-04T15:29:22.636221+02:00,5062799,FC Schalke 04 to score first vs. SC Freiburg?,bun-fre-s04-2026-10-11-first-to-score-away,0.495,0.5,0.995,0.0,43.0688,2026-10-11T15:30:00Z
+2026-10-04T15:29:22.636221+02:00,5083205,Exact Score: CF Pachuca 3 - 1 Club Necaxa?,mex-pac-nec-2026-10-11-exact-score-3-1,0.245,0.75,0.995,0.0,17.7599,2026-10-11T23:15:00Z
+2026-10-04T15:29:22.636221+02:00,5083567,Hunter Long: Anytime Touchdown,nfl-ari-nyg-2026-10-04-anytime-td-hunter-long,0.4985,0.501,0.9995,0.0,18.36993,2026-10-04T17:00:00Z
+2026-10-04T15:29:22.636221+02:00,5163238,Will Emanuel Wilson score the first touchdown?,nfl-lac-sea-2026-10-04-first-td-scorer-emanuel-wilson,0.485,0.51,0.995,0.0,2.9198,2026-10-04T20:25:00Z
+2026-10-04T15:29:22.636221+02:00,5180856,World Championship of Legends: Pakistan Champions vs Bangladesh Champions - Most Sixes Bangladesh Champions Winner,cricwcl-pak-ban-2026-10-03-most-sixes-ban,0.5,0.49,0.99,0.0,0.0,2026-10-10T15:30:00Z
+2026-10-04T15:29:22.636221+02:00,5181967,Exact Score: Wolverhampton Wanderers WFC 0 - 1 Watford LFC?,wsl2-wol-wat-2026-10-04-exact-score-0-1,0.005,0.5005,0.5055,0.0,1.11999,2026-10-04T13:00:00Z
+2026-10-04T15:29:22.636221+02:00,5211600,Manchester United FC vs. Tottenham Hotspur FC: Neither team to score first in the 2nd half?,epl-mun-tot-2026-10-10-second-half-first-to-score-neither,0.495,0.5,0.995,0.0,2.6599,2026-10-10T16:30:00Z
+2026-10-04T15:29:22.636221+02:00,5216607,Will Tristana be the most played champion at Worlds 2026?,will-tristana-be-the-most-played-champion-at-worlds-2026,0.4995,0.5,0.9995,0.0,2.86997,2026-12-15T04:59:00Z
+2026-10-04T15:29:22.636221+02:00,5218982,"Will Robinhood Markets, Inc. (HOOD) hit (LOW) $105 Week of October 5 2026?",will-hood-dip-to-105-by-october-5-2026,0.26,0.735,0.995,0.0,399.3195,2026-10-09T20:00:00Z
+2026-10-04T15:29:22.636221+02:00,5230117,Will Alexander Albon achieve the fastest lap in Practice 1 at the 2026 F1 Mexican Grand Prix?,f1-mexican-grand-prix-practice-1-fastest-lap-alexander-albon-2026-10-30,0.495,0.5,0.995,0.0,2.1199,2026-11-06T18:30:00Z
+2026-10-04T15:29:22.636221+02:00,5238296,FK Cukaricki Belgrade vs. FK Macva Sabac: Both Teams to Score,srb-cuk-mac-2026-10-10-btts,0.505,0.49,0.995,0.0,91.4188,2026-10-10T15:00:00Z
+2026-10-04T15:29:22.636221+02:00,5239022,Will Pierceson Coody finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-pierceson-coody,0.495,0.5,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-04T15:29:22.636221+02:00,5239023,Will Nicolas Echavarria finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-nicolas-echavarria,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-04T15:29:22.636221+02:00,5239117,Will Takumi Kanaya finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-takumi-kanaya,0.5,0.495,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-04T15:29:22.636221+02:00,5239143,Will Xander Schauffele finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-xander-schauffele,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-04T15:29:22.636221+02:00,5264704,Manchester City FC vs. Ipswich Town FC: Neither team to score first?,epl-mac-ips-2026-10-17-first-to-score-neither,0.485,0.51,0.995,0.0,22.633,2026-10-17T14:00:00Z
+2026-10-04T15:29:22.636221+02:00,5271660,Exact Score: Plymouth Argyle FC 1 - 3 Huddersfield Town AFC?,el1-ply-hud-2026-10-17-exact-score-1-3,0.48,0.515,0.995,0.0,18.7294,2026-10-17T14:00:00Z
+2026-10-04T15:29:22.636221+02:00,5273207,Exact Score: FK Zorya Luhansk 3 - 2 FK Chornomorets Odesa?,ukr1-zor-fco-2026-10-17-exact-score-3-2,0.485,0.51,0.995,0.0,11.2884,2026-10-17T10:00:00Z
+2026-10-04T15:29:22.636221+02:00,5273213,Exact Score: FK Zorya Luhansk 4 - 2 FK Chornomorets Odesa?,ukr1-zor-fco-2026-10-17-exact-score-4-2,0.485,0.51,0.995,0.0,11.2804,2026-10-17T10:00:00Z
+2026-10-04T15:29:22.636221+02:00,5274118,Exact Score: Swindon Town FC 3 - 2 Walsall FC?,el2-swi-wal-2026-10-17-exact-score-3-2,0.49,0.505,0.995,0.0,15.8288,2026-10-17T14:00:00Z
+2026-10-04T15:29:22.636221+02:00,5275505,Exact Score: Ulytau FC 5 - 3 FC Okzhetpes?,kaz1-uly-okz-2026-10-11-exact-score-5-3,0.485,0.51,0.995,0.0,16.9799,2026-10-11T10:00:00Z
+2026-10-04T15:29:22.636221+02:00,5277718,Exact Score: Standard Liege 3 - 5 Royal Charleroi SC?,bel1-sta-rch-2026-10-11-exact-score-3-5,0.485,0.51,0.995,0.0,12.5568,2026-10-11T11:30:00Z
+2026-10-04T15:29:22.636221+02:00,5278256,Exact Score: MFK Skalica 5 - 3 AS Trenčín?,svk1-ska-tre-2026-10-17-exact-score-5-3,0.49,0.505,0.995,0.0,13.1197,2026-10-17T13:30:00Z
+2026-10-04T15:29:22.636221+02:00,5278463,Exact Score: Atlético CP 1 - 3 FC Vizela?,ptc-acp-fv-2026-10-17-exact-score-1-3,0.49,0.505,0.995,0.0,11.4804,2026-10-17T14:00:00Z
+2026-10-04T15:29:22.636221+02:00,5278650,Exact Score: NK Lokomotiva Zagreb 1 - 4 NK Istra 1961?,hr1-lok-ist-2026-10-17-exact-score-1-4,0.495,0.5,0.995,0.0,8.1198,2026-10-17T13:00:00Z
+2026-10-04T15:29:22.636221+02:00,5280233,Óscar Marcos: Anytime Goalscorer,es2-spo-cel-2026-10-04-ags-oscar-marcos-90143545,0.5,0.495,0.995,0.0,0.1,2026-10-04T14:15:00Z
