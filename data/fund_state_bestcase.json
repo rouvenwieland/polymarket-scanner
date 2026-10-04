@@ -1,5 +1,5 @@
 {
-  "cash": 14.536091190837695,
+  "cash": 51.05893337887207,
   "positions": [
     {
       "market_id": "5180856",
@@ -57,39 +57,6 @@
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
     },
     {
-      "market_id": "5280233",
-      "frage": "Óscar Marcos: Anytime Goalscorer",
-      "slug": "es2-spo-cel-2026-10-04-ags-oscar-marcos-90143545",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 0.1,
-      "end_date": "2026-10-04T14:15:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5163238",
-      "frage": "Will Emanuel Wilson score the first touchdown?",
-      "slug": "nfl-lac-sea-2026-10-04-first-td-scorer-emanuel-wilson",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.9198,
-      "end_date": "2026-10-04T20:25:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5218982",
-      "frage": "Will Robinhood Markets, Inc. (HOOD) hit (LOW) $105 Week of October 5 2026?",
-      "slug": "will-hood-dip-to-105-by-october-5-2026",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 399.3195,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
       "market_id": "5238296",
       "frage": "FK Cukaricki Belgrade vs. FK Macva Sabac: Both Teams to Score",
       "slug": "srb-cuk-mac-2026-10-10-btts",
@@ -109,17 +76,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 27.0897,
       "end_date": "2026-10-09T07:30:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "4957319",
-      "frage": "Exact Score: Kashiwa Reysol 3 - 2 Vissel Kōbe?",
-      "slug": "jap-rey-vis-2026-10-09-exact-score-3-2",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 29.6398,
-      "end_date": "2026-10-09T10:00:00Z",
       "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
     },
     {
@@ -145,50 +101,6 @@
       "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
     },
     {
-      "market_id": "5009151",
-      "frage": "Exact Score: 1. FC Magdeburg 3 - 1 Hannover 96?",
-      "slug": "bl2-fcm-h96-2026-10-10-exact-score-3-1",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 22.98,
-      "end_date": "2026-10-10T11:00:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5062799",
-      "frage": "FC Schalke 04 to score first vs. SC Freiburg?",
-      "slug": "bun-fre-s04-2026-10-11-first-to-score-away",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 43.0688,
-      "end_date": "2026-10-11T15:30:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5275505",
-      "frage": "Exact Score: Ulytau FC 5 - 3 FC Okzhetpes?",
-      "slug": "kaz1-uly-okz-2026-10-11-exact-score-5-3",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 16.9799,
-      "end_date": "2026-10-11T10:00:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5277718",
-      "frage": "Exact Score: Standard Liege 3 - 5 Royal Charleroi SC?",
-      "slug": "bel1-sta-rch-2026-10-11-exact-score-3-5",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 12.5568,
-      "end_date": "2026-10-11T11:30:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
       "market_id": "5083205",
       "frage": "Exact Score: CF Pachuca 3 - 1 Club Necaxa?",
       "slug": "mex-pac-nec-2026-10-11-exact-score-3-1",
@@ -208,17 +120,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 2.6599,
       "end_date": "2026-10-10T16:30:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "5264704",
-      "frage": "Manchester City FC vs. Ipswich Town FC: Neither team to score first?",
-      "slug": "epl-mac-ips-2026-10-17-first-to-score-neither",
-      "shares": 3.652284218803438,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 22.633,
-      "end_date": "2026-10-17T14:00:00Z",
       "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
     },
     {
@@ -328,17 +229,6 @@
       "einstandskurs": 0.995,
       "letzter_kurs": 0.995,
       "liquiditaet": 12.3179,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
-    },
-    {
-      "market_id": "3849205",
-      "frage": "Will Coquimbo finish 3rd in the 2026 Chile Primera?",
-      "slug": "will-coquimbo-finish-3rd-in-chile-primera-2026",
-      "shares": 3.6522842188034375,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 7.2373,
       "end_date": "2027-01-01T04:59:00Z",
       "eingestiegen": "2026-10-04T15:29:22.636221+02:00"
     },
