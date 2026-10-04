@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-03T23:38:46.267781+02:00",
+  "timestamp": "2026-10-04T02:03:52.210387+02:00",
   "platforms": {
     "polymarket": {
-      "open_markets": 106171
+      "open_markets": 106143
     },
     "kalshi": {
       "open_markets": 0
@@ -11,5 +11,5 @@
       "open_markets": 530
     }
   },
-  "total_open_markets": 106701
+  "total_open_markets": 106673
 }
