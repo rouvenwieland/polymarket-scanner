@@ -1,5 +1,5 @@
 {
-  "cash": 15.465255058141858,
+  "cash": 13.97685860554291,
   "positions": [
     {
       "market_id": "5131225",
@@ -7,7 +7,7 @@
       "slug": "titled-tuesday-2026-10-06-top5-pranav-venkatesh",
       "shares": 2.426401892267192,
       "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.99,
+      "letzter_kurs": 1.0,
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
@@ -35,17 +35,6 @@
       "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
     },
     {
-      "market_id": "4758706",
-      "frage": "Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half",
-      "slug": "nwsl-rac-roy-2026-10-03-btts-second-half",
-      "shares": 22.774850793143926,
-      "einstandskurs": 0.998999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 13.7199,
-      "end_date": "2026-10-03T20:00:00Z",
-      "eingestiegen": "2026-10-03T21:19:54.823353+02:00"
-    },
-    {
       "market_id": "3365462",
       "frage": "Will Tony Elliott win 2026 NCAA Coach of the Year?",
       "slug": "will-tony-elliott-win-2026-ncaa-coach-of-the-year-20260803150734275",
@@ -66,6 +55,28 @@
       "liquiditaet": 28.761,
       "end_date": "2027-05-10T23:59:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
+    },
+    {
+      "market_id": "5260958",
+      "frage": "Los Angeles Dodgers to win the 3rd inning?",
+      "slug": "mlb-atl-lad-2026-10-04-inning-3-winner-home",
+      "shares": 19.73329956591512,
+      "einstandskurs": 0.6459488393135064,
+      "letzter_kurs": 0.6459488393135064,
+      "liquiditaet": 110.8906,
+      "end_date": "2026-10-05T00:00:00Z",
+      "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
+    },
+    {
+      "market_id": "3401731",
+      "frage": "Will Travis Etienne Jr. be the highest-scoring FLEX of the 2026-27 NFL season?",
+      "slug": "will-travis-etienne-jrpt-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131610",
+      "shares": 11.528084908307495,
+      "einstandskurs": 0.998999,
+      "letzter_kurs": 0.998999,
+      "liquiditaet": 12.18999,
+      "end_date": "2027-01-27T04:59:00Z",
+      "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"

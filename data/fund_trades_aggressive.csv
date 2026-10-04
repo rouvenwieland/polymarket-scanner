@@ -25,3 +25,6 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-03T21:19:54.823353+02:00,KAUF,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,22.7749,0.999,-22.7521,46.3958,"Spread 20.00%, Liquiditaet 14 USD"
 2026-10-04T00:17:01.658931+02:00,KAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,16.1136,0.9598,-15.4653,30.9305,"Spread 11.50%, Liquiditaet 27 USD"
 2026-10-04T00:17:01.658931+02:00,KAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,16.1706,0.9564,-15.4653,15.4653,"Spread 11.50%, Liquiditaet 29 USD"
+2026-10-04T03:47:12.906690+02:00,AUSZAHLUNG,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,22.7749,1.0,22.7749,38.2401,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-04T03:47:12.906690+02:00,KAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,19.7333,0.6459,-12.7467,25.4934,"Spread 36.50%, Liquiditaet 111 USD"
+2026-10-04T03:47:12.906690+02:00,KAUF,3401731,Will Travis Etienne Jr. be the highest-scoring FLEX of the 2026-27 NFL season?,11.5281,0.999,-11.5165,13.9769,"Spread 12.50%, Liquiditaet 12 USD"
