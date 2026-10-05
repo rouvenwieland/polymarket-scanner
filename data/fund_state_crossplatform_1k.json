@@ -1,5 +1,351 @@
 {
-  "cash": 1000.0,
-  "positions": [],
-  "started": null
+  "cash": 773.1275058275057,
+  "positions": [
+    {
+      "pair_id": "polymarket:1068745__predictit:8157:31952",
+      "frage": "[polymarket] Will Republican House incumbents not win in between four and six nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Republican",
+      "shares": 90.9090909090909,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068745",
+        "side": "no",
+        "einstandskurs": 0.016,
+        "letzter_kurs": 0.016,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31952",
+        "side": "yes",
+        "einstandskurs": 0.11,
+        "letzter_kurs": 0.11,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1068742__predictit:8157:31951",
+      "frage": "[polymarket] Will Democratic House incumbents not win in between thirteen and fifteen nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Democratic",
+      "shares": 100.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068742",
+        "side": "yes",
+        "einstandskurs": 0.0755,
+        "letzter_kurs": 0.0755,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31951",
+        "side": "no",
+        "einstandskurs": 0.1,
+        "letzter_kurs": 0.1,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943829__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold 57 or more Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943829",
+        "side": "yes",
+        "einstandskurs": 0.0065,
+        "letzter_kurs": 0.0065,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943828__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 56 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943828",
+        "side": "yes",
+        "einstandskurs": 0.0115,
+        "letzter_kurs": 0.0115,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:4852838__predictit:8157:31951",
+      "frage": "[polymarket] Will another party win the most seats in the 2026 Quebec general election?  <->  [predictit] Which party will win the House in the 2026 election? - Democratic",
+      "shares": 100.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "4852838",
+        "side": "yes",
+        "einstandskurs": 0.006,
+        "letzter_kurs": 0.006,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31951",
+        "side": "no",
+        "einstandskurs": 0.1,
+        "letzter_kurs": 0.1,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943826__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 54 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943826",
+        "side": "yes",
+        "einstandskurs": 0.021,
+        "letzter_kurs": 0.021,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943827__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 55 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943827",
+        "side": "yes",
+        "einstandskurs": 0.0235,
+        "letzter_kurs": 0.0235,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943825__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 53 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943825",
+        "side": "yes",
+        "einstandskurs": 0.0385,
+        "letzter_kurs": 0.0385,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943824__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 52 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943824",
+        "side": "yes",
+        "einstandskurs": 0.044,
+        "letzter_kurs": 0.044,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943823__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 51 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943823",
+        "side": "yes",
+        "einstandskurs": 0.09,
+        "letzter_kurs": 0.09,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943822__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 50 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943822",
+        "side": "yes",
+        "einstandskurs": 0.13,
+        "letzter_kurs": 0.13,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943821__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 49 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943821",
+        "side": "yes",
+        "einstandskurs": 0.135,
+        "letzter_kurs": 0.135,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:4835304__predictit:8493:33416",
+      "frage": "[polymarket] Will Northern Ireland win on 2026-10-05?  <->  [predictit] Will the US purchase Greenland in 2026?",
+      "shares": 104.98687664041995,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "4835304",
+        "side": "no",
+        "einstandskurs": 0.615,
+        "letzter_kurs": 0.615,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8493:33416",
+        "side": "yes",
+        "einstandskurs": 0.02,
+        "letzter_kurs": 0.02,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:943820__predictit:8175:32034",
+      "frage": "[polymarket] Will the Republican Party hold exactly 48 Senate seats after the 2026 midterm elections?  <->  [predictit] Which party will win the 2026 US Senate special election in Ohio? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "943820",
+        "side": "yes",
+        "einstandskurs": 0.175,
+        "letzter_kurs": 0.175,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8175:32034",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1068746__predictit:8157:31952",
+      "frage": "[polymarket] Will Republican House incumbents not win in between seven and nine nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Republican",
+      "shares": 11.11111111111111,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-05T09:42:34.187210+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068746",
+        "side": "yes",
+        "einstandskurs": 0.0195,
+        "letzter_kurs": 0.0195,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31952",
+        "side": "no",
+        "einstandskurs": 0.9,
+        "letzter_kurs": 0.9,
+        "fee_gezahlt": 0.0
+      }
+    }
+  ],
+  "started": "2026-10-05T09:42:34.187210+02:00"
 }
