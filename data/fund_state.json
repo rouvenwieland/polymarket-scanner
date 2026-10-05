@@ -1,16 +1,16 @@
 {
-  "cash": 120.98512775319837,
+  "cash": 116.72215772130087,
   "positions": [
     {
-      "market_id": "4972876",
-      "frage": "BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half",
-      "slug": "bun-dor-wer-2026-10-09-btts-second-half",
-      "shares": 8.064733085352369,
+      "market_id": "5313239",
+      "frage": "Will the lowest temperature in Jeddah be 30°C on October 7?",
+      "slug": "lowest-temperature-in-jeddah-on-october-7-2026-30c",
+      "shares": 12.274243490499648,
       "einstandskurs": 0.9946999999999999,
-      "letzter_kurs": 0.98,
-      "liquiditaet": 80.2199,
-      "end_date": "2026-10-09T18:30:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
+      "letzter_kurs": 0.9946999999999999,
+      "liquiditaet": 122.0919,
+      "end_date": "2026-10-07T12:00:00Z",
+      "eingestiegen": "2026-10-05T21:37:32.878839+02:00"
     }
   ],
   "started": "2026-09-27T14:55:14.167226+02:00"

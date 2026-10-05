@@ -1967,3 +1967,62 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-05T13:46:48.335084+02:00,VERKAUF,5074045,Hertha BSC vs. SpVgg Greuther Fürth: Both Teams to Score in First Half,4.0758,1.0,4.0758,52.9238,Konvergenz erreicht (Kurs 1.000)
 2026-10-05T13:46:48.335084+02:00,VERKAUF,5312207,Exact Score: Borussia Mönchengladbach 1 - 4 TSG 1899 Hoffenheim?,4.0758,1.0,4.0758,56.9996,Konvergenz erreicht (Kurs 1.000)
 2026-10-05T13:46:48.335084+02:00,VERKAUF,3914042,Will Navbahor finish 3rd in the 2026 Uzbekistan Super League?,4.0758,1.0,4.0758,61.0754,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5239023,Will Nicolas Echavarria finish in the Top 10 at the 2026 Baycurrent Classic?,2.3353,1.0,2.3353,63.4106,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5239143,Will Xander Schauffele finish in the Top 20 at the 2026 Baycurrent Classic?,2.3353,1.0,2.3353,65.7459,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5239022,Will Pierceson Coody finish in the Top 10 at the 2026 Baycurrent Classic?,2.3353,1.0,2.3353,68.0811,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5239117,Will Takumi Kanaya finish in the Top 20 at the 2026 Baycurrent Classic?,2.3353,1.0,2.3353,70.4164,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,4.1382,1.0,4.1382,74.5545,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5093584,US Catanzaro 1929 vs. Mantova 1911: Both Teams to Score in Second Half,4.0758,1.0,4.0758,78.6303,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5318414,Exact Score: CA Colegiales 2 - 0 CSD Tristan Suarez?,4.0758,1.0,4.0758,82.7061,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5280746,Exact Score: Washington Spirit 3 - 1 NJ/NY Gotham FC?,4.0758,1.0,4.0758,86.7818,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5273792,Exact Score: Port Vale FC 1 - 4 Chesterfield FC?,4.0758,1.0,4.0758,90.8576,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5296957,Exact Score: Ceará SC 3 - 3 EC Juventude?,4.0758,1.0,4.0758,94.9334,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5316253,Exact Score: Real Madrid CF 5 - 0 Sevilla FC?,4.0758,1.0,4.0758,99.0092,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5316236,Exact Score: Real Madrid CF 3 - 1 Sevilla FC?,4.0758,1.0,4.0758,103.0849,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5319545,Exact Score: CSD Mixco 0 - 3 CSD Cobán Imperial?,4.0758,1.0,4.0758,107.1607,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,VERKAUF,5316061,Exact Score: Any Other Score?,4.0758,1.0,4.0758,111.2365,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,KAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,2.4675,0.98,-2.4182,108.8183,"Spread 2.00%, Liquiditaet 122 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5337498,Game 4: Both Teams Slay Baron Nashor?,2.4303,0.995,-2.4182,106.4001,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5337503,Game 4: Both Teams Slay a Dragon?,2.4303,0.995,-2.4182,103.9819,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5247186,Game 1: Any Player Ultra Kill?,2.4303,0.995,-2.4182,101.5637,"Spread 0.50%, Liquiditaet 625 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,4961497,Exact Score: Zhejiang Zhiye FC 3 - 5 Shanghai Haigang FC?,2.4303,0.995,-2.4182,99.1455,"Spread 0.50%, Liquiditaet 82 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5255430,Exact Score: RSC Anderlecht Futures 2 - 2 KAS Eupen?,2.4303,0.995,-2.4182,96.7273,"Spread 0.50%, Liquiditaet 410 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5021241,SC Braga vs. Sporting CP: Both Teams to Score in First Half,2.4303,0.995,-2.4182,94.3092,"Spread 0.50%, Liquiditaet 965 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,4999866,Tokushima Vortis vs. FC Imabari: Draw at halftime?,2.4303,0.995,-2.4182,91.891,"Spread 0.50%, Liquiditaet 1397 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5022833,Cheltenham Town FC vs. Salford City FC: Both Teams to Score,2.4303,0.995,-2.4182,89.4728,"Spread 0.50%, Liquiditaet 995 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5022893,Newport County AFC vs. Colchester United FC: Both Teams to Score,2.4303,0.995,-2.4182,87.0546,"Spread 0.50%, Liquiditaet 932 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5010046,Wolverhampton Wanderers FC leading at halftime?,2.4303,0.995,-2.4182,84.6364,"Spread 0.50%, Liquiditaet 2183 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5239615,Exact Score: Hapoel Haifa FC 4 - 2 Maccabi Petah Tikva FC?,2.4303,0.995,-2.4182,82.2182,"Spread 0.50%, Liquiditaet 205 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5338173,Exact Score: Maghreb AS de Fès 5 - 0 Raja Club Athletic?,2.4303,0.995,-2.4182,79.8001,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5258041,Exact Score: Jagiellonia Bialystok 0 - 1 Gornik Zabrze?,2.4303,0.995,-2.4182,77.3819,"Spread 0.50%, Liquiditaet 299 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5113407,Exact Margin: Utah by 13-18,2.4303,0.995,-2.4182,74.9637,"Spread 0.50%, Liquiditaet 129 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5224761,Exact Score: Slovakia 1 - 2 Ukraine?,2.4303,0.995,-2.4182,72.5455,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5225129,Exact Score: Belgium 2 - 0 Poland?,2.4303,0.995,-2.4182,70.1273,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,4988458,Exact Score: FK Orenburg 0 - 2 FK Dinamo Makhachkala?,2.4303,0.995,-2.4182,67.7091,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,4988514,Casa Pia AC vs. CD Santa Clara: Second half draw?,2.4303,0.995,-2.4182,65.291,"Spread 0.50%, Liquiditaet 21 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5021090,Exact Score: FK Obolon Kyiv 5 - 1 FK Kryvbas Kryvyi Rih?,2.4303,0.995,-2.4182,62.8728,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5025237,Exact Score: Altrincham FC 0 - 0 Aldershot Town FC?,2.4303,0.995,-2.4182,60.4546,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5023507,Exact Score: Aurora FC 2 - 2 CSD Xelajú MC?,2.4303,0.995,-2.4182,58.0364,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5241263,Exact Score: Thor Akureyri 0 - 5 IBV Vestmannaeyjar?,2.4303,0.995,-2.4182,55.6182,"Spread 0.50%, Liquiditaet 6 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5054097,Gwangju FC to win the second half?,2.4303,0.995,-2.4182,53.2,"Spread 0.50%, Liquiditaet 16 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5281977,Exact Score: POT Iraklis 4 - 4 APO Levadiakos FC?,2.4303,0.995,-2.4182,50.7819,"Spread 0.50%, Liquiditaet 17 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5294625,Exact Score: Olympiacos Piraeus 1 - 3 Panathinaikos Athens?,2.4303,0.995,-2.4182,48.3637,"Spread 0.50%, Liquiditaet 17 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5338338,Exact Score: Wydad Athletic Club 3 - 1 COD Meknès?,2.4303,0.995,-2.4182,45.9455,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5332079,Exact Score: Forge FC Hamilton 5 - 1 Inter Toronto FC?,2.4303,0.995,-2.4182,43.5273,"Spread 0.50%, Liquiditaet 22 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5163391,Punjab FC vs. Odisha FC: Both Teams to Score in Second Half,2.4303,0.995,-2.4182,41.1091,"Spread 0.50%, Liquiditaet 72 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5329275,Exact Score: PAOK Thessaloniki 0 - 3 PAE PS Kalamata?,2.4303,0.995,-2.4182,38.6909,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5088063,Exact Score: FC Argeș Pitești 4 - 0 FC CFR 1907 Cluj?,2.4303,0.995,-2.4182,36.2728,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5315889,Will OpenAI have the third highest OpenRouter market share the week of October 5?,2.4303,0.995,-2.4182,33.8546,"Spread 0.50%, Liquiditaet 30 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5335587,Exact Score: Hapoel Jerusalem FC 2 - 2 Maccabi Haifa FC?,2.4303,0.995,-2.4182,31.4364,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5335596,Exact Score: Hapoel Jerusalem FC 3 - 2 Maccabi Haifa FC?,2.4303,0.995,-2.4182,29.0182,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5329271,Exact Score: PAOK Thessaloniki 1 - 0 PAE PS Kalamata?,2.4303,0.995,-2.4182,26.6,"Spread 0.50%, Liquiditaet 10 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5330108,Will the price of Solana be above $125 on October 12?,2.4303,0.995,-2.4182,24.1818,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5088847,Exact Score: Smouha SC 3 - 5 Ghazl El Mahalla SC?,2.4303,0.995,-2.4182,21.7637,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5330101,Will the price of Solana be above $110 on October 12?,2.4303,0.995,-2.4182,19.3455,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5264408,Fulham FC vs. Hull City AFC: Second half draw?,2.4303,0.995,-2.4182,16.9273,"Spread 0.50%, Liquiditaet 461 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5212382,Exact Score: TSG 1899 Hoffenheim 4 - 1 Beşiktaş JK?,2.4303,0.995,-2.4182,14.5091,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5189716,Exact Score: K. Sint-Truidense VV 5 - 0 SK Iberia 1999?,2.4303,0.995,-2.4182,12.0909,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5253955,Exact Score: FC Imabari 5 - 0 Vanraure Hachinohe FC?,2.4303,0.995,-2.4182,9.6727,"Spread 0.50%, Liquiditaet 17 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5227167,Exact Score: En Avant Guingamp 4 - 1 Pau FC?,2.4303,0.995,-2.4182,7.2546,"Spread 0.50%, Liquiditaet 13 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5264492,Exact Score: SV 07 Elversberg 1 - 3 FC Augsburg?,2.4303,0.995,-2.4182,4.8364,"Spread 0.50%, Liquiditaet 17 USD"
+2026-10-05T21:37:32.878839+02:00,KAUF,5270215,Exact Score: Inter San Carlos 4 - 1 LD Alajuelense?,2.4303,0.995,-2.4182,2.4182,"Spread 0.50%, Liquiditaet 16 USD"
