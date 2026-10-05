@@ -95,6 +95,14 @@ def normalize(market):
     # normalisierte Märkte trotz hunderttausender geladener Rohdaten).
     if market.get("status") != "active":
         return None
+    if market.get("mve_selected_legs") or market.get("market_type") == "multivariate":
+        # "Multivariate Event"-Kombiprodukte (mehrere Legs zu einer
+        # künstlichen Wette gebündelt, z.B. mehrere Tennis-Matches auf
+        # einmal) - der title ist dabei nur eine aneinandergereihte Liste
+        # der Einzel-Legs ("yes Spieler A, yes Spieler B, ..."), kein
+        # echter Realwelt-Ereignis-Titel. Für Cross-Platform-Matching
+        # und die Solo-Strategie ungeeignet - raus damit.
+        return None
     try:
         yes_price = float(market["yes_ask_dollars"])
         no_price = float(market["no_ask_dollars"])

@@ -43,6 +43,7 @@ Hauptrisiko dieser Strategie.
 
 import difflib
 import re
+import unicodedata
 from datetime import datetime, timezone
 
 STOPWORDS = {
@@ -52,8 +53,15 @@ STOPWORDS = {
     "than", "more", "less", "than", "have", "has", "not", "it", "its",
 }
 
-_TOKEN_RE = re.compile(r"[a-z0-9]+")
+_TOKEN_RE = re.compile(r"\w+", re.UNICODE)  # \w erfasst auch Unicode-Buchstaben (z.B. "Tōkyō")
 _YEAR_RE = re.compile(r"\b(20[2-4]\d)\b")
+# Wahlkreis-/Bezirkscodes (z.B. "IL-01", "CA-20") und Prozent-Bänder (z.B.
+# "45%-50%", "70% or more" grob als "70%") - genau die Art Detail, die der
+# Tokenizer wegen der Mindestlänge/Ziffern-Filterung verschluckt, obwohl sie
+# oft der EINZIGE Unterschied zwischen einer sehr spezifischen Frage und
+# einer viel allgemeineren Frage zum selben Thema ist (siehe _conflicting_specifics).
+_DISTRICT_CODE_RE = re.compile(r"\b[A-Za-z]{2}-\d{1,2}\b")
+_PERCENT_RE = re.compile(r"\b\d{1,3}%")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
@@ -72,8 +80,15 @@ def _stem(token):
     return token
 
 
+def _strip_accents(text):
+    """Nur Akzente/diakritische Zeichen entfernen (NFKD + combining-Filter,
+    reine Stdlib) - macht "Tōkyō" zu "tokyo", damit Namen in unterschiedlicher
+    Schreibweise über Plattformen hinweg trotzdem denselben Token ergeben."""
+    return "".join(c for c in unicodedata.normalize("NFKD", text) if not unicodedata.combining(c))
+
+
 def _tokenize(text):
-    tokens = _TOKEN_RE.findall((text or "").lower())
+    tokens = _TOKEN_RE.findall(_strip_accents((text or "").lower()))
     return {_stem(t) for t in tokens if t not in STOPWORDS and len(t) > 2}
 
 
@@ -136,8 +151,76 @@ def _conflicting_years(question_a, question_b):
     return bool(years_a) and bool(years_b) and years_a.isdisjoint(years_b)
 
 
+def _non_numeric(tokens):
+    return {t for t in tokens if not t.isdigit()}
+
+
+_TRAILING_SUBJECT_RE = re.compile(r"-\s*([A-Za-z][A-Za-z.'\s]{2,40})$")
+_LEADING_SUBJECT_RE = re.compile(r"\bwill\s+([A-Za-z][A-Za-z.'\s]{2,40}?)\s+(?:win|be)\b", re.IGNORECASE)
+_GENERIC_SUBJECTS = {"democratic", "republican", "democrat", "yes", "no"}
+
+
+def _extract_subject(question):
+    """Versucht, das konkrete Subjekt einer Frage zu extrahieren - entweder
+    als "- Name"-Suffix (gängiges Format für Mehrfachauswahl-Märkte, siehe
+    platforms/predictit.py normalize_contract) oder als "Will <Name> win/be"-
+    Konstruktion. None, wenn kein Muster passt."""
+    m = _TRAILING_SUBJECT_RE.search(question)
+    if m:
+        return m.group(1).strip().lower()
+    m = _LEADING_SUBJECT_RE.search(question)
+    if m:
+        return m.group(1).strip().lower()
+    return None
+
+
+def _conflicting_subjects(question_a, question_b):
+    """Harter Gegenbeweis für Mehrkandidaten-Märkte: dieselbe Rennen-
+    Beschreibung ("... Governor Election ...") kann für JEDEN Kandidaten
+    einen eigenen Contract haben - Yes auf Kandidat A + No auf Kandidat B
+    ist KEINE Arbitrage (beide können verlieren). Wenn beide Seiten ein
+    klar unterschiedliches, nicht-generisches Subjekt nennen, das auf der
+    jeweils anderen Seite nirgends im Text vorkommt, ist das so ein Fall."""
+    subj_a = _extract_subject(question_a)
+    subj_b = _extract_subject(question_b)
+    if not subj_a or not subj_b or subj_a == subj_b:
+        return False
+    if subj_a in _GENERIC_SUBJECTS or subj_b in _GENERIC_SUBJECTS:
+        return False
+    if subj_a in question_b.lower() or subj_b in question_a.lower():
+        return False
+    return True
+
+
+def _conflicting_specifics(question_a, question_b):
+    """Zweiter harter Gegenbeweis, analog zu _conflicting_years: nennt eine
+    Seite einen Wahlkreis-/Bezirkscode (z.B. "IL-01") oder ein Prozent-Band
+    (z.B. "45%"), den die andere Seite gar nicht erwähnt, handelt es sich
+    um eine spezifischere/andere Frage zum selben Oberthema - z.B. "Wer
+    gewinnt IL-01?" vs. "Wer gewinnt insgesamt das Repräsentantenhaus?".
+    Durch die Tokenisierung (Mindestlänge, Ziffern-Filter) wäre dieser
+    Unterschied sonst für die Jaccard-/Containment-Scores unsichtbar, weil
+    genau diese Codes herausgefiltert werden."""
+    codes_a = set(_DISTRICT_CODE_RE.findall(question_a)) | set(_PERCENT_RE.findall(question_a))
+    codes_b = set(_DISTRICT_CODE_RE.findall(question_b)) | set(_PERCENT_RE.findall(question_b))
+    return bool(codes_a) != bool(codes_b) or (bool(codes_a) and codes_a.isdisjoint(codes_b))
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b):
-    if _conflicting_years(question_a, question_b):
+    if (
+        _conflicting_years(question_a, question_b)
+        or _conflicting_specifics(question_a, question_b)
+        or _conflicting_subjects(question_a, question_b)
+    ):
+        return 0.0
+    # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer
+    # Seite kaum mehr als eine Jahreszahl übrig bleibt (z.B. weil der Titel
+    # fast nur aus kurzen/nicht lateinischen Wörtern bestand, die der
+    # Stoppwort-/Mindestlängen-Filter verschluckt), wäre jede gemeinsame
+    # Jahreszahl allein schon ein "perfektes" Containment-Match - ohne echten
+    # inhaltlichen Bezug. Ohne mindestens 2 NICHT-numerische Tokens pro Seite
+    # lieber kein Match als ein Zufallstreffer über ein gemeinsames Jahr.
+    if len(_non_numeric(title_tokens_a)) < 2 or len(_non_numeric(title_tokens_b)) < 2:
         return 0.0
     jaccard_score = _jaccard(title_tokens_a, title_tokens_b)
     containment_score = (
