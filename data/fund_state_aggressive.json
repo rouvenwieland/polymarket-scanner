@@ -1,5 +1,5 @@
 {
-  "cash": 59.08523170855459,
+  "cash": 48.717218918758626,
   "positions": [
     {
       "market_id": "5131225",
@@ -55,6 +55,17 @@
       "liquiditaet": 12.18999,
       "end_date": "2027-01-27T04:59:00Z",
       "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
+    },
+    {
+      "market_id": "4972876",
+      "frage": "BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half",
+      "slug": "bun-dor-wer-2026-10-09-btts-second-half",
+      "shares": 10.3784015697673,
+      "einstandskurs": 0.9989990000000001,
+      "letzter_kurs": 0.9989990000000001,
+      "liquiditaet": 80.2199,
+      "end_date": "2026-10-09T18:30:00Z",
+      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"

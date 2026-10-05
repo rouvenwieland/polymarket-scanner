@@ -57,3 +57,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-04T03:47:12.906690+02:00,VERKAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.9561,2.32,123.2916,Konvergenz erreicht (Kurs 1.000)
 2026-10-04T03:47:12.906690+02:00,KAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.6445,-11.0891,112.2025,"Spread 36.50%, Liquiditaet 111 USD"
 2026-10-04T04:00:10.557503+02:00,VERKAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.9767,16.8046,129.0071,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:09:11.948773+02:00,KAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,8.0647,0.9947,-8.022,120.9851,"Spread 2.00%, Liquiditaet 80 USD"

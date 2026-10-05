@@ -30,3 +30,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-04T03:47:12.906690+02:00,KAUF,3401731,Will Travis Etienne Jr. be the highest-scoring FLEX of the 2026-27 NFL season?,11.5281,0.999,-11.5165,13.9769,"Spread 12.50%, Liquiditaet 12 USD"
 2026-10-05T06:30:40.149621+02:00,AUSZAHLUNG,4765516,CA Tigre to win the second half?,25.3751,1.0,25.3751,39.3519,Markt als geschlossen/aufgelöst markiert
 2026-10-05T06:30:40.149621+02:00,AUSZAHLUNG,5260958,Los Angeles Dodgers to win the 3rd inning?,19.7333,1.0,19.7333,59.0852,Markt als geschlossen/aufgelöst markiert
+2026-10-05T13:09:11.948773+02:00,KAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,10.3784,0.999,-10.368,48.7172,"Spread 2.00%, Liquiditaet 80 USD"

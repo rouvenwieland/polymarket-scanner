@@ -2800,3 +2800,39 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-04T15:29:22.636221+02:00,5278463,Exact Score: Atlético CP 1 - 3 FC Vizela?,ptc-acp-fv-2026-10-17-exact-score-1-3,0.49,0.505,0.995,0.0,11.4804,2026-10-17T14:00:00Z
 2026-10-04T15:29:22.636221+02:00,5278650,Exact Score: NK Lokomotiva Zagreb 1 - 4 NK Istra 1961?,hr1-lok-ist-2026-10-17-exact-score-1-4,0.495,0.5,0.995,0.0,8.1198,2026-10-17T13:00:00Z
 2026-10-04T15:29:22.636221+02:00,5280233,Óscar Marcos: Anytime Goalscorer,es2-spo-cel-2026-10-04-ags-oscar-marcos-90143545,0.5,0.495,0.995,0.0,0.1,2026-10-04T14:15:00Z
+2026-10-05T13:09:11.948773+02:00,701570,"Will Solana reach $220 by December 31, 2026?",will-solana-reach-220-by-december-31-2026,0.066,0.9335,0.9995,38199.31030699999,43970.33319,2027-01-01T05:00:00Z
+2026-10-05T13:09:11.948773+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-05T13:09:11.948773+02:00,3504015,Will Team D finish the 2026-27 NFL regular season with the fewest total yards allowed per game?,will-team-d-finish-the-2026-27-nfl-regular-season-with-the-fewest-total-yards-allowed-per-game-20260716001413303,0.495,0.5,0.995,0.0,0.784,2027-01-27T04:59:00Z
+2026-10-05T13:09:11.948773+02:00,3914042,Will Navbahor finish 3rd in the 2026 Uzbekistan Super League?,will-navbahor-finish-3rd-in-uzbekistan-super-league-2026,0.485,0.51,0.995,0.0,7.982,2027-01-01T04:59:00Z
+2026-10-05T13:09:11.948773+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-05T13:09:11.948773+02:00,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,bun-dor-wer-2026-10-09-btts-second-half,0.42,0.56,0.98,0.0,80.2199,2026-10-09T18:30:00Z
+2026-10-05T13:09:11.948773+02:00,4974139,Exact Score: AS Nancy-Lorraine 3 - 2 En Avant Guingamp?,fr2-asn-gui-2026-10-09-exact-score-3-2,0.2465,0.753,0.9995,0.0,691.40129,2026-10-09T18:00:00Z
+2026-10-05T13:09:11.948773+02:00,4977761,NK Rudeš leading at halftime?,hr1-gor-rud-2026-10-09-halftime-result-away,0.15,0.845,0.995,0.0,1024.4225,2026-10-09T16:00:00Z
+2026-10-05T13:09:11.948773+02:00,4992188,Cerezo Ōsaka leading at halftime?,jap-cer-yom-2026-10-10-halftime-result-home,0.335,0.66,0.9950000000000001,0.0,1915.0322,2026-10-10T05:00:00Z
+2026-10-05T13:09:11.948773+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-05T13:09:11.948773+02:00,5018679,Exact Score: Milton Keynes Dons FC 3 - 2 Reading FC?,el1-mkd-rea-2026-10-10-exact-score-3-2,0.3745,0.625,0.9995,0.0,17.4749,2026-10-10T14:00:00Z
+2026-10-05T13:09:11.948773+02:00,5021239,SC Braga vs. Sporting CP: Both Teams to Score,por-scb-spo-2026-10-09-btts,0.53,0.465,0.9950000000000001,0.0,1294.3853,2026-10-09T19:15:00Z
+2026-10-05T13:09:11.948773+02:00,5030671,Galatasaray SK vs. Kasımpaşa SK: Both Teams to Score in First Half,tur-gal-kas-2026-10-09-btts-first-half,0.41,0.585,0.9949999999999999,0.0,6.5972,2026-10-09T17:00:00Z
+2026-10-05T13:09:11.948773+02:00,5074045,Hertha BSC vs. SpVgg Greuther Fürth: Both Teams to Score in First Half,bl2-ber-fur-2026-10-11-btts-first-half,0.41,0.585,0.9949999999999999,0.0,7.209,2026-10-11T11:30:00Z
+2026-10-05T13:09:11.948773+02:00,5080387,Will the CAQ win 1 seat in the National Assembly of Quebec in this election?,will-the-caq-win-1-seat-in-the-national-assembly-of-quebec-in-this-election,0.22,0.775,0.995,470.104546,1086.8665,2026-10-05T23:59:00Z
+2026-10-05T13:09:11.948773+02:00,5093584,US Catanzaro 1929 vs. Mantova 1911: Both Teams to Score in Second Half,itsb-cat-man-2026-10-11-btts-second-half,0.41,0.585,0.9949999999999999,0.0,63.2198,2026-10-11T13:00:00Z
+2026-10-05T13:09:11.948773+02:00,5180856,World Championship of Legends: Pakistan Champions vs Bangladesh Champions - Most Sixes Bangladesh Champions Winner,cricwcl-pak-ban-2026-10-03-most-sixes-ban,0.5,0.49,0.99,0.0,0.0,2026-10-10T15:30:00Z
+2026-10-05T13:09:11.948773+02:00,5218867,Will SpaceX (SPCX) close at $140-$145 on the final day of trading of the week of Oct 5 – Oct 9?,will-spcx-close-between-140-and-145-week-october-9-2026,0.1,0.895,0.995,0.0,454.2526,2026-10-09T20:00:00Z
+2026-10-05T13:09:11.948773+02:00,5219033,Will SpaceX (SPCX) hit (HIGH) $162.50 Week of October 5 2026?,will-spcx-reach-162-50-by-october-5-2026,0.7,0.295,0.9949999999999999,0.0,576.3498,2026-10-09T20:00:00Z
+2026-10-05T13:09:11.948773+02:00,5239022,Will Pierceson Coody finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-pierceson-coody,0.495,0.5,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-05T13:09:11.948773+02:00,5239023,Will Nicolas Echavarria finish in the Top 10 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top10-nicolas-echavarria,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-05T13:09:11.948773+02:00,5239117,Will Takumi Kanaya finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-takumi-kanaya,0.5,0.495,0.995,0.0,0.1,2026-10-11T00:00:00Z
+2026-10-05T13:09:11.948773+02:00,5239143,Will Xander Schauffele finish in the Top 20 at the 2026 Baycurrent Classic?,2026-baycurrent-classic-top20-xander-schauffele,0.5,0.495,0.995,0.0,0.2,2026-10-11T00:00:00Z
+2026-10-05T13:09:11.948773+02:00,5239412,Will Justin Thomas lead the 2026 Baycurrent Classic following the third round?,2026-baycurrent-classic-third-round-leader-justin-thomas,0.38,0.5,0.88,0.0,0.0,2026-10-11T00:00:00Z
+2026-10-05T13:09:11.948773+02:00,5273792,Exact Score: Port Vale FC 1 - 4 Chesterfield FC?,el2-pvl-ches-2026-10-17-exact-score-1-4,0.485,0.51,0.995,0.0,13.9197,2026-10-17T14:00:00Z
+2026-10-05T13:09:11.948773+02:00,5280746,Exact Score: Washington Spirit 3 - 1 NJ/NY Gotham FC?,nwsl-spi-got-2026-10-17-exact-score-3-1,0.48,0.515,0.995,0.0,17.7288,2026-10-17T16:30:00Z
+2026-10-05T13:09:11.948773+02:00,5291406,Exact Score: Sandnes Ulf 5 - 2 FK Haugesund?,nor2-san-hau-2026-10-11-exact-score-5-2,0.47,0.525,0.995,0.0,16.7594,2026-10-11T15:00:00Z
+2026-10-05T13:09:11.948773+02:00,5296957,Exact Score: Ceará SC 3 - 3 EC Juventude?,bra2-csc-juv-2026-10-17-exact-score-3-3,0.485,0.51,0.995,0.0,11.58,2026-10-17T19:30:00Z
+2026-10-05T13:09:11.948773+02:00,5312207,Exact Score: Borussia Mönchengladbach 1 - 4 TSG 1899 Hoffenheim?,bun-moe-hof-2026-10-18-exact-score-1-4,0.47,0.525,0.995,0.0,9.5192,2026-10-18T15:30:00Z
+2026-10-05T13:09:11.948773+02:00,5316061,Exact Score: Any Other Score?,lal-cel-ala-2026-10-18-exact-score-any-other,0.49,0.505,0.995,0.0,7.9198,2026-10-18T14:15:00Z
+2026-10-05T13:09:11.948773+02:00,5316236,Exact Score: Real Madrid CF 3 - 1 Sevilla FC?,lal-rea-sev-2026-10-18-exact-score-3-1,0.475,0.52,0.995,0.0,17.5184,2026-10-18T19:00:00Z
+2026-10-05T13:09:11.948773+02:00,5316253,Exact Score: Real Madrid CF 5 - 0 Sevilla FC?,lal-rea-sev-2026-10-18-exact-score-5-0,0.475,0.52,0.995,0.0,17.5392,2026-10-18T19:00:00Z
+2026-10-05T13:09:11.948773+02:00,5318414,Exact Score: CA Colegiales 2 - 0 CSD Tristan Suarez?,argpn-cc-tri-2026-10-10-exact-score-2-0,0.485,0.51,0.995,0.0,15.3204,2026-10-10T18:00:00Z
+2026-10-05T13:09:11.948773+02:00,5318432,Exact Score: CA Colegiales 3 - 3 CSD Tristan Suarez?,argpn-cc-tri-2026-10-10-exact-score-3-3,0.485,0.51,0.995,0.0,15.3284,2026-10-10T18:00:00Z
+2026-10-05T13:09:11.948773+02:00,5319025,Exact Score: FK Polissia 4 - 0 FK Dynamo Kyiv?,ukr1-pol-dyn-2026-10-18-exact-score-4-0,0.485,0.51,0.995,0.0,11.5688,2026-10-18T10:00:00Z
+2026-10-05T13:09:11.948773+02:00,5319545,Exact Score: CSD Mixco 0 - 3 CSD Cobán Imperial?,gtm-mix-cob-2026-10-18-exact-score-0-3,0.48,0.515,0.995,0.0,17.7693,2026-10-18T21:00:00Z
