@@ -28,3 +28,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-04T03:47:12.906690+02:00,AUSZAHLUNG,4758706,Racing Louisville FC vs. Utah Royals FC: Both Teams to Score in Second Half,22.7749,1.0,22.7749,38.2401,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-04T03:47:12.906690+02:00,KAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,19.7333,0.6459,-12.7467,25.4934,"Spread 36.50%, Liquiditaet 111 USD"
 2026-10-04T03:47:12.906690+02:00,KAUF,3401731,Will Travis Etienne Jr. be the highest-scoring FLEX of the 2026-27 NFL season?,11.5281,0.999,-11.5165,13.9769,"Spread 12.50%, Liquiditaet 12 USD"
+2026-10-05T06:30:40.149621+02:00,AUSZAHLUNG,4765516,CA Tigre to win the second half?,25.3751,1.0,25.3751,39.3519,Markt als geschlossen/aufgelöst markiert
+2026-10-05T06:30:40.149621+02:00,AUSZAHLUNG,5260958,Los Angeles Dodgers to win the 3rd inning?,19.7333,1.0,19.7333,59.0852,Markt als geschlossen/aufgelöst markiert

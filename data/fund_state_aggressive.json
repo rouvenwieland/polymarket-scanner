@@ -1,5 +1,5 @@
 {
-  "cash": 13.97685860554291,
+  "cash": 59.08523170855459,
   "positions": [
     {
       "market_id": "5131225",
@@ -11,17 +11,6 @@
       "liquiditaet": 40.0,
       "end_date": "2026-10-21T03:59:00Z",
       "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
-    {
-      "market_id": "4765516",
-      "frage": "CA Tigre to win the second half?",
-      "slug": "arg-aaj-tig-2026-10-03-second-half-result-away",
-      "shares": 25.37507353709655,
-      "einstandskurs": 0.9610690352323528,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 313.9547,
-      "end_date": "2026-10-04T22:15:00Z",
-      "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
     },
     {
       "market_id": "4970693",
@@ -55,17 +44,6 @@
       "liquiditaet": 28.761,
       "end_date": "2027-05-10T23:59:00Z",
       "eingestiegen": "2026-10-04T00:17:01.658931+02:00"
-    },
-    {
-      "market_id": "5260958",
-      "frage": "Los Angeles Dodgers to win the 3rd inning?",
-      "slug": "mlb-atl-lad-2026-10-04-inning-3-winner-home",
-      "shares": 19.73329956591512,
-      "einstandskurs": 0.6459488393135064,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 110.8906,
-      "end_date": "2026-10-05T00:00:00Z",
-      "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
     },
     {
       "market_id": "3401731",
