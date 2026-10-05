@@ -12,7 +12,7 @@
         "market_id": "1068745",
         "side": "no",
         "einstandskurs": 0.0155,
-        "letzter_kurs": 0.0165,
+        "letzter_kurs": 0.016,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -35,7 +35,7 @@
         "market_id": "1068742",
         "side": "yes",
         "einstandskurs": 0.076,
-        "letzter_kurs": 0.086,
+        "letzter_kurs": 0.079,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -43,7 +43,7 @@
         "market_id": "8157:31951",
         "side": "no",
         "einstandskurs": 0.12,
-        "letzter_kurs": 0.11,
+        "letzter_kurs": 0.1,
         "fee_gezahlt": 0.0
       }
     },
@@ -66,7 +66,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -89,7 +89,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -104,7 +104,7 @@
         "market_id": "943827",
         "side": "yes",
         "einstandskurs": 0.02,
-        "letzter_kurs": 0.031,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -112,7 +112,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -135,7 +135,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -150,7 +150,7 @@
         "market_id": "943825",
         "side": "yes",
         "einstandskurs": 0.0345,
-        "letzter_kurs": 0.037,
+        "letzter_kurs": 0.0385,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -158,7 +158,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -173,7 +173,7 @@
         "market_id": "943824",
         "side": "yes",
         "einstandskurs": 0.0425,
-        "letzter_kurs": 0.0435,
+        "letzter_kurs": 0.044,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -181,7 +181,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -204,7 +204,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -250,7 +250,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -273,7 +273,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -288,7 +288,7 @@
         "market_id": "943820",
         "side": "yes",
         "einstandskurs": 0.145,
-        "letzter_kurs": 0.17,
+        "letzter_kurs": 0.18,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -296,7 +296,7 @@
         "market_id": "8175:32034",
         "side": "no",
         "einstandskurs": 0.64,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.65,
         "fee_gezahlt": 0.0
       }
     },
@@ -342,7 +342,7 @@
         "market_id": "8544:33624",
         "side": "no",
         "einstandskurs": 0.41,
-        "letzter_kurs": 0.22,
+        "letzter_kurs": 0.24,
         "fee_gezahlt": 0.0
       }
     }
