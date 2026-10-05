@@ -1,5 +1,5 @@
 {
-  "cash": 12.166164542191932,
+  "cash": 61.07536873190813,
   "positions": [
     {
       "market_id": "5180856",
@@ -79,17 +79,6 @@
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
-      "market_id": "5080387",
-      "frage": "Will the CAQ win 1 seat in the National Assembly of Quebec in this election?",
-      "slug": "will-the-caq-win-1-seat-in-the-national-assembly-of-quebec-in-this-election",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1086.8665,
-      "end_date": "2026-10-05T23:59:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
       "market_id": "4972876",
       "frage": "BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half",
       "slug": "bun-dor-wer-2026-10-09-btts-second-half",
@@ -98,72 +87,6 @@
       "letzter_kurs": 0.98,
       "liquiditaet": 80.2199,
       "end_date": "2026-10-09T18:30:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "4977761",
-      "frage": "NK Rudeš leading at halftime?",
-      "slug": "hr1-gor-rud-2026-10-09-halftime-result-away",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1024.4225,
-      "end_date": "2026-10-09T16:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5021239",
-      "frage": "SC Braga vs. Sporting CP: Both Teams to Score",
-      "slug": "por-scb-spo-2026-10-09-btts",
-      "shares": 4.075767015809683,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1294.3853,
-      "end_date": "2026-10-09T19:15:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5219033",
-      "frage": "Will SpaceX (SPCX) hit (HIGH) $162.50 Week of October 5 2026?",
-      "slug": "will-spcx-reach-162-50-by-october-5-2026",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 576.3498,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5218867",
-      "frage": "Will SpaceX (SPCX) close at $140-$145 on the final day of trading of the week of Oct 5 – Oct 9?",
-      "slug": "will-spcx-close-between-140-and-145-week-october-9-2026",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 454.2526,
-      "end_date": "2026-10-09T20:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "4992188",
-      "frage": "Cerezo Ōsaka leading at halftime?",
-      "slug": "jap-cer-yom-2026-10-10-halftime-result-home",
-      "shares": 4.075767015809683,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1915.0322,
-      "end_date": "2026-10-10T05:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5030671",
-      "frage": "Galatasaray SK vs. Kasımpaşa SK: Both Teams to Score in First Half",
-      "slug": "tur-gal-kas-2026-10-09-btts-first-half",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 6.5972,
-      "end_date": "2026-10-09T17:00:00Z",
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
@@ -178,17 +101,6 @@
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
-      "market_id": "5318432",
-      "frage": "Exact Score: CA Colegiales 3 - 3 CSD Tristan Suarez?",
-      "slug": "argpn-cc-tri-2026-10-10-exact-score-3-3",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 15.3284,
-      "end_date": "2026-10-10T18:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
       "market_id": "5318414",
       "frage": "Exact Score: CA Colegiales 2 - 0 CSD Tristan Suarez?",
       "slug": "argpn-cc-tri-2026-10-10-exact-score-2-0",
@@ -197,28 +109,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 15.3204,
       "end_date": "2026-10-10T18:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5291406",
-      "frage": "Exact Score: Sandnes Ulf 5 - 2 FK Haugesund?",
-      "slug": "nor2-san-hau-2026-10-11-exact-score-5-2",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 16.7594,
-      "end_date": "2026-10-11T15:00:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "5074045",
-      "frage": "Hertha BSC vs. SpVgg Greuther Fürth: Both Teams to Score in First Half",
-      "slug": "bl2-ber-fur-2026-10-11-btts-first-half",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 7.209,
-      "end_date": "2026-10-11T11:30:00Z",
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
@@ -299,17 +189,6 @@
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
-      "market_id": "5312207",
-      "frage": "Exact Score: Borussia Mönchengladbach 1 - 4 TSG 1899 Hoffenheim?",
-      "slug": "bun-moe-hof-2026-10-18-exact-score-1-4",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9.5192,
-      "end_date": "2026-10-18T15:30:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
       "market_id": "5316061",
       "frage": "Exact Score: Any Other Score?",
       "slug": "lal-cel-ala-2026-10-18-exact-score-any-other",
@@ -318,17 +197,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 7.9198,
       "end_date": "2026-10-18T14:15:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
-    },
-    {
-      "market_id": "3914042",
-      "frage": "Will Navbahor finish 3rd in the 2026 Uzbekistan Super League?",
-      "slug": "will-navbahor-finish-3rd-in-uzbekistan-super-league-2026",
-      "shares": 4.075767015809684,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.982,
-      "end_date": "2027-01-01T04:59:00Z",
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     }
   ],

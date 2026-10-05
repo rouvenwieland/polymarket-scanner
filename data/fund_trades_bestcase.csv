@@ -1955,3 +1955,15 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-05T13:09:11.948773+02:00,KAUF,5312207,Exact Score: Borussia Mönchengladbach 1 - 4 TSG 1899 Hoffenheim?,4.0758,0.995,-4.0554,20.2769,"Spread 0.50%, Liquiditaet 10 USD"
 2026-10-05T13:09:11.948773+02:00,KAUF,5316061,Exact Score: Any Other Score?,4.0758,0.995,-4.0554,16.2216,"Spread 0.50%, Liquiditaet 8 USD"
 2026-10-05T13:09:11.948773+02:00,KAUF,3914042,Will Navbahor finish 3rd in the 2026 Uzbekistan Super League?,4.0758,0.995,-4.0554,12.1662,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5080387,Will the CAQ win 1 seat in the National Assembly of Quebec in this election?,4.0758,1.0,4.0758,16.2419,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,4977761,NK Rudeš leading at halftime?,4.0758,1.0,4.0758,20.3177,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5021239,SC Braga vs. Sporting CP: Both Teams to Score,4.0758,1.0,4.0758,24.3935,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5219033,Will SpaceX (SPCX) hit (HIGH) $162.50 Week of October 5 2026?,4.0758,1.0,4.0758,28.4692,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5218867,Will SpaceX (SPCX) close at $140-$145 on the final day of trading of the week of Oct 5 – Oct 9?,4.0758,1.0,4.0758,32.545,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,4992188,Cerezo Ōsaka leading at halftime?,4.0758,1.0,4.0758,36.6208,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5030671,Galatasaray SK vs. Kasımpaşa SK: Both Teams to Score in First Half,4.0758,1.0,4.0758,40.6965,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5318432,Exact Score: CA Colegiales 3 - 3 CSD Tristan Suarez?,4.0758,1.0,4.0758,44.7723,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5291406,Exact Score: Sandnes Ulf 5 - 2 FK Haugesund?,4.0758,1.0,4.0758,48.8481,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5074045,Hertha BSC vs. SpVgg Greuther Fürth: Both Teams to Score in First Half,4.0758,1.0,4.0758,52.9238,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,5312207,Exact Score: Borussia Mönchengladbach 1 - 4 TSG 1899 Hoffenheim?,4.0758,1.0,4.0758,56.9996,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:46:48.335084+02:00,VERKAUF,3914042,Will Navbahor finish 3rd in the 2026 Uzbekistan Super League?,4.0758,1.0,4.0758,61.0754,Konvergenz erreicht (Kurs 1.000)
