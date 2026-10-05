@@ -1,2 +1,3 @@
 timestamp,kasse,positionswert,nav,rendite_pct,offene_positionen,terminierungswert,diskontierter_terminierungswert,diskontierte_rendite_pct
 2026-10-05T09:42:34.187210+02:00,773.1275,226.8725,1000.0,-0.0,15,1333.9807,1333.9807,33.398
+2026-10-05T11:09:22.310152+02:00,773.1275,226.8494,999.9769,-0.002,15,1333.9807,1333.9807,33.398
