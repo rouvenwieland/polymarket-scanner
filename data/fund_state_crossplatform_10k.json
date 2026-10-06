@@ -12,7 +12,7 @@
         "market_id": "1068742",
         "side": "yes",
         "einstandskurs": 0.045,
-        "letzter_kurs": 0.046,
+        "letzter_kurs": 0.054,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -58,7 +58,7 @@
         "market_id": "1068746",
         "side": "yes",
         "einstandskurs": 0.024,
-        "letzter_kurs": 0.026,
+        "letzter_kurs": 0.0215,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -81,7 +81,7 @@
         "market_id": "5354906",
         "side": "no",
         "einstandskurs": 0.11,
-        "letzter_kurs": 0.115,
+        "letzter_kurs": 0.09,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -89,7 +89,7 @@
         "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
         "side": "yes",
         "einstandskurs": 0.2,
-        "letzter_kurs": 0.23,
+        "letzter_kurs": 0.2,
         "fee_gezahlt": 24.09
       }
     },
@@ -104,7 +104,7 @@
         "market_id": "5354907",
         "side": "no",
         "einstandskurs": 0.15,
-        "letzter_kurs": 0.29,
+        "letzter_kurs": 0.285,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -112,7 +112,7 @@
         "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
         "side": "yes",
         "einstandskurs": 0.2,
-        "letzter_kurs": 0.23,
+        "letzter_kurs": 0.2,
         "fee_gezahlt": 21.34
       }
     },
@@ -127,7 +127,7 @@
         "market_id": "1068741",
         "side": "no",
         "einstandskurs": 0.0425,
-        "letzter_kurs": 0.0525,
+        "letzter_kurs": 0.0535,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -135,7 +135,7 @@
         "market_id": "8157:31951",
         "side": "yes",
         "einstandskurs": 0.91,
-        "letzter_kurs": 0.9,
+        "letzter_kurs": 0.91,
         "fee_gezahlt": 0.0
       }
     },
@@ -173,7 +173,7 @@
         "market_id": "5036078",
         "side": "yes",
         "einstandskurs": 0.225,
-        "letzter_kurs": 0.225,
+        "letzter_kurs": 0.235,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -219,7 +219,7 @@
         "market_id": "5354892",
         "side": "no",
         "einstandskurs": 0.515,
-        "letzter_kurs": 0.45,
+        "letzter_kurs": 0.55,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -227,7 +227,7 @@
         "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
         "side": "yes",
         "einstandskurs": 0.2,
-        "letzter_kurs": 0.23,
+        "letzter_kurs": 0.2,
         "fee_gezahlt": 8.04
       }
     },
