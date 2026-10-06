@@ -1,17 +1,6 @@
 {
-  "cash": 16.468731880807848,
+  "cash": 18.895133773075038,
   "positions": [
-    {
-      "market_id": "5131225",
-      "frage": "Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?",
-      "slug": "titled-tuesday-2026-10-06-top5-pranav-venkatesh",
-      "shares": 2.426401892267192,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 40.0,
-      "end_date": "2026-10-21T03:59:00Z",
-      "eingestiegen": "2026-10-03T00:12:51.254307+02:00"
-    },
     {
       "market_id": "4970693",
       "frage": "1. FC Kaiserslautern to win the second half?",

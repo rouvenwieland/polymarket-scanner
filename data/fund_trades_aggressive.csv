@@ -33,3 +33,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-05T13:09:11.948773+02:00,KAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,10.3784,0.999,-10.368,48.7172,"Spread 2.00%, Liquiditaet 80 USD"
 2026-10-05T21:37:32.878839+02:00,KAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,15.7956,0.999,-15.7798,32.9375,"Spread 2.00%, Liquiditaet 122 USD"
 2026-10-06T09:19:49.359762+02:00,KAUF,3848441,Will Bologna be relegated from the 2026-27 Serie A?,18.3046,0.8997,-16.4687,16.4687,"Spread 11.50%, Liquiditaet 149 USD"
+2026-10-06T21:32:31.357746+02:00,AUSZAHLUNG,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,1.0,2.4264,18.8951,Markt als geschlossen/aufgelöst markiert
