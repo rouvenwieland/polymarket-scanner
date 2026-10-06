@@ -1,5 +1,17 @@
 {
-  "cash": 128.81580331478457,
-  "positions": [],
+  "cash": 113.94938331478457,
+  "positions": [
+    {
+      "market_id": "3848441",
+      "frage": "Will Bologna be relegated from the 2026-27 Serie A?",
+      "slug": "will-bologna-be-relegated-from-serie-a-2026-27",
+      "shares": 16.549965211099053,
+      "einstandskurs": 0.8982749999999999,
+      "letzter_kurs": 0.8982749999999999,
+      "liquiditaet": 148.6642,
+      "end_date": "2027-07-01T03:59:00Z",
+      "eingestiegen": "2026-10-06T09:19:49.359762+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
