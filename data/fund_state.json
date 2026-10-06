@@ -1,17 +1,5 @@
 {
-  "cash": 80.62548723524351,
-  "positions": [
-    {
-      "market_id": "4228892",
-      "frage": "Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?",
-      "slug": "will-the-kansas-city-chiefs-finish-the-2026-27-nfl-regular-season-with-the-worst-record",
-      "shares": 49.79889324306632,
-      "einstandskurs": 0.998999,
-      "letzter_kurs": 0.998999,
-      "liquiditaet": 525.0676,
-      "end_date": "2027-01-10T23:59:00Z",
-      "eingestiegen": "2026-10-06T21:40:38.249377+02:00"
-    }
-  ],
+  "cash": 129.7084207740574,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
