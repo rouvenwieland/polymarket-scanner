@@ -1,5 +1,351 @@
 {
-  "cash": 10000.0,
-  "positions": [],
-  "started": null
+  "cash": 7180.70023249447,
+  "positions": [
+    {
+      "pair_id": "polymarket:1068742__predictit:8157:31951",
+      "frage": "[polymarket] Will Democratic House incumbents not win in between thirteen and fifteen nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Democratic",
+      "shares": 100.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068742",
+        "side": "yes",
+        "einstandskurs": 0.045,
+        "letzter_kurs": 0.045,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31951",
+        "side": "no",
+        "einstandskurs": 0.1,
+        "letzter_kurs": 0.1,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1068745__predictit:8157:31952",
+      "frage": "[polymarket] Will Republican House incumbents not win in between four and six nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Republican",
+      "shares": 83.33333333333334,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068745",
+        "side": "no",
+        "einstandskurs": 0.0345,
+        "letzter_kurs": 0.0345,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31952",
+        "side": "yes",
+        "einstandskurs": 0.12,
+        "letzter_kurs": 0.12,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1068746__predictit:8157:31952",
+      "frage": "[polymarket] Will Republican House incumbents not win in between seven and nine nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Republican",
+      "shares": 11.235955056179774,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068746",
+        "side": "yes",
+        "einstandskurs": 0.024,
+        "letzter_kurs": 0.024,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31952",
+        "side": "no",
+        "einstandskurs": 0.89,
+        "letzter_kurs": 0.89,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5354906__kalshi:KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+      "frage": "[polymarket] Will Messi score 1+ goals vs. Benin?  <->  [kalshi] Lionel Messi: 4+ goals",
+      "shares": 2150.537634408602,
+      "end_date": "2026-10-08T23:00:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5354906",
+        "side": "no",
+        "einstandskurs": 0.11,
+        "letzter_kurs": 0.11,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+        "side": "yes",
+        "einstandskurs": 0.2,
+        "letzter_kurs": 0.2,
+        "fee_gezahlt": 24.09
+      }
+    },
+    {
+      "pair_id": "polymarket:5354907__kalshi:KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+      "frage": "[polymarket] Will Messi score 2+ goals vs. Benin?  <->  [kalshi] Lionel Messi: 4+ goals",
+      "shares": 1904.7619047619048,
+      "end_date": "2026-10-08T23:00:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5354907",
+        "side": "no",
+        "einstandskurs": 0.15,
+        "letzter_kurs": 0.15,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+        "side": "yes",
+        "einstandskurs": 0.2,
+        "letzter_kurs": 0.2,
+        "fee_gezahlt": 21.34
+      }
+    },
+    {
+      "pair_id": "polymarket:1068741__predictit:8157:31951",
+      "frage": "[polymarket] Will Democratic House incumbents not win in between ten and twelve nominating elections in the 2026 cycle?  <->  [predictit] Which party will win the House in the 2026 election? - Democratic",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1068741",
+        "side": "no",
+        "einstandskurs": 0.0425,
+        "letzter_kurs": 0.0425,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8157:31951",
+        "side": "yes",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.91,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3532211__kalshi:KXCS2GAME-26OCT061430XIUNK-XI",
+      "frage": "[polymarket] Will S8UL Esports Win the 2026 Esports Content Group of the Year Award?  <->  [kalshi] XI Esport wins",
+      "shares": 387.4140665887503,
+      "end_date": "2026-10-08T18:30:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3532211",
+        "side": "no",
+        "einstandskurs": 0.285,
+        "letzter_kurs": 0.285,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXCS2GAME-26OCT061430XIUNK-XI",
+        "side": "yes",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.31,
+        "fee_gezahlt": 5.81
+      }
+    },
+    {
+      "pair_id": "polymarket:5036078__predictit:8215:32172",
+      "frage": "[polymarket] Will New York City FC win on 2026-10-10?  <->  [predictit] Which party will win the 2026 election for governor of New York? - Democratic",
+      "shares": 250.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5036078",
+        "side": "yes",
+        "einstandskurs": 0.225,
+        "letzter_kurs": 0.225,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8215:32172",
+        "side": "no",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5294680__predictit:8382:33035",
+      "frage": "[polymarket] Will Rhode Island FC win on 2026-10-10?  <->  [predictit] Which party will win the 2026 US Senate election in Rhode Island? - Democratic",
+      "shares": 250.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5294680",
+        "side": "yes",
+        "einstandskurs": 0.315,
+        "letzter_kurs": 0.315,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8382:33035",
+        "side": "no",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5354892__kalshi:KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+      "frage": "[polymarket] Will Messi play 90 minutes vs. Benin?  <->  [kalshi] Lionel Messi: 4+ goals",
+      "shares": 717.5087199985312,
+      "end_date": "2026-10-08T23:00:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5354892",
+        "side": "no",
+        "einstandskurs": 0.515,
+        "letzter_kurs": 0.515,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXINTLFRIENDLYGOAL-26OCT06ARGBEN-ARGLMESSI10-4",
+        "side": "yes",
+        "einstandskurs": 0.2,
+        "letzter_kurs": 0.2,
+        "fee_gezahlt": 8.04
+      }
+    },
+    {
+      "pair_id": "polymarket:3408628__kalshi:KXCS2GAME-26OCT061430XIUNK-XI",
+      "frage": "[polymarket] Will League of Legends Win the 2026 Esports Game of the Year Award?  <->  [kalshi] XI Esport wins",
+      "shares": 213.14075004708008,
+      "end_date": "2026-10-08T18:30:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3408628",
+        "side": "no",
+        "einstandskurs": 0.45,
+        "letzter_kurs": 0.45,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXCS2GAME-26OCT061430XIUNK-XI",
+        "side": "yes",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.31,
+        "fee_gezahlt": 3.2
+      }
+    },
+    {
+      "pair_id": "polymarket:5179264__predictit:8215:32172",
+      "frage": "[polymarket] Will New York City FC win on 2026-10-14?  <->  [predictit] Which party will win the 2026 election for governor of New York? - Democratic",
+      "shares": 250.0,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5179264",
+        "side": "yes",
+        "einstandskurs": 0.16,
+        "letzter_kurs": 0.16,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8215:32172",
+        "side": "no",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3532257__kalshi:KXCS2GAME-26OCT061430XIUNK-XI",
+      "frage": "[polymarket] Will Mobile Legends: Bang Bang Win the 2026 Esports Mobile Game of the Year Award?  <->  [kalshi] XI Esport wins",
+      "shares": 188.29271562797706,
+      "end_date": "2026-10-08T18:30:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3532257",
+        "side": "no",
+        "einstandskurs": 0.48,
+        "letzter_kurs": 0.48,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXCS2GAME-26OCT061430XIUNK-XI",
+        "side": "yes",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.31,
+        "fee_gezahlt": 2.82
+      }
+    },
+    {
+      "pair_id": "polymarket:5361274__predictit:8397:33068",
+      "frage": "[polymarket] Will New Mexico United win on 2026-10-10?  <->  [predictit] Which party will win the 2026 US Senate election in New Mexico? - Democratic",
+      "shares": 142.85714285714283,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5361274",
+        "side": "yes",
+        "einstandskurs": 0.59,
+        "letzter_kurs": 0.59,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8397:33068",
+        "side": "no",
+        "einstandskurs": 0.07,
+        "letzter_kurs": 0.07,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3408631__kalshi:KXCS2GAME-26OCT061430XIUNK-XI",
+      "frage": "[polymarket] Will Fortnite Win the 2026 Esports Game of the Year Award?  <->  [kalshi] XI Esport wins",
+      "shares": 22.86496550513531,
+      "end_date": "2026-10-08T18:30:00Z",
+      "eingestiegen": "2026-10-06T18:11:44.183047+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3408631",
+        "side": "yes",
+        "einstandskurs": 0.0005,
+        "letzter_kurs": 0.0005,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXCS2GAME-26OCT061430XIUNK-XI",
+        "side": "no",
+        "einstandskurs": 0.82,
+        "letzter_kurs": 0.82,
+        "fee_gezahlt": 0.24
+      }
+    }
+  ],
+  "started": "2026-10-06T18:11:44.183047+02:00"
 }
