@@ -1,15 +1,15 @@
 {
-  "timestamp": "2026-10-06T00:51:06.423337+02:00",
+  "timestamp": "2026-10-06T04:43:56.146880+02:00",
   "platforms": {
     "polymarket": {
-      "open_markets": 116024
+      "open_markets": 115193
     },
     "kalshi": {
-      "open_markets": 274
+      "open_markets": 69
     },
     "predictit": {
-      "open_markets": 531
+      "open_markets": 528
     }
   },
-  "total_open_markets": 116829
+  "total_open_markets": 115790
 }
