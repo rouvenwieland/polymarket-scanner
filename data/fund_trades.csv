@@ -60,3 +60,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-05T13:09:11.948773+02:00,KAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,8.0647,0.9947,-8.022,120.9851,"Spread 2.00%, Liquiditaet 80 USD"
 2026-10-05T21:37:32.878839+02:00,VERKAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,8.0647,0.9853,7.9462,128.9313,Konvergenz erreicht (Kurs 1.000)
 2026-10-05T21:37:32.878839+02:00,KAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,12.2742,0.9947,-12.2092,116.7222,"Spread 2.00%, Liquiditaet 122 USD"
+2026-10-06T02:57:44.122981+02:00,VERKAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,12.2742,0.9853,12.0936,128.8158,Konvergenz erreicht (Kurs 1.000)
