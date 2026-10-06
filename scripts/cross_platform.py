@@ -6,11 +6,10 @@ Findet Markt-Paare auf unterschiedlichen Plattformen, die vermutlich
 dasselbe Realwelt-Ereignis abbilden - es gibt keine gemeinsame ID über
 Plattformgrenzen, die Fragen sind unterschiedlich formuliert
 ("Will X win?" vs "X to win the..."), also wird über Textähnlichkeit plus
-Enddatum-Nähe gematcht. Drei Signale, der jeweils höchste Wert gewinnt
-("semantisch genug", ohne eine externe Embedding-API zu brauchen):
+Enddatum-Nähe gematcht. Zwei Signale, der jeweils höchste Wert gewinnt:
 
-  1. Jaccard über Titel-Tokens (Stoppwort-gefiltert) - das ursprüngliche
-     Signal, gut bei ähnlichem Wortlaut.
+  1. Jaccard über Titel-Tokens (Stoppwort-gefiltert) - gut bei ähnlichem
+     Wortlaut.
   2. Containment: wie viele Titel-Tokens der einen Seite tauchen irgendwo
      im Titel+Beschreibungstext ("extra_text", falls die Plattform einen
      liefert - Polymarket: description, Kalshi: subtitle/rules_primary,
@@ -18,14 +17,28 @@ Enddatum-Nähe gematcht. Drei Signale, der jeweils höchste Wert gewinnt
      Titel komplett anders klingt, der Fließtext aber dieselbe Frage
      exakt beschreibt (Jaccard allein würde hier an der schieren Länge
      des Beschreibungstexts scheitern).
-  3. Fuzzy-Ratio (difflib.SequenceMatcher) auf den rohen Titeln - fängt
-     Umstellungen/Umformulierungen, die weder Jaccard noch Containment
-     als Wortmengen-Überlappung sehen.
+
+  Ein früher dritter Signal (Fuzzy-Ratio, difflib.SequenceMatcher auf den
+  rohen Titeln) wurde nach Live-Erfahrung wieder entfernt: fast jede
+  Marktfrage folgt derselben Satzschablone ("Will X happen in 2026?"),
+  wodurch zeichenbasierte Ähnlichkeit systematisch inhaltlich unverwandte
+  Fragen hoch bewertete, ohne in den bekannten echten Matches zusätzlichen
+  Erkennungswert zu liefern (siehe _combined_score).
+
+  Dazu mehrere harte Gegenbeweise (siehe _conflicting_*), die trotz hoher
+  Jaccard/Containment-Werte ein Match ausschließen: unterschiedliche
+  Jahreszahlen, unterschiedliche Distriktcodes/Prozent-Bänder, unter-
+  schiedliche Subjekte/Kandidatennamen, unterschiedlicher Amtstyp
+  (Senat/Governor/House/...) oder eine Seite fragt nach der Stimmenzahl
+  statt nach dem Sieger.
 
 Das ist KEINE echte semantische/Embedding-Suche (dafür müsste eine externe
 Embeddings-API aufgerufen werden - Kosten + Latenz + API-Key-Verwaltung in
 der GitHub-Action - aktuell nicht eingerichtet), sondern eine pragmatische,
-kostenlose Annäherung mit mehreren sich ergänzenden Textsignalen.
+kostenlose Annäherung mit mehreren sich ergänzenden Textsignalen und
+expliziten Ausschlusskriterien. Trotz mehrerer Härtungsrunden bleibt ein
+Restrisiko an Fehl-Matches, die weder Trefferkriterium noch Gegenbeweis
+abdecken - siehe Projektdokumentation für bekannte verbleibende Lücken.
 
 Blocking: statt jeden Markt mit jedem zu vergleichen (bei ~200k
 Polymarket-Märkten x ein paar tausend Kalshi/PredictIt-Märkten viel zu
@@ -41,7 +54,6 @@ Match (ähnlicher Wortlaut, aber andere Frage/Auflösungskriterien) ist das
 Hauptrisiko dieser Strategie.
 """
 
-import difflib
 import re
 import unicodedata
 from datetime import datetime, timezone
@@ -65,7 +77,6 @@ _PERCENT_RE = re.compile(r"\b\d{1,3}%")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
-FUZZY_WEIGHT = 0.9  # Fuzzy-Ratio etwas vorsichtiger gewichtet als ein echter Token-Treffer
 
 
 def _stem(token):
@@ -206,11 +217,52 @@ def _conflicting_specifics(question_a, question_b):
     return bool(codes_a) != bool(codes_b) or (bool(codes_a) and codes_a.isdisjoint(codes_b))
 
 
+_RACE_TYPE_WORDS = {
+    "senate": "senate", "senator": "senate",
+    "house": "house", "congressional": "house",
+    "governor": "governor", "gubernatorial": "governor",
+    "president": "president", "presidential": "president",
+    "mayor": "mayor", "mayoral": "mayor",
+    "secretary of state": "sos",
+    "attorney general": "ag",
+    "lieutenant governor": "ltgov",
+}
+_VOTE_COUNT_WORDS = ("total votes", "turnout", "voter turnout")
+# "Hält Partei X mindestens/exakt N Sitze insgesamt?" ist inhaltlich eine
+# andere Frage als "Wer gewinnt EIN bestimmtes Rennen?" - auch wenn beide
+# Partei/Jahr/Amtstyp im Wortlaut teilen (z.B. "Republicans hold 57 or
+# more Senate seats" vs. "Which party wins the Ohio Senate special
+# election? - Republican"). Erkennungsmerkmal: ein Zahlen-Schwellenwert-
+# Ausdruck ("or more", "or fewer", "exactly 50", "between 7 and 9").
+_THRESHOLD_RE = re.compile(
+    r"\b(?:or more|or fewer|or less|exactly\s+\d+|between\s+\d+\s+and\s+\d+)\b"
+)
+
+
+def _conflicting_race_type(question_a, question_b):
+    """Dritter harter Gegenbeweis: "Senat" vs. "Governor" vs. "House" etc. im
+    selben Bundesstaat sind komplett verschiedene Rennen - teilen sich aber
+    Bundesstaat/Partei/Jahr im Wortschatz fast komplett, was Jaccard/
+    Containment sonst täuscht. Ebenso sind "Wie viele Stimmen/Sitze
+    insgesamt?"-Fragen (Wahlbeteiligung, Sitzzahl-Schwellenwerte)
+    inhaltlich etwas anderes als "Wer gewinnt EIN Rennen?"-Fragen, auch
+    wenn beide dieselbe Partei/denselben Amtstyp erwähnen."""
+    lower_a, lower_b = question_a.lower(), question_b.lower()
+    types_a = {canon for key, canon in _RACE_TYPE_WORDS.items() if key in lower_a}
+    types_b = {canon for key, canon in _RACE_TYPE_WORDS.items() if key in lower_b}
+    if types_a and types_b and types_a.isdisjoint(types_b):
+        return True
+    is_vote_count_a = any(w in lower_a for w in _VOTE_COUNT_WORDS) or bool(_THRESHOLD_RE.search(lower_a))
+    is_vote_count_b = any(w in lower_b for w in _VOTE_COUNT_WORDS) or bool(_THRESHOLD_RE.search(lower_b))
+    return is_vote_count_a != is_vote_count_b
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b):
     if (
         _conflicting_years(question_a, question_b)
         or _conflicting_specifics(question_a, question_b)
         or _conflicting_subjects(question_a, question_b)
+        or _conflicting_race_type(question_a, question_b)
     ):
         return 0.0
     # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer
@@ -226,8 +278,15 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
     containment_score = (
         _containment(title_tokens_a, full_tokens_b) + _containment(title_tokens_b, full_tokens_a)
     ) / 2
-    fuzzy_score = difflib.SequenceMatcher(None, question_a, question_b).ratio() * FUZZY_WEIGHT
-    return max(jaccard_score, containment_score, fuzzy_score)
+    # Der Fuzzy-Ratio-Score (difflib, zeichenbasiert) ist NICHT mehr Teil
+    # der Entscheidung: empirisch (siehe Produktionsdaten) sorgt er bei
+    # kurzen Fragen vor allem für Fehl-Matches über die gemeinsame
+    # Satzschablone ("Will ... in 2026?") - fast jede Marktfrage teilt
+    # dieses Muster, ohne inhaltlich verwandt zu sein. In beiden bekannten
+    # echten Matches (Fed-Zinsentscheidung, Lakers-Championship) trugen
+    # Jaccard/Containment die Entscheidung bereits allein, Fuzzy lieferte
+    # dort keinen zusätzlichen Erkennungswert - nur zusätzliches Risiko.
+    return max(jaccard_score, containment_score)
 
 
 def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=MAX_DAYS_APART):
