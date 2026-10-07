@@ -3589,3 +3589,47 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-07T11:16:41.515959+02:00,5402139,Exact Score: Exeter City FC 3 - 0 Crewe Alexandra FC?,el2-exe-cre-2026-10-20-exact-score-3-0,0.49,0.505,0.995,0.0,6.3316,2026-10-20T18:45:00Z
 2026-10-07T11:16:41.515959+02:00,5402303,Exact Score: Chesterfield FC 5 - 5 Colchester United FC?,el2-ches-col-2026-10-20-exact-score-5-5,0.49,0.505,0.995,0.0,7.9198,2026-10-20T18:45:00Z
 2026-10-07T11:16:41.515959+02:00,5402317,Exact Score: York City FC 1 - 0 Accrington Stanley FC?,el2-yor-ast-2026-10-20-exact-score-1-0,0.49,0.505,0.995,0.0,6.3316,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-07T18:45:38.407084+02:00,2964884,Will Zekken Leave MIBR in 2026?,will-zekken-leave-mibr-in-2026-20260715205615632,0.51,0.485,0.995,719.39,20.5377,2027-01-01T04:59:00Z
+2026-10-07T18:45:38.407084+02:00,3380926,Will Fluxo W7M make a roster change by December?,will-fluxo-w7m-make-a-roster-change-by-december-20260805205516498,0.5,0.495,0.995,0.0,2.6679,2026-12-01T04:59:00Z
+2026-10-07T18:45:38.407084+02:00,3401653,Will Ja'Marr Chase be the highest-scoring FLEX of the 2026-27 NFL season?,will-jamarr-chase-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131577,0.126,0.749,0.875,5.0,14.09595,2027-01-27T04:59:00Z
+2026-10-07T18:45:38.407084+02:00,3811044,CF América vs. Club Tijuana: Neither team to score first?,mex-ame-tij-2026-09-05-first-to-score-neither,0.48,0.515,0.995,0.0,7.9728,2026-10-29T03:00:00Z
+2026-10-07T18:45:38.407084+02:00,3847946,Will Catanzaro be promoted to Serie A?,will-catanzaro-be-promoted-to-serie-a-2026-27,0.49,0.505,0.995,0.0,3.2146,2027-07-01T03:59:00Z
+2026-10-07T18:45:38.407084+02:00,4183105,Levante UD to win the second half?,lal-lev-bil-2026-09-16-second-half-result-home,0.495,0.5,0.995,0.0,108.5598,2026-10-21T18:00:00Z
+2026-10-07T18:45:38.407084+02:00,4205834,Will the Denver Broncos finish the 2026-27 NFL regular season with the best record?,will-the-denver-broncos-finish-the-2026-27-nfl-regular-season-with-the-best-record,0.48,0.515,0.995,0.0,2.9079,2027-01-10T23:59:00Z
+2026-10-07T18:45:38.407084+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-07T18:45:38.407084+02:00,4885547,Will 100 or more unique champions be played at Worlds 2026?,will-100-or-more-unique-champions-be-played-at-worlds-2026,0.775,0.22,0.995,29.99,35.1355,2026-12-15T04:59:00Z
+2026-10-07T18:45:38.407084+02:00,4974223,Exact Score: USL Dunkerque 1 - 1 FC Annecy?,fr2-usd-fca-2026-10-09-exact-score-1-1,0.125,0.87,0.995,0.0,492.881,2026-10-09T18:00:00Z
+2026-10-07T18:45:38.407084+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-07T18:45:38.407084+02:00,5031185,FC Twente to score first vs. Fortuna Sittard?,ere-sit-twe-2026-10-10-first-to-score-away,0.665,0.33,0.9950000000000001,0.0,2131.4208,2026-10-10T18:00:00Z
+2026-10-07T18:45:38.407084+02:00,5036637,Charlotte FC to score first vs. FC Dallas?,mls-clt-dal-2026-10-10-first-to-score-home,0.5,0.495,0.995,0.0,2851.0891,2026-10-10T23:30:00Z
+2026-10-07T18:45:38.407084+02:00,5047354,Exact Score: Once Caldas 1 - 3 Llaneros FC?,col1-onc-llf-2026-10-10-exact-score-1-3,0.236,0.7635,0.9994999999999999,0.0,62.06881,2026-10-10T01:10:00Z
+2026-10-07T18:45:38.407084+02:00,5047469,Exact Score: CDP Junior FC 3 - 1 Internacional de Bogotá?,col1-cjf-cle-2026-10-10-exact-score-3-1,0.125,0.87,0.995,0.0,74.54,2026-10-10T23:10:00Z
+2026-10-07T18:45:38.407084+02:00,5047882,Exact Score: FC Mito Holly Hock 3 - 4 Shimizu S-Pulse?,jap-hol-ssp-2026-10-11-exact-score-3-4,0.2525,0.747,0.9995,0.0,83.10194,2026-10-11T06:00:00Z
+2026-10-07T18:45:38.407084+02:00,5074583,Beşiktaş JK vs. Kocaelispor: Both Teams to Score in First Half,tur-bes-koc-2026-10-11-btts-first-half,0.15,0.845,0.995,0.0,2324.5161,2026-10-11T16:00:00Z
+2026-10-07T18:45:38.407084+02:00,5083232,Pumas de la UNAM leading at halftime?,mex-pum-caz-2026-10-11-halftime-result-home,0.235,0.76,0.995,0.0,2720.9114,2026-10-12T01:10:00Z
+2026-10-07T18:45:38.407084+02:00,5109788,Minnesota vs. Purdue: Both Teams to Score a Touchdown - 1H,cfb-minnst-pur-2026-10-10-1h-btts-td,0.495,0.5,0.995,0.0,0.96,2026-10-11T00:00:00Z
+2026-10-07T18:45:38.407084+02:00,5154742,Will Hong Kong have less than 20mm of precipitation in October?,precipitation-in-hong-kong-in-october-20260925t160000000z-will-hong-kong-have-less-than-20mm-of-precipitation-in-october,0.0055,0.994,0.9994999999999999,1962.1705000000002,873.35442,2027-01-08T04:59:00Z
+2026-10-07T18:45:38.407084+02:00,5213400,Exact Score: SK Beveren 2 - 4 Lommel SK?,bel1-bev-lom-2026-10-09-exact-score-2-4,0.304,0.6955,0.9995,10.0,43.00597,2026-10-09T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5230404,Exact Score: Landskrona BoIS 0 - 4 Sandvikens IF?,swe2-lkb-san-2026-10-10-exact-score-0-4,0.367,0.6325,0.9994999999999999,9.9898,68.26397,2026-10-10T11:00:00Z
+2026-10-07T18:45:38.407084+02:00,5239412,Will Justin Thomas lead the 2026 Baycurrent Classic following the third round?,2026-baycurrent-classic-third-round-leader-justin-thomas,0.38,0.5,0.88,0.0,0.0,2026-10-11T00:00:00Z
+2026-10-07T18:45:38.407084+02:00,5258065,Exact Score: Jagiellonia Bialystok 5 - 1 Gornik Zabrze?,pol-jag-gor-2026-10-10-exact-score-5-1,0.35,0.645,0.995,0.0,23.6764,2026-10-10T18:15:00Z
+2026-10-07T18:45:38.407084+02:00,5266026,Degerfors IF to score first vs. Mjallby AIF?,swe-mja-deg-2026-10-10-first-to-score-away,0.335,0.66,0.9950000000000001,0.0,1071.0776,2026-10-10T15:30:00Z
+2026-10-07T18:45:38.407084+02:00,5280961,Exact Score: IFK Varnamo 3 - 0 Falkenbergs FF?,swe2-var-fff-2026-10-11-exact-score-3-0,0.2055,0.794,0.9995,0.0,425.16523,2026-10-11T13:00:00Z
+2026-10-07T18:45:38.407084+02:00,5315636,SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score in First Half,ere-cam-az-2026-10-18-btts-first-half,0.41,0.585,0.9949999999999999,0.0,6.5973,2026-10-18T12:30:00Z
+2026-10-07T18:45:38.407084+02:00,5316322,Real Madrid CF vs. Sevilla FC: Neither team to score first?,lal-rea-sev-2026-10-18-first-to-score-neither,0.47,0.525,0.995,0.0,34.0093,2026-10-18T19:00:00Z
+2026-10-07T18:45:38.407084+02:00,5357813,TCU vs. Baylor: Both Teams to Score Points - Q2,cfb-tcu-bayl-2026-10-17-2q-btts-points,0.495,0.5,0.995,0.0,1.92,2026-10-17T23:00:00Z
+2026-10-07T18:45:38.407084+02:00,5362993,Fram Reykjavik vs. KR Reykjavik: Draw at halftime?,isl1-frr-krr-2026-10-10-halftime-result-draw,0.305,0.69,0.9949999999999999,0.0,896.0143,2026-10-10T19:15:00Z
+2026-10-07T18:45:38.407084+02:00,5379356,Will Javokhir Sindarov finish in the Top 8 of Titled Tuesday on October 13?,titled-tuesday-2026-10-13-top8-javokhir-sindarov,0.205,0.79,0.995,0.0,308.1,2026-10-28T03:59:00Z
+2026-10-07T18:45:38.407084+02:00,5380180,Malik Willis: Anytime Touchdown,nfl-cin-mia-2026-10-11-anytime-td-malik-willis,0.49,0.505,0.995,0.0,4.9598,2026-10-11T17:00:00Z
+2026-10-07T18:45:38.407084+02:00,5394202,"Will ""Think"" be said during the next episode of the Lemonade Stand Podcast?",will-be-said-think-be-said-during-the-next-episode-of-the-lemonade-stand-podcast-october-14-20261006222125574,0.8195,0.044,0.8635,0.0,11.11894,2026-10-15T03:59:00Z
+2026-10-07T18:45:38.407084+02:00,5400536,Exact Score: Cambridge United FC 1 - 0 Wycombe Wanderers FC?,el1-cam-wyc-2026-10-20-exact-score-1-0,0.485,0.51,0.995,0.0,11.2804,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5400657,Exact Score: Blackpool FC 4 - 4 Milton Keynes Dons FC?,el1-bla-mkd-2026-10-20-exact-score-4-4,0.475,0.52,0.995,0.0,21.0584,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5400863,Exact Score: Burton Albion FC 2 - 0 Bradford City AFC?,el1-bur-bra-2026-10-20-exact-score-2-0,0.485,0.51,0.995,0.0,11.5688,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5402102,Exact Score: Bristol Rovers FC 3 - 2 Salford City FC?,el2-bri-sal-2026-10-20-exact-score-3-2,0.48,0.515,0.995,0.0,17.7693,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5402303,Exact Score: Chesterfield FC 5 - 5 Colchester United FC?,el2-ches-col-2026-10-20-exact-score-5-5,0.49,0.505,0.995,0.0,7.9198,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5402353,Accrington Stanley FC to score first vs. York City FC?,el2-yor-ast-2026-10-20-first-to-score-away,0.49,0.505,0.995,0.0,15.2335,2026-10-20T18:45:00Z
+2026-10-07T18:45:38.407084+02:00,5403240,Exact Score: CD Malacateco 0 - 1 Comunicaciones FC?,gtm-adm-com-2026-10-20-exact-score-0-1,0.485,0.51,0.995,0.0,15.4188,2026-10-21T02:00:00Z
+2026-10-07T18:45:38.407084+02:00,5405091,Exact Score: Real Cundinamarca 4 - 1 CD Real Santander?,col2-rea-real-2026-10-09-exact-score-4-1,0.475,0.52,0.995,0.0,21.3692,2026-10-09T20:00:00Z
+2026-10-07T18:45:38.407084+02:00,5405271,Exact Score: FK Tukums 2000/TSS 1 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-1-2,0.48,0.515,0.995,0.0,21.5993,2026-10-10T11:00:00Z
+2026-10-07T18:45:38.407084+02:00,5405290,Exact Score: FK Tukums 2000/TSS 4 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-4-2,0.485,0.51,0.995,0.0,15.1184,2026-10-10T11:00:00Z

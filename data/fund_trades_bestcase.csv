@@ -2539,3 +2539,84 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-07T11:16:41.515959+02:00,KAUF,5323263,Exact Score: AD Fazendense 5 - 3 CF Estrela da Amadora?,2.5976,0.995,-2.5846,5.1692,"Spread 0.50%, Liquiditaet 18 USD"
 2026-10-07T11:16:41.515959+02:00,KAUF,5322497,Exact Score: AA Coimbra 4 - 2 Amarante FC?,2.5976,0.995,-2.5846,2.5846,"Spread 0.50%, Liquiditaet 17 USD"
 2026-10-07T11:16:41.515959+02:00,KAUF,5316105,Exact Score: Málaga CF 5 - 3 Real Sociedad de Fútbol?,2.5976,0.995,-2.5846,0.0,"Spread 0.50%, Liquiditaet 18 USD"
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5307679,FC CSKA 1948 vs. PFC CSKA Sofia: Both Teams to Score in Second Half,2.5348,1.0,2.5348,2.5348,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5240903,FC Sion to win the second half?,2.5348,1.0,2.5348,5.0697,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5213729,Exact Score: CS Huancayo 3 - 2 Cusco FC?,2.5465,1.0,2.5465,7.6162,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5313283,Will the lowest temperature in Karachi be 27°C on October 7?,2.5976,1.0,2.5976,10.2138,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5337838,Game 4: Both Teams Slay Baron Nashor?,2.5976,1.0,2.5976,12.8114,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,4994403,AS Nancy-Lorraine vs. En Avant Guingamp: Both Teams to Score,2.5976,1.0,2.5976,15.409,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5235996,Libertad Loja leading at halftime?,2.5976,1.0,2.5976,18.0066,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5235997,Libertad Loja vs. Leones Futbol Club: Draw at halftime?,2.5976,1.0,2.5976,20.6042,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5257017,Paju Frontier FC vs. Busan IPark: Draw at halftime?,2.5976,1.0,2.5976,23.2018,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,4991437,Exact Score: Alianza FC 4 - 1 Águilas Doradas Rionegro?,2.5976,1.0,2.5976,25.7994,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5241140,Will Stjarnan Gardabae vs. KA Akureyri end in a draw?,2.5976,1.0,2.5976,28.3971,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5235935,Cercle Brugge leading at halftime?,2.5976,1.0,2.5976,30.9947,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,4991629,Bohemians Praha 1905 leading at halftime?,2.5976,1.0,2.5976,33.5923,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,4991359,AD Tarma vs. FC Cajamarca: Draw at halftime?,2.5976,1.0,2.5976,36.1899,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5023483,Will CSD Mixco win on 2026-10-10?,2.5976,1.0,2.5976,38.7875,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5054715,Kataller Toyama leading at halftime?,2.5976,1.0,2.5976,41.3851,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5043886,Will RFK Akhmat Groznyi vs. FK Baltika Kaliningrad end in a draw?,2.5976,1.0,2.5976,43.9827,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5062804,AJ Auxerre to score first vs. Stade Rennais FC 1901?,2.5976,1.0,2.5976,46.5803,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5072724,NK Slaven Belupo leading at halftime?,2.5976,1.0,2.5976,49.1779,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5046423,Exact Score: FK Csíkszereda Miercurea Ciuc 3 - 3 Universitatea Craiova CS?,2.5976,1.0,2.5976,51.7755,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5398437,CA Patronato Parana vs. CA Guemes: Draw at halftime?,2.5976,1.0,2.5976,54.3731,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5399536,Will Barcelona SC win on 2026-10-11?,2.5976,1.0,2.5976,56.9707,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5072743,Exact Score: NK Slaven Belupo 3 - 1 HNK Rijeka?,2.5976,1.0,2.5976,59.5684,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5072706,Exact Score: NK Lokomotiva Zagreb 2 - 4 NK Varaždin?,2.5976,1.0,2.5976,62.166,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5072747,Exact Score: NK Slaven Belupo 2 - 3 HNK Rijeka?,2.5976,1.0,2.5976,64.7636,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5288058,Exact Score: Aris Thessaloniki 4 - 3 Volos NPS?,2.5976,1.0,2.5976,67.3612,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5291408,Exact Score: Sandnes Ulf 4 - 4 FK Haugesund?,2.5976,1.0,2.5976,69.9588,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5072586,Exact Score: FK Železiarne Podbrezová 1 - 4 FC Spartak Trnava?,2.5976,1.0,2.5976,72.5564,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5075170,Exact Score: SBV Excelsior 1 - 4 FC Groningen?,2.5976,1.0,2.5976,75.154,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5284226,Exact Score: FC St. Gallen 1879 1 - 4 Lausanne-Sport?,2.5976,1.0,2.5976,77.7516,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5084603,Exact Score: CA Rosario Central 1 - 4 CS Independiente Rivadavia?,2.5976,1.0,2.5976,80.3492,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5062585,1. FC Köln to score first vs. Borussia Mönchengladbach?,2.5976,1.0,2.5976,82.9468,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5088752,Exact Score: América de Cali 1 - 4 Independiente Medellín?,2.5976,1.0,2.5976,85.5444,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5307077,Bursaspor vs. Mardin 1969 Spor: Both Teams to Score in First Half,2.5976,1.0,2.5976,88.142,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5212873,TSG 1899 Hoffenheim vs. Beşiktaş JK: Both Teams to Score in Second Half,2.5976,1.0,2.5976,90.7397,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5179931,Exact Score: Los Angeles FC 3 - 0 Austin FC?,2.5976,1.0,2.5976,93.3373,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5372898,Will Chris Buescher win the 2026 NASCAR Cup Series Bank of America 400?,2.5976,1.0,2.5976,95.9349,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5189930,Exact Score: SC Freiburg 1 - 1 FK Jablonec?,2.5976,1.0,2.5976,98.5325,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5231904,Estudiantes de La Plata vs. CR Flamengo: Both Teams to Score in First Half,2.5976,1.0,2.5976,101.1301,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5280843,Exact Score: North Carolina Courage 3 - 2 San Diego Wave FC?,2.5976,1.0,2.5976,103.7277,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5385965,Exact Score: Boston United FC 3 - 2 Scunthorpe United FC?,2.5976,1.0,2.5976,106.3253,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5242613,Exact Score: FK Lokomotiv Moskva 4 - 3 FK Krasnodar?,2.5976,1.0,2.5976,108.9229,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5304940,Exact Score: Iwaki FC 2 - 0 Ventforet Kōfu?,2.5976,1.0,2.5976,111.5205,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5291915,Exact Score: FK Zenit 4 - 2 RFK Akhmat Groznyi?,2.5976,1.0,2.5976,114.1181,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5322553,Exact Score: ACDR Lamelas 5 - 4 Vitória SC?,2.5976,1.0,2.5976,116.7157,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5323263,Exact Score: AD Fazendense 5 - 3 CF Estrela da Amadora?,2.5976,1.0,2.5976,119.3133,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5322497,Exact Score: AA Coimbra 4 - 2 Amarante FC?,2.5976,1.0,2.5976,121.911,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,VERKAUF,5316105,Exact Score: Málaga CF 5 - 3 Real Sociedad de Fútbol?,2.5976,1.0,2.5976,124.5086,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T18:45:38.407084+02:00,KAUF,5394202,"Will ""Think"" be said during the next episode of the Lemonade Stand Podcast?",3.6972,0.8635,-3.1925,121.316,"Spread 13.65%, Liquiditaet 11 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,4974223,Exact Score: USL Dunkerque 1 - 1 FC Annecy?,3.2086,0.995,-3.1925,118.1235,"Spread 0.50%, Liquiditaet 493 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5405091,Exact Score: Real Cundinamarca 4 - 1 CD Real Santander?,3.2086,0.995,-3.1925,114.931,"Spread 0.50%, Liquiditaet 21 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5266026,Degerfors IF to score first vs. Mjallby AIF?,3.2086,0.995,-3.1925,111.7385,"Spread 0.50%, Liquiditaet 1071 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5031185,FC Twente to score first vs. Fortuna Sittard?,3.2086,0.995,-3.1925,108.5459,"Spread 0.50%, Liquiditaet 2131 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5362993,Fram Reykjavik vs. KR Reykjavik: Draw at halftime?,3.2086,0.995,-3.1925,105.3534,"Spread 0.50%, Liquiditaet 896 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5036637,Charlotte FC to score first vs. FC Dallas?,3.2086,0.995,-3.1925,102.1609,"Spread 0.50%, Liquiditaet 2851 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5047469,Exact Score: CDP Junior FC 3 - 1 Internacional de Bogotá?,3.2086,0.995,-3.1925,98.9683,"Spread 0.50%, Liquiditaet 75 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5405271,Exact Score: FK Tukums 2000/TSS 1 - 2 Riga FC?,3.2086,0.995,-3.1925,95.7758,"Spread 0.50%, Liquiditaet 22 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5074583,Beşiktaş JK vs. Kocaelispor: Both Teams to Score in First Half,3.2086,0.995,-3.1925,92.5833,"Spread 0.50%, Liquiditaet 2325 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5405290,Exact Score: FK Tukums 2000/TSS 4 - 2 Riga FC?,3.2086,0.995,-3.1925,89.3908,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5258065,Exact Score: Jagiellonia Bialystok 5 - 1 Gornik Zabrze?,3.2086,0.995,-3.1925,86.1982,"Spread 0.50%, Liquiditaet 24 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5083232,Pumas de la UNAM leading at halftime?,3.2086,0.995,-3.1925,83.0057,"Spread 0.50%, Liquiditaet 2721 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5109788,Minnesota vs. Purdue: Both Teams to Score a Touchdown - 1H,3.2086,0.995,-3.1925,79.8132,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,3401653,Will Ja'Marr Chase be the highest-scoring FLEX of the 2026-27 NFL season?,3.6486,0.875,-3.1925,76.6207,"Spread 12.50%, Liquiditaet 14 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5380180,Malik Willis: Anytime Touchdown,3.2086,0.995,-3.1925,73.4281,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5316322,Real Madrid CF vs. Sevilla FC: Neither team to score first?,3.2086,0.995,-3.1925,70.2356,"Spread 0.50%, Liquiditaet 34 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5315636,SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score in First Half,3.2086,0.995,-3.1925,67.0431,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5400657,Exact Score: Blackpool FC 4 - 4 Milton Keynes Dons FC?,3.2086,0.995,-3.1925,63.8505,"Spread 0.50%, Liquiditaet 21 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5357813,TCU vs. Baylor: Both Teams to Score Points - Q2,3.2086,0.995,-3.1925,60.658,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5402102,Exact Score: Bristol Rovers FC 3 - 2 Salford City FC?,3.2086,0.995,-3.1925,57.4655,"Spread 0.50%, Liquiditaet 18 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5402353,Accrington Stanley FC to score first vs. York City FC?,3.2086,0.995,-3.1925,54.273,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5403240,Exact Score: CD Malacateco 0 - 1 Comunicaciones FC?,3.2086,0.995,-3.1925,51.0804,"Spread 0.50%, Liquiditaet 15 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5400863,Exact Score: Burton Albion FC 2 - 0 Bradford City AFC?,3.2086,0.995,-3.1925,47.8879,"Spread 0.50%, Liquiditaet 12 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5400536,Exact Score: Cambridge United FC 1 - 0 Wycombe Wanderers FC?,3.2086,0.995,-3.1925,44.6954,"Spread 0.50%, Liquiditaet 11 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5402303,Exact Score: Chesterfield FC 5 - 5 Colchester United FC?,3.2086,0.995,-3.1925,41.5029,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,5379356,Will Javokhir Sindarov finish in the Top 8 of Titled Tuesday on October 13?,3.2086,0.995,-3.1925,38.3103,"Spread 0.50%, Liquiditaet 308 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,3811044,CF América vs. Club Tijuana: Neither team to score first?,3.2086,0.995,-3.1925,35.1178,"Spread 0.50%, Liquiditaet 8 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,4885547,Will 100 or more unique champions be played at Worlds 2026?,3.2086,0.995,-3.1925,31.9253,"Spread 0.50%, Liquiditaet 35 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,3380926,Will Fluxo W7M make a roster change by December?,3.2086,0.995,-3.1925,28.7327,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,2964884,Will Zekken Leave MIBR in 2026?,3.2086,0.995,-3.1925,25.5402,"Spread 0.50%, Liquiditaet 21 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,4205834,Will the Denver Broncos finish the 2026-27 NFL regular season with the best record?,3.2086,0.995,-3.1925,22.3477,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-07T18:45:38.407084+02:00,KAUF,3847946,Will Catanzaro be promoted to Serie A?,3.2086,0.995,-3.1925,19.1552,"Spread 0.50%, Liquiditaet 3 USD"
