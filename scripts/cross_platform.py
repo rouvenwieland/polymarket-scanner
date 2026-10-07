@@ -301,7 +301,14 @@ _NUMBER_WORD = r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|
 # bekannte Lücke, siehe Modul-Docstring).
 _THRESHOLD_RE = re.compile(
     r"\b(?:or more|or fewer|or less|exactly\s+" + _NUMBER_WORD + r"|"
-    r"between\s+" + _NUMBER_WORD + r"\s+and\s+" + _NUMBER_WORD + r")\b"
+    r"between\s+" + _NUMBER_WORD + r"\s+and\s+" + _NUMBER_WORD + r"|"
+    # Live-Vorfall: "fewer than"/"more than"/"at least"/"at most"/"less
+    # than"/"greater than" fehlten bisher komplett - "Will Democrats win
+    # fewer than 2 House seats in Ohio?" (Gesamtsitzzahl-Schwelle) wurde
+    # dadurch gegen "Who wins Ohio's 9th District?" (EIN Rennen) gematcht.
+    r"fewer than\s+" + _NUMBER_WORD + r"|more than\s+" + _NUMBER_WORD + r"|"
+    r"less than\s+" + _NUMBER_WORD + r"|greater than\s+" + _NUMBER_WORD + r"|"
+    r"at least\s+" + _NUMBER_WORD + r"|at most\s+" + _NUMBER_WORD + r")\b"
     r"|\b\d+\+"  # "N+"-Notation (z.B. "4+", "13+") - kein \b nach "+" moeglich (kein Wortzeichen)
 )
 
@@ -350,22 +357,29 @@ def _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b):
     vom tatsächlichen Spiel - Jaccard/Containment UND Embeddings bewerten
     das fälschlich hoch, weil der generische Titel wörtlich ein Teilsatz
     des spezifischen Titels ist bzw. thematisch identisch wirkt.
-    Nennt eine Seite ein "X vs Y"-Spielpaar, muss die andere Seite
-    MINDESTENS einen der beiden Namen irgendwo erwähnen (Titel oder
-    Zusatztext) - sonst ist es vermutlich ein anderes Spiel derselben
-    generischen Wettart. Nennen BEIDE Seiten ein Spielpaar, müssen sich die
-    beiden Namensmengen überschneiden."""
+
+    Nennt eine Seite ein "X vs Y"-Spielpaar, müssen BEIDE Namen irgendwo auf
+    der anderen Seite erwähnt werden (Titel oder Zusatztext) - NICHT nur
+    einer. Zweiter Live-Vorfall: Kalshis extra_text nennt zwar Teamnamen
+    (anders als der generische Titel selbst), aber vom falschen Spiel - z.B.
+    "Norwich City FC vs. Southampton FC" wurde gegen Kalshis "Both Teams To
+    Score" (extra_text: "...Swansea vs Norwich...", ein ANDERES Spiel)
+    gematcht, weil nur der Name "Norwich" zufällig auf beiden Seiten
+    auftaucht. Ein einzelner geteilter Name reicht für ein echtes Match bei
+    EINEM konkreten Spiel nicht - es müssen beide Namen korrespondieren."""
     matchup_a = _extract_matchup_teams(question_a)
     matchup_b = _extract_matchup_teams(question_b)
     if matchup_a is None and matchup_b is None:
         return False
-    if matchup_a is not None and matchup_b is not None:
-        teams_a = matchup_a[0] | matchup_a[1]
-        teams_b = matchup_b[0] | matchup_b[1]
-        return teams_a.isdisjoint(teams_b)
-    matchup, other_full_tokens = (matchup_a, full_tokens_b) if matchup_a is not None else (matchup_b, full_tokens_a)
-    team1, team2 = matchup
-    return other_full_tokens.isdisjoint(team1) and other_full_tokens.isdisjoint(team2)
+    if matchup_a is not None:
+        team1, team2 = matchup_a
+        if full_tokens_b.isdisjoint(team1) or full_tokens_b.isdisjoint(team2):
+            return True
+    if matchup_b is not None:
+        team1, team2 = matchup_b
+        if full_tokens_a.isdisjoint(team1) or full_tokens_a.isdisjoint(team2):
+            return True
+    return False
 
 
 # Fünfter harter Gegenbeweis (Live-Vorfall, siehe Modul-Docstring):
