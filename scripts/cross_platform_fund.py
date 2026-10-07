@@ -60,7 +60,7 @@ import math
 import os
 
 import fund_simulator
-from platforms import kalshi, predictit
+from platforms import kalshi, predictit, sxbet
 import cross_platform
 
 MIN_SPREAD = 0.03                 # nach grob geschätzten Gebühren noch 3 Cent Edge pro Paar nötig
@@ -385,10 +385,33 @@ def _predictit_leg_mark_and_result(leg):
     return current_price, payout
 
 
+def _sxbet_leg_mark_and_result(leg):
+    book = sxbet.fetch_market_by_hash(leg["market_id"])
+    prices = sxbet._best_taker_prices(book) if book else None
+    current_price = None
+    if prices is not None:
+        yes_price, no_price, _ = prices
+        current_price = yes_price if leg["side"] == "yes" else no_price
+
+    meta = sxbet.fetch_market_meta(leg["market_id"])
+    if meta is None:
+        return current_price, None  # Netzwerkfehler/transient - abwarten, nicht erzwingen
+    outcome = meta.get("outcome")
+    if outcome is None:
+        return current_price, None  # noch nicht abgewickelt
+    if outcome == 0:
+        return current_price, leg["einstandskurs"]  # void/Unentschieden -> Einsatz zurück, kein Gewinn/Verlust
+    # outcome 1 = outcomeOne gewinnt ("yes"-Seite), outcome 2 = outcomeTwo gewinnt ("no"-Seite)
+    yes_won = outcome == 1
+    payout = 1.0 if (yes_won and leg["side"] == "yes") or (not yes_won and leg["side"] == "no") else 0.0
+    return current_price, payout
+
+
 _LEG_HANDLERS = {
     "polymarket": _poly_leg_mark_and_result,
     "kalshi": _kalshi_leg_mark_and_result,
     "predictit": _predictit_leg_mark_and_result,
+    "sxbet": _sxbet_leg_mark_and_result,
 }
 
 

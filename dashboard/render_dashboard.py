@@ -91,6 +91,13 @@ FUND_PROFILES = [
         "empty_note": "Mindest-Spread (1,5&thinsp;Cent) nach geschätzter Gebühr erfüllt.",
         "open_by_default": False,
     },
+    {
+        "key": "sxbet_only", "label": "SX Bet Solo (100 USD)", "starting_capital": 100.0,
+        "state_json": "fund_state_sxbet.json", "history_csv": "fund_history_sxbet.csv", "trades_csv": "fund_trades_sxbet.csv",
+        "desc": "Dieselbe Yes+No&lt;1-Strategie, aber auf SX Bets EIGENEN Märkten (dezentrale On-Chain-Sportwetten-Börse, Orderbuch-Modell). Preise werden aus dem Orderbuch abgeleitet (bester Taker-Preis je Seite), Liquidität aus der Orderbuch-Tiefe. Keine Trading-Gebühr auf Einzelwetten (siehe platforms/sxbet.py).",
+        "empty_note": "Mindest-Spread (1,5&thinsp;Cent) erfüllt <b>und</b> bei dem nach dem Market-Impact-Modell noch ein Edge übrig bleibt.",
+        "open_by_default": False,
+    },
 ]
 
 
@@ -714,7 +721,7 @@ def render(data_dir):
 
     fund_details_html = "".join(render_fund_detail(fr) for fr in fund_results)
 
-    platform_labels = {"polymarket": "Polymarket", "kalshi": "Kalshi", "predictit": "PredictIt"}
+    platform_labels = {"polymarket": "Polymarket", "kalshi": "Kalshi", "predictit": "PredictIt", "sxbet": "SX Bet"}
     platforms_info = platform_overview.get("platforms", {})
     total_all_platforms = platform_overview.get("total_open_markets")
     total_fmt = f"{total_all_platforms:,}".replace(",", ".") if isinstance(total_all_platforms, int) else "-"

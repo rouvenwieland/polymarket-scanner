@@ -2,8 +2,10 @@
 Multi-Platform-Scan (für GitHub Actions)
 ===========================================
 
-Erweitert den reinen Polymarket-Scan (polymarket_snapshot.py) um Kalshi und
-PredictIt:
+Erweitert den reinen Polymarket-Scan (polymarket_snapshot.py) um Kalshi,
+PredictIt und SX Bet (siehe platforms/sxbet.py - real-money On-Chain-
+Sportwetten-Börse, zusätzliche Plattform um den Vergleichsradius auf mehr
+Nischenmärkte auszuweiten):
   1. Lädt offene Märkte aller drei Plattformen (normalisiertes Schema,
      siehe scripts/platforms/).
   2. Schreibt eine plattformübergreifende Übersicht (data/platform_overview.json) -
@@ -36,7 +38,7 @@ from zoneinfo import ZoneInfo
 import cross_platform
 import cross_platform_fund
 import single_platform_fund
-from platforms import kalshi, polymarket, predictit
+from platforms import kalshi, polymarket, predictit, sxbet
 
 TIMEZONE = "Europe/Berlin"
 DATA_DIR = "data"
@@ -59,6 +61,7 @@ def fetch_all_platforms():
         "polymarket": polymarket.fetch_all_normalized,
         "kalshi": kalshi.fetch_all_normalized,
         "predictit": predictit.fetch_all_normalized,
+        "sxbet": sxbet.fetch_all_normalized,
     }
     with ThreadPoolExecutor(max_workers=len(fetchers)) as pool:
         futures = {name: pool.submit(fn) for name, fn in fetchers.items()}

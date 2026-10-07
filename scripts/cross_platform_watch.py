@@ -2,10 +2,10 @@
 Hochfrequenter Watcher für den Cross-Platform-Fonds (für GitHub Actions)
 ============================================================================
 
-Analog zu fund_watch.py, aber für die fünf Multi-Platform-Fonds: die drei
+Analog zu fund_watch.py, aber für die Multi-Platform-Fonds: die drei
 Cross-Platform-Fonds (cross_platform_fund.py, 100/1.000/10.000 USD Start)
-und die beiden Single-Platform-Fonds (single_platform_fund.py, Kalshi/
-PredictIt solo). Kauft NICHTS Neues - prüft nur, ob eine der schon
+und die Single-Platform-Fonds (single_platform_fund.py, Kalshi/PredictIt/
+SX Bet solo). Kauft NICHTS Neues - prüft nur, ob eine der schon
 gehaltenen Positionen inzwischen aufgelöst wurde. Ein Fonds mit leerem
 Portfolio verursacht dabei keinen API-Call.
 """

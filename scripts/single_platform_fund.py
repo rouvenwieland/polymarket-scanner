@@ -30,7 +30,7 @@ import math
 import os
 
 import fund_simulator
-from platforms import kalshi, predictit
+from platforms import kalshi, predictit, sxbet
 
 IMPACT_COEFFICIENT = 0.15       # gleicher Wert wie bei den Polymarket-Fonds
 MIN_SPREAD = 0.015              # 1.5 Cent Mindest-Edge nach Gebührenschätzung
@@ -56,6 +56,15 @@ PROFILES = {
         "state_json": "fund_state_predictit.json",
         "trades_csv": "fund_trades_predictit.csv",
         "history_csv": "fund_history_predictit.csv",
+    },
+    "sxbet_only": {
+        "key": "sxbet_only",
+        "label": "SX Bet Solo (100 USD)",
+        "platform": "sxbet",
+        "starting_capital": 100.0,
+        "state_json": "fund_state_sxbet.json",
+        "trades_csv": "fund_trades_sxbet.csv",
+        "history_csv": "fund_history_sxbet.csv",
     },
 }
 
@@ -245,12 +254,13 @@ def _settle_fee(platform, proceeds_per_share, einstandskurs):
     return 0.0
 
 
-def _single_lookup_sum(platform, market_id):
+def _single_lookup_sum(platform, market_id, einstandskurs=None):
     """Gezielter Einzel-Lookup für eine Position, die im aktuellen Bulk-
     Scan nicht mehr auftaucht (vermutlich aufgelöst/geschlossen). Gibt
     (current_sum, resolved) zurück - resolved=True heißt: Markt ist zu,
     current_sum ist dann die Summe aus den beiden Abwicklungspreisen
-    (0.0 oder 1.0 je Seite, je nach Ausgang)."""
+    (0.0 oder 1.0 je Seite, je nach Ausgang). einstandskurs wird nur für
+    SX Bets "void"-Fall gebraucht (siehe dort)."""
     if platform == "kalshi":
         market = kalshi.fetch_market_by_ticker(market_id)
         if market is None:
@@ -271,6 +281,26 @@ def _single_lookup_sum(platform, market_id):
                 return float(contract["bestBuyYesCost"]) + float(contract["bestBuyNoCost"]), False
             except (KeyError, TypeError, ValueError):
                 return None, False
+        return 1.0, True
+    if platform == "sxbet":
+        meta = sxbet.fetch_market_meta(market_id)
+        if meta is None:
+            return None, False
+        if meta.get("outcome") is None:
+            book = sxbet.fetch_market_by_hash(market_id)
+            prices = sxbet._best_taker_prices(book) if book else None
+            if prices is None:
+                return None, False
+            yes_price, no_price, _ = prices
+            return yes_price + no_price, False
+        if meta.get("outcome") == 0:
+            # void/Unentschieden -> beide Seiten bekommen ihren Einsatz zurück,
+            # KEIN "Yes+No=1.00"-Fall wie bei einem echten Sieger/Verlierer -
+            # ohne bekannten Einstandskurs (Positions-Altlast) konservativ auf
+            # 1.00 zurückfallen (kein Gewinn/Verlust-Signal verfälscht dann
+            # zumindest nicht die Kasse in eine Richtung).
+            return einstandskurs if einstandskurs is not None else 1.0, True
+        # Echter Sieger: Yes+No zahlen zusammen immer genau 1.00 (wie Kalshi/PredictIt).
         return 1.0, True
     return None, False
 
@@ -297,7 +327,7 @@ def _apply_decision(profile, state, pos, decision, now):
     platform = profile["platform"]
 
     if decision["action"] == "lookup":
-        current_sum, resolved = _single_lookup_sum(platform, pos["market_id"])
+        current_sum, resolved = _single_lookup_sum(platform, pos["market_id"], pos.get("einstandskurs"))
         if current_sum is None:
             return False  # vorübergehender Fehler - nächstes Mal erneut versuchen
         if resolved:

@@ -25,20 +25,31 @@ Enddatum-Nähe gematcht. Zwei Signale, der jeweils höchste Wert gewinnt:
   Fragen hoch bewertete, ohne in den bekannten echten Matches zusätzlichen
   Erkennungswert zu liefern (siehe _combined_score).
 
+  3. Semantisches Embedding (siehe embeddings.py, lokales Modell, keine
+     externe API/Kosten) - Kosinus-Ähnlichkeit der Fragetexte. Fängt Fälle,
+     in denen beide Seiten dieselbe Frage mit komplett anderem Wortlaut
+     stellen ("Will the Fed cut rates?" vs. "Federal Reserve interest rate
+     decision") und daher kein gemeinsames informatives Token teilen -
+     genau die Lücke, die Jaccard/Containment strukturell nicht schließen
+     können. Nur als ZUSÄTZLICHES Signal (max() mit den beiden anderen),
+     NIEMALS als Ersatz für die harten Gegenbeweise unten: empirische
+     Kalibrierung zeigte, dass ein reiner Embedding-Score einen
+     Jahreszahl-Konfliktfall HÖHER bewertete (0.918) als ein echtes Match
+     (0.901) - Embeddings allein können solche Detail-Konflikte nicht
+     verlässlich erkennen.
+
   Dazu mehrere harte Gegenbeweise (siehe _conflicting_*), die trotz hoher
-  Jaccard/Containment-Werte ein Match ausschließen: unterschiedliche
+  Jaccard/Containment/Embedding-Werte ein Match ausschließen: unterschiedliche
   Jahreszahlen, unterschiedliche Distriktcodes/Prozent-Bänder, unter-
   schiedliche Subjekte/Kandidatennamen, unterschiedlicher Amtstyp
   (Senat/Governor/House/...) oder eine Seite fragt nach der Stimmenzahl
   statt nach dem Sieger.
 
-Das ist KEINE echte semantische/Embedding-Suche (dafür müsste eine externe
-Embeddings-API aufgerufen werden - Kosten + Latenz + API-Key-Verwaltung in
-der GitHub-Action - aktuell nicht eingerichtet), sondern eine pragmatische,
-kostenlose Annäherung mit mehreren sich ergänzenden Textsignalen und
-expliziten Ausschlusskriterien. Trotz mehrerer Härtungsrunden bleibt ein
-Restrisiko an Fehl-Matches, die weder Trefferkriterium noch Gegenbeweis
-abdecken - siehe Projektdokumentation für bekannte verbleibende Lücken.
+Textsignale + Embeddings sind eine pragmatische, kostenlose Annäherung an
+echtes semantisches Verständnis, kein Beweis. Trotz mehrerer Härtungsrunden
+bleibt ein Restrisiko an Fehl-Matches, die weder Trefferkriterium noch
+Gegenbeweis abdecken - siehe Projektdokumentation für bekannte verbleibende
+Lücken.
 
 Blocking: statt jeden Markt mit jedem zu vergleichen (bei ~200k
 Polymarket-Märkten x ein paar tausend Kalshi/PredictIt-Märkten viel zu
@@ -57,6 +68,8 @@ Hauptrisiko dieser Strategie.
 import re
 import unicodedata
 from datetime import datetime, timezone
+
+import embeddings
 
 STOPWORDS = {
     "will", "the", "a", "an", "of", "in", "on", "for", "to", "by", "be",
@@ -77,6 +90,13 @@ _PERCENT_RE = re.compile(r"\b\d{1,3}%")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
+# Kalibriert gegen echte Produktionsdaten (siehe embeddings.py/Modul-
+# Docstring): echte Matches lagen bei 0.857-0.964 Kosinus-Ähnlichkeit. Der
+# Mindestwert liegt bewusst hoch, da reine Embedding-Ähnlichkeit allein
+# Detail-Konflikte (Jahr, Bezirk, ...) nicht erkennt - die harten
+# Gegenbeweise (_conflicting_*) fangen das weiterhin ab, aber ein
+# niedrigerer Schwellenwert hätte unnötig viele riskante Kandidaten erzeugt.
+EMBEDDING_THRESHOLD = 0.86
 
 
 def _stem(token):
@@ -140,6 +160,26 @@ def _dates_close(d1, d2, max_days=MAX_DAYS_APART):
     if d1 is None or d2 is None:
         return True  # unbekannt -> nicht ausschliessen, Textähnlichkeit entscheidet allein
     return abs((d1 - d2).total_seconds()) <= max_days * 86400
+
+
+# Embedding-Vektoren werden NICHT für jeden Markt vorab berechnet (bei
+# Polymarkts ~120.000 offenen Märkten pro 15-Minuten-Lauf viel zu teuer -
+# siehe Modul-Docstring zur Laufzeit-Abwägung), sondern nur verzögert für
+# Fragen, die bereits das Token-Overlap-Blocking passiert haben, also schon
+# echte Kandidaten sind. Über mehrere Plattform-Paare im selben Lauf
+# hinweg gecacht (z.B. taucht derselbe Polymarket-Markt sowohl gegen Kalshi
+# als auch gegen PredictIt als Kandidat auf) - der Schlüssel ist der
+# Fragetext selbst, das reicht für die Lebensdauer eines Scan-Prozesses.
+_embedding_cache = {}
+
+
+def _get_embedding(text):
+    if text in _embedding_cache:
+        return _embedding_cache[text]
+    vectors = embeddings.encode([text])
+    vec = vectors[0] if vectors else None
+    _embedding_cache[text] = vec
+    return vec
 
 
 def _build_token_index(title_tokens_list):
@@ -228,14 +268,20 @@ _RACE_TYPE_WORDS = {
     "lieutenant governor": "ltgov",
 }
 _VOTE_COUNT_WORDS = ("total votes", "turnout", "voter turnout")
+_NUMBER_WORD = r"(?:\d+|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|thirteen|fourteen|fifteen|sixteen|seventeen|eighteen|nineteen|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred)"
 # "Hält Partei X mindestens/exakt N Sitze insgesamt?" ist inhaltlich eine
 # andere Frage als "Wer gewinnt EIN bestimmtes Rennen?" - auch wenn beide
 # Partei/Jahr/Amtstyp im Wortlaut teilen (z.B. "Republicans hold 57 or
 # more Senate seats" vs. "Which party wins the Ohio Senate special
 # election? - Republican"). Erkennungsmerkmal: ein Zahlen-Schwellenwert-
-# Ausdruck ("or more", "or fewer", "exactly 50", "between 7 and 9").
+# Ausdruck ("or more", "or fewer", "exactly 50", "between 7 and 9", "4+",
+# "between thirteen and fifteen") - sowohl Ziffern- als auch
+# ausgeschriebene Zahlen ("N+"-Notation und Zahlwörter waren bisher eine
+# bekannte Lücke, siehe Modul-Docstring).
 _THRESHOLD_RE = re.compile(
-    r"\b(?:or more|or fewer|or less|exactly\s+\d+|between\s+\d+\s+and\s+\d+)\b"
+    r"\b(?:or more|or fewer|or less|exactly\s+" + _NUMBER_WORD + r"|"
+    r"between\s+" + _NUMBER_WORD + r"\s+and\s+" + _NUMBER_WORD + r")\b"
+    r"|\b\d+\+"  # "N+"-Notation (z.B. "4+", "13+") - kein \b nach "+" moeglich (kein Wortzeichen)
 )
 
 
@@ -257,7 +303,8 @@ def _conflicting_race_type(question_a, question_b):
     return is_vote_count_a != is_vote_count_b
 
 
-def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b):
+def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
+                     embedding_score=None):
     if (
         _conflicting_years(question_a, question_b)
         or _conflicting_specifics(question_a, question_b)
@@ -286,7 +333,15 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
     # echten Matches (Fed-Zinsentscheidung, Lakers-Championship) trugen
     # Jaccard/Containment die Entscheidung bereits allein, Fuzzy lieferte
     # dort keinen zusätzlichen Erkennungswert - nur zusätzliches Risiko.
-    return max(jaccard_score, containment_score)
+    text_score = max(jaccard_score, containment_score)
+    # Embedding-Score nur oberhalb eines hohen, kalibrierten Mindestwerts
+    # einbeziehen (siehe embeddings.py) - alle harten Gegenbeweise oben
+    # greifen bereits VOR dieser Stelle, aber der Embedding-Score selbst
+    # bleibt ein Näherungswert, kein Beweis, daher zusätzlich konservativ
+    # gedeckelt statt blind auf das Modell zu vertrauen.
+    if embedding_score is not None and embedding_score >= EMBEDDING_THRESHOLD:
+        return max(text_score, embedding_score)
+    return text_score
 
 
 def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=MAX_DAYS_APART):
@@ -310,13 +365,23 @@ def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=
         for tok in title_toks_a:
             candidate_idxs |= index_b.get(tok, set())
 
+        vec_a, vec_a_computed = None, False  # erst berechnen, wenn mind. 1 Kandidat die Datums-Prüfung übersteht
         best_idx, best_score = None, 0.0
         for j in candidate_idxs:
             if not _dates_close(date_a, dates_b[j], max_days):
                 continue
+            if not vec_a_computed:
+                vec_a = _get_embedding(ma["question"])
+                vec_a_computed = True
+            embedding_score = None
+            if vec_a is not None:
+                vec_b = _get_embedding(markets_b[j]["question"])
+                if vec_b is not None:
+                    embedding_score = embeddings.cosine_sim(vec_a, vec_b)
             score = _combined_score(
                 title_toks_a, full_toks_a, question_a,
                 title_tokens_b[j], full_tokens_b[j], questions_b[j],
+                embedding_score=embedding_score,
             )
             if score > best_score:
                 best_score, best_idx = score, j

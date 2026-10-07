@@ -35,7 +35,23 @@ jobs:
           python-version: "3.11"
 
       - name: Abhängigkeiten installieren
-        run: pip install requests pandas
+        # fastembed: lokales Embedding-Modell für semantisches Cross-Platform-
+        # Matching (siehe scripts/embeddings.py) - kein API-Key, reine
+        # ONNX-CPU-Inferenz, bewusst NICHT sentence-transformers (zieht sonst
+        # einen vollen GPU-Torch-Build, ca. 1GB+ statt ~200-250MB).
+        run: pip install requests pandas fastembed
+
+      - name: Embedding-Modell vorab cachen
+        # Lädt die Modellgewichte einmal in den Actions-Cache (keyed auf den
+        # Modellnamen, der sich praktisch nie ändert) - ohne Cache würde
+        # JEDER 15-Minuten-Lauf das Modell erneut von HuggingFace herunterladen.
+        # fastembeds Standard-Cache-Pfad ist $TMPDIR/fastembed_cache, auf
+        # GitHub-Actions-Runnern also /tmp/fastembed_cache (verifiziert gegen
+        # fastembed.common.utils - kein konfigurierbarer ~/.cache-Pfad).
+        uses: actions/cache@v4
+        with:
+          path: /tmp/fastembed_cache
+          key: fastembed-bge-small-en-v1.5
 
       - name: Multi-Platform-Scan ausführen
         run: python scripts/multi_platform_scan.py
