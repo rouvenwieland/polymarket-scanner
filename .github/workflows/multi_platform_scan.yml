@@ -2,11 +2,18 @@ name: Multi-Platform Scan
 
 on:
   schedule:
-    # Kalshi + PredictIt sind deutlich kleiner als Polymarkts ~200k Märkte,
-    # ein Lauf sollte also schneller sein als der große Polymarket-Scan -
-    # trotzdem bewusst kein engerer Takt als der Haupt-Scan, um die
-    # zusätzliche Last/API-Last auf Kalshi/PredictIt gering zu halten.
-    - cron: "*/15 * * * *"
+    # HOTFIX (Live-Betrieb): seit Embeddings (volle Kandidatenberechnung
+    # über Polymarkts ~90-120k Märkte) + SX Bet + der KI-Prüfstufe (OpenRouter,
+    # bis zu 35 Anfragen mit je bis zu 45s Timeout) dauert ein Lauf
+    # typischerweise 30-50 Minuten statt der früheren ~10-15 Minuten. Bei
+    # */15 lief dadurch IMMER ein neuer Lauf an, während der vorherige noch
+    # aktiv war - wegen der gemeinsamen concurrency-Gruppe (cancel-in-
+    # progress: false) wurde dann der länger wartende, bereits gequeute Lauf
+    # von GitHub zugunsten des neuesten verworfen ("cancelled"), sobald ein
+    # noch neuerer Lauf dazukam - samt seiner bereits verbrauchten
+    # KI-Prüfstufen-Anfragen, die beim Abbruch verloren gehen. */30 gibt
+    # jedem Lauf realistisch Zeit, durchzulaufen und zu committen.
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -65,10 +72,23 @@ jobs:
         run: python scripts/multi_platform_scan.py
 
       - name: Ergebnisse committen
+        # Retry mit Rebase statt direktem Abbruch bei einem non-fast-forward-
+        # Push (z.B. weil zwischenzeitlich jemand direkt auf main gepusht
+        # hat, nicht nur ein anderer Workflow-Lauf) - sonst geht der ganze
+        # Lauf samt bereits verbrauchtem KI-Prüfstufen-Tagesbudget verloren.
         run: |
           mkdir -p data
           git config user.name "polymarket-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/
           git diff --quiet --cached || git commit -m "Multi-Platform-Scan $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          git push
+          for i in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push fehlgeschlagen (Versuch $i/5) - hole aktuellen main-Stand und versuche erneut..."
+            git pull --rebase origin main
+            sleep 3
+          done
+          echo "Push nach 5 Versuchen weiterhin fehlgeschlagen." >&2
+          exit 1
