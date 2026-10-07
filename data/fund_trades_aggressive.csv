@@ -35,3 +35,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-06T09:19:49.359762+02:00,KAUF,3848441,Will Bologna be relegated from the 2026-27 Serie A?,18.3046,0.8997,-16.4687,16.4687,"Spread 11.50%, Liquiditaet 149 USD"
 2026-10-06T21:32:31.357746+02:00,AUSZAHLUNG,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,1.0,2.4264,18.8951,Markt als geschlossen/aufgelöst markiert
 2026-10-06T21:40:38.249377+02:00,KAUF,4228892,Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?,9.5656,0.9877,-9.4476,9.4476,"Spread 1.50%, Liquiditaet 525 USD"
+2026-10-07T04:35:19.271956+02:00,KAUF,5363418,Cleveland Guardians vs. Chicago White Sox: 9th inning tied?,3.8292,0.8224,-3.1492,6.2984,"Spread 22.00%, Liquiditaet 9 USD"
+2026-10-07T04:35:19.271956+02:00,KAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,4.6999,0.67,-3.1492,3.1492,"Spread 33.50%, Liquiditaet 62 USD"
