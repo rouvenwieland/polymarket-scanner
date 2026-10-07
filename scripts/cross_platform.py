@@ -90,24 +90,21 @@ _PERCENT_RE = re.compile(r"\b\d{1,3}%")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
-# HOTFIX (Live-Vorfall nach Embedding-Einführung): 0.86 erwies sich im
-# Produktionslauf als VIEL zu niedrig - die Kalibrierung vorher stützte sich
-# nur auf eine Handvoll händisch ausgewählter Beispiele, nicht auf echte
-# Marktdaten in der Breite. Reale Folge: Fragen mit rein STRUKTURELL
-# ähnlichem Satzbau, aber völlig anderem Inhalt, bekamen hohe Kosinus-
-# Ähnlichkeit zugewiesen - z.B. "Will New York City FC win on 2026-10-10?"
-# (Sport) <-> "Which party will win the 2026 election for governor...?"
-# (Politik), oder generische Markttitel wie "Both Teams To Score" (ohne
-# Team-Namen) <-> JEDE beliebige Polymarket-BTTS-Frage, unabhängig vom
-# tatsächlichen Spiel. Exakt das Problem, für das der frühere Fuzzy-Ratio-
-# Score (zeichenbasiert) schon einmal entfernt wurde ("Will X happen in
-# 2026?"-Satzschablone) - Embeddings reproduzieren dasselbe Muster auf
-# semantischer statt zeichenbasierter Ebene. Alle drei Cross-Platform-Fonds
-# kauften binnen EINES Laufs 15/15 Fehl-Positionen auf dieser Basis.
-# Schwelle daher auf > 1.0 (unerreichbar) gesetzt - deaktiviert den
-# Embedding-Signalpfad vollständig, bis eine Neukalibrierung gegen echte
-# Live-Daten (nicht nur Einzelbeispiele) eine sicherere Schwelle liefert.
-EMBEDDING_THRESHOLD = 1.01
+# Live-Vorfall (siehe Modul-Docstring): die erste Embedding-Kalibrierung
+# (0.86, gegen eine Handvoll Einzelbeispiele) reichte in der Breite echter
+# Marktdaten NICHT aus - reine Themen-/Satzbau-Ähnlichkeit ohne jeden
+# geteilten Inhalt wurde fälschlich als Match gewertet ("Will New York City
+# FC win?" <-> "Which party wins the governor election?"). Der Fix besteht
+# NICHT aus einer noch höheren Schwelle (hätte das obige Beispiel evtl.
+# nicht zuverlässig ausgeschlossen, da beide Seiten teils >0.9 erreichten),
+# sondern aus einer zusätzlichen Beweispflicht: ein Embedding-Match zählt
+# nur noch, wenn BEIDE Seiten zusätzlich mindestens ein echtes, nicht-
+# numerisches Inhalts-Token oder einen identischen Bezirks-/Prozent-Code
+# teilen (siehe _embedding_corroborated) - reine thematische Nähe ohne
+# jeden gemeinsamen konkreten Anhaltspunkt reicht nicht mehr. Dazu ein
+# neuer harter Gegenbeweis für generische-vs-spezifische Sport-Titel
+# (_conflicting_matchup, z.B. "Both Teams To Score" ohne Team-Namen).
+EMBEDDING_THRESHOLD = 0.86
 
 
 def _stem(token):
@@ -314,6 +311,50 @@ def _conflicting_race_type(question_a, question_b):
     return is_vote_count_a != is_vote_count_b
 
 
+_MATCHUP_RE = re.compile(r"^(.+?)\s+vs\.?\s+(.+?)(?:\s*[:\-]|$)")
+
+
+def _extract_matchup_teams(question):
+    """Erkennt das verbreitete Sport-Markt-Muster "Team A vs Team B[: ...]"
+    (Polymarket, Kalshi, SX Bet nutzen alle diese Konvention) und gibt die
+    beiden Team-Token-Mengen zurück, oder None, wenn das Muster nicht passt
+    oder eine Seite nach Tokenisierung leer bleibt (z.B. nur Stoppwörter)."""
+    m = _MATCHUP_RE.match(question)
+    if not m:
+        return None
+    team1_tokens = _tokenize(m.group(1))
+    team2_tokens = _tokenize(m.group(2))
+    if not team1_tokens or not team2_tokens:
+        return None
+    return team1_tokens, team2_tokens
+
+
+def _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b):
+    """Vierter harter Gegenbeweis (Live-Vorfall, siehe Modul-Docstring):
+    generische Markttitel wie Kalshis "Both Teams To Score" (OHNE
+    Team-Namen im Titel-Text) wurden sonst gegen JEDE beliebige "Team A vs
+    Team B: ..."-Frage zur selben generischen Wett-Art gematcht, unabhängig
+    vom tatsächlichen Spiel - Jaccard/Containment UND Embeddings bewerten
+    das fälschlich hoch, weil der generische Titel wörtlich ein Teilsatz
+    des spezifischen Titels ist bzw. thematisch identisch wirkt.
+    Nennt eine Seite ein "X vs Y"-Spielpaar, muss die andere Seite
+    MINDESTENS einen der beiden Namen irgendwo erwähnen (Titel oder
+    Zusatztext) - sonst ist es vermutlich ein anderes Spiel derselben
+    generischen Wettart. Nennen BEIDE Seiten ein Spielpaar, müssen sich die
+    beiden Namensmengen überschneiden."""
+    matchup_a = _extract_matchup_teams(question_a)
+    matchup_b = _extract_matchup_teams(question_b)
+    if matchup_a is None and matchup_b is None:
+        return False
+    if matchup_a is not None and matchup_b is not None:
+        teams_a = matchup_a[0] | matchup_a[1]
+        teams_b = matchup_b[0] | matchup_b[1]
+        return teams_a.isdisjoint(teams_b)
+    matchup, other_full_tokens = (matchup_a, full_tokens_b) if matchup_a is not None else (matchup_b, full_tokens_a)
+    team1, team2 = matchup
+    return other_full_tokens.isdisjoint(team1) and other_full_tokens.isdisjoint(team2)
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
                      embedding_score=None):
     if (
@@ -321,6 +362,7 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
         or _conflicting_specifics(question_a, question_b)
         or _conflicting_subjects(question_a, question_b)
         or _conflicting_race_type(question_a, question_b)
+        or _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b)
     ):
         return 0.0
     # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer
@@ -346,13 +388,31 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
     # dort keinen zusätzlichen Erkennungswert - nur zusätzliches Risiko.
     text_score = max(jaccard_score, containment_score)
     # Embedding-Score nur oberhalb eines hohen, kalibrierten Mindestwerts
-    # einbeziehen (siehe embeddings.py) - alle harten Gegenbeweise oben
-    # greifen bereits VOR dieser Stelle, aber der Embedding-Score selbst
-    # bleibt ein Näherungswert, kein Beweis, daher zusätzlich konservativ
-    # gedeckelt statt blind auf das Modell zu vertrauen.
-    if embedding_score is not None and embedding_score >= EMBEDDING_THRESHOLD:
+    # UND nur mit zusätzlicher Beweispflicht (_embedding_corroborated,
+    # siehe EMBEDDING_THRESHOLD-Kommentar zum Live-Vorfall) einbeziehen -
+    # reine thematische/strukturelle Nähe ohne jeden gemeinsamen konkreten
+    # Anhaltspunkt reicht nicht mehr.
+    if (
+        embedding_score is not None
+        and embedding_score >= EMBEDDING_THRESHOLD
+        and _embedding_corroborated(title_tokens_a, title_tokens_b, question_a, question_b)
+    ):
         return max(text_score, embedding_score)
     return text_score
+
+
+def _embedding_corroborated(title_tokens_a, title_tokens_b, question_a, question_b):
+    """Beweispflicht für ein Embedding-basiertes Match (siehe
+    EMBEDDING_THRESHOLD-Kommentar): mindestens ein geteiltes, NICHT rein
+    numerisches Titel-Token (z.B. ein gemeinsamer Name/Begriff) ODER ein
+    identischer Bezirks-/Prozent-Code. Reine Themen-Ähnlichkeit ohne jeden
+    konkreten gemeinsamen Anhaltspunkt (das war genau der Live-Vorfall)
+    reicht damit nicht mehr aus, egal wie hoch die Kosinus-Ähnlichkeit ist."""
+    if _non_numeric(title_tokens_a) & _non_numeric(title_tokens_b):
+        return True
+    codes_a = set(_DISTRICT_CODE_RE.findall(question_a)) | set(_PERCENT_RE.findall(question_a))
+    codes_b = set(_DISTRICT_CODE_RE.findall(question_b)) | set(_PERCENT_RE.findall(question_b))
+    return bool(codes_a & codes_b)
 
 
 def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=MAX_DAYS_APART):
@@ -382,14 +442,13 @@ def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=
             if not _dates_close(date_a, dates_b[j], max_days):
                 continue
             embedding_score = None
-            if EMBEDDING_THRESHOLD <= 1.0:  # Signal aktuell deaktiviert (siehe Hotfix oben) - keine Berechnung verschwenden
-                if not vec_a_computed:
-                    vec_a = _get_embedding(ma["question"])
-                    vec_a_computed = True
-                if vec_a is not None:
-                    vec_b = _get_embedding(markets_b[j]["question"])
-                    if vec_b is not None:
-                        embedding_score = embeddings.cosine_sim(vec_a, vec_b)
+            if not vec_a_computed:
+                vec_a = _get_embedding(ma["question"])
+                vec_a_computed = True
+            if vec_a is not None:
+                vec_b = _get_embedding(markets_b[j]["question"])
+                if vec_b is not None:
+                    embedding_score = embeddings.cosine_sim(vec_a, vec_b)
             score = _combined_score(
                 title_toks_a, full_toks_a, question_a,
                 title_tokens_b[j], full_tokens_b[j], questions_b[j],
