@@ -3633,3 +3633,89 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-07T18:45:38.407084+02:00,5405091,Exact Score: Real Cundinamarca 4 - 1 CD Real Santander?,col2-rea-real-2026-10-09-exact-score-4-1,0.475,0.52,0.995,0.0,21.3692,2026-10-09T20:00:00Z
 2026-10-07T18:45:38.407084+02:00,5405271,Exact Score: FK Tukums 2000/TSS 1 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-1-2,0.48,0.515,0.995,0.0,21.5993,2026-10-10T11:00:00Z
 2026-10-07T18:45:38.407084+02:00,5405290,Exact Score: FK Tukums 2000/TSS 4 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-4-2,0.485,0.51,0.995,0.0,15.1184,2026-10-10T11:00:00Z
+2026-10-07T23:45:16.650111+02:00,1130889,Will Kanye West have a #1 song on the Billboard Hot 100 in 2026?,will-kanye-west-have-a-1-song-on-the-billboard-hot-100-in-2026-738-548,0.0285,0.97,0.9984999999999999,866.3463489999999,47.97899,2027-01-02T04:59:00Z
+2026-10-07T23:45:16.650111+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-07T23:45:16.650111+02:00,3480183,Will Håkan Karlsson-Nyborg be the next Regional Board Chair of Region Jönköping County?,will-hakan-karlsson-nyborg-be-the-next-regional-board-chair-of-region-jonkoping-county-1786127776516,0.071,0.9285,0.9994999999999999,919.192663,177.25197,2026-09-14T03:59:00Z
+2026-10-07T23:45:16.650111+02:00,3520448,Will the Democratic Party candidate win the 2026 OR-04 House election by 5%-10%?,will-the-democratic-party-candidate-win-the-2026-or-04-house-election-by-5-10,0.0685,0.9305,0.999,443.619776,328.02741,2026-11-04T04:59:00Z
+2026-10-07T23:45:16.650111+02:00,3847946,Will Catanzaro be promoted to Serie A?,will-catanzaro-be-promoted-to-serie-a-2026-27,0.49,0.505,0.995,0.0,3.2146,2027-07-01T03:59:00Z
+2026-10-07T23:45:16.650111+02:00,4167240,Will the Republican Party candidate win the 2026 FL-09 House election by 5%-10%?,will-the-republican-party-candidate-win-the-2026-fl-09-house-election-by-5-10,0.375,0.62,0.995,0.0,77.8509,2026-11-03T12:00:00Z
+2026-10-07T23:45:16.650111+02:00,4216736,Will Drake London have 90.5+ receptions in the 2026-27 NFL regular season?,drake-london-90pt5-receptions-2026-27,0.495,0.5,0.995,0.0,5.1776,2027-01-12T23:59:00Z
+2026-10-07T23:45:16.650111+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,4985063,SK Brann vs. Viking FK: Both Teams to Score in First Half,nor-bra-vik-2026-10-09-btts-first-half,0.275,0.72,0.995,0.0,2348.6668,2026-10-09T17:00:00Z
+2026-10-07T23:45:16.650111+02:00,4988688,FK Zenit leading at halftime?,rus-kra-zen-2026-10-10-halftime-result-away,0.285,0.71,0.9949999999999999,0.0,2213.1185,2026-10-10T16:30:00Z
+2026-10-07T23:45:16.650111+02:00,4991491,Exact Score: FC Zbrojovka Brno 5 - 1 FK Jablonec?,cze1-zbr-fkj-2026-10-10-exact-score-5-1,0.235,0.76,0.995,0.0,33.1698,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,4991514,Exact Score: FC Zbrojovka Brno 5 - 3 FK Jablonec?,cze1-zbr-fkj-2026-10-10-exact-score-5-3,0.235,0.76,0.995,0.0,36.7899,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,4991573,Exact Score: FC Viktoria Plzeň 5 - 3 FK Mladá Boleslav?,cze1-fvp-fmb-2026-10-10-exact-score-5-3,0.235,0.76,0.995,0.0,37.9398,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,4995294,Exact Score: FC Goa 3 - 4 Chennaiyin FC?,isp-goa-che-2026-10-10-exact-score-3-4,0.36,0.635,0.995,0.0,19.1598,2026-10-10T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,4995746,Exact Score: South Melbourne FC 5 - 3 Melbourne Victory FC?,auc-sm-vic-2026-10-10-exact-score-5-3,0.235,0.76,0.995,0.0,37.7198,2026-10-10T08:35:00Z
+2026-10-07T23:45:16.650111+02:00,4999997,Tochigi City FC leading at halftime?,ja2-ven-tct-2026-10-10-halftime-result-away,0.33,0.665,0.9950000000000001,0.0,1443.9056,2026-10-10T07:00:00Z
+2026-10-07T23:45:16.650111+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-07T23:45:16.650111+02:00,5009730,Exact Score: FC Augsburg 4 - 1 FC Bayern München?,bun-aug-bay-2026-10-10-exact-score-4-1,0.2455,0.754,0.9995,9.9898,202.70195,2026-10-10T13:30:00Z
+2026-10-07T23:45:16.650111+02:00,5010342,RB Leipzig to score first vs. Eintracht Frankfurt?,bun-lei-ein-2026-10-10-first-to-score-home,0.64,0.355,0.995,0.0,2253.0957,2026-10-10T16:30:00Z
+2026-10-07T23:45:16.650111+02:00,5016728,Exact Score: Puntarenas FC 1 - 5 LD Alajuelense?,fpd-pun-ala-2026-10-10-exact-score-1-5,0.28,0.715,0.995,0.0,26.4011,2026-10-10T23:00:00Z
+2026-10-07T23:45:16.650111+02:00,5017881,Exact Score: Benevento Calcio 5 - 2 Cesena FC?,itsb-ben-ces-2026-10-10-exact-score-5-2,0.235,0.76,0.995,9.9898,29.0098,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,5018371,Exact Score: Stockport County FC 5 - 3 Barnsley FC?,el1-sto-bar-2026-10-10-exact-score-5-3,0.235,0.76,0.995,0.0,30.01,2026-10-10T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5018392,Exact Score: Cambridge United FC 1 - 2 Blackpool FC?,el1-cam-bla-2026-10-10-exact-score-1-2,0.24,0.755,0.995,0.0,364.1543,2026-10-10T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5023323,Oldham Athletic AFC vs. Accrington Stanley FC: Both Teams to Score,el2-old-ast-2026-10-10-btts,0.525,0.47,0.995,0.0,1946.4962,2026-10-10T11:30:00Z
+2026-10-07T23:45:16.650111+02:00,5025271,Exact Score: Altrincham FC 5 - 4 Aldershot Town FC?,enl-alt-ald-2026-10-10-exact-score-5-4,0.235,0.76,0.995,0.0,35.5997,2026-10-10T11:30:00Z
+2026-10-07T23:45:16.650111+02:00,5033528,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score,jap-avi-fag-2026-10-10-btts,0.48,0.515,0.995,0.0,2341.6789,2026-10-10T06:00:00Z
+2026-10-07T23:45:16.650111+02:00,5036896,Exact Score: Minnesota United FC 5 - 0 Houston Dynamo?,mls-min-hou-2026-10-10-exact-score-5-0,0.235,0.76,0.995,0.0,28.0299,2026-10-11T00:30:00Z
+2026-10-07T23:45:16.650111+02:00,5043901,RFK Akhmat Groznyi leading at halftime?,rus-ter-bal-2026-10-11-halftime-result-home,0.275,0.72,0.995,0.0,818.6798,2026-10-11T11:00:00Z
+2026-10-07T23:45:16.650111+02:00,5046671,Exact Score: Zamalek SC 4 - 0 El Ahly SC?,egy1-zas-eas-2026-10-11-exact-score-4-0,0.24,0.755,0.995,0.0,33.4898,2026-10-11T17:00:00Z
+2026-10-07T23:45:16.650111+02:00,5046894,Exact Score: CD Comerciantes Unidos 5 - 2 ADC Juan Pablo II College?,per1-ccu-ajp-2026-10-10-exact-score-5-2,0.235,0.76,0.995,0.0,34.2899,2026-10-10T20:30:00Z
+2026-10-07T23:45:16.650111+02:00,5047094,Audax CS Italiano leading at halftime?,chi1-cuc-aci-2026-10-10-halftime-result-away,0.155,0.84,0.995,0.0,341.4296,2026-10-10T23:00:00Z
+2026-10-07T23:45:16.650111+02:00,5047215,Exact Score: CU Técnica de Cajamarca 5 - 0 CS Cristal?,per1-ctd-csc-2026-10-11-exact-score-5-0,0.235,0.76,0.995,0.0,31.4598,2026-10-11T18:00:00Z
+2026-10-07T23:45:16.650111+02:00,5047227,Exact Score: CU Técnica de Cajamarca 5 - 1 CS Cristal?,per1-ctd-csc-2026-10-11-exact-score-5-1,0.235,0.76,0.995,0.0,36.2306,2026-10-11T18:00:00Z
+2026-10-07T23:45:16.650111+02:00,5048186,Exact Score: Al Fayha Saudi Club 5 - 2 Al Riyadh Saudi Club?,spl-fay-riy-2026-10-11-exact-score-5-2,0.235,0.76,0.995,0.0,31.0399,2026-10-11T13:40:00Z
+2026-10-07T23:45:16.650111+02:00,5048259,Exact Score: Al Shabab Saudi Club 5 - 1 Al Taawoun Saudi Club?,spl-sha-taa-2026-10-11-exact-score-5-1,0.235,0.76,0.995,0.0,36.3298,2026-10-11T18:00:00Z
+2026-10-07T23:45:16.650111+02:00,5053899,Exact Score: Liaoning Tieren FC 1 - 1 Wuhan San Zhen FC?,chi-tie-wsz-2026-10-11-exact-score-1-1,0.105,0.89,0.995,0.0,1523.1198,2026-10-11T11:35:00Z
+2026-10-07T23:45:16.650111+02:00,5053978,Chongqing Tonglianglong FC to score first vs. Shandong Taishan FC?,chi-ton-sha-2026-10-11-first-to-score-home,0.455,0.54,0.9950000000000001,0.0,1400.7009,2026-10-11T11:35:00Z
+2026-10-07T23:45:16.650111+02:00,5054390,Benevento Calcio vs. Cesena FC: Both Teams to Score,itsb-ben-ces-2026-10-10-btts,0.56,0.435,0.9950000000000001,0.0,1861.7682,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,5054674,Vegalta Sendai leading at halftime?,ja2-mon-veg-2026-10-11-halftime-result-away,0.365,0.63,0.995,0.0,1388.8817,2026-10-11T04:05:00Z
+2026-10-07T23:45:16.650111+02:00,5062592,DSC Arminia Bielefeld to score first vs. VfL Bochum?,bl2-boc-bie-2026-10-11-first-to-score-away,0.41,0.585,0.9949999999999999,0.0,1003.2554,2026-10-11T11:30:00Z
+2026-10-07T23:45:16.650111+02:00,5062910,Exact Score: FC St. Pauli 1910 5 - 2 Karlsruher SC?,bl2-stp-ksc-2026-10-11-exact-score-5-2,0.235,0.76,0.995,0.0,31.4798,2026-10-11T11:30:00Z
+2026-10-07T23:45:16.650111+02:00,5067854,Atlas FC vs. CD Guadalajara: Both Teams to Score in First Half,mex-atl-gua-2026-10-10-btts-first-half,0.405,0.59,0.995,0.0,9.3197,2026-10-11T01:00:00Z
+2026-10-07T23:45:16.650111+02:00,5083172,Exact Score: Atlético San Luis 2 - 5 Club Santos Laguna?,mex-asl-san-2026-10-11-exact-score-2-5,0.374,0.6255,0.9994999999999999,0.0,10.06999,2026-10-11T23:00:00Z
+2026-10-07T23:45:16.650111+02:00,5088578,Exact Score: Jaguares de Córdoba FC 4 - 4 CD Tolima?,col1-jdc-cdt-2026-10-11-exact-score-4-4,0.235,0.76,0.995,0.0,32.4397,2026-10-11T21:05:00Z
+2026-10-07T23:45:16.650111+02:00,5088789,Exact Score: América de Cali 5 - 1 Independiente Medellín?,col1-ad1-inm-2026-10-11-exact-score-5-1,0.235,0.76,0.995,0.0,31.4798,2026-10-12T01:15:00Z
+2026-10-07T23:45:16.650111+02:00,5117571,Exact Score: Real Valladolid CF 3 - 1 Albacete Balompié?,es2-vld-alb-2026-10-12-exact-score-3-1,0.195,0.8,0.9950000000000001,0.0,71.5899,2026-10-12T12:00:00Z
+2026-10-07T23:45:16.650111+02:00,5166720,"Shipping targeted in Hormuz on October 26, 2026?",shipping-targeted-in-hormuz-on-october-26-2026,0.465,0.53,0.9950000000000001,0.0,55.2964,2026-10-27T03:59:00Z
+2026-10-07T23:45:16.650111+02:00,5180002,Exact Score: Los Angeles Galaxy 5 - 4 Portland Timbers?,mls-lag-por-2026-10-14-exact-score-5-4,0.235,0.76,0.995,0.0,33.6199,2026-10-15T02:30:00Z
+2026-10-07T23:45:16.650111+02:00,5189587,Exact Score: Mjällby AIF 5 - 2 Inter Club d'Escaldes?,col-ma-int-2026-10-15-exact-score-5-2,0.235,0.76,0.995,0.0,29.9,2026-10-15T16:45:00Z
+2026-10-07T23:45:16.650111+02:00,5202184,Exact Score: Gimpo FC 5 - 1 Seoul E-Land FC?,kor2-gimp-sel-2026-10-09-exact-score-5-1,0.235,0.76,0.995,0.0,29.9898,2026-10-09T07:30:00Z
+2026-10-07T23:45:16.650111+02:00,5239412,Will Justin Thomas lead the 2026 Baycurrent Classic following the third round?,2026-baycurrent-classic-third-round-leader-justin-thomas,0.38,0.5,0.88,0.0,0.0,2026-10-11T00:00:00Z
+2026-10-07T23:45:16.650111+02:00,5241661,OFI Crete to score first vs. AEK Athens?,gre1-aek-ofi-2026-10-10-first-to-score-away,0.195,0.8,0.9950000000000001,0.0,1043.0761,2026-10-10T16:30:00Z
+2026-10-07T23:45:16.650111+02:00,5255654,Exact Score: Botev Plovdiv 1 - 3 PFC Slavia Sofia?,bul-bot-sla-2026-10-10-exact-score-1-3,0.366,0.6335,0.9994999999999999,0.0,20.42954,2026-10-10T17:00:00Z
+2026-10-07T23:45:16.650111+02:00,5257402,Sivasspor vs. Pendikspor: Second half draw?,tur2-siv-pen-2026-10-09-second-half-result-draw,0.375,0.62,0.995,0.0,33.2597,2026-10-09T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5257790,Exact Score: NK Radomlje 5 - 0 FC Koper?,slo-rad-kop-2026-10-10-exact-score-5-0,0.23,0.765,0.995,0.0,38.5199,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,5264667,Exact Score: Hamburger SV 4 - 1 VfB Stuttgart?,bun-hsv-stu-2026-10-17-exact-score-4-1,0.235,0.76,0.995,0.0,38.4297,2026-10-17T13:30:00Z
+2026-10-07T23:45:16.650111+02:00,5269580,Will Saracens win?,rueuchamp-con-sar-2026-10-17-sar,0.495,0.5,0.995,0.0,78.5051,2026-10-24T16:30:00Z
+2026-10-07T23:45:16.650111+02:00,5282313,Exact Score: SC Cambuur-Leeuwarden 3 - 5 AZ?,ere-cam-az-2026-10-18-exact-score-3-5,0.365,0.63,0.995,0.0,18.85,2026-10-18T12:30:00Z
+2026-10-07T23:45:16.650111+02:00,5304020,Roda JC Kerkrade leading at halftime?,ned2-rod-psv-2026-10-09-halftime-result-home,0.43,0.565,0.9949999999999999,0.0,901.7268,2026-10-09T18:00:00Z
+2026-10-07T23:45:16.650111+02:00,5305458,Exact Score: WKW ETO FC Gyor 3 - 5 Puskas Akademia FC Felcsut?,hun-gyo-pus-2026-10-11-exact-score-3-5,0.36,0.635,0.995,0.0,18.26,2026-10-11T17:00:00Z
+2026-10-07T23:45:16.650111+02:00,5312386,AS Monaco FC to score first vs. FC Lorient?,fl1-lor-asm-2026-10-18-first-to-score-away,0.49,0.505,0.995,0.0,32.8586,2026-10-18T15:15:00Z
+2026-10-07T23:45:16.650111+02:00,5313117,Exact Score: BK Hacken 0 - 3 Orgryte IS?,swe-hac-org-2026-10-11-exact-score-0-3,0.23,0.765,0.995,0.0,113.9867,2026-10-11T14:30:00Z
+2026-10-07T23:45:16.650111+02:00,5331338,Exact Score: SK Super Nova 5 - 3 FK Grobina?,lva1-sun-grb-2026-10-10-exact-score-5-3,0.235,0.76,0.995,0.0,37.2299,2026-10-10T13:00:00Z
+2026-10-07T23:45:16.650111+02:00,5338205,Exact Score: Moghreb Athletic Tétouan 3 - 0 Fath Union Sport?,mar1-mat-fus-2026-10-09-exact-score-3-0,0.235,0.76,0.995,0.0,33.3797,2026-10-09T20:00:00Z
+2026-10-07T23:45:16.650111+02:00,5338208,Exact Score: Moghreb Athletic Tétouan 2 - 2 Fath Union Sport?,mar1-mat-fus-2026-10-09-exact-score-2-2,0.235,0.76,0.995,0.0,33.9399,2026-10-09T20:00:00Z
+2026-10-07T23:45:16.650111+02:00,5346586,Exact Score: CA All Boys 0 - 4 CD Godoy Cruz?,argpn-abo-god-2026-10-12-exact-score-0-4,0.365,0.63,0.995,0.0,20.4399,2026-10-12T22:00:00Z
+2026-10-07T23:45:16.650111+02:00,5357813,TCU vs. Baylor: Both Teams to Score Points - Q2,cfb-tcu-bayl-2026-10-17-2q-btts-points,0.495,0.5,0.995,0.0,1.92,2026-10-17T23:00:00Z
+2026-10-07T23:45:16.650111+02:00,5361480,Exact Score: Raufoss IL 5 - 4 Moss FK?,nor2-rau-mfk-2026-10-11-exact-score-5-4,0.235,0.76,0.995,0.0,39.8797,2026-10-11T15:00:00Z
+2026-10-07T23:45:16.650111+02:00,5361883,Defensor Sporting vs. CA Cerro: Both Teams to Score,uru1-def-cer-2026-10-10-btts,0.44,0.555,0.9950000000000001,0.0,182.9991,2026-10-10T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5366540,Dungannon Swifts vs. Carrick Rangers: Draw at halftime?,nirl1-dus-car-2026-10-10-halftime-result-draw,0.39,0.605,0.995,0.0,994.4202,2026-10-10T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5383992,Will Spennymoor Town FC win on 2026-10-17?,efa-har-spe1-2026-10-17-spe1,0.475,0.52,0.995,0.0,153.443,2026-10-17T14:00:00Z
+2026-10-07T23:45:16.650111+02:00,5400536,Exact Score: Cambridge United FC 1 - 0 Wycombe Wanderers FC?,el1-cam-wyc-2026-10-20-exact-score-1-0,0.485,0.51,0.995,0.0,11.2804,2026-10-20T18:45:00Z
+2026-10-07T23:45:16.650111+02:00,5400657,Exact Score: Blackpool FC 4 - 4 Milton Keynes Dons FC?,el1-bla-mkd-2026-10-20-exact-score-4-4,0.475,0.52,0.995,0.0,21.0584,2026-10-20T18:45:00Z
+2026-10-07T23:45:16.650111+02:00,5400863,Exact Score: Burton Albion FC 2 - 0 Bradford City AFC?,el1-bur-bra-2026-10-20-exact-score-2-0,0.485,0.51,0.995,0.0,11.5688,2026-10-20T18:45:00Z
+2026-10-07T23:45:16.650111+02:00,5402102,Exact Score: Bristol Rovers FC 3 - 2 Salford City FC?,el2-bri-sal-2026-10-20-exact-score-3-2,0.48,0.515,0.995,0.0,17.7693,2026-10-20T18:45:00Z
+2026-10-07T23:45:16.650111+02:00,5402303,Exact Score: Chesterfield FC 5 - 5 Colchester United FC?,el2-ches-col-2026-10-20-exact-score-5-5,0.49,0.505,0.995,0.0,7.9198,2026-10-20T18:45:00Z
+2026-10-07T23:45:16.650111+02:00,5403240,Exact Score: CD Malacateco 0 - 1 Comunicaciones FC?,gtm-adm-com-2026-10-20-exact-score-0-1,0.485,0.51,0.995,0.0,15.4188,2026-10-21T02:00:00Z
+2026-10-07T23:45:16.650111+02:00,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,wti-closes-above-88-on-october-8-2026,0.66,0.195,0.855,0.0,23.944,2026-10-08T22:00:00Z
+2026-10-07T23:45:16.650111+02:00,5405091,Exact Score: Real Cundinamarca 4 - 1 CD Real Santander?,col2-rea-real-2026-10-09-exact-score-4-1,0.475,0.52,0.995,0.0,21.3692,2026-10-09T20:00:00Z
+2026-10-07T23:45:16.650111+02:00,5405271,Exact Score: FK Tukums 2000/TSS 1 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-1-2,0.48,0.515,0.995,0.0,21.5993,2026-10-10T11:00:00Z
+2026-10-07T23:45:16.650111+02:00,5405290,Exact Score: FK Tukums 2000/TSS 4 - 2 Riga FC?,lva1-tuk-rfc-2026-10-10-exact-score-4-2,0.485,0.51,0.995,0.0,15.1184,2026-10-10T11:00:00Z
+2026-10-07T23:45:16.650111+02:00,5408044,Exact Score: Atlético San Luis 4 - 1 Querétaro FC?,mex-asl-que-2026-10-20-exact-score-4-1,0.48,0.515,0.995,0.0,18.9193,2026-10-21T01:00:00Z
+2026-10-07T23:45:16.650111+02:00,5414640,Mason Taylor: Anytime Touchdown,nfl-cle-nyj-2026-10-11-anytime-td-mason-taylor,0.5,0.495,0.995,0.0,15.1198,2026-10-11T17:00:00Z
+2026-10-07T23:45:16.650111+02:00,5416032,Juninho: 3+ shots,bra-int-cor1-2026-10-07-shots-juninho-90039269-gte3,0.495,0.5,0.995,0.0,1.92,2026-10-07T22:30:00Z
+2026-10-07T23:45:16.650111+02:00,5416082,Breno Bidon: 3+ shots,bra-int-cor1-2026-10-07-shots-breno-bidon-90104975-gte3,0.495,0.5,0.995,0.0,1.92,2026-10-07T22:30:00Z
+2026-10-07T23:45:16.650111+02:00,5416102,Matheus Bidu: 3+ shots,bra-int-cor1-2026-10-07-shots-matheus-bidu-90101689-gte3,0.495,0.5,0.995,0.0,1.92,2026-10-07T22:30:00Z

@@ -37,3 +37,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-06T21:40:38.249377+02:00,KAUF,4228892,Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?,9.5656,0.9877,-9.4476,9.4476,"Spread 1.50%, Liquiditaet 525 USD"
 2026-10-07T04:35:19.271956+02:00,KAUF,5363418,Cleveland Guardians vs. Chicago White Sox: 9th inning tied?,3.8292,0.8224,-3.1492,6.2984,"Spread 22.00%, Liquiditaet 9 USD"
 2026-10-07T04:35:19.271956+02:00,KAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,4.6999,0.67,-3.1492,3.1492,"Spread 33.50%, Liquiditaet 62 USD"
+2026-10-07T23:45:16.650111+02:00,AUSZAHLUNG,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,15.7956,1.0,15.7956,18.9448,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-07T23:45:16.650111+02:00,KAUF,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,10.4582,0.9057,-9.4724,9.4724,"Spread 14.50%, Liquiditaet 24 USD"

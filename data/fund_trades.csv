@@ -67,3 +67,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-07T01:12:32.002889+02:00,VERKAUF,4228892,Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?,49.7989,0.9856,49.0829,129.7084,Konvergenz erreicht (Kurs 1.000)
 2026-10-07T04:35:19.271956+02:00,KAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,9.2163,0.675,-6.2208,123.4876,"Spread 33.50%, Liquiditaet 62 USD"
 2026-10-07T10:55:39.604352+02:00,VERKAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,9.2163,0.9786,9.0195,132.5071,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T23:45:16.650111+02:00,KAUF,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,2.7591,0.8678,-2.3944,130.1127,"Spread 14.50%, Liquiditaet 24 USD"

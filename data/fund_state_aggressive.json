@@ -1,5 +1,5 @@
 {
-  "cash": 3.1491889621791738,
+  "cash": 9.472377740703925,
   "positions": [
     {
       "market_id": "4970693",
@@ -57,17 +57,6 @@
       "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
-      "market_id": "5313239",
-      "frage": "Will the lowest temperature in Jeddah be 30°C on October 7?",
-      "slug": "lowest-temperature-in-jeddah-on-october-7-2026-30c",
-      "shares": 15.795566519228675,
-      "einstandskurs": 0.9989990000000001,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 122.0919,
-      "end_date": "2026-10-07T12:00:00Z",
-      "eingestiegen": "2026-10-05T21:37:32.878839+02:00"
-    },
-    {
       "market_id": "3848441",
       "frage": "Will Bologna be relegated from the 2026-27 Serie A?",
       "slug": "will-bologna-be-relegated-from-serie-a-2026-27",
@@ -110,6 +99,17 @@
       "liquiditaet": 62.20798,
       "end_date": "2026-10-20T03:59:00Z",
       "eingestiegen": "2026-10-07T04:35:19.271956+02:00"
+    },
+    {
+      "market_id": "5404216",
+      "frage": "WTI Crude Oil (WTI) closes above $88 on October 8?",
+      "slug": "wti-closes-above-88-on-october-8-2026",
+      "shares": 10.458205835792326,
+      "einstandskurs": 0.905736403493371,
+      "letzter_kurs": 0.905736403493371,
+      "liquiditaet": 23.944,
+      "end_date": "2026-10-08T22:00:00Z",
+      "eingestiegen": "2026-10-07T23:45:16.650111+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
