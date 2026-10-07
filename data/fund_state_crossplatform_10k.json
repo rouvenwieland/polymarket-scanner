@@ -43,7 +43,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.03,
+        "letzter_kurs": 0.05,
         "fee_gezahlt": 0.03
       }
     },
@@ -112,7 +112,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.01,
+        "letzter_kurs": 0.02,
         "fee_gezahlt": 0.03
       }
     },
@@ -204,7 +204,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.05
       }
     },
@@ -227,7 +227,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
         "side": "yes",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.07,
+        "letzter_kurs": 0.1,
         "fee_gezahlt": 0.05
       }
     }
