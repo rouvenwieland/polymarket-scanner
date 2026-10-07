@@ -54,6 +54,14 @@ jobs:
           key: fastembed-bge-small-en-v1.5
 
       - name: Multi-Platform-Scan ausführen
+        # OPENROUTER_API_KEY (optional, Repository-Secret): letzte KI-
+        # Prüfstufe vor einem Cross-Platform-Kauf (siehe scripts/llm_verify.py).
+        # Ohne gesetzten Secret bleibt jeder Kandidat unverifiziert - es wird
+        # dann gar nicht gekauft (fail-closed), aber der restliche Scan
+        # (Datenerfassung, Single-Platform-Fonds, Dashboard-Daten) läuft
+        # unverändert weiter.
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: python scripts/multi_platform_scan.py
 
       - name: Ergebnisse committen

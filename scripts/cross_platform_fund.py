@@ -60,6 +60,7 @@ import math
 import os
 
 import fund_simulator
+import llm_verify
 from platforms import kalshi, predictit, sxbet
 import cross_platform
 
@@ -262,6 +263,24 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         })
 
     candidates.sort(key=lambda c: -_score(c["spread"], c["days"]))
+    if not candidates:
+        return
+
+    # Letzte Sicherheitsstufe (siehe llm_verify.py): cross_platform.py findet
+    # Kandidaten über Textähnlichkeit/Embeddings - reine Mustererkennung,
+    # kein echtes Verständnis. Nach zwei Live-Vorfällen mit Fehl-Matches
+    # (unterschiedliche Wettart selbes Spiel, unterschiedliche Kandidaten
+    # selbe Wahl) prüft ein KI-Modell jeden Kandidaten zusätzlich, BEVOR
+    # tatsächlich gekauft wird. FAIL-CLOSED: nicht verifizierbare Kandidaten
+    # (kein API-Key, Budget erschöpft, Modell nicht erreichbar) werden NICHT
+    # gekauft, sondern beim nächsten Lauf erneut versucht.
+    verdicts = llm_verify.verify_candidates(
+        [(c["match"]["market_a"], c["match"]["market_b"]) for c in candidates]
+    )
+    candidates = [
+        c for c in candidates
+        if verdicts.get(llm_verify._pair_key(c["match"]["market_a"], c["match"]["market_b"])) is True
+    ]
     if not candidates:
         return
 
