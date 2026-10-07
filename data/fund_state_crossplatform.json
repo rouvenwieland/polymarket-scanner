@@ -58,7 +58,7 @@
         "market_id": "1068746",
         "side": "yes",
         "einstandskurs": 0.024,
-        "letzter_kurs": 0.032,
+        "letzter_kurs": 0.0265,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -81,7 +81,7 @@
         "market_id": "1068741",
         "side": "no",
         "einstandskurs": 0.0425,
-        "letzter_kurs": 0.042,
+        "letzter_kurs": 0.0505,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -150,7 +150,7 @@
         "market_id": "5294680",
         "side": "yes",
         "einstandskurs": 0.315,
-        "letzter_kurs": 0.315,
+        "letzter_kurs": 0.32,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -196,7 +196,7 @@
         "market_id": "5179264",
         "side": "yes",
         "einstandskurs": 0.16,
-        "letzter_kurs": 0.16,
+        "letzter_kurs": 0.165,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -242,7 +242,7 @@
         "market_id": "5361274",
         "side": "yes",
         "einstandskurs": 0.59,
-        "letzter_kurs": 0.59,
+        "letzter_kurs": 0.6,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -296,7 +296,7 @@
         "market_id": "KXJLEAGUEBTTS-26OCT10TOKURD-BTTS",
         "side": "no",
         "einstandskurs": 0.47,
-        "letzter_kurs": 0.47,
+        "letzter_kurs": 0.44,
         "fee_gezahlt": 0.22
       }
     },
@@ -319,7 +319,7 @@
         "market_id": "KXJLEAGUEBTTS-26OCT10TOKURD-BTTS",
         "side": "no",
         "einstandskurs": 0.47,
-        "letzter_kurs": 0.47,
+        "letzter_kurs": 0.44,
         "fee_gezahlt": 0.19
       }
     },
@@ -334,7 +334,7 @@
         "market_id": "4994281",
         "side": "yes",
         "einstandskurs": 0.14,
-        "letzter_kurs": 0.14,
+        "letzter_kurs": 0.415,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -342,7 +342,7 @@
         "market_id": "KXJLEAGUEBTTS-26OCT10TOKURD-BTTS",
         "side": "no",
         "einstandskurs": 0.47,
-        "letzter_kurs": 0.47,
+        "letzter_kurs": 0.44,
         "fee_gezahlt": 0.17
       }
     }
