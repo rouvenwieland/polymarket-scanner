@@ -1,0 +1,3677 @@
+{
+  "kalshi:KXNATGASD-26OCT0717-T3.250__polymarket:5373263": {
+    "same_event": false,
+    "reason": "Different assets (AMZN stock vs natural gas price)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $250 on October 7?",
+    "frage_b": "Will the natural gas close price be above 3.250 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:4911434__sxbet:0x8bd48e43df6efea8c00d85b20020c7aa324ff1f1cf04a32612428ac00c6ea7a3": {
+    "same_event": false,
+    "reason": "Draw vs winner are different outcomes",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Red Bull Bragantino vs. Mirassol FC end in a draw?",
+    "frage_b": "Red Bull Bragantino vs Mirassol - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.255__polymarket:5373265": {
+    "same_event": false,
+    "reason": "Different assets (AMZN stock vs natural gas price)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $255 on October 7?",
+    "frage_b": "Will the natural gas close price be above 3.255 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.250__polymarket:5373294": {
+    "same_event": false,
+    "reason": "Different assets (NVDA stock vs natural gas price)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will NVIDIA (NVDA) close above $250 on October 7?",
+    "frage_b": "Will the natural gas close price be above 3.250 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.260__polymarket:5373266": {
+    "same_event": false,
+    "reason": "Different assets (AMZN stock vs natural gas price)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $260 on October 7?",
+    "frage_b": "Will the natural gas close price be above 3.260 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.265__polymarket:5373267": {
+    "same_event": false,
+    "reason": "Different assets (AMZN stock vs natural gas price)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $265 on October 7?",
+    "frage_b": "Will the natural gas close price be above 3.265 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:4911476__sxbet:0x1656050c9c43195c7692130127ba6626d28d54eaae8db3648d6714fa3d3d3c57": {
+    "same_event": false,
+    "reason": "Draw vs winner are different outcomes",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Vila Nova FC vs. Cuiabá EC end in a draw?",
+    "frage_b": "Vila Nova GO vs Cuiaba - wer gewinnt?"
+  },
+  "polymarket:5363427__sxbet:0x4d7ff835cd0fdf756a099a7c3496c43a4115842487bb56900cba725598c700db": {
+    "same_event": false,
+    "reason": "Different propositions (5‑inning lead vs game winner)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tampa Bay Rays winning after 5 innings?",
+    "frage_b": "New York Yankees vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5192936__sxbet:0xbb50b73f6f187b75ae650f9d7feb0197c4edc3b35e02c38e4f810e6c64b069ba": {
+    "same_event": false,
+    "reason": "Draw vs winner are different outcomes",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will HJK Helsinki vs. Vaasan Palloseura end in a draw?",
+    "frage_b": "HJK Helsinki vs VPS - Vaasan Palloseura - wer gewinnt?"
+  },
+  "polymarket:5112975__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Special teams touchdown vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "New Mexico State vs. Florida International: Kickoff or Punt Return Touchdown",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5112977__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Pick‑six vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "New Mexico State vs. Florida International: Pick-Six Scored",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5114148__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Margin range vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: New Mexico State by 1-6",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5114153__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Margin range vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: New Mexico State by 7-12",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5114156__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Margin range vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: New Mexico State by 13-18",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5114161__sxbet:0xceb4121f400015f25f3faa8523b8224999d28d29a53d429708e562cf2560cd59": {
+    "same_event": false,
+    "reason": "Margin range vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: New Mexico State by 19-24",
+    "frage_b": "Florida International Panthers vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5363379__sxbet:0xb402c6324a596274342612f921602831930c374a3bfbf832a8daddae6f86d19b": {
+    "same_event": false,
+    "reason": "Different propositions: one asks if Guardians lead after 5 innings, the other asks overall game winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Cleveland Guardians winning after 5 innings?",
+    "frage_b": "Chicago White Sox vs Cleveland Guardians - wer gewinnt?"
+  },
+  "polymarket:4911492__sxbet:0x78d3bca02e0bad43ef352c3889285f9a686bf01424d8dded3a3b1b79df28608e": {
+    "same_event": false,
+    "reason": "Different teams (Botafogo FR vs Botafogo RJ) and different bet types (draw vs winner).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Botafogo FR vs. CR Vasco da Gama end in a draw?",
+    "frage_b": "Botafogo RJ vs CR Vasco da Gama - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.250__polymarket:5404143": {
+    "same_event": false,
+    "reason": "Different assets (AMZN stock vs natural gas) and different dates.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $250 on October 8?",
+    "frage_b": "Will the natural gas close price be above 3.250 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.250__polymarket:5404174": {
+    "same_event": false,
+    "reason": "Different assets (NVDA stock vs natural gas) and different dates.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will NVIDIA (NVDA) close above $250 on October 8?",
+    "frage_b": "Will the natural gas close price be above 3.250 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:4970399__sxbet:0x7e35cdb943528202729c22cd6591d5a9e1798148a2aab8b79beb60522725d2ff": {
+    "same_event": false,
+    "reason": "One asks about a draw, the other asks which team wins; not opposite yes/no propositions.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will BV Borussia 09 Dortmund vs. SV Werder Bremen end in a draw?",
+    "frage_b": "Borussia Dortmund vs SV Werder Bremen - wer gewinnt?"
+  },
+  "polymarket:5042999__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042991__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042994__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042998__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042983__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042992__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042993__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043002__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043007__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043011__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner market; not the same question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043003__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043004__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042989__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042986__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042987__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042997__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043015__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043006__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5009086__sxbet:0xf40d56a0fa45d70bc3360661dae76cbb3f088729e6ab300e30c2a987fae37075": {
+    "same_event": false,
+    "reason": "Different bet types: draw question vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Paris Saint-Germain FC vs. Le Mans FC end in a draw?",
+    "frage_b": "Paris Saint Germain vs Le Mans - wer gewinnt?"
+  },
+  "polymarket:5363380__sxbet:0xb402c6324a596274342612f921602831930c374a3bfbf832a8daddae6f86d19b": {
+    "same_event": false,
+    "reason": "Different bet types: inning-specific win vs overall winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chicago White Sox winning after 5 innings?",
+    "frage_b": "Chicago White Sox vs Cleveland Guardians - wer gewinnt?"
+  },
+  "polymarket:5042981__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:4961576__sxbet:0xd94a5953ce03d30916cb45ec53bc3227fa29d0ea183bdaa4a8adcbb9f4273261": {
+    "same_event": false,
+    "reason": "Different bet types: draw question vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gangwon FC vs. Bucheon FC 1995 end in a draw?",
+    "frage_b": "Gangwon FC vs Bucheon FC 1995 - wer gewinnt?"
+  },
+  "polymarket:4970401__sxbet:0xa9497cd0720556d6292788a24018836908ef0653e3e9b4f06fb7effa587caae4": {
+    "same_event": false,
+    "reason": "Different bet types: draw question vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will West Ham United FC vs. Queens Park Rangers FC end in a draw?",
+    "frage_b": "West Ham United vs Queens Park Rangers - wer gewinnt?"
+  },
+  "polymarket:5042985__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042988__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner (not complementary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 2 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042980__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042990__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5363428__sxbet:0x4d7ff835cd0fdf756a099a7c3496c43a4115842487bb56900cba725598c700db": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "New York Yankees winning after 5 innings?",
+    "frage_b": "New York Yankees vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5042984__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5394840__sxbet:0xd6bafebea54f77d6bd5410e5bd8f2ae298cbd97446be58af4cb2efe60ef01da6": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Los Angeles Dodgers winning after 5 innings?",
+    "frage_b": "Atlanta Braves vs Los Angeles Dodgers - wer gewinnt?"
+  },
+  "polymarket:5343620__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Buccaneers vs Cowboys game not air?",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5042982__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5399315__sxbet:0x08f635408ef3d68abcbe5fa7447c98d4217b0ee75a788cac1965fa1e12cc29bc": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "San Diego Padres winning after 5 innings?",
+    "frage_b": "San Diego Padres vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:5291002__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tez Johnson: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5009011__sxbet:0x320f8fe7905b33d5e924fdac58f0a07bed445aa00e8cd2b83e8aead39505135b": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Arsenal FC vs. Leeds United FC end in a draw?",
+    "frage_b": "Arsenal vs Leeds United - wer gewinnt?"
+  },
+  "polymarket:5043008__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5290985__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Cade Otton: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290987__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Godwin Jr.: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290989__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Emeka Egbuka: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290996__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "questions not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kenny Gainwell: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5291000__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "Different propositions: specific player first TD vs match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Sean Tucker: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5043005__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score question vs match winner question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 1 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5015072__sxbet:0x5d605d388f56c3e1725f5df970fccf22b19c9c1a4853f571b0da51e39c060507": {
+    "same_event": false,
+    "reason": "Draw question vs match winner (not logical negation).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Real Madrid CF vs. Villarreal CF end in a draw?",
+    "frage_b": "Real Madrid vs Villarreal - wer gewinnt?"
+  },
+  "polymarket:5394841__sxbet:0xd6bafebea54f77d6bd5410e5bd8f2ae298cbd97446be58af4cb2efe60ef01da6": {
+    "same_event": false,
+    "reason": "Inning-specific win vs overall match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Atlanta Braves winning after 5 innings?",
+    "frage_b": "Atlanta Braves vs Los Angeles Dodgers - wer gewinnt?"
+  },
+  "polymarket:5043000__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score question vs match winner question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 0 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043014__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score question vs match winner question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5290982__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "Different player first TD vs match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Bauer Sharp: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290984__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "Different player first TD vs match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Bucky Irving: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290994__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "Different player first TD vs match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kameron Johnson: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5290998__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "Different player first TD vs match winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Payne Durham: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "polymarket:5009008__sxbet:0xff456880a7aacf5889aaad57010dd36da99dc240b1984298a5d546b8e2d363cc": {
+    "same_event": false,
+    "reason": "Draw question vs match winner (not logical negation).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will TSG 1899 Hoffenheim vs. Hamburger SV end in a draw?",
+    "frage_b": "TSG 1899 Hoffenheim vs Hamburger SV - wer gewinnt?"
+  },
+  "polymarket:5031084__sxbet:0xf50b072f623265cbc261a14aafb7ced870cf7e017e3c4dae92ddb23bd5ff0119": {
+    "same_event": false,
+    "reason": "Draw question vs match winner (not logical negation).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will AFC Ajax vs. NEC end in a draw?",
+    "frage_b": "AFC Ajax vs NEC Nijmegen - wer gewinnt?"
+  },
+  "polymarket:5043009__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score question vs match winner question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 2 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219130": {
+    "same_event": false,
+    "reason": "Different price thresholds and timestamps.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.30 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5043012__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score question vs match winner question.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 5 - 3 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042911__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gimnasia y Esgrima de La Plata vs. CA Tucumán end in a draw?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043013__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 4 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5009116__sxbet:0x108160fe722cbc64bfacd2322999130024743aa450e3b4b8380dae627e60f8e0": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will RB Leipzig vs. Eintracht Frankfurt end in a draw?",
+    "frage_b": "RB Leipzig vs Eintracht Frankfurt - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.255__polymarket:5404145": {
+    "same_event": false,
+    "reason": "Different assets and dates",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $255 on October 8?",
+    "frage_b": "Will the natural gas close price be above 3.255 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.265__polymarket:5404147": {
+    "same_event": false,
+    "reason": "Different assets and dates",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $265 on October 8?",
+    "frage_b": "Will the natural gas close price be above 3.265 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:4961568__sxbet:0xa857af121bb56a0d15953b3e6d711bbdbdd02648eae74800fa51c0cd7dc65a2c": {
+    "same_event": false,
+    "reason": "Draw vs winner question (team name mismatch)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Daejeon Hana Citizen FC vs. Jeonbuk Hyundai Motors FC end in a draw?",
+    "frage_b": "Daejeon Citizen vs Jeonbuk Hyundai Motors - wer gewinnt?"
+  },
+  "polymarket:5009098__sxbet:0xfbb59115ed211f90e9866501c5f6eb681ab18ea74e6e1ef1124fabf22d85f386": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chelsea FC vs. AFC Bournemouth end in a draw?",
+    "frage_b": "Chelsea vs AFC Bournemouth - wer gewinnt?"
+  },
+  "polymarket:5009121__sxbet:0x6bf2143a2034cc88f815ae182d61e06f8faae318981cdf4734506c1b5502460a": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Manchester United FC vs. Tottenham Hotspur FC end in a draw?",
+    "frage_b": "Manchester United vs Tottenham Hotspur - wer gewinnt?"
+  },
+  "polymarket:5042996__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 4 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043001__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:4961572__sxbet:0x2de78577755e382940799087b96613763e9120d63b4aa2cbccbca0462f197462": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Incheon United FC vs. Pohang Steelers FC end in a draw?",
+    "frage_b": "Incheon United vs Pohang Steelers - wer gewinnt?"
+  },
+  "polymarket:5043010__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 3 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5399314__sxbet:0x08f635408ef3d68abcbe5fa7447c98d4217b0ee75a788cac1965fa1e12cc29bc": {
+    "same_event": false,
+    "reason": "Different props (winning after 5 innings vs overall winner)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "San Diego Padres vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:4999557__sxbet:0x1f08c985427b391b2453e1f3e9d2065acc24af710c6afc0ac9f5c47d6ab87949": {
+    "same_event": false,
+    "reason": "Draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gimcheon Sangmu FC vs. FC Anyang end in a draw?",
+    "frage_b": "Gimcheon Sangmu FC vs FC Anyang - wer gewinnt?"
+  },
+  "polymarket:5042995__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Exact score vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 0 - 5 CA Tucumán?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:4981605__sxbet:0x4d46ce7f08c05f3bb2418abc1428ca841cf5a62be0c6b1cf4b9e022b22208b34": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Go Ahead Eagles vs. Sparta Rotterdam end in a draw?",
+    "frage_b": "Go Ahead Eagles vs Sparta Rotterdam - wer gewinnt?"
+  },
+  "polymarket:5230386__sxbet:0x17a47deb60b8bb570e487f3d685ec2f910cad250d01f55b67a53bde3b297d64a": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Landskrona BoIS vs. Sandvikens IF end in a draw?",
+    "frage_b": "Landskrona BoIS vs Sandvikens IF - wer gewinnt?"
+  },
+  "polymarket:5042977__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "second‑half win vs match winner different bet",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata to win the second half?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042978__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "second‑half draw vs match winner different bet",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Second half draw?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5017697__sxbet:0xef498ab2c2930e946240e55b3b2a0f6901faecbd9322d29f0e9407e643ee9bcd": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Benevento Calcio vs. Cesena FC end in a draw?",
+    "frage_b": "Benevento Calcio vs Cesena - wer gewinnt?"
+  },
+  "polymarket:5069948__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "both teams to score second half vs match winner different bet",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Both Teams to Score in Second Half",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5009239__sxbet:0x989ab5af414f81a1c46903ef277c9d08a2810fb285ab5411bb9b8ff6e5821500": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Sheffield United FC vs. Lincoln City FC end in a draw?",
+    "frage_b": "Sheffield United FC vs Lincoln City FC - wer gewinnt?"
+  },
+  "polymarket:5017724__sxbet:0x684e61b82e5fd62a62ffbdfed361b8736a5e77f52993e04041390b2aebeaa8b7": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Virtus Entella vs. SS Juve Stabia end in a draw?",
+    "frage_b": "Virtus Entella vs Juve Stabia - wer gewinnt?"
+  },
+  "polymarket:5069921__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "both teams to score vs match winner different bet",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Both Teams to Score",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5042975__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "halftime draw vs match winner different bet",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Draw at halftime?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5202105__sxbet:0x52aa4c22b5a23bf544d9e082b4816f1d16681eabab4931aa6d55486dd0239809": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chungbuk Cheongju FC vs. Seongnam Ilhwa end in a draw?",
+    "frage_b": "Chungbuk Cheongju FC vs Seongnam FC - wer gewinnt?"
+  },
+  "polymarket:5238436__sxbet:0xaf7efafcd0427b86ec15f57434556bf2730b3e6e5a79680bf0411d6161e7caaf": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will IK Oddevold vs. Nordic United FC end in a draw?",
+    "frage_b": "IK Oddevold vs Nordic United FC - wer gewinnt?"
+  },
+  "polymarket:5009095__sxbet:0xffe30dd274cbff0b9f253dd54d089475687092c80074b04e47b1fb41581874ae": {
+    "same_event": false,
+    "reason": "draw vs winner not complementary",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will 1. FC Union Berlin vs. SV 07 Elversberg end in a draw?",
+    "frage_b": "Union Berlin vs SV Elversberg - wer gewinnt?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5069922": {
+    "same_event": false,
+    "reason": "both teams to score first half vs generic both teams to score missing teams",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXVALORANTGAME-26OCT090800PRT1-PR__polymarket:2744753": {
+    "same_event": false,
+    "reason": "win in 2026 international event vs generic win missing timeframe",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Paper Rex Win an International Event in 2026?",
+    "frage_b": "Paper Rex wins"
+  },
+  "polymarket:5009075__sxbet:0xa8bfc87684a48c19e50262d4cfe65be768201760c895f11c5e2a9fc60e1c34db": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Middlesbrough FC vs. Wolverhampton Wanderers FC end in a draw?",
+    "frage_b": "Middlesbrough vs Wolverhampton Wanderers - wer gewinnt?"
+  },
+  "polymarket:5235994__sxbet:0x54772010fcad1125df581c3cb6497af98af167261ea1e8460f0e37c9f25cb067": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Delfin SC vs. Mushuc Runa SC end in a draw?",
+    "frage_b": "Delfín SC vs Mushuc Runa - wer gewinnt?"
+  },
+  "polymarket:5009054__sxbet:0xe4185fe4482d552ec4db46981a5be6b7a2a3092169b0028c932252617b7d551f": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will West Bromwich Albion FC vs. Birmingham City FC end in a draw?",
+    "frage_b": "West Bromwich Albion vs Birmingham - wer gewinnt?"
+  },
+  "polymarket:5009038__sxbet:0x2ca9139dfbfefb3d88248a765075aee5bb73ba4e9dea3ad6c6bbfbee64aa66e4": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Swansea City AFC vs. Norwich City FC end in a draw?",
+    "frage_b": "Swansea City vs Norwich City - wer gewinnt?"
+  },
+  "kalshi:KXVALORANTGAME-26OCT100800LOUDNRG-NRG__polymarket:3532210": {
+    "same_event": false,
+    "reason": "Both ask if NRG wins the same award; not opposite.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will NRG Win the 2026 Esports Content Group of the Year Award?",
+    "frage_b": "NRG wins"
+  },
+  "polymarket:4991147__sxbet:0x151c1f1bb0abdd2b83104a8c7754e6e4b750877606142caaeea8d67e7380fa9e": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will CD Cobresal vs. CD Universidad de Concepción end in a draw?",
+    "frage_b": "Cobresal vs Universidad de Concepción - wer gewinnt?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5013663": {
+    "same_event": false,
+    "reason": "BTTS first half vs BTTS full match – different propositions.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Sunderland AFC vs. Brighton & Hove Albion FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5042910__sxbet:0x896048ae929cc90ab5215084fa9a87054e0d31b009cca59c4614b4c27735212c": {
+    "same_event": false,
+    "reason": "Win yes/no vs match winner market – not opposite.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gimnasia y Esgrima de La Plata win on 2026-10-09?",
+    "frage_b": "Gimnasia Y Esgrima La Plata vs Atletico Tucuman - wer gewinnt?"
+  },
+  "polymarket:5043885__sxbet:0x63dfb1b6a5775d1dcc1028fbb35ec9d8d0ce69f7fa6792d712e54a15cbb93a8c": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Académico de Viseu FC vs. Estoril Praia end in a draw?",
+    "frage_b": "Academico De Viseu FC vs G.D. Estoril Praia - wer gewinnt?"
+  },
+  "polymarket:4955665__sxbet:0x3d820076259d1dd04b4c2f42011a0423f88648987c5c365489773e3d694a025b": {
+    "same_event": false,
+    "reason": "Draw vs win market – not complementary outcomes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Clube Náutico Capibaribe vs. Grêmio Novorizontino end in a draw?",
+    "frage_b": "Nautico Capibaribe vs Gremio Novorizontino SP - wer gewinnt?"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINJJENNINGS14-2__polymarket:5380725": {
+    "same_event": false,
+    "reason": "Identical proposition phrased differently; not opposite.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jauan Jennings: 2+ Touchdowns",
+    "frage_b": "Jauan Jennings: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988531": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS – different markets.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.260__polymarket:5404146": {
+    "same_event": false,
+    "reason": "Different assets and dates – unrelated events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Amazon (AMZN) close above $260 on October 8?",
+    "frage_b": "Will the natural gas close price be above 3.260 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988575": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS – different markets.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988571": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS – different markets.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINKMURRAY1-2__polymarket:5380095": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kyle Williams: 2+ Touchdowns",
+    "frage_b": "Kyler Murray: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOKMILLER5-2__polymarket:5380189": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Ryan Miller: 2+ Touchdowns",
+    "frage_b": "Kendre Miller: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NODVELE14-2__polymarket:5380722": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Devaughn Vele: 2+ Touchdowns",
+    "frage_b": "Devaughn Vele: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOKMILLER5-2__polymarket:5380729": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kendre Miller: 2+ Touchdowns",
+    "frage_b": "Kendre Miller: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINKMURRAY1-2__polymarket:5380732": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kyler Murray: 2+ Touchdowns",
+    "frage_b": "Kyler Murray: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988561": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988559": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5066233": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Feyenoord Rotterdam vs. AZ: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINJADDISON3-2__polymarket:5379824": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jordan Love: 2+ Touchdowns",
+    "frage_b": "Jordan Addison: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2__polymarket:5379827": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kaleb Johnson: 2+ Touchdowns",
+    "frage_b": "Juwan Johnson: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2__polymarket:5379840": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Roschon Johnson: 2+ Touchdowns",
+    "frage_b": "Juwan Johnson: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINJADDISON3-2__polymarket:5380046": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jordan Addison: 2+ Touchdowns",
+    "frage_b": "Jordan Addison: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2__polymarket:5380469": {
+    "same_event": false,
+    "reason": "different player",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Theo Johnson: 2+ Touchdowns",
+    "frage_b": "Juwan Johnson: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2__polymarket:5380716": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CJ Donaldson: 2+ Touchdowns",
+    "frage_b": "CJ Donaldson: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2__polymarket:5380727": {
+    "same_event": true,
+    "reason": "same player and threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Juwan Johnson: 2+ Touchdowns",
+    "frage_b": "Juwan Johnson: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988532": {
+    "same_event": false,
+    "reason": "Exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988583": {
+    "same_event": false,
+    "reason": "Exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5015063": {
+    "same_event": false,
+    "reason": "First-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Go Ahead Eagles vs. Sparta Rotterdam: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5109549__sxbet:0x615561f12ab40bd9539d5e41fea15e5625c77715320338154809ce12f692605d": {
+    "same_event": false,
+    "reason": "Pick-six scored vs game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Sacramento State vs. Bowling Green: Pick-Six Scored",
+    "frage_b": "Bowling Green Falcons vs Sacramento State - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988549": {
+    "same_event": false,
+    "reason": "Exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2__polymarket:5380737": {
+    "same_event": true,
+    "reason": "Same player, same threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "T.J. Hockenson: 2+ Touchdowns",
+    "frage_b": "T.J. Hockenson: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988539": {
+    "same_event": false,
+    "reason": "Exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2__polymarket:5310749": {
+    "same_event": false,
+    "reason": "Different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Godwin Jr.: 2+ Touchdowns",
+    "frage_b": "Chris Olave: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2__polymarket:5325294": {
+    "same_event": false,
+    "reason": "Different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Rodriguez Jr.: 2+ Touchdowns",
+    "frage_b": "Chris Olave: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2__polymarket:5380159": {
+    "same_event": false,
+    "reason": "Different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Bell: 2+ Touchdowns",
+    "frage_b": "Chris Olave: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOKAUSTIN81-1__polymarket:5380177": {
+    "same_event": false,
+    "reason": "Different players and thresholds",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kevin Coleman Jr.: 2+ Touchdowns",
+    "frage_b": "Kevin Austin Jr.: 1+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2__polymarket:5380410": {
+    "same_event": false,
+    "reason": "Different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Badie: 2+ Touchdowns",
+    "frage_b": "Tyler Shough: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOKAUSTIN81-1__polymarket:5380433": {
+    "same_event": false,
+    "reason": "Different players and thresholds",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Austin Ekeler: 2+ Touchdowns",
+    "frage_b": "Kevin Austin Jr.: 1+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2__polymarket:5380660": {
+    "same_event": false,
+    "reason": "Different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Warren: 2+ Touchdowns",
+    "frage_b": "Tyler Shough: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2__polymarket:5380714": {
+    "same_event": true,
+    "reason": "Same player, same threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Olave: 2+ Touchdowns",
+    "frage_b": "Chris Olave: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2__polymarket:5380741": {
+    "same_event": true,
+    "reason": "Identische Formulierung (Tyler Shough, 2+ Touchdowns)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Shough: 2+ Touchdowns",
+    "frage_b": "Tyler Shough: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOKAUSTIN81-1__polymarket:5380956": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spieler und Schwellenwerte",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Austin Hooper: 2+ Touchdowns",
+    "frage_b": "Kevin Austin Jr.: 1+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2__polymarket:5381265": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spieler",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Allgeier: 2+ Touchdowns",
+    "frage_b": "Tyler Shough: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988537": {
+    "same_event": false,
+    "reason": "Exact Score vs. Both Teams To Score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5114126__sxbet:0x295bddda24ad18c964ce5c1bd82ab2aefa47753362e4f975ba456d47cc641dc9": {
+    "same_event": false,
+    "reason": "Margin Range vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: San Jose State by 1-6",
+    "frage_b": "San Jose State Spartans vs Wyoming Cowboys - wer gewinnt?"
+  },
+  "polymarket:5114130__sxbet:0x295bddda24ad18c964ce5c1bd82ab2aefa47753362e4f975ba456d47cc641dc9": {
+    "same_event": false,
+    "reason": "Margin Range vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: San Jose State by 7-12",
+    "frage_b": "San Jose State Spartans vs Wyoming Cowboys - wer gewinnt?"
+  },
+  "polymarket:5114135__sxbet:0x295bddda24ad18c964ce5c1bd82ab2aefa47753362e4f975ba456d47cc641dc9": {
+    "same_event": false,
+    "reason": "Margin Range vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: San Jose State by 13-18",
+    "frage_b": "San Jose State Spartans vs Wyoming Cowboys - wer gewinnt?"
+  },
+  "polymarket:5114139__sxbet:0x295bddda24ad18c964ce5c1bd82ab2aefa47753362e4f975ba456d47cc641dc9": {
+    "same_event": false,
+    "reason": "Margin Range vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Margin: San Jose State by 19-24",
+    "frage_b": "San Jose State Spartans vs Wyoming Cowboys - wer gewinnt?"
+  },
+  "polymarket:5009079__sxbet:0x0383a3c408264b5bbd40524f0270c26bde007641787e95969354e3e621a8890c": {
+    "same_event": false,
+    "reason": "Unentschieden? vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Aston Villa FC vs. Brentford FC end in a draw?",
+    "frage_b": "Aston Villa vs Brentford - wer gewinnt?"
+  },
+  "polymarket:5009097__sxbet:0x2d0a074da757015a083b6e8029dadf33afdc1d2cd6e80bf141c97fe9cff491ee": {
+    "same_event": false,
+    "reason": "Unentschieden? vs. Wer gewinnt?",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Blackburn Rovers FC vs. Cardiff City FC end in a draw?",
+    "frage_b": "Blackburn Rovers vs Cardiff City - wer gewinnt?"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-NOAKAMARA41-2__polymarket:5380044": {
+    "same_event": true,
+    "reason": "Identische Formulierung (Alvin Kamara, 2+ Touchdowns)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Alvin Kamara: 2+ Touchdowns",
+    "frage_b": "Alvin Kamara: 2+ touchdowns"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988529": {
+    "same_event": false,
+    "reason": "Exact Score vs. Both Teams To Score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988522": {
+    "same_event": false,
+    "reason": "Exact Score vs. Both Teams To Score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINDDALLAS31-1__polymarket:5380718": {
+    "same_event": false,
+    "reason": "Unterschiedliche Schwellenwerte (2+ vs 1+)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "DeeJay Dallas: 2+ Touchdowns",
+    "frage_b": "DeeJay Dallas: 1+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINDCLAIBORNE21-1__polymarket:5380720": {
+    "same_event": false,
+    "reason": "Unterschiedliche Schwellenwerte (2+ vs 1+)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Demond Claiborne: 2+ Touchdowns",
+    "frage_b": "Demond Claiborne: 1+ touchdowns"
+  },
+  "polymarket:5009056__sxbet:0x52bcd0eb973a06ebc0f80f2e2025b366199b018fbfa32ca1619ffb1ade83da4d": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Ipswich Town FC vs. Fulham FC end in a draw?",
+    "frage_b": "Ipswich Town vs Fulham - wer gewinnt?"
+  },
+  "polymarket:4986346__sxbet:0xd5b7657bc449b3b8323fa641f5b9330dd0846ac5dc7828e781697e71a6016901": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gençlerbirliği SK vs. Amed Sportif end in a draw?",
+    "frage_b": "Genclerbirligi Sk vs Amed Sportif Faliyetler - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988526": {
+    "same_event": false,
+    "reason": "exact score vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988530": {
+    "same_event": false,
+    "reason": "exact score vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 2 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5009289__sxbet:0x9efe28558fe34d845191b07a67e6e28669d62fb307fa753c3f189d09a8cb2010": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Derby County FC vs. Wrexham AFC end in a draw?",
+    "frage_b": "Derby County vs Wrexham - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988518": {
+    "same_event": false,
+    "reason": "exact score vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5256994__sxbet:0xd4342374663bbb0dd916d89def7e24c19dfbe137c6531069c818c4b1160b14bf": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Jeonnam Dragons vs. Yongin FC end in a draw?",
+    "frage_b": "Jeonnam Dragons vs Yongin City - wer gewinnt?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:4981697": {
+    "same_event": false,
+    "reason": "first scorer vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Sparta Rotterdam to score first vs. Go Ahead Eagles?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988527": {
+    "same_event": false,
+    "reason": "exact score vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5042914__sxbet:0x1d950d797f42d51b853656d8544f5a49bd39d9cf4ff48c9740b8995847594e6a": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Instituto AC Córdoba vs. CA Boca Juniors end in a draw?",
+    "frage_b": "Instituto AC Cordoba vs Boca Juniors - wer gewinnt?"
+  },
+  "polymarket:5009332__sxbet:0x027f366fbc6d4105242930c9b4cc31be51f4ad9f724d90f0dbffb7b466636a5c": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Preston North End FC vs. Millwall FC end in a draw?",
+    "frage_b": "Preston North End vs Millwall FC - wer gewinnt?"
+  },
+  "polymarket:5009073__sxbet:0x3871343050471f1fc54defcccbbd8207e166b2bf3fcb81ca27ce5f70f3cd8a03": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will 1. FSV Mainz 05 vs. Bayer 04 Leverkusen end in a draw?",
+    "frage_b": "FSV Mainz vs Bayer 04 Leverkusen - wer gewinnt?"
+  },
+  "polymarket:5009166__sxbet:0x9f96079defe5db34d6f372397a2c7d940d296baf0494dcbb9d4d4deb1756a0d4": {
+    "same_event": false,
+    "reason": "draw vs. winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Bolton Wanderers FC vs. Stoke City FC end in a draw?",
+    "frage_b": "Bolton Wanderers vs Stoke City - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988520": {
+    "same_event": false,
+    "reason": "exact score vs. both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINAJONES33-2__polymarket:5380042": {
+    "same_event": false,
+    "reason": "identical phrasing, not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Aaron Jones Sr.: 2+ Touchdowns",
+    "frage_b": "Aaron Jones Sr.: 2+ touchdowns"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINAJONES33-2__polymarket:5381173": {
+    "same_event": false,
+    "reason": "different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Velus Jones Jr.: 2+ Touchdowns",
+    "frage_b": "Aaron Jones Sr.: 2+ touchdowns"
+  },
+  "polymarket:5237467__sxbet:0x7a865106fa798072f1ac2b5dd3ca3bad4b7c2b7fbb70e2eb779ab40d8d4a6f68": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will WSG Tirol vs. SV Ried end in a draw?",
+    "frage_b": "WSG Tirol vs SV Ried - wer gewinnt?"
+  },
+  "polymarket:5020762__sxbet:0x3012ee490818f1995877f2c11aeeefaa552cf85286e81c78fe7c0f3a8c966aa3": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Dundee United FC vs. Hibernian FC end in a draw?",
+    "frage_b": "Dundee United vs Hibernian - wer gewinnt?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5013740": {
+    "same_event": false,
+    "reason": "BTTS in second half vs generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Sunderland AFC vs. Brighton & Hove Albion FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219139": {
+    "same_event": false,
+    "reason": "different price threshold and time",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.40 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNFLTD-26OCT11MINNO-MINAJONES33-2__polymarket:5380624": {
+    "same_event": false,
+    "reason": "different players",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Daniel Jones: 2+ Touchdowns",
+    "frage_b": "Aaron Jones Sr.: 2+ touchdowns"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219138": {
+    "same_event": false,
+    "reason": "different price threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.50 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5009039__sxbet:0x850c5a5a30a2410a8cb8fc7005ac7da6c7a977f876d996e8725f60c1b5324343": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Sunderland AFC vs. Brighton & Hove Albion FC end in a draw?",
+    "frage_b": "Sunderland vs Brighton and Hove Albion - wer gewinnt?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5120968": {
+    "same_event": false,
+    "reason": "match-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA San Lorenzo de Almagro vs. CD Riestra: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219129": {
+    "same_event": false,
+    "reason": "different price threshold",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.40 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:4987339__sxbet:0x8e23317e8ae7ed255798efcce2a4972b662fea3ff419036407131e12fc0b17f0": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Tigres de la UANL vs. Deportivo Toluca FC end in a draw?",
+    "frage_b": "Tigres UANL vs Deportivo Toluca - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988528": {
+    "same_event": false,
+    "reason": "exact score vs BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988567": {
+    "same_event": false,
+    "reason": "exact score vs BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988535": {
+    "same_event": false,
+    "reason": "exact score vs BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5120969": {
+    "same_event": false,
+    "reason": "first-half BTTS vs generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA San Lorenzo de Almagro vs. CD Riestra: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5361764": {
+    "same_event": false,
+    "reason": "First specifies match and half; second is generic BTTS without match/half",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Juventud de Las Piedras vs. Racing Club Montevideo: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988546": {
+    "same_event": false,
+    "reason": "First is exact score for a specific match; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5329596__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "First is about Bahia votes in a runoff; second is about overall 2026 election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Bahia?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329862__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "First is about Rio Grande do Norte votes; second is about overall 2026 election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Rio Grande do Norte?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329700__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "First is about Pernambuco votes; second is about overall 2026 election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Pernambuco?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329684__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "First is about Paraíba votes; second is about overall 2026 election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Paraíba?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5015168": {
+    "same_event": false,
+    "reason": "First specifies match and second half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Go Ahead Eagles vs. Sparta Rotterdam: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5028074": {
+    "same_event": false,
+    "reason": "First specifies match and first half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "MFK Zemplín Michalovce vs. FC DAC 1904 Dunajská Streda: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5028100": {
+    "same_event": false,
+    "reason": "First specifies match and second half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "MFK Zemplín Michalovce vs. FC DAC 1904 Dunajská Streda: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5046561": {
+    "same_event": false,
+    "reason": "First specifies match and first half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Celta Fortuna vs. Real Sociedad de Fútbol B: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5066261": {
+    "same_event": false,
+    "reason": "First specifies match and second half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Feyenoord Rotterdam vs. AZ: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5069948": {
+    "same_event": false,
+    "reason": "First specifies match and second half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5120995": {
+    "same_event": false,
+    "reason": "First specifies match and second half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA San Lorenzo de Almagro vs. CD Riestra: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5242282": {
+    "same_event": false,
+    "reason": "First specifies match and first half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Hapoel Ironi Kiryat Shmona FC vs. Hapoel Tel Aviv FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5295290": {
+    "same_event": false,
+    "reason": "First specifies match and first half; second is generic BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Hapoel Ramat Gan Givatayim FC vs. Beitar Jerusalem FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5361790": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Juventud de Las Piedras vs. Racing Club Montevideo: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5372583": {
+    "same_event": false,
+    "reason": "First half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5372617": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5329918__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level second-round vote vs national election win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Sergipe?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329708__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level second-round vote vs national election win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Piauí?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329644__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level second-round vote vs national election win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Maranhão?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329604__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level second-round vote vs national election win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Ceará?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5046763": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Celta Fortuna vs. Real Sociedad de Fútbol B: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5242308": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Hapoel Ironi Kiryat Shmona FC vs. Hapoel Tel Aviv FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5295318": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Hapoel Ramat Gan Givatayim FC vs. Beitar Jerusalem FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5152047": {
+    "same_event": false,
+    "reason": "First half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5152073": {
+    "same_event": false,
+    "reason": "Second half vs full match",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988541": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5198583": {
+    "same_event": false,
+    "reason": "Specific teams vs generic BTTS (no teams)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988551": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988569": {
+    "same_event": false,
+    "reason": "Exact score proposition vs. generic both teams to score - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5329568__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vote share vs. overall presidential winner - different scopes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Alagoas?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5372582": {
+    "same_event": false,
+    "reason": "Specific match both teams to score vs. generic both teams to score - missing teams.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4952476__sxbet:0x622d849f6100179fdf81ebfda1be3ada8620f578a03d46f60de86132c6be89b5": {
+    "same_event": false,
+    "reason": "Draw question vs. win question - not complementary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Moreirense FC vs. Gil Vicente FC end in a draw?",
+    "frage_b": "Moreirense vs Gil Vicente F.C. - wer gewinnt?"
+  },
+  "polymarket:5009014__sxbet:0x3a3049f8fd27ff48217de4f19f048906f76416cb4acf9c31fc6de1ad10c14c4e": {
+    "same_event": false,
+    "reason": "Draw question vs. win question - not complementary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Charlton Athletic FC vs. Bristol City FC end in a draw?",
+    "frage_b": "Charlton Athletic vs Bristol City FC - wer gewinnt?"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988577": {
+    "same_event": false,
+    "reason": "Exact score proposition vs. generic both teams to score - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 3 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5069921": {
+    "same_event": false,
+    "reason": "Specific match both teams to score vs. generic both teams to score - missing teams.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata vs. CA Tucumán: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5329676__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vote share vs. overall presidential winner - different scopes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Pará?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988533": {
+    "same_event": false,
+    "reason": "Exact score proposition vs. generic both teams to score - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988553": {
+    "same_event": false,
+    "reason": "Exact score proposition vs. generic both teams to score - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 0 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988581": {
+    "same_event": false,
+    "reason": "Exact score proposition vs. generic both teams to score - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5042920__sxbet:0x4ed8c069285834b8bfd8655991d7f7c205268b9fd733b3918a4f42a5575d0077": {
+    "same_event": false,
+    "reason": "Draw question vs. win question - not complementary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will CA Barracas Central vs. CA Huracán end in a draw?",
+    "frage_b": "Barracas Central vs Huracan - wer gewinnt?"
+  },
+  "polymarket:5371646__predictit:8544:33623": {
+    "same_event": false,
+    "reason": "Any candidate gets most votes ever vs. specific candidate winning - different propositions.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Brazil Presidential Election Second Round: Any Candidate Gets Most Votes Ever?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Luiz Inácio Lula"
+  },
+  "polymarket:5280721__predictit:8939:35599": {
+    "same_event": false,
+    "reason": "Team win on a date vs. closest Senate race - different events.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will North Carolina Courage win on 2026-10-17?",
+    "frage_b": "Which 2026 Senate race will be the closest? - North Carolina"
+  },
+  "polymarket:5378971__predictit:8392:33055": {
+    "same_event": false,
+    "reason": "Illinois being closest race vs. party winning Illinois Senate - different scopes.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Illinois be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Illinois? - Democratic"
+  },
+  "polymarket:5378974__predictit:8381:33033": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of MA Senate race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Massachusetts be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Massachusetts? - Democratic"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988579": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 4 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5379041__predictit:8404:33082": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of RI governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Rhode Island be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Rhode Island? - Democratic"
+  },
+  "polymarket:630883__predictit:8939:35599": {
+    "same_event": false,
+    "reason": "Different propositions: Democrat win in NC Senate vs whether NC Senate race is closest",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the North Carolina Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - North Carolina"
+  },
+  "polymarket:5378961__predictit:8174:32033": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of VA Senate race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Virginia be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Virginia? - Democratic"
+  },
+  "polymarket:630692__predictit:8939:35598": {
+    "same_event": false,
+    "reason": "Different propositions: Democrat win in GA Senate vs whether GA Senate race is closest",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Georgia Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Georgia"
+  },
+  "polymarket:5379028__predictit:8401:33076": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of CT governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Connecticut be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Connecticut? - Democratic"
+  },
+  "polymarket:3369485__predictit:8297:32554": {
+    "same_event": false,
+    "reason": "Different propositions: SD governor Democratic win vs MN governor party winner (different states)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 South Dakota gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Minnesota? - Democratic"
+  },
+  "polymarket:5379035__predictit:8215:32172": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of NY governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will New York be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of New York? - Democratic"
+  },
+  "polymarket:5378987__predictit:8387:33044": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of WV Senate race vs party winner (Republican)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will West Virginia be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in West Virginia? - Republican"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988563": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 5 - 1 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5378982__predictit:8391:33052": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of OK Senate race vs party winner (Republican)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Oklahoma be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Oklahoma? - Republican"
+  },
+  "polymarket:5379033__predictit:8403:33080": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of MA governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Massachusetts be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Massachusetts? - Democratic"
+  },
+  "polymarket:5379040__predictit:8412:33111": {
+    "same_event": false,
+    "reason": "Different propositions: closeness of PA governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Pennsylvania be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Pennsylvania? - Democratic"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988557": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219136": {
+    "same_event": false,
+    "reason": "Different price thresholds and dates",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.70 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5378994__predictit:8460:33289": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Colorado be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Colorado? - Democratic"
+  },
+  "polymarket:5378970__predictit:8400:33073": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Idaho be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Idaho? - Republican"
+  },
+  "polymarket:5378972__predictit:8386:33042": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Kentucky be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kentucky? - Republican"
+  },
+  "polymarket:5378983__predictit:8395:33064": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Oregon be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Oregon? - Democratic"
+  },
+  "polymarket:5378951__predictit:8398:33070": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Colorado be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Colorado? - Democratic"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219135": {
+    "same_event": false,
+    "reason": "Different price thresholds",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.80 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5378996__predictit:8297:32554": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Minnesota be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Minnesota? - Democratic"
+  },
+  "polymarket:5112989__sxbet:0x0fc928b7480d5039b2f220906f26e2fe6d0ac037559973e883a8a7944204ee13": {
+    "same_event": false,
+    "reason": "One asks about a pick‑six play, the other about game winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Missouri State vs. Western Kentucky: Pick-Six Scored",
+    "frage_b": "Western Kentucky Hilltoppers vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:3520761__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "One asks about a specific House district, the other about overall House control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 SD-AL House election?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:1285263__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "One asks about a specific House seat, the other about overall House control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party win the WY-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:5378968__predictit:8390:33050": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Arkansas be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Arkansas? - Republican"
+  },
+  "polymarket:5378986__predictit:8385:33040": {
+    "same_event": false,
+    "reason": "One asks about closeness, the other about party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Tennessee be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Tennessee? - Republican"
+  },
+  "polymarket:3523212__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "One asks about a specific House district, the other about overall House control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 WY-AL House election?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:3518741__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "One asks about a specific House district, the other about overall House control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 ND-AL House election?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:629654__predictit:8297:32553": {
+    "same_event": false,
+    "reason": "different state and office",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the South Dakota governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Minnesota? - Republican"
+  },
+  "polymarket:5378988__predictit:8399:33071": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Wyoming be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Wyoming? - Republican"
+  },
+  "polymarket:5378969__predictit:8407:33096": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Delaware be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Delaware? - Democratic"
+  },
+  "polymarket:1284098__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party win the ND-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:5378975__predictit:8388:33046": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Mississippi be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Mississippi? - Republican"
+  },
+  "polymarket:5379001__predictit:8212:32166": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Michigan be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Michigan? - Democratic"
+  },
+  "polymarket:5379032__predictit:8410:33100": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Maryland be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Maryland? - Democratic"
+  },
+  "polymarket:1279605__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party win the AK-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:4064475__predictit:8228:32195": {
+    "same_event": false,
+    "reason": "county-level vs statewide Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win Broward County in the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Republican"
+  },
+  "polymarket:1285262__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party win the WY-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:5378984__predictit:8382:33035": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Rhode Island be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Rhode Island? - Democratic"
+  },
+  "polymarket:5378985__predictit:8376:33007": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will South Dakota be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Republican"
+  },
+  "polymarket:3364160__predictit:8162:31962": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party Candidate win the 2026 Montana Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Minnesota? - Democratic"
+  },
+  "polymarket:5379027__predictit:8166:31984": {
+    "same_event": false,
+    "reason": "closeness vs specific candidate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will California be the closest Governor's race in 2026?",
+    "frage_b": "Who will win the 2026 election for governor of California? - Xavier Becerra"
+  },
+  "polymarket:3369565__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Wyoming gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "polymarket:5136392__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different locations",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Alaska before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:630844__predictit:8939:35600": {
+    "same_event": false,
+    "reason": "different question types",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the New Hampshire Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - New Hampshire"
+  },
+  "polymarket:3365657__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Idaho gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "polymarket:1284728__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party win the SD-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:5378991__predictit:8474:33335": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will New Mexico be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of New Mexico? - Democratic"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988544": {
+    "same_event": false,
+    "reason": "exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 4 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5378976__predictit:8383:33037": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will New Jersey be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Jersey? - Democratic"
+  },
+  "polymarket:5136395__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different locations",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Iowa before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:5378973__predictit:8389:33048": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Louisiana be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Louisiana? - Republican"
+  },
+  "polymarket:1284097__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party win the ND-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:1284727__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "specific seat vs overall House",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party win the SD-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:629364__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the Idaho governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "polymarket:5136398__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different locations",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Michigan before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:3369512__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Tennessee gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "polymarket:5378956__predictit:8162:31962": {
+    "same_event": false,
+    "reason": "closeness vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Minnesota be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Minnesota? - Democratic"
+  },
+  "polymarket:629519__predictit:8474:33334": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the New Hampshire governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of New Mexico? - Republican"
+  },
+  "polymarket:5136393__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different locations",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Arizona before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:629734__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the Wyoming governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "polymarket:5378952__predictit:8397:33068": {
+    "same_event": false,
+    "reason": "different questions (closeness vs party win)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will New Mexico be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Mexico? - Democratic"
+  },
+  "polymarket:629284__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the Arkansas governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219127": {
+    "same_event": false,
+    "reason": "different price thresholds and times",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.60 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5177579__predictit:8345:32831": {
+    "same_event": false,
+    "reason": "not guaranteed opposite (both could be No)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Mike Johnson out as Speaker by October 31?",
+    "frage_b": "Will Mike Johnson remain Speaker of the House through the 119th Congress?"
+  },
+  "polymarket:5136394__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different locations",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Georgia before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:5378967__predictit:8384:33038": {
+    "same_event": false,
+    "reason": "different questions (closeness vs party win)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Alabama be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alabama? - Republican"
+  },
+  "polymarket:5379025__predictit:8448:33240": {
+    "same_event": false,
+    "reason": "different questions (closeness vs party win)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Alabama be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Alabama? - Republican"
+  },
+  "polymarket:5379010__predictit:8378:33012": {
+    "same_event": false,
+    "reason": "different questions (closeness vs party win)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Iowa be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Iowa? - Democratic"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219126": {
+    "same_event": false,
+    "reason": "different price thresholds and times",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.70 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:629667__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the Tennessee governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "polymarket:4063889__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "different questions (county win vs closest race)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Oakland County in the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219137": {
+    "same_event": false,
+    "reason": "different price thresholds and times",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.60 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5188754": {
+    "same_event": false,
+    "reason": "First specifies match and half; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:1909919__predictit:8345:32831": {
+    "same_event": false,
+    "reason": "Different propositions about speakership",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Mike Johnson be the first Speaker of the House after the 2026 midterms?",
+    "frage_b": "Will Mike Johnson remain Speaker of the House through the 119th Congress?"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5242281": {
+    "same_event": false,
+    "reason": "First specifies match; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Hapoel Ironi Kiryat Shmona FC vs. Hapoel Tel Aviv FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5198584": {
+    "same_event": false,
+    "reason": "First specifies match and half; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5378992__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "One about closeness, other about party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Arizona be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5188780": {
+    "same_event": false,
+    "reason": "First specifies match and half; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988573": {
+    "same_event": false,
+    "reason": "First about exact score; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 3 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5198610": {
+    "same_event": false,
+    "reason": "First specifies match and half; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4063831__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "One about county win, other about closest race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Genesee County in the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "polymarket:1279604__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "One about specific seat, other about House control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party win the AK-AL House seat?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:3729379__predictit:8162:31961": {
+    "same_event": false,
+    "reason": "One about sweep, other about Senate winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Minnesota Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Minnesota? - Republican"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988543": {
+    "same_event": false,
+    "reason": "First about exact score; second generic",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 0 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5136399__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different locations (Nevada vs Greenland)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Nevada before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:4063844__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "One about county win, other about closest race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Kent County in the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "polymarket:3358720__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "One about endorsement, other about election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Trump endorse Flávio Bolsonaro for President of Brazil?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5380713": {
+    "same_event": false,
+    "reason": "Anytime touchdown vs. first touchdown are different events",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Olave: Anytime Touchdown",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCDONALDSON43__polymarket:5380715": {
+    "same_event": false,
+    "reason": "Anytime touchdown vs. first touchdown are different events",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CJ Donaldson: Anytime Touchdown",
+    "frage_b": "CJ Donaldson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINDCLAIBORNE21__polymarket:5380719": {
+    "same_event": false,
+    "reason": "Anytime touchdown vs. first touchdown are different events",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Demond Claiborne: Anytime Touchdown",
+    "frage_b": "Demond Claiborne: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NODVELE14__polymarket:5380721": {
+    "same_event": false,
+    "reason": "Anytime touchdown vs. first touchdown are different events",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Devaughn Vele: Anytime Touchdown",
+    "frage_b": "Devaughn Vele: 1st Touchdown"
+  },
+  "polymarket:5378997__predictit:8213:32168": {
+    "same_event": false,
+    "reason": "Closeness of race vs. party winner are different questions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Wisconsin be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Wisconsin? - Democratic"
+  },
+  "polymarket:3409452__predictit:8418:33123": {
+    "same_event": false,
+    "reason": "Joint governor/senate outcome vs. governor-only party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats win the Texas Governor election and Republicans win the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Republican"
+  },
+  "polymarket:3516247__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "Joint governor/senate outcome vs. senate-only party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the New Hampshire Governor election and Democrats win the New Hampshire Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5152046": {
+    "same_event": false,
+    "reason": "Specific teams BTTS vs. generic BTTS without teams",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5379016__predictit:8413:33112": {
+    "same_event": false,
+    "reason": "Closeness of race vs. party winner are different questions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Florida be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Florida? - Republican"
+  },
+  "polymarket:5330019__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Winning most votes from abroad in runoff vs. overall election winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from abroad?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:4065137__predictit:8166:31984": {
+    "same_event": false,
+    "reason": "Winning a specific county vs. winning the overall governorship",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Xavier Becerra win Fresno County in the California governor race in 2026?",
+    "frage_b": "Who will win the 2026 election for governor of California? - Xavier Becerra"
+  },
+  "kalshi:KXNATGASD-26OCT0717-T3.295__polymarket:5219134": {
+    "same_event": false,
+    "reason": "Different price thresholds and dates for natural gas",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.90 Week of October 5 2026?",
+    "frage_b": "Will the natural gas close price be above 3.295 USD/MMBtu on October 07, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5378966__predictit:8375:33005": {
+    "same_event": false,
+    "reason": "Closeness of Senate race vs. party winner are different questions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will South Carolina be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Carolina? - Republican"
+  },
+  "polymarket:5136396__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different locations (Kansas vs. Greenland) and timeframes",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Kansas before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:5241885__sxbet:0xd565654ee4abc1fe4db7fee1dea084c7e4ee068b887005718f8d048af533eee5": {
+    "same_event": false,
+    "reason": "Draw outcome vs. which team wins are mutually exclusive but not exact opposites",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will FK Austria Wien vs. SK Sturm Graz end in a draw?",
+    "frage_b": "FK Austria Wien vs SK Puntigamer Sturm Graz - wer gewinnt?"
+  },
+  "polymarket:4867567__predictit:8152:31925": {
+    "same_event": false,
+    "reason": "Different questions about nomination odds vs winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "JD Vance Republican nomination odds leader on October 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - JD Vance"
+  },
+  "polymarket:5136406__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different events (Wisconsin visit vs Greenland visit)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Wisconsin before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINAJONES33__polymarket:5380041": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Aaron Jones Sr.: Anytime Touchdown",
+    "frage_b": "Aaron Jones Sr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOAKAMARA41__polymarket:5380043": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Alvin Kamara: Anytime Touchdown",
+    "frage_b": "Alvin Kamara: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINJADDISON3__polymarket:5380045": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jordan Addison: Anytime Touchdown",
+    "frage_b": "Jordan Addison: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOBBROWN19__polymarket:5380710": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Barion Brown: Anytime Touchdown",
+    "frage_b": "Barion Brown: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINJJENNINGS14__polymarket:5380724": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jauan Jennings: Anytime Touchdown",
+    "frage_b": "Jauan Jennings: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOKMILLER5__polymarket:5380728": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kendre Miller: Anytime Touchdown",
+    "frage_b": "Kendre Miller: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOKAUSTIN81__polymarket:5380730": {
+    "same_event": false,
+    "reason": "Anytime TD vs first TD are not opposite",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kevin Austin Jr.: Anytime Touchdown",
+    "frage_b": "Kevin Austin Jr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINAJONES33__polymarket:5380758": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Aaron Jones Sr.: Team First TD (Minnesota Vikings)",
+    "frage_b": "Aaron Jones Sr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOAKAMARA41__polymarket:5380759": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Alvin Kamara: Team First TD (New Orleans Saints)",
+    "frage_b": "Alvin Kamara: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOBBROWN19__polymarket:5380760": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Barion Brown: Team First TD (New Orleans Saints)",
+    "frage_b": "Barion Brown: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5380762": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Chris Olave: Team First TD (New Orleans Saints)",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCDONALDSON43__polymarket:5380763": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CJ Donaldson: Team First TD (New Orleans Saints)",
+    "frage_b": "CJ Donaldson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINDCLAIBORNE21__polymarket:5380765": {
+    "same_event": false,
+    "reason": "Team first TD vs player first TD differ",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Demond Claiborne: Team First TD (Minnesota Vikings)",
+    "frage_b": "Demond Claiborne: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NODVELE14__polymarket:5380766": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Devaughn Vele: Team First TD (New Orleans Saints)",
+    "frage_b": "Devaughn Vele: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINGBARTHOLOMEW86__polymarket:5380767": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gavin Bartholomew: Team First TD (Minnesota Vikings)",
+    "frage_b": "Gavin Bartholomew: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINJJENNINGS14__polymarket:5380768": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jauan Jennings: Team First TD (Minnesota Vikings)",
+    "frage_b": "Jauan Jennings: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINJADDISON3__polymarket:5380769": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jordan Addison: Team First TD (Minnesota Vikings)",
+    "frage_b": "Jordan Addison: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5380770": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Juwan Johnson: Team First TD (New Orleans Saints)",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOKMILLER5__polymarket:5380771": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kendre Miller: Team First TD (New Orleans Saints)",
+    "frage_b": "Kendre Miller: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOKAUSTIN81__polymarket:5380772": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kevin Austin Jr.: Team First TD (New Orleans Saints)",
+    "frage_b": "Kevin Austin Jr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINKMURRAY1__polymarket:5380773": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kyler Murray: Team First TD (Minnesota Vikings)",
+    "frage_b": "Kyler Murray: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINTHOCKENSON87__polymarket:5380776": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "T.J. Hockenson: Team First TD (Minnesota Vikings)",
+    "frage_b": "T.J. Hockenson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOTSHOUGH6__polymarket:5380779": {
+    "same_event": false,
+    "reason": "Question a specifies team's first TD; b is player's first TD (any).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Shough: Team First TD (New Orleans Saints)",
+    "frage_b": "Tyler Shough: 1st Touchdown"
+  },
+  "polymarket:634976__predictit:8939:35602": {
+    "same_event": false,
+    "reason": "One asks if candidate wins; other asks which race will be closest.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Mary Peltola win the Alaska Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Alaska"
+  },
+  "polymarket:4065138__predictit:8166:31986": {
+    "same_event": false,
+    "reason": "One asks about winning a county; other asks who wins the state.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Steve Hilton win Fresno County in the California governor race in 2026?",
+    "frage_b": "Who will win the 2026 election for governor of California? - Steve Hilton"
+  },
+  "polymarket:5379018__predictit:8402:33077": {
+    "same_event": false,
+    "reason": "One asks if VT will be closest race; other asks which party wins VT.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Vermont be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Vermont? - Republican"
+  },
+  "polymarket:5378993__predictit:8418:33123": {
+    "same_event": false,
+    "reason": "One asks if TX will be closest race; other asks which party wins TX.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Texas be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Republican"
+  },
+  "polymarket:630805__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "One asks if Democrats win MI Senate; other asks which Senate race will be closest.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5297577": {
+    "same_event": false,
+    "reason": "Different bet types: first-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5297739": {
+    "same_event": false,
+    "reason": "Different bet types: second-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINKMURRAY1__polymarket:5366863": {
+    "same_event": false,
+    "reason": "Different propositions: most passing TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Kyler Murray finish Week 5 of the 2026-27 NFL regular season with the most passing touchdowns?",
+    "frage_b": "Kyler Murray: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOTSHOUGH6__polymarket:5366902": {
+    "same_event": false,
+    "reason": "Different propositions: most passing TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Tyler Shough finish Week 5 of the 2026-27 NFL regular season with the most passing touchdowns?",
+    "frage_b": "Tyler Shough: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINAJONES33__polymarket:5367368": {
+    "same_event": false,
+    "reason": "Different propositions: most rushing TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Aaron Jones Sr. finish Week 5 of the 2026-27 NFL regular season with the most rushing touchdowns?",
+    "frage_b": "Aaron Jones Sr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOAKAMARA41__polymarket:5367398": {
+    "same_event": false,
+    "reason": "Different propositions: most rushing TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Alvin Kamara finish Week 5 of the 2026-27 NFL regular season with the most rushing touchdowns?",
+    "frage_b": "Alvin Kamara: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOKMILLER5__polymarket:5367402": {
+    "same_event": false,
+    "reason": "Different propositions: most rushing TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Kendre Miller finish Week 5 of the 2026-27 NFL regular season with the most rushing touchdowns?",
+    "frage_b": "Kendre Miller: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINJADDISON3__polymarket:5367827": {
+    "same_event": false,
+    "reason": "Different propositions: most receiving TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Jordan Addison finish Week 5 of the 2026-27 NFL regular season with the most receiving touchdowns?",
+    "frage_b": "Jordan Addison: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5367851": {
+    "same_event": false,
+    "reason": "Different propositions: most receiving TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chris Olave finish Week 5 of the 2026-27 NFL regular season with the most receiving touchdowns?",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NODVELE14__polymarket:5367854": {
+    "same_event": false,
+    "reason": "Different propositions: most receiving TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Devaughn Vele finish Week 5 of the 2026-27 NFL regular season with the most receiving touchdowns?",
+    "frage_b": "Devaughn Vele: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5367857": {
+    "same_event": false,
+    "reason": "Different propositions: most receiving TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Juwan Johnson finish Week 5 of the 2026-27 NFL regular season with the most receiving touchdowns?",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINAJONES33__polymarket:5368090": {
+    "same_event": false,
+    "reason": "Different propositions: most scrimmage TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Aaron Jones Sr. finish Week 5 of the 2026-27 NFL regular season with the most scrimmage touchdowns?",
+    "frage_b": "Aaron Jones Sr.: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOAKAMARA41__polymarket:5368099": {
+    "same_event": false,
+    "reason": "Different propositions: most scrimmage TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Alvin Kamara finish Week 5 of the 2026-27 NFL regular season with the most scrimmage touchdowns?",
+    "frage_b": "Alvin Kamara: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5368100": {
+    "same_event": false,
+    "reason": "Different propositions: most scrimmage TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chris Olave finish Week 5 of the 2026-27 NFL regular season with the most scrimmage touchdowns?",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5368101": {
+    "same_event": false,
+    "reason": "Different propositions: most scrimmage TDs vs first TD scorer",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Juwan Johnson finish Week 5 of the 2026-27 NFL regular season with the most scrimmage touchdowns?",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "polymarket:4927096__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "Different topics: white voter support vs House party control.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win white voters in the midterms?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:3343316__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Different scope: Idaho Senate race vs overall Senate control.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Idaho Senate election?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:5329587__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Different: Amazonas second-round vote vs overall presidential election.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Amazonas?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:4222446__predictit:8402:33077": {
+    "same_event": false,
+    "reason": "Different offices: Lieutenant Governor vs Governor.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Vermont Lieutenant Governor election?",
+    "frage_b": "Which party will win the 2026 election for governor of Vermont? - Republican"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOTSHOUGH6__polymarket:5309393": {
+    "same_event": false,
+    "reason": "Different players: Tyler Goodson vs Tyler Shough.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Tyler Goodson score the first touchdown?",
+    "frage_b": "Tyler Shough: 1st Touchdown"
+  },
+  "polymarket:2364515__predictit:8156:31949": {
+    "same_event": false,
+    "reason": "Different: any Senate/Gov in Biden-Trump state vs specific GA Senate race.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win any Senate or Governor's Election in a Biden-Trump state?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Republican"
+  },
+  "polymarket:630705__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Idaho vs Texas Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Idaho Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:634891__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Nebraska vs Texas Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Nebraska Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630937__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: South Dakota vs Texas Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the South Dakota Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:562802__predictit:8635:34045": {
+    "same_event": false,
+    "reason": "Different: House control yes/no vs seat range for House and Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+    "frage_b": "How many House and Senate seats will Dems control after the 2026 midterms? - 51-53 and 233-247"
+  },
+  "polymarket:630831__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Montana vs Texas Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Montana Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3729066__predictit:8214:32169": {
+    "same_event": false,
+    "reason": "Different: conjunction of governor and senate outcomes vs governor only.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats win the Kansas Governor election and Republicans win the Kansas Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Republican"
+  },
+  "polymarket:5378989__predictit:8245:35247": {
+    "same_event": false,
+    "reason": "Different: closeness of race vs specific winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Alaska be the closest Governor's race in 2026?",
+    "frage_b": "Who will win the 2026 election for governor of Alaska? - J. Kreiss-Tomkins"
+  },
+  "polymarket:630989__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: West Virginia vs Texas Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the West Virginia Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5309404": {
+    "same_event": false,
+    "reason": "Different players: Tez Johnson vs Juwan Johnson.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Tez Johnson score the first touchdown?",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINGBARTHOLOMEW86__polymarket:5380723": {
+    "same_event": false,
+    "reason": "Different bet type: anytime TD vs first TD",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Gavin Bartholomew: Anytime Touchdown",
+    "frage_b": "Gavin Bartholomew: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5380726": {
+    "same_event": false,
+    "reason": "Different bet type: anytime TD vs first TD",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Juwan Johnson: Anytime Touchdown",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINKMURRAY1__polymarket:5380731": {
+    "same_event": false,
+    "reason": "Different bet type: anytime TD vs first TD",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Kyler Murray: Anytime Touchdown",
+    "frage_b": "Kyler Murray: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-MINTHOCKENSON87__polymarket:5380736": {
+    "same_event": false,
+    "reason": "Different bet type: anytime TD vs first TD",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "T.J. Hockenson: Anytime Touchdown",
+    "frage_b": "T.J. Hockenson: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOTSHOUGH6__polymarket:5380740": {
+    "same_event": false,
+    "reason": "Different bet type: anytime TD vs first TD",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Tyler Shough: Anytime Touchdown",
+    "frage_b": "Tyler Shough: 1st Touchdown"
+  },
+  "polymarket:4222445__predictit:8402:33078": {
+    "same_event": false,
+    "reason": "Different offices: Lt. Governor vs Governor",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Vermont Lieutenant Governor election?",
+    "frage_b": "Which party will win the 2026 election for governor of Vermont? - Democratic"
+  },
+  "polymarket:631030__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Oklahoma vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Oklahoma Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630627__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Alabama vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Alabama Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:631002__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Wyoming vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Wyoming Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988555": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 1 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:630759__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Kentucky vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Kentucky Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5091119__predictit:8939:35601": {
+    "same_event": false,
+    "reason": "Different scopes: county win vs closest race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Mahoning County in the Ohio Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Ohio"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5309397": {
+    "same_event": false,
+    "reason": "Different players: Godwin Jr. vs Olave",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chris Godwin Jr. score the first touchdown?",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOJJOHNSON83__polymarket:5309399": {
+    "same_event": false,
+    "reason": "Different players: Kameron Johnson vs Juwan Johnson",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Kameron Johnson score the first touchdown?",
+    "frage_b": "Juwan Johnson: 1st Touchdown"
+  },
+  "polymarket:4443389__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Different jurisdictions: Texas state Senate vs US Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Party control the Texas Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:5102844__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different topics: endorsement vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will John Cornyn endorse James Talarico in the Texas Senate Election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630950__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states: Tennessee vs Texas",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Tennessee Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:4443390__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Texas Senate vs US Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party control the Texas Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4386153__predictit:8447:33239": {
+    "same_event": false,
+    "reason": "Pro- vs anti-redistricting measures",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Missouri passes ballot measure to redistrict?",
+    "frage_b": "Will Missouri pass an anti-redistricting referendum in 2026?"
+  },
+  "polymarket:4844497__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "County win vs closest race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Grand Traverse County in the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "polymarket:634878__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Louisiana vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Louisiana Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630653__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Arkansas vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Arkansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:631057__predictit:8939:35601": {
+    "same_event": false,
+    "reason": "Win vs closest race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Ohio Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Ohio"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5361763": {
+    "same_event": false,
+    "reason": "Missing match context in second",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "CA Juventud de Las Piedras vs. Racing Club Montevideo: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:631017__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Mississippi vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Mississippi Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5378995__predictit:8214:32169": {
+    "same_event": false,
+    "reason": "Closest governor race vs party winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Kansas be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Republican"
+  },
+  "polymarket:631044__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Florida vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:4641966__predictit:8172:32027": {
+    "same_event": false,
+    "reason": "Performance worst vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Nebraska Republican perform worst among these tossup Senate races?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Republican"
+  },
+  "polymarket:4641965__predictit:8396:33065": {
+    "same_event": false,
+    "reason": "Performance worst vs party win",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Kansas Republican perform worst among these tossup Senate races?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Republican"
+  },
+  "polymarket:682714__predictit:8643:34096": {
+    "same_event": false,
+    "reason": "Different candidates for PM",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Gideon Sa’ar be the next Prime Minister of Israel?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu"
+  },
+  "polymarket:5237293__predictit:8643:34096": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Netanyahu drops out before election?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu"
+  },
+  "polymarket:1178882__predictit:8156:31950": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats win all \"core four\" senate races?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Democratic"
+  },
+  "kalshi:KXLIGAPORTUGALBTTS-26OCT10CASSCL-BTTS__polymarket:4988565": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Exact Score: Casa Pia AC 2 - 5 CD Santa Clara?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:3515950__predictit:8274:32442": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Iowa Governor election and Democrats win the Iowa Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Iowa? - Republican"
+  },
+  "polymarket:3365656__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Idaho gubernatorial election by 0%-10%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3369564__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Wyoming gubernatorial election by 0%-10%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:5379004__predictit:8441:33213": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Ohio be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Ohio? - Democratic"
+  },
+  "polymarket:5377028__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win white voters in the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "polymarket:3729340__predictit:8156:31949": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Georgia Governor election and Democrats win the Georgia Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Republican"
+  },
+  "polymarket:5377027__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats win white voters in the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630924__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the South Carolina Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3516006__predictit:8159:31955": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Maine Governor election and Democrats win the Maine Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Republican"
+  },
+  "polymarket:3729064__predictit:8214:32169": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Kansas Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Republican"
+  },
+  "polymarket:629641__predictit:8416:33119": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win the South Carolina governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Georgia? - Republican"
+  },
+  "polymarket:3369038__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Michigan gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5188753": {
+    "same_event": false,
+    "reason": "Question A specifies teams AZ vs. MH Hapoel Be'er Sheva; B is generic Both Teams To Score without teams.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:3365537__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different elections: Arkansas gubernatorial vs RI Republican gubernatorial primary; also different metrics.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Arkansas gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3364334__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different elections: Arizona gubernatorial vs RI Republican gubernatorial primary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Arizona gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:630772__predictit:8939:35603": {
+    "same_event": false,
+    "reason": "Different propositions: Democrats winning Maine Senate vs which Senate race will be closest (Maine).",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Maine Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Maine"
+  },
+  "polymarket:814613__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "Different contests: Taiwan local elections DPP vs US House Democratic win.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democratic Progressive Party (DPP) win the most head of local government elections in the 2026 Taiwan local elections?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:3369509__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different elections: Tennessee gubernatorial vs RI Republican gubernatorial primary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Tennessee gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3409451__predictit:8418:33123": {
+    "same_event": false,
+    "reason": "Different scope: sweep of Texas Senate and Governor vs only governor winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans sweep the Texas Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Republican"
+  },
+  "polymarket:3515972__predictit:8271:32429": {
+    "same_event": false,
+    "reason": "Different scope: sweep of Alaska Senate and Governor vs only Senate winner; also party mismatch.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Alaska Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Republican"
+  },
+  "polymarket:3729337__predictit:8156:31949": {
+    "same_event": false,
+    "reason": "Different scope: sweep of Georgia Senate and Governor vs only Senate winner; party mismatch.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Georgia Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Republican"
+  },
+  "polymarket:3729067__predictit:8214:32169": {
+    "same_event": false,
+    "reason": "Different scope: conjunction of Kansas Governor and Senate outcomes vs only governor winner.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Kansas Governor election and Democrats win the Kansas Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Republican"
+  },
+  "polymarket:3365733__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different elections: Maine gubernatorial vs RI Republican gubernatorial primary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Maine gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:4064428__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "Different scope: winning Fort Bend County in Texas Senate race vs winning overall Texas Senate election.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win Fort Bend County in the Texas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "polymarket:4167188__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scope: FL-25 House district margin vs national House midterm margin; different ranges.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-25 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3369248__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different elections: Oregon gubernatorial vs RI Republican gubernatorial primary.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Oregon gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "kalshi:KXEREDIVISIEBTTS-26OCT10GAESPA-BTTS__polymarket:5297567": {
+    "same_event": false,
+    "reason": "Question A specifies teams Real Sociedad B vs UD Almería; B is generic Both Teams To Score.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:3515993__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Different scopes: Democrats sweeping both offices vs Republican winning Senate only",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Michigan Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:4170006__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District-specific margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will a Republican Party candidate win the 2026 WA-03 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3516004__predictit:8159:31955": {
+    "same_event": false,
+    "reason": "Sweep of Senate+Governor vs Senate winner only",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans sweep the Maine Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Republican"
+  },
+  "polymarket:4167340__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "CA-48 district margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will a Republican Party candidate win the 2026 CA-48 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4166819__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "CA-22 3-6% margin vs national 0-3% margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will a Republican Party candidate win the 2026 CA-22 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4064462__predictit:8419:33125": {
+    "same_event": false,
+    "reason": "Clark County governor race vs statewide Nevada governor",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win Clark County in the Nevada governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Nevada? - Republican"
+  },
+  "polymarket:4167189__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "FL-25 district margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-25 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4167201__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "FL-22 3-6% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-22 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4167202__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "FL-22 0-3% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-22 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4167214__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "FL-14 3-6% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-14 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4170007__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "WA-03 3-6% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will a Republican Party candidate win the 2026 WA-03 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4063958__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "Tarrant County Senate race vs statewide Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win Tarrant County in the Texas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "polymarket:4166818__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "CA-22 0-3% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will a Republican Party candidate win the 2026 CA-22 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4167215__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "FL-14 0-3% margin vs national House margin",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-14 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11MINNO-NOCOLAVE12__polymarket:5405330": {
+    "same_event": false,
+    "reason": "Different players: Chris Rodriguez Jr. vs Chris Olave for first touchdown",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Chris Rodriguez Jr. score the first touchdown?",
+    "frage_b": "Chris Olave: 1st Touchdown"
+  },
+  "polymarket:3369226__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different elections (OK gov vs RI primary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Oklahoma gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:4063203__predictit:8228:32195": {
+    "same_event": false,
+    "reason": "county vs statewide Senate race",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republicans win Miami-Dade County in the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Republican"
+  },
+  "polymarket:4867546__predictit:8153:32160": {
+    "same_event": false,
+    "reason": "nomination odds leader vs nomination winner",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jon Ossoff Democratic nomination odds leader on October 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Jon Ossoff"
+  },
+  "polymarket:3369572__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different states (WI vs RI)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Wisconsin gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:4064474__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "county vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Broward County in the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3365705__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different states (IA vs RI)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Iowa gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:2773660__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "aggregate count vs specific OH Senate special",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win 0 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:630911__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "RI Senate vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Rhode Island Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:1060867__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "trifecta+supermajority vs Senate control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Republicans win Trifecta with Senate Supermajority in midterms?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:630679__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "DE Senate vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Delaware Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630790__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "MA Senate vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Massachusetts Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:2773665__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "aggregate count vs OH Senate special",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win 5 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:5336173__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "conjunction of three events vs Senate control",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win Brazil, Naftali Bennett become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:630720__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "IL Senate vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Illinois Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630898__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "OR Senate vs Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Oregon Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3409453__predictit:8418:33123": {
+    "same_event": false,
+    "reason": "Different propositions (conjunction vs single office)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Texas Governor election and Democrats win the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Republican"
+  },
+  "polymarket:630857__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (NJ vs TX)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the New Jersey Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630976__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (VA vs TX)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Virginia Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630666__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (CO vs TX)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the Colorado Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:630870__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (NM vs TX)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win the New Mexico Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:4063957__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "County-level vs statewide Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Tarrant County in the Texas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:562828__predictit:8600:33867": {
+    "same_event": false,
+    "reason": "Opposite Senate control predictions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "2026 Balance of Power: D Senate, D House",
+    "frage_b": "What will be the balance of power in Congress after the 2026 election? - D House, R Senate"
+  },
+  "polymarket:2683264__predictit:8163:31964": {
+    "same_event": false,
+    "reason": "Different seat ranges and House condition",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans hold 47–49 Senate seats and 208+ House seats after the 2026 midterms?",
+    "frage_b": "How many Senate seats will the GOP control after the 2026 midterms? - 47 or fewer"
+  },
+  "polymarket:3364284__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states and election types (AL gov vs RI primary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Alabama gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:4064427__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "County-level vs statewide Texas Senate",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Fort Bend County in the Texas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3515948__predictit:8274:32442": {
+    "same_event": false,
+    "reason": "Adds Governor sweep to Senate only",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans sweep the Iowa Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Iowa? - Republican"
+  },
+  "polymarket:3409450__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Adds Governor sweep to Senate only",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats sweep the Texas Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3369210__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states and election types (OH gov vs RI primary)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Ohio gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:4641984__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Adds TX and ME Senate conditions",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Democrats win the Texas Senate seat, and Republicans win Michigan and Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:2773664__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Different scope (4 states vs OH special)",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win 4 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:5166739__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "Different questions: one about Democrats winning Macomb County, the other about which Senate race is closest.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Democrats win Macomb County in the Michigan Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "polymarket:5377019__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "Different questions: one about Republicans winning Latino voters, the other about which party wins the Texas Senate election.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win Latino voters in the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "polymarket:3515996__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Different questions: one about Republicans winning MI Gov and Democrats winning MI Senate, the other about which party wins the MI Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Republicans win the Michigan Governor election and Democrats win the Michigan Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:5336160__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Different questions: one about Lula, Eizenkot, and Republicans winning US Senate, the other about which party controls the Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win Brazil, Gadi Eizenkot become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5336167__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Different questions: one about Lula, Netanyahu, and Republicans winning US Senate, the other about which party controls the Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4154289__predictit:8939:35604": {
+    "same_event": false,
+    "reason": "Different questions: one about Michigan Democrat performing best among tossup races, the other about which 2026 Senate race is closest.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Michigan Democrat perform best among these tossup Senate races?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Michigan"
+  },
+  "polymarket:562832__predictit:8600:33867": {
+    "same_event": false,
+    "reason": "Different questions: one about 'Other' balance of power, the other about D House, R Senate balance.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "2026 Balance of Power: Other",
+    "frage_b": "What will be the balance of power in Congress after the 2026 election? - D House, R Senate"
+  },
+  "polymarket:5136397__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different questions: one about Trump visiting Maine before midterms, the other about Trump visiting Greenland in 2026.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Donald Trump visit Maine before the midterms?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:2928843__predictit:8879:35310": {
+    "same_event": false,
+    "reason": "Different questions: one about either Ossoff or Warnock out, the other about both remaining senators.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Jon Ossoff or Raphael Warnock out from the Senate in 2026?",
+    "frage_b": "Will both Raphael Warnock and Jon Ossoff remain US senators through year-end?"
+  },
+  "polymarket:5015009__sxbet:0xd76cb36c9d8324642175b054cc5c24b7d11cedc2269fc80c962e720de8850260": {
+    "same_event": false,
+    "reason": "Different questions: one about match ending in a draw, the other about which team wins.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Deportivo Alavés vs. Club Atlético de Madrid end in a draw?",
+    "frage_b": "Deportivo Alaves vs Atletico Madrid - wer gewinnt?"
+  },
+  "polymarket:3369147__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different questions: one about NE gubernatorial margin 0-5%, the other about RI Republican primary margin for Aaron Guckian.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Nebraska gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:562829__predictit:8600:33867": {
+    "same_event": false,
+    "reason": "Different questions: one about D Senate, R House, the other about D House, R Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "2026 Balance of Power: D Senate, R House",
+    "frage_b": "What will be the balance of power in Congress after the 2026 election? - D House, R Senate"
+  },
+  "polymarket:4375450__predictit:8856:35172": {
+    "same_event": false,
+    "reason": "Different questions: one about Democrats 8-9% in Knesset, the other about Democrats 6-9% House margin.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will The Democrats win 8-9% of the vote in the 2026 Knesset elections?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Democrats 6-9%"
+  },
+  "polymarket:5336156__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Different questions: one about Bolsonaro, Bennett, and Republicans winning US Senate, the other about which party controls the Senate.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Flávio Bolsonaro win Brazil, Naftali Bennett become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5379019__predictit:8419:33125": {
+    "same_event": false,
+    "reason": "Different questions: one about Nevada being closest Governor's race, the other about which party wins Nevada governor.",
+    "checked_at": "2026-10-07T15:57:12.215110+00:00",
+    "frage_a": "Will Nevada be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Nevada? - Republican"
+  }
+}

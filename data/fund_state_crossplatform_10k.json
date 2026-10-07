@@ -1,5 +1,236 @@
 {
-  "cash": 10000.0,
-  "positions": [],
-  "started": null
+  "cash": 9939.111659953718,
+  "positions": [
+    {
+      "pair_id": "polymarket:5380722__kalshi:KXNFLTD-26OCT11MINNO-NODVELE14-2",
+      "frage": "[polymarket] Devaughn Vele: 2+ Touchdowns  <->  [kalshi] Devaughn Vele: 2+ touchdowns",
+      "shares": 11.393367709048132,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380722",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NODVELE14-2",
+        "side": "yes",
+        "einstandskurs": 0.03,
+        "letzter_kurs": 0.03,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380729__kalshi:KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
+      "frage": "[polymarket] Kendre Miller: 2+ Touchdowns  <->  [kalshi] Kendre Miller: 2+ touchdowns",
+      "shares": 11.393367709048132,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380729",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
+        "side": "yes",
+        "einstandskurs": 0.03,
+        "letzter_kurs": 0.03,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380732__kalshi:KXNFLTD-26OCT11MINNO-MINKMURRAY1-2",
+      "frage": "[polymarket] Kyler Murray: 2+ Touchdowns  <->  [kalshi] Kyler Murray: 2+ touchdowns",
+      "shares": 11.393367709048132,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380732",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-MINKMURRAY1-2",
+        "side": "yes",
+        "einstandskurs": 0.03,
+        "letzter_kurs": 0.03,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380046__kalshi:KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
+      "frage": "[polymarket] Jordan Addison: 2+ Touchdowns  <->  [kalshi] Jordan Addison: 2+ touchdowns",
+      "shares": 11.142411920399962,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380046",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
+        "side": "yes",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380716__kalshi:KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
+      "frage": "[polymarket] CJ Donaldson: 2+ Touchdowns  <->  [kalshi] CJ Donaldson: 2+ touchdowns",
+      "shares": 11.142301178816608,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380716",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
+        "side": "yes",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380727__kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
+      "frage": "[polymarket] Juwan Johnson: 2+ Touchdowns  <->  [kalshi] Juwan Johnson: 2+ touchdowns",
+      "shares": 11.142411920399962,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380727",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
+        "side": "yes",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.03
+      }
+    },
+    {
+      "pair_id": "polymarket:5380737__kalshi:KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
+      "frage": "[polymarket] T.J. Hockenson: 2+ Touchdowns  <->  [kalshi] T.J. Hockenson: 2+ touchdowns",
+      "shares": 10.840447263147624,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380737",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
+        "side": "yes",
+        "einstandskurs": 0.05,
+        "letzter_kurs": 0.05,
+        "fee_gezahlt": 0.04
+      }
+    },
+    {
+      "pair_id": "polymarket:5380714__kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
+      "frage": "[polymarket] Chris Olave: 2+ Touchdowns  <->  [kalshi] Chris Olave: 2+ touchdowns",
+      "shares": 10.640500343103618,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380714",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
+        "side": "yes",
+        "einstandskurs": 0.06,
+        "letzter_kurs": 0.06,
+        "fee_gezahlt": 0.05
+      }
+    },
+    {
+      "pair_id": "polymarket:5380741__kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
+      "frage": "[polymarket] Tyler Shough: 2+ Touchdowns  <->  [kalshi] Tyler Shough: 2+ touchdowns",
+      "shares": 10.640500343103618,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380741",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
+        "side": "yes",
+        "einstandskurs": 0.06,
+        "letzter_kurs": 0.06,
+        "fee_gezahlt": 0.05
+      }
+    },
+    {
+      "pair_id": "polymarket:5380044__kalshi:KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
+      "frage": "[polymarket] Alvin Kamara: 2+ Touchdowns  <->  [kalshi] Alvin Kamara: 2+ touchdowns",
+      "shares": 10.389544554455446,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5380044",
+        "side": "no",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
+        "side": "yes",
+        "einstandskurs": 0.07,
+        "letzter_kurs": 0.07,
+        "fee_gezahlt": 0.05
+      }
+    }
+  ],
+  "started": "2026-10-07T17:30:18.239410+02:00"
 }
