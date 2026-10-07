@@ -214,8 +214,18 @@ def _non_numeric(tokens):
     return {t for t in tokens if not t.isdigit()}
 
 
-_TRAILING_SUBJECT_RE = re.compile(r"-\s*([A-Za-z][A-Za-z.'\s]{2,40})$")
-_LEADING_SUBJECT_RE = re.compile(r"\bwill\s+([A-Za-z][A-Za-z.'\s]{2,40}?)\s+(?:win|be)\b", re.IGNORECASE)
+# HOTFIX (Live-Vorfall): [A-Za-z] erfasste KEINE akzentuierten Namen
+# ("Éric Zemmour", "Luiz Inácio Lula da Silva") - für diese lieferte
+# _extract_subject bisher None, wodurch _conflicting_subjects komplett
+# wirkungslos blieb und z.B. "Will Éric Zemmour win the French election?"
+# gegen "Who will win the French election? - Marine Le Pen" (ANDERER
+# Kandidat, dieselbe Wahl) durchgelassen wurde. Zeichenklasse um die
+# gängigen lateinischen Akzent-Bereiche erweitert (Latin-1 Supplement +
+# Latin Extended-A/B) statt pauschal \w, um Satzzeichen/Ziffern weiter
+# auszuschließen.
+_NAME_CHARS = r"A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ"
+_TRAILING_SUBJECT_RE = re.compile(r"-\s*([" + _NAME_CHARS + r"][" + _NAME_CHARS + r".'\s]{2,40})$")
+_LEADING_SUBJECT_RE = re.compile(r"\bwill\s+([" + _NAME_CHARS + r"][" + _NAME_CHARS + r".'\s]{2,40}?)\s+(?:win|be)\b", re.IGNORECASE)
 _GENERIC_SUBJECTS = {"democratic", "republican", "democrat", "yes", "no"}
 
 
@@ -223,13 +233,15 @@ def _extract_subject(question):
     """Versucht, das konkrete Subjekt einer Frage zu extrahieren - entweder
     als "- Name"-Suffix (gängiges Format für Mehrfachauswahl-Märkte, siehe
     platforms/predictit.py normalize_contract) oder als "Will <Name> win/be"-
-    Konstruktion. None, wenn kein Muster passt."""
+    Konstruktion. None, wenn kein Muster passt. Akzente werden entfernt
+    (_strip_accents, wie im Tokenizer), damit z.B. "Inácio" und "Inacio"
+    beim Substring-Vergleich in _conflicting_subjects als gleich gelten."""
     m = _TRAILING_SUBJECT_RE.search(question)
     if m:
-        return m.group(1).strip().lower()
+        return _strip_accents(m.group(1).strip().lower())
     m = _LEADING_SUBJECT_RE.search(question)
     if m:
-        return m.group(1).strip().lower()
+        return _strip_accents(m.group(1).strip().lower())
     return None
 
 
@@ -246,7 +258,8 @@ def _conflicting_subjects(question_a, question_b):
         return False
     if subj_a in _GENERIC_SUBJECTS or subj_b in _GENERIC_SUBJECTS:
         return False
-    if subj_a in question_b.lower() or subj_b in question_a.lower():
+    text_b, text_a = _strip_accents(question_b.lower()), _strip_accents(question_a.lower())
+    if subj_a in text_b or subj_b in text_a:
         return False
     return True
 
@@ -355,6 +368,49 @@ def _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b):
     return other_full_tokens.isdisjoint(team1) and other_full_tokens.isdisjoint(team2)
 
 
+# Fünfter harter Gegenbeweis (Live-Vorfall, siehe Modul-Docstring):
+# "Team A vs Team B" ist bei Sportmärkten KEINE eindeutige Marktidentität -
+# zum selben Spiel existieren oft viele verschiedene Wett-ARTEN mit
+# unterschiedlichen Auflösungskriterien (Gesamtsieger, Sieger einer
+# Halbzeit/eines Innings, Handicap/Spread, exaktes Endergebnis, wer zuerst
+# trifft, Verlängerung ja/nein, ...) - Yes auf "Team A gewinnt das 7. Inning"
+# + No auf "Team A gewinnt das Spiel" ist KEINE Arbitrage, auch wenn beide
+# dasselbe Spiel/dieselben Teams nennen. _conflicting_matchup prüft nur die
+# TEAMS, nicht die WETTART - dieser Gegenbeweis schließt die Lücke.
+# Reihenfolge wichtig (erste passende Phrase gewinnt) - spezifischere
+# Mehrwort-Phrasen vor generischen Einzelwörtern. Einzelwörter mit \b
+# (Wortgrenze), um z.B. "set" nicht in "upset"/"asset" zu matchen.
+_BET_ASPECT_PATTERNS = [
+    (re.compile(r"extra innings|\bovertime\b|go to overtime"), "extra_innings_or_overtime"),
+    (re.compile(r"both teams to score|\bbtts\b"), "btts"),
+    (re.compile(r"exact score|correct score"), "exact_score"),
+    (re.compile(r"to score first|score first|first to score"), "first_scorer"),
+    (re.compile(r"clean sheet"), "clean_sheet"),
+    (re.compile(r"tied after|draw after"), "tied_segment"),
+    (re.compile(r"by more than|\bhandicap\b|\bspread\b"), "handicap"),
+    (re.compile(r"\bover\b|\bunder\b|total points|total goals"), "totals"),
+    (re.compile(r"1st half|2nd half|first half|second half|halftime|half time"), "segment"),
+    (re.compile(r"\bquarter\b|\bperiod\b|\binning\b|\bset\b|\bround\b"), "segment"),
+]
+
+
+def _bet_aspect(question_lower):
+    for pattern, canon in _BET_ASPECT_PATTERNS:
+        if pattern.search(question_lower):
+            return canon
+    return "winner"  # keine Sub-Segment-/Sonder-Wettart erkannt - Standard-Sieger-Frage
+
+
+def _conflicting_bet_aspect(question_a, question_b):
+    """Nur angewendet, wenn mindestens eine Seite ein "Team A vs Team B"-
+    Sportmuster zeigt (siehe _extract_matchup_teams) - sonst zu riskant für
+    Nicht-Sport-Fragen, in denen dieselben Wörter (z.B. "round" in "advance
+    to the second round of the election") etwas völlig anderes bedeuten."""
+    if _extract_matchup_teams(question_a) is None and _extract_matchup_teams(question_b) is None:
+        return False
+    return _bet_aspect(question_a) != _bet_aspect(question_b)
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
                      embedding_score=None):
     if (
@@ -363,6 +419,7 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
         or _conflicting_subjects(question_a, question_b)
         or _conflicting_race_type(question_a, question_b)
         or _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b)
+        or _conflicting_bet_aspect(question_a, question_b)
     ):
         return 0.0
     # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer
