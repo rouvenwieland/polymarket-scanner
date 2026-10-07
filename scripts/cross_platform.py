@@ -90,13 +90,24 @@ _PERCENT_RE = re.compile(r"\b\d{1,3}%")
 
 SIMILARITY_THRESHOLD = 0.55
 MAX_DAYS_APART = 5
-# Kalibriert gegen echte Produktionsdaten (siehe embeddings.py/Modul-
-# Docstring): echte Matches lagen bei 0.857-0.964 Kosinus-Ähnlichkeit. Der
-# Mindestwert liegt bewusst hoch, da reine Embedding-Ähnlichkeit allein
-# Detail-Konflikte (Jahr, Bezirk, ...) nicht erkennt - die harten
-# Gegenbeweise (_conflicting_*) fangen das weiterhin ab, aber ein
-# niedrigerer Schwellenwert hätte unnötig viele riskante Kandidaten erzeugt.
-EMBEDDING_THRESHOLD = 0.86
+# HOTFIX (Live-Vorfall nach Embedding-Einführung): 0.86 erwies sich im
+# Produktionslauf als VIEL zu niedrig - die Kalibrierung vorher stützte sich
+# nur auf eine Handvoll händisch ausgewählter Beispiele, nicht auf echte
+# Marktdaten in der Breite. Reale Folge: Fragen mit rein STRUKTURELL
+# ähnlichem Satzbau, aber völlig anderem Inhalt, bekamen hohe Kosinus-
+# Ähnlichkeit zugewiesen - z.B. "Will New York City FC win on 2026-10-10?"
+# (Sport) <-> "Which party will win the 2026 election for governor...?"
+# (Politik), oder generische Markttitel wie "Both Teams To Score" (ohne
+# Team-Namen) <-> JEDE beliebige Polymarket-BTTS-Frage, unabhängig vom
+# tatsächlichen Spiel. Exakt das Problem, für das der frühere Fuzzy-Ratio-
+# Score (zeichenbasiert) schon einmal entfernt wurde ("Will X happen in
+# 2026?"-Satzschablone) - Embeddings reproduzieren dasselbe Muster auf
+# semantischer statt zeichenbasierter Ebene. Alle drei Cross-Platform-Fonds
+# kauften binnen EINES Laufs 15/15 Fehl-Positionen auf dieser Basis.
+# Schwelle daher auf > 1.0 (unerreichbar) gesetzt - deaktiviert den
+# Embedding-Signalpfad vollständig, bis eine Neukalibrierung gegen echte
+# Live-Daten (nicht nur Einzelbeispiele) eine sicherere Schwelle liefert.
+EMBEDDING_THRESHOLD = 1.01
 
 
 def _stem(token):
@@ -370,14 +381,15 @@ def find_matches(markets_a, markets_b, threshold=SIMILARITY_THRESHOLD, max_days=
         for j in candidate_idxs:
             if not _dates_close(date_a, dates_b[j], max_days):
                 continue
-            if not vec_a_computed:
-                vec_a = _get_embedding(ma["question"])
-                vec_a_computed = True
             embedding_score = None
-            if vec_a is not None:
-                vec_b = _get_embedding(markets_b[j]["question"])
-                if vec_b is not None:
-                    embedding_score = embeddings.cosine_sim(vec_a, vec_b)
+            if EMBEDDING_THRESHOLD <= 1.0:  # Signal aktuell deaktiviert (siehe Hotfix oben) - keine Berechnung verschwenden
+                if not vec_a_computed:
+                    vec_a = _get_embedding(ma["question"])
+                    vec_a_computed = True
+                if vec_a is not None:
+                    vec_b = _get_embedding(markets_b[j]["question"])
+                    if vec_b is not None:
+                        embedding_score = embeddings.cosine_sim(vec_a, vec_b)
             score = _combined_score(
                 title_toks_a, full_toks_a, question_a,
                 title_tokens_b[j], full_tokens_b[j], questions_b[j],
