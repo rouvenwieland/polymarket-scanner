@@ -227,6 +227,15 @@ _NAME_CHARS = r"A-Za-zÀ-ÖØ-öø-ÿĀ-ɏ"
 _TRAILING_SUBJECT_RE = re.compile(r"-\s*([" + _NAME_CHARS + r"][" + _NAME_CHARS + r".'\s]{2,40})$")
 _LEADING_SUBJECT_RE = re.compile(r"\bwill\s+([" + _NAME_CHARS + r"][" + _NAME_CHARS + r".'\s]{2,40}?)\s+(?:win|be)\b", re.IGNORECASE)
 _GENERIC_SUBJECTS = {"democratic", "republican", "democrat", "yes", "no"}
+# Live-Vorfall: reine Parteibezeichnungen als Plural/Kurzform ebenfalls
+# erfassen, damit z.B. "Will Republicans win X?" (Plural) und "- Republican"
+# (Singular aus PredictIts Contract-Namen) weiterhin als dasselbe Subjekt
+# gelten (siehe _is_party_label unten).
+_PARTY_LABELS = {"democratic", "republican", "democrat", "democrats", "republicans", "gop"}
+
+
+def _is_party_label(subj):
+    return subj in _PARTY_LABELS
 
 
 def _extract_subject(question):
@@ -256,8 +265,17 @@ def _conflicting_subjects(question_a, question_b):
     subj_b = _extract_subject(question_b)
     if not subj_a or not subj_b or subj_a == subj_b:
         return False
-    if subj_a in _GENERIC_SUBJECTS or subj_b in _GENERIC_SUBJECTS:
-        return False
+    party_a, party_b = _is_party_label(subj_a), _is_party_label(subj_b)
+    if party_a and party_b:
+        return False  # z.B. "Republicans" (Plural, Leading-Pattern) vs. "- Republican" (PredictIt-Contract)
+    if (subj_a in _GENERIC_SUBJECTS or subj_b in _GENERIC_SUBJECTS) and not (party_a != party_b):
+        return False  # "yes"/"no" o.ä. - weiterhin wie bisher durchlassen, kein belastbares Signal
+    # HOTFIX (Live-Vorfall): GENAU EINE Seite ist nur eine Parteibezeichnung,
+    # die andere ein konkreter Name (z.B. "Ivanka Trump", "Thomas Massie",
+    # "John N. Kennedy" jeweils fälschlich gegen "- Democratic" gematcht,
+    # obwohl die Partei-Zugehörigkeit nirgends geprüft wird) - NICHT mehr
+    # automatisch gleichsetzen, sondern normal über die Substring-Prüfung
+    # unten weiterprüfen.
     text_b, text_a = _strip_accents(question_b.lower()), _strip_accents(question_a.lower())
     if subj_a in text_b or subj_b in text_a:
         return False
@@ -313,6 +331,19 @@ _THRESHOLD_RE = re.compile(
 )
 
 
+_SEAT_NUMBER_RE = re.compile(r"\b\d{1,3}\b")  # 4-stellige Jahreszahlen fallen durch \b auf beiden Seiten raus
+
+
+def _seat_numbers(lower_text):
+    """Alle 1-3-stelligen Zahlen in einer Sitzzahl-Schwellenwert-Frage - nur
+    extrahiert, wenn "seat(s)" überhaupt vorkommt, um nicht versehentlich
+    unrelated Zahlen (Prozent, Distriktcodes - die haben eigene Prüfungen)
+    einzubeziehen."""
+    if "seat" not in lower_text:
+        return set()
+    return set(_SEAT_NUMBER_RE.findall(lower_text))
+
+
 def _conflicting_race_type(question_a, question_b):
     """Dritter harter Gegenbeweis: "Senat" vs. "Governor" vs. "House" etc. im
     selben Bundesstaat sind komplett verschiedene Rennen - teilen sich aber
@@ -328,10 +359,22 @@ def _conflicting_race_type(question_a, question_b):
         return True
     is_vote_count_a = any(w in lower_a for w in _VOTE_COUNT_WORDS) or bool(_THRESHOLD_RE.search(lower_a))
     is_vote_count_b = any(w in lower_b for w in _VOTE_COUNT_WORDS) or bool(_THRESHOLD_RE.search(lower_b))
-    return is_vote_count_a != is_vote_count_b
+    if is_vote_count_a != is_vote_count_b:
+        return True
+    # Live-Vorfall: beide Seiten als "Sitzzahl-Schwelle" erkannt reicht nicht
+    # - "exactly 54 Senate seats" wurde gegen "57 or more Senate seats"
+    # gematcht (beide Kategorie "vote count", aber unterschiedliche Zahl).
+    if is_vote_count_a and is_vote_count_b:
+        nums_a, nums_b = _seat_numbers(lower_a), _seat_numbers(lower_b)
+        if nums_a and nums_b and nums_a.isdisjoint(nums_b):
+            return True
+    return False
 
 
-_MATCHUP_RE = re.compile(r"^(.+?)\s+vs\.?\s+(.+?)(?:\s*[:\-]|$)")
+# Team-Namen auf höchstens 4 Wörter je Seite begrenzt (statt unbegrenztem
+# .+?) - sonst kann "vs" mitten in einem Satz ("X to win 7th inning vs Y")
+# den gesamten vorausgehenden Satzteil fälschlich als "Team 1" einfangen.
+_MATCHUP_RE = re.compile(r"^((?:\S+\s+){0,3}\S+)\s+vs\.?\s+((?:\S+\s+){0,3}\S+?)(?:\s*[:\-]|$)")
 
 
 def _extract_matchup_teams(question):
