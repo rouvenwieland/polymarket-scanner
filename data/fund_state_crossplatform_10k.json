@@ -20,7 +20,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NODVELE14-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.03
       }
     },
@@ -43,7 +43,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.11,
+        "letzter_kurs": 0.1,
         "fee_gezahlt": 0.03
       }
     },
@@ -66,7 +66,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-MINKMURRAY1-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.03,
+        "letzter_kurs": 0.02,
         "fee_gezahlt": 0.03
       }
     },
@@ -112,7 +112,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.03,
+        "letzter_kurs": 0.02,
         "fee_gezahlt": 0.03
       }
     },
@@ -158,7 +158,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
         "side": "yes",
         "einstandskurs": 0.05,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.04
       }
     },
@@ -181,7 +181,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.07,
+        "letzter_kurs": 0.06,
         "fee_gezahlt": 0.05
       }
     },
@@ -204,7 +204,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.05
       }
     },
@@ -227,7 +227,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
         "side": "yes",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.1,
+        "letzter_kurs": 0.09,
         "fee_gezahlt": 0.05
       }
     },
@@ -288,7 +288,7 @@
         "market_id": "5152046",
         "side": "yes",
         "einstandskurs": 0.5,
-        "letzter_kurs": 0.505,
+        "letzter_kurs": 0.51,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -311,7 +311,7 @@
         "market_id": "5297567",
         "side": "yes",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.49,
+        "letzter_kurs": 0.495,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
