@@ -1,5 +1,5 @@
 {
-  "cash": 9.472377740703925,
+  "cash": 13.301599505796627,
   "positions": [
     {
       "market_id": "4970693",
@@ -79,17 +79,6 @@
       "eingestiegen": "2026-10-06T21:40:38.249377+02:00"
     },
     {
-      "market_id": "5363418",
-      "frage": "Cleveland Guardians vs. Chicago White Sox: 9th inning tied?",
-      "slug": "mlb-cle-cws-2026-10-07-inning-9-winner-draw",
-      "shares": 3.8292217650927025,
-      "einstandskurs": 0.8224096579851476,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 8.688,
-      "end_date": "2026-10-07T20:00:00Z",
-      "eingestiegen": "2026-10-07T04:35:19.271956+02:00"
-    },
-    {
       "market_id": "4586860",
       "frage": "Will Munchkin win the VALORANT Champions 2026 MVP?",
       "slug": "will-munchkin-win-the-valorant-champions-2026-mvp",
@@ -106,7 +95,7 @@
       "slug": "wti-closes-above-88-on-october-8-2026",
       "shares": 10.458205835792326,
       "einstandskurs": 0.905736403493371,
-      "letzter_kurs": 0.905736403493371,
+      "letzter_kurs": 1.0,
       "liquiditaet": 23.944,
       "end_date": "2026-10-08T22:00:00Z",
       "eingestiegen": "2026-10-07T23:45:16.650111+02:00"

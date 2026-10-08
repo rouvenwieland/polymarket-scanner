@@ -1,17 +1,5 @@
 {
-  "cash": 130.11274451445513,
-  "positions": [
-    {
-      "market_id": "5404216",
-      "frage": "WTI Crude Oil (WTI) closes above $88 on October 8?",
-      "slug": "wti-closes-above-88-on-october-8-2026",
-      "shares": 2.759081612076168,
-      "einstandskurs": 0.8678249999999998,
-      "letzter_kurs": 0.8678249999999998,
-      "liquiditaet": 23.944,
-      "end_date": "2026-10-08T22:00:00Z",
-      "eingestiegen": "2026-10-07T23:45:16.650111+02:00"
-    }
-  ],
+  "cash": 132.8710725916539,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

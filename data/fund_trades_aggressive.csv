@@ -39,3 +39,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-07T04:35:19.271956+02:00,KAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,4.6999,0.67,-3.1492,3.1492,"Spread 33.50%, Liquiditaet 62 USD"
 2026-10-07T23:45:16.650111+02:00,AUSZAHLUNG,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,15.7956,1.0,15.7956,18.9448,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-07T23:45:16.650111+02:00,KAUF,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,10.4582,0.9057,-9.4724,9.4724,"Spread 14.50%, Liquiditaet 24 USD"
+2026-10-08T08:51:25.797917+02:00,AUSZAHLUNG,5363418,Cleveland Guardians vs. Chicago White Sox: 9th inning tied?,3.8292,1.0,3.8292,13.3016,Markt als geschlossen/aufgelöst markiert
