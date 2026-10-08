@@ -1,5 +1,5 @@
 {
-  "cash": 103.85556879714926,
+  "cash": 122.439467207223,
   "positions": [
     {
       "market_id": "5239412",
@@ -43,83 +43,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 99.4296,
       "end_date": "2026-10-17T11:00:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5414848",
-      "frage": "Exact Score: Albirex Niigata 2 - 3 Sagan Tosu?",
-      "slug": "ja2-alb-sag-2026-10-21-exact-score-2-3",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 17.4624,
-      "end_date": "2026-10-21T10:00:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5401870",
-      "frage": "Exact Score: Northampton Town FC 3 - 2 Tranmere Rovers FC?",
-      "slug": "el2-nth-tra-2026-10-20-exact-score-3-2",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.58,
-      "end_date": "2026-10-20T18:45:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5402010",
-      "frage": "Exact Score: Rotherham United FC 5 - 0 Newport County AFC?",
-      "slug": "el2-rot-new-2026-10-20-exact-score-5-0",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.58,
-      "end_date": "2026-10-20T18:45:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5411965",
-      "frage": "Exact Score: Kyōto Sanga FC 5 - 4 Kashima Antlers?",
-      "slug": "jap-kyo-kas-2026-10-21-exact-score-5-4",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 15.3006,
-      "end_date": "2026-10-21T10:00:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5410970",
-      "frage": "Exact Score: Londrina EC 0 - 2 Cuiabá EC?",
-      "slug": "bra2-lon-cui-2026-10-20-exact-score-0-2",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.5106,
-      "end_date": "2026-10-20T22:30:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5412090",
-      "frage": "Exact Score: V-Varen Nagasaki 4 - 1 Sanfrecce Hiroshima?",
-      "slug": "jap-vva-san-2026-10-21-exact-score-4-1",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.5106,
-      "end_date": "2026-10-21T10:00:00Z",
-      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5412247",
-      "frage": "Exact Score: Fagiano Okayama 5 - 4 FC Mito Holly Hock?",
-      "slug": "jap-fag-hol-2026-10-21-exact-score-5-4",
-      "shares": 2.654842630010537,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.5104,
-      "end_date": "2026-10-21T10:00:00Z",
       "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
     }
   ],
