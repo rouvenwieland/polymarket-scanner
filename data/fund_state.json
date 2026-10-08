@@ -1,17 +1,5 @@
 {
-  "cash": 121.9650925916539,
-  "positions": [
-    {
-      "market_id": "4965240",
-      "frage": "Al Fateh Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score in Second Half",
-      "slug": "spl-fat-ahl-2026-10-09-btts-second-half",
-      "shares": 13.43100985221675,
-      "einstandskurs": 0.8119999999999999,
-      "letzter_kurs": 0.8119999999999999,
-      "liquiditaet": 109.0598,
-      "end_date": "2026-10-09T14:55:00Z",
-      "eingestiegen": "2026-10-08T22:41:55.192375+02:00"
-    }
-  ],
+  "cash": 135.27227956213153,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
