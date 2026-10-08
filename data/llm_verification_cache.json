@@ -3673,5 +3673,3680 @@
     "checked_at": "2026-10-07T15:57:12.215110+00:00",
     "frage_a": "Will Nevada be the closest Governor's race in 2026?",
     "frage_b": "Which party will win the 2026 election for governor of Nevada? - Republican"
+  },
+  "kalshi:KXSILVERH-26OCT0721-T59.599__polymarket:5404160": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Meta (META) close above $760 on October 8?",
+    "frage_b": "Will the silver close price be above 59.599 USD/ounce on October 07, 2026 at 9:00 PM ET?"
+  },
+  "kalshi:KXSILVERH-26OCT0721-T59.599__polymarket:5404157": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Meta (META) close above $740 on October 8?",
+    "frage_b": "Will the silver close price be above 59.599 USD/ounce on October 07, 2026 at 9:00 PM ET?"
+  },
+  "kalshi:KXSILVERH-26OCT0721-T59.599__polymarket:5404159": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Meta (META) close above $750 on October 8?",
+    "frage_b": "Will the silver close price be above 59.599 USD/ounce on October 07, 2026 at 9:00 PM ET?"
+  },
+  "kalshi:KXSILVERH-26OCT0721-T59.599__polymarket:5404156": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Meta (META) close above $730 on October 8?",
+    "frage_b": "Will the silver close price be above 59.599 USD/ounce on October 07, 2026 at 9:00 PM ET?"
+  },
+  "polymarket:5418267__sxbet:0xf9cf53c61fdda42575900e5101e6dcd3172c3245c6f5e3dbc2f4d08bdaf63fe3": {
+    "same_event": false,
+    "reason": "different propositions (player TD vs game winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Jalon Daniels: Team First TD (Tampa Bay Buccaneers)",
+    "frage_b": "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"
+  },
+  "kalshi:KXSILVERH-26OCT0721-T59.599__polymarket:5404155": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Meta (META) close above $720 on October 8?",
+    "frage_b": "Will the silver close price be above 59.599 USD/ounce on October 07, 2026 at 9:00 PM ET?"
+  },
+  "polymarket:5036075__sxbet:0x04daa47147eddfcaf7f422324793b0f1fb8b66318898fc2fa656e33f7e7bf795": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Chicago Fire FC vs. New York City FC end in a draw?",
+    "frage_b": "Chicago Fire vs FC New York - wer gewinnt?"
+  },
+  "polymarket:5265849__sxbet:0x0178ddc38c84145afdabf434d7437c0d1df5a92f8243705226b987fa73ef1533": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Mjallby AIF vs. Degerfors IF end in a draw?",
+    "frage_b": "Mjallby AIF vs Degerfors IF - wer gewinnt?"
+  },
+  "polymarket:5411519__sxbet:0xc02204758bf7e76936463d8d7b01fc2e03218ac83cdf780bb486b10bccbc5d98": {
+    "same_event": false,
+    "reason": "draw vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Turun Palloseura vs. FF Jaro end in a draw?",
+    "frage_b": "Turun Palloseura TPS vs FF Jaro - wer gewinnt?"
+  },
+  "polymarket:5043166__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043185__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043189__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043177__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043162__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043157__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043161__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043176__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043156__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043172__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043181__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043154__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFLTD-26OCT11HOUTEN-HOUFMOREAU87-2__polymarket:5380539": {
+    "same_event": false,
+    "reason": "identical, not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Foster Moreau: 2+ Touchdowns",
+    "frage_b": "Foster Moreau: 2+ touchdowns"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUCSTOVER8__polymarket:5380519": {
+    "same_event": false,
+    "reason": "anytime TD vs first TD",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cade Stover: Anytime Touchdown",
+    "frage_b": "Cade Stover: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17__polymarket:5380542": {
+    "same_event": false,
+    "reason": "anytime TD vs first TD",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Jared Wayne: Anytime Touchdown",
+    "frage_b": "Jared Wayne: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUCSTOVER8__polymarket:5380583": {
+    "same_event": false,
+    "reason": "team first TD vs first TD",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cade Stover: Team First TD (Houston Texans)",
+    "frage_b": "Cade Stover: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17__polymarket:5380596": {
+    "same_event": false,
+    "reason": "team first TD vs first TD",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Jared Wayne: Team First TD (Houston Texans)",
+    "frage_b": "Jared Wayne: 1st Touchdown"
+  },
+  "polymarket:5043155__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043159__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUCSTOVER8__polymarket:5408397": {
+    "same_event": false,
+    "reason": "same phrasing, not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Cade Stover score the first touchdown?",
+    "frage_b": "Cade Stover: 1st Touchdown"
+  },
+  "polymarket:5043158__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUCSTOVER8__polymarket:5309396": {
+    "same_event": false,
+    "reason": "different players",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Cade Otton score the first touchdown?",
+    "frage_b": "Cade Stover: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87__polymarket:5380538": {
+    "same_event": false,
+    "reason": "different TD type (anytime vs first)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Foster Moreau: Anytime Touchdown",
+    "frage_b": "Foster Moreau: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87__polymarket:5380594": {
+    "same_event": false,
+    "reason": "different condition (team first TD vs overall first TD)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Foster Moreau: Team First TD (Houston Texans)",
+    "frage_b": "Foster Moreau: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17__polymarket:5408416": {
+    "same_event": true,
+    "reason": "same event (Jared Wayne first TD)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Jared Wayne score the first touchdown?",
+    "frage_b": "Jared Wayne: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87__polymarket:5408412": {
+    "same_event": true,
+    "reason": "same event (Foster Moreau first TD)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Foster Moreau score the first touchdown?",
+    "frage_b": "Foster Moreau: 1st Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87__polymarket:5414081": {
+    "same_event": false,
+    "reason": "different players",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Montorie Foster Jr. score the first touchdown?",
+    "frage_b": "Foster Moreau: 1st Touchdown"
+  },
+  "polymarket:5043169__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043175__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043187__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17__polymarket:5414114": {
+    "same_event": false,
+    "reason": "different players",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Jared Goff score the first touchdown?",
+    "frage_b": "Jared Wayne: 1st Touchdown"
+  },
+  "polymarket:5043170__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043180__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043179__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFLRSHYDS-26OCT11HOUTEN-HOUCSTROUD7-25__polymarket:5380518": {
+    "same_event": false,
+    "reason": "different stat (TDs vs rushing yards)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "C.J. Stroud: 2+ Touchdowns",
+    "frage_b": "C.J. Stroud: 25+ rushing yards"
+  },
+  "kalshi:KXNFLRSHYDS-26OCT11HOUTEN-TENCWARD1-40__polymarket:5380523": {
+    "same_event": false,
+    "reason": "different stat (TDs vs rushing yards)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cam Ward: 2+ Touchdowns",
+    "frage_b": "Cam Ward: 40+ rushing yards"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:4986410": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Amed Sportif to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5043194": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Tigre to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5048866": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "IK Start to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5137044": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CD Ñublense to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5255460": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sporting Hasselt to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5286399": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "IK Brage to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5291328": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Odds BK to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5291422": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Stroemmen IF to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5306591": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RFC Seraing to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5338324": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "COD Meknès to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5338367": {
+    "same_event": false,
+    "reason": "Question A covers only one team winning 2nd half; Question B covers draw; missing opponent win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS FAR to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5203626": {
+    "same_event": false,
+    "reason": "Question A is about scoring first; Question B is about draw in 1st half; not logical opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Athletic Club to score first in the 1st half vs. Rayo Vallecano de Madrid?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205565": {
+    "same_event": false,
+    "reason": "Question A means no goals in 2nd half; Question B means draw; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sunderland AFC vs. Brighton & Hove Albion FC: Neither team to score first in the 2nd half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5230529": {
+    "same_event": false,
+    "reason": "Question A is about scoring first; Question B is about draw in 1st half; not logical opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Como 1907 to score first in the 1st half vs. AS Roma?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5230530": {
+    "same_event": false,
+    "reason": "Question A is about scoring first; Question B is about draw in 1st half; not logical opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS Roma to score first in the 1st half vs. Como 1907?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5231871": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Elche CF to score first in the 1st half vs. RC Celta de Vigo?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5231872": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Celta de Vigo to score first in the 1st half vs. Elche CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233878": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Crystal Palace FC to score first in the 1st half vs. Nottingham Forest FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233880": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Nottingham Forest FC to score first in the 1st half vs. Crystal Palace FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233959": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Hull City AFC to score first in the 1st half vs. Everton FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233960": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Everton FC to score first in the 1st half vs. Hull City AFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233982": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SS Lazio to score first in the 1st half vs. AC Monza?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5233983": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AC Monza to score first in the 1st half vs. SS Lazio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5234005": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Lecce to score first in the 1st half vs. Bologna FC 1909?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5234006": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bologna FC 1909 to score first in the 1st half vs. US Lecce?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5234028": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "OGC Nice to score first in the 1st half vs. RC Strasbourg Alsace?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5234029": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Strasbourg Alsace to score first in the 1st half vs. OGC Nice?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5238560": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first in the 1st half vs. RC Deportivo A Coruña?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5238561": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Deportivo A Coruña to score first in the 1st half vs. Real Sociedad de Fútbol?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241017": {
+    "same_event": false,
+    "reason": "Different propositions: first half first scorer vs halftime tie.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Liverpool FC to score first in the 1st half vs. Manchester City FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241018": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Manchester City FC to score first in the 1st half vs. Liverpool FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241040": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Sassuolo Calcio to score first in the 1st half vs. AC Milan?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241041": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AC Milan to score first in the 1st half vs. US Sassuolo Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241063": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first in the 1st half vs. AJ Auxerre?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5241064": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AJ Auxerre to score first in the 1st half vs. Stade Rennais FC 1901?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5243610": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Betis Balompié to score first in the 1st half vs. CA Osasuna?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5243611": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Osasuna to score first in the 1st half vs. Real Betis Balompié?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247611": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cagliari Calcio to score first in the 1st half vs. Juventus FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247613": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Juventus FC to score first in the 1st half vs. Cagliari Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247717": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Racing Club to score first in the 1st half vs. Valencia CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247718": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Valencia CF to score first in the 1st half vs. Real Racing Club?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247849": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "ES Troyes AC to score first in the 1st half vs. Olympique de Marseille?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5247850": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Olympique de Marseille to score first in the 1st half vs. ES Troyes AC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5292523": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Atalanta BC to score first in the 1st half vs. Venezia FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5292524": {
+    "same_event": false,
+    "reason": "First-half scorer vs. first-half winner are not complementary events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Venezia FC to score first in the 1st half vs. Atalanta BC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299204": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Coventry City FC to score first in the 1st half vs. Newcastle United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299209": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Newcastle United FC to score first in the 1st half vs. Coventry City FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299319": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Torino FC to score first in the 1st half vs. Udinese Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299321": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Udinese Calcio to score first in the 1st half vs. Torino FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299407": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Levante UD to score first in the 1st half vs. Sevilla FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5299408": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sevilla FC to score first in the 1st half vs. Levante UD?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "polymarket:5043188__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score question vs. match winner are unrelated markets.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5203605": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Arsenal FC to score first in the 2nd half vs. Leeds United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5203606": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Leeds United FC to score first in the 2nd half vs. Arsenal FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5203628": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Rayo Vallecano de Madrid to score first in the 2nd half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5203629": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Athletic Club to score first in the 2nd half vs. Rayo Vallecano de Madrid?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5204821": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Genoa CFC to score first in the 2nd half vs. ACF Fiorentina?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5204822": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "ACF Fiorentina to score first in the 2nd half vs. Genoa CFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205477": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Chelsea FC to score first in the 2nd half vs. AFC Bournemouth?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205478": {
+    "same_event": false,
+    "reason": "Scoring first does not determine half winner; both can be true or false together.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AFC Bournemouth to score first in the 2nd half vs. Chelsea FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205500": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Aston Villa FC to score first in the 2nd half vs. Brentford FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205501": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brentford FC to score first in the 2nd half vs. Aston Villa FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205540": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Ipswich Town FC to score first in the 2nd half vs. Fulham FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205541": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Fulham FC to score first in the 2nd half vs. Ipswich Town FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205563": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sunderland AFC to score first in the 2nd half vs. Brighton & Hove Albion FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5205564": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first in the 2nd half vs. Sunderland AFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5206974": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Deportivo Alavés to score first in the 2nd half vs. Club Atlético de Madrid?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5206975": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Club Atlético de Madrid to score first in the 2nd half vs. Deportivo Alavés?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5208417": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Internazionale Milano to score first in the 2nd half vs. Parma Calcio 1913?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5208418": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Parma Calcio 1913 to score first in the 2nd half vs. FC Internazionale Milano?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5208440": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Lille OSC to score first in the 2nd half vs. Le Havre AC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5208441": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Le Havre AC to score first in the 2nd half vs. Lille OSC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5211598": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Manchester United FC to score first in the 2nd half vs. Tottenham Hotspur FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5211599": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Tottenham Hotspur FC to score first in the 2nd half vs. Manchester United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5211621": {
+    "same_event": false,
+    "reason": "Different bet types: 'score first in 2nd half' vs 'neither team wins 2nd half' (2nd half draw). Not opposite outcomes.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Barcelona to score first in the 2nd half vs. Getafe CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5211622": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Getafe CF to score first in the 2nd half vs. FC Barcelona?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215392": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SSC Napoli to score first in the 2nd half vs. Frosinone Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215393": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Frosinone Calcio to score first in the 2nd half vs. SSC Napoli?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215415": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Madrid CF to score first in the 2nd half vs. Villarreal CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215416": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Villarreal CF to score first in the 2nd half vs. Real Madrid CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215438": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first in the 2nd half vs. Le Mans FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215439": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Le Mans FC to score first in the 2nd half vs. Paris Saint-Germain FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215461": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Lorient to score first in the 2nd half vs. Paris FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215462": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Paris FC to score first in the 2nd half vs. FC Lorient?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215481": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Stade Brestois 29 to score first in the 1st half vs. Angers SCO?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215484": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Stade Brestois 29 to score first in the 2nd half vs. Angers SCO?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215485": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Angers SCO to score first in the 2nd half vs. Stade Brestois 29?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215507": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS Monaco FC to score first in the 2nd half vs. Toulouse FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5215508": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Toulouse FC to score first in the 2nd half vs. AS Monaco FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5230532": {
+    "same_event": false,
+    "reason": "\"Neither team wins the half\" is not the exact opposite of a specific team scoring first; it only covers draws, not the case where the other team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Como 1907 to score first in the 2nd half vs. AS Roma?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5230533": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS Roma to score first in the 2nd half vs. Como 1907?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5231874": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Elche CF to score first in the 2nd half vs. RC Celta de Vigo?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5231875": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Celta de Vigo to score first in the 2nd half vs. Elche CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233893": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Crystal Palace FC to score first in the 2nd half vs. Nottingham Forest FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233895": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Nottingham Forest FC to score first in the 2nd half vs. Crystal Palace FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233962": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Hull City AFC to score first in the 2nd half vs. Everton FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233963": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Everton FC to score first in the 2nd half vs. Hull City AFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233985": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SS Lazio to score first in the 2nd half vs. AC Monza?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5233986": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AC Monza to score first in the 2nd half vs. SS Lazio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5234008": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Lecce to score first in the 2nd half vs. Bologna FC 1909?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5234009": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bologna FC 1909 to score first in the 2nd half vs. US Lecce?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5234031": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "OGC Nice to score first in the 2nd half vs. RC Strasbourg Alsace?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5234032": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Strasbourg Alsace to score first in the 2nd half vs. OGC Nice?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5238563": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first in the 2nd half vs. RC Deportivo A Coruña?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5238564": {
+    "same_event": false,
+    "reason": "Scoring first in the 2nd half is not the logical opposite of neither team winning the 2nd half; the latter includes draws and does not specify which team scores first.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RC Deportivo A Coruña to score first in the 2nd half vs. Real Sociedad de Fútbol?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241020": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Liverpool FC to score first in the 2nd half vs. Manchester City FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241021": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Manchester City FC to score first in the 2nd half vs. Liverpool FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241043": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Sassuolo Calcio to score first in the 2nd half vs. AC Milan?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241044": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AC Milan to score first in the 2nd half vs. US Sassuolo Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241066": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first in the 2nd half vs. AJ Auxerre?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5241067": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AJ Auxerre to score first in the 2nd half vs. Stade Rennais FC 1901?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5243613": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Betis Balompié to score first in the 2nd half vs. CA Osasuna?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5243614": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Osasuna to score first in the 2nd half vs. Real Betis Balompié?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247618": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cagliari Calcio to score first in the 2nd half vs. Juventus FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247619": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Juventus FC to score first in the 2nd half vs. Cagliari Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247726": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Racing Club to score first in the 2nd half vs. Valencia CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247729": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Valencia CF to score first in the 2nd half vs. Real Racing Club?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247860": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "ES Troyes AC to score first in the 2nd half vs. Olympique de Marseille?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5247863": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Olympique de Marseille to score first in the 2nd half vs. ES Troyes AC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5292526": {
+    "same_event": false,
+    "reason": "Different events: first scorer in 2nd half vs. draw of 2nd half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Atalanta BC to score first in the 2nd half vs. Venezia FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5292527": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Venezia FC to score first in the 2nd half vs. Atalanta BC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299221": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Coventry City FC to score first in the 2nd half vs. Newcastle United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299224": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Newcastle United FC to score first in the 2nd half vs. Coventry City FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299331": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Torino FC to score first in the 2nd half vs. Udinese Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299332": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Udinese Calcio to score first in the 2nd half vs. Torino FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299410": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Levante UD to score first in the 2nd half vs. Sevilla FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5299411": {
+    "same_event": false,
+    "reason": "Different propositions: first goal in 2nd half vs. no team winning 2nd half; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sevilla FC to score first in the 2nd half vs. Levante UD?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:5043165__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 1 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043168__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043173__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043186__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXWNBATEAMTOTAL-26OCT07NYATL-NY104__polymarket:5362968": {
+    "same_event": false,
+    "reason": "Highest-scoring D/ST vs. total points over line; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the New York Giants D/ST be the highest-scoring D/ST in Week 5 of the 2026-27 NFL season?",
+    "frage_b": "New York over 103.5 points scored"
+  },
+  "kalshi:KXWNBATEAMTOTAL-26OCT07NYATL-NY104__polymarket:5362970": {
+    "same_event": false,
+    "reason": "Highest-scoring D/ST vs. total points over line; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the New York Jets D/ST be the highest-scoring D/ST in Week 5 of the 2026-27 NFL season?",
+    "frage_b": "New York over 103.5 points scored"
+  },
+  "polymarket:5043163__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043160__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs. match winner; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043171__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 2 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043183__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043167__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 1 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043174__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 5 - 0 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043178__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 2 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5043182__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 4 - 3 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362256": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 0 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362257": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 0 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362258": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 1 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5265860": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AIK to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5198583": {
+    "same_event": false,
+    "reason": "identical not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5211618": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Barcelona to score first in the 1st half vs. Getafe CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215435": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first in the 1st half vs. Le Mans FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5235940": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RSC Anderlecht to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5264176": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SpVgg Greuther Fürth to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5239888": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Amed Sportif to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5386615": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sholing FC to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXWNBATEAMTOTAL-26OCT07NYATL-NY104__polymarket:5036271": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will New York Red Bulls win on 2026-10-10?",
+    "frage_b": "New York over 103.5 points scored"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5278679": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "HNK Gorica to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5338537": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "COD Meknès to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:4991173": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CD Cobresal to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5238490": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Norrby IF to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL4Q-26OCT12BUFLAR-TIE__polymarket:5354555": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bills vs. Rams: Highest Scoring Quarter - Q1",
+    "frage_b": "Will neither team win the 4th Quarter?"
+  },
+  "kalshi:KXNFL4Q-26OCT12BUFLAR-TIE__polymarket:5354557": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bills vs. Rams: Highest Scoring Quarter - Q2",
+    "frage_b": "Will neither team win the 4th Quarter?"
+  },
+  "kalshi:KXNFL4Q-26OCT12BUFLAR-TIE__polymarket:5354558": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bills vs. Rams: Highest Scoring Quarter - Q3",
+    "frage_b": "Will neither team win the 4th Quarter?"
+  },
+  "kalshi:KXNFL4Q-26OCT12BUFLAR-TIE__polymarket:5354559": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Bills vs. Rams: Highest Scoring Quarter - Q4",
+    "frage_b": "Will neither team win the 4th Quarter?"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362268": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 2 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362263": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 1 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362264": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 2 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5208414": {
+    "same_event": false,
+    "reason": "not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Internazionale Milano to score first in the 1st half vs. Parma Calcio 1913?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5298751": {
+    "same_event": false,
+    "reason": "IK Start winning 2nd half vs tie; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "IK Start to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:3344233__predictit:8395:33064": {
+    "same_event": false,
+    "reason": "Different states (Wyoming vs Oregon)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Wyoming Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Oregon? - Democratic"
+  },
+  "polymarket:631003__predictit:8395:33063": {
+    "same_event": false,
+    "reason": "Different states",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republicans win the Wyoming Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Oregon? - Republican"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT11CATCAI-CAI__polymarket:3549030": {
+    "same_event": false,
+    "reason": "Different teams",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Independiente Santa Fe win on 2026-08-25?",
+    "frage_b": "Independiente Avellaneda wins"
+  },
+  "kalshi:KXNFLRSHYDS-26OCT11HOUTEN-HOUDMONTGOMERY32-25__polymarket:5380535": {
+    "same_event": false,
+    "reason": "Different prop types (TDs vs rushing yards)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "David Montgomery: 2+ Touchdowns",
+    "frage_b": "David Montgomery: 25+ rushing yards"
+  },
+  "kalshi:KXNFLRSHYDS-26OCT11HOUTEN-TENTSPEARS2-25__polymarket:5380558": {
+    "same_event": false,
+    "reason": "Different prop types (TDs vs rushing yards)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Tyjae Spears: 2+ Touchdowns",
+    "frage_b": "Tyjae Spears: 25+ rushing yards"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362260": {
+    "same_event": false,
+    "reason": "Exact score 1-1 vs Radomiak win; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 1 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215412": {
+    "same_event": false,
+    "reason": "Real Madrid scoring first half vs tie in first half; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Madrid CF to score first in the 1st half vs. Villarreal CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5184036": {
+    "same_event": false,
+    "reason": "AEK winning 2nd half vs tie; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AEK to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CINNE-BTTS__polymarket:5183310": {
+    "same_event": false,
+    "reason": "First-half BTTS vs overall BTTS; different scope",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Cincinnati vs. New England Revolution: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNCAAF2H-26OCT10UGAALA-TIE__polymarket:5338107": {
+    "same_event": false,
+    "reason": "AS FAR winning 2nd half vs tie; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS FAR to win the second half?",
+    "frage_b": "Tie in the 2nd half"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5183130": {
+    "same_event": false,
+    "reason": "First-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Toronto FC vs. Orlando City SC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5183156": {
+    "same_event": false,
+    "reason": "Second-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Toronto FC vs. Orlando City SC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CINNE-BTTS__polymarket:5183336": {
+    "same_event": false,
+    "reason": "Second-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Cincinnati vs. New England Revolution: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5152047": {
+    "same_event": false,
+    "reason": "First-half BTTS vs overall BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5152073": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5188754": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5188780": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5198584": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5198610": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5297577": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5297739": {
+    "same_event": false,
+    "reason": "Half-specific BTTS vs generic BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5203602": {
+    "same_event": false,
+    "reason": "Different propositions (first‑score vs no‑winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Arsenal FC to score first in the 1st half vs. Leeds United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5208437": {
+    "same_event": false,
+    "reason": "Different propositions (first‑score vs no‑winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Lille OSC to score first in the 1st half vs. Le Havre AC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215389": {
+    "same_event": false,
+    "reason": "Different propositions (first‑score vs no‑winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SSC Napoli to score first in the 1st half vs. Frosinone Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132392": {
+    "same_event": false,
+    "reason": "Exact score vs win‑only market",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 5 - 5 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132388": {
+    "same_event": false,
+    "reason": "Exact score vs win‑only market",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 4 - 4 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132364": {
+    "same_event": false,
+    "reason": "Exact score vs win‑only market",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 1 - 2 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5238492": {
+    "same_event": false,
+    "reason": "Win‑second‑half vs no‑winner‑second‑half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Osters IF to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:5043164__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Exact score vs win‑only market",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 0 - 4 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5323905": {
+    "same_event": false,
+    "reason": "Question B lacks half-time specification and teams",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "MŠK Žilina vs. FC DAC 1904 Dunajská Streda: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215504": {
+    "same_event": false,
+    "reason": "Different events: first-half first scorer vs halftime winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AS Monaco FC to score first in the 1st half vs. Toulouse FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5315636": {
+    "same_event": false,
+    "reason": "First half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5315693": {
+    "same_event": false,
+    "reason": "Second half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5323952": {
+    "same_event": false,
+    "reason": "Second half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "MŠK Žilina vs. FC DAC 1904 Dunajská Streda: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132380": {
+    "same_event": false,
+    "reason": "Exact score vs win outcome; not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 3 - 3 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5211595": {
+    "same_event": false,
+    "reason": "First-half first scorer vs halftime winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Manchester United FC to score first in the 1st half vs. Tottenham Hotspur FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5314768": {
+    "same_event": false,
+    "reason": "First half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5314845": {
+    "same_event": false,
+    "reason": "Second half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12VLLALB-ALB__polymarket:5269154": {
+    "same_event": false,
+    "reason": "Halftime lead vs full-time win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Albacete Balompié leading at halftime?",
+    "frage_b": "Albacete wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132362": {
+    "same_event": false,
+    "reason": "Exact score (Lanús 2-0) vs Velez win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 2 - 0 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132365": {
+    "same_event": false,
+    "reason": "Exact score (Lanús 2-1) vs Velez win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 2 - 1 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5183190": {
+    "same_event": false,
+    "reason": "First half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "D.C. United SC vs. New York Red Bulls: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5388444": {
+    "same_event": false,
+    "reason": "First half vs overall match BTTS",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Boston United FC vs. Scunthorpe United FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205474": {
+    "same_event": false,
+    "reason": "First-half first scorer vs halftime winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Chelsea FC to score first in the 1st half vs. AFC Bournemouth?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5388470": {
+    "same_event": false,
+    "reason": "Question A specifies Both Teams to Score in Second Half; Question B is overall Both Teams To Score (any time).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Boston United FC vs. Scunthorpe United FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CLBCLT-BTTS__polymarket:5183007": {
+    "same_event": false,
+    "reason": "Question A is Both Teams to Score in First Half; Question B is overall Both Teams To Score.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Columbus Crew vs. Charlotte FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5235938": {
+    "same_event": false,
+    "reason": "Question A asks if Cercle Brugge wins the second half; Question B asks if neither team wins the second half (draw).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Cercle Brugge to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5183216": {
+    "same_event": false,
+    "reason": "Question A is Both Teams to Score in Second Half; Question B is overall Both Teams To Score.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "D.C. United SC vs. New York Red Bulls: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132429": {
+    "same_event": false,
+    "reason": "Question A asks for exact score 5-2; Question B asks if Newell's Old Boys win (any winning score).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 5 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132369": {
+    "same_event": false,
+    "reason": "Question A asks for exact score 2-2 draw; Question B asks if Vélez Sarsfield wins.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 2 - 2 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205562": {
+    "same_event": false,
+    "reason": "Question A asks if no team scores first in first half (no goals); Question B asks if first half ends in a draw (could be 0-0,1-1,etc).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sunderland AFC vs. Brighton & Hove Albion FC: Neither team to score first in the 1st half?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CLBCLT-BTTS__polymarket:5183036": {
+    "same_event": false,
+    "reason": "Question A is Both Teams to Score in Second Half; Question B is overall Both Teams To Score.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Columbus Crew vs. Charlotte FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132435": {
+    "same_event": false,
+    "reason": "Question A asks for exact score 5-5 draw; Question B asks if Newell's Old Boys win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 5 - 5 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXALLSVENSKANGAME-26OCT12ELFHAL-ELF__polymarket:5363679": {
+    "same_event": false,
+    "reason": "Question A asks if Elfsborg leads at halftime; Question B asks if Elfsborg wins the match.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "IF Elfsborg leading at halftime?",
+    "frage_b": "Elfsborg wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MTLATL-BTTS__polymarket:5183070": {
+    "same_event": false,
+    "reason": "Question A is Both Teams to Score in First Half; Question B is overall Both Teams To Score.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CF Montréal vs. Atlanta United FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5183250": {
+    "same_event": false,
+    "reason": "Question A is Both Teams to Score in First Half; Question B is overall Both Teams To Score.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Inter Miami CF vs. New York City FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132431": {
+    "same_event": false,
+    "reason": "Question A asks for exact score 4-4 draw; Question B asks if Newell's Old Boys win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 4 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132426": {
+    "same_event": false,
+    "reason": "Question A asks for exact score 2-5 (Newell's Old Boys win); Question B asks if Newell's Old Boys win (any winning score).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 5 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CINNE-BTTS__polymarket:5179407": {
+    "same_event": false,
+    "reason": "Question A asks if FC Cincinnati scores first; Question B asks if both teams score at any point.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Cincinnati to score first vs. New England Revolution?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CINNE-BTTS__polymarket:5179408": {
+    "same_event": false,
+    "reason": "Different bet types (first goal scorer vs both teams score)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "New England Revolution to score first vs. FC Cincinnati?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5179545": {
+    "same_event": false,
+    "reason": "Different bet types (first goal scorer vs both teams score)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Toronto FC to score first vs. Orlando City SC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5179546": {
+    "same_event": false,
+    "reason": "Different bet types (first goal scorer vs both teams score)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Orlando City SC to score first vs. Toronto FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5183276": {
+    "same_event": false,
+    "reason": "Different scope (second half vs full match)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Inter Miami CF vs. New York City FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132379": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 2 - 4 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5152046": {
+    "same_event": true,
+    "reason": "Identical question (both teams to score for same match)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MTLATL-BTTS__polymarket:5183096": {
+    "same_event": false,
+    "reason": "Different scope (second half vs full match)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CF Montréal vs. Atlanta United FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132412": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5206972": {
+    "same_event": false,
+    "reason": "Different bet types (first half goal scorer vs neither team wins half)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Club Atlético de Madrid to score first in the 1st half vs. Deportivo Alavés?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132411": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 3 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12OVIEIB-EIB__polymarket:5269026": {
+    "same_event": false,
+    "reason": "Different bet types (halftime lead vs match winner)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SD Eibar leading at halftime?",
+    "frage_b": "Eibar wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408631": {
+    "same_event": false,
+    "reason": "Different participants (Fortnite vs XI Esport)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Fortnite Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408633": {
+    "same_event": false,
+    "reason": "Different participants (Mobile Legends vs XI Esport)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Mobile Legends: Bang Bang Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408634": {
+    "same_event": false,
+    "reason": "Different participants (Rocket League vs XI Esport)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Rocket League Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408636": {
+    "same_event": false,
+    "reason": "Different participants (Honor of Kings vs XI Esport)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Honor of Kings Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408638": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Dota 2 Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408639": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will PUBG Mobile Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408641": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Call of Duty Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408643": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Apex Legends Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3408645": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Rainbow 6 Siege Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532260": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Free Fire Win the 2026 Esports Mobile Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532261": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Brawl Stars Win the 2026 Esports Mobile Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532262": {
+    "same_event": false,
+    "reason": "different subjects",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Identity V Win the 2026 Esports Mobile Game of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132406": {
+    "same_event": false,
+    "reason": "exact score vs generic win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 0 - 3 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132358": {
+    "same_event": false,
+    "reason": "exact score vs generic win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 0 - 1 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132417": {
+    "same_event": false,
+    "reason": "exact score vs generic win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 3 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132422": {
+    "same_event": false,
+    "reason": "exact score vs generic win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 4 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132423": {
+    "same_event": false,
+    "reason": "exact score vs generic win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 3 - 3 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5297567": {
+    "same_event": true,
+    "reason": "identical both teams to score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5188753": {
+    "same_event": false,
+    "reason": "missing match details",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNCAAF2H-26OCT10UGAALA-TIE__polymarket:5227237": {
+    "same_event": false,
+    "reason": "Not exhaustive; opponent could win second half.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Grenoble Foot 38 to win the second half?",
+    "frage_b": "Tie in the 2nd half"
+  },
+  "polymarket:5042923__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "Question asks who wins, not draw vs not draw.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will CA Central Córdoba vs. Estudiantes de La Plata end in a draw?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5323903": {
+    "same_event": false,
+    "reason": "Second lacks match specification.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "MŠK Žilina vs. FC DAC 1904 Dunajská Streda: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5314368": {
+    "same_event": false,
+    "reason": "Second lacks match specification.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Leeds United FC vs. Manchester United FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132357": {
+    "same_event": false,
+    "reason": "Velez winning includes many scores, not just non‑0‑0.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 0 - 0 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5212270": {
+    "same_event": false,
+    "reason": "Not exhaustive; opponent could win second half.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RSC Anderlecht to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5314470": {
+    "same_event": false,
+    "reason": "Second lacks match specification.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Leeds United FC vs. Manchester United FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5057233": {
+    "same_event": false,
+    "reason": "Not exhaustive; opponent could win second half.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Lecce to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205561": {
+    "same_event": false,
+    "reason": "Different propositions (first‑goal vs half‑time tie).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first in the 1st half vs. Sunderland AFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215459": {
+    "same_event": false,
+    "reason": "Different propositions (first‑goal vs half‑time tie).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Paris FC to score first in the 1st half vs. FC Lorient?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132360": {
+    "same_event": false,
+    "reason": "Velez winning includes many scores, not just non‑0‑2.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 0 - 2 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132366": {
+    "same_event": false,
+    "reason": "Not exhaustive; other scores possible.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 3 - 0 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5204819": {
+    "same_event": false,
+    "reason": "Different propositions (first‑goal vs half‑time tie).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "ACF Fiorentina to score first in the 1st half vs. Genoa CFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-MOT__polymarket:5304072": {
+    "same_event": false,
+    "reason": "Different teams/events.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Jeonbuk Hyundai Motors FC win on 2026-10-18?",
+    "frage_b": "Motor Lublin wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532245": {
+    "same_event": false,
+    "reason": "Different entities.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Sjokz Win the 2026 Esports Personality of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430TGSHU-SHU__polymarket:3532206": {
+    "same_event": false,
+    "reason": "Different propositions; second lacks context of what is being won.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Team Spirit Win the 2026 Esports Content Group of the Year Award?",
+    "frage_b": "Spirit HU wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132359": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not logical opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 1 - 0 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5062631": {
+    "same_event": false,
+    "reason": "Three possible outcomes (win, lose, draw); not strict opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "SpVgg Greuther Fürth to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205497": {
+    "same_event": false,
+    "reason": "Scoring first vs. halftime draw; not complementary.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Aston Villa FC to score first in the 1st half vs. Brentford FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205538": {
+    "same_event": false,
+    "reason": "Same as id 3.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Fulham FC to score first in the 1st half vs. Ipswich Town FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532240": {
+    "same_event": false,
+    "reason": "Different award/event; second lacks specificity.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Clix Win the 2026 Esports Personality of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132410": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 0 - 4 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5388443": {
+    "same_event": false,
+    "reason": "Both questions identical; not opposite.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Boston United FC vs. Scunthorpe United FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205498": {
+    "same_event": false,
+    "reason": "Same as id 3.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brentford FC to score first in the 1st half vs. Aston Villa FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362259": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 0 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362261": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 2 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362262": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 0 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362265": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 3 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362267": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 1 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362269": {
+    "same_event": false,
+    "reason": "Exact score vs. win; not opposites.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 3 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362270": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 4 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362273": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 2 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362274": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 3 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362275": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 4 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362276": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 5 - 0 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362279": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 3 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362280": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 4 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362281": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 5 - 1 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362284": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 4 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362285": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 5 - 2 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362287": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 4 - 4 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362288": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 5 - 3 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362290": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: RKS Radomiak Radom 5 - 4 LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12OVIEIB-OVI__polymarket:5117848": {
+    "same_event": false,
+    "reason": "Halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Oviedo leading at halftime?",
+    "frage_b": "Oviedo wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132361": {
+    "same_event": false,
+    "reason": "Exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 1 - 1 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532213": {
+    "same_event": false,
+    "reason": "different teams",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will GodLike Esports Win the 2026 Esports Content Group of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12VLLALB-VLL__polymarket:5117515": {
+    "same_event": false,
+    "reason": "halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Real Valladolid CF leading at halftime?",
+    "frage_b": "Valladolid wins"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205537": {
+    "same_event": false,
+    "reason": "first goal scorer vs halftime draw",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Ipswich Town FC to score first in the 1st half vs. Fulham FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12BURGCF-GCF__polymarket:5315927": {
+    "same_event": false,
+    "reason": "halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Granada CF leading at halftime?",
+    "frage_b": "Granada wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5179499": {
+    "same_event": false,
+    "reason": "first goal scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "D.C. United SC to score first vs. New York Red Bulls?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:5179500": {
+    "same_event": false,
+    "reason": "first goal scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "New York Red Bulls to score first vs. D.C. United SC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCS2GAME-26OCT081430XIEP-XI__polymarket:3532241": {
+    "same_event": false,
+    "reason": "different award vs XI Esport win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Boaster Win the 2026 Esports Personality of the Year Award?",
+    "frage_b": "XI Esport wins"
+  },
+  "polymarket:4641981__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "compound multi-seat vs single Michigan seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Texas and Michigan Senate seats, and Democrats win Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5203625": {
+    "same_event": false,
+    "reason": "first goal scorer in 1st half vs halftime draw",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Rayo Vallecano de Madrid to score first in the 1st half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205560": {
+    "same_event": false,
+    "reason": "first goal scorer in 1st half vs halftime draw",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Sunderland AFC to score first in the 1st half vs. Brighton & Hove Albion FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362293": {
+    "same_event": false,
+    "reason": "first goal scorer vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "RKS Radomiak Radom to score first vs. LKP Motor Lublin?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXEKSTRAKLASAGAME-26OCT12RADMOT-RAD__polymarket:5362294": {
+    "same_event": false,
+    "reason": "first goal scorer vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "LKP Motor Lublin to score first vs. RKS Radomiak Radom?",
+    "frage_b": "Radomiak Radom wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MTLATL-BTTS__polymarket:5179591": {
+    "same_event": false,
+    "reason": "first goal scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CF Montréal to score first vs. Atlanta United FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MTLATL-BTTS__polymarket:5179592": {
+    "same_event": false,
+    "reason": "first goal scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Atlanta United FC to score first vs. CF Montréal?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132403": {
+    "same_event": false,
+    "reason": "exact score subset vs win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 0 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXDIMAYORGAME-26OCT11AMEDIM-AME__polymarket:5088725": {
+    "same_event": false,
+    "reason": "exact score vs win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: América de Cali 0 - 4 Independiente Medellín?",
+    "frage_b": "America Cali wins"
+  },
+  "polymarket:5102846__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "endorsement vs party win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will John Cornyn endorse Ken Paxton in the Texas Senate Election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "polymarket:4443226__predictit:8159:31955": {
+    "same_event": false,
+    "reason": "Senate control vs winning seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party control the Maine Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Republican"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12TENGIR-TEN__polymarket:5366872": {
+    "same_event": false,
+    "reason": "halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CD Tenerife leading at halftime?",
+    "frage_b": "Tenerife wins"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CLBCLT-BTTS__polymarket:5179637": {
+    "same_event": false,
+    "reason": "first scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Columbus Crew to score first vs. Charlotte FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14CLBCLT-BTTS__polymarket:5179638": {
+    "same_event": false,
+    "reason": "first scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Charlotte FC to score first vs. Columbus Crew?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4641985__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "conjunction of three states vs single state",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Texas and Maine Senate seats, and Republicans win Michigan?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-LAN__polymarket:5132351": {
+    "same_event": false,
+    "reason": "halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Lanús leading at halftime?",
+    "frage_b": "Lanus wins"
+  },
+  "polymarket:3516137__predictit:8441:33212": {
+    "same_event": false,
+    "reason": "conjunction of governor & senate vs governor only",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Ohio Governor election and Democrats win the Ohio Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Ohio? - Republican"
+  },
+  "polymarket:3365579__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different states/offices",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Florida gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:5377018__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Latino voters vs party win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win Latino voters in the Texas Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5420675__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "conjunction of three seats vs single seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Michigan, Minnesota, and New Hampshire Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420676__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "conjunction of two seats & Democrat vs single seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Michigan and Minnesota Senate seats, and Democrats win New Hampshire?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420677__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "conjunction of two seats & Democrat vs single seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Michigan and New Hampshire Senate seats, and Democrats win Minnesota?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420678__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "conjunction of one seat & two Democrats vs single seat",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Michigan Senate seat, and Democrats win Minnesota and New Hampshire?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420679__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "frage_a is a conjunction of three conditions; frage_b is only one condition.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Michigan Senate seat, and Republicans win Minnesota and New Hampshire?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420680__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "frage_a requires Democrats win MI & NH and Republicans win MN; frage_b only asks about NH.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Michigan and New Hampshire Senate seats, and Republicans win Minnesota?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420681__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "frage_a requires Democrats win MI & MN and Republicans win NH; frage_b only asks about NH.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Michigan and Minnesota Senate seats, and Republicans win New Hampshire?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "polymarket:5420682__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "frage_a requires Democrats win all three states; frage_b only asks about NH.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Michigan, Minnesota, and New Hampshire Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132407": {
+    "same_event": false,
+    "reason": "frage_a asks for exact score 1-2; frage_b asks for any Newell's Old Boys win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132424": {
+    "same_event": false,
+    "reason": "frage_a asks for exact score 4-2; frage_b asks for any Newell's Old Boys win.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5308248": {
+    "same_event": false,
+    "reason": "frage_a asks US Lecce wins second half; frage_b asks for a tie; opponent win leads to both No.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "US Lecce to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT11CATCAI-CAI__polymarket:5336715": {
+    "same_event": false,
+    "reason": "different teams and dates; not same event.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Independiente Santa Fe win on 2026-10-18?",
+    "frage_b": "Independiente Avellaneda wins"
+  },
+  "polymarket:4882443__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "frage_a about number of Independents in Congress; frageb about Independent winning Nebraska Senate.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will 3 Independents be elected to Congress in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:3343317__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "different states (Idaho vs Nebraska).",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will an Independent Candidate win the 2026 Idaho Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:5336170__predictit:8643:34096": {
+    "same_event": false,
+    "reason": "frage_a is a conjunction of three events; frageb only about Netanyahu.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win Brazil, Benjamin Netanyahu become Israeli PM, and Democrats win the US Senate?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu"
+  },
+  "polymarket:3515994__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "frage_a requires Republicans win both Senate and Governor; frageb only Senate.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans sweep the Michigan Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:4826344__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "different timing: by Nov 2 vs after election.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Republicans flip Democrats for Senate by November 2?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5179453": {
+    "same_event": false,
+    "reason": "frage_a about first goal scorer; frageb about both teams scoring.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Inter Miami CF to score first vs. New York City FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5179454": {
+    "same_event": false,
+    "reason": "same as 13 with teams swapped.",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "New York City FC to score first vs. Inter Miami CF?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4882440__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Different scopes: total Independents vs Nebraska Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will 0 Independents be elected to Congress in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132416": {
+    "same_event": false,
+    "reason": "Exact score vs win condition not opposites",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 4 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132419": {
+    "same_event": false,
+    "reason": "Exact score vs win condition not opposites",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 1 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "polymarket:5336143__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Conjunction vs single Senate control",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flávio Bolsonaro win Brazil, Gadi Eizenkot become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4443225__predictit:8159:31956": {
+    "same_event": false,
+    "reason": "Same direction, not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party control the Maine Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Democratic"
+  },
+  "polymarket:630746__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (KS vs TX)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democrats win the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:2773661__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Different scopes and offices",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win 1 Senate and Governor election in states won by Kamala?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:4964818__predictit:8174:32032": {
+    "same_event": false,
+    "reason": "Different scopes",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans lose any \"Safe Republican\" Senate race?",
+    "frage_b": "Which party will win the 2026 US Senate election in Virginia? - Republican"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215458": {
+    "same_event": false,
+    "reason": "Scoring first vs half-time tie not strict opposites",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Lorient to score first in the 1st half vs. Paris FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "polymarket:5336149__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Conjunction vs single Senate control",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flávio Bolsonaro win Brazil, Benjamin Netanyahu become Israeli PM, and Republicans win the US Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:3365725__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states and offices",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Kansas gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3519892__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes (district vs national)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NV-02 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4882442__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Total Independents vs Nebraska Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will 2 Independents be elected to Congress in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:4558983__predictit:8418:33123": {
+    "same_event": false,
+    "reason": "Different offices (Railroad Commissioner vs governor)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Texas Railroad Commissioner election?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Republican"
+  },
+  "kalshi:KXMLSBTTS-26OCT14TORORL-BTTS__polymarket:5314765": {
+    "same_event": false,
+    "reason": "Identical phrasing, not opposite",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:3399328__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scope: AZ-02 district vs. national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 AZ-02 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3516136__predictit:8441:33212": {
+    "same_event": false,
+    "reason": "Qa asks about both governor and Senate; Qb only governor",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Ohio Governor election and Republicans win the Ohio Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Ohio? - Republican"
+  },
+  "polymarket:5378965__predictit:8396:33065": {
+    "same_event": false,
+    "reason": "Qa about closeness of race; Qb about party winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Kansas be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Republican"
+  },
+  "polymarket:734872__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different locations: Kansas vs. Greenland",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Donald Trump visit Kansas in 2026?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:3809596": {
+    "same_event": false,
+    "reason": "Qa about which team scores first; Qb about both teams scoring",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "D.C. United SC to score first vs. FC Cincinnati?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:666608__predictit:8707:34445": {
+    "same_event": false,
+    "reason": "Different persons: Putin vs. Pope Leo",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Trump meet with Vladimir Putin in 2026?",
+    "frage_b": "Will Trump meet with Pope Leo in 2026?"
+  },
+  "polymarket:5379017__predictit:8416:33119": {
+    "same_event": false,
+    "reason": "Qa about closeness; Qb about party winner",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Georgia be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Georgia? - Republican"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132405": {
+    "same_event": false,
+    "reason": "Qa about exact 2-0 score; Qb about any win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 0 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132414": {
+    "same_event": false,
+    "reason": "Qa about exact 4-0 score; Qb about any win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 0 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "polymarket:3369539__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states and offices: Texas gubernatorial vs. RI primary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Texas gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:734882__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different locations: Montana vs. Greenland",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Donald Trump visit Montana in 2026?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:813506__predictit:8345:32831": {
+    "same_event": false,
+    "reason": "Not strict opposites; both can be false/true together",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Mike Johnson out as Speaker by December 31?",
+    "frage_b": "Will Mike Johnson remain Speaker of the House through the 119th Congress?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14DCUNYRB-BTTS__polymarket:3809595": {
+    "same_event": false,
+    "reason": "Qa about which team scores first; Qb about both teams scoring",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "FC Cincinnati to score first vs. D.C. United SC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5204818": {
+    "same_event": false,
+    "reason": "Qa about first-half first scorer; Qb about neither team winning half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Genoa CFC to score first in the 1st half vs. ACF Fiorentina?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5205475": {
+    "same_event": false,
+    "reason": "Qa about first-half first scorer; Qb about neither team winning half",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "AFC Bournemouth to score first in the 1st half vs. Chelsea FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5287212": {
+    "same_event": false,
+    "reason": "Different markets: first scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "New York City FC to score first vs. Los Angeles FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5287213": {
+    "same_event": false,
+    "reason": "Different markets: first scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Los Angeles FC to score first vs. New York City FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4063890__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "County win vs statewide Senate win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republicans win Oakland County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:4641983__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Compound condition vs single state Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Texas Senate seat, and Democrats win Michigan and Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:1395452__predictit:8856:35171": {
+    "same_event": false,
+    "reason": "Different vote margin ranges (12-14% vs 9-12%)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party win the popular vote in the 2026 U.S. House of Representatives midterm elections by between 12% and 14%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Democrats 9-12%"
+  },
+  "polymarket:3408537__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District-specific vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-27 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXDIMAYORGAME-26OCT11AMEDIM-AME__polymarket:5088736": {
+    "same_event": false,
+    "reason": "Exact draw vs team win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: América de Cali 2 - 2 Independiente Medellín?",
+    "frage_b": "America Cali wins"
+  },
+  "polymarket:630818__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Different states (MN vs TX)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democrats win the Minnesota Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:3369155__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states and offices (NV general vs RI primary)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Nevada gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3492085__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District-specific vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 MT-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3518676__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District-specific vs national margin (different margin range)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NC-11 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3369227__predictit:8214:32170": {
+    "same_event": false,
+    "reason": "Different states (OK vs KS)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Oklahoma gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Democratic"
+  },
+  "polymarket:3408397__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District-specific vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-13 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132404": {
+    "same_event": false,
+    "reason": "Exact draw vs team win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 1 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132409": {
+    "same_event": false,
+    "reason": "Exact score opposite team vs team win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 3 - 0 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132413": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 3 - 1 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132418": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 3 - 2 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "polymarket:4063832__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "county vs state",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republicans win Genesee County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:562831__predictit:8600:33867": {
+    "same_event": false,
+    "reason": "different balance outcomes",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "2026 Balance of Power: R Senate, R House",
+    "frage_b": "What will be the balance of power in Congress after the 2026 election? - D House, R Senate"
+  },
+  "polymarket:3365589__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "different state/office",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Georgia gubernatorial election by 0%-3%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3399248__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district vs national",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 AZ-08 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3489955__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district vs national",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 KY-06 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3491614__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district vs national",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 ME-02 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3518655__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district vs national",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NC-09 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3515975__predictit:8271:32429": {
+    "same_event": false,
+    "reason": "conjunction vs single",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Republicans win the Alaska Governor election and Democrats win the Alaska Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Republican"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5215482": {
+    "same_event": false,
+    "reason": "different half‑time outcomes",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Angers SCO to score first in the 1st half vs. Stade Brestois 29?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "polymarket:3491855__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district vs national",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 MN-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4558977__predictit:8418:33124": {
+    "same_event": false,
+    "reason": "different offices",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Texas Railroad Commissioner election?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Democratic"
+  },
+  "polymarket:4222458__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "different states",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Guam gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "polymarket:630733__predictit:8955:35717": {
+    "same_event": false,
+    "reason": "different question focus",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democrats win the Iowa Senate race in 2026?",
+    "frage_b": "Which 2026 race will be the tipping point for Senate control? - Iowa"
+  },
+  "polymarket:3408536__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district-specific margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-27 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3518629__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district-specific margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NC-07 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3523899__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district-specific margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 TX-23 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:5329870__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Rio Grande do Sul?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329560__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Acre?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329636__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Goiás?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329692__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Paraná?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329886__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Roraima?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:5329910__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from São Paulo?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXDIMAYORGAME-26OCT11AMEDIM-AME__polymarket:5088699": {
+    "same_event": false,
+    "reason": "exact score 0-1 loss vs any win for América de Cali",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: América de Cali 0 - 1 Independiente Medellín?",
+    "frage_b": "America Cali wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132384": {
+    "same_event": false,
+    "reason": "exact score 3-4 loss vs any win for Vélez Sarsfield",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 3 - 4 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "polymarket:5329660__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "state-level second-round vote vs national presidency",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Mato Grosso do Sul?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:3347342__predictit:8171:32020": {
+    "same_event": false,
+    "reason": "announcing a run vs winning the election",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Josh Shapiro announce a Presidential run before 2028?",
+    "frage_b": "Who will win the 2028 US presidential election? - Josh Shapiro"
+  },
+  "polymarket:5378954__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "closest race vs party winner in Nebraska",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Nebraska be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:666596__predictit:8707:34445": {
+    "same_event": false,
+    "reason": "meeting with different individuals (MBS vs Pope Leo)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Trump meet with Mohammed bin Salman in 2026?",
+    "frage_b": "Will Trump meet with Pope Leo in 2026?"
+  },
+  "polymarket:4063845__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Different scope: county vs statewide",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republicans win Kent County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:5329899__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vs nationwide",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Santa Catarina?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:3405548__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 CO-04 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:5329878__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vs nationwide",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Rondônia?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:3519857__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NY-01 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132408": {
+    "same_event": false,
+    "reason": "Exact score vs win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 2 - 1 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "polymarket:5329652__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vs nationwide",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Mato Grosso?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:4443119__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "State senate vs US senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party control the Pennsylvania Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:3405562__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 CO-05 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3519858__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NY-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3523385__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District margin vs national margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 VA-01 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5211596": {
+    "same_event": false,
+    "reason": "Scoring first vs halftime tie (different outcomes)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Tottenham Hotspur FC to score first in the 1st half vs. Manchester United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT12BUFLAR-TIE__polymarket:5306492": {
+    "same_event": false,
+    "reason": "Team winning second half vs tie (not complementary)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "IA Akranes to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:5329854__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "State-level vs nationwide",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Rio de Janeiro?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5402352": {
+    "same_event": false,
+    "reason": "Scoring first vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "York City FC to score first vs. Accrington Stanley FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXMLSBTTS-26OCT14MIANYC-BTTS__polymarket:5402353": {
+    "same_event": false,
+    "reason": "Different propositions: first scorer vs both teams score",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Accrington Stanley FC to score first vs. York City FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5419958__predictit:8707:34445": {
+    "same_event": false,
+    "reason": "Different persons (Marcos vs Pope Leo) and time frames",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Trump meet with Marcos by December 31, 2026?",
+    "frage_b": "Will Trump meet with Pope Leo in 2026?"
+  },
+  "polymarket:5329628__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Different scopes: district vote vs overall election",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Federal District?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:3520216__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes (OH-10 district vs national House) and margin ranges",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 OH-10 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3708435__predictit:8211:32164": {
+    "same_event": false,
+    "reason": "Different scopes: total governorships vs AZ governor",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Democratic Party hold more governorships after the 2026 midterms?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Democratic"
+  },
+  "polymarket:3405536__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: CO-03 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 CO-03 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXLALIGA2GAME-26OCT12BURGCF-BUR__polymarket:5316428": {
+    "same_event": false,
+    "reason": "Different timing: halftime lead vs match win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Burgos CF leading at halftime?",
+    "frage_b": "Burgos wins"
+  },
+  "polymarket:4867568__predictit:8152:31930": {
+    "same_event": false,
+    "reason": "Different questions: odds leader on a date vs winning 2028 nomination",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Marco Rubio Republican nomination odds leader on October 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
+  },
+  "polymarket:3407987__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes (FL-07 district vs national House) and margin ranges differ",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-07 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3408851__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes (GA-01 district vs national House) and margin ranges differ",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 GA-01 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3408398__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: FL-13 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-13 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4443120__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Different chambers: PA State Senate vs US Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party control the Pennsylvania Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:3369551__predictit:8959:35744": {
+    "same_event": false,
+    "reason": "Different states (VT vs RI) and offices (general election vs primary)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Vermont gubernatorial election by 0%-5%?",
+    "frage_b": "What will be the margin in the 2026 RI Republican gubernatorial primary? - Aaron Guckian ≥0%"
+  },
+  "polymarket:3408422__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: FL-16 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-16 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3520481__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: PA-01 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 PA-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:5329620__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Different scope: state-level second round vs national 2026 election",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election from Espírito Santo?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:3408421__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different district (FL-16) vs national margin; different margin ranges",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 FL-16 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132372": {
+    "same_event": false,
+    "reason": "Exact score 0-5 vs generic win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 0 - 5 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132383": {
+    "same_event": false,
+    "reason": "Exact score 2-5 vs generic win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 2 - 5 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132387": {
+    "same_event": false,
+    "reason": "Exact score 3-5 vs generic win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 3 - 5 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "polymarket:3516134__predictit:8441:33212": {
+    "same_event": false,
+    "reason": "Sweep of Senate+Governor vs governor-only question",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats sweep the Ohio Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Ohio? - Republican"
+  },
+  "polymarket:3519845__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District NY-02 margin 3-6% vs national margin 0-3%",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NY-02 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132375": {
+    "same_event": false,
+    "reason": "Exact score 3-2 vs generic win condition",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 3 - 2 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132395": {
+    "same_event": false,
+    "reason": "Halftime draw vs win outcome",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Draw at halftime?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132402": {
+    "same_event": false,
+    "reason": "Exact score 1-0 (Gimnasia up) vs Newell's win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 0 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12GEMNOB-NOB__polymarket:5132428": {
+    "same_event": false,
+    "reason": "Exact score 4-3 (Gimnasia up) vs Newell's win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 3 CA Newell's Old Boys?",
+    "frage_b": "Newell's Old Boys wins"
+  },
+  "polymarket:3405535__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District CO-03 margin 3-6% vs national margin 0-3%",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 CO-03 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4222459__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "Guam governor vs Arizona governor",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Guam gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "polymarket:3399327__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District AZ-02 margin 3-6% vs national margin 0-3%",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 AZ-02 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3405549__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "District CO-04 margin 0-3% vs national margin 0-3% (different scope)",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 CO-04 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3489954__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: KY-06 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 KY-06 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3491613__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: ME-02 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 ME-02 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3515995__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Conjunction vs single Senate outcome",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Michigan Governor election and Republicans win the Michigan Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:3518654__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: NC-09 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NC-09 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3519397__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: NJ-02 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NJ-02 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3519846__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: NY-02 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NY-02 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3523999__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: TX-15 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 TX-15 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "kalshi:KXNFL1H-26OCT12BUFLAR-TIE__polymarket:5206971": {
+    "same_event": false,
+    "reason": "First‑score vs halftime winner are not complementary",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Deportivo Alavés to score first in the 1st half vs. Club Atlético de Madrid?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVGAME-26OCT12LANVEL-VEL__polymarket:5132373": {
+    "same_event": false,
+    "reason": "Exact score subset vs general win",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Exact Score: CA Lanús 1 - 4 CA Vélez Sarsfield?",
+    "frage_b": "Velez Sarsfield wins"
+  },
+  "polymarket:3045837__predictit:8908:35463": {
+    "same_event": false,
+    "reason": "Being out of office vs censure are different events",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Chuck Edwards out as US Rep before December 31, 2026?",
+    "frage_b": "Will the House censure or reprimand Chuck Edwards in 2026?"
+  },
+  "polymarket:4641986__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Conjunction of three seats vs single Michigan Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Texas and Michigan Senate seats, and Republicans win Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican"
+  },
+  "polymarket:4826401__predictit:8152:31930": {
+    "same_event": false,
+    "reason": "Nomination flip timing vs eventual nominee",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Rubio flips Vance for GOP nomination by October 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
+  },
+  "polymarket:3515974__predictit:8271:32429": {
+    "same_event": false,
+    "reason": "Conjunction of Gov & Senate vs single Senate",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Democrats win the Alaska Governor election and Republicans win the Alaska Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Republican"
+  },
+  "polymarket:3491854__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes: MN-01 district vs national House margin",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 MN-01 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:568116__predictit:8461:33293": {
+    "same_event": false,
+    "reason": "Impeachment by end‑2026 vs impeachment in early‑2027 window",
+    "checked_at": "2026-10-08T01:14:24.589388+00:00",
+    "frage_a": "Will Trump be impeached by December 31, 2026?",
+    "frage_b": "When will the House impeach Trump again? - 1/1/27 -6/30/27"
   }
 }

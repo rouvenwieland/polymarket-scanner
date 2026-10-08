@@ -1,5 +1,5 @@
 {
-  "cash": 939.1116599537206,
+  "cash": 810.6397605792837,
   "positions": [
     {
       "pair_id": "polymarket:5380722__kalshi:KXNFLTD-26OCT11MINNO-NODVELE14-2",
@@ -227,8 +227,100 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
         "side": "yes",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.1,
+        "letzter_kurs": 0.09,
         "fee_gezahlt": 0.05
+      }
+    },
+    {
+      "pair_id": "polymarket:5408416__kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17",
+      "frage": "[polymarket] Will Jared Wayne score the first touchdown?  <->  [kalshi] Jared Wayne: 1st Touchdown",
+      "shares": 97.5255495586785,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5408416",
+        "side": "no",
+        "einstandskurs": 0.52,
+        "letzter_kurs": 0.52,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17",
+        "side": "yes",
+        "einstandskurs": 0.02,
+        "letzter_kurs": 0.02,
+        "fee_gezahlt": 0.14
+      }
+    },
+    {
+      "pair_id": "polymarket:5408412__kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87",
+      "frage": "[polymarket] Will Foster Moreau score the first touchdown?  <->  [kalshi] Foster Moreau: 1st Touchdown",
+      "shares": 39.92567166493857,
+      "end_date": "2026-10-13T17:00:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5408412",
+        "side": "no",
+        "einstandskurs": 0.515,
+        "letzter_kurs": 0.515,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87",
+        "side": "yes",
+        "einstandskurs": 0.04,
+        "letzter_kurs": 0.04,
+        "fee_gezahlt": 0.11
+      }
+    },
+    {
+      "pair_id": "polymarket:5152046__kalshi:KXMLSBTTS-26OCT14TORORL-BTTS",
+      "frage": "[polymarket] CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score  <->  [kalshi] Both Teams To Score",
+      "shares": 32.25806451612903,
+      "end_date": "2026-10-16T23:30:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5152046",
+        "side": "yes",
+        "einstandskurs": 0.5,
+        "letzter_kurs": 0.5,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
+        "side": "no",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.31,
+        "fee_gezahlt": 0.49
+      }
+    },
+    {
+      "pair_id": "polymarket:5297567__kalshi:KXMLSBTTS-26OCT14TORORL-BTTS",
+      "frage": "[polymarket] Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score  <->  [kalshi] Both Teams To Score",
+      "shares": 32.25806451612903,
+      "end_date": "2026-10-17T12:00:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5297567",
+        "side": "yes",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.505,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
+        "side": "no",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.31,
+        "fee_gezahlt": 0.49
       }
     }
   ],
