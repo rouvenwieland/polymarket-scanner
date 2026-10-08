@@ -1,5 +1,5 @@
 {
-  "cash": 13.301599505796627,
+  "cash": 6.650799752898314,
   "positions": [
     {
       "market_id": "4970693",
@@ -99,6 +99,17 @@
       "liquiditaet": 23.944,
       "end_date": "2026-10-08T22:00:00Z",
       "eingestiegen": "2026-10-07T23:45:16.650111+02:00"
+    },
+    {
+      "market_id": "3401653",
+      "frage": "Will Ja'Marr Chase be the highest-scoring FLEX of the 2026-27 NFL season?",
+      "slug": "will-jamarr-chase-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131577",
+      "shares": 7.0790109884492205,
+      "einstandskurs": 0.9395097371300007,
+      "letzter_kurs": 0.9395097371300007,
+      "liquiditaet": 16.19699,
+      "end_date": "2027-01-27T04:59:00Z",
+      "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
