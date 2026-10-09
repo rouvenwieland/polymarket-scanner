@@ -72,3 +72,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-08T22:41:55.192375+02:00,KAUF,4965240,Al Fateh Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score in Second Half,13.431,0.812,-10.906,121.9651,"Spread 20.00%, Liquiditaet 109 USD"
 2026-10-09T01:59:42.884697+02:00,VERKAUF,4965240,Al Fateh Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score in Second Half,13.431,0.9908,13.3072,135.2723,Konvergenz erreicht (Kurs 1.000)
 2026-10-09T15:49:48.172282+02:00,KAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,8.1745,0.878,-7.177,128.0953,"Spread 13.50%, Liquiditaet 72 USD"
+2026-10-09T20:08:30.206068+02:00,VERKAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,8.1745,0.7,5.7221,133.8174,Konvergenz erreicht (Kurs 1.000)
