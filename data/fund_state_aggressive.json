@@ -1,17 +1,6 @@
 {
-  "cash": 2.85150093144844,
+  "cash": 49.23831656186428,
   "positions": [
-    {
-      "market_id": "4970693",
-      "frage": "1. FC Kaiserslautern to win the second half?",
-      "slug": "bl2-hei-fck-2026-10-09-second-half-result-away",
-      "shares": 26.29252647903737,
-      "einstandskurs": 0.9275334366475176,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 446.7328,
-      "end_date": "2026-10-09T16:30:00Z",
-      "eingestiegen": "2026-10-03T14:02:36.092687+02:00"
-    },
     {
       "market_id": "3365462",
       "frage": "Will Tony Elliott win 2026 NCAA Coach of the Year?",
@@ -44,17 +33,6 @@
       "liquiditaet": 12.18999,
       "end_date": "2027-01-27T04:59:00Z",
       "eingestiegen": "2026-10-04T03:47:12.906690+02:00"
-    },
-    {
-      "market_id": "4972876",
-      "frage": "BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half",
-      "slug": "bun-dor-wer-2026-10-09-btts-second-half",
-      "shares": 10.3784015697673,
-      "einstandskurs": 0.9989990000000001,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 80.2199,
-      "end_date": "2026-10-09T18:30:00Z",
-      "eingestiegen": "2026-10-05T13:09:11.948773+02:00"
     },
     {
       "market_id": "3848441",
@@ -101,23 +79,12 @@
       "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
     },
     {
-      "market_id": "5261389",
-      "frage": "Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half",
-      "slug": "ned2-alm-ein-2026-10-09-btts-second-half",
-      "shares": 9.715887581611174,
-      "einstandskurs": 0.880465394693949,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 71.7697,
-      "end_date": "2026-10-09T18:00:00Z",
-      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
-    },
-    {
       "market_id": "5033555",
       "frage": "Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half",
       "slug": "jap-avi-fag-2026-10-10-btts-second-half",
       "shares": 3.8114137051661516,
       "einstandskurs": 0.7481478401526958,
-      "letzter_kurs": 0.7481478401526958,
+      "letzter_kurs": 1.0,
       "liquiditaet": 101.2298,
       "end_date": "2026-10-10T06:00:00Z",
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
@@ -128,7 +95,7 @@
       "slug": "titled-tuesday-2026-10-13-top5-jeffery-xiong",
       "shares": 2.8803105539857383,
       "einstandskurs": 0.9899977373976455,
-      "letzter_kurs": 0.9899977373976455,
+      "letzter_kurs": 1.0,
       "liquiditaet": 84.3,
       "end_date": "2026-10-28T03:59:00Z",
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"

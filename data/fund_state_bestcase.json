@@ -1,5 +1,5 @@
 {
-  "cash": 3.365261783499005,
+  "cash": 95.85321728742632,
   "positions": [
     {
       "market_id": "5239412",
@@ -35,17 +35,6 @@
       "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
     },
     {
-      "market_id": "5033555",
-      "frage": "Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half",
-      "slug": "jap-avi-fag-2026-10-10-btts-second-half",
-      "shares": 4.517129910736997,
-      "einstandskurs": 0.745,
-      "letzter_kurs": 0.745,
-      "liquiditaet": 101.2298,
-      "end_date": "2026-10-10T06:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
       "market_id": "5236188",
       "frage": "FC Zhenis vs. FK Atyrau: Both Teams to Score in Second Half",
       "slug": "kaz1-zns-aty-2026-10-10-btts-second-half",
@@ -54,50 +43,6 @@
       "letzter_kurs": 0.9949999999999999,
       "liquiditaet": 72.2197,
       "end_date": "2026-10-10T14:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5046935",
-      "frage": "Exact Score: CD Huachipato 1 - 1 O'Higgins FC?",
-      "slug": "chi1-cdh-ohf-2026-10-10-exact-score-1-1",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 790.5799,
-      "end_date": "2026-10-10T20:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5462560",
-      "frage": "Exact Score: Leixoes SC 2 - 2 FC Porto B?",
-      "slug": "pt2-lei-fcp-2026-10-10-exact-score-2-2",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 17.5314,
-      "end_date": "2026-10-10T14:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5039960",
-      "frage": "FC Juárez to score first vs. Club Tijuana?",
-      "slug": "mex-jua-tij-2026-10-10-first-to-score-home",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 2029.955,
-      "end_date": "2026-10-10T23:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5040527",
-      "frage": "Austin FC vs. Nashville SC: Both Teams to Score in Second Half",
-      "slug": "mls-aus-nas-2026-10-10-btts-second-half",
-      "shares": 3.382172646732726,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1562.599,
-      "end_date": "2026-10-11T00:30:00Z",
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
     },
     {
@@ -123,94 +68,6 @@
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
     },
     {
-      "market_id": "5031325",
-      "frage": "SC Cambuur-Leeuwarden to score first vs. PEC Zwolle?",
-      "slug": "ere-zwo-cam-2026-10-11-first-to-score-away",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1576.7253,
-      "end_date": "2026-10-11T12:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5072562",
-      "frage": "MŠK Žilina to score first vs. MFK Ružomberok?",
-      "slug": "svk1-ruz-zil-2026-10-11-first-to-score-away",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 271.5493,
-      "end_date": "2026-10-11T13:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5082557",
-      "frage": "Brøndby IF vs. Lyngby BK: Both Teams to Score",
-      "slug": "den-bro-lyn-2026-10-11-btts",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1527.203,
-      "end_date": "2026-10-11T14:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5292334",
-      "frage": "Lyn 1896 FK vs. Stroemsgodset IF: Both Teams to Score in First Half",
-      "slug": "nor2-lyn-sif-2026-10-11-btts-first-half",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 1321.7356,
-      "end_date": "2026-10-11T15:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5292213",
-      "frage": "Sandnes Ulf vs. FK Haugesund: Both Teams to Score",
-      "slug": "nor2-san-hau-2026-10-11-btts",
-      "shares": 3.382172646732726,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1510.459,
-      "end_date": "2026-10-11T15:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5074583",
-      "frage": "Beşiktaş JK vs. Kocaelispor: Both Teams to Score in First Half",
-      "slug": "tur-bes-koc-2026-10-11-btts-first-half",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2190.0432,
-      "end_date": "2026-10-11T16:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5084712",
-      "frage": "CA Independiente leading at halftime?",
-      "slug": "arg-tal-ind-2026-10-11-halftime-result-away",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 8681.6361,
-      "end_date": "2026-10-12T00:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5455972",
-      "frage": "Will the lowest temperature in Sao Paulo be 26°C or higher on October 11?",
-      "slug": "lowest-temperature-in-sao-paulo-on-october-11-2026-26corhigher",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 11.8,
-      "end_date": "2026-10-11T12:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
       "market_id": "5460462",
       "frage": "Exact Score: Alemannia Aachen 4 - 0 FC Viktoria Cologne?",
       "slug": "bl3-aac-vik-2026-10-11-exact-score-4-0",
@@ -219,127 +76,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 17.5392,
       "end_date": "2026-10-11T14:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5130765",
-      "frage": "Göztepe SK leading at halftime?",
-      "slug": "tur-eyu-goz-2026-10-12-halftime-result-away",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2415.7746,
-      "end_date": "2026-10-12T17:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5130807",
-      "frage": "Göztepe SK to score first vs. Eyüpspor?",
-      "slug": "tur-eyu-goz-2026-10-12-first-to-score-away",
-      "shares": 3.382172646732726,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 711.6805,
-      "end_date": "2026-10-12T17:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5452314",
-      "frage": "Al Gharafa SC leading at halftime?",
-      "slug": "acle-alg-est-2026-10-12-halftime-result-home",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 755.7117,
-      "end_date": "2026-10-12T18:15:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5119077",
-      "frage": "Dijon Football Côte d'Or to score first vs. FC Metz?",
-      "slug": "fr2-dij-met-2026-10-12-first-to-score-home",
-      "shares": 3.382172646732726,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 469.7881,
-      "end_date": "2026-10-12T18:45:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5361630",
-      "frage": "Club Atletico Los Andes leading at halftime?",
-      "slug": "argpn-car-ala-2026-10-12-halftime-result-away",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 638.1498,
-      "end_date": "2026-10-12T20:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5462996",
-      "frage": "Exact Score: SL Benfica B 5 - 0 FC Felgueiras 1932?",
-      "slug": "pt2-ben-fel-2026-10-12-exact-score-5-0",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 18.9195,
-      "end_date": "2026-10-12T17:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5379291",
-      "frage": "Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?",
-      "slug": "titled-tuesday-2026-10-13-top5-jeffery-xiong",
-      "shares": 3.4165094248721446,
-      "einstandskurs": 0.9850000000000001,
-      "letzter_kurs": 0.9850000000000001,
-      "liquiditaet": 84.3,
-      "end_date": "2026-10-28T03:59:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5459823",
-      "frage": "Will the price of Solana be above $115 on October 16?",
-      "slug": "solana-above-115-on-october-16-2026",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4459.7179,
-      "end_date": "2026-10-16T16:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5240173",
-      "frage": "AC Horsens vs. Randers FC: Both Teams to Score in First Half",
-      "slug": "den-hor-ran-2026-10-16-btts-first-half",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 7.0894,
-      "end_date": "2026-10-16T17:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5459780",
-      "frage": "Will the price of Bitcoin be between $90,000 and $92,000 on October 16?",
-      "slug": "will-the-price-of-bitcoin-be-between-90000-92000-on-october-16-2026",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 6.3091,
-      "end_date": "2026-10-16T16:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5470221",
-      "frage": "Exact Score: Beşiktaş JK 0 - 2 Crystal Palace FC?",
-      "slug": "uel-bes-cry-2026-10-22-exact-score-0-2",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 18.6681,
-      "end_date": "2026-10-22T19:00:00Z",
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
     },
     {
@@ -406,39 +142,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 7.9198,
       "end_date": "2026-10-23T16:30:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "3523936",
-      "frage": "Will the Democratic Party candidate win the 2026 TX-20 House election by 35%-40%?",
-      "slug": "will-the-democratic-party-candidate-win-the-2026-tx-20-house-election-by-35-40",
-      "shares": 3.382172646732726,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 7354.438,
-      "end_date": "2026-11-04T04:59:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "3914291",
-      "frage": "Will KuPS keep the most clean sheets in the 2026 Veikkausliiga (Finland)?",
-      "slug": "will-kups-keep-the-most-clean-sheets-in-veikkausliiga-finland-2026",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4.9703,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "3914236",
-      "frage": "Will NK Olimpija Ljubljana keep the most clean sheets in the 2026-27 Slovenian PrvaLiga?",
-      "slug": "will-nk-olimpija-ljubljana-keep-the-most-clean-sheets-in-slovenian-prvaliga-2026-27",
-      "shares": 3.3821726467327267,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 5.8436,
-      "end_date": "2027-07-01T03:59:00Z",
       "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
     }
   ],

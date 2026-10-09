@@ -45,3 +45,6 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-09T15:49:48.172282+02:00,KAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,9.7159,0.8805,-8.5545,8.5545,"Spread 13.50%, Liquiditaet 72 USD"
 2026-10-09T21:14:19.541763+02:00,KAUF,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,3.8114,0.7481,-2.8515,5.703,"Spread 25.50%, Liquiditaet 101 USD"
 2026-10-09T21:14:19.541763+02:00,KAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,2.8803,0.99,-2.8515,2.8515,"Spread 1.50%, Liquiditaet 84 USD"
+2026-10-10T00:34:44.522595+02:00,AUSZAHLUNG,4970693,1. FC Kaiserslautern to win the second half?,26.2925,1.0,26.2925,29.144,Markt als geschlossen/aufgelöst markiert
+2026-10-10T00:34:44.522595+02:00,AUSZAHLUNG,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,10.3784,1.0,10.3784,39.5224,Markt als geschlossen/aufgelöst markiert
+2026-10-10T00:34:44.522595+02:00,AUSZAHLUNG,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,9.7159,1.0,9.7159,49.2383,Markt als geschlossen/aufgelöst markiert

@@ -75,3 +75,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-09T20:08:30.206068+02:00,VERKAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,8.1745,0.7,5.7221,133.8174,Konvergenz erreicht (Kurs 1.000)
 2026-10-09T21:14:19.541763+02:00,KAUF,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,13.3871,0.7562,-10.123,123.6945,"Spread 25.50%, Liquiditaet 101 USD"
 2026-10-09T21:14:19.541763+02:00,KAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,7.9952,0.999,-7.9872,115.7072,"Spread 1.50%, Liquiditaet 84 USD"
+2026-10-10T00:34:44.522595+02:00,VERKAUF,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,13.3871,0.9802,13.1215,128.8287,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T00:34:44.522595+02:00,VERKAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,7.9952,0.996,7.9632,136.7919,Konvergenz erreicht (Kurs 1.000)
