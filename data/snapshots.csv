@@ -3980,3 +3980,48 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-09T15:49:48.172282+02:00,5443484,Will Billam-Smith vs. Clarke end before Round 2?,zuffa-billa-clark1-2026-11-07-ends-before-round-2,0.5,0.495,0.995,0.0,1.92,2026-11-08T04:59:59.999Z
 2026-10-09T15:49:48.172282+02:00,5443540,Will Roehrig vs. Mcdonald end before Round 7?,zuffa-roehr-mcdon-2026-11-07-ends-before-round-7,0.495,0.5,0.995,0.0,5.5896,2026-11-08T04:59:59.999Z
 2026-10-09T15:49:48.172282+02:00,5457258,Taiwan Semiconductor (TSM) Q3 gross profit margin <66%?,taiwan-semiconductor-tsm-q3-gross-profit-margin-20261008120010000-less-than-66,0.495,0.5,0.995,0.0,0.1,2026-10-15T13:30:00Z
+2026-10-09T21:14:19.541763+02:00,1283577,Will the Democratic Party win the KY-05 House seat?,will-the-democratic-party-win-the-ky-05-house-seat,0.0335,0.966,0.9994999999999999,28156.742925000006,58040.96632,2026-11-04T04:59:00Z
+2026-10-09T21:14:19.541763+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-09T21:14:19.541763+02:00,3523936,Will the Democratic Party candidate win the 2026 TX-20 House election by 35%-40%?,will-the-democratic-party-candidate-win-the-2026-tx-20-house-election-by-35-40,0.19,0.805,0.9950000000000001,1876.8356789999998,7354.438,2026-11-04T04:59:00Z
+2026-10-09T21:14:19.541763+02:00,3914236,Will NK Olimpija Ljubljana keep the most clean sheets in the 2026-27 Slovenian PrvaLiga?,will-nk-olimpija-ljubljana-keep-the-most-clean-sheets-in-slovenian-prvaliga-2026-27,0.485,0.51,0.995,0.0,5.8436,2027-07-01T03:59:00Z
+2026-10-09T21:14:19.541763+02:00,3914291,Will KuPS keep the most clean sheets in the 2026 Veikkausliiga (Finland)?,will-kups-keep-the-most-clean-sheets-in-veikkausliiga-finland-2026,0.5,0.495,0.995,0.0,4.9703,2027-01-01T04:59:00Z
+2026-10-09T21:14:19.541763+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-09T21:14:19.541763+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-09T21:14:19.541763+02:00,5031325,SC Cambuur-Leeuwarden to score first vs. PEC Zwolle?,ere-zwo-cam-2026-10-11-first-to-score-away,0.38,0.615,0.995,0.0,1576.7253,2026-10-11T12:30:00Z
+2026-10-09T21:14:19.541763+02:00,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,jap-avi-fag-2026-10-10-btts-second-half,0.225,0.52,0.745,0.0,101.2298,2026-10-10T06:00:00Z
+2026-10-09T21:14:19.541763+02:00,5039960,FC Juárez to score first vs. Club Tijuana?,mex-jua-tij-2026-10-10-first-to-score-home,0.42,0.575,0.9949999999999999,0.0,2029.955,2026-10-10T23:00:00Z
+2026-10-09T21:14:19.541763+02:00,5040527,Austin FC vs. Nashville SC: Both Teams to Score in Second Half,mls-aus-nas-2026-10-10-btts-second-half,0.31,0.685,0.9950000000000001,0.0,1562.599,2026-10-11T00:30:00Z
+2026-10-09T21:14:19.541763+02:00,5046935,Exact Score: CD Huachipato 1 - 1 O'Higgins FC?,chi1-cdh-ohf-2026-10-10-exact-score-1-1,0.12,0.875,0.995,0.0,790.5799,2026-10-10T20:30:00Z
+2026-10-09T21:14:19.541763+02:00,5072562,MŠK Žilina to score first vs. MFK Ružomberok?,svk1-ruz-zil-2026-10-11-first-to-score-away,0.515,0.48,0.995,0.0,271.5493,2026-10-11T13:30:00Z
+2026-10-09T21:14:19.541763+02:00,5074583,Beşiktaş JK vs. Kocaelispor: Both Teams to Score in First Half,tur-bes-koc-2026-10-11-btts-first-half,0.15,0.845,0.995,0.0,2190.0432,2026-10-11T16:00:00Z
+2026-10-09T21:14:19.541763+02:00,5082557,Brøndby IF vs. Lyngby BK: Both Teams to Score,den-bro-lyn-2026-10-11-btts,0.605,0.39,0.995,0.0,1527.203,2026-10-11T14:00:00Z
+2026-10-09T21:14:19.541763+02:00,5084712,CA Independiente leading at halftime?,arg-tal-ind-2026-10-11-halftime-result-away,0.205,0.79,0.995,0.0,8681.6361,2026-10-12T00:30:00Z
+2026-10-09T21:14:19.541763+02:00,5119077,Dijon Football Côte d'Or to score first vs. FC Metz?,fr2-dij-met-2026-10-12-first-to-score-home,0.44,0.555,0.9950000000000001,0.0,469.7881,2026-10-12T18:45:00Z
+2026-10-09T21:14:19.541763+02:00,5130765,Göztepe SK leading at halftime?,tur-eyu-goz-2026-10-12-halftime-result-away,0.38,0.615,0.995,0.0,2415.7746,2026-10-12T17:00:00Z
+2026-10-09T21:14:19.541763+02:00,5130807,Göztepe SK to score first vs. Eyüpspor?,tur-eyu-goz-2026-10-12-first-to-score-away,0.56,0.435,0.9950000000000001,0.0,711.6805,2026-10-12T17:00:00Z
+2026-10-09T21:14:19.541763+02:00,5236188,FC Zhenis vs. FK Atyrau: Both Teams to Score in Second Half,kaz1-zns-aty-2026-10-10-btts-second-half,0.41,0.585,0.9949999999999999,0.0,72.2197,2026-10-10T14:00:00Z
+2026-10-09T21:14:19.541763+02:00,5239412,Will Justin Thomas lead the 2026 Baycurrent Classic following the third round?,2026-baycurrent-classic-third-round-leader-justin-thomas,0.38,0.5,0.88,0.0,0.0,2026-10-11T00:00:00Z
+2026-10-09T21:14:19.541763+02:00,5240173,AC Horsens vs. Randers FC: Both Teams to Score in First Half,den-hor-ran-2026-10-16-btts-first-half,0.41,0.585,0.9949999999999999,0.0,7.0894,2026-10-16T17:00:00Z
+2026-10-09T21:14:19.541763+02:00,5292213,Sandnes Ulf vs. FK Haugesund: Both Teams to Score,nor2-san-hau-2026-10-11-btts,0.655,0.34,0.9950000000000001,0.0,1510.459,2026-10-11T15:00:00Z
+2026-10-09T21:14:19.541763+02:00,5292334,Lyn 1896 FK vs. Stroemsgodset IF: Both Teams to Score in First Half,nor2-lyn-sif-2026-10-11-btts-first-half,0.305,0.69,0.9949999999999999,0.0,1321.7356,2026-10-11T15:00:00Z
+2026-10-09T21:14:19.541763+02:00,5361630,Club Atletico Los Andes leading at halftime?,argpn-car-ala-2026-10-12-halftime-result-away,0.18,0.815,0.9949999999999999,0.0,638.1498,2026-10-12T20:00:00Z
+2026-10-09T21:14:19.541763+02:00,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,titled-tuesday-2026-10-13-top5-jeffery-xiong,0.07,0.915,0.9850000000000001,0.0,84.3,2026-10-28T03:59:00Z
+2026-10-09T21:14:19.541763+02:00,5402440,Ranji Trophy: Mumbai vs Chandigarh Lions - Match goes to Day 4?,cricranji-mum-cha-2026-10-11-match-to-day-4,0.5,0.495,0.995,0.0,1.92,2026-10-18T04:00:00Z
+2026-10-09T21:14:19.541763+02:00,5422026,Rhyne Howard: Points O/U 19.5,wnba-atl-nyl-2026-10-09-points-rhyne-howard-19pt5,0.495,0.5,0.995,0.0,1.1198,2026-10-09T04:00:00Z
+2026-10-09T21:14:19.541763+02:00,5443484,Will Billam-Smith vs. Clarke end before Round 2?,zuffa-billa-clark1-2026-11-07-ends-before-round-2,0.5,0.495,0.995,0.0,1.92,2026-11-08T04:59:59.999Z
+2026-10-09T21:14:19.541763+02:00,5452314,Al Gharafa SC leading at halftime?,acle-alg-est-2026-10-12-halftime-result-home,0.3,0.695,0.9949999999999999,0.0,755.7117,2026-10-12T18:15:00Z
+2026-10-09T21:14:19.541763+02:00,5455972,Will the lowest temperature in Sao Paulo be 26°C or higher on October 11?,lowest-temperature-in-sao-paulo-on-october-11-2026-26corhigher,0.475,0.52,0.995,0.0,11.8,2026-10-11T12:00:00Z
+2026-10-09T21:14:19.541763+02:00,5458356,Exact Score: CR Flamengo 4 - 5 Estudiantes de La Plata?,lib-fla-est-2026-10-22-exact-score-4-5,0.49,0.505,0.995,0.0,8.7416,2026-10-23T00:30:00Z
+2026-10-09T21:14:19.541763+02:00,5459780,"Will the price of Bitcoin be between $90,000 and $92,000 on October 16?",will-the-price-of-bitcoin-be-between-90000-92000-on-october-16-2026,0.23,0.765,0.995,0.0,6.3091,2026-10-16T16:00:00Z
+2026-10-09T21:14:19.541763+02:00,5459823,Will the price of Solana be above $115 on October 16?,solana-above-115-on-october-16-2026,0.21,0.785,0.995,0.0,4459.7179,2026-10-16T16:00:00Z
+2026-10-09T21:14:19.541763+02:00,5460462,Exact Score: Alemannia Aachen 4 - 0 FC Viktoria Cologne?,bl3-aac-vik-2026-10-11-exact-score-4-0,0.475,0.52,0.995,0.0,17.5392,2026-10-11T14:30:00Z
+2026-10-09T21:14:19.541763+02:00,5460846,Exact Score: Hereford FC 2 - 5 Hednesford Town?,nln-her-hed-2026-10-10-exact-score-2-5,0.49,0.505,0.995,0.0,6.3316,2026-10-10T14:00:00Z
+2026-10-09T21:14:19.541763+02:00,5461180,Exact Score: Billericay Town 4 - 5 Farnborough FC?,nls-bil-far-2026-10-10-exact-score-4-5,0.49,0.505,0.995,0.0,6.3316,2026-10-10T14:00:00Z
+2026-10-09T21:14:19.541763+02:00,5462560,Exact Score: Leixoes SC 2 - 2 FC Porto B?,pt2-lei-fcp-2026-10-10-exact-score-2-2,0.48,0.515,0.995,0.0,17.5314,2026-10-10T14:30:00Z
+2026-10-09T21:14:19.541763+02:00,5462996,Exact Score: SL Benfica B 5 - 0 FC Felgueiras 1932?,pt2-ben-fel-2026-10-12-exact-score-5-0,0.48,0.515,0.995,0.0,18.9195,2026-10-12T17:00:00Z
+2026-10-09T21:14:19.541763+02:00,5468795,Exact Score: Any Other Score?,rus-ter-ore-2026-10-23-exact-score-any-other,0.49,0.505,0.995,0.0,7.9198,2026-10-23T16:30:00Z
+2026-10-09T21:14:19.541763+02:00,5470221,Exact Score: Beşiktaş JK 0 - 2 Crystal Palace FC?,uel-bes-cry-2026-10-22-exact-score-0-2,0.48,0.515,0.995,0.0,18.6681,2026-10-22T19:00:00Z
+2026-10-09T21:14:19.541763+02:00,5470225,Exact Score: Beşiktaş JK 1 - 2 Crystal Palace FC?,uel-bes-cry-2026-10-22-exact-score-1-2,0.485,0.51,0.995,0.0,11.2804,2026-10-22T19:00:00Z
+2026-10-09T21:14:19.541763+02:00,5470272,Exact Score: Olympiakós SFP 2 - 0 AC Sparta Praha?,uel-oly-spp-2026-10-22-exact-score-2-0,0.485,0.51,0.995,0.0,11.2804,2026-10-22T19:00:00Z
+2026-10-09T21:14:19.541763+02:00,5470527,Exact Score: AFC Bournemouth 3 - 1 AC Milan?,uel-bou-mil1-2026-10-22-exact-score-3-1,0.485,0.51,0.995,0.0,11.5688,2026-10-22T19:00:00Z
+2026-10-09T21:14:19.541763+02:00,5470572,Exact Score: Jagiellonia Białystok 3 - 0 RSC Anderlecht?,uel-jag-and-2026-10-22-exact-score-3-0,0.485,0.51,0.995,0.0,11.2884,2026-10-22T19:00:00Z

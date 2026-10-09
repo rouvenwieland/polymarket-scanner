@@ -1,5 +1,28 @@
 {
-  "cash": 133.81743035144785,
-  "positions": [],
+  "cash": 115.70720365094034,
+  "positions": [
+    {
+      "market_id": "5033555",
+      "frage": "Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half",
+      "slug": "jap-avi-fag-2026-10-10-btts-second-half",
+      "shares": 13.387086322610509,
+      "einstandskurs": 0.7561749999999999,
+      "letzter_kurs": 0.7561749999999999,
+      "liquiditaet": 101.2298,
+      "end_date": "2026-10-10T06:00:00Z",
+      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
+    },
+    {
+      "market_id": "5379291",
+      "frage": "Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?",
+      "slug": "titled-tuesday-2026-10-13-top5-jeffery-xiong",
+      "shares": 7.995249945703164,
+      "einstandskurs": 0.998999,
+      "letzter_kurs": 0.998999,
+      "liquiditaet": 84.3,
+      "end_date": "2026-10-28T03:59:00Z",
+      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
