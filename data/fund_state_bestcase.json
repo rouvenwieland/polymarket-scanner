@@ -1,5 +1,5 @@
 {
-  "cash": 129.7971710457262,
+  "cash": 20.935027588020468,
   "positions": [
     {
       "market_id": "5239412",
@@ -33,6 +33,292 @@
       "liquiditaet": 1.92,
       "end_date": "2026-10-10T16:00:00Z",
       "eingestiegen": "2026-10-08T22:41:55.192375+02:00"
+    },
+    {
+      "market_id": "5261389",
+      "frage": "Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half",
+      "slug": "ned2-alm-ein-2026-10-09-btts-second-half",
+      "shares": 4.840468806478695,
+      "einstandskurs": 0.865,
+      "letzter_kurs": 0.865,
+      "liquiditaet": 71.7697,
+      "end_date": "2026-10-09T18:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5224547",
+      "frage": "Will Israel vs. Switzerland end in a draw?",
+      "slug": "wwcquefa-isr-swi-2026-10-09-draw",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 124.5112,
+      "end_date": "2026-10-09T16:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5426647",
+      "frage": "Will the lowest temperature in San Francisco be between 62-63°F on October 10?",
+      "slug": "lowest-temperature-in-san-francisco-on-october-10-2026-62-63f",
+      "shares": 4.208045746335749,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 155.111,
+      "end_date": "2026-10-10T12:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5237531",
+      "frage": "Grazer AK 1902 to score first vs. FC Salzburg?",
+      "slug": "aut-gak-rbs-2026-10-10-first-to-score-home",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1340.382,
+      "end_date": "2026-10-10T15:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5047023",
+      "frage": "CD Eldense vs. Córdoba CF: Both Teams to Score",
+      "slug": "es2-eld-cor-2026-10-10-btts",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 5516.403,
+      "end_date": "2026-10-10T16:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "4992724",
+      "frage": "Al Hilal Saudi Club leading at halftime?",
+      "slug": "spl-hil-ith-2026-10-10-halftime-result-home",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 7091.6348,
+      "end_date": "2026-10-10T18:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5435344",
+      "frage": "Sportivo Trinidense leading at halftime?",
+      "slug": "par1-ssl-tri-2026-10-10-halftime-result-away",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 216.1269,
+      "end_date": "2026-10-10T20:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5074104",
+      "frage": "VfL Bochum vs. DSC Arminia Bielefeld: Both Teams to Score",
+      "slug": "bl2-boc-bie-2026-10-11-btts",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2276.6671,
+      "end_date": "2026-10-11T11:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5062596",
+      "frage": "RC Strasbourg Alsace to score first vs. OGC Nice?",
+      "slug": "fl1-ogc-str-2026-10-11-first-to-score-away",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 4088.0461,
+      "end_date": "2026-10-11T13:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5047228",
+      "frage": "Exact Score: AC Sparta Praha 2 - 0 FK Pardubice?",
+      "slug": "cze1-asp-fkp-2026-10-11-exact-score-2-0",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 208.042,
+      "end_date": "2026-10-11T16:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5046310",
+      "frage": "Will FC Petrolul Ploieşti win on 2026-10-11?",
+      "slug": "rou1-ffc-fpp-2026-10-11-fpp",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 3928.5631,
+      "end_date": "2026-10-11T18:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5083398",
+      "frage": "St. Louis City SC vs. Los Angeles Galaxy: Both Teams to Score in Second Half",
+      "slug": "mls-stl-lag-2026-10-11-btts-second-half",
+      "shares": 4.208045746335749,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 1158.217,
+      "end_date": "2026-10-11T23:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5109510",
+      "frage": "Boise State vs. Fresno State: Both Teams to Score a Touchdown - Q3",
+      "slug": "cfb-boise-frest-2026-10-10-3q-btts-td",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 0.96,
+      "end_date": "2026-10-11T02:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5305325",
+      "frage": "Nafta 1903 Lendava vs. Bravo Ljubljana: Both Teams to Score in First Half",
+      "slug": "slo-naf-bra-2026-10-11-btts-first-half",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 9.986,
+      "end_date": "2026-10-11T13:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5132414",
+      "frage": "Exact Score: CA Gimnasia y Esgrima de Mendoza 4 - 0 CA Newell's Old Boys?",
+      "slug": "arg-gye-new-2026-10-12-exact-score-4-0",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 85.3399,
+      "end_date": "2026-10-12T21:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5119038",
+      "frage": "Exact Score: Dijon Football Côte d'Or 4 - 0 FC Metz?",
+      "slug": "fr2-dij-met-2026-10-12-exact-score-4-0",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 59.06,
+      "end_date": "2026-10-12T18:45:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5159881",
+      "frage": "RB Leipzig vs. PSV: Both Teams to Score in First Half",
+      "slug": "ucl-rbl-psv-2026-10-13-btts-first-half",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 4398.0372,
+      "end_date": "2026-10-13T19:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5187402",
+      "frage": "Exact Score: AC Sparta Praha 0 - 1 Lillestrøm SK?",
+      "slug": "uel-spp-lil1-2026-10-15-exact-score-0-1",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 62.7193,
+      "end_date": "2026-10-15T16:45:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5457258",
+      "frage": "Taiwan Semiconductor (TSM) Q3 gross profit margin <66%?",
+      "slug": "taiwan-semiconductor-tsm-q3-gross-profit-margin-20261008120010000-less-than-66",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 0.1,
+      "end_date": "2026-10-15T13:30:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5402440",
+      "frage": "Ranji Trophy: Mumbai vs Chandigarh Lions - Match goes to Day 4?",
+      "slug": "cricranji-mum-cha-2026-10-11-match-to-day-4",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1.92,
+      "end_date": "2026-10-18T04:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5229439",
+      "frage": "Will Fernando Alonso get pole position at the 2026 F1 Singapore Grand Prix?",
+      "slug": "f1-singapore-grand-prix-driver-pole-position-alonso-2026-10-10",
+      "shares": 4.197499265768492,
+      "einstandskurs": 0.9974999999999999,
+      "letzter_kurs": 0.9974999999999999,
+      "liquiditaet": 7995.45061,
+      "end_date": "2026-10-17T13:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5194866",
+      "frage": "Will the 2-year Treasury yield dip below 4.64% in October?",
+      "slug": "will-the-2-year-treasury-yield-dip-below-4pt64-in-october",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 81.187,
+      "end_date": "2026-11-01T03:59:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5180557",
+      "frage": "Will the Ethereum Volatility Index hit 70 by October 31?",
+      "slug": "will-the-ethereum-volatility-index-hit-70-by-october-31",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 49.8577,
+      "end_date": "2026-11-01T04:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5443540",
+      "frage": "Will Roehrig vs. Mcdonald end before Round 7?",
+      "slug": "zuffa-roehr-mcdon-2026-11-07-ends-before-round-7",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 5.5896,
+      "end_date": "2026-11-08T04:59:59.999Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "5443484",
+      "frage": "Will Billam-Smith vs. Clarke end before Round 2?",
+      "slug": "zuffa-billa-clark1-2026-11-07-ends-before-round-2",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1.92,
+      "end_date": "2026-11-08T04:59:59.999Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
+    },
+    {
+      "market_id": "4205851",
+      "frage": "Will the Los Angeles Rams finish the 2026-27 NFL regular season with the best record?",
+      "slug": "will-the-los-angeles-rams-finish-the-2026-27-nfl-regular-season-with-the-best-record",
+      "shares": 4.20804574633575,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 6.4477,
+      "end_date": "2027-01-10T23:59:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"

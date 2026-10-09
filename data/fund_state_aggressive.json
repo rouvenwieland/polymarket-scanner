@@ -1,5 +1,5 @@
 {
-  "cash": 17.10900558869064,
+  "cash": 8.55450279434532,
   "positions": [
     {
       "market_id": "4970693",
@@ -99,6 +99,17 @@
       "liquiditaet": 16.19699,
       "end_date": "2027-01-27T04:59:00Z",
       "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
+    },
+    {
+      "market_id": "5261389",
+      "frage": "Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half",
+      "slug": "ned2-alm-ein-2026-10-09-btts-second-half",
+      "shares": 9.715887581611174,
+      "einstandskurs": 0.880465394693949,
+      "letzter_kurs": 0.880465394693949,
+      "liquiditaet": 71.7697,
+      "end_date": "2026-10-09T18:00:00Z",
+      "eingestiegen": "2026-10-09T15:49:48.172282+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
