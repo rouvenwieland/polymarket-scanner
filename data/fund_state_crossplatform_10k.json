@@ -1,5 +1,5 @@
 {
-  "cash": 9810.639760579283,
+  "cash": 9799.504466461636,
   "positions": [
     {
       "pair_id": "polymarket:5380722__kalshi:KXNFLTD-26OCT11MINNO-NODVELE14-2",
@@ -135,7 +135,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.03,
+        "letzter_kurs": 0.04,
         "fee_gezahlt": 0.03
       }
     },
@@ -242,7 +242,7 @@
         "market_id": "5408416",
         "side": "no",
         "einstandskurs": 0.52,
-        "letzter_kurs": 0.505,
+        "letzter_kurs": 0.51,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -288,7 +288,7 @@
         "market_id": "5152046",
         "side": "yes",
         "einstandskurs": 0.5,
-        "letzter_kurs": 0.505,
+        "letzter_kurs": 0.51,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -321,6 +321,29 @@
         "einstandskurs": 0.31,
         "letzter_kurs": 0.31,
         "fee_gezahlt": 0.49
+      }
+    },
+    {
+      "pair_id": "polymarket:5378964__predictit:8939:35603",
+      "frage": "[polymarket] Will Maine be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Maine",
+      "shares": 11.764705882352942,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-09T02:32:24.801755+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5378964",
+        "side": "yes",
+        "einstandskurs": 0.0965,
+        "letzter_kurs": 0.0965,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8939:35603",
+        "side": "no",
+        "einstandskurs": 0.85,
+        "letzter_kurs": 0.85,
+        "fee_gezahlt": 0.0
       }
     }
   ],
