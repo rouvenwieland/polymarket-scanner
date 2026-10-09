@@ -12,7 +12,7 @@
         "market_id": "5380722",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.985,
+        "letzter_kurs": 0.945,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -35,7 +35,7 @@
         "market_id": "5380729",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.985,
+        "letzter_kurs": 0.945,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -58,7 +58,7 @@
         "market_id": "5380732",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.99,
+        "letzter_kurs": 0.95,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -81,7 +81,7 @@
         "market_id": "5380046",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.975,
+        "letzter_kurs": 0.5025,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -89,7 +89,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.05,
+        "letzter_kurs": 0.04,
         "fee_gezahlt": 0.03
       }
     },
@@ -127,7 +127,7 @@
         "market_id": "5380727",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.98,
+        "letzter_kurs": 0.94,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -135,7 +135,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.03
       }
     },
@@ -150,7 +150,7 @@
         "market_id": "5380737",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.98,
+        "letzter_kurs": 0.5025,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -158,7 +158,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
         "side": "yes",
         "einstandskurs": 0.05,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.04
       }
     },
@@ -173,7 +173,7 @@
         "market_id": "5380714",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.975,
+        "letzter_kurs": 0.5025,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -181,7 +181,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.06,
+        "letzter_kurs": 0.05,
         "fee_gezahlt": 0.05
       }
     },
@@ -196,7 +196,7 @@
         "market_id": "5380741",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.985,
+        "letzter_kurs": 0.94,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -204,7 +204,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.05
       }
     },
@@ -219,7 +219,7 @@
         "market_id": "5380044",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.955,
+        "letzter_kurs": 0.92,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -242,7 +242,7 @@
         "market_id": "5408416",
         "side": "no",
         "einstandskurs": 0.52,
-        "letzter_kurs": 0.99,
+        "letzter_kurs": 0.5015,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -265,7 +265,7 @@
         "market_id": "5408412",
         "side": "no",
         "einstandskurs": 0.515,
-        "letzter_kurs": 0.985,
+        "letzter_kurs": 0.5105,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
