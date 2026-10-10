@@ -50,3 +50,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T00:34:44.522595+02:00,AUSZAHLUNG,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,9.7159,1.0,9.7159,49.2383,Markt als geschlossen/aufgelöst markiert
 2026-10-10T04:32:32.251449+02:00,KAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.999,-5.5412,43.6972,"Spread 1.00%, Liquiditaet 91 USD"
 2026-10-10T04:32:32.251449+02:00,KAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.999,-2.9879,40.7093,"Spread 1.00%, Liquiditaet 49 USD"
+2026-10-10T11:01:29.024427+02:00,AUSZAHLUNG,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,3.8114,1.0,3.8114,44.5207,Markt nicht mehr auffindbar -> als aufgelöst behandelt

@@ -1,5 +1,5 @@
 {
-  "cash": 40.70930069923813,
+  "cash": 44.52071440440428,
   "positions": [
     {
       "market_id": "3365462",
@@ -77,17 +77,6 @@
       "liquiditaet": 16.19699,
       "end_date": "2027-01-27T04:59:00Z",
       "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5033555",
-      "frage": "Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half",
-      "slug": "jap-avi-fag-2026-10-10-btts-second-half",
-      "shares": 3.8114137051661516,
-      "einstandskurs": 0.7481478401526958,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 101.2298,
-      "end_date": "2026-10-10T06:00:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
     },
     {
       "market_id": "5379291",
