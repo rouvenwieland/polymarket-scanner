@@ -51,3 +51,6 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T04:32:32.251449+02:00,KAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.999,-5.5412,43.6972,"Spread 1.00%, Liquiditaet 91 USD"
 2026-10-10T04:32:32.251449+02:00,KAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.999,-2.9879,40.7093,"Spread 1.00%, Liquiditaet 49 USD"
 2026-10-10T11:01:29.024427+02:00,AUSZAHLUNG,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,3.8114,1.0,3.8114,44.5207,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,2.8803,1.0,2.8803,47.401,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,1.0,5.5467,52.9477,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5047507,Atlético Nacional leading at halftime?,2.9908,1.0,2.9908,55.9386,Markt nicht mehr auffindbar -> als aufgelöst behandelt

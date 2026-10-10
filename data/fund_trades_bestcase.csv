@@ -3302,3 +3302,23 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T15:59:45.033567+02:00,VERKAUF,5366864,NEC vs. Fortuna Sittard: Both Teams to Score in First Half,2.8382,1.0,2.8382,93.8426,Konvergenz erreicht (Kurs 1.000)
 2026-10-10T15:59:45.033567+02:00,VERKAUF,5458325,Exact Score: CR Flamengo 1 - 3 Estudiantes de La Plata?,2.8382,1.0,2.8382,96.6809,Konvergenz erreicht (Kurs 1.000)
 2026-10-10T15:59:45.033567+02:00,VERKAUF,3697619,"Will total votes cast in the first round of the 2026 midterm election for Senator from Georgia be between 4,200,000 and 4,400,000?",2.8382,1.0,2.8382,99.5191,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5443484,Will Billam-Smith vs. Clarke end before Round 2?,4.208,1.0,4.208,103.7271,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470272,Exact Score: Olympiakós SFP 2 - 0 AC Sparta Praha?,3.3822,1.0,3.3822,107.1093,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5460038,Exact Score: CF Rayo Majadahonda 3 - 1 Real Murcia CF?,2.8382,1.0,2.8382,109.9475,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5317997,Deportivo Toluca FC vs. Atlético San Luis: Both Teams to Score,2.8382,1.0,2.8382,112.7857,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5273425,Exact Score: Hibernian FC 3 - 2 Falkirk FC?,2.8382,1.0,2.8382,115.6239,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470670,Exact Score: Lillestrøm SK 3 - 0 Real Sociedad de Fútbol?,2.8382,1.0,2.8382,118.4621,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470542,Exact Score: AFC Bournemouth 4 - 3 AC Milan?,2.8382,1.0,2.8382,121.3003,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470678,Exact Score: Lillestrøm SK 2 - 3 Real Sociedad de Fútbol?,2.8382,1.0,2.8382,124.1385,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470469,Exact Score: Celtic FC 1 - 1 RC Celta de Vigo?,2.8382,1.0,2.8382,126.9768,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5470320,Exact Score: NK Celje 1 - 1 FC Red Bull Salzburg?,2.8382,1.0,2.8382,129.815,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5482698,Exact Score: FC Sochaux-Montbéliard 2 - 3 FC Annecy?,2.8382,1.0,2.8382,132.6532,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5482125,Exact Score: Granada CF 3 - 2 Real Valladolid CF?,2.8382,1.0,2.8382,135.4914,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5479435,Exact Score: VfL Bochum 0 - 1 VfL Wolfsburg?,2.8382,1.0,2.8382,138.3296,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5479465,Exact Score: VfL Bochum 4 - 1 VfL Wolfsburg?,2.8382,1.0,2.8382,141.1678,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,AUSZAHLUNG,5482956,Exact Score: Puntarenas FC 3 - 4 Inter San Carlos?,2.8382,1.0,2.8382,144.006,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-10T17:22:20.470725+02:00,KAUF,3502903,"Will Jonathan Taylor have 1,249.5+ rushing yards in the 2026-27 NFL regular season?",20.6757,0.995,-20.5723,123.4337,"Spread 0.50%, Liquiditaet 471 USD"
+2026-10-10T17:22:20.470725+02:00,KAUF,3914428,Will Rayo Zuliano keep the most clean sheets in the 2026 Venezuelan Primera División?,20.6757,0.995,-20.5723,102.8614,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-10T17:22:20.470725+02:00,KAUF,3914365,Will LA Galaxy keep the most clean sheets in the 2026 MLS?,20.6757,0.995,-20.5723,82.2892,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-10T17:22:20.470725+02:00,KAUF,3913426,Will NK Radomlje be relegated from the 2026-27 Slovenian PrvaLiga?,20.6757,0.995,-20.5723,61.7169,"Spread 0.50%, Liquiditaet 34 USD"
+2026-10-10T17:22:20.470725+02:00,KAUF,3543823,Will Nacional be runner-up in the 2026-27 Primeira Liga?,20.6757,0.995,-20.5723,41.1446,"Spread 0.50%, Liquiditaet 2 USD"

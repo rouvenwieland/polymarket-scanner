@@ -1,5 +1,5 @@
 {
-  "cash": 44.52071440440428,
+  "cash": 55.93858692054028,
   "positions": [
     {
       "market_id": "3365462",
@@ -77,39 +77,6 @@
       "liquiditaet": 16.19699,
       "end_date": "2027-01-27T04:59:00Z",
       "eingestiegen": "2026-10-08T09:46:22.624889+02:00"
-    },
-    {
-      "market_id": "5379291",
-      "frage": "Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?",
-      "slug": "titled-tuesday-2026-10-13-top5-jeffery-xiong",
-      "shares": 2.8803105539857383,
-      "einstandskurs": 0.9899977373976455,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 84.3,
-      "end_date": "2026-10-28T03:59:00Z",
-      "eingestiegen": "2026-10-09T21:14:19.541763+02:00"
-    },
-    {
-      "market_id": "5064464",
-      "frage": "ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half",
-      "slug": "fl1-tro-olm-2026-10-11-btts-second-half",
-      "shares": 5.546712263689686,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 91.4393,
-      "end_date": "2026-10-11T18:45:00Z",
-      "eingestiegen": "2026-10-10T04:32:32.251449+02:00"
-    },
-    {
-      "market_id": "5047507",
-      "frage": "Atlético Nacional leading at halftime?",
-      "slug": "col1-atn-adp-2026-10-10-halftime-result-home",
-      "shares": 2.9908496984605786,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 49.3051,
-      "end_date": "2026-10-23T01:00:00Z",
-      "eingestiegen": "2026-10-10T04:32:32.251449+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
