@@ -227,7 +227,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
         "side": "yes",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.07,
+        "letzter_kurs": 0.06,
         "fee_gezahlt": 0.05
       }
     },
@@ -288,7 +288,7 @@
         "market_id": "5152046",
         "side": "yes",
         "einstandskurs": 0.5,
-        "letzter_kurs": 0.515,
+        "letzter_kurs": 0.445,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -342,7 +342,7 @@
         "market_id": "8939:35603",
         "side": "no",
         "einstandskurs": 0.85,
-        "letzter_kurs": 0.85,
+        "letzter_kurs": 0.86,
         "fee_gezahlt": 0.0
       }
     }

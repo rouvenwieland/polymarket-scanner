@@ -11023,5 +11023,3680 @@
     "checked_at": "2026-10-09T00:58:45.709425+00:00",
     "frage_a": "Will Robert F. Kennedy Jr. be the 2028 Republican Vice-Presidential nominee?",
     "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:4991193__sxbet:0xdcd4f03d4dd1a49e9db35035e464aafd9809e51942d450561351f08023538c08": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will FC Viktoria Plzeň vs. FK Mladá Boleslav end in a draw?",
+    "frage_b": "FC Viktoria Plzen vs Mlada Boleslav - wer gewinnt?"
+  },
+  "polymarket:5020790__sxbet:0x0f77b7e0fb1723620fb7a2a92fb7457fae6949ca6ec3f2e88e5261a13f1002b6": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Heart of Midlothian FC vs. St Mirren FC end in a draw?",
+    "frage_b": "Heart of Midlothian vs St. Mirren - wer gewinnt?"
+  },
+  "polymarket:5243947__sxbet:0x877ca6d426a0c634c0b7450b0ec83d762ba84313a6804512d8b66ad91a0f7e1f": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will KRC Genk vs. KV Kortrijk end in a draw?",
+    "frage_b": "KRC Genk vs KV Kortrijk - wer gewinnt?"
+  },
+  "polymarket:5256999__sxbet:0xf3f4c03841e85f6b39ed28b0224a461a8796812c7fc414da267f6e670c9b4f5e": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Cheonan City FC vs. Gyeongnam FC end in a draw?",
+    "frage_b": "Cheonan City vs Gyeongnam FC - wer gewinnt?"
+  },
+  "polymarket:5399483__sxbet:0xfe6d41fc83f8f7c0fe6a84de377feb1d8ee1691731e5e6b839de40e3de0dc8b8": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will CSD Independiente del Valle vs. SD Aucas end in a draw?",
+    "frage_b": "Independiente del Valle vs Aucas - wer gewinnt?"
+  },
+  "polymarket:5046318__sxbet:0x78564e40ec59b5af10650d93e87ae829863ff364530b82b1e0b930439ce1a4b2": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Once Caldas vs. Llaneros FC end in a draw?",
+    "frage_b": "Once Caldas vs Llaneros FC - wer gewinnt?"
+  },
+  "polymarket:5238439__sxbet:0x03497ff9a9d40162b0b424cffb9116fb233405a0996a3dfb0b7a75e5ef996961": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Norrby IF vs. Osters IF end in a draw?",
+    "frage_b": "Norrby IF vs Östers IF - wer gewinnt?"
+  },
+  "polymarket:5218743__sxbet:0x5155c26ccfa03ceb44adcc7077c4ed204ccd9dae502fdf538c21947ab26c8221": {
+    "same_event": false,
+    "reason": "Questions concern different outcomes (KO/TKO win vs overall winner); not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Brendson Ribeiro win by KO or TKO?",
+    "frage_b": "Felipe Franco vs Brendson Ribeiro - wer gewinnt?"
+  },
+  "polymarket:5043184__sxbet:0xd572acce7c26265314f785a395550ed9978f203e3cc0360334c9e8f7178f5797": {
+    "same_event": false,
+    "reason": "One asks for an exact score, the other asks who wins; not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: CA Central Córdoba 3 - 5 Estudiantes de La Plata?",
+    "frage_b": "Central Cordoba Santiago del Estero vs Estudiantes de La Plata - wer gewinnt?"
+  },
+  "polymarket:5416876__sxbet:0x2c60c8961c163bc6184a8afdec9748c0b8667bff08684a97e383e37542a50439": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will FC Supra Du Quebec vs. Vancouver FC end in a draw?",
+    "frage_b": "Supra Du Quebec vs Vancouver FC - wer gewinnt?"
+  },
+  "polymarket:5113729__sxbet:0x046840111c1874beaec90d74357ebe29db9baa6c44dd49ab28811b1284bebb3e": {
+    "same_event": false,
+    "reason": "One asks about a specific margin range, the other asks who wins; not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Margin: San Diego State by 1-6",
+    "frage_b": "Oregon State Beavers vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5113731__sxbet:0x046840111c1874beaec90d74357ebe29db9baa6c44dd49ab28811b1284bebb3e": {
+    "same_event": false,
+    "reason": "One asks about a specific margin range, the other asks who wins; not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Margin: San Diego State by 7-12",
+    "frage_b": "Oregon State Beavers vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5113735__sxbet:0x046840111c1874beaec90d74357ebe29db9baa6c44dd49ab28811b1284bebb3e": {
+    "same_event": false,
+    "reason": "One asks about a specific margin range, the other asks who wins; not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Margin: San Diego State by 13-18",
+    "frage_b": "Oregon State Beavers vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5113738__sxbet:0x046840111c1874beaec90d74357ebe29db9baa6c44dd49ab28811b1284bebb3e": {
+    "same_event": false,
+    "reason": "One asks about a specific margin range, the other asks who wins; not opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Margin: San Diego State by 19-24",
+    "frage_b": "Oregon State Beavers vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:4991152__sxbet:0x428772d68cadcfb31314d4b5c404b63ac90a4834a892ed2ad40e04396a0f3e94": {
+    "same_event": false,
+    "reason": "One question asks about a draw, the other asks who wins; they are not logical opposites.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will FC Zbrojovka Brno vs. FK Jablonec end in a draw?",
+    "frage_b": "FC Zbrojovka Brno vs FK Jablonec - wer gewinnt?"
+  },
+  "polymarket:5240844__sxbet:0x2ef4def6f2a89ef8c59e79f6ab71294cc20099ad44d86059c90d9ebc765ace23": {
+    "same_event": false,
+    "reason": "frage_a asks about draw; frage_b asks who wins (different binary outcomes)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will FC Zurich vs. FC Thun end in a draw?",
+    "frage_b": "FC Zurich vs FC Thun - wer gewinnt?"
+  },
+  "polymarket:5218745__sxbet:0x5155c26ccfa03ceb44adcc7077c4ed204ccd9dae502fdf538c21947ab26c8221": {
+    "same_event": false,
+    "reason": "frage_a asks win by KO/TKO; frage_b asks overall winner",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Felipe Franco win by KO or TKO?",
+    "frage_b": "Felipe Franco vs Brendson Ribeiro - wer gewinnt?"
+  },
+  "polymarket:5243950__sxbet:0x9b5aed588652c728720c243863045e517227ac4c35f007069cc8ec0d0eb1a4c2": {
+    "same_event": false,
+    "reason": "frage_a asks about draw; frage_b asks who wins (different binary outcomes)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will SV Zulte Waregem vs. KAA Gent end in a draw?",
+    "frage_b": "SV Zulte Waregem vs KAA Gent - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5088032": {
+    "same_event": false,
+    "reason": "different teams and outcomes (Bolívar win vs Necaxa 4-3 score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Bolívar win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015474": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Barcelona to score first vs. Getafe CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010123": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first vs. Le Mans FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158917": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Bayern München to score first vs. Viking FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5003958": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Internazionale Milano to score first vs. Parma Calcio 1913?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5452265": {
+    "same_event": false,
+    "reason": "different teams and outcomes (Al Nassr win vs Necaxa 4-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al Nassr Club win on 2026-10-12?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "polymarket:5218909__sxbet:0x399e5e98dc6c248c9e3cb7722a7c5758ad945a07cf9ffb0e1e768d8921eefeb3": {
+    "same_event": false,
+    "reason": "frage_a asks KO/TKO win; frage_b asks overall winner",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Melissa Gatto win by KO or TKO?",
+    "frage_b": "Ernesta Kareckaite vs Melissa Gatto - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5137002": {
+    "same_event": false,
+    "reason": "different teams and outcomes (Always Ready win vs Necaxa 4-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Always Ready win on 2026-10-12?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021053": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Rangers FC to score first vs. Kilmarnock FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5044167": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sport Lisboa e Benfica to score first vs. Vitória SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:4992621": {
+    "same_event": false,
+    "reason": "different teams and outcomes (Al Hilal win vs Necaxa 4-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al Hilal Saudi Club win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009816": {
+    "same_event": false,
+    "reason": "frage_a about first scorer; frage_b about exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Bayern München to score first vs. FC Augsburg?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5241660": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AEK Athens to score first vs. OFI Crete?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046557": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Universitatea Craiova CS to score first vs. FK Csíkszereda Miercurea Ciuc?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158732": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Arsenal FC to score first vs. Lille OSC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5283939": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Union Saint-Gilloise to score first vs. Oud-Heverlee Leuven?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046612": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CR Vasco da Gama to score first vs. Clube do Remo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5218912__sxbet:0x399e5e98dc6c248c9e3cb7722a7c5758ad945a07cf9ffb0e1e768d8921eefeb3": {
+    "same_event": false,
+    "reason": "Different win conditions (KO/TKO vs overall winner); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Ernesta Kareckaite win by KO or TKO?",
+    "frage_b": "Ernesta Kareckaite vs Melissa Gatto - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4988690": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Porto to score first vs. CS Marítimo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158824": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Internazionale Milano to score first vs. Club Brugge KV?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158871": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Barcelona to score first vs. Galatasaray SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5037402": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Beşiktaş JK to score first vs. Kocaelispor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452308": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Nassr Club to score first vs. FK Neftchi Fargona?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4992792": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Hilal Saudi Club to score first vs. Al Ittihad Saudi Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5257006__sxbet:0x71c8740c07a6e0b66ab976564b763c3f6251259ff7beb743da9f98fc9331dd37": {
+    "same_event": false,
+    "reason": "Different teams (Gimhae FC vs Gimhae City) and propositions (draw vs winner); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Gimhae FC vs. Chungnam Asan FC end in a draw?",
+    "frage_b": "Gimhae City vs Chungnam Asan FC - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5240756": {
+    "same_event": false,
+    "reason": "Different teams and propositions (Club Brugge win vs Necaxa 4-3 score); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Brugge win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009349": {
+    "same_event": false,
+    "reason": "Different propositions (score first vs draw 3-3); not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Arsenal FC to score first vs. Leeds United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015563": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Madrid CF to score first vs. Villarreal CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031230": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AFC Ajax to score first vs. NEC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5240809": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Club Brugge to score first vs. RAAL La Louviere?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNHLSPREAD-26OCT09NYRWSH-NYR5__polymarket:5036271": {
+    "same_event": false,
+    "reason": "Win vs win by >4.5 goals – different conditions.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will New York Red Bulls win on 2026-10-10?",
+    "frage_b": "New York R wins by over 4.5 goals"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4993638": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Rosenborg BK to score first vs. Sandefjord Fotball?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036545": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Philadelphia Union to score first vs. Real Salt Lake?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009360": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "TSG 1899 Hoffenheim to score first vs. Hamburger SV?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021164": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Heart of Midlothian FC to score first vs. St Mirren FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027266": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "ŠK Slovan Bratislava to score first vs. MFK Skalica?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031185": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Twente to score first vs. Fortuna Sittard?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088477": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CR Flamengo to score first vs. Fluminense FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5420523": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bali United to score first vs. Persijap Jepara?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5218800__sxbet:0xc81118b7d550b23bf195bd5cf413097af19d5c52923cfe2dd0219dd23f2e3699": {
+    "same_event": false,
+    "reason": "Method of victory (KO/TKO) vs overall winner – not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will RJ Harris win by KO or TKO?",
+    "frage_b": "Allen Frye vs RJ Harris - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5159009": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Liverpool FC to score first vs. LASK Linz?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5004029": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score first vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SSC Napoli to score first vs. Frosinone Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009266": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Lille OSC to score first vs. Le Havre AC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018330": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Plymouth Argyle FC to score first vs. AFC Wimbledon?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021878": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "York City FC to score first vs. Northampton Town FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047939": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sanfrecce Hiroshima to score first vs. Tōkyō Verdy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5237532": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Salzburg to score first vs. Grazer AK 1902?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036683": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Inter Miami CF to score first vs. D.C. United SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062800": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first vs. AJ Auxerre?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065792": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Betis Balompié to score first vs. CA Osasuna?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4991578": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Viktoria Plzeň to score first vs. FK Mladá Boleslav?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018376": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stockport County FC to score first vs. Barnsley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031278": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Utrecht to score first vs. Willem II Tilburg?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5066232": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Feyenoord Rotterdam vs. AZ: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5098156": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Atalanta BC to score first vs. Venezia FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5184259": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "VfB Stuttgart to score first vs. ŠK Slovan Bratislava?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4991626": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Hradec Králové to score first vs. SK Artis Brno?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027404": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC DAC 1904 Dunajská Streda to score first vs. MFK Zemplín Michalovce?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5399531": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Independiente del Valle to score first vs. SD Aucas?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065641": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first vs. RC Deportivo A Coruña?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009473": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AS Monaco FC to score first vs. Toulouse FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065943": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "RCD Mallorca to score first vs. UD Las Palmas?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5057505": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Juventus FC to score first vs. Cagliari Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4999653": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Seoul to score first vs. Jeju SK FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009595": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "VfB Stuttgart to score first vs. SC Paderborn 07?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010342": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "RB Leipzig to score first vs. Eintracht Frankfurt?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016698": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Inter San Carlos to score first vs. AD Municipal Pérez Zeledón?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018652": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Leicester City FC to score first vs. Peterborough United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021695": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chesterfield FC to score first vs. Crawley Town FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046928": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Slovan Liberec to score first vs. 1. FC Slovácko?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5072768": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "HNK Rijeka to score first vs. NK Slaven Belupo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088787": {
+    "same_event": false,
+    "reason": "Different outcomes: first scorer vs exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SE Palmeiras to score first vs. SC Corinthians Paulista?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257927": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "NK Celje to score first vs. Aluminij Kidricevo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5258032": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "KKS Lech Poznan to score first vs. WKS Slask Wroclaw?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5057368": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SS Lazio to score first vs. AC Monza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062797": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SC Freiburg to score first vs. FC Schalke 04?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062802": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hertha BSC to score first vs. SpVgg Greuther Fürth?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5091005": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Aarhus GF to score first vs. Sønderjyske Fodbold?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5288067": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Aris Thessaloniki to score first vs. Volos NPS?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291415": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Haugesund to score first vs. Sandnes Ulf?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5361057": {
+    "same_event": false,
+    "reason": "Different bet types: match winner vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Nacional de Football win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062588": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Southampton FC to score first vs. Portsmouth FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5082003": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "St. Louis City SC to score first vs. Los Angeles Galaxy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5279616": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Young Boys Bern to score first vs. Grasshopper Club Zurich?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361437": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Kongsvinger IL Toppfotball to score first vs. Ranheim?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4981696": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Go Ahead Eagles to score first vs. Sparta Rotterdam?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4995250": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bengaluru FC to score first vs. SC Delhi?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4998252": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Shanghai Shenhua FC to score first vs. Yunnan Yukun FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010201": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chelsea FC to score first vs. AFC Bournemouth?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018468": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bradford City AFC to score first vs. Leyton Orient FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018790": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Huddersfield Town AFC to score first vs. Sheffield Wednesday FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046882": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "São Paulo FC to score first vs. EC Vitória?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5054164": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ulsan HD FC to score first vs. Gwangju FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5240987": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Lugano to score first vs. FC Luzern?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5256176": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Persija Jakarta to score first vs. Psim Yogyakarta?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5258016": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Olimpija Ljubljana to score first vs. Mura Murska Sobota?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291323": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stroemsgodset IF to score first vs. Lyn 1896 FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065785": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "UD Almería to score first vs. CD Leganés?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4992330": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Tōkyō to score first vs. Urawa Red Diamonds?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018606": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Doncaster Rovers FC to score first vs. Burton Albion FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5089178": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "EC Bahia to score first vs. Mirassol FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5230439": {
+    "same_event": false,
+    "reason": "Different events: first team to score vs. final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Landskrona BoIS to score first vs. Sandvikens IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4986589": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Fenerbahçe SK to score first vs. Çaykur Rizespor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010339": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Manchester United FC to score first vs. Tottenham Hotspur FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015353": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Club Atlético de Madrid to score first vs. Deportivo Alavés?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021417": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Oldham Athletic AFC to score first vs. Accrington Stanley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021787": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Salford City FC to score first vs. Cheltenham Town FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031138": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Feyenoord Rotterdam to score first vs. AZ?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5057446": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AC Milan to score first vs. US Sassuolo Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5238484": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "IK Oddevold to score first vs. Nordic United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5313095": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hammarby IF to score first vs. Djurgardens IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046552": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Celta Fortuna vs. Real Sociedad de Fútbol B: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062937": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC St. Pauli 1910 to score first vs. Karlsruher SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303667": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Universidad Catolica del Ecuador to score first vs. CSD Macara?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5310661": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Persib Bandung to score first vs. Dewa United?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4992377": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Machida Zelvia to score first vs. Kyōto Sanga FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036499": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chicago Fire FC to score first vs. New York City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303966": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "NK Maribor to score first vs. NK Brinje Grosuplje?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5437053": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "HJK Helsinki to score first vs. AC Oulu?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5051745": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Kerala Blasters FC to score first vs. Inter Kashi FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4988598": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Santa Clara to score first vs. Casa Pia AC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5013660": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sunderland AFC vs. Brighton & Hove Albion FC: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5017823": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Palermo FC to score first vs. Empoli FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018560": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Mansfield Town FC to score first vs. Bromley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047984": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Kawasaki Frontale to score first vs. Nagoya Grampus?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5057298": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bologna FC 1909 to score first vs. US Lecce?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257945": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "KS Cracovia Krakow to score first vs. Zaglebie Lubin?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5266025": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Mjallby AIF to score first vs. Degerfors IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5295289": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hapoel Ramat Gan Givatayim FC vs. Beitar Jerusalem FC: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5435435": {
+    "same_event": false,
+    "reason": "Different events and bet types: match winner vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Olimpia win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5067898": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Calcio Padova to score first vs. Carrarese Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5132888": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Famalicão to score first vs. FC Alverca?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4957732": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "NEOM SC to score first vs. Al Hazem SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4998004": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chengdu Rongcheng FC to score first vs. Tianjin Jinmen Hu FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021555": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Rotherham United FC to score first vs. Gillingham FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021832": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tranmere Rovers FC to score first vs. Rochdale AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027576": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "NK Osijek to score first vs. NK Istra 1961?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036729": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Orlando City SC to score first vs. Columbus Crew?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5235987": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "RSC Anderlecht to score first vs. Cercle Brugge?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5363672": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Malmo FF to score first vs. Kalmar FF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5028073": {
+    "same_event": false,
+    "reason": "Different bet types (both teams to score vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "MFK Zemplín Michalovce vs. FC DAC 1904 Dunajská Streda: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062940": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Olympique de Marseille to score first vs. ES Troyes AC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4992717": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Ettifaq Saudi Club to score first vs. Al Khaleej Saudi Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009704": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stade Brestois 29 to score first vs. Angers SCO?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016328": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Red Star FC to score first vs. Clermont Foot 63?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5017897": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Benevento Calcio to score first vs. Cesena FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018011": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Virtus Entella to score first vs. SS Juve Stabia?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018422": {
+    "same_event": false,
+    "reason": "Questions refer to different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Cambridge United FC to score first vs. Blackpool FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036450": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Toronto FC to score first vs. CF Montréal?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036591": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "New England Revolution to score first vs. Seattle Sounders FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5037005": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Colorado Rapids SC to score first vs. San Jose Earthquakes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5040127": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CF América to score first vs. CF Monterrey?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158686": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "RB Leipzig to score first vs. PSV?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5238530": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Norrby IF to score first vs. Osters IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5015014": {
+    "same_event": false,
+    "reason": "Different teams and events (Atletico Madrid win vs Necaxa 4-3 score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Atlético de Madrid win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5046501": {
+    "same_event": false,
+    "reason": "Different teams and events (Universitario win vs Necaxa 4-3 score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Universitario de Deportes win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031324": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "PEC Zwolle to score first vs. SC Cambuur-Leeuwarden?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036868": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Nashville SC to score first vs. Austin FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5130807": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Göztepe SK to score first vs. Eyüpspor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5048906": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "IK Start to score first vs. Hamarkameratene?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5279144": {
+    "same_event": false,
+    "reason": "Different outcomes (first goal vs exact draw score)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SCR Altach to score first vs. Wolfsberger AC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNHL2PTOTAL-26OCT09NYRWSH-5__polymarket:5473597": {
+    "same_event": false,
+    "reason": "Different outcomes (first half goal vs over 4.5 goals in second period)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chicago Fire FC to score first in the 2nd half vs. New York City FC?",
+    "frage_b": "2nd Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXNHL2PTOTAL-26OCT09NYRWSH-5__polymarket:5473598": {
+    "same_event": false,
+    "reason": "different propositions (score first in 2nd half vs over 4.5 goals)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "New York City FC to score first in the 2nd half vs. Chicago Fire FC?",
+    "frage_b": "2nd Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5184350": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Aston Villa FC to score first vs. Fenerbahçe SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5214732": {
+    "same_event": false,
+    "reason": "different teams and outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al Qadisiyah Saudi Club win on 2026-10-16?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5067972": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Modena FC 2018 to score first vs. Hellas Verona FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5083276": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CF Cruz Azul to score first vs. Pumas de la UNAM?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5117637": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Valladolid CF to score first vs. Albacete Balompié?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5289500": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "KVC Westerlo to score first vs. Royal Antwerp FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4999701": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Gimcheon Sangmu FC to score first vs. FC Anyang?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021237": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Falkirk FC to score first vs. Dundee FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021509": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Shrewsbury Town FC to score first vs. Exeter City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027527": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "GNK Dinamo Zagreb to score first vs. HNK Hajduk Split?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137328": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CA Paranaense to score first vs. Associação Chapecoense de Futebol?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257642": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Igdir FK to score first vs. Batman Petrolspor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5235933__sxbet:0xe03eb26d7b907a960a11cb2159844e4e724799af9fe4b2a7031d9381a5c968b9": {
+    "same_event": false,
+    "reason": "different propositions (draw vs who wins)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Cercle Brugge vs. RSC Anderlecht end in a draw?",
+    "frage_b": "Cercle Brugge KSV vs RSC Anderlecht - wer gewinnt?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5031370": {
+    "same_event": false,
+    "reason": "different propositions (score first vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Telstar 1963 to score first vs. ADO Den Haag?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036913": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Minnesota United FC to score first vs. Houston Dynamo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5306087": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Legia Warszawa to score first vs. Wisla Krakow?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5452495": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al-Ittihad Club win on 2026-10-13?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5462017": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Nara Club win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4986451": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Amed Sportif to score first vs. Gençlerbirliği SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4991672": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bohemians Praha 1905 to score first vs. FC Baník Ostrava?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009712": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SV Darmstadt 98 to score first vs. FC Energie Cottbus?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010198": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Middlesbrough FC to score first vs. Wolverhampton Wanderers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016402": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Nantes to score first vs. Stade de Reims?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018744": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stevenage FC to score first vs. Wigan Athletic FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047108": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CA Mineiro to score first vs. Santos FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158962": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Club Atlético de Madrid to score first vs. Manchester United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5233810": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ostersunds FK to score first vs. Varbergs BoIS?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361763": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CA Juventud de Las Piedras vs. Racing Club Montevideo: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5371938": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Ciudad de Bolivar win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5445492": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Shamrock Rovers to score first vs. Bohemians Dublin FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010337": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Cardiff City FC to score first vs. Blackburn Rovers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062585": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "1. FC Köln to score first vs. Borussia Mönchengladbach?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062597": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Everton FC to score first vs. Hull City AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5072722": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "NK Varaždin to score first vs. NK Lokomotiva Zagreb?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5085352": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Arouca to score first vs. CF Estrela da Amadora?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5114708": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Newcastle United FC to score first vs. Coventry City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009804": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Swansea City AFC to score first vs. Norwich City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009950": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Paris FC to score first vs. FC Lorient?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010028": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bayer 04 Leverkusen to score first vs. 1. FSV Mainz 05?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015462": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Eldense to score first vs. Córdoba CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5294786": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Birmingham Legion FC to score first vs. Sporting Jax?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5411561": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Turun Palloseura to score first vs. FF Jaro?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5421185": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Persita Tangerang to score first vs. Garuda Yaksa?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5422574": {
+    "same_event": false,
+    "reason": "different markets: first scorer vs exact 3-3 draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Manta FC to score first vs. CD Tecnico Universitario?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4987433": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Deportivo Toluca FC to score first vs. Tigres de la UANL?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:4992618": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al Ettifaq Saudi Club win on 2026-10-10?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158778": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Villarreal CF to score first vs. SSC Napoli?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5437006": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Inter Turku to score first vs. Kuopion Palloseura?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5453183": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tractor Tabriz vs. Al-Shamal: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5453273": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "GKS Katowice to score first vs. Wieczysta Krakow?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4974434": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sporting FC to score first vs. CS Cartaginés?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5003885": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "ACF Fiorentina to score first vs. Genoa CFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009592": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bristol City FC to score first vs. Charlton Athletic FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009961": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "1. FC Nürnberg to score first vs. VfL Wolfsburg?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010480": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sheffield United FC to score first vs. Lincoln City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015341": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CE Sabadell FC to score first vs. AD Ceuta FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5015560": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Celta Fortuna to score first vs. Real Sociedad de Fútbol B?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021647": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bristol Rovers FC to score first vs. Barnet FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5043990": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Académico de Viseu FC to score first vs. Estoril Praia?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062591": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "VfL Bochum to score first vs. DSC Arminia Bielefeld?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065633": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Castellón to score first vs. FC Andorra?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5072562": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "MŠK Žilina to score first vs. MFK Ružomberok?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5241931": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SK Sturm Graz to score first vs. FK Austria Wien?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5184121": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Madrid CF to score first vs. AS Roma?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5049679": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Silkeborg IF to score first vs. AC Horsens?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062943": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Manchester City FC to score first vs. Liverpool FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5117997": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Oviedo to score first vs. SD Eibar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137519": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Red Bull Bragantino to score first vs. Cruzeiro EC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5294651": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Olympiacos Piraeus to score first vs. Panathinaikos Athens?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5305024": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Universidad Catolica del Ecuador vs. CSD Macara: Both Teams to Score",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4987385": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Club León FC to score first vs. Club Puebla?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4991358": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Botoşani to score first vs. FC UTA Arad?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4992231": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Cerezo Ōsaka to score first vs. Yokohama F·Marinos?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009581": {
+    "same_event": false,
+    "reason": "Different bet types: first to score vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first vs. Sunderland AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010204": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "1. FC Union Berlin to score first vs. SV 07 Elversberg?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010527": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Wrexham AFC to score first vs. Derby County FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010573": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Millwall FC to score first vs. Preston North End FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018061": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Pisa SC to score first vs. L.R. Vicenza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5020933": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hibernian FC to score first vs. Dundee United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5040082": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Guadalajara to score first vs. Atlas FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5239504": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tampereen Ilves to score first vs. IFK Mariehamn?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5240896": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Thun to score first vs. FC Zurich?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5240942": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Sion to score first vs. Servette Geneva?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5241614": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Asteras Tripolis to score first vs. Atromitos Athinon?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5337955": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Wydad Athletic Club win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5443056": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Orense SC to score first vs. CD Cuenca?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036637": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Charlotte FC to score first vs. FC Dallas?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5039962": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Club Tijuana to score first vs. FC Juárez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5044084": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs exact final score 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Rio Ave FC to score first vs. CD Nacional?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5065951": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Real Racing Club to score first vs. Valencia CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5072607": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Železiarne Podbrezová to score first vs. FC Spartak Trnava?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5098203": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Torino FC to score first vs. Udinese Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5134582": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sabah FK to score first vs. SK Slavia Praha?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5134583": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SK Slavia Praha to score first vs. Sabah FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5337988": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Raja Club Athletic win on 2026-10-13?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5427879": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Metropolitanos FC to score first vs. Deportivo Rayo Zuliano?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5427880": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Deportivo Rayo Zuliano to score first vs. Metropolitanos FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428326": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sumqayit FK to score first vs. Gabala FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428327": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Gabala FK to score first vs. Sumqayit FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428861": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Deportivo Tachira to score first vs. UCV FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428862": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "UCV FC to score first vs. Deportivo Tachira?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428926": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Academia Anzoategui FC to score first vs. Carabobo FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428927": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Carabobo FC to score first vs. Academia Anzoategui FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428972": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Caracas FC to score first vs. Zamora FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428973": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Zamora FC to score first vs. Caracas FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5429018": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Monagas SC to score first vs. Estudiantes de Merida?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5429019": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Estudiantes de Merida to score first vs. Monagas SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5437862": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Kaspiy Aktau to score first vs. FC Altai Oskemen?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5437863": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Altai Oskemen to score first vs. FC Kaspiy Aktau?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5443003": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Trujillanos FC to score first vs. Academia Puerto Cabello?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5443004": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Academia Puerto Cabello to score first vs. Trujillanos FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451227": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sumsel United to score first vs. Persiku Kudus?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451228": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Persiku Kudus to score first vs. Sumsel United?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451319": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Barito Putera to score first vs. Persiba Balikpapan?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451320": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Persiba Balikpapan to score first vs. Barito Putera?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452170": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tractor Tabriz to score first vs. Al-Shamal?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452172": {
+    "same_event": false,
+    "reason": "Different propositions: neither team scores first vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tractor Tabriz vs. Al-Shamal: Neither team to score first?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452216": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Wasl FC to score first vs. Al Ahli Saudi FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452217": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score vs. exact 3-3 draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Ahli Saudi FC to score first vs. Al Wasl FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452262": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Quwa Al Jawiya to score first vs. Al Ain FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452263": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Ain FC to score first vs. Al Quwa Al Jawiya?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452354": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Gharafa SC to score first vs. Esteghlal FC Tehran?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452355": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Esteghlal FC Tehran to score first vs. Al Gharafa SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452400": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Newcastle United Jets to score first vs. Gamba Osaka?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452401": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Gamba Osaka to score first vs. Newcastle United Jets?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452446": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Kyoto Sanga FC to score first vs. Ratchaburi FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452447": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ratchaburi FC to score first vs. Kyoto Sanga FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452492": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Sadd SC to score first vs. Al Hilal SFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452493": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Hilal SFC to score first vs. Al Sadd SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452538": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al-Ittihad Club to score first vs. Shabab Al Ahli Dubai?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5452539": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Shabab Al Ahli Dubai to score first vs. Al-Ittihad Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5453184": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score first half vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tractor Tabriz vs. Al-Shamal: Both Teams to Score in First Half",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456235": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Baku Sporting to score first vs. Cabrayil?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5469048": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer in 2nd half vs final score draw",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Toronto FC to score first in the 2nd half vs. CF Montréal?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5469049": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CF Montréal to score first in the 2nd half vs. Toronto FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5214737": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Al Hilal Saudi Club win on 2026-10-16?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460203": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 0 - 4 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460208": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 0 - 5 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460209": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 1 - 4 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460214": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 1 - 5 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460215": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 2 - 4 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460220": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Cologne 3 - 4 1. FC Saarbrucken?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460847": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Hereford FC 3 - 4 Hednesford Town?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4995307": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Goa to score first vs. Chennaiyin FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4995308": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Chennaiyin FC to score first vs. FC Goa?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4995759": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "South Melbourne FC to score first vs. Melbourne Victory FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:4995760": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Melbourne Victory FC to score first vs. South Melbourne FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009264": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hannover 96 to score first vs. 1. FC Magdeburg?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5009481": {
+    "same_event": false,
+    "reason": "Different propositions; not complementary.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SG Dynamo Dresden to score first vs. VfL Osnabrück?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5010389": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Burnley FC to score first vs. Watford FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016744": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Puntarenas FC to score first vs. LD Alajuelense?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016745": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "LD Alajuelense to score first vs. Puntarenas FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016792": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CS Herediano to score first vs. AD San Carlos?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018107": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "US Cremonese to score first vs. SS Arezzo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5018515": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Luton Town FC to score first vs. Wycombe Wanderers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021741": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Colchester United FC to score first vs. Newport County AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023533": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Aurora FC to score first vs. CSD Xelajú MC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023534": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Xelajú MC to score first vs. Aurora FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023581": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Suchitepéquez to score first vs. CSD Mixco?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023582": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Mixco to score first vs. CSD Suchitepéquez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023627": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Malacateco to score first vs. CD Guastatoya?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5023628": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Guastatoya to score first vs. CD Malacateco?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027312": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "MFK Dukla Banská Bystrica to score first vs. AS Trenčín?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027357": {
+    "same_event": false,
+    "reason": "Different bet types: first goal scorer vs exact draw score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Košice to score first vs. KFC Komárno?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027358": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "KFC Komárno to score first vs. FC Košice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5036775": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Atlanta United FC to score first vs. FC Cincinnati?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046548": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Qanah Club to score first vs. El Masry SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046551": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Masry SC to score first vs. El Qanah Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046795": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Zamalek SC to score first vs. El Ahly SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046797": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Ahly SC to score first vs. Zamalek SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046810": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FCV Farul Constanţa to score first vs. FC Petrolul Ploieşti?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5046814": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Petrolul Ploieşti to score first vs. FCV Farul Constanţa?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047152": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Teplice to score first vs. SK Sigma Olomouc?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047155": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SK Sigma Olomouc to score first vs. FK Teplice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047328": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AC Sparta Praha to score first vs. FK Pardubice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5047330": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Pardubice to score first vs. AC Sparta Praha?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5048088": {
+    "same_event": false,
+    "reason": "Different events and bet types: match winner vs unrelated exact score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Abha Saudi Club win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5048952": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Aalesunds FK to score first vs. Sarpsborg 08 FF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5062593": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "OGC Nice to score first vs. RC Strasbourg Alsace?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070219": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Deportivo San Pedro to score first vs. Comunicaciones FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070220": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Comunicaciones FC to score first vs. Deportivo San Pedro?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070265": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Municipal to score first vs. CD Marquense?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070266": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CD Marquense to score first vs. CSD Municipal?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070311": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Antigua GFC to score first vs. CSD Cobán Imperial?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5070312": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CSD Cobán Imperial to score first vs. Antigua GFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088308": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Mokawloon El Arab SC to score first vs. ZED FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088315": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "ZED FC to score first vs. El Mokawloon El Arab SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088321": {
+    "same_event": false,
+    "reason": "Different bet types: neither scores first vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Mokawloon El Arab SC vs. ZED FC: Neither team to score first?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088662": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Modern SC to score first vs. Sharkia ENPPI?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088664": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Sharkia ENPPI to score first vs. Modern SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088905": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Smouha SC to score first vs. Ghazl El Mahalla SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5088907": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ghazl El Mahalla SC to score first vs. Smouha SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5089020": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "SC Internacional to score first vs. Grêmio FBPA?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5089095": {
+    "same_event": false,
+    "reason": "Different bet types: first scorer vs exact final score",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Pyramids FC to score first vs. Ceramica Cleopatra Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5089098": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ceramica Cleopatra Club to score first vs. Pyramids FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5090833": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Vålerenga Fotball to score first vs. KFUM-Kameratene Oslo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5091371": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Mumbai City FC to score first vs. Churchill Brothers SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5091416": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "North East United FC to score first vs. Mohun Bagan Super Giant?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5091417": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Mohun Bagan Super Giant to score first vs. North East United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137339": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "National Bank of Egypt Club to score first vs. Tala'ea El Gaish SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137341": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tala'ea El Gaish SC to score first vs. National Bank of Egypt Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137345": {
+    "same_event": false,
+    "reason": "Neither team to score first vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "National Bank of Egypt Club vs. Tala'ea El Gaish SC: Neither team to score first?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137531": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Abo Qir Semad SC to score first vs. Asyut Petroleum SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137532": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Asyut Petroleum SC to score first vs. Abo Qir Semad SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137657": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Ittihad SC El Iskandary to score first vs. El Gouna SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137660": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Gouna SC to score first vs. El Ittihad SC El Iskandary?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137661": {
+    "same_event": false,
+    "reason": "Neither team to score first vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Ittihad SC El Iskandary vs. El Gouna SC: Neither team to score first?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137783": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Montakhab Suez Petrojet to score first vs. Wadi Degla SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5137786": {
+    "same_event": false,
+    "reason": "First scorer vs exact 3-3 draw are different outcomes",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Wadi Degla SC to score first vs. Montakhab Suez Petrojet?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146727": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Burnley FC to score first vs. Charlton Athletic FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146728": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Charlton Athletic FC to score first vs. Burnley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146773": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Wolverhampton Wanderers FC to score first vs. Bolton Wanderers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146774": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bolton Wanderers FC to score first vs. Wolverhampton Wanderers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146819": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bristol City FC to score first vs. Blackburn Rovers FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146820": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Blackburn Rovers FC to score first vs. Bristol City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146865": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Wrexham AFC to score first vs. West Bromwich Albion FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146866": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "West Bromwich Albion FC to score first vs. Wrexham AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146911": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Millwall FC to score first vs. Swansea City AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146912": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Swansea City AFC to score first vs. Millwall FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146957": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Cardiff City FC to score first vs. Watford FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5146958": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Watford FC to score first vs. Cardiff City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5147003": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stoke City FC to score first vs. Middlesbrough FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5147004": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Middlesbrough FC to score first vs. Stoke City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5147049": {
+    "same_event": false,
+    "reason": "Different event types: first goal scorer vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Birmingham City FC to score first vs. Preston North End FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5147050": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Preston North End FC to score first vs. Birmingham City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5149967": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CS Cartaginés to score first vs. Puntarenas FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5149968": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Puntarenas FC to score first vs. CS Cartaginés?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5150015": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AD San Carlos to score first vs. Inter San Carlos?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5150016": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Inter San Carlos to score first vs. AD San Carlos?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158086": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CA Boca Juniors to score first vs. CR Vasco da Gama?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5158087": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "CR Vasco da Gama to score first vs. CA Boca Juniors?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5229384": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Yelimai to score first vs. FC Aktobe?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5229385": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Aktobe to score first vs. FC Yelimai?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5231379": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Kairat Almaty to score first vs. Zhetysu Taldykorgan?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5231380": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Zhetysu Taldykorgan to score first vs. FC Kairat Almaty?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5234488": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Zhenis to score first vs. FK Atyrau?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5234489": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Atyrau to score first vs. FC Zhenis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236368": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Cukaricki Belgrade to score first vs. FK Macva Sabac?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236369": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Macva Sabac to score first vs. FK Cukaricki Belgrade?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236414": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK IMT Novi Beograd to score first vs. FK Radnik Surdulica?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236415": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Radnik Surdulica to score first vs. FK IMT Novi Beograd?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236460": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Radnicki 1923 Kragujevac to score first vs. FK Crvena Zvezda Belgrade?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5236461": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Crvena Zvezda Belgrade to score first vs. FK Radnicki 1923 Kragujevac?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5256129": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Arema FC to score first vs. Bhayangkara Presisi Lampung FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257734": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Istanbulspor AS to score first vs. Esenler Erokspor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257735": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Esenler Erokspor to score first vs. Istanbulspor AS?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5275510": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ulytau FC to score first vs. FC Okzhetpes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5275511": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Okzhetpes to score first vs. Ulytau FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5277805": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Orebro SK to score first vs. Ljungskile SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5277806": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Ljungskile SK to score first vs. Orebro SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5279854": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Radnicki Nis to score first vs. FK Vojvodina Novi Sad?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5279855": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Vojvodina Novi Sad to score first vs. FK Radnicki Nis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5282116": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Kaisar Kyzylorda to score first vs. FC Ordabasy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5282117": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Ordabasy to score first vs. Kaisar Kyzylorda?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5285196": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Partizan Belgrade to score first vs. FK Novi Pazar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5285197": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Novi Pazar to score first vs. FK Partizan Belgrade?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5286439": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "IK Brage to score first vs. Helsingborgs IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5286440": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Helsingborgs IF to score first vs. IK Brage?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5290897": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Zemun to score first vs. FK Zeleznicar Pancevo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5290898": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Zeleznicar Pancevo to score first vs. FK Zemun?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291276": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Egersunds IK to score first vs. Hoedd IL?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291277": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hoedd IL to score first vs. Egersunds IK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291368": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Odds BK to score first vs. Bryne FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291369": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Bryne FK to score first vs. Odds BK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291460": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stabaek IF to score first vs. Stroemmen IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5291461": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Stroemmen IF to score first vs. Stabaek IF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5294969": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Pittsburgh Riverhounds to score first vs. Hartford Athletic?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5294970": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Hartford Athletic to score first vs. Pittsburgh Riverhounds?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5295015": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "El Paso Locomotive FC to score first vs. Orange County SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5295016": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Orange County SC to score first vs. El Paso Locomotive FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303876": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Widzew Lodz to score first vs. GKS Piast Gliwice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303965": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Pogon Szczecin to score first vs. Korona Kielce?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303967": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Korona Kielce to score first vs. Pogon Szczecin?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5324197": {
+    "same_event": false,
+    "reason": "Different bet types: match winner vs exact final score 4-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Club Almirante Brown win on 2026-10-11?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5329306": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "PAOK Thessaloniki to score first vs. PAE PS Kalamata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5329307": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "PAE PS Kalamata to score first vs. PAOK Thessaloniki?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5335525": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FK Mladost Lucani to score first vs. OFK Beograd?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5335526": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "OFK Beograd to score first vs. FK Mladost Lucani?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361323": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "New Mexico United to score first vs. Monterey Bay FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361324": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Monterey Bay FC to score first vs. New Mexico United?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5368221": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Al Qadsiah to score first vs. Pakhtakor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5424987": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "PSS Sleman to score first vs. PSM Makassar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428378": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Kyzylzhar SK to score first vs. FC Irtysh Pavlodar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451273": {
+    "same_event": false,
+    "reason": "Different bet types: first team to score vs exact final score draw 3-3.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Adhyaksa Bekasi to score first vs. PSGC Ciamis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5451274": {
+    "same_event": false,
+    "reason": "Different proposition (first scorer vs draw 3-3)",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "PSGC Ciamis to score first vs. FC Adhyaksa Bekasi?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5459466": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5459552": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5459582": {
+    "same_event": false,
+    "reason": "Specific score 1-4 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: UD Ourense 1 - 4 Barakaldo CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5459897": {
+    "same_event": false,
+    "reason": "Specific score 5-5 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Antequera CF 5 - 5 FC Cartagena?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460006": {
+    "same_event": false,
+    "reason": "Specific score 1-5 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: SD Ponferradina 1 - 5 Real Aviles CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460050": {
+    "same_event": false,
+    "reason": "Specific score 1-5 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: CF Rayo Majadahonda 1 - 5 Real Murcia CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460109": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460484": {
+    "same_event": false,
+    "reason": "Specific score 2-5 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Alemannia Aachen 2 - 5 FC Viktoria Cologne?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460500": {
+    "same_event": false,
+    "reason": "Specific score 0-0 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Dusseldorf 0 - 0 SC Verl?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460516": {
+    "same_event": false,
+    "reason": "Specific score 1-4 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Fortuna Dusseldorf 1 - 4 SC Verl?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460732": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460772": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460846": {
+    "same_event": false,
+    "reason": "Specific score 2-5 vs draw 3-3",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Hereford FC 2 - 5 Hednesford Town?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460856": {
+    "same_event": false,
+    "reason": "Any Other Score not exact negation of Draw 3-3 due to other specific scores",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460893": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: King's Lynn Town 4 - 5 Buxton FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5460896": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461160": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Billericay Town 0 - 5 Farnborough FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461173": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Billericay Town 2 - 5 Farnborough FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461180": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Billericay Town 4 - 5 Farnborough FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461183": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461426": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Dover Athletic FC 2 - 4 Dorking Wanderers?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461428": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Dover Athletic FC 4 - 2 Dorking Wanderers?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5461440": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5462177": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Roasso Kumamoto 0 - 0 Ehime FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5462214": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5462296": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Any Other Score?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5016793": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AD San Carlos to score first vs. CS Herediano?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5021740": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Newport County AFC to score first vs. Colchester United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5027311": {
+    "same_event": false,
+    "reason": "Not exact opposite propositions",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "AS Trenčín to score first vs. MFK Dukla Banská Bystrica?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5053884": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Qingdao Xihaian FC to score first vs. Dalian Yingbo FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5053932": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Liaoning Tieren FC to score first vs. Wuhan San Zhen FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5057219": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Como 1907 to score first vs. AS Roma?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5067822": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "US Catanzaro 1929 to score first vs. Mantova 1911?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX4__polymarket:5160805": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Will Athletic Club win on 2026-10-13?",
+    "frage_b": "Final score Club Necaxa wins 4-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5231425": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Tobol Kostanay to score first vs. FC Astana?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5231426": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Astana to score first vs. Tobol Kostanay?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5257842": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Koper to score first vs. NK Radomlje?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5277731": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Royal Charleroi SC to score first vs. Standard Liege?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5280990": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Falkenbergs FF to score first vs. IFK Varnamo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303872": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Nafta 1903 Lendava to score first vs. Bravo Ljubljana?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5303874": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "GKS Piast Gliwice to score first vs. Widzew Lodz?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361483": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Raufoss IL to score first vs. Moss FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5361484": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Moss FK to score first vs. Raufoss IL?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5362293": {
+    "same_event": false,
+    "reason": "Different bet types: first goal vs exact final score.",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "RKS Radomiak Radom to score first vs. LKP Motor Lublin?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5391316": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "IFK Norrkoping FK to score first vs. GIF Sundsvall?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5391317": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "GIF Sundsvall to score first vs. IFK Norrkoping FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5418571": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Portuguesa FC to score first vs. Deportivo La Guaira?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5418572": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Deportivo La Guaira to score first vs. Portuguesa FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5421854": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Zira FK to score first vs. Shamakhi FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5421855": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Shamakhi FK to score first vs. Zira FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5426613": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Java United FC to score first vs. Borneo Samarinda?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5428377": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "FC Irtysh Pavlodar to score first vs. FC Kyzylzhar SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456207": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 0 - 4 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456212": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 0 - 5 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456213": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 1 - 4 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456219": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 2 - 4 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456223": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 2 - 5 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456224": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 3 - 4 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLIGAMXSCORE-26OCT11PACNCX-PAC3NCX3__polymarket:5456227": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-10T00:05:52.498794+00:00",
+    "frage_a": "Exact Score: Cabrayil 3 - 5 Baku Sporting?",
+    "frage_b": "Final score Draw 3-3?"
   }
 }
