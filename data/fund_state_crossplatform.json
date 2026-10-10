@@ -43,7 +43,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.03,
+        "letzter_kurs": 0.02,
         "fee_gezahlt": 0.03
       }
     },
@@ -288,7 +288,7 @@
         "market_id": "5152046",
         "side": "yes",
         "einstandskurs": 0.5,
-        "letzter_kurs": 0.445,
+        "letzter_kurs": 0.45,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
