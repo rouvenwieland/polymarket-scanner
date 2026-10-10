@@ -1,28 +1,6 @@
 {
-  "cash": 41.144577792870194,
+  "cash": 103.17157949066441,
   "positions": [
-    {
-      "market_id": "3502903",
-      "frage": "Will Jonathan Taylor have 1,249.5+ rushing yards in the 2026-27 NFL regular season?",
-      "slug": "jonathan-taylor-1249pt5-rushing-yards-2026-27",
-      "shares": 20.675667232598077,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 470.9172,
-      "end_date": "2027-01-27T04:59:00Z",
-      "eingestiegen": "2026-10-10T17:22:20.470725+02:00"
-    },
-    {
-      "market_id": "3914428",
-      "frage": "Will Rayo Zuliano keep the most clean sheets in the 2026 Venezuelan Primera División?",
-      "slug": "will-rayo-zuliano-keep-the-most-clean-sheets-in-venezuelan-primera-division-2026",
-      "shares": 20.675667232598077,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 3.7796,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-10T17:22:20.470725+02:00"
-    },
     {
       "market_id": "3914365",
       "frage": "Will LA Galaxy keep the most clean sheets in the 2026 MLS?",
@@ -32,17 +10,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 2.5679,
       "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-10T17:22:20.470725+02:00"
-    },
-    {
-      "market_id": "3913426",
-      "frage": "Will NK Radomlje be relegated from the 2026-27 Slovenian PrvaLiga?",
-      "slug": "will-nk-radomlje-be-relegated-from-slovenian-prvaliga-2026-27",
-      "shares": 20.675667232598077,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 33.5238,
-      "end_date": "2027-07-01T03:59:00Z",
       "eingestiegen": "2026-10-10T17:22:20.470725+02:00"
     },
     {

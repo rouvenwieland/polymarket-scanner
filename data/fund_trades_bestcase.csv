@@ -3322,3 +3322,6 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T17:22:20.470725+02:00,KAUF,3914365,Will LA Galaxy keep the most clean sheets in the 2026 MLS?,20.6757,0.995,-20.5723,82.2892,"Spread 0.50%, Liquiditaet 3 USD"
 2026-10-10T17:22:20.470725+02:00,KAUF,3913426,Will NK Radomlje be relegated from the 2026-27 Slovenian PrvaLiga?,20.6757,0.995,-20.5723,61.7169,"Spread 0.50%, Liquiditaet 34 USD"
 2026-10-10T17:22:20.470725+02:00,KAUF,3543823,Will Nacional be runner-up in the 2026-27 Primeira Liga?,20.6757,0.995,-20.5723,41.1446,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-10T20:19:44.495373+02:00,VERKAUF,3502903,"Will Jonathan Taylor have 1,249.5+ rushing yards in the 2026-27 NFL regular season?",20.6757,1.0,20.6757,61.8202,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T20:19:44.495373+02:00,VERKAUF,3914428,Will Rayo Zuliano keep the most clean sheets in the 2026 Venezuelan Primera División?,20.6757,1.0,20.6757,82.4959,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T20:19:44.495373+02:00,VERKAUF,3913426,Will NK Radomlje be relegated from the 2026-27 Slovenian PrvaLiga?,20.6757,1.0,20.6757,103.1716,Konvergenz erreicht (Kurs 1.000)
