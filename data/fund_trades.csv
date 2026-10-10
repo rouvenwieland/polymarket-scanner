@@ -79,3 +79,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T00:34:44.522595+02:00,VERKAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,7.9952,0.996,7.9632,136.7919,Konvergenz erreicht (Kurs 1.000)
 2026-10-10T04:32:32.251449+02:00,KAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.999,-5.5412,131.2507,"Spread 1.00%, Liquiditaet 91 USD"
 2026-10-10T04:32:32.251449+02:00,KAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.999,-2.9879,128.2629,"Spread 1.00%, Liquiditaet 49 USD"
+2026-10-10T09:48:59.571932+02:00,VERKAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.9907,5.495,133.7579,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T09:48:59.571932+02:00,VERKAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.9885,2.9565,136.7144,Konvergenz erreicht (Kurs 1.000)
