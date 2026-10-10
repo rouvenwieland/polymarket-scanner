@@ -12,7 +12,7 @@
         "market_id": "5380722",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.986,
+        "letzter_kurs": 0.9855,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -181,7 +181,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
         "side": "yes",
         "einstandskurs": 0.06,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.05,
         "fee_gezahlt": 0.05
       }
     },
