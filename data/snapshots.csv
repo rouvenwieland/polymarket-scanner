@@ -4280,3 +4280,79 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-10T21:25:48.877167+02:00,5518764,Will Kyōto Sanga FC win on 2026-10-24?,jap-gam-kyo-2026-10-24-kyo,0.49,0.505,0.995,0.0,89.4375,2026-10-24T07:00:00Z
 2026-10-10T21:25:48.877167+02:00,5518800,Exact Score: Gamba Ōsaka 5 - 2 Kyōto Sanga FC?,jap-gam-kyo-2026-10-24-exact-score-5-2,0.485,0.51,0.995,0.0,13.8088,2026-10-24T07:00:00Z
 2026-10-10T21:25:48.877167+02:00,5518939,Exact Score: NEOM SC 4 - 1 Abha Saudi Club?,spl-neo-abh-2026-10-24-exact-score-4-1,0.485,0.51,0.995,0.0,5.569,2026-10-24T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,2300312,Will Lambda's valuation hit (LOW) $5B by December 31?,will-lambdas-valuation-hit-low-5b-by-december-31,0.021,0.9775,0.9985,4445.8641370000005,780.18073,2027-01-05T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-11T00:48:40.010233+02:00,2761531,California Tax Spend Audit Proposition,california-tax-spend-audit-proposition,0.46,0.535,0.9950000000000001,1299.81863,1491.7084,2026-11-04T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,3005555,Will Jaxson Dart finish the 2026-27 NFL regular season with the most Total QBR among qualified players?,will-jaxson-dart-finish-the-2026-27-nfl-regular-season-with-the-most-total-qbr-among-qualified-players-20260715213900181,0.4685,0.531,0.9995,20.4,22.60581,2027-01-27T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,3401886,Will Christian Watson be the highest-scoring WR of the 2026-27 NFL season?,will-christian-watson-be-the-highest-scoring-wr-of-the-2026-27-nfl-season-20260806224130875,0.187,0.8125,0.9995,24.18,60.42295,2027-01-27T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,3543823,Will Nacional be runner-up in the 2026-27 Primeira Liga?,2027-soccer-primeira-liga-runner-up-nacional,0.465,0.53,0.9950000000000001,0.0,2.3478,2027-08-01T03:59:00Z
+2026-10-11T00:48:40.010233+02:00,3728843,Will Les Républicains hold 133-136 French Senate seats after the 2026 election?,will-les-republicains-hold-133-136-french-senate-seats-after-the-2026-election,0.031,0.9685,0.9995,623.8074160000001,10954.84332,2026-09-28T03:59:00Z
+2026-10-11T00:48:40.010233+02:00,3914365,Will LA Galaxy keep the most clean sheets in the 2026 MLS?,will-la-galaxy-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,2.5679,2027-01-01T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,4175781,Will UTSA Roadrunners advance to the 2026 American Conference Championship Game?,will-utsa-roadrunners-advance-to-the-2026-american-conference-championship-game,0.495,0.5,0.995,0.0,2.5679,2026-12-06T23:59:00Z
+2026-10-11T00:48:40.010233+02:00,4411031,Will Robert Lewandowski be the top scorer of the 2026-27 UEFA Nations League?,will-robert-lewandowski-be-the-top-scorer-of-the-2026-27-uefa-nations-league,0.0385,0.9605,0.999,219.25,103.18711,2027-06-14T03:59:00Z
+2026-10-11T00:48:40.010233+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-11T00:48:40.010233+02:00,5046330,FK Csíkszereda Miercurea Ciuc vs. Universitatea Craiova CS: Draw at halftime?,rou1-fcm-ucc-2026-10-11-halftime-result-draw,0.355,0.64,0.995,0.0,4046.4954,2026-10-11T15:00:00Z
+2026-10-11T00:48:40.010233+02:00,5111347,Virginia Tech vs. California: Both Teams to Score a Touchdown,cfb-vtech-cah-2026-10-10-btts-td,0.495,0.5,0.995,0.0,0.0,2026-10-10T19:30:00Z
+2026-10-11T00:48:40.010233+02:00,5120847,CA Platense vs. AA Argentinos Juniors: Both Teams to Score in First Half,arg-pla-aaj-2026-10-11-btts-first-half,0.125,0.87,0.995,0.0,3113.7893,2026-10-11T20:00:00Z
+2026-10-11T00:48:40.010233+02:00,5158916,Viking FK to score first vs. FC Bayern München?,ucl-vf-bay-2026-10-13-first-to-score-home,0.32,0.675,0.9950000000000001,10.0,1292.1248,2026-10-13T19:00:00Z
+2026-10-11T00:48:40.010233+02:00,5169480,Lincoln City FC to score first vs. West Ham United FC?,elc-lin-whu-2026-10-14-first-to-score-home,0.32,0.675,0.9950000000000001,0.0,1010.3524,2026-10-14T19:00:00Z
+2026-10-11T00:48:40.010233+02:00,5195858,Will there be 15 or more tech pauses in the VALORANT Champions 2026 Playoffs?,will-there-be-15-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs,0.49,0.505,0.995,0.0,4.5671,2026-11-18T04:59:00Z
+2026-10-11T00:48:40.010233+02:00,5215634,Will Petey Halpin hit a home run in the 2026 ALDS?,will-petey-halpin-hit-a-home-run-in-the-2026-alds,0.495,0.5,0.995,0.0,1.768,2026-10-12T03:59:00Z
+2026-10-11T00:48:40.010233+02:00,5225629,Frosinone Calcio vs. US Sassuolo Calcio: Both Teams to Score in First Half,sea-fro-sas-2026-10-16-btts-first-half,0.405,0.59,0.995,0.0,452.9657,2026-10-16T18:45:00Z
+2026-10-11T00:48:40.010233+02:00,5241031,1st Half Exact Score: US Sassuolo Calcio 0 - 0 AC Milan?,sea-sas-mil-2026-10-11-first-half-exact-score-0-0,0.26,0.735,0.995,0.0,2134.7683,2026-10-11T16:00:00Z
+2026-10-11T00:48:40.010233+02:00,5271367,Luton Town FC leading at halftime?,el1-mkd-lut-2026-10-17-halftime-result-away,0.32,0.675,0.9950000000000001,0.0,979.9915,2026-10-17T11:30:00Z
+2026-10-11T00:48:40.010233+02:00,5273425,Exact Score: Hibernian FC 3 - 2 Falkirk FC?,scop-hib-fal-2026-10-17-exact-score-3-2,0.475,0.52,0.995,0.0,17.5416,2026-10-17T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,5274835,Port Vale FC vs. Chesterfield FC: Both Teams to Score in First Half,el2-pvl-ches-2026-10-17-btts-first-half,0.41,0.585,0.9949999999999999,0.0,7.2198,2026-10-17T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,5300104,Broncos vs. Chargers: Highest Scoring Quarter - Q2,nfl-den-lac-2026-10-11-highest-scoring-quarter-q2,0.49,0.505,0.995,0.0,2.7037,2026-10-11T20:05:00Z
+2026-10-11T00:48:40.010233+02:00,5305835,FK Septemvri Sofia vs. FC Dunav Ruse: Both Teams to Score,bul-ses-dun-2026-10-11-btts,0.485,0.51,0.995,0.0,5652.2332,2026-10-11T12:00:00Z
+2026-10-11T00:48:40.010233+02:00,5317997,Deportivo Toluca FC vs. Atlético San Luis: Both Teams to Score,mex-tol-asl-2026-10-17-btts,0.49,0.505,0.995,0.0,99.4795,2026-10-18T01:00:00Z
+2026-10-11T00:48:40.010233+02:00,5366587,Ballymena United to win the second half?,nirl1-lim-bal-2026-10-10-second-half-result-away,0.005,0.5,0.505,0.0,0.0,2026-10-10T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,5380494,Isaiah Likely: Team First TD (New York Giants),nfl-nyg-was-2026-10-11-team-first-td-71-isaiah-likely,0.48,0.515,0.995,0.0,7.0595,2026-10-11T17:00:00Z
+2026-10-11T00:48:40.010233+02:00,5409147,Will Macclesfield FC win on 2026-10-17?,efa-mac1-ans1-2026-10-17-mac1,0.475,0.52,0.995,0.0,117.1699,2026-10-17T14:00:00Z
+2026-10-11T00:48:40.010233+02:00,5416988,Dameon Pierce: Team First TD (Philadelphia Eagles),nfl-phi-jax-2026-10-11-team-first-td-73-dameon-pierce,0.48,0.515,0.995,0.0,6.553,2026-10-11T13:30:00Z
+2026-10-11T00:48:40.010233+02:00,5477084,Atlante FC to score first in the 2nd half vs. Querétaro FC?,mex-que-atla-2026-10-10-second-half-first-to-score-away,0.465,0.53,0.9950000000000001,0.0,0.6,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5478976,1st Half Exact Score: Colorado Rapids SC 1 - 0 San Jose Earthquakes?,mls-col-sje-2026-10-10-first-half-exact-score-1-0,0.21,0.785,0.995,0.0,1745.9458,2026-10-11T01:30:00Z
+2026-10-11T00:48:40.010233+02:00,5482005,Game 5: Both Teams Destroy Inhibitors?,lol-cpd-dsg-2026-10-10-game5-both-teams-destroy-inhibitors,0.49,0.505,0.995,0.0,3.5599,2026-10-11T03:00:00Z
+2026-10-11T00:48:40.010233+02:00,5509509,AJ Auxerre to score first in the 2nd half vs. Le Havre AC?,fl1-hac-aja-2026-10-18-second-half-first-to-score-away,0.47,0.525,0.995,0.0,3.1598,2026-10-18T15:15:00Z
+2026-10-11T00:48:40.010233+02:00,5519370,1st Half Exact Score: Juventus FC 0 - 2 SS Lazio?,sea-juv-laz-2026-10-18-first-half-exact-score-0-2,0.48,0.515,0.995,0.0,17.5535,2026-10-18T18:45:00Z
+2026-10-11T00:48:40.010233+02:00,5519374,1st Half Exact Score: Juventus FC 2 - 0 SS Lazio?,sea-juv-laz-2026-10-18-first-half-exact-score-2-0,0.48,0.515,0.995,0.0,17.5417,2026-10-18T18:45:00Z
+2026-10-11T00:48:40.010233+02:00,5521531,Exact Score: Henan FC 5 - 3 Beijing Guoan FC?,chi-hen-bgu-2026-10-24-exact-score-5-3,0.475,0.52,0.995,0.0,17.3402,2026-10-24T07:30:00Z
+2026-10-11T00:48:40.010233+02:00,5521701,Exact Score: Tianjin Jinmen Hu FC 3 - 2 Shanghai Haigang FC?,chi-jin-shp-2026-10-24-exact-score-3-2,0.475,0.52,0.995,0.0,17.3402,2026-10-24T07:30:00Z
+2026-10-11T00:48:40.010233+02:00,5521931,Exact Score: Ulsan HD FC 0 - 1 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-0-1,0.48,0.515,0.995,0.0,17.7693,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5521935,Exact Score: Ulsan HD FC 2 - 0 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-2-0,0.48,0.515,0.995,0.0,17.7693,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5521964,Exact Score: Ulsan HD FC 4 - 5 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-4-5,0.49,0.505,0.995,0.0,6.3316,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5522075,Exact Score: FC Seoul 2 - 5 Gangwon FC?,kor-seo-gwo-2026-10-24-exact-score-2-5,0.49,0.505,0.995,0.0,7.9198,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5522135,Exact Score: Bucheon FC 1995 3 - 2 Gwangju FC?,kor-bch-gwa-2026-10-24-exact-score-3-2,0.475,0.52,0.995,0.0,18.5597,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5522231,Exact Score: FC Anyang 2 - 4 Jeonbuk Hyundai Motors FC?,kor-any-jeo-2026-10-24-exact-score-2-4,0.49,0.505,0.995,0.0,8.5716,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5522234,Exact Score: FC Anyang 5 - 1 Jeonbuk Hyundai Motors FC?,kor-any-jeo-2026-10-24-exact-score-5-1,0.485,0.51,0.995,0.0,13.5254,2026-10-24T05:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523662,Gilberto Sepúlveda: 3+ goals,mex-jua-tij-2026-10-10-goals-gilberto-sepulveda-90070971-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523713,Ricardinho: 3+ assists,mex-jua-tij-2026-10-10-assists-ricardinho-90134112-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523731,Iván Tona: 3+ assists,mex-jua-tij-2026-10-10-assists-ivan-tona-90071807-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523734,Yael Padilla: 3+ assists,mex-jua-tij-2026-10-10-assists-yael-padilla-90110439-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523744,Rafael Fernández: 1+ assists,mex-jua-tij-2026-10-10-assists-rafael-fernandez-90079352-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523757,José Rivero: 2+ assists,mex-jua-tij-2026-10-10-assists-jose-rivero-90030793-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523762,Gilberto Sepúlveda: 1+ goals + assists,mex-jua-tij-2026-10-10-goals-plus-assists-gilberto-sepulveda-90070971-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523780,Leonardo Silva: 1+ goals + assists,mex-jua-tij-2026-10-10-goals-plus-assists-leonardo-silva-90108325-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523822,Francisco Nevarez: 4+ shots,mex-jua-tij-2026-10-10-shots-francisco-nevarez-90075584-gte4,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523825,Gilberto Sepúlveda: 2+ shots,mex-jua-tij-2026-10-10-shots-gilberto-sepulveda-90070971-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523881,Iván Tona: 5+ shots,mex-jua-tij-2026-10-10-shots-ivan-tona-90071807-gte5,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523923,José Rivero: 2+ shots,mex-jua-tij-2026-10-10-shots-jose-rivero-90030793-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523930,Francisco Nevarez: 4+ shots on target,mex-jua-tij-2026-10-10-shots-on-target-francisco-nevarez-90075584-gte4,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5523994,Adonis Preciado: 4+ shots on target,mex-jua-tij-2026-10-10-shots-on-target-adonis-preciado-90072567-gte4,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524229,Santiago Homenchenko: Anytime Goalscorer,mex-que-atla-2026-10-10-ags-santiago-homenchenko-90100645,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524278,Jhojan Julio: 3+ goals,mex-que-atla-2026-10-10-goals-jhojan-julio-90054370-gte3,0.495,0.5,0.995,0.0,0.3,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524297,Carlo: 2+ assists,mex-que-atla-2026-10-10-assists-carlo-90090534-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524347,Enzo Giménez: 1+ goals + assists,mex-que-atla-2026-10-10-goals-plus-assists-enzo-gimenez-90056354-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524371,Aaron Quirós: 1+ goals + assists,mex-que-atla-2026-10-10-goals-plus-assists-aaron-quiros-90095111-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524385,Luis Calzadilla: 3+ goals + assists,mex-que-atla-2026-10-10-goals-plus-assists-luis-calzadilla-90079351-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524401,Daniel Parra: 1+ shots,mex-que-atla-2026-10-10-shots-daniel-parra-90044151-gte1,0.545,0.45,0.9950000000000001,0.0,1.3,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524408,Mateo Coronel: 3+ shots,mex-que-atla-2026-10-10-shots-mateo-coronel-90086129-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524465,Nico Carrera: 5+ shots,mex-que-atla-2026-10-10-shots-nico-carrera-90121062-gte5,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524494,Jhojan Julio: 4+ shots,mex-que-atla-2026-10-10-shots-jhojan-julio-90054370-gte4,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524503,Daniel Parra: 3+ shots on target,mex-que-atla-2026-10-10-shots-on-target-daniel-parra-90044151-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524510,Enzo Giménez: 2+ shots on target,mex-que-atla-2026-10-10-shots-on-target-enzo-gimenez-90056354-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524521,Carlo: 1+ shots on target,mex-que-atla-2026-10-10-shots-on-target-carlo-90090534-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5524581,Guillermo Allison: 1+ saves,mex-que-atla-2026-10-10-saves-guillermo-allison-90037939-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-10T23:00:00Z
+2026-10-11T00:48:40.010233+02:00,5525293,Daryl Dike: 1+ goals + assists,mls-orl-clb-2026-10-10-goals-plus-assists-daryl-dike-90085392-gte1,0.5,0.495,0.995,0.0,0.1,2026-10-10T23:30:00Z
+2026-10-11T00:48:40.010233+02:00,5525635,Pep Biel: 2+ shots on target,mls-clt-dal-2026-10-10-shots-on-target-pep-biel-90076640-gte2,0.495,0.5,0.995,0.0,1.06,2026-10-10T23:30:00Z
