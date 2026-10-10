@@ -1,17 +1,5 @@
 {
-  "cash": 113.46609993171397,
-  "positions": [
-    {
-      "market_id": "3852384",
-      "frage": "Will Leanne Caron win the 2026 Guelph mayoral election?",
-      "slug": "will-leanne-caron-win-the-2026-guelph-mayoral-election",
-      "shares": 23.271584152706254,
-      "einstandskurs": 0.9989989999999999,
-      "letzter_kurs": 0.9989989999999999,
-      "liquiditaet": 383.6394,
-      "end_date": "2026-10-27T03:59:00Z",
-      "eingestiegen": "2026-10-10T21:25:48.877167+02:00"
-    }
-  ],
+  "cash": 136.52431940888644,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

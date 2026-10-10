@@ -82,3 +82,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-10T09:48:59.571932+02:00,VERKAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.9907,5.495,133.7579,Konvergenz erreicht (Kurs 1.000)
 2026-10-10T09:48:59.571932+02:00,VERKAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.9885,2.9565,136.7144,Konvergenz erreicht (Kurs 1.000)
 2026-10-10T21:25:48.877167+02:00,KAUF,3852384,Will Leanne Caron win the 2026 Guelph mayoral election?,23.2716,0.999,-23.2483,113.4661,"Spread 1.00%, Liquiditaet 384 USD"
+2026-10-10T23:51:51.832826+02:00,VERKAUF,3852384,Will Leanne Caron win the 2026 Guelph mayoral election?,23.2716,0.9908,23.0582,136.5243,Konvergenz erreicht (Kurs 1.000)
