@@ -4402,3 +4402,53 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-11T03:32:08.256510+02:00,5531054,Exact Score: Manisa Futbol Kulubu 2 - 4 Esenler Erokspor?,tur2-man-ese-2026-10-15-exact-score-2-4,0.49,0.505,0.995,0.0,8.5716,2026-10-15T17:00:00Z
 2026-10-11T03:32:08.256510+02:00,5531082,Exact Score: Aluminij Kidricevo 0 - 2 Olimpija Ljubljana?,slo-alu-oli-2026-10-16-exact-score-0-2,0.49,0.505,0.995,0.0,14.0088,2026-10-16T15:30:00Z
 2026-10-11T03:32:08.256510+02:00,5532366,Will the 49ers vs Seahawks game not air?,will-the-49ers-vs-seahawks-game-not-air-20261011,0.495,0.5,0.995,0.0,3.1699,2026-10-11T20:30:00Z
+2026-10-11T09:49:44.394407+02:00,1294672,Will Canada have the highest unemployment rate since 2016 this year?,will-canada-have-the-highest-unemployment-rate-since-2016-this-year,0.085,0.9145,0.9994999999999999,9655.179571999997,393.24167,2027-02-16T04:59:00Z
+2026-10-11T09:49:44.394407+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-11T09:49:44.394407+02:00,3519632,Will the Democratic Party candidate win the 2026 NY-19 House election by 0%-3%?,will-the-democratic-party-candidate-win-the-2026-ny-19-house-election-by-0-3,0.036,0.9635,0.9995,211.11,1904.78842,2026-11-04T04:59:00Z
+2026-10-11T09:49:44.394407+02:00,3543823,Will Nacional be runner-up in the 2026-27 Primeira Liga?,2027-soccer-primeira-liga-runner-up-nacional,0.465,0.53,0.9950000000000001,0.0,2.3478,2027-08-01T03:59:00Z
+2026-10-11T09:49:44.394407+02:00,3544640,Will Mjällby AIF be runner-up in the 2026 Allsvenskan (Sweden)?,2026-soccer-allsvenskan-sweden-runner-up-mjllby-aif,0.4545,0.545,0.9995,224.08,12.30288,2027-01-01T04:59:00Z
+2026-10-11T09:49:44.394407+02:00,3730454,Will Union Centriste have the second-most seats after the French Senate Election?,will-union-centriste-have-the-second-most-seats-after-the-french-senate-election,0.9145,0.085,0.9994999999999999,6568.5310739999995,676.92409,2026-09-28T03:59:00Z
+2026-10-11T09:49:44.394407+02:00,3914386,Will Portland Timbers keep the most clean sheets in the 2026 MLS?,will-portland-timbers-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,1.568,2027-01-01T04:59:00Z
+2026-10-11T09:49:44.394407+02:00,4216640,Will Brock Bowers have 75.5+ receptions in the 2026-27 NFL regular season?,brock-bowers-75pt5-receptions-2026-27,0.505,0.49,0.995,0.0,6.3274,2027-01-12T23:59:00Z
+2026-10-11T09:49:44.394407+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-11T09:49:44.394407+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-11T09:49:44.394407+02:00,5158851,Exact Score: Galatasaray SK 3 - 2 FC Barcelona?,ucl-gal-fcb-2026-10-13-exact-score-3-2,0.017,0.9825,0.9995,0.0,5859.68914,2026-10-13T19:00:00Z
+2026-10-11T09:49:44.394407+02:00,5173724,Comunicaciones FC vs. Aurora FC: Both Teams to Score,gtm-com-aur-2026-10-14-btts,0.5,0.495,0.995,0.0,386.8638,2026-10-14T23:00:00Z
+2026-10-11T09:49:44.394407+02:00,5198310,FC Twente vs. FC Thun: Both Teams to Score in Second Half,col-twe-thu-2026-10-15-btts-second-half,0.385,0.61,0.995,0.0,356.4568,2026-10-15T19:00:00Z
+2026-10-11T09:49:44.394407+02:00,5198464,FC København vs. SC Braga: Both Teams to Score in First Half,col-kob-scb-2026-10-15-btts-first-half,0.405,0.59,0.995,0.0,289.1471,2026-10-15T19:00:00Z
+2026-10-11T09:49:44.394407+02:00,5253493,Hellas Verona FC vs. US Catanzaro 1929: Both Teams to Score in First Half,itsb-ver-cat-2026-10-16-btts-first-half,0.41,0.585,0.9949999999999999,0.0,9.2596,2026-10-16T18:30:00Z
+2026-10-11T09:49:44.394407+02:00,5271067,Mantova 1911 leading at halftime?,itsb-man-pal-2026-10-17-halftime-result-home,0.495,0.5,0.995,0.0,52.9596,2026-10-17T15:15:00Z
+2026-10-11T09:49:44.394407+02:00,5292300,Odds BK vs. Bryne FK: Both Teams to Score in Second Half,nor2-odd-bry-2026-10-11-btts-second-half,0.39,0.605,0.995,0.0,1123.7386,2026-10-11T15:00:00Z
+2026-10-11T09:49:44.394407+02:00,5304264,Mantova 1911 vs. Palermo FC: Both Teams to Score,itsb-man-pal-2026-10-17-btts,0.5,0.495,0.995,0.0,109.8894,2026-10-17T15:15:00Z
+2026-10-11T09:49:44.394407+02:00,5304524,Calcio Padova vs. Virtus Entella: Both Teams to Score,itsb-pad-ent-2026-10-17-btts,0.5,0.495,0.995,0.0,111.2102,2026-10-17T13:00:00Z
+2026-10-11T09:49:44.394407+02:00,5316179,Málaga CF vs. Real Sociedad de Fútbol: Neither team to score first?,lal-mala-rso-2026-10-18-first-to-score-neither,0.49,0.505,0.995,0.0,26.9876,2026-10-18T16:30:00Z
+2026-10-11T09:49:44.394407+02:00,5372071,Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?,argpn-ge-gyt-2026-10-11-exact-score-5-5,0.13,0.785,0.915,0.0,142.4396,2026-10-11T19:00:00Z
+2026-10-11T09:49:44.394407+02:00,5380677,Anthony Gould: Team First TD (Indianapolis Colts),nfl-ind-pit-2026-10-11-team-first-td-61-anthony-gould,0.07,0.53,0.6000000000000001,0.0,12.8699,2026-10-11T17:00:00Z
+2026-10-11T09:49:44.394407+02:00,5396982,Exact Score: Mitre Santiago del Estero 5 - 3 Colon de Santa Fe?,argpn-cam-col-2026-10-11-exact-score-5-3,0.14,0.855,0.995,0.0,199.9898,2026-10-11T20:00:00Z
+2026-10-11T09:49:44.394407+02:00,5420428,Keon Coleman: Team First TD (Buffalo Bills),nfl-buf-la-2026-10-13-team-first-td-51-keon-coleman,0.48,0.515,0.995,0.0,5.9196,2026-10-13T00:15:00Z
+2026-10-11T09:49:44.394407+02:00,5437624,Sporting CP vs. LASK Linz: Both Teams to Score,ucl-spo-lin2-2026-10-21-btts,0.485,0.51,0.995,0.0,99.1095,2026-10-21T19:00:00Z
+2026-10-11T09:49:44.394407+02:00,5441405,FC RFS vs. FS Jelgava: Both Teams to Score in First Half,lva1-rfs-jel-2026-10-11-btts-first-half,0.275,0.72,0.995,0.0,241.7497,2026-10-11T13:00:00Z
+2026-10-11T09:49:44.394407+02:00,5453273,GKS Katowice to score first vs. Wieczysta Krakow?,pol-kat-wie-2026-10-12-first-to-score-home,0.515,0.48,0.995,0.0,3238.3675,2026-10-12T18:30:00Z
+2026-10-11T09:49:44.394407+02:00,5475465,Will Meta (META) finish week of October 12 above $700?,meta-above-700-on-october-16-2026,0.685,0.31,0.9950000000000001,0.0,775.3964,2026-10-16T20:00:00Z
+2026-10-11T09:49:44.394407+02:00,5521701,Exact Score: Tianjin Jinmen Hu FC 3 - 2 Shanghai Haigang FC?,chi-jin-shp-2026-10-24-exact-score-3-2,0.475,0.52,0.995,0.0,17.3402,2026-10-24T07:30:00Z
+2026-10-11T09:49:44.394407+02:00,5521931,Exact Score: Ulsan HD FC 0 - 1 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-0-1,0.48,0.515,0.995,0.0,17.7693,2026-10-24T05:00:00Z
+2026-10-11T09:49:44.394407+02:00,5521935,Exact Score: Ulsan HD FC 2 - 0 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-2-0,0.48,0.515,0.995,0.0,17.7693,2026-10-24T05:00:00Z
+2026-10-11T09:49:44.394407+02:00,5521964,Exact Score: Ulsan HD FC 4 - 5 Pohang Steelers FC?,kor-uls-poh-2026-10-24-exact-score-4-5,0.49,0.505,0.995,0.0,6.3316,2026-10-24T05:00:00Z
+2026-10-11T09:49:44.394407+02:00,5522135,Exact Score: Bucheon FC 1995 3 - 2 Gwangju FC?,kor-bch-gwa-2026-10-24-exact-score-3-2,0.475,0.52,0.995,0.0,18.5597,2026-10-24T05:00:00Z
+2026-10-11T09:49:44.394407+02:00,5522231,Exact Score: FC Anyang 2 - 4 Jeonbuk Hyundai Motors FC?,kor-any-jeo-2026-10-24-exact-score-2-4,0.49,0.505,0.995,0.0,8.5716,2026-10-24T05:00:00Z
+2026-10-11T09:49:44.394407+02:00,5523024,Will the fight be won by KO or TKO?,ufc-mer-pet-2026-10-24-win-by-ko-tko,0.5,0.495,0.995,0.0,22.9416,2026-10-25T03:59:59.999Z
+2026-10-11T09:49:44.394407+02:00,5523106,Will Lone'er Kavanagh win in Round 1?,ufc-ram10-lon-2026-10-24-kavanagh-win-in-round-1,0.5,0.495,0.995,0.0,3.3197,2026-10-25T03:59:59.999Z
+2026-10-11T09:49:44.394407+02:00,5523359,Will Aaron Pico win in Round 3?,ufc-aar8-los-2026-10-24-pico-win-in-round-3,0.5,0.495,0.995,0.0,3.3195,2026-10-25T03:59:59.999Z
+2026-10-11T09:49:44.394407+02:00,5526217,Exact Score: Cagliari Calcio 5 - 4 Bologna FC 1909?,sea-cag-bol-2026-10-24-exact-score-5-4,0.49,0.505,0.995,0.0,7.1198,2026-10-24T13:00:00Z
+2026-10-11T09:49:44.394407+02:00,5530747,Game 1: Both Teams Slay a Dragon?,lol-wpe1-nh1-2026-10-11-game1-both-teams-slay-dragon,0.5,0.495,0.995,0.0,0.4,2026-10-11T12:00:00Z
+2026-10-11T09:49:44.394407+02:00,5530752,Game 2: Both Teams Slay Baron Nashor?,lol-wpe1-nh1-2026-10-11-game2-both-teams-slay-baron,0.495,0.5,0.995,0.0,1.36,2026-10-11T12:00:00Z
+2026-10-11T09:49:44.394407+02:00,5530817,Will Batman Petrolspor vs. Istanbulspor AS end in a draw?,tur2-bat-ias-2026-10-14-draw,0.2,0.795,0.9950000000000001,0.0,1484.6322,2026-10-14T11:30:00Z
+2026-10-11T09:49:44.394407+02:00,5533982,Exact Score: 1. FC Magdeburg 4 - 2 Karlsruher SC?,bl2-fcm-ksc-2026-10-24-exact-score-4-2,0.485,0.51,0.995,0.0,17.9693,2026-10-24T11:00:00Z
+2026-10-11T09:49:44.394407+02:00,5534269,Exact Score: Any Other Score?,elc-cha-nor-2026-10-24-exact-score-any-other,0.49,0.505,0.995,0.0,6.3316,2026-10-24T11:30:00Z
+2026-10-11T09:49:44.394407+02:00,5534305,Exact Score: Racing Club de Lens 0 - 1 Paris FC?,fl1-rcl-pfc-2026-10-24-exact-score-0-1,0.485,0.51,0.995,0.0,11.2804,2026-10-24T18:45:00Z
+2026-10-11T09:49:44.394407+02:00,5534386,Exact Score: 1. FC Heidenheim 1 - 2 FC Energie Cottbus?,bl2-hei-fce-2026-10-24-exact-score-1-2,0.49,0.505,0.995,0.0,11.4884,2026-10-24T11:00:00Z
+2026-10-11T09:49:44.394407+02:00,5534633,Exact Score: 1. FC Nürnberg 5 - 4 1. FC Kaiserslautern?,bl2-fcn-fck-2026-10-24-exact-score-5-4,0.485,0.51,0.995,0.0,17.7314,2026-10-24T18:30:00Z
+2026-10-11T09:49:44.394407+02:00,5534670,Exact Score: FC Augsburg 1 - 3 1. FC Union Berlin?,bun-aug-uni-2026-10-24-exact-score-1-3,0.48,0.515,0.995,0.0,17.7693,2026-10-24T13:30:00Z
+2026-10-11T09:49:44.394407+02:00,5534850,Exact Score: Cardiff City FC 1 - 2 Birmingham City FC?,elc-car-bir-2026-10-24-exact-score-1-2,0.475,0.52,0.995,0.0,18.5293,2026-10-24T14:00:00Z
+2026-10-11T09:49:44.394407+02:00,5534926,Exact Score: BV Borussia 09 Dortmund 4 - 3 Eintracht Frankfurt?,bun-dor-ein-2026-10-24-exact-score-4-3,0.475,0.52,0.995,0.0,17.3284,2026-10-24T16:30:00Z
+2026-10-11T09:49:44.394407+02:00,5535136,Exact Score: Preston North End FC 1 - 3 West Bromwich Albion FC?,elc-pne-wba-2026-10-24-exact-score-1-3,0.48,0.515,0.995,0.0,19.9993,2026-10-24T14:00:00Z
