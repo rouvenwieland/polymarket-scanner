@@ -17435,5 +17435,845 @@
     "checked_at": "2026-10-11T00:16:06.926749+00:00",
     "frage_a": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Pete Buttigieg"
+  },
+  "polymarket:5303636__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303653__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303654__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303647__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303641__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303661__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303644__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303649__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303648__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303633__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303665__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303656__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303639__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303652__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303643__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303642__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5088035__sxbet:0x2126039da263f12f1aca5db30bbc0c5c5a15a5601faf65ab754088e4e47c25f4": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will Club Bolívar vs. Club Blooming end in a draw?",
+    "frage_b": "Club Bolivar vs Blooming - wer gewinnt?"
+  },
+  "polymarket:5303637__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303631__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372059__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303630__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372042__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372053__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372047__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372054__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303635__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372050__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372055__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303638__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 2 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372039__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs winner.",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372048__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372049__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372045__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303632__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372043__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303640__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303657__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303634__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303659__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 2 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303646__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372037__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303658__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372036__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372041__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372044__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are different bet types",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372052__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372040__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372067__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303655__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 1 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372038__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303660__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 3 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372046__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5303651__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 1 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303662__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 3 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303663__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 4 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303645__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 0 - 5 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303650__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 0 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5303664__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: CD Universidad Catolica del Ecuador 5 - 4 CSD Macara?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372064__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372056__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Exact score vs win market are not equivalent",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372060__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372061__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 1 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5309520__sxbet:0xe44eb499cc3455ed0d6f1e1cff732a9159884177d63c78e521abf45b4e52cd4d": {
+    "same_event": false,
+    "reason": "Different bet types: draw question vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will CA Temperley vs. Nueva Chicago end in a draw?",
+    "frage_b": "Temperley vs Nueva Chicago - wer gewinnt?"
+  },
+  "polymarket:5372051__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 0 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372057__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372066__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372069__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 4 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372071__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372063__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 3 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372065__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 2 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396962__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396963__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5303622__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types: draw question vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will CD Universidad Catolica del Ecuador vs. CSD Macara end in a draw?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5372068__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 3 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396947__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396954__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 1 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396956__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5280944__sxbet:0xdfe344ea643132b54beb16625ed4041fc98eb943ab802893268f16ee248e7e08": {
+    "same_event": false,
+    "reason": "Different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will IFK Varnamo vs. Falkenbergs FF end in a draw?",
+    "frage_b": "IFK Varnamo vs Falkenbergs FF - wer gewinnt?"
+  },
+  "polymarket:5396951__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5372070__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396970__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396955__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5371928__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta end in a draw?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396943__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396946__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396950__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396948__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 1 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5371939__sxbet:0xb8b99e38c7668ef58a54734c41c271cec8e8b0d77703f11877973469d69508ec": {
+    "same_event": false,
+    "reason": "Different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Will Club Ciudad de Bolivar vs. CA San Telmo end in a draw?",
+    "frage_b": "Ciudad Bolivar vs San Telmo - wer gewinnt?"
+  },
+  "polymarket:5303668__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "Different bet types (first scorer vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "CSD Macara to score first vs. CD Universidad Catolica del Ecuador?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5396952__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 4 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396969__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 4 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396941__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396965__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396973__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396972__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396942__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 1 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396966__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396977__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396981__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 4 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5372030__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: halftime lead vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy leading at halftime?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396940__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396944__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 1 - 1 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396958__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 0 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5372058__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 4 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396978__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 2 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5372034__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "different propositions (second half draw vs match winner)",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Second half draw?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372062__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 2 - 5 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372033__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "second half win vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy to win the second half?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5396968__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 1 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396982__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 3 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5303625__sxbet:0x5dc9684ee6b1f40b0804b603f6a058aa82e8b101b2a017eb06e227d424b78c5e": {
+    "same_event": false,
+    "reason": "halftime draw vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "CD Universidad Catolica del Ecuador vs. CSD Macara: Draw at halftime?",
+    "frage_b": "Universidad Catolica del Ecuador vs Club Social Y Deportivo Macara - wer gewinnt?"
+  },
+  "polymarket:5396985__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 4 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396959__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 0 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396975__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 2 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396979__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396983__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 4 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396976__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 3 - 4 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5396986__sxbet:0x7a5fe7979f00a088aa2b9837599a1f6fcfdea26438b94b1c9ac43441f2133122": {
+    "same_event": false,
+    "reason": "exact score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Exact Score: Mitre Santiago del Estero 5 - 5 Colon de Santa Fe?",
+    "frage_b": "Club Atletico Mitre de Santiago del Estero vs Colon de Santa Fe - wer gewinnt?"
+  },
+  "polymarket:5372031__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "halftime draw vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Draw at halftime?",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
+  },
+  "polymarket:5372582__sxbet:0x9eb173848c8846891d1aa3c0129973bc3f00c8eeebcd769b8b081e4386d5723f": {
+    "same_event": false,
+    "reason": "both teams to score vs match winner",
+    "checked_at": "2026-10-11T04:06:19.850802+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. Gimnasia Y Tiro de Salta: Both Teams to Score",
+    "frage_b": "Gimnasia y Esgrima de Jujuy vs Gimnasia y Tiro - wer gewinnt?"
   }
 }
