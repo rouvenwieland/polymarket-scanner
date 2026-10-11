@@ -1,17 +1,5 @@
 {
-  "cash": 130.03254349023484,
-  "positions": [
-    {
-      "market_id": "5372071",
-      "frage": "Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?",
-      "slug": "argpn-ge-gyt-2026-10-11-exact-score-5-5",
-      "shares": 15.337112708282863,
-      "einstandskurs": 0.9287249999999999,
-      "letzter_kurs": 0.9287249999999999,
-      "liquiditaet": 142.4396,
-      "end_date": "2026-10-11T19:00:00Z",
-      "eingestiegen": "2026-10-11T09:49:44.394407+02:00"
-    }
-  ],
+  "cash": 145.11006058601834,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
