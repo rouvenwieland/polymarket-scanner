@@ -4452,3 +4452,58 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-11T09:49:44.394407+02:00,5534850,Exact Score: Cardiff City FC 1 - 2 Birmingham City FC?,elc-car-bir-2026-10-24-exact-score-1-2,0.475,0.52,0.995,0.0,18.5293,2026-10-24T14:00:00Z
 2026-10-11T09:49:44.394407+02:00,5534926,Exact Score: BV Borussia 09 Dortmund 4 - 3 Eintracht Frankfurt?,bun-dor-ein-2026-10-24-exact-score-4-3,0.475,0.52,0.995,0.0,17.3284,2026-10-24T16:30:00Z
 2026-10-11T09:49:44.394407+02:00,5535136,Exact Score: Preston North End FC 1 - 3 West Bromwich Albion FC?,elc-pne-wba-2026-10-24-exact-score-1-3,0.48,0.515,0.995,0.0,19.9993,2026-10-24T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-11T16:36:27.417235+02:00,3400326,Will Jalen Hurts be the highest-scoring QB of the 2026-27 NFL season?,will-jalen-hurts-be-the-highest-scoring-qb-of-the-2026-27-nfl-season-20260806224129809,0.051,0.8745,0.9255000000000001,20.0,17.96799,2027-01-27T04:59:00Z
+2026-10-11T16:36:27.417235+02:00,3764032,Will Joe Flacco finish as a top-12 QB in the 2026-27 NFL season?,will-joe-flacco-finish-as-a-top-12-qb-in-the-2026-27-nfl-season,0.0305,0.969,0.9994999999999999,1146.95556,104.54726,2027-01-27T04:59:00Z
+2026-10-11T16:36:27.417235+02:00,3914386,Will Portland Timbers keep the most clean sheets in the 2026 MLS?,will-portland-timbers-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,1.568,2027-01-01T04:59:00Z
+2026-10-11T16:36:27.417235+02:00,3957716,Will D.C. United win the 2026 MLS Eastern Conference?,will-dptcpt-united-win-the-2026-mls-eastern-conference,0.0495,0.95,0.9994999999999999,176.696472,340.75574,2026-12-12T23:59:00Z
+2026-10-11T16:36:27.417235+02:00,4061181,Will Georgia Tech Make the 2026-27 CFB Playoffs?,will-georgia-tech-make-the-2026-27-cfb-playoffs-20260803190340074,0.0475,0.952,0.9994999999999999,20.0,6414.89396,
+2026-10-11T16:36:27.417235+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-11T16:36:27.417235+02:00,5062246,Will Bitcoin have 4 green days the week of October 12?,will-bitcoin-have-4-green-days-the-week-of-october-12-2026,0.51,0.485,0.995,0.0,2.4597,2026-10-19T00:00:00Z
+2026-10-11T16:36:27.417235+02:00,5118169,CD Tenerife to score first vs. Girona FC?,es2-cdt-gir-2026-10-12-first-to-score-home,0.445,0.55,0.9950000000000001,0.0,4793.777,2026-10-12T19:00:00Z
+2026-10-11T16:36:27.417235+02:00,5130807,Göztepe SK to score first vs. Eyüpspor?,tur-eyu-goz-2026-10-12-first-to-score-away,0.565,0.43,0.9949999999999999,0.0,3719.7887,2026-10-12T17:00:00Z
+2026-10-11T16:36:27.417235+02:00,5137065,Exact Score: CF Universidad de Chile 1 - 0 CD Ñublense?,chi1-cud-cdu-2026-10-12-exact-score-1-0,0.115,0.88,0.995,0.0,1013.9098,2026-10-12T20:00:00Z
+2026-10-11T16:36:27.417235+02:00,5150410,AD San Carlos vs. Inter San Carlos: Both Teams to Score,fpd-sca-int-2026-10-13-btts,0.575,0.42,0.9949999999999999,0.0,2190.8265,2026-10-14T02:00:00Z
+2026-10-11T16:36:27.417235+02:00,5158733,Lille OSC to score first vs. Arsenal FC?,ucl-ars-lil-2026-10-13-first-to-score-away,0.175,0.82,0.9949999999999999,0.0,8422.7951,2026-10-13T19:00:00Z
+2026-10-11T16:36:27.417235+02:00,5184263,FC Porto leading at halftime?,ucl-bet-por-2026-10-14-halftime-result-away,0.245,0.75,0.995,0.0,8710.8152,2026-10-14T19:00:00Z
+2026-10-11T16:36:27.417235+02:00,5187034,Manchester City FC vs. Paris Saint-Germain FC: Both Teams to Score in First Half,ucl-mnc-psg-2026-10-14-btts-first-half,0.275,0.72,0.995,0.0,10908.4984,2026-10-14T19:00:00Z
+2026-10-11T16:36:27.417235+02:00,5188873,FC Red Bull Salzburg vs. AC Milan: Both Teams to Score,uel-rbs-mil1-2026-10-15-btts,0.595,0.4,0.995,0.0,4629.0279,2026-10-15T16:45:00Z
+2026-10-11T16:36:27.417235+02:00,5195859,Will there be 20 or more tech pauses in the VALORANT Champions 2026 Playoffs?,will-there-be-20-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs,0.49,0.505,0.995,0.0,4.5675,2026-11-18T04:59:00Z
+2026-10-11T16:36:27.417235+02:00,5234006,Bologna FC 1909 to score first in the 1st half vs. US Lecce?,sea-lec-bol-2026-10-11-first-half-first-to-score-away,0.5,0.005,0.505,0.0,0.0,2026-10-11T13:00:00Z
+2026-10-11T16:36:27.417235+02:00,5238561,RC Deportivo A Coruña to score first in the 1st half vs. Real Sociedad de Fútbol?,lal-rso-dep-2026-10-11-first-half-first-to-score-away,0.415,0.5,0.915,0.0,0.0,2026-10-11T14:15:00Z
+2026-10-11T16:36:27.417235+02:00,5271510,Doncaster Rovers FC to win the second half?,el1-lei-don-2026-10-17-second-half-result-away,0.48,0.515,0.995,0.0,16.8791,2026-10-17T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5287169,New York City FC leading at halftime?,mls-nyc-laf-2026-10-17-halftime-result-home,0.47,0.525,0.995,0.0,55.4259,2026-10-17T23:30:00Z
+2026-10-11T16:36:27.417235+02:00,5291501,Exact Score: Budapest Honved FC 4 - 2 Ujpest FC Budapest?,hun-hon-ujp-2026-10-11-exact-score-4-2,0.0115,0.9875,0.999,0.0,5428.14208,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5304659,Exact Margin: 49ers by 19-24,nfl-sf-sea-2026-10-11-exact-margin-long-19-24,0.5,0.495,0.995,0.0,1.92,2026-10-11T20:25:00Z
+2026-10-11T16:36:27.417235+02:00,5330082,"Will the price of Ethereum be between $2,600 and $2,700 on October 12?",will-the-price-of-ethereum-be-between-2600-2700-on-october-12-2026,0.031,0.9685,0.9995,795.852179,4528.55897,2026-10-12T16:00:00Z
+2026-10-11T16:36:27.417235+02:00,5362255,LKP Motor Lublin to win the second half?,pol-rad-mot-2026-10-12-second-half-result-away,0.48,0.515,0.995,0.0,17.1397,2026-10-12T16:00:00Z
+2026-10-11T16:36:27.417235+02:00,5380586,Carnell Tate: Team First TD (Tennessee Titans),nfl-hou-ten-2026-10-11-team-first-td-78-carnell-tate,0.48,0.515,0.995,0.0,5.4131,2026-10-11T17:00:00Z
+2026-10-11T16:36:27.417235+02:00,5398671,Scotland vs. Czechia: Both Teams to Score,wwcquefa-sco-cze-2026-10-13-btts,0.465,0.53,0.9950000000000001,0.0,4610.4372,2026-10-13T18:15:00Z
+2026-10-11T16:36:27.417235+02:00,5416988,Dameon Pierce: Team First TD (Philadelphia Eagles),nfl-phi-jax-2026-10-11-team-first-td-73-dameon-pierce,0.495,0.5,0.995,0.0,0.0,2026-10-11T13:30:00Z
+2026-10-11T16:36:27.417235+02:00,5447131,Will Deportes Iquique win on 2026-10-12?,chl2-iqu-esp-2026-10-12-iqu,0.51,0.485,0.995,0.0,3115.5146,2026-10-12T20:30:00Z
+2026-10-11T16:36:27.417235+02:00,5482190,Deportivo Alavés to score first vs. Málaga CF?,lal-ala-mala-2026-10-23-first-to-score-home,0.49,0.505,0.995,0.0,9.0798,2026-10-23T19:00:00Z
+2026-10-11T16:36:27.417235+02:00,5506643,1st Half Exact Score: Any Other Score?,lal-cel-ala-2026-10-18-first-half-exact-score-any-other,0.465,0.53,0.9950000000000001,0.0,15.7185,2026-10-18T14:15:00Z
+2026-10-11T16:36:27.417235+02:00,5523024,Will the fight be won by KO or TKO?,ufc-mer-pet-2026-10-24-win-by-ko-tko,0.5,0.495,0.995,0.0,22.9416,2026-10-25T03:59:59.999Z
+2026-10-11T16:36:27.417235+02:00,5523106,Will Lone'er Kavanagh win in Round 1?,ufc-ram10-lon-2026-10-24-kavanagh-win-in-round-1,0.5,0.495,0.995,0.0,3.3197,2026-10-25T03:59:59.999Z
+2026-10-11T16:36:27.417235+02:00,5523359,Will Aaron Pico win in Round 3?,ufc-aar8-los-2026-10-24-pico-win-in-round-3,0.5,0.495,0.995,0.0,3.3195,2026-10-25T03:59:59.999Z
+2026-10-11T16:36:27.417235+02:00,5530930,Will Ankara Keciorengucu win on 2026-10-14?,tur2-kec-igd-2026-10-14-kec,0.475,0.52,0.995,0.0,4216.171,2026-10-14T17:00:00Z
+2026-10-11T16:36:27.417235+02:00,5536713,BV Borussia 09 Dortmund vs. Eintracht Frankfurt: Both Teams to Score in First Half,bun-dor-ein-2026-10-24-btts-first-half,0.385,0.61,0.995,0.0,8.9198,2026-10-24T16:30:00Z
+2026-10-11T16:36:27.417235+02:00,5549285,Exact Score: Eastleigh FC 1 - 5 Boston United FC?,enl-eas-bos-2026-10-24-exact-score-1-5,0.49,0.505,0.995,0.0,7.9198,2026-10-24T11:30:00Z
+2026-10-11T16:36:27.417235+02:00,5549296,Exact Score: Eastleigh FC 5 - 3 Boston United FC?,enl-eas-bos-2026-10-24-exact-score-5-3,0.48,0.515,0.995,0.0,17.7693,2026-10-24T11:30:00Z
+2026-10-11T16:36:27.417235+02:00,5549427,Exact Score: Southend United FC 5 - 4 FC Halifax Town?,enl-sou-hal-2026-10-24-exact-score-5-4,0.48,0.515,0.995,0.0,17.5181,2026-10-24T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5549501,Exact Score: Hartlepool United FC 5 - 0 Hornchurch FC?,enl-har-hor-2026-10-24-exact-score-5-0,0.465,0.53,0.9950000000000001,0.0,20.0692,2026-10-24T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5549603,Exact Score: Aldershot Town FC 5 - 5 Wealdstone FC?,enl-ald-wea-2026-10-24-exact-score-5-5,0.49,0.505,0.995,0.0,7.9198,2026-10-24T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5549666,Exact Score: Kidderminster Harriers FC 2 - 2 Worthing FC?,enl-kid-wor-2026-10-24-exact-score-2-2,0.48,0.515,0.995,0.0,17.7693,2026-10-24T16:30:00Z
+2026-10-11T16:36:27.417235+02:00,5550287,Exact Score: Parnu JK Vaprus 3 - 5 Nomme Kalju FC?,est1-vap-kal-2026-10-13-exact-score-3-5,0.465,0.53,0.9950000000000001,0.0,13.7341,2026-10-13T15:00:00Z
+2026-10-11T16:36:27.417235+02:00,5551650,Exact Score: FC DAC 1904 Dunajská Streda 4 - 2 MFK Ružomberok?,svk1-dac-ruz-2026-10-24-exact-score-4-2,0.49,0.505,0.995,0.0,11.4804,2026-10-24T13:30:00Z
+2026-10-11T16:36:27.417235+02:00,5551744,Exact Score: ŠK Slovan Bratislava 2 - 5 MFK Dukla Banská Bystrica?,svk1-sba-dbb-2026-10-24-exact-score-2-5,0.495,0.5,0.995,0.0,10.3598,2026-10-24T13:30:00Z
+2026-10-11T16:36:27.417235+02:00,5555079,Exact Score: FC Dnepr Mogilev 0 - 1 Bate Borisov?,blr1-dne-bat-2026-10-18-exact-score-0-1,0.485,0.51,0.995,0.0,17.9693,2026-10-18T12:00:00Z
+2026-10-11T16:36:27.417235+02:00,5556466,Exact Score: Johnstone Burgh FC 4 - 5 Formartine United FC?,scoc-jb-for-2026-10-24-exact-score-4-5,0.495,0.5,0.995,0.0,2.1199,2026-10-24T14:00:00Z
+2026-10-11T16:36:27.417235+02:00,5560119,Hans Hateboer: 3+ assists,ere-exc-gro-2026-10-11-assists-hans-hateboer-90031556-gte3,0.495,0.5,0.995,0.0,0.2,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5560121,Thijmen Blokzijl: 2+ assists,ere-exc-gro-2026-10-11-assists-thijmen-blokzijl-90095759-gte2,0.495,0.5,0.995,0.0,0.2,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5560135,Casper Widell: 1+ goals + assists,ere-exc-gro-2026-10-11-goals-plus-assists-casper-widell-90112285-gte1,0.495,0.5,0.995,0.0,0.2,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5560207,Rick Meissen: 3+ shots,ere-exc-gro-2026-10-11-shots-rick-meissen-90099305-gte3,0.155,0.84,0.995,0.0,16.12,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5560296,Casper Widell: 2+ shots on target,ere-exc-gro-2026-10-11-shots-on-target-casper-widell-90112285-gte2,0.495,0.5,0.995,0.0,1.06,2026-10-11T14:45:00Z
+2026-10-11T16:36:27.417235+02:00,5560565,Håkon Lorentzen: 2+ goals,nor-ik-ham-2026-10-11-goals-hakon-lorentzen-90165236-gte2,0.495,0.5,0.995,0.0,1.06,2026-10-11T15:00:00Z
+2026-10-11T16:36:27.417235+02:00,5560718,Exact Score: Willem II Tilburg 5 - 1 SC Cambuur-Leeuwarden?,ere-wii-cam-2026-10-24-exact-score-5-1,0.49,0.505,0.995,0.0,11.4884,2026-10-24T16:45:00Z
