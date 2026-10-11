@@ -35,7 +35,7 @@
         "market_id": "5380729",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.985,
+        "letzter_kurs": 0.5735,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -43,7 +43,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
         "side": "yes",
         "einstandskurs": 0.03,
-        "letzter_kurs": 0.02,
+        "letzter_kurs": 0.03,
         "fee_gezahlt": 0.03
       }
     },
@@ -81,7 +81,7 @@
         "market_id": "5380046",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.9745,
+        "letzter_kurs": 0.976,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -104,7 +104,7 @@
         "market_id": "5380716",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.996,
+        "letzter_kurs": 0.573,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -173,7 +173,7 @@
         "market_id": "5380714",
         "side": "no",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.972,
+        "letzter_kurs": 0.5695,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -227,7 +227,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
         "side": "yes",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.07,
+        "letzter_kurs": 0.06,
         "fee_gezahlt": 0.05
       }
     },
@@ -288,7 +288,7 @@
         "market_id": "5152046",
         "side": "yes",
         "einstandskurs": 0.5,
-        "letzter_kurs": 0.44,
+        "letzter_kurs": 0.45,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -334,7 +334,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.0965,
-        "letzter_kurs": 0.0925,
+        "letzter_kurs": 0.092,
         "fee_gezahlt": 0.0
       },
       "leg_b": {

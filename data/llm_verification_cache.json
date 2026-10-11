@@ -14698,5 +14698,2742 @@
     "checked_at": "2026-10-10T00:05:52.498794+00:00",
     "frage_a": "Exact Score: Cabrayil 3 - 5 Baku Sporting?",
     "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5270551__sxbet:0xc2683c603aa01075196a89bbc7c2bd3c78f50854167389525418de615892cd87": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Suwon Bluewings vs. Ansan Greeners FC end in a draw?",
+    "frage_b": "Suwon Samsung Bluewings vs Ansan Greeners - wer gewinnt?"
+  },
+  "polymarket:5218450__sxbet:0x24c4c6a41850202b7981f9f7c50b156b8ba712fe31aa2c47c9eccce9e7594736": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ketlen Souza win by KO or TKO?",
+    "frage_b": "Lupita Godinez vs Ketlen Souza - wer gewinnt?"
+  },
+  "polymarket:5218382__sxbet:0xe3ce23216175423deb284f02c8705bd49e22032c5d9b48c94a1ddeaf237705e2": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jai Herbert win by KO or TKO?",
+    "frage_b": "Matheus Camilo vs Jai Herbert - wer gewinnt?"
+  },
+  "polymarket:5218511__sxbet:0x014e49674ecce5d62c7d963609edd3baf7279d97dcdeadd723d9a59378d6a259": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Kai Kamaka III win by KO or TKO?",
+    "frage_b": "Andre Fili vs Kai Kamaka III - wer gewinnt?"
+  },
+  "polymarket:5001678__sxbet:0x06a0eba6840b3b7b8f30600861594a8a7553382d0fd0552d4c07cd236b810599": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Brendan Allen win by KO or TKO?",
+    "frage_b": "Brendan Cody Allen vs Christian Leroy Duncan - wer gewinnt?"
+  },
+  "polymarket:5036316__sxbet:0x6bea825eac53a4bcb61370e529ca62f58c6d962452462ec1a56a242afa7268d8": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Minnesota United FC vs. Houston Dynamo end in a draw?",
+    "frage_b": "Minnesota United vs Houston Dynamo - wer gewinnt?"
+  },
+  "polymarket:5031087__sxbet:0xe94a0d228770a16302d08ee4b859d470ec324298ca0c6e689c7f67ce6b4458dd": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will FC Utrecht vs. Willem II Tilburg end in a draw?",
+    "frage_b": "FC Utrecht vs Willem II Tilburg - wer gewinnt?"
+  },
+  "polymarket:5283894__sxbet:0x7ac1471d8b8a70a6aedd422fb2e96b68dd56f484d28bc57aeab13f47792245e5": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Union Saint-Gilloise vs. Oud-Heverlee Leuven end in a draw?",
+    "frage_b": "Royale Union Saint-Gilloise vs Oud-Heverlee Leuven - wer gewinnt?"
+  },
+  "polymarket:5218509__sxbet:0x014e49674ecce5d62c7d963609edd3baf7279d97dcdeadd723d9a59378d6a259": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Andre Fili win by KO or TKO?",
+    "frage_b": "Andre Fili vs Kai Kamaka III - wer gewinnt?"
+  },
+  "polymarket:5046301__sxbet:0x6b9d0dba9b75040ff5f5f316224b740489c9fb0cf9594aa06a828a6eb3a6456e": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will FC Slovan Liberec vs. 1. FC Slovácko end in a draw?",
+    "frage_b": "FC Slovan Liberec vs 1.FC Slovacko - wer gewinnt?"
+  },
+  "polymarket:5036379__sxbet:0x36aade96bdfa5caa4e67d0ed910cfd572a0533e847d1dc7264b31e63c3c2b1fc": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Los Angeles FC vs. Vancouver Whitecaps FC end in a draw?",
+    "frage_b": "Los Angeles FC vs Vancouver Whitecaps - wer gewinnt?"
+  },
+  "polymarket:5218385__sxbet:0xe3ce23216175423deb284f02c8705bd49e22032c5d9b48c94a1ddeaf237705e2": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Matheus Camilo win by KO or TKO?",
+    "frage_b": "Matheus Camilo vs Jai Herbert - wer gewinnt?"
+  },
+  "polymarket:5046597__sxbet:0x7c3af739fe088ab31816e11145688bc9343168508eaee3bd3652e7af409917f2": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will AC Sparta Praha vs. FK Pardubice end in a draw?",
+    "frage_b": "AC Sparta Praha vs FK Pardubice - wer gewinnt?"
+  },
+  "polymarket:5284101__sxbet:0x42936411cf424e79933847dcf9b24bef709a1043a68b0f2ecd6697ff6959c447": {
+    "same_event": false,
+    "reason": "different bet type (draw vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will FC St. Gallen 1879 vs. Lausanne-Sport end in a draw?",
+    "frage_b": "FC St. Gallen vs FC Lausanne-Sport - wer gewinnt?"
+  },
+  "polymarket:5044064__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs who wins)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044060__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5313025__sxbet:0x89a69ff57ceb9f08db9434b3e3dc30f6e00494152477b45594287958a32cfef9": {
+    "same_event": false,
+    "reason": "draw question vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Hammarby IF vs. Djurgardens IF end in a draw?",
+    "frage_b": "Hammarby IF vs Djurgardens IF - wer gewinnt?"
+  },
+  "polymarket:5044035__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5065298__sxbet:0x21c4e64e8f133bb99a07261c8cce86bdde81ff48e1c8c8be032717e838cb25ac": {
+    "same_event": false,
+    "reason": "draw question vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Real Sociedad de Fútbol vs. RC Deportivo A Coruña end in a draw?",
+    "frage_b": "Real Sociedad vs Deportivo La Coruna - wer gewinnt?"
+  },
+  "polymarket:5044051__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044057__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044063__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044070__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044059__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044045__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044041__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044072__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044049__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044076__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044067__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "exact score vs win/lose market, not opposites",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044029__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5065318__sxbet:0x25f58fddecf6b0c7814870707c2b384d21a607fe65530bcfa94293790f79349e": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Real Betis Balompié vs. CA Osasuna end in a draw?",
+    "frage_b": "Real Betis vs Osasuna - wer gewinnt?"
+  },
+  "polymarket:5448568__sxbet:0x135553248945094cb6d14ec0082d0fa7214ecf286945c54b4251df9e2d1659cf": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Chicago White Sox winning after 5 innings?",
+    "frage_b": "Cleveland Guardians vs Chicago White Sox - wer gewinnt?"
+  },
+  "polymarket:5044047__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5001681__sxbet:0x06a0eba6840b3b7b8f30600861594a8a7553382d0fd0552d4c07cd236b810599": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Christian Leroy Duncan win by KO or TKO?",
+    "frage_b": "Brendan Cody Allen vs Christian Leroy Duncan - wer gewinnt?"
+  },
+  "polymarket:5044033__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044037__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044043__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044055__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044065__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 2 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044023__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044025__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044039__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 2 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044066__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044069__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044061__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044068__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044073__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 3 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044027__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 0 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044074__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 4 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5036335__sxbet:0x335f279ab436ec79170645ee665cbed3fa41e2e94f13a67b27e750df8eacde54": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Sporting Kansas City vs. Portland Timbers end in a draw?",
+    "frage_b": "Sporting Kansas City vs Portland Timbers - wer gewinnt?"
+  },
+  "polymarket:5031090__sxbet:0x522d40a8755fcebd5dfc42ebe59bd981bdadab3dc2961c26f7386a5e08549656": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will PEC Zwolle vs. SC Cambuur-Leeuwarden end in a draw?",
+    "frage_b": "PEC Zwolle vs SC Cambuur - wer gewinnt?"
+  },
+  "polymarket:5278994__sxbet:0x005b2812c7fa46a1fe541f84d1fa42b29f7374b1c8a7b786f1ce6088c58ba4ec": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will SCR Altach vs. Wolfsberger AC end in a draw?",
+    "frage_b": "SCR Altach vs Wolfsberger AC - wer gewinnt?"
+  },
+  "polymarket:5044062__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5044071__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 3 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5046649__sxbet:0x5cf433778acc7c65811054d32b3754a673ca004e4ac7261938240db331475953": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Everton de Viña del Mar vs. CD La Serena end in a draw?",
+    "frage_b": "Everton Vina Del Mar vs Deportes La Serena - wer gewinnt?"
+  },
+  "polymarket:5044075__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 5 - 4 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5373032__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373019__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373025__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373031__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373033__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373040__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373036__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373037__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373026__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373023__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373015__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373020__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373027__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5044031__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 1 - 1 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5373022__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373018__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373021__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types: exact score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5031093__sxbet:0x6d3958fd15356a18f0f1247bec72b6a78147d2775fe78b64eea79e8389ef2d62": {
+    "same_event": false,
+    "reason": "different bet types: draw/no-draw vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Telstar 1963 vs. ADO Den Haag end in a draw?",
+    "frage_b": "SC Telstar vs ADO Den Haag - wer gewinnt?"
+  },
+  "polymarket:5373012__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373016__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373014__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373017__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5062257__sxbet:0x6919b23a7d3075c2bf4d20e0760670e13659607ca0458201850eea19baa4c9d6": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will 1. FC Köln vs. Borussia Mönchengladbach end in a draw?",
+    "frage_b": "1. FC Koln vs Borussia Monchengladbach - wer gewinnt?"
+  },
+  "polymarket:5278991__sxbet:0xa8dfc33d9d0aa6ad6f154688da2d2acce5385178ea465c060bad3c3bc7d87120": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will TSV Hartberg vs. Austria Lustenau end in a draw?",
+    "frage_b": "TSV Hartberg vs SC Austria Lustenau - wer gewinnt?"
+  },
+  "polymarket:5373010__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373024__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373034__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373009__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 0 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373038__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 2 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373043__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 4 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373028__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373013__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 1 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373041__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 3 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373011__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373029__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 0 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5087989__sxbet:0xad7cd08c880814e3c67cc99c0461ddce07a2f18332168a704316a0265c0d6bbe": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Club Aurora vs. CA Nacional Potosí end in a draw?",
+    "frage_b": "Aurora vs Nacional Potosí - wer gewinnt?"
+  },
+  "polymarket:5044053__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: Rio Ave FC 0 - 5 CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5289455__sxbet:0x5d87897aff80a13933d78301c273bce5affdb6e7cd4910e2d14b97d33d9814d0": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will KVC Westerlo vs. Royal Antwerp FC end in a draw?",
+    "frage_b": "KVC Westerlo vs Royal Antwerp FC - wer gewinnt?"
+  },
+  "polymarket:5373030__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 1 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373044__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 5 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373035__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 2 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373039__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 3 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373042__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (exact score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: CD Maipu 4 - 5 San Martin de San Juan?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5373008__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (second half winner vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "San Martin de San Juan to win the second half?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5067723__sxbet:0x5245bf925bf27e770200dfd98569c922bf55a55933912febfd1ebf0fb294930a": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Modena FC 2018 vs. Hellas Verona FC end in a draw?",
+    "frage_b": "Modena vs Hellas Verona - wer gewinnt?"
+  },
+  "polymarket:5043891__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Rio Ave FC vs. CD Nacional end in a draw?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5084514__sxbet:0xc27a8e5ddda440604fb78ea21673338ee77f8a9a5fa2b4ea3076021fd080ae8c": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CA Rosario Central vs. CS Independiente Rivadavia end in a draw?",
+    "frage_b": "Rosario Central vs Independiente Rivadavia - wer gewinnt?"
+  },
+  "polymarket:5085307__sxbet:0x925019bb07b7fc92b49f24c95be08c0e22ce88be1bd653b182dd09a05702928c": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will FC Arouca vs. CF Estrela da Amadora end in a draw?",
+    "frage_b": "FC Arouca vs Estrela Amadora - wer gewinnt?"
+  },
+  "polymarket:5373002__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will San Martin de San Juan win on 2026-10-11?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5087997__sxbet:0x3a2eae8544dadf73d07008caa9089d4b6f09a7fc5fa1fa4651052c6f2952b5bf": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CD Concepción vs. CD Unión La Calera end in a draw?",
+    "frage_b": "Deportes Concepción vs Union La Calera - wer gewinnt?"
+  },
+  "polymarket:5083132__sxbet:0x8d0832d85b9252be95b6687058d2654dd7bc3ec738811743cb3461e03b70353a": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Atlético San Luis vs. Club Santos Laguna end in a draw?",
+    "frage_b": "Atletico San Luis vs Santos Laguna - wer gewinnt?"
+  },
+  "polymarket:5046416__sxbet:0x9cffa6736b58957cb369373ecad632fbdbc7bd4c5d117ec76919f986dab77365": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will FK Teplice vs. SK Sigma Olomouc end in a draw?",
+    "frage_b": "FK Teplice vs SK Sigma Olomouc - wer gewinnt?"
+  },
+  "polymarket:5448569__sxbet:0x135553248945094cb6d14ec0082d0fa7214ecf286945c54b4251df9e2d1659cf": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Cleveland Guardians winning after 5 innings?",
+    "frage_b": "Cleveland Guardians vs Chicago White Sox - wer gewinnt?"
+  },
+  "polymarket:5373001__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CD Maipu vs. San Martin de San Juan end in a draw?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5065284__sxbet:0xf0b75dd303bc7fa705e38626dce88758df5d97166bd50e707f42826520e2fd44": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Elche CF vs. RC Celta de Vigo end in a draw?",
+    "frage_b": "Elche vs Celta de Vigo - wer gewinnt?"
+  },
+  "polymarket:5062299__sxbet:0x7386ff639d12167b81c2f581c47c491f7e8ea4d91659b935a0530b36d880fc36": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Crystal Palace FC vs. Nottingham Forest FC end in a draw?",
+    "frage_b": "Crystal Palace vs Nottingham Forest - wer gewinnt?"
+  },
+  "polymarket:5084511__sxbet:0x23931ddd929223a2f0729de2b175c4fd46c064e42d8699252d29199426a0b842": {
+    "same_event": false,
+    "reason": "Different outcomes: draw vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CA San Lorenzo de Almagro vs. CD Riestra end in a draw?",
+    "frage_b": "San Lorenzo de Almagro vs Deportivo Riestra - wer gewinnt?"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380196": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Kacmarek: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380716": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CJ Donaldson: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380375": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Bo Nix: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5381131": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "AJ Barner: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380737": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "T.J. Hockenson: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5379625": {
+    "same_event": false,
+    "reason": "Different players/events",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Shipley: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380404": {
+    "same_event": false,
+    "reason": "different players/teams",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "RJ Harvey: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "polymarket:5044085__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "scoring first vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CD Nacional to score first vs. Rio Ave FC?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380632": {
+    "same_event": false,
+    "reason": "different players/teams",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "DK Metcalf: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380384": {
+    "same_event": false,
+    "reason": "different players/teams",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "J.K. Dobbins: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5379993": {
+    "same_event": false,
+    "reason": "different players/teams",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "KC Concepcion Jr.: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "polymarket:5084520__sxbet:0x326f55ea979302a52b330f43392a5493f0f40d37b0c12dd467c1924213fbdbd2": {
+    "same_event": false,
+    "reason": "draw vs winner (draw possible)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Racing Club vs. CA Belgrano end in a draw?",
+    "frage_b": "Racing Club de Avellaneda vs CA Belgrano - wer gewinnt?"
+  },
+  "polymarket:5062311__sxbet:0xedb293a165cffdafa6737fcc0d347251dbe7c395bd84c7425d89c81b14c2c683": {
+    "same_event": false,
+    "reason": "draw vs winner (draw possible)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Liverpool FC vs. Manchester City FC end in a draw?",
+    "frage_b": "Liverpool vs Manchester City - wer gewinnt?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478287": {
+    "same_event": false,
+    "reason": "first scorer vs total goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Austin FC to score first in the 1st half vs. Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478288": {
+    "same_event": false,
+    "reason": "first scorer vs total goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Nashville SC to score first in the 1st half vs. Austin FC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "polymarket:5046325__sxbet:0x69c1b30b77b7816b8072ae67550070a79031691e9eb5be5f15c927900bd6c44e": {
+    "same_event": false,
+    "reason": "draw vs winner (draw possible)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Bamin Real Potosí vs. Club The Strongest end in a draw?",
+    "frage_b": "Club Real Potosí vs The Strongest - wer gewinnt?"
+  },
+  "polymarket:5373443__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "both teams to score second half vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CD Maipu vs. San Martin de San Juan: Both Teams to Score in Second Half",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5380487__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "first TD scorer vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Charlie Jones: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380502__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "first TD scorer vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Najee Harris: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380504__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "first TD scorer vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Theo Johnson: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5373416__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "both teams to score vs match winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CD Maipu vs. San Martin de San Juan: Both Teams to Score",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5380130__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Corey Kiner: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380132__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "DeMario Douglas: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380134__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Dylan Laube: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380139__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kyle Williams: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380140__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Malik Benson: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380141__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Michael Mayer: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380144__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Romeo Doubs: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5418408__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Eli Raridon: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5373007__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CD Maipu vs. San Martin de San Juan: Second half draw?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5380486__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Cam Skattebo: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380492__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Devin Singletary: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380494__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Isaiah Likely: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380496__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jameis Winston: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380500__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Malachi Fields: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380501__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "different bet types",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Malik Nabers: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380507__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Tyrone Tracy Jr.: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5088117__sxbet:0x440e66ebad1681200960d1ba3087dc0bf87c996c3d695b34bf34a253399561d3": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Clube Náutico Capibaribe vs. Vila Nova FC end in a draw?",
+    "frage_b": "Nautico Capibaribe vs Vila Nova GO - wer gewinnt?"
+  },
+  "polymarket:5380127__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Brock Bowers: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380136__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Hunter Henry: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380145__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Tanner Arkin: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380491__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Darnell Mooney: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380128__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Cameron Latu: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380129__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Cody White: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380131__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Dareke Young: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380133__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Drake Maye: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380138__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kirk Cousins: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380146__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Tre Tucker: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380489__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Chris Manhertz: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380505__sxbet:0x39ec7ed0520273f139db9e5840917a31c4376306366d69dbb7cc4f21f8f78c18": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Thomas Fidone II: Team First TD (New York Giants)",
+    "frage_b": "Washington Commanders vs New York Giants - wer gewinnt?"
+  },
+  "polymarket:5380126__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "Different propositions: player first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Ashton Jeanty: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380135__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Efton Chism III: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380137__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Ian Thomas: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380142__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Mike Washington Jr.: Team First TD (Las Vegas Raiders)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380143__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Rhamondre Stevenson: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5380147__sxbet:0x7cde900eb3702c97e6dda9f46fd1eb11816a50fa6298e30bab9f7fece781b82b": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "TreVeyon Henderson: Team First TD (New England Patriots)",
+    "frage_b": "New England Patriots vs Las Vegas Raiders - wer gewinnt?"
+  },
+  "polymarket:5381190__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Brandin Cooks: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381207__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Mike Evans: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5046815__sxbet:0xa14cb4fe410ecdaf768049f2d6afba05288208faa4743c32bf5a8d2dfc024def": {
+    "same_event": false,
+    "reason": "Draw question vs winner question are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CD Coquimbo Unido vs. CSD Colo-Colo end in a draw?",
+    "frage_b": "Coquimbo Unido vs Colo Colo - wer gewinnt?"
+  },
+  "polymarket:5381323__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "J.K. Dobbins: Team First TD (Denver Broncos)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381346__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Oronde Gadsden: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5132346__sxbet:0xb405a3105e81ec7970066cdaf93c74f2ea0f88960a0dbcbc2af08f83b831b455": {
+    "same_event": false,
+    "reason": "Draw question vs winner question are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CA Lanús vs. CA Vélez Sarsfield end in a draw?",
+    "frage_b": "Lanús vs Velez Sarsfield - wer gewinnt?"
+  },
+  "polymarket:5381347__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Quentin Johnston: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5098091__sxbet:0xd513934b58dc1855a3878f0d83d8e9154bcfb32c664f72b4c546cfd1179229ea": {
+    "same_event": false,
+    "reason": "Draw question vs winner question are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Torino FC vs. Udinese Calcio end in a draw?",
+    "frage_b": "Torino vs Udinese Calcio - wer gewinnt?"
+  },
+  "polymarket:5381192__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Brock Purdy: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381193__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "First TD scorer vs game winner are different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Christian McCaffrey: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381200__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "George Kittle: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381201__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jacob Cowing: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381320__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Hayden Rucci: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381328__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Justin Herbert: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381343__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Omarion Hampton: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5446885__sxbet:0xbd706d0eceb9577e9795d0697a0f7fbb267e40415a54672dc253c0723327232b": {
+    "same_event": false,
+    "reason": "Different propositions: draw outcome vs winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Vaasan Palloseura vs. IF Gnistan end in a draw?",
+    "frage_b": "VPS - Vaasan Palloseura vs IF Gnistan - wer gewinnt?"
+  },
+  "polymarket:5381195__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Deebo Samuel Sr.: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381311__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Bo Nix: Team First TD (Denver Broncos)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381333__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kimani Vidal: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381348__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "RJ Harvey: Team First TD (Denver Broncos)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5084517__sxbet:0xd9d0e770146b4d705b96152fdf815bf90332b3743ab3d07e48844be81bbcde0b": {
+    "same_event": false,
+    "reason": "Different propositions: draw outcome vs winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CA Platense vs. AA Argentinos Juniors end in a draw?",
+    "frage_b": "Platense vs Argentinos Juniors - wer gewinnt?"
+  },
+  "polymarket:5062244__sxbet:0xbe840b27706272098a9c728eff6856b637837619b84e5fef624ed92ab3800391": {
+    "same_event": false,
+    "reason": "Different propositions: draw outcome vs winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Hull City AFC vs. Everton FC end in a draw?",
+    "frage_b": "Hull City vs Everton - wer gewinnt?"
+  },
+  "polymarket:5381189__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "AJ Barner: Team First TD (Seattle Seahawks)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381191__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Brayden Willis: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381203__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "Different propositions: first TD scorer vs game winner.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jordan James: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381204__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jordan Watkins: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381205__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kaelon Black: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5381206__sxbet:0x51726aa0a94d9dca3b154cb8fd75d9a655afcdd0ab18b7d934b41ac3ffb01016": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Luke Farrell: Team First TD (San Francisco 49ers)",
+    "frage_b": "Seattle Seahawks vs San Francisco 49ers - wer gewinnt?"
+  },
+  "polymarket:5380019__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Braelon Allen: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380023__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Garrett Wilson: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380038__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Malik McClain: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5381314__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Derius Davis: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381330__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Keaton Mitchell: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "polymarket:5381349__sxbet:0xfcebe1bb84b8bf693dd8ee60f8d937017470b24eddbfb59a0aa530a3481a3e79": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Tre' Harris: Team First TD (Los Angeles Chargers)",
+    "frage_b": "Los Angeles Chargers vs Denver Broncos - wer gewinnt?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478278": {
+    "same_event": false,
+    "reason": "different bet types (exact halftime score vs over/under goals)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "1st Half Exact Score: Austin FC 0 - 0 Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "polymarket:5373004__sxbet:0xc135c58ef5f422499c9aea35ee17ffa3e4288a999810a565e57e241c1ed5f292": {
+    "same_event": false,
+    "reason": "different bet types (halftime draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CD Maipu vs. San Martin de San Juan: Draw at halftime?",
+    "frage_b": "Deportivo Maipu vs San Martín de San Juan - wer gewinnt?"
+  },
+  "polymarket:5090787__sxbet:0x011248b5d7b478ec40044a4272994e0a97cafa57025db686c0b3d99a3235c3b3": {
+    "same_event": false,
+    "reason": "different bet types (draw vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will KFUM-Kameratene Oslo vs. Vålerenga Fotball end in a draw?",
+    "frage_b": "KFUM-Kameratene Oslo vs Valerenga - wer gewinnt?"
+  },
+  "polymarket:5044084__sxbet:0x6bb916b61c1425104119421c25814956f4f84991425e885fdb05e8fb2a0d19e9": {
+    "same_event": false,
+    "reason": "different bet types (first team to score vs match winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Rio Ave FC to score first vs. CD Nacional?",
+    "frage_b": " Rio Ave F.C. vs CD Nacional Madeira - wer gewinnt?"
+  },
+  "polymarket:5380028__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Isaiah Williams: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380034__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (first TD scorer vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "KC Concepcion Jr.: Team First TD (Cleveland Browns)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5480079__sxbet:0x1818bf69207454f59db40b9f9baceb59e09fa17048cae7f221c2c876a72e4e1c": {
+    "same_event": false,
+    "reason": "different bet types (inning lead vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Los Angeles Dodgers winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Los Angeles Dodgers - wer gewinnt?"
+  },
+  "polymarket:5062310__sxbet:0xaf30101467dd20b5cfe16b418a51f6063b8db1eb040683b7be5b0f7c4f45856c": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will ES Troyes AC vs. Olympique de Marseille end in a draw?",
+    "frage_b": "Troyes AC vs Olympique Marseille - wer gewinnt?"
+  },
+  "polymarket:5083138__sxbet:0xd490411d6a1785ff4fe68f071d2665e0e0cbb8651e3ed5637f7d3494086b6206": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Pumas de la UNAM vs. CF Cruz Azul end in a draw?",
+    "frage_b": "Pumas UNAM vs Cruz Azul - wer gewinnt?"
+  },
+  "polymarket:5380024__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Geno Smith: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380027__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Isaiah Davis: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380031__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jelani Woods: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380036__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kenyon Sadiq: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5414642__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Mason Taylor: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478279": {
+    "same_event": false,
+    "reason": "different bet types (exact halftime score vs over/under goals)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "1st Half Exact Score: Austin FC 0 - 1 Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "polymarket:5480080__sxbet:0x1818bf69207454f59db40b9f9baceb59e09fa17048cae7f221c2c876a72e4e1c": {
+    "same_event": false,
+    "reason": "different bet types (inning lead vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Los Angeles Dodgers - wer gewinnt?"
+  },
+  "polymarket:5380030__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jamaal Pritchett: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380032__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Jeremy Ruckert: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5380035__sxbet:0xc0879a72914c64ba9fb8bf256839c1b87c577fc218a141513348522783cbb063": {
+    "same_event": false,
+    "reason": "different bet types (player first TD prop vs game winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kene Nwangwu: Team First TD (New York Jets)",
+    "frage_b": "New York Jets vs Cleveland Browns - wer gewinnt?"
+  },
+  "polymarket:5279570__sxbet:0x41564d788b0d9e8f130a2d2b4810b69f79ba5368c955a6cb2cda4ba395529178": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Grasshopper Club Zurich vs. Young Boys Bern end in a draw?",
+    "frage_b": "Grasshopper Club Zürich vs BSC Young Boys - wer gewinnt?"
+  },
+  "polymarket:5371935__sxbet:0xc0c9edaae0c58ba910f8e93f674e1ef439a9666daedd2767b06be5d9af485e55": {
+    "same_event": false,
+    "reason": "different bet types (draw vs winner)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will CA Central Norte Salta vs. Ferro Carril Oeste end in a draw?",
+    "frage_b": "CA Central Norte vs Ferro Carril Oeste - wer gewinnt?"
+  },
+  "polymarket:5380759__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Alvin Kamara first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Alvin Kamara: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5380760__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Barion Brown first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Barion Brown: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5380761__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Bryce Lance first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Bryce Lance: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5114407__sxbet:0xb8378593ffefc9f181ff8fb40488a7c095c94d1ea2a8086d2cd355d5842e3d19": {
+    "same_event": false,
+    "reason": "Draw question vs winner question (not complementary)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Coventry City FC vs. Newcastle United FC end in a draw?",
+    "frage_b": "Coventry City vs Newcastle United - wer gewinnt?"
+  },
+  "polymarket:5380762__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Chris Olave first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Chris Olave: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5380772__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Kevin Austin Jr. first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Kevin Austin Jr.: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478280": {
+    "same_event": false,
+    "reason": "Exact half score vs over 4.5 goals in first period (different markets)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "1st Half Exact Score: Austin FC 1 - 0 Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179407": {
+    "same_event": false,
+    "reason": "Which team scores first vs New England over 3.5 goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "FC Cincinnati to score first vs. New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179408": {
+    "same_event": false,
+    "reason": "New England scores first vs New England over 3.5 goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "New England Revolution to score first vs. FC Cincinnati?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "polymarket:5380763__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: CJ Donaldson first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "CJ Donaldson: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5380775__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Oscar Delp first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Oscar Delp: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "polymarket:5473038__sxbet:0xb5258f72aa4cf5cfcb37fd07de609d284c503c41c550d159065e44461699aeec": {
+    "same_event": false,
+    "reason": "Different events: Noah Fant first TD vs game winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Noah Fant: Team First TD (New Orleans Saints)",
+    "frage_b": "New Orleans Saints vs Minnesota Vikings - wer gewinnt?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5179361": {
+    "same_event": false,
+    "reason": "Win vs over 3.5 goals (different outcomes)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will San Diego FC win on 2026-10-14?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180051": {
+    "same_event": false,
+    "reason": "San Diego FC scores first vs over 3.5 goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "San Diego FC to score first vs. Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180052": {
+    "same_event": false,
+    "reason": "Houston Dynamo scores first vs over 3.5 goals",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Houston Dynamo to score first vs. San Diego FC?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478282": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "1st Half Exact Score: Austin FC 1 - 1 Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5380518": {
+    "same_event": false,
+    "reason": "Different players/events (C.J. Stroud TDs vs USC receiving TDs)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "C.J. Stroud: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNCAAFTEAMRECTD-26OCT10USCPSU-USC1__polymarket:5444191": {
+    "same_event": false,
+    "reason": "Different players/events (Ty Johnson TDs vs USC receiving TDs)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Ty Johnson: 2+ Touchdowns",
+    "frage_b": "USC: 1+ receiving touchdowns"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT10NSHOTT-5__polymarket:5478281": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "1st Half Exact Score: Austin FC 0 - 2 Nashville SC?",
+    "frage_b": "1st Period: Over 4.5 goals scored"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5287356": {
+    "same_event": false,
+    "reason": "Different bet types (second half win vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "New England Revolution to win the second half?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5280824": {
+    "same_event": false,
+    "reason": "Different bet types (second half win vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "San Diego Wave FC to win the second half?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5287542": {
+    "same_event": false,
+    "reason": "Different bet types (second half win vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "San Diego FC to win the second half?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-NYRB4__polymarket:5287172": {
+    "same_event": false,
+    "reason": "Different teams (NYCFC second half win vs NYRB total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "New York City FC to win the second half?",
+    "frage_b": "Will New York RB score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-NYRB4__polymarket:5287264": {
+    "same_event": false,
+    "reason": "Different bet types (second half win vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "New York Red Bulls to win the second half?",
+    "frage_b": "Will New York RB score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180011": {
+    "same_event": false,
+    "reason": "Different bet types (second half win vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "San Diego FC to win the second half?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179370": {
+    "same_event": false,
+    "reason": "Different bet types (exact 0-0 score vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 0 - 0 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179380": {
+    "same_event": false,
+    "reason": "Different bet types (exact 0-4 score vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 0 - 4 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179385": {
+    "same_event": false,
+    "reason": "Different bet types (exact 0-5 score vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 0 - 5 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179386": {
+    "same_event": false,
+    "reason": "Different bet types (exact 1-4 score vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 1 - 4 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179391": {
+    "same_event": false,
+    "reason": "Different bet types (exact 1-5 score vs total goals over 3.5)",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 1 - 5 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179397": {
+    "same_event": false,
+    "reason": "Exact score 3-4 does not complement New England >3.5 goals; other scores with NE≤3 also make both No.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 3 - 4 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179400": {
+    "same_event": false,
+    "reason": "Exact score 3-5 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 3 - 5 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179403": {
+    "same_event": false,
+    "reason": "Exact score 4-5 gives NE≥5 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 4 - 5 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "polymarket:5502018__predictit:8939:35599": {
+    "same_event": false,
+    "reason": "Different event types (match win vs. Senate race closeness).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will North Carolina Courage win on 2026-10-23?",
+    "frage_b": "Which 2026 Senate race will be the closest? - North Carolina"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180014": {
+    "same_event": false,
+    "reason": "Exact score 0-0 gives NE=0 (No) while question_a Yes, but other NE≤3 scores give both No.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 0 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180024": {
+    "same_event": false,
+    "reason": "Exact score 0-4 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 0 - 4 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180029": {
+    "same_event": false,
+    "reason": "Exact score 0-5 gives NE≥5 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 0 - 5 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180030": {
+    "same_event": false,
+    "reason": "Exact score 1-4 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 1 - 4 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180035": {
+    "same_event": false,
+    "reason": "Exact score 1-5 gives NE≥5 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 1 - 5 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180041": {
+    "same_event": false,
+    "reason": "Exact score 3-4 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 3 - 4 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180044": {
+    "same_event": false,
+    "reason": "Exact score 3-5 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 3 - 5 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180047": {
+    "same_event": false,
+    "reason": "Exact score 4-5 gives NE≥4 (Yes) while question_a Yes, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 4 - 5 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179371": {
+    "same_event": false,
+    "reason": "Exact score 0-1 gives NE≤3 (No) while question_a Yes, but other NE≤3 scores give both No.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 0 - 1 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179373": {
+    "same_event": false,
+    "reason": "Exact score 0-2 gives NE≤3 (No) while question_a Yes, but other NE≤3 scores give both No.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 0 - 2 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179379": {
+    "same_event": false,
+    "reason": "Exact score 3-0 gives NE≤3 (No) while question_a Yes, but other NE≤3 scores give both No.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 3 - 0 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179384": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 4 - 0 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179388": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 3 - 2 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179389": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 4 - 1 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179390": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 5 - 0 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179394": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 4 - 2 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179395": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 5 - 1 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179398": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 4 - 3 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179399": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 5 - 2 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179402": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 5 - 3 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5179404": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: FC Cincinnati 5 - 4 New England Revolution?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NESEA-NE4__polymarket:5286714": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is win/no-win, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will New England Revolution win on 2026-10-17?",
+    "frage_b": "Will New England score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180015": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 0 - 1 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180016": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 1 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180017": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 0 - 2 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180019": {
+    "same_event": false,
+    "reason": "Questions are not equivalent; one is exact score, other is over/under threshold.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 2 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180021": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 1 - 2 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180022": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 2 - 1 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180023": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 3 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180027": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 3 - 1 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180028": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 4 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180032": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 3 - 2 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180033": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 4 - 1 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180034": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 5 - 0 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180038": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 4 - 2 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180039": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 5 - 1 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180042": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 4 - 3 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180043": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 5 - 2 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180046": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 5 - 3 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5180048": {
+    "same_event": false,
+    "reason": "Exact score vs over/under goals - not opposite outcomes",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Exact Score: San Diego FC 5 - 4 Houston Dynamo?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "polymarket:3767070__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Different questions: favored forecast vs party control after 2026 election",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Republicans favored to win the Senate on Nate Silver's Bulletin by October 31?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5286798": {
+    "same_event": false,
+    "reason": "Different propositions (win vs goal total).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will San Diego FC win on 2026-10-17?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "kalshi:KXMLSTEAMTOTAL-26OCT10NYRBSD-SD4__polymarket:5280723": {
+    "same_event": false,
+    "reason": "Different teams (Wave FC vs FC).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will San Diego Wave FC win on 2026-10-17?",
+    "frage_b": "Will San Diego FC score over 3.5 goals?"
+  },
+  "polymarket:5378953__predictit:8939:35606": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Texas be the closest Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Texas"
+  },
+  "polymarket:630925__predictit:8375:33005": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Republicans win the South Carolina Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Carolina? - Republican"
+  },
+  "polymarket:5379034__predictit:8472:33330": {
+    "same_event": false,
+    "reason": "Different propositions (closest race vs party win).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Nebraska be the closest Governor's race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Nebraska? - Republican"
+  },
+  "polymarket:648383__predictit:8588:33824": {
+    "same_event": false,
+    "reason": "Different wording but same meaning; not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Billionaire one-time wealth tax passes in California election 2026?",
+    "frage_b": "Will California pass a wealth tax referendum in 2026?"
+  },
+  "polymarket:562794__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Republican Party control the Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:3408852__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scopes (single district vs national margin).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 GA-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:4154287__predictit:8939:35602": {
+    "same_event": false,
+    "reason": "Different propositions (best among tossups vs closest race).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Alaska Democrat perform best among these tossup Senate races?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Alaska"
+  },
+  "polymarket:3343108__predictit:8384:33039": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Alabama Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alabama? - Democratic"
+  },
+  "polymarket:2683266__predictit:8163:31969": {
+    "same_event": false,
+    "reason": "Different propositions (seat range vs exact seat count).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Republicans hold 47–49 Senate seats and ≤192 House seats after the 2026 midterms?",
+    "frage_b": "How many Senate seats will the GOP control after the 2026 midterms? - 49"
+  },
+  "polymarket:5336176__predictit:8643:34099": {
+    "same_event": false,
+    "reason": "Different propositions (combined outcome vs single PM).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win Brazil, Naftali Bennett become Israeli PM, and Democrats win the US Senate?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Naftali Bennett"
+  },
+  "polymarket:4222440__predictit:8418:33124": {
+    "same_event": false,
+    "reason": "Different offices (Lieutenant Governor vs governor).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Texas Lieutenant Governor election?",
+    "frage_b": "Which party will win the 2026 election for governor of Texas? - Democratic"
+  },
+  "polymarket:562793__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:5378958__predictit:8939:35601": {
+    "same_event": false,
+    "reason": "Same question direction, not opposite.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ohio (Special) be the closest Senate race in 2026?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Ohio"
+  },
+  "polymarket:4154288__predictit:8939:35601": {
+    "same_event": false,
+    "reason": "Different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Ohio Democrat perform best among these tossup Senate races?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Ohio"
+  },
+  "polymarket:1797426__predictit:8940:35607": {
+    "same_event": false,
+    "reason": "Different scope",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will any country expel a U.S. ambassador by December 31?",
+    "frage_b": "Will Canada expel the US ambassador in 2026?"
+  },
+  "polymarket:3708350__predictit:8171:32019": {
+    "same_event": false,
+    "reason": "Run vs win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Alexandria Ocasio-Cortez run for President in 2028?",
+    "frage_b": "Who will win the 2028 US presidential election? - A. Ocasio-Cortez"
+  },
+  "polymarket:679018__predictit:8766:34694": {
+    "same_event": false,
+    "reason": "Win vs who wins",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Marine Le Pen win the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Marine Le Pen"
+  },
+  "polymarket:941132__predictit:8485:33390": {
+    "same_event": false,
+    "reason": "Vacancy vs confirmation",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Supreme Court vacancy in 2026?",
+    "frage_b": "Will Congress confirm a Supreme Court justice in 2026?"
+  },
+  "polymarket:2106368__predictit:8767:34700": {
+    "same_event": false,
+    "reason": "Dissolution vs any leaving",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "OPEC dissolves in 2026?",
+    "frage_b": "Will any additional country announce that it is leaving OPEC in 2026?"
+  },
+  "polymarket:1370765__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "Party leave vs House control",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Lisa Murkowski leaves the Republican Party in 2026?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:2491913__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "Trump endorsement vs House control",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Trump not endorse a Party in the 2026 Israeli Election?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:1982010__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Katie Britt be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982004__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Byron Donalds be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:2054231__predictit:8766:34698": {
+    "same_event": false,
+    "reason": "Ballot presence vs winner",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Gabriel Attal be on the ballot for the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:1982006__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Josh Hawley be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982023__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Eric Trump be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1981998__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Nikki Haley be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982005__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "VP nominee vs party win",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Elise Stefanik be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1981999__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Vivek Ramaswamy be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982001__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Greg Abbott be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982000__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Sarah Huckabee Sanders be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982012__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Kristi Noem be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:2750307__predictit:8890:35352": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Volodymyr Zelenskyy be the next leader out before 2027?",
+    "frage_b": "Which of these 10 European leaders will leave office next? - Volodymyr Zelenskyy"
+  },
+  "polymarket:1982024__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Joe Kent be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:3347385__predictit:8357:32913": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Nikki Haley announce a presidential run before 2028?",
+    "frage_b": "Who will win the 2028 Republican presidential primary in New Hampshire? - Nikki Haley"
+  },
+  "polymarket:3347402__predictit:8171:32066": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ivanka Trump announce a presidential run before 2028?",
+    "frage_b": "Who will win the 2028 US presidential election? - Donald Trump"
+  },
+  "polymarket:1720308__predictit:8660:34188": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Law banning sports prediction markets enacted in 2026?",
+    "frage_b": "Will a law restricting sports trades on prediction markets be enacted in 2026?"
+  },
+  "polymarket:3229385__predictit:8171:32021": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Kamala Harris win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - Kamala Harris"
+  },
+  "polymarket:1982015__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ivanka Trump be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982022__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Thomas Massie be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:3347390__predictit:8171:32066": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Byron Donalds announce a presidential run before 2028?",
+    "frage_b": "Who will win the 2028 US presidential election? - Donald Trump"
+  },
+  "polymarket:1981992__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will J.D. Vance be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1982021__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Marjorie Taylor Greene be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:2371048__predictit:8766:34692": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Édouard Philippe advance to the second round of the next French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Édouard Philippe"
+  },
+  "polymarket:4591292__predictit:8181:32068": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the 2028 Democratic presidential nominee be under 45 years old?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Democratic"
+  },
+  "polymarket:734893__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Donald Trump visit Oregon in 2026?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:2697991__predictit:8966:35786": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the House pass a reconciliation bill by December 31?",
+    "frage_b": "Will the House pass the AI Kill Switch bill in 2026?"
+  },
+  "polymarket:5166796__predictit:8707:34445": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Trump and Pezeshkian meet by December 31?",
+    "frage_b": "Will Trump meet with Pope Leo in 2026?"
+  },
+  "polymarket:2332984__predictit:8850:35123": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Scott Bessent be the next to leave the Trump Cabinet before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - Scott Bessent"
+  },
+  "polymarket:5151695__predictit:8643:34099": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Naftali Bennett be the next Israeli Minister of Foreign Affairs?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Naftali Bennett"
+  },
+  "polymarket:4591294__predictit:8181:32068": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the 2028 Democratic presidential nominee be 55-64 years old?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Democratic"
+  },
+  "polymarket:4591293__predictit:8181:32068": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the 2028 Democratic presidential nominee be 45-54 years old?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Democratic"
+  },
+  "polymarket:3347381__predictit:8800:34832": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Tulsi Gabbard announce a presidential run before 2028?",
+    "frage_b": "Who will win the 2028 Republican vice presidential nomination? - Tulsi Gabbard"
+  },
+  "polymarket:3021674__predictit:8152:32069": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ron DeSantis be the first listed Republican to announce a run for President in 2028?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
+  },
+  "polymarket:5151791__predictit:8643:34100": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Avigdor Lieberman be the next Israeli Minister of Interior?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Avigdor Lieberman"
+  },
+  "polymarket:3347349__predictit:8153:33094": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Mark Cuban announce a Presidential run before 2028?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Mark Kelly"
+  },
+  "polymarket:3229382__predictit:8171:32023": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Gavin Newsom win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - Gavin Newsom"
+  },
+  "polymarket:3021679__predictit:8152:31927": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ted Cruz be the first listed Republican to announce a run for President in 2028?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ted Cruz"
+  },
+  "polymarket:3229168__predictit:8171:32024": {
+    "same_event": false,
+    "reason": "Different propositions: Trump endorsing Rubio vs Rubio winning election.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Donald Trump endorse Marco Rubio in the 2028 US Presidential election?",
+    "frage_b": "Who will win the 2028 US presidential election? - Marco Rubio"
+  },
+  "polymarket:3021673__predictit:8152:31930": {
+    "same_event": false,
+    "reason": "Different propositions: first to announce run vs winning nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Marco Rubio be the first listed Republican to announce a run for President in 2028?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
+  },
+  "polymarket:3229401__predictit:8153:31944": {
+    "same_event": false,
+    "reason": "Different propositions: winning SC primary vs winning Democratic nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Cory Booker win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Cory Booker"
+  },
+  "polymarket:3708351__predictit:8171:32019": {
+    "same_event": false,
+    "reason": "Different propositions: not running for office vs winning presidency.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Alexandria Ocasio-Cortez not run for Senate or President in 2028?",
+    "frage_b": "Who will win the 2028 US presidential election? - A. Ocasio-Cortez"
+  },
+  "polymarket:3347361__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Different persons: Jared Polis vs Stephen A. Smith.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jared Polis announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:5151607__predictit:8643:34099": {
+    "same_event": false,
+    "reason": "Different offices: Israeli Minister of Defense vs Prime Minister.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Naftali Bennett be the next Israeli Minister of Defense?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Naftali Bennett"
+  },
+  "polymarket:2055077__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Different persons and actions: Castex announcing candidacy vs Mélenchon winning election.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jean Castex announce their candidacy for the 2027 French presidential election in 2026?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:2371081__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Different propositions: advancing to second round vs winning election; different persons.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jean Castex advance to the second round of the next French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:3229384__predictit:8171:32019": {
+    "same_event": false,
+    "reason": "Different propositions: winning SC primary vs winning presidency.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Alexandria Ocasio-Cortez win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - A. Ocasio-Cortez"
+  },
+  "polymarket:1981567__predictit:8153:31937": {
+    "same_event": false,
+    "reason": "Different offices: Democratic VP nominee vs Democratic presidential nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Gavin Newsom be the 2028 Democratic Vice-Presidential nominee?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
+  },
+  "polymarket:2865986__predictit:8153:33680": {
+    "same_event": false,
+    "reason": "Different propositions: first to announce run vs winning nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ro Khanna be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Ro Khanna"
+  },
+  "polymarket:3347379__predictit:8640:34075": {
+    "same_event": false,
+    "reason": "Different propositions: Vance announcing run vs both Rubio and Vance announcing runs.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will J.D. Vance announce a presidential run before 2028?",
+    "frage_b": "Will Rubio and Vance both announce a run for President before 2028?"
+  },
+  "polymarket:3347363__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Different persons: Barack Obama vs Stephen A. Smith.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Barack Obama announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:561974__predictit:8181:32067": {
+    "same_event": false,
+    "reason": "Different propositions: Vance winning nomination vs Republican party winning presidency.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:3229383__predictit:8171:34386": {
+    "same_event": false,
+    "reason": "Different propositions: winning SC primary vs winning presidency.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jon Ossoff win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - Jon Ossoff"
+  },
+  "polymarket:2865981__predictit:8656:34169": {
+    "same_event": true,
+    "reason": "Both ask if Josh Shapiro will be the first Democratic 2028 presidential announcer.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Josh Shapiro be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Which of these Democratic candidates will announce a 2028 POTUS run first? - Josh Shapiro"
+  },
+  "polymarket:2865985__predictit:8153:32387": {
+    "same_event": false,
+    "reason": "First asks about first to announce; second about winning nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Rahm Emanuel be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Rahm Emanuel"
+  },
+  "polymarket:2674183__predictit:8246:32304": {
+    "same_event": true,
+    "reason": "Both ask if Amul Thapar will be the next Supreme Court nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Amul Thapar be the next Supreme Court nominee?",
+    "frage_b": "Who will be the next Supreme Court nominee? - Amul Thapar"
+  },
+  "polymarket:2865982__predictit:8656:34164": {
+    "same_event": true,
+    "reason": "Both ask if Pete Buttigieg will be the first Democratic 2028 presidential announcer.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Pete Buttigieg be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Which of these Democratic candidates will announce a 2028 POTUS run first? - Pete Buttigieg"
+  },
+  "polymarket:3347364__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Different persons (Hillary Clinton vs Stephen A. Smith).",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Hillary Clinton announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:3229386__predictit:8171:32022": {
+    "same_event": false,
+    "reason": "First about SC primary win; second about general election win.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Pete Buttigieg win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - Pete Buttigieg"
+  },
+  "polymarket:565064__predictit:8181:32067": {
+    "same_event": true,
+    "reason": "Both ask if Republicans will win the 2028 presidential election.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will the Republicans win the 2028 US Presidential Election?",
+    "frage_b": "Which party will win the 2028 US presidential election? - Republican"
+  },
+  "polymarket:1981573__predictit:8153:31934": {
+    "same_event": false,
+    "reason": "First about Democratic VP nominee; second about presidential nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Kamala Harris be the 2028 Democratic Vice-Presidential nominee?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Kamala Harris"
+  },
+  "polymarket:559661__predictit:8153:32160": {
+    "same_event": true,
+    "reason": "Both ask if Jon Ossoff will win the 2028 Democratic presidential nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Jon Ossoff win the 2028 Democratic presidential nomination?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Jon Ossoff"
+  },
+  "polymarket:1981993__predictit:8800:34835": {
+    "same_event": true,
+    "reason": "Both ask if Marco Rubio will be the Republican 2028 VP nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Marco Rubio be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Who will win the 2028 Republican vice presidential nomination? - Marco Rubio"
+  },
+  "polymarket:2674175__predictit:8246:33695": {
+    "same_event": true,
+    "reason": "Both ask if Ted Cruz will be the next Supreme Court nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ted Cruz be the next Supreme Court nominee?",
+    "frage_b": "Who will be the next Supreme Court nominee? - Ted Cruz"
+  },
+  "polymarket:1981997__predictit:8800:34837": {
+    "same_event": true,
+    "reason": "Both ask if Ron DeSantis will be the Republican 2028 VP nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Ron DeSantis be the 2028 Republican Vice-Presidential nominee?",
+    "frage_b": "Who will win the 2028 Republican vice presidential nomination? - Ron DeSantis"
+  },
+  "polymarket:559660__predictit:8153:31941": {
+    "same_event": true,
+    "reason": "Both ask if Andy Beshear will win the 2028 Democratic presidential nomination.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Andy Beshear"
+  },
+  "polymarket:2674176__predictit:8246:32307": {
+    "same_event": true,
+    "reason": "Both ask if Andrew Oldham will be the next Supreme Court nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Andrew Oldham be the next Supreme Court nominee?",
+    "frage_b": "Who will be the next Supreme Court nominee? - Andrew Oldham"
+  },
+  "polymarket:2674179__predictit:8246:32305": {
+    "same_event": true,
+    "reason": "Both ask if Neomi Rao will be the next Supreme Court nominee.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Neomi Rao be the next Supreme Court nominee?",
+    "frage_b": "Who will be the next Supreme Court nominee? - Neomi Rao"
+  },
+  "polymarket:559654__predictit:8153:31935": {
+    "same_event": false,
+    "reason": "Frage B ist keine Ja/Nein-Frage nach dem Sieg von Pete Buttigieg, sondern eine 'Wer gewinnt?'-Frage mit Pete Buttigieg als Option; sie sind nicht exakt dieselbe Frage.",
+    "checked_at": "2026-10-11T00:16:06.926749+00:00",
+    "frage_a": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Pete Buttigieg"
   }
 }
