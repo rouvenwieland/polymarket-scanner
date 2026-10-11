@@ -3802,3 +3802,16 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-11T23:44:37.180081+02:00,VERKAUF,5154602,Will Lambda's valuation hit (LOW) $12.25B by October 31?,3.2695,1.0,3.2695,140.7744,Konvergenz erreicht (Kurs 1.000)
 2026-10-11T23:44:37.180081+02:00,VERKAUF,1059420,Will Paddy Pimblett become UFC champion in 2026?,3.258,1.0,3.258,144.0324,Konvergenz erreicht (Kurs 1.000)
 2026-10-11T23:44:37.180081+02:00,VERKAUF,5162400,Will Ipswich Town record 34 or more points during the 2026-27 English Premier League season?,3.2695,1.0,3.2695,147.3018,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T00:54:15.823726+02:00,VERKAUF,5244696,CD Leganés vs. Córdoba CF: Both Teams to Score in Second Half,3.2695,1.0,3.2695,150.5713,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T00:54:15.823726+02:00,KAUF,4893623,Will the fight be won by submission?,11.6406,0.995,-11.5824,138.9889,"Spread 0.50%, Liquiditaet 9261 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5159054,Feyenoord Rotterdam to score first vs. Como 1907?,11.6406,0.995,-11.5824,127.4065,"Spread 0.50%, Liquiditaet 9471 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5182342,Los Angeles FC vs. Austin FC: Both Teams to Score in First Half,11.6406,0.995,-11.5824,115.8241,"Spread 0.50%, Liquiditaet 5249 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5189563,Exact Score: Mjällby AIF 2 - 0 Inter Club d'Escaldes?,11.6406,0.995,-11.5824,104.2416,"Spread 0.50%, Liquiditaet 1336 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5238734,Henan FC vs. Tianjin Jinmen Hu FC: Both Teams to Score,11.6406,0.995,-11.5824,92.6592,"Spread 0.50%, Liquiditaet 2126 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5480242,Will Djurgardens IF win on 2026-10-16?,11.6406,0.995,-11.5824,81.0768,"Spread 0.50%, Liquiditaet 5915 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5475696,"Will Micron (MU) finish week of October 12 above $1,030?",11.6406,0.995,-11.5824,69.4944,"Spread 0.50%, Liquiditaet 859 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5589335,Exact Score: Albion FC 4 - 3 Montevideo City Torque?,11.6406,0.995,-11.5824,57.912,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5331097,Lyngby BK vs. FC Nordsjælland: Both Teams to Score in First Half,11.6406,0.995,-11.5824,46.3296,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5569175,Ravens vs. Browns: Both Teams to Score Points - 4Q,11.6406,0.995,-11.5824,34.7472,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5479474,OGC Nice to win the second half?,11.6406,0.995,-11.5824,23.1648,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-12T00:54:15.823726+02:00,KAUF,5091439,Will the SpaceX Starship Flight Test 15 Super Heavy booster explode?,11.6406,0.995,-11.5824,11.5824,"Spread 0.50%, Liquiditaet 103 USD"
