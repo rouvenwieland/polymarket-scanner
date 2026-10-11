@@ -89,7 +89,7 @@
         "market_id": "KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
         "side": "yes",
         "einstandskurs": 0.04,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.05,
         "fee_gezahlt": 0.03
       }
     },
@@ -311,7 +311,7 @@
         "market_id": "5297567",
         "side": "yes",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.5,
+        "letzter_kurs": 0.505,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
