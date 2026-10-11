@@ -1,282 +1,6 @@
 {
-  "cash": 9799.504466461636,
+  "cash": 9654.504260597421,
   "positions": [
-    {
-      "pair_id": "polymarket:5380722__kalshi:KXNFLTD-26OCT11MINNO-NODVELE14-2",
-      "frage": "[polymarket] Devaughn Vele: 2+ Touchdowns  <->  [kalshi] Devaughn Vele: 2+ touchdowns",
-      "shares": 11.393367709048132,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380722",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.9875,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NODVELE14-2",
-        "side": "yes",
-        "einstandskurs": 0.03,
-        "letzter_kurs": 0.03,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380729__kalshi:KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
-      "frage": "[polymarket] Kendre Miller: 2+ Touchdowns  <->  [kalshi] Kendre Miller: 2+ touchdowns",
-      "shares": 11.393367709048132,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380729",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.986,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOKMILLER5-2",
-        "side": "yes",
-        "einstandskurs": 0.03,
-        "letzter_kurs": 0.03,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380732__kalshi:KXNFLTD-26OCT11MINNO-MINKMURRAY1-2",
-      "frage": "[polymarket] Kyler Murray: 2+ Touchdowns  <->  [kalshi] Kyler Murray: 2+ touchdowns",
-      "shares": 11.393367709048132,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380732",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.992,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-MINKMURRAY1-2",
-        "side": "yes",
-        "einstandskurs": 0.03,
-        "letzter_kurs": 0.02,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380046__kalshi:KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
-      "frage": "[polymarket] Jordan Addison: 2+ Touchdowns  <->  [kalshi] Jordan Addison: 2+ touchdowns",
-      "shares": 11.142411920399962,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380046",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.5,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-MINJADDISON3-2",
-        "side": "yes",
-        "einstandskurs": 0.04,
-        "letzter_kurs": 0.12,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380716__kalshi:KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
-      "frage": "[polymarket] CJ Donaldson: 2+ Touchdowns  <->  [kalshi] CJ Donaldson: 2+ touchdowns",
-      "shares": 11.142301178816608,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380716",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.9965,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOCDONALDSON43-2",
-        "side": "yes",
-        "einstandskurs": 0.04,
-        "letzter_kurs": 0.01,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380727__kalshi:KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
-      "frage": "[polymarket] Juwan Johnson: 2+ Touchdowns  <->  [kalshi] Juwan Johnson: 2+ touchdowns",
-      "shares": 11.142411920399962,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380727",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.9835,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOJJOHNSON83-2",
-        "side": "yes",
-        "einstandskurs": 0.04,
-        "letzter_kurs": 0.03,
-        "fee_gezahlt": 0.03
-      }
-    },
-    {
-      "pair_id": "polymarket:5380737__kalshi:KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
-      "frage": "[polymarket] T.J. Hockenson: 2+ Touchdowns  <->  [kalshi] T.J. Hockenson: 2+ touchdowns",
-      "shares": 10.840447263147624,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380737",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.978,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-MINTHOCKENSON87-2",
-        "side": "yes",
-        "einstandskurs": 0.05,
-        "letzter_kurs": 0.04,
-        "fee_gezahlt": 0.04
-      }
-    },
-    {
-      "pair_id": "polymarket:5380714__kalshi:KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
-      "frage": "[polymarket] Chris Olave: 2+ Touchdowns  <->  [kalshi] Chris Olave: 2+ touchdowns",
-      "shares": 10.640500343103618,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380714",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.972,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOCOLAVE12-2",
-        "side": "yes",
-        "einstandskurs": 0.06,
-        "letzter_kurs": 0.06,
-        "fee_gezahlt": 0.05
-      }
-    },
-    {
-      "pair_id": "polymarket:5380741__kalshi:KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
-      "frage": "[polymarket] Tyler Shough: 2+ Touchdowns  <->  [kalshi] Tyler Shough: 2+ touchdowns",
-      "shares": 10.640500343103618,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380741",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.985,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOTSHOUGH6-2",
-        "side": "yes",
-        "einstandskurs": 0.06,
-        "letzter_kurs": 0.02,
-        "fee_gezahlt": 0.05
-      }
-    },
-    {
-      "pair_id": "polymarket:5380044__kalshi:KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
-      "frage": "[polymarket] Alvin Kamara: 2+ Touchdowns  <->  [kalshi] Alvin Kamara: 2+ touchdowns",
-      "shares": 10.389544554455446,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-07T17:30:18.239410+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5380044",
-        "side": "no",
-        "einstandskurs": 0.505,
-        "letzter_kurs": 0.964,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLTD-26OCT11MINNO-NOAKAMARA41-2",
-        "side": "yes",
-        "einstandskurs": 0.07,
-        "letzter_kurs": 0.06,
-        "fee_gezahlt": 0.05
-      }
-    },
-    {
-      "pair_id": "polymarket:5408416__kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17",
-      "frage": "[polymarket] Will Jared Wayne score the first touchdown?  <->  [kalshi] Jared Wayne: 1st Touchdown",
-      "shares": 97.5255495586785,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5408416",
-        "side": "no",
-        "einstandskurs": 0.52,
-        "letzter_kurs": 0.5,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLFIRSTTD-26OCT11HOUTEN-HOUJWAYNE17",
-        "side": "yes",
-        "einstandskurs": 0.02,
-        "letzter_kurs": 0.02,
-        "fee_gezahlt": 0.14
-      }
-    },
-    {
-      "pair_id": "polymarket:5408412__kalshi:KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87",
-      "frage": "[polymarket] Will Foster Moreau score the first touchdown?  <->  [kalshi] Foster Moreau: 1st Touchdown",
-      "shares": 39.92567166493857,
-      "end_date": "2026-10-13T17:00:00Z",
-      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5408412",
-        "side": "no",
-        "einstandskurs": 0.515,
-        "letzter_kurs": 0.5,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "kalshi",
-        "market_id": "KXNFLFIRSTTD-26OCT11HOUTEN-HOUFMOREAU87",
-        "side": "yes",
-        "einstandskurs": 0.04,
-        "letzter_kurs": 0.03,
-        "fee_gezahlt": 0.11
-      }
-    },
     {
       "pair_id": "polymarket:5152046__kalshi:KXMLSBTTS-26OCT14TORORL-BTTS",
       "frage": "[polymarket] CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score  <->  [kalshi] Both Teams To Score",
@@ -311,7 +35,7 @@
         "market_id": "5297567",
         "side": "yes",
         "einstandskurs": 0.505,
-        "letzter_kurs": 0.575,
+        "letzter_kurs": 0.59,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -343,6 +67,282 @@
         "side": "no",
         "einstandskurs": 0.85,
         "letzter_kurs": 0.86,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3344127__predictit:8375:33006",
+      "frage": "[polymarket] Will the Democratic Party candidate win the 2026 South Carolina Senate election?  <->  [predictit] Which party will win the 2026 US Senate election in South Carolina? - Democratic",
+      "shares": 12.82051282051282,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3344127",
+        "side": "yes",
+        "einstandskurs": 0.145,
+        "letzter_kurs": 0.145,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8375:33006",
+        "side": "no",
+        "einstandskurs": 0.78,
+        "letzter_kurs": 0.78,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5378949__predictit:8939:35602",
+      "frage": "[polymarket] Will Alaska be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Alaska",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5378949",
+        "side": "yes",
+        "einstandskurs": 0.0365,
+        "letzter_kurs": 0.0365,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8939:35602",
+        "side": "no",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.91,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:630806__predictit:8158:31953",
+      "frage": "[polymarket] Will the Republicans win the Michigan Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Michigan? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "630806",
+        "side": "yes",
+        "einstandskurs": 0.315,
+        "letzter_kurs": 0.315,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8158:31953",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:635012__predictit:8245:32302",
+      "frage": "[polymarket] Will Bernadette Wilson win the 2026 Alaska governor election?  <->  [predictit] Who will win the 2026 election for governor of Alaska? - Bernadette Wilson",
+      "shares": 12.987012987012987,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "635012",
+        "side": "yes",
+        "einstandskurs": 0.195,
+        "letzter_kurs": 0.195,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8245:32302",
+        "side": "no",
+        "einstandskurs": 0.77,
+        "letzter_kurs": 0.77,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:4641265__predictit:8983:35852",
+      "frage": "[polymarket] Will Canada become a European Union Association Member by December 31, 2027? (copy)  <->  [predictit] Will Canada become an EU Associate Member by year-end 2027?",
+      "shares": 58.8235294117647,
+      "end_date": "2028-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "4641265",
+        "side": "no",
+        "einstandskurs": 0.555,
+        "letzter_kurs": 0.555,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8983:35852",
+        "side": "yes",
+        "einstandskurs": 0.17,
+        "letzter_kurs": 0.17,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:567688__predictit:8643:34096",
+      "frage": "[polymarket] Netanyahu out by end of 2026?  <->  [predictit] Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu",
+      "shares": 16.949152542372882,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "567688",
+        "side": "yes",
+        "einstandskurs": 0.36,
+        "letzter_kurs": 0.36,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8643:34096",
+        "side": "no",
+        "einstandskurs": 0.59,
+        "letzter_kurs": 0.59,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3190125__predictit:8804:34867",
+      "frage": "[polymarket] Crypto Market Structure legislation becomes law in 2026?  <->  [predictit] Will crypto regulation (Clarity Act) be enacted in 2026?",
+      "shares": 11.11111111111111,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3190125",
+        "side": "yes",
+        "einstandskurs": 0.057,
+        "letzter_kurs": 0.057,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8804:34867",
+        "side": "no",
+        "einstandskurs": 0.9,
+        "letzter_kurs": 0.9,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2674183__predictit:8246:32304",
+      "frage": "[polymarket] Will Amul Thapar be the next Supreme Court nominee?  <->  [predictit] Who will be the next Supreme Court nominee? - Amul Thapar",
+      "shares": 166.66666666666669,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2674183",
+        "side": "no",
+        "einstandskurs": 0.855,
+        "letzter_kurs": 0.855,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8246:32304",
+        "side": "yes",
+        "einstandskurs": 0.06,
+        "letzter_kurs": 0.06,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2865981__predictit:8656:34169",
+      "frage": "[polymarket] Will Josh Shapiro be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Josh Shapiro",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2865981",
+        "side": "yes",
+        "einstandskurs": 0.018,
+        "letzter_kurs": 0.018,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8656:34169",
+        "side": "no",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.91,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2865982__predictit:8656:34164",
+      "frage": "[polymarket] Will Pete Buttigieg be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Pete Buttigieg",
+      "shares": 90.9090909090909,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2865982",
+        "side": "no",
+        "einstandskurs": 0.825,
+        "letzter_kurs": 0.825,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8656:34164",
+        "side": "yes",
+        "einstandskurs": 0.11,
+        "letzter_kurs": 0.11,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:565064__predictit:8181:32067",
+      "frage": "[polymarket] Will the Republicans win the 2028 US Presidential Election?  <->  [predictit] Which party will win the 2028 US presidential election? - Republican",
+      "shares": 16.666666666666668,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "565064",
+        "side": "yes",
+        "einstandskurs": 0.345,
+        "letzter_kurs": 0.345,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8181:32067",
+        "side": "no",
+        "einstandskurs": 0.6,
+        "letzter_kurs": 0.6,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1981997__predictit:8800:34837",
+      "frage": "[polymarket] Will Ron DeSantis be the 2028 Republican Vice-Presidential nominee?  <->  [predictit] Who will win the 2028 Republican vice presidential nomination? - Ron DeSantis",
+      "shares": 10.638297872340425,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1981997",
+        "side": "yes",
+        "einstandskurs": 0.0095,
+        "letzter_kurs": 0.0095,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8800:34837",
+        "side": "no",
+        "einstandskurs": 0.94,
+        "letzter_kurs": 0.94,
         "fee_gezahlt": 0.0
       }
     }
