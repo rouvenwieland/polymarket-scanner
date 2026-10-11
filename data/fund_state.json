@@ -1,5 +1,17 @@
 {
-  "cash": 136.52431940888644,
-  "positions": [],
+  "cash": 27.502329408886425,
+  "positions": [
+    {
+      "market_id": "5279701",
+      "frage": "SCR Altach vs. Wolfsberger AC: Both Teams to Score in Second Half",
+      "slug": "aut-alt-wac-2026-10-11-btts-second-half",
+      "shares": 118.03387646835925,
+      "einstandskurs": 0.92365,
+      "letzter_kurs": 0.92365,
+      "liquiditaet": 1090.2199,
+      "end_date": "2026-10-11T12:30:00Z",
+      "eingestiegen": "2026-10-11T03:32:08.256510+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
