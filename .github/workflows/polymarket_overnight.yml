@@ -38,10 +38,21 @@ jobs:
         run: python scripts/polymarket_snapshot.py
 
       - name: Ergebnisse committen
+        # Retry mit Rebase statt direktem Abbruch bei non-fast-forward -
+        # siehe multi_platform_scan.yml für die ausführliche Begründung.
         run: |
           mkdir -p data
           git config user.name "polymarket-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/
           git diff --quiet --cached || git commit -m "Snapshot $(date -u +'%Y-%m-%dT%H:%M:%SZ')"
-          git push
+          for i in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push fehlgeschlagen (Versuch $i/5) - hole aktuellen main-Stand und versuche erneut..."
+            git pull --rebase origin main
+            sleep 3
+          done
+          echo "Push nach 5 Versuchen weiterhin fehlgeschlagen." >&2
+          exit 1
