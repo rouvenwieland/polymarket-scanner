@@ -4604,3 +4604,31 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-12T04:01:59.971903+02:00,5589587,Exact Score: Sportivo Luqueno 3 - 0 Sportivo San Lorenzo?,par1-luq-ssl-2026-10-18-exact-score-3-0,0.48,0.515,0.995,0.0,19.9993,2026-10-18T22:20:00Z
 2026-10-12T04:01:59.971903+02:00,5590065,Frosinone Calcio to win the second half?,sea-ata-fro-2026-10-25-second-half-result-away,0.49,0.505,0.995,0.0,8.2099,2026-10-25T14:00:00Z
 2026-10-12T04:01:59.971903+02:00,5591487,Exact Score: Real Cundinamarca 2 - 1 Bogota FC?,col2-rea-bog-2026-10-14-exact-score-2-1,0.48,0.515,0.995,0.0,19.7481,2026-10-14T22:00:00Z
+2026-10-12T11:10:34.503266+02:00,629478,Will the Republicans win the Minnesota governor race in 2026?,will-the-republicans-win-the-minnesota-governor-race-in-2026,0.0475,0.9515,0.999,46320.04378799999,55054.71589,2026-11-04T04:59:00Z
+2026-10-12T11:10:34.503266+02:00,920210,Will Apple release a new product line before 2027?,will-apple-release-a-new-product-line-before-2027,0.8,0.195,0.9950000000000001,333488.334623,4014.2451,2027-01-01T04:59:00Z
+2026-10-12T11:10:34.503266+02:00,2035726,Hailey Bieber pregnant in 2026?,hailey-bieber-pregnant-in-2026,0.505,0.49,0.995,55.166523,14.68,2027-01-01T04:59:00Z
+2026-10-12T11:10:34.503266+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-12T11:10:34.503266+02:00,4216643,Will Brock Bowers have 120.5+ receptions in the 2026-27 NFL regular season?,brock-bowers-120pt5-receptions-2026-27,0.495,0.5,0.995,0.0,1.5679,2027-01-12T23:59:00Z
+2026-10-12T11:10:34.503266+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-12T11:10:34.503266+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-12T11:10:34.503266+02:00,5187484,RU Saint-Gilloise to score first vs. Real Sociedad de Fútbol?,uel-usg-rso-2026-10-15-first-to-score-home,0.465,0.53,0.9950000000000001,0.0,2523.2435,2026-10-15T16:45:00Z
+2026-10-12T11:10:34.503266+02:00,5274955,Shrewsbury Town FC vs. Bristol Rovers FC: Both Teams to Score in First Half,el2-shr-bri-2026-10-17-btts-first-half,0.415,0.58,0.9949999999999999,0.0,1125.5007,2026-10-17T11:30:00Z
+2026-10-12T11:10:34.503266+02:00,5289225,Club Santos Laguna to win the second half?,mex-san-que-2026-10-17-second-half-result-home,0.345,0.65,0.995,0.0,67.4198,2026-10-17T23:00:00Z
+2026-10-12T11:10:34.503266+02:00,5312075,Crystal Palace FC to win the second half?,epl-bri-cry-2026-10-18-second-half-result-away,0.17,0.825,0.995,0.0,4100.5103,2026-10-18T13:00:00Z
+2026-10-12T11:10:34.503266+02:00,5315721,AD Ceuta FC vs. Real Oviedo: Draw at halftime?,es2-ceu-ovi-2026-10-18-halftime-result-draw,0.495,0.5,0.995,0.0,44.9596,2026-10-18T12:00:00Z
+2026-10-12T11:10:34.503266+02:00,5364927,Malmo FF vs. Kalmar FF: Both Teams to Score in First Half,swe-mal-kal-2026-10-12-btts-first-half,0.195,0.8,0.9950000000000001,0.0,3900.2988,2026-10-12T17:00:00Z
+2026-10-12T11:10:34.503266+02:00,5462987,Exact Score: SL Benfica B 1 - 4 FC Felgueiras 1932?,pt2-ben-fel-2026-10-12-exact-score-1-4,0.175,0.82,0.9949999999999999,0.0,242.4799,2026-10-12T17:00:00Z
+2026-10-12T11:10:34.503266+02:00,5475836,Will SpaceX (SPCX) hit (LOW) $152.50 Week of October 12 2026?,will-spcx-dip-to-152-50-by-october-12-2026,0.21,0.785,0.995,0.0,1028.9197,2026-10-16T20:00:00Z
+2026-10-12T11:10:34.503266+02:00,5490669,Madura United leading at halftime?,idn1-mau-bpi-2026-10-16-halftime-result-home,0.265,0.73,0.995,0.0,2705.0819,2026-10-16T12:00:00Z
+2026-10-12T11:10:34.503266+02:00,5524173,MTK Budapest leading at halftime?,hun-mtk-vas-2026-10-16-halftime-result-home,0.32,0.675,0.9950000000000001,0.0,2878.3612,2026-10-16T18:00:00Z
+2026-10-12T11:10:34.503266+02:00,5530819,Batman Petrolspor leading at halftime?,tur2-bat-ias-2026-10-14-halftime-result-home,0.445,0.55,0.9950000000000001,0.0,3024.5171,2026-10-14T11:30:00Z
+2026-10-12T11:10:34.503266+02:00,5537999,Will the lowest temperature in Paris be 13°C on October 13?,lowest-temperature-in-paris-on-october-13-2026-13c,0.375,0.62,0.995,90.0,97.9407,2026-10-13T12:00:00Z
+2026-10-12T11:10:34.503266+02:00,5569781,Steelers vs. Buccaneers: Highest Scoring Quarter - Q1,nfl-pit-tb-2026-10-18-highest-scoring-quarter-q1,0.48,0.515,0.995,0.0,9.9836,2026-10-18T17:00:00Z
+2026-10-12T11:10:34.503266+02:00,5571922,Stroemsgodset IF vs. Kongsvinger IL Toppfotball: Both Teams to Score in First Half,nor2-sif-kil-2026-10-14-btts-first-half,0.34,0.655,0.9950000000000001,0.0,464.8396,2026-10-14T17:00:00Z
+2026-10-12T11:10:34.503266+02:00,5572060,Moss FK vs. Egersunds IK: Both Teams to Score in First Half,nor2-mfk-eik-2026-10-14-btts-first-half,0.3,0.695,0.9949999999999999,0.0,862.6399,2026-10-14T17:00:00Z
+2026-10-12T11:10:34.503266+02:00,5577204,CD Cobresal leading at halftime?,chi1-ohf-cdc-2026-10-24-halftime-result-away,0.495,0.5,0.995,0.0,53.6106,2026-10-24T23:00:00Z
+2026-10-12T11:10:34.503266+02:00,5584458,Seongnam Ilhwa vs. Suwon FC: Draw at halftime?,kor2-seo-sfc-2026-10-17-halftime-result-draw,0.395,0.6,0.995,0.0,2418.1424,2026-10-17T05:00:00Z
+2026-10-12T11:10:34.503266+02:00,5593326,Rashid Shaheed: Team First TD (Seattle Seahawks),nfl-sea-den-2026-10-16-team-first-td-75-rashid-shaheed,0.5,0.495,0.995,0.0,6.3798,2026-10-16T00:15:00Z
+2026-10-12T11:10:34.503266+02:00,5593516,Will ETH/BTC dip to 0.0285 October 12-18?,will-ethbtc-dip-to-0pt0285-october-12-18-2026,0.495,0.5,0.995,0.0,1.767,2026-10-19T04:00:00Z
+2026-10-12T11:10:34.503266+02:00,5595943,Will the highest temperature in Moscow be 9°C on October 14?,highest-temperature-in-moscow-on-october-14-2026-9c,0.285,0.66,0.9450000000000001,3.846154,848.3647,2026-10-14T12:00:00Z
+2026-10-12T11:10:34.503266+02:00,5600506,Pumas de la UNAM vs. Tigres de la UANL: Both Teams to Score,mex-pum-tig-2026-10-24-btts,0.505,0.49,0.995,0.0,90.6423,2026-10-25T03:00:00Z

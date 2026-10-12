@@ -1,5 +1,17 @@
 {
-  "cash": 148.60225701085554,
-  "positions": [],
+  "cash": 63.76578701085553,
+  "positions": [
+    {
+      "market_id": "5595943",
+      "frage": "Will the highest temperature in Moscow be 9°C on October 14?",
+      "slug": "highest-temperature-in-moscow-on-october-14-2026-9c",
+      "shares": 88.44733234289885,
+      "einstandskurs": 0.959175,
+      "letzter_kurs": 0.959175,
+      "liquiditaet": 848.3647,
+      "end_date": "2026-10-14T12:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

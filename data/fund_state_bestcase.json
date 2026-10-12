@@ -1,5 +1,270 @@
 {
-  "cash": 152.3637867327547,
-  "positions": [],
+  "cash": 6.094551469310193,
+  "positions": [
+    {
+      "market_id": "5595943",
+      "frage": "Will the highest temperature in Moscow be 9°C on October 14?",
+      "slug": "highest-temperature-in-moscow-on-october-14-2026-9c",
+      "shares": 6.449260814084854,
+      "einstandskurs": 0.9450000000000001,
+      "letzter_kurs": 0.9450000000000001,
+      "liquiditaet": 848.3647,
+      "end_date": "2026-10-14T12:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5462987",
+      "frage": "Exact Score: SL Benfica B 1 - 4 FC Felgueiras 1932?",
+      "slug": "pt2-ben-fel-2026-10-12-exact-score-1-4",
+      "shares": 6.125177356090642,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 242.4799,
+      "end_date": "2026-10-12T17:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5364927",
+      "frage": "Malmo FF vs. Kalmar FF: Both Teams to Score in First Half",
+      "slug": "swe-mal-kal-2026-10-12-btts-first-half",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 3900.2988,
+      "end_date": "2026-10-12T17:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5537999",
+      "frage": "Will the lowest temperature in Paris be 13°C on October 13?",
+      "slug": "lowest-temperature-in-paris-on-october-13-2026-13c",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 97.9407,
+      "end_date": "2026-10-13T12:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5530819",
+      "frage": "Batman Petrolspor leading at halftime?",
+      "slug": "tur2-bat-ias-2026-10-14-halftime-result-home",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 3024.5171,
+      "end_date": "2026-10-14T11:30:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5572060",
+      "frage": "Moss FK vs. Egersunds IK: Both Teams to Score in First Half",
+      "slug": "nor2-mfk-eik-2026-10-14-btts-first-half",
+      "shares": 6.125177356090642,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 862.6399,
+      "end_date": "2026-10-14T17:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5571922",
+      "frage": "Stroemsgodset IF vs. Kongsvinger IL Toppfotball: Both Teams to Score in First Half",
+      "slug": "nor2-sif-kil-2026-10-14-btts-first-half",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 464.8396,
+      "end_date": "2026-10-14T17:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5187484",
+      "frage": "RU Saint-Gilloise to score first vs. Real Sociedad de Fútbol?",
+      "slug": "uel-usg-rso-2026-10-15-first-to-score-home",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 2523.2435,
+      "end_date": "2026-10-15T16:45:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5490669",
+      "frage": "Madura United leading at halftime?",
+      "slug": "idn1-mau-bpi-2026-10-16-halftime-result-home",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2705.0819,
+      "end_date": "2026-10-16T12:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5524173",
+      "frage": "MTK Budapest leading at halftime?",
+      "slug": "hun-mtk-vas-2026-10-16-halftime-result-home",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 2878.3612,
+      "end_date": "2026-10-16T18:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5475836",
+      "frage": "Will SpaceX (SPCX) hit (LOW) $152.50 Week of October 12 2026?",
+      "slug": "will-spcx-dip-to-152-50-by-october-12-2026",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1028.9197,
+      "end_date": "2026-10-16T20:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5584458",
+      "frage": "Seongnam Ilhwa vs. Suwon FC: Draw at halftime?",
+      "slug": "kor2-seo-sfc-2026-10-17-halftime-result-draw",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2418.1424,
+      "end_date": "2026-10-17T05:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5274955",
+      "frage": "Shrewsbury Town FC vs. Bristol Rovers FC: Both Teams to Score in First Half",
+      "slug": "el2-shr-bri-2026-10-17-btts-first-half",
+      "shares": 6.125177356090642,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 1125.5007,
+      "end_date": "2026-10-17T11:30:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5593326",
+      "frage": "Rashid Shaheed: Team First TD (Seattle Seahawks)",
+      "slug": "nfl-sea-den-2026-10-16-team-first-td-75-rashid-shaheed",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 6.3798,
+      "end_date": "2026-10-16T00:15:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5289225",
+      "frage": "Club Santos Laguna to win the second half?",
+      "slug": "mex-san-que-2026-10-17-second-half-result-home",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 67.4198,
+      "end_date": "2026-10-17T23:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5312075",
+      "frage": "Crystal Palace FC to win the second half?",
+      "slug": "epl-bri-cry-2026-10-18-second-half-result-away",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 4100.5103,
+      "end_date": "2026-10-18T13:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5315721",
+      "frage": "AD Ceuta FC vs. Real Oviedo: Draw at halftime?",
+      "slug": "es2-ceu-ovi-2026-10-18-halftime-result-draw",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 44.9596,
+      "end_date": "2026-10-18T12:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5569781",
+      "frage": "Steelers vs. Buccaneers: Highest Scoring Quarter - Q1",
+      "slug": "nfl-pit-tb-2026-10-18-highest-scoring-quarter-q1",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 9.9836,
+      "end_date": "2026-10-18T17:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5593516",
+      "frage": "Will ETH/BTC dip to 0.0285 October 12-18?",
+      "slug": "will-ethbtc-dip-to-0pt0285-october-12-18-2026",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1.767,
+      "end_date": "2026-10-19T04:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5600506",
+      "frage": "Pumas de la UNAM vs. Tigres de la UANL: Both Teams to Score",
+      "slug": "mex-pum-tig-2026-10-24-btts",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 90.6423,
+      "end_date": "2026-10-25T03:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "5577204",
+      "frage": "CD Cobresal leading at halftime?",
+      "slug": "chi1-ohf-cdc-2026-10-24-halftime-result-away",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 53.6106,
+      "end_date": "2026-10-24T23:00:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "920210",
+      "frage": "Will Apple release a new product line before 2027?",
+      "slug": "will-apple-release-a-new-product-line-before-2027",
+      "shares": 6.12517735609064,
+      "einstandskurs": 0.9950000000000001,
+      "letzter_kurs": 0.9950000000000001,
+      "liquiditaet": 4014.2451,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "2035726",
+      "frage": "Hailey Bieber pregnant in 2026?",
+      "slug": "hailey-bieber-pregnant-in-2026",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 14.68,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    },
+    {
+      "market_id": "4216643",
+      "frage": "Will Brock Bowers have 120.5+ receptions in the 2026-27 NFL regular season?",
+      "slug": "brock-bowers-120pt5-receptions-2026-27",
+      "shares": 6.125177356090641,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1.5679,
+      "end_date": "2027-01-12T23:59:00Z",
+      "eingestiegen": "2026-10-12T11:10:34.503266+02:00"
+    }
+  ],
   "started": "2026-09-28T09:52:55.524283+02:00"
 }
