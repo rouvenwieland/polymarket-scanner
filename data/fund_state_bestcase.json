@@ -1,105 +1,6 @@
 {
-  "cash": 11.582405351404288,
+  "cash": 139.62909767848694,
   "positions": [
-    {
-      "market_id": "4893623",
-      "frage": "Will the fight be won by submission?",
-      "slug": "ufc-ilibul-erivis-2026-09-29-win-by-submission",
-      "shares": 11.640608393371146,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 9260.7886,
-      "end_date": "2026-10-14T03:59:59.999Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5159054",
-      "frage": "Feyenoord Rotterdam to score first vs. Como 1907?",
-      "slug": "ucl-fey-com-2026-10-14-first-to-score-home",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 9470.6663,
-      "end_date": "2026-10-14T16:45:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5182342",
-      "frage": "Los Angeles FC vs. Austin FC: Both Teams to Score in First Half",
-      "slug": "mls-laf-aus-2026-10-14-btts-first-half",
-      "shares": 11.640608393371146,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 5248.7842,
-      "end_date": "2026-10-15T02:30:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5189563",
-      "frage": "Exact Score: Mjällby AIF 2 - 0 Inter Club d'Escaldes?",
-      "slug": "col-ma-int-2026-10-15-exact-score-2-0",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1335.6519,
-      "end_date": "2026-10-15T16:45:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5238734",
-      "frage": "Henan FC vs. Tianjin Jinmen Hu FC: Both Teams to Score",
-      "slug": "chi-hen-jin-2026-10-16-btts",
-      "shares": 11.640608393371146,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 2126.0062,
-      "end_date": "2026-10-16T11:35:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5480242",
-      "frage": "Will Djurgardens IF win on 2026-10-16?",
-      "slug": "swe-bro-dju-2026-10-16-dju",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 5914.8125,
-      "end_date": "2026-10-16T17:00:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5475696",
-      "frage": "Will Micron (MU) finish week of October 12 above $1,030?",
-      "slug": "mu-above-1030-on-october-16-2026",
-      "shares": 11.640608393371146,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 859.368,
-      "end_date": "2026-10-16T20:00:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5589335",
-      "frage": "Exact Score: Albion FC 4 - 3 Montevideo City Torque?",
-      "slug": "uru1-alb-tor-2026-10-18-exact-score-4-3",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 13.7988,
-      "end_date": "2026-10-18T13:00:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5331097",
-      "frage": "Lyngby BK vs. FC Nordsjælland: Both Teams to Score in First Half",
-      "slug": "den-lyn-nor-2026-10-18-btts-first-half",
-      "shares": 11.64060839337115,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 7.2198,
-      "end_date": "2026-10-18T12:00:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
     {
       "market_id": "5569175",
       "frage": "Ravens vs. Browns: Both Teams to Score Points - 4Q",
@@ -109,28 +10,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 2.2998,
       "end_date": "2026-10-18T17:00:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5479474",
-      "frage": "OGC Nice to win the second half?",
-      "slug": "fl1-sbr-ogc-2026-10-23-second-half-result-away",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 13.9298,
-      "end_date": "2026-10-23T18:45:00Z",
-      "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
-    },
-    {
-      "market_id": "5091439",
-      "frage": "Will the SpaceX Starship Flight Test 15 Super Heavy booster explode?",
-      "slug": "will-spacex-starship-flight-test-15-superheavy-pop",
-      "shares": 11.640608393371147,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 103.2615,
-      "end_date": "2027-07-01T03:59:00Z",
       "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
     }
   ],
