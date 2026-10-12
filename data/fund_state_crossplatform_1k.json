@@ -58,7 +58,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.0965,
-        "letzter_kurs": 0.0875,
+        "letzter_kurs": 0.087,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -104,7 +104,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.0365,
-        "letzter_kurs": 0.036,
+        "letzter_kurs": 0.0335,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -219,7 +219,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.057,
-        "letzter_kurs": 0.057,
+        "letzter_kurs": 0.052,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
