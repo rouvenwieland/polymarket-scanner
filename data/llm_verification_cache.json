@@ -20697,5 +20697,47 @@
     "checked_at": "2026-10-12T00:29:48.156342+00:00",
     "frage_a": "Will Mike Lee be the next Supreme Court nominee?",
     "frage_b": "Who will be the next Supreme Court nominee? - Mike Lee"
+  },
+  "polymarket:5593322__sxbet:0x4ab0598ed84b304e16d91274cc94edd0d8b3214bb72ae75d7d0a6b4d7934ddc9": {
+    "same_event": false,
+    "reason": "Different bet types: leading after 5 innings vs game winner",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Los Angeles Dodgers - wer gewinnt?"
+  },
+  "polymarket:5270696__sxbet:0x55dd385cf19a93701cfe994686654cdf5a388a4fd896ffb059d42642b1e31359": {
+    "same_event": false,
+    "reason": "Different bet types: draw vs which team wins",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Will Calcio Padova vs. Virtus Entella end in a draw?",
+    "frage_b": "Padova vs Virtus Entella - wer gewinnt?"
+  },
+  "polymarket:5371642__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Different topics: debate occurrence vs election winner",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Lula x Flávio Bolsonaro debate before second round?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:4222436__predictit:8416:33119": {
+    "same_event": false,
+    "reason": "Different offices: Lieutenant Governor vs Governor",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Georgia Lieutenant Governor election?",
+    "frage_b": "Which party will win the 2026 election for governor of Georgia? - Republican"
+  },
+  "polymarket:665264__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different locations: Japan vs Greenland",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Will Donald Trump visit Japan in 2026?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:561975__predictit:8152:31930": {
+    "same_event": true,
+    "reason": "Both ask whether Marco Rubio wins the 2028 Republican nomination",
+    "checked_at": "2026-10-12T06:38:54.823374+00:00",
+    "frage_a": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
   }
 }
