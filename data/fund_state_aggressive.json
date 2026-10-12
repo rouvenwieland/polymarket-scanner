@@ -1,5 +1,5 @@
 {
-  "cash": 0.0,
+  "cash": 37.98226516493432,
   "positions": [
     {
       "market_id": "3365462",
@@ -88,17 +88,6 @@
       "liquiditaet": 383.6394,
       "end_date": "2026-10-27T03:59:00Z",
       "eingestiegen": "2026-10-10T21:25:48.877167+02:00"
-    },
-    {
-      "market_id": "5363669",
-      "frage": "Exact Score: Malmo FF 5 - 5 Kalmar FF?",
-      "slug": "swe-mal-kal-2026-10-12-exact-score-5-5",
-      "shares": 37.98226516493432,
-      "einstandskurs": 0.9415592392908694,
-      "letzter_kurs": 1.0,
-      "liquiditaet": 184.8099,
-      "end_date": "2026-10-12T17:00:00Z",
-      "eingestiegen": "2026-10-11T21:10:51.527227+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"

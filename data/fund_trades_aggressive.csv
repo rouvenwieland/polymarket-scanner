@@ -58,3 +58,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-11T03:32:08.256510+02:00,KAUF,5279701,SCR Altach vs. Wolfsberger AC: Both Teams to Score in Second Half,35.7626,0.9141,-32.6903,0.0,"Spread 9.00%, Liquiditaet 1090 USD"
 2026-10-11T21:10:51.527227+02:00,AUSZAHLUNG,5279701,SCR Altach vs. Wolfsberger AC: Both Teams to Score in Second Half,35.7626,1.0,35.7626,35.7626,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-11T21:10:51.527227+02:00,KAUF,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,37.9823,0.9416,-35.7626,0.0,"Spread 8.50%, Liquiditaet 185 USD"
+2026-10-13T01:17:35.119307+02:00,AUSZAHLUNG,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,37.9823,1.0,37.9823,37.9823,Markt als geschlossen/aufgelöst markiert

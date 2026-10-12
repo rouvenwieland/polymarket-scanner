@@ -95,3 +95,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-12T18:20:31.741394+02:00,VERKAUF,5595943,Will the highest temperature in Moscow be 9°C on October 14?,88.4473,0.9989,88.3481,152.1139,Konvergenz erreicht (Kurs 1.000)
 2026-10-12T21:02:07.427523+02:00,KAUF,5548848,"Will it rain in Seattle, WA on October 12?",2.9456,0.7714,-2.2722,149.8417,"Spread 24.00%, Liquiditaet 23 USD"
 2026-10-12T21:02:07.427523+02:00,KAUF,3849944,"Will MegaETH hit $0.10 by December 31, 2027?",37.4775,0.8983,-33.6651,116.1766,"Spread 11.50%, Liquiditaet 337 USD"
+2026-10-13T01:17:35.119307+02:00,VERKAUF,5548848,"Will it rain in Seattle, WA on October 12?",2.9456,0.992,2.9219,119.0985,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T01:17:35.119307+02:00,VERKAUF,3849944,"Will MegaETH hit $0.10 by December 31, 2027?",37.4775,0.9835,36.8592,155.9577,Konvergenz erreicht (Kurs 1.000)

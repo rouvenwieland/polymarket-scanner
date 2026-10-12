@@ -1,28 +1,5 @@
 {
-  "cash": 116.17655192252931,
-  "positions": [
-    {
-      "market_id": "5548848",
-      "frage": "Will it rain in Seattle, WA on October 12?",
-      "slug": "where-will-it-rain-on-october-12-2026-seattle-wa",
-      "shares": 2.945553539019964,
-      "einstandskurs": 0.7714,
-      "letzter_kurs": 0.7714,
-      "liquiditaet": 22.722,
-      "end_date": "2026-10-13T18:00:00Z",
-      "eingestiegen": "2026-10-12T21:02:07.427523+02:00"
-    },
-    {
-      "market_id": "3849944",
-      "frage": "Will MegaETH hit $0.10 by December 31, 2027?",
-      "slug": "will-megaeth-hit-0pt10-by-december-31-2027",
-      "shares": 37.477498538866165,
-      "einstandskurs": 0.8982749999999999,
-      "letzter_kurs": 0.8982749999999999,
-      "liquiditaet": 336.651,
-      "end_date": "2028-01-01T05:00:00Z",
-      "eingestiegen": "2026-10-12T21:02:07.427523+02:00"
-    }
-  ],
+  "cash": 155.9577068579005,
+  "positions": [],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }
