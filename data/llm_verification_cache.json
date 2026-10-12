@@ -20739,5 +20739,1055 @@
     "checked_at": "2026-10-12T06:38:54.823374+00:00",
     "frage_a": "Will Marco Rubio win the 2028 Republican presidential nomination?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
+  },
+  "polymarket:5137030__sxbet:0x742220bd4a7c85b2fe0fbd90b299f6a734c021bc13301c13d9ef82ff5076fafd": {
+    "same_event": false,
+    "reason": "draw vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Grêmio Novorizontino vs. AA Ponte Preta end in a draw?",
+    "frage_b": "Gremio Novorizontino SP vs Ponte Preta - wer gewinnt?"
+  },
+  "kalshi:KXPALLADIUMH-26OCT1212-T1145.49__polymarket:5455716": {
+    "same_event": false,
+    "reason": "different assets and thresholds",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Meta (META) close above $750 on October 12?",
+    "frage_b": "Will the palladium close price be above 1145.49 USD/ounce on October 12, 2026 at 12:00 PM ET?"
+  },
+  "kalshi:KXPALLADIUMH-26OCT1212-T1145.49__polymarket:5603312": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Meta (META) close above $750 on October 13?",
+    "frage_b": "Will the palladium close price be above 1145.49 USD/ounce on October 12, 2026 at 12:00 PM ET?"
+  },
+  "polymarket:5160810__sxbet:0xe035445215fd653f700f40800183e8c7caa506cf2dd64b3f3528b4ee0e277237": {
+    "same_event": false,
+    "reason": "draw vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Millonarios FC vs. Once Caldas end in a draw?",
+    "frage_b": "Millonarios vs Once Caldas - wer gewinnt?"
+  },
+  "kalshi:KXPALLADIUMH-26OCT1212-T1145.49__polymarket:5455715": {
+    "same_event": false,
+    "reason": "different assets and thresholds",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Meta (META) close above $740 on October 12?",
+    "frage_b": "Will the palladium close price be above 1145.49 USD/ounce on October 12, 2026 at 12:00 PM ET?"
+  },
+  "polymarket:5189228__sxbet:0xbc02fb898dc139e0d4bbfbd161882b88f60249d4b1c0a2363267975ebdb3a2f3": {
+    "same_event": false,
+    "reason": "draw vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will SK Brann vs. Lincoln Red Imps FC end in a draw?",
+    "frage_b": "Brann vs Lincoln Red Imps FC - wer gewinnt?"
+  },
+  "kalshi:KXPALLADIUMH-26OCT1212-T1145.49__polymarket:5603311": {
+    "same_event": false,
+    "reason": "different assets and dates",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Meta (META) close above $740 on October 13?",
+    "frage_b": "Will the palladium close price be above 1145.49 USD/ounce on October 12, 2026 at 12:00 PM ET?"
+  },
+  "polymarket:5434548__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434546__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434552__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397046": {
+    "same_event": false,
+    "reason": "exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "polymarket:5434534__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434540__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434543__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434523__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner market",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434528__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434535__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434539__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434541__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5179353__sxbet:0xe7b6de80b8e63debeb8bb8925e5b57603de1822d42a0b9a2a5928f3851896371": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: Unentschieden? vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Colorado Rapids SC vs. Minnesota United FC end in a draw?",
+    "frage_b": "Colorado Rapids vs Minnesota United - wer gewinnt?"
+  },
+  "polymarket:5434529__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397045": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397039": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397085": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 1 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "polymarket:5434598__sxbet:0x31ad792ef83c0e93251e1d15e9a6a30896a52d24d8e974ca8451f603b6b772e0": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: Unentschieden? vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will CA Boca Juniors vs. CA Talleres end in a draw?",
+    "frage_b": "Boca Juniors vs Talleres de Cordoba - wer gewinnt?"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397079": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 0 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397042": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397081": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: exakter Siegstand vs. Beide Teams treffen – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 0 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "polymarket:5547301__sxbet:0xe36162893efe141e48578ea0eeecf0e8f16967b2e8a3bc03f8aa14d1e9292fec": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: Unentschieden? vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Yongin FC vs. Ansan Greeners FC end in a draw?",
+    "frage_b": "Yongin City vs Ansan Greeners - wer gewinnt?"
+  },
+  "polymarket:5434516__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Fragen unterscheiden sich: Halbzeitführung? vs. Siegermarkt – nicht komplementär.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Gimnasia y Esgrima de La Plata leading at halftime?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5416724__sxbet:0x38b925dee993c043754fdf24a5e71777094a35f3aec138bcfe68f2f2d762c761": {
+    "same_event": false,
+    "reason": "different winning condition",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Davi Cabral win by KO or TKO?",
+    "frage_b": "Douglas Da Lapa vs Davi Cabral - wer gewinnt?"
+  },
+  "polymarket:5416725__sxbet:0x38b925dee993c043754fdf24a5e71777094a35f3aec138bcfe68f2f2d762c761": {
+    "same_event": false,
+    "reason": "different winning condition",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Douglas da Lapa win by KO or TKO?",
+    "frage_b": "Douglas Da Lapa vs Davi Cabral - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5198584": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5152047": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5434513__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "date-specific vs generic match",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Gimnasia y Esgrima de La Plata win on 2026-10-15?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5453184": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Tractor Tabriz vs. Al-Shamal: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5188754": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5603052": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Cong An Ha Noi FC vs. Kashima Antlers: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5152073": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5434518__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434521__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434512__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "draw vs winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will CA Huracán vs. Gimnasia y Esgrima de La Plata end in a draw?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434519__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5314768": {
+    "same_event": false,
+    "reason": "unspecified teams in second",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5434522__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "exact score vs winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434526__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434531__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434536__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434537__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434517__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 0 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434520__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434524__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 2 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434525__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 2 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434527__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434530__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434532__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 0 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434533__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434538__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 1 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434542__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 1 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434544__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434545__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434547__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 3 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434549__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 3 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434550__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 4 - 5 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5434551__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs match winner.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: CA Huracán 5 - 4 Gimnasia y Esgrima de La Plata?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5223446__predictit:9012:35976": {
+    "same_event": false,
+    "reason": "Different date ranges and count thresholds.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Donald Trump post 120-139 Truth Social posts from October 6 to October 13, 2026?",
+    "frage_b": "How many \"truths\" will Trump post from Oct. 8 through Oct. 14? - 101 to 120"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397040": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397041": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397043": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397044": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397047": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397049": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397050": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397051": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397052": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397055": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397056": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397057": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397058": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397061": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397062": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397063": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 1 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397066": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397067": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 2 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397069": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397070": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 3 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397072": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXDOTA2GAME-26OCT121700CDUBSKY-CDUB__polymarket:3408638": {
+    "same_event": false,
+    "reason": "Different events: award winner vs unspecified esports win",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Dota 2 Win the 2026 Esports Game of the Year Award?",
+    "frage_b": "CDUB Esports wins"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5198583": {
+    "same_event": false,
+    "reason": "Second lacks specific teams; not same match",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:682714__predictit:8643:34101": {
+    "same_event": false,
+    "reason": "Different candidates; not same outcome",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Gideon Sa’ar be the next Prime Minister of Israel?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Gadi Eisenkot"
+  },
+  "polymarket:5454517__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: first half BTTS vs match winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "CA Huracán vs. Gimnasia y Esgrima de La Plata: Both Teams to Score in First Half",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "kalshi:KXPALLADIUMH-26OCT1212-T1145.49__polymarket:5603309": {
+    "same_event": false,
+    "reason": "Different assets and dates",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Meta (META) close above $730 on October 13?",
+    "frage_b": "Will the palladium close price be above 1145.49 USD/ounce on October 12, 2026 at 12:00 PM ET?"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5194433": {
+    "same_event": false,
+    "reason": "Missing teams/timeframe in second question",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Al Khaleej Saudi Club vs. Al Fayha Saudi Club: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397038": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 0 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397048": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397053": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 0 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397054": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397059": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 1 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397060": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397064": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 2 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397065": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 4 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397068": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 3 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397071": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 4 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13UKRSVK-BTTS__polymarket:5397073": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Ukraine 5 - 5 Slovakia?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397080": {
+    "same_event": false,
+    "reason": "Exact score vs BTTS",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 1 - 0 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397082": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 1 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397083": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 2 - 0 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397084": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 0 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397086": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 2 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397087": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 3 - 0 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397089": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 1 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397090": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 2 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397091": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 3 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397092": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 4 - 0 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397095": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 2 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397096": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 3 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397097": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 4 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397098": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 5 - 0 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397101": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 3 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397102": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not logical opposites.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 4 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397103": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 5 - 1 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397106": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 4 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397107": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 5 - 2 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397109": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 4 - 4 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397110": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 5 - 3 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SRBFIN-BTTS__polymarket:5397112": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Serbia 5 - 4 Finland?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "polymarket:5454516__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "Different bet types: both teams to score vs match winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "CA Huracán vs. Gimnasia y Esgrima de La Plata: Both Teams to Score",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5547258__sxbet:0x5788b76d5dc37966ca6058f71f2558ae4f9b1a6acee512b6c045a8ee90bd07c2": {
+    "same_event": false,
+    "reason": "Different bet types: draw vs match winner",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Will Gyeongnam FC vs. Chungnam Asan FC end in a draw?",
+    "frage_b": "Gyeongnam FC vs Chungnam Asan FC - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5220493": {
+    "same_event": false,
+    "reason": "Different scopes: first half both teams to score vs overall both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Al Riyadh Saudi Club vs. Al Hilal Saudi Club: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5220429": {
+    "same_event": false,
+    "reason": "Different scopes: specific match both teams to score vs generic both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Al Ittihad Saudi Club vs. Al Shabab Saudi Club: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXSAUDIPLBTTS-26OCT15KHAFAY-BTTS__polymarket:5508824": {
+    "same_event": false,
+    "reason": "Different scopes: first half both teams to score vs overall both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Hapoel Haifa FC vs. Hapoel Ramat Gan Givatayim FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5396999": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 0 - 1 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397000": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 1 - 0 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397001": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 0 - 2 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397002": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 1 - 1 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397003": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 2 - 0 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397004": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 0 - 3 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397005": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 1 - 2 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397006": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 2 - 1 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397007": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 3 - 0 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397009": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 1 - 3 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397010": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 2 - 2 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397011": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 3 - 1 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397012": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 4 - 0 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397015": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 2 - 3 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397016": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 3 - 2 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397017": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 4 - 1 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397018": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 5 - 0 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397021": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 3 - 3 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "kalshi:KXFIFAWBTTS-26OCT13SVNTUR-BTTS__polymarket:5397022": {
+    "same_event": false,
+    "reason": "Different bet types: exact score vs both teams to score; not guaranteed opposite.",
+    "checked_at": "2026-10-12T16:18:24.236901+00:00",
+    "frage_a": "Exact Score: Slovenia 4 - 2 Turkiye?",
+    "frage_b": "Reg Time: Both Teams To Score"
   }
 }
