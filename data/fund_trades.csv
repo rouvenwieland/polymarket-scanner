@@ -89,3 +89,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-11T15:05:27.566347+02:00,VERKAUF,5372071,Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?,15.3371,0.9831,15.0775,145.1101,Konvergenz erreicht (Kurs 1.000)
 2026-10-11T21:10:51.527227+02:00,KAUF,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,19.8993,0.9287,-18.481,126.6291,"Spread 8.50%, Liquiditaet 185 USD"
 2026-10-11T23:44:37.180081+02:00,VERKAUF,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,19.8993,0.9867,19.6353,146.2644,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T04:01:59.971903+02:00,KAUF,5229661,Will Lewis Hamilton win the 2026 F1 United States Grand Prix?,38.6356,0.9338,-36.0779,110.1865,"Spread 8.00%, Liquiditaet 361 USD"

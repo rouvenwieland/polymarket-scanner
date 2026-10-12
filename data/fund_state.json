@@ -1,5 +1,17 @@
 {
-  "cash": 146.26440732222272,
-  "positions": [],
+  "cash": 110.18646732222271,
+  "positions": [
+    {
+      "market_id": "5229661",
+      "frage": "Will Lewis Hamilton win the 2026 F1 United States Grand Prix?",
+      "slug": "f1-united-states-grand-prix-winner-hamilton-2026-10-25",
+      "shares": 38.635617905333056,
+      "einstandskurs": 0.9337999999999999,
+      "letzter_kurs": 0.9337999999999999,
+      "liquiditaet": 360.7794,
+      "end_date": "2026-11-01T20:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 139.62909767848694,
+  "cash": 25.387108668815785,
   "positions": [
     {
       "market_id": "5569175",
@@ -11,6 +11,204 @@
       "liquiditaet": 2.2998,
       "end_date": "2026-10-18T17:00:00Z",
       "eingestiegen": "2026-10-12T00:54:15.823726+02:00"
+    },
+    {
+      "market_id": "3249990",
+      "frage": "Will Cincinnati Bearcats Win the 2026 Big 12 Championship?",
+      "slug": "will-cincinnati-bearcats-win-the-2026-big-12-championship-20260731203851987",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 4797.33991,
+      "end_date": "",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "4061174",
+      "frage": "Will TCU Make the 2026-27 CFB Playoffs?",
+      "slug": "will-tcu-make-the-2026-27-cfb-playoffs-20260803190340067",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 3993.3679,
+      "end_date": "",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5229661",
+      "frage": "Will Lewis Hamilton win the 2026 F1 United States Grand Prix?",
+      "slug": "f1-united-states-grand-prix-winner-hamilton-2026-10-25",
+      "shares": 6.89867083391734,
+      "einstandskurs": 0.9199999999999999,
+      "letzter_kurs": 0.9199999999999999,
+      "liquiditaet": 360.7794,
+      "end_date": "2026-11-01T20:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5570239",
+      "frage": "Kongsvinger IL Toppfotball to score first vs. Stroemsgodset IF?",
+      "slug": "nor2-sif-kil-2026-10-14-first-to-score-away",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2202.6299,
+      "end_date": "2026-10-14T17:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5200807",
+      "frage": "Mansfield Town FC vs. Oxford United FC: Both Teams to Score",
+      "slug": "el1-man-oxf-2026-10-15-btts",
+      "shares": 6.378670519802968,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 2284.2747,
+      "end_date": "2026-10-15T19:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5434516",
+      "frage": "Gimnasia y Esgrima de La Plata leading at halftime?",
+      "slug": "arg-cah-gim-2026-10-15-halftime-result-away",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2791.6909,
+      "end_date": "2026-10-15T23:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5591487",
+      "frage": "Exact Score: Real Cundinamarca 2 - 1 Bogota FC?",
+      "slug": "col2-rea-bog-2026-10-14-exact-score-2-1",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 19.7481,
+      "end_date": "2026-10-14T22:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5531078",
+      "frage": "Olimpija Ljubljana leading at halftime?",
+      "slug": "slo-alu-oli-2026-10-16-halftime-result-away",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2875.923,
+      "end_date": "2026-10-16T15:30:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5519565",
+      "frage": "SK Rapid vs. TSV Hartberg: Both Teams to Score",
+      "slug": "aut-scr-htb-2026-10-16-btts",
+      "shares": 6.378670519802968,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 2386.3778,
+      "end_date": "2026-10-16T17:30:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5583586",
+      "frage": "Will Shelbourne FC win on 2026-10-16?",
+      "slug": "irl1-stp-she-2026-10-16-she",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 1882.1342,
+      "end_date": "2026-10-16T18:45:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5240613",
+      "frage": "Club Necaxa leading at halftime?",
+      "slug": "mex-nec-atl-2026-10-16-halftime-result-home",
+      "shares": 6.378670519802968,
+      "einstandskurs": 0.9949999999999999,
+      "letzter_kurs": 0.9949999999999999,
+      "liquiditaet": 1578.3863,
+      "end_date": "2026-10-17T01:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5454278",
+      "frage": "CA Platense vs. CA Lanús: Both Teams to Score",
+      "slug": "arg-pla-lan-2026-10-17-btts",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2237.5717,
+      "end_date": "2026-10-17T20:30:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5280776",
+      "frage": "Utah Royals FC to win the second half?",
+      "slug": "nwsl-roy-kcc-2026-10-17-second-half-result-home",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 10.7999,
+      "end_date": "2026-10-17T22:30:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5589587",
+      "frage": "Exact Score: Sportivo Luqueno 3 - 0 Sportivo San Lorenzo?",
+      "slug": "par1-luq-ssl-2026-10-18-exact-score-3-0",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 19.9993,
+      "end_date": "2026-10-18T22:20:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5438982",
+      "frage": "SK Puntigamer Sturm Graz vs. Olympique de Marseille: Both Teams to Score",
+      "slug": "uel-stu1-olm-2026-10-22-btts",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 99.4197,
+      "end_date": "2026-10-22T16:45:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5412538",
+      "frage": "Will Professora Dorinha win the 2026 Tocantins gubernatorial second round by less than 4%?",
+      "slug": "will-professora-dorinha-win-the-2026-tocantins-gubernatorial-second-round-by-less-than-4",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 21059.9464,
+      "end_date": "2026-10-26T03:59:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "5590065",
+      "frage": "Frosinone Calcio to win the second half?",
+      "slug": "sea-ata-fro-2026-10-25-second-half-result-away",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 8.2099,
+      "end_date": "2026-10-25T14:00:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
+    },
+    {
+      "market_id": "3914335",
+      "frage": "Will 07 Vestur keep the most clean sheets in the 2026 Betri deildin (Faroe Islands)?",
+      "slug": "will-07-vestur-keep-the-most-clean-sheets-in-betri-deildin-faroe-islands-2026",
+      "shares": 6.378670519802967,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 7.9847,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-12T04:01:59.971903+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
