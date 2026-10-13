@@ -1,83 +1,6 @@
 {
-  "cash": 16.905523942079014,
+  "cash": 118.84838188426484,
   "positions": [
-    {
-      "market_id": "5594827",
-      "frage": "Will the lowest temperature in Tokyo be 16°C on October 14?",
-      "slug": "lowest-temperature-in-tokyo-on-october-14-2026-16c",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 717.8409,
-      "end_date": "2026-10-14T12:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5594820",
-      "frage": "Will the lowest temperature in Tel Aviv be 22°C on October 14?",
-      "slug": "lowest-temperature-in-tel-aviv-on-october-14-2026-22c",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 174.3352,
-      "end_date": "2026-10-14T12:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5569963",
-      "frage": "Raufoss IL to score first vs. Bryne FK?",
-      "slug": "nor2-bry-rau-2026-10-14-first-to-score-away",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2589.2463,
-      "end_date": "2026-10-14T17:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5173930",
-      "frage": "Norwich City FC vs. Southampton FC: Both Teams to Score in Second Half",
-      "slug": "elc-nor-sot-2026-10-14-btts-second-half",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1228.7995,
-      "end_date": "2026-10-14T18:45:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5454516",
-      "frage": "CA Huracán vs. Gimnasia y Esgrima de La Plata: Both Teams to Score",
-      "slug": "arg-cah-gim-2026-10-15-btts",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 1936.1187,
-      "end_date": "2026-10-15T23:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5215522",
-      "frage": "Randers FC to win the second half?",
-      "slug": "den-hor-ran-2026-10-16-second-half-result-away",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 2181.8464,
-      "end_date": "2026-10-16T17:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5638638",
-      "frage": "Exact Score: Internacional FC De Palmira 1 - 4 Orsomarso SC?",
-      "slug": "col2-pal-ors-2026-10-15-exact-score-1-4",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 22.2177,
-      "end_date": "2026-10-15T23:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
     {
       "market_id": "5638601",
       "frage": "Exact Score: Itagui Leones FC 2 - 4 Boyaca Patriotas?",
@@ -90,50 +13,6 @@
       "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
     },
     {
-      "market_id": "5281258",
-      "frage": "Gençlerbirliği SK vs. Galatasaray SK: Both Teams to Score in Second Half",
-      "slug": "tur-gen-gal-2026-10-17-btts-second-half",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 1127.1233,
-      "end_date": "2026-10-17T13:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5274774",
-      "frage": "Oldham Athletic AFC vs. Cheltenham Town FC: Both Teams to Score",
-      "slug": "el2-old-che-2026-10-17-btts",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 2436.2566,
-      "end_date": "2026-10-17T14:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5244976",
-      "frage": "SK Sigma Olomouc leading at halftime?",
-      "slug": "cze1-sso-fsl-2026-10-17-halftime-result-home",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.9949999999999999,
-      "letzter_kurs": 0.9949999999999999,
-      "liquiditaet": 2872.154,
-      "end_date": "2026-10-17T16:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5278312",
-      "frage": "ŠK Slovan Bratislava leading at halftime?",
-      "slug": "svk1-trn-sba-2026-10-17-halftime-result-away",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2828.5172,
-      "end_date": "2026-10-17T16:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
       "market_id": "5637063",
       "frage": "Lil'Jordan Humphrey: Anytime Touchdown",
       "slug": "nfl-sea-den-2026-10-16-anytime-td-liljordan-humphrey",
@@ -142,72 +21,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 6.3798,
       "end_date": "2026-10-16T00:15:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5584360",
-      "frage": "CA Boston River vs. Defensor Sporting: Both Teams to Score",
-      "slug": "uru1-bri-def-2026-10-17-btts",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 197.6794,
-      "end_date": "2026-10-17T19:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5270187",
-      "frage": "Will LD Alajuelense win on 2026-10-17?",
-      "slug": "fpd-int-ala-2026-10-17-ala",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 114.0836,
-      "end_date": "2026-10-18T02:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5524101",
-      "frage": "Game 4: Both Teams Slay a Dragon?",
-      "slug": "lol-fur-mvk-2026-10-15-game4-both-teams-slay-dragon",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.1196,
-      "end_date": "2026-10-16T00:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5524139",
-      "frage": "Game 4: Both Teams Slay Baron Nashor?",
-      "slug": "lol-c9-kc-2026-10-15-game4-both-teams-slay-baron",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.1196,
-      "end_date": "2026-10-16T05:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5524147",
-      "frage": "Game 5: Both Teams Destroy Inhibitors?",
-      "slug": "lol-c9-kc-2026-10-15-game5-both-teams-destroy-inhibitors",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 2.3194,
-      "end_date": "2026-10-16T06:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5323508",
-      "frage": "Fluminense FC vs. Santos FC: Both Teams to Score in First Half",
-      "slug": "bra-flu-san-2026-10-18-btts-first-half",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1139.8018,
-      "end_date": "2026-10-18T19:00:00Z",
       "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
     },
     {
@@ -233,17 +46,6 @@
       "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
     },
     {
-      "market_id": "5438982",
-      "frage": "SK Puntigamer Sturm Graz vs. Olympique de Marseille: Both Teams to Score",
-      "slug": "uel-stu1-olm-2026-10-22-btts",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 99.8595,
-      "end_date": "2026-10-22T16:45:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
       "market_id": "5635812",
       "frage": "Will Nathaniel Lowe hit a home run in the 2026 ALCS?",
       "slug": "will-nathaniel-lowe-hit-a-home-run-in-the-2026-alcs",
@@ -252,17 +54,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 1.768,
       "end_date": "2026-10-21T03:59:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5601145",
-      "frage": "Exact Score: Motherwell FC 3 - 0 Heart of Midlothian FC?",
-      "slug": "scop-mot-hmi-2026-10-25-exact-score-3-0",
-      "shares": 4.2476190809244105,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 19.1264,
-      "end_date": "2026-10-25T14:00:00Z",
       "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
     },
     {
@@ -307,61 +98,6 @@
       "letzter_kurs": 0.995,
       "liquiditaet": 0.96,
       "end_date": "2026-10-25T00:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5195858",
-      "frage": "Will there be 15 or more tech pauses in the VALORANT Champions 2026 Playoffs?",
-      "slug": "will-there-be-15-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4.5676,
-      "end_date": "2026-11-18T04:59:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "3914369",
-      "frage": "Will Minnesota United FC keep the most clean sheets in the 2026 MLS?",
-      "slug": "will-minnesota-united-fc-keep-the-most-clean-sheets-in-mls-2026",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.5679,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "3848833",
-      "frage": "Will Liverpool finish 17th in the 2026-27 Premier League?",
-      "slug": "will-liverpool-finish-17th-in-premier-league-2026-27",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 35.5677,
-      "end_date": "2027-07-01T03:59:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "3913904",
-      "frage": "Will Inter de San Carlos finish 9th in the 2026-27 Liga FPD (Costa Rica)?",
-      "slug": "will-inter-de-san-carlos-finish-9th-in-liga-fpd-costa-rica-2026-27",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 4.7495,
-      "end_date": "2027-07-01T03:59:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5311677",
-      "frage": "Barcelona UEFA Negreira verdict announced by September 30, 2027?",
-      "slug": "barcelona-uefa-negreira-verdict-announced-by-september-30-2027",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.9739,
-      "end_date": "2027-10-01T03:59:00Z",
       "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
     }
   ],
