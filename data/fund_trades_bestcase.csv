@@ -4020,3 +4020,32 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-13T05:14:15.727157+02:00,VERKAUF,3848833,Will Liverpool finish 17th in the 2026-27 Premier League?,4.2476,1.0,4.2476,110.3531,Konvergenz erreicht (Kurs 1.000)
 2026-10-13T05:14:15.727157+02:00,VERKAUF,3913904,Will Inter de San Carlos finish 9th in the 2026-27 Liga FPD (Costa Rica)?,4.2476,1.0,4.2476,114.6008,Konvergenz erreicht (Kurs 1.000)
 2026-10-13T05:14:15.727157+02:00,VERKAUF,5311677,"Barcelona UEFA Negreira verdict announced by September 30, 2027?",4.2476,1.0,4.2476,118.8484,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T10:03:30.054666+02:00,VERKAUF,5638701,Exact Score: Any Other Score?,4.2476,1.0,4.2476,123.096,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T10:03:30.054666+02:00,VERKAUF,5629473,UTSA vs. Tulane: Both Teams to Score a Touchdown - 1H,4.2476,1.0,4.2476,127.3436,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T10:03:30.054666+02:00,KAUF,5159015,Feyenoord Rotterdam vs. Como 1907: Second half draw?,4.2661,0.995,-4.2448,123.0988,"Spread 0.50%, Liquiditaet 15586 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5591473,Will Real Cundinamarca win on 2026-10-14?,4.2661,0.995,-4.2448,118.854,"Spread 0.50%, Liquiditaet 5770 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5187304,NK Celje vs. AS Omónoia Leukosías: Draw at halftime?,4.2661,0.995,-4.2448,114.6093,"Spread 0.50%, Liquiditaet 3959 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5187443,Real Sociedad de Fútbol leading at halftime?,4.2661,0.995,-4.2448,110.3645,"Spread 0.50%, Liquiditaet 5807 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5189373,FC Midtjylland to win the second half?,4.2661,0.995,-4.2448,106.1197,"Spread 0.50%, Liquiditaet 2227 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5198524,Atalanta BC vs. Páfos FC: Both Teams to Score in First Half,4.2661,0.995,-4.2448,101.8749,"Spread 0.50%, Liquiditaet 3839 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,3178499,Deportivo Pereira to score first vs. CDPJuniorFC?,4.2661,0.995,-4.2448,97.6301,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5606890,FC Supra Du Quebec vs. Inter Toronto FC: Both Teams to Score,4.2661,0.995,-4.2448,93.3853,"Spread 0.50%, Liquiditaet 2233 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5605936,Will FC Supra Du Quebec vs. Inter Toronto FC end in a draw?,4.2661,0.995,-4.2448,89.1405,"Spread 0.50%, Liquiditaet 4266 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5639564,Exact Score: Deportes Quindio 2 - 2 Real Cartagena FC?,4.2661,0.995,-4.2448,84.8957,"Spread 0.50%, Liquiditaet 14 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5626889,Will Ballymena United win on 2026-10-17?,4.2661,0.995,-4.2448,80.651,"Spread 0.50%, Liquiditaet 1385 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5273912,Exeter City FC leading at halftime?,4.2661,0.995,-4.2448,76.4062,"Spread 0.50%, Liquiditaet 2761 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5274470,Grimsby Town FC vs. Northampton Town FC: Both Teams to Score,4.2661,0.995,-4.2448,72.1614,"Spread 0.50%, Liquiditaet 2248 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5454371,CA Banfield vs. AA Argentinos Juniors: Both Teams to Score in First Half,4.2661,0.995,-4.2448,67.9166,"Spread 0.50%, Liquiditaet 1479 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5269217,Valencia CF vs. Athletic Club: Draw at halftime?,4.2661,0.995,-4.2448,63.6718,"Spread 0.50%, Liquiditaet 5878 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5304199,Daejeon Hana Citizen FC vs. Gwangju FC: Second half draw?,4.2661,0.995,-4.2448,59.427,"Spread 0.50%, Liquiditaet 2213 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5547307,Exact Score: Yongin FC 0 - 1 Ansan Greeners FC?,4.2661,0.995,-4.2448,55.1822,"Spread 0.50%, Liquiditaet 22 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5606753,Exact Score: Agropecuario Argentino 0 - 0 CA Colegiales?,4.2661,0.995,-4.2448,50.9374,"Spread 0.50%, Liquiditaet 43 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5574473,Sacramento Republic FC to score first vs. El Paso Locomotive FC?,4.2661,0.995,-4.2448,46.6927,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5507177,Wuhan Tennis Open: Completed Match: Hanyu Guo vs Sorana Cirstea,4.2661,0.995,-4.2448,42.4479,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5549390,Southend United FC leading at halftime?,4.2661,0.995,-4.2448,38.2031,"Spread 0.50%, Liquiditaet 59 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5635649,2026 NLCS Team Total Home Runs: Dodgers 9+,4.2661,0.995,-4.2448,33.9583,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5379204,Will Aleksei Sarana finish in the Top 3 of Titled Tuesday on October 13?,4.2661,0.995,-4.2448,29.7135,"Spread 0.50%, Liquiditaet 132 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5594206,Brentford FC to win the second half?,4.2661,0.995,-4.2448,25.4687,"Spread 0.50%, Liquiditaet 24 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5534845,SV 07 Elversberg to score first vs. RB Leipzig?,4.2661,0.995,-4.2448,21.2239,"Spread 0.50%, Liquiditaet 9 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5644284,Exact Score: US Boulogne Côte d'Opale 4 - 3 Stade de Reims?,4.2661,0.995,-4.2448,16.9791,"Spread 0.50%, Liquiditaet 21 USD"
+2026-10-13T10:03:30.054666+02:00,KAUF,5633347,Exact Margin: Mississippi State by 13-18,4.2661,0.995,-4.2448,12.7344,"Spread 0.50%, Liquiditaet 4 USD"
