@@ -4665,3 +4665,43 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-12T21:02:07.427523+02:00,5627519,Exact Score: CD Palestino 4 - 5 CSD Colo-Colo?,chi1-cdp-csc-2026-10-25-exact-score-4-5,0.49,0.505,0.995,0.0,6.3316,2026-10-25T20:30:00Z
 2026-10-12T21:02:07.427523+02:00,5627666,Exact Score: Alianza FC 2 - 3 Internacional de Bogotá?,col1-alf-cle-2026-10-25-exact-score-2-3,0.485,0.51,0.995,0.0,12.9197,2026-10-25T21:05:00Z
 2026-10-12T21:02:07.427523+02:00,5627826,Exact Score: CD Oriente Petrolero 3 - 2 Club The Strongest?,bol1-ori-str-2026-10-25-exact-score-3-2,0.485,0.51,0.995,0.0,12.9197,2026-10-25T23:30:00Z
+2026-10-13T03:20:17.044845+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-13T03:20:17.044845+02:00,3491913,Will the Republican Party candidate win the 2026 MN-06 House election by 30% or more?,will-the-republican-party-candidate-win-the-2026-mn-06-house-election-by-30-or-more,0.036,0.9635,0.9995,244.37,661.62031,2026-11-04T04:59:00Z
+2026-10-13T03:20:17.044845+02:00,3523800,Will the Democratic Party candidate win the 2026 TX-07 House election by 45%-50%?,will-the-democratic-party-candidate-win-the-2026-tx-07-house-election-by-45-50,0.2345,0.765,0.9995,626.629106,485.50148,2026-11-04T04:59:00Z
+2026-10-13T03:20:17.044845+02:00,3523806,Will the Democratic Party candidate win the 2026 TX-07 House election by 10%-20%?,will-the-democratic-party-candidate-win-the-2026-tx-07-house-election-by-10-20,0.0375,0.962,0.9994999999999999,293.95444,9901.09062,2026-11-04T04:59:00Z
+2026-10-13T03:20:17.044845+02:00,3848833,Will Liverpool finish 17th in the 2026-27 Premier League?,will-liverpool-finish-17th-in-premier-league-2026-27,0.48,0.515,0.995,0.0,35.5677,2027-07-01T03:59:00Z
+2026-10-13T03:20:17.044845+02:00,3913904,Will Inter de San Carlos finish 9th in the 2026-27 Liga FPD (Costa Rica)?,will-inter-de-san-carlos-finish-9th-in-liga-fpd-costa-rica-2026-27,0.48,0.515,0.995,0.0,4.7495,2027-07-01T03:59:00Z
+2026-10-13T03:20:17.044845+02:00,3914369,Will Minnesota United FC keep the most clean sheets in the 2026 MLS?,will-minnesota-united-fc-keep-the-most-clean-sheets-in-mls-2026,0.485,0.51,0.995,58.0,1.5679,2027-01-01T04:59:00Z
+2026-10-13T03:20:17.044845+02:00,4227916,Will Jacory Barney Jr. be the 2026 Big Ten Receiving Yards Leader?,will-jacory-barney-jrpt-be-the-2026-big-ten-receiving-yards-leader,0.4815,0.518,0.9995,0.0,3.57513,2026-12-06T23:59:00Z
+2026-10-13T03:20:17.044845+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-13T03:20:17.044845+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-13T03:20:17.044845+02:00,5173930,Norwich City FC vs. Southampton FC: Both Teams to Score in Second Half,elc-nor-sot-2026-10-14-btts-second-half,0.39,0.605,0.995,0.0,1228.7995,2026-10-14T18:45:00Z
+2026-10-13T03:20:17.044845+02:00,5195858,Will there be 15 or more tech pauses in the VALORANT Champions 2026 Playoffs?,will-there-be-15-or-more-tech-pauses-in-the-valorant-champions-2026-playoffs,0.495,0.5,0.995,0.0,4.5676,2026-11-18T04:59:00Z
+2026-10-13T03:20:17.044845+02:00,5215522,Randers FC to win the second half?,den-hor-ran-2026-10-16-second-half-result-away,0.325,0.67,0.9950000000000001,0.0,2181.8464,2026-10-16T17:00:00Z
+2026-10-13T03:20:17.044845+02:00,5244976,SK Sigma Olomouc leading at halftime?,cze1-sso-fsl-2026-10-17-halftime-result-home,0.285,0.71,0.9949999999999999,0.0,2872.154,2026-10-17T16:00:00Z
+2026-10-13T03:20:17.044845+02:00,5270187,Will LD Alajuelense win on 2026-10-17?,fpd-int-ala-2026-10-17-ala,0.485,0.51,0.995,0.0,114.0836,2026-10-18T02:00:00Z
+2026-10-13T03:20:17.044845+02:00,5274774,Oldham Athletic AFC vs. Cheltenham Town FC: Both Teams to Score,el2-old-che-2026-10-17-btts,0.56,0.435,0.9950000000000001,0.0,2436.2566,2026-10-17T14:00:00Z
+2026-10-13T03:20:17.044845+02:00,5278312,ŠK Slovan Bratislava leading at halftime?,svk1-trn-sba-2026-10-17-halftime-result-away,0.35,0.645,0.995,0.0,2828.5172,2026-10-17T16:00:00Z
+2026-10-13T03:20:17.044845+02:00,5281258,Gençlerbirliği SK vs. Galatasaray SK: Both Teams to Score in Second Half,tur-gen-gal-2026-10-17-btts-second-half,0.41,0.585,0.9949999999999999,0.0,1127.1233,2026-10-17T13:00:00Z
+2026-10-13T03:20:17.044845+02:00,5311677,"Barcelona UEFA Negreira verdict announced by September 30, 2027?",barcelona-uefa-negreira-verdict-announced-by-september-30-2027,0.5,0.495,0.995,0.0,1.9739,2027-10-01T03:59:00Z
+2026-10-13T03:20:17.044845+02:00,5323508,Fluminense FC vs. Santos FC: Both Teams to Score in First Half,bra-flu-san-2026-10-18-btts-first-half,0.405,0.59,0.995,0.0,1139.8018,2026-10-18T19:00:00Z
+2026-10-13T03:20:17.044845+02:00,5438982,SK Puntigamer Sturm Graz vs. Olympique de Marseille: Both Teams to Score,uel-stu1-olm-2026-10-22-btts,0.485,0.51,0.995,0.0,99.8595,2026-10-22T16:45:00Z
+2026-10-13T03:20:17.044845+02:00,5454516,CA Huracán vs. Gimnasia y Esgrima de La Plata: Both Teams to Score,arg-cah-gim-2026-10-15-btts,0.45,0.545,0.9950000000000001,0.0,1936.1187,2026-10-15T23:00:00Z
+2026-10-13T03:20:17.044845+02:00,5524101,Game 4: Both Teams Slay a Dragon?,lol-fur-mvk-2026-10-15-game4-both-teams-slay-dragon,0.5,0.495,0.995,0.0,2.1196,2026-10-16T00:00:00Z
+2026-10-13T03:20:17.044845+02:00,5524139,Game 4: Both Teams Slay Baron Nashor?,lol-c9-kc-2026-10-15-game4-both-teams-slay-baron,0.495,0.5,0.995,0.0,2.1196,2026-10-16T05:00:00Z
+2026-10-13T03:20:17.044845+02:00,5524147,Game 5: Both Teams Destroy Inhibitors?,lol-c9-kc-2026-10-15-game5-both-teams-destroy-inhibitors,0.5,0.495,0.995,0.0,2.3194,2026-10-16T06:00:00Z
+2026-10-13T03:20:17.044845+02:00,5569963,Raufoss IL to score first vs. Bryne FK?,nor2-bry-rau-2026-10-14-first-to-score-away,0.235,0.76,0.995,0.0,2589.2463,2026-10-14T17:00:00Z
+2026-10-13T03:20:17.044845+02:00,5584360,CA Boston River vs. Defensor Sporting: Both Teams to Score,uru1-bri-def-2026-10-17-btts,0.53,0.465,0.9950000000000001,0.0,197.6794,2026-10-17T19:00:00Z
+2026-10-13T03:20:17.044845+02:00,5594820,Will the lowest temperature in Tel Aviv be 22°C on October 14?,lowest-temperature-in-tel-aviv-on-october-14-2026-22c,0.435,0.56,0.9950000000000001,43.663334,174.3352,2026-10-14T12:00:00Z
+2026-10-13T03:20:17.044845+02:00,5594827,Will the lowest temperature in Tokyo be 16°C on October 14?,lowest-temperature-in-tokyo-on-october-14-2026-16c,0.26,0.735,0.995,0.0,717.8409,2026-10-14T12:00:00Z
+2026-10-13T03:20:17.044845+02:00,5601145,Exact Score: Motherwell FC 3 - 0 Heart of Midlothian FC?,scop-mot-hmi-2026-10-25-exact-score-3-0,0.46,0.535,0.9950000000000001,0.0,19.1264,2026-10-25T14:00:00Z
+2026-10-13T03:20:17.044845+02:00,5629473,UTSA vs. Tulane: Both Teams to Score a Touchdown - 1H,cfb-utsa-tulane-2026-10-24-1h-btts-td,0.495,0.5,0.995,0.0,0.96,2026-10-25T00:00:00Z
+2026-10-13T03:20:17.044845+02:00,5630005,Eastern Michigan vs. Ohio: Both Teams to Score a Touchdown - Q3,cfb-emich-ohio-2026-10-24-3q-btts-td,0.5,0.495,0.995,0.0,2.2998,2026-10-24T20:00:00Z
+2026-10-13T03:20:17.044845+02:00,5631109,Oregon vs. Illinois: Both Teams to Score Points - Q2,cfb-ore-ill-2026-10-24-2q-btts-points,0.5,0.495,0.995,0.0,1.92,2026-10-24T17:00:00Z
+2026-10-13T03:20:17.044845+02:00,5631905,California vs. SMU: Both Teams to Score Points - Q4,cfb-cah-smu-2026-10-24-4q-btts-points,0.5,0.495,0.995,0.0,1.92,2026-10-24T16:00:00Z
+2026-10-13T03:20:17.044845+02:00,5635812,Will Nathaniel Lowe hit a home run in the 2026 ALCS?,will-nathaniel-lowe-hit-a-home-run-in-the-2026-alcs,0.495,0.5,0.995,0.0,1.768,2026-10-21T03:59:00Z
+2026-10-13T03:20:17.044845+02:00,5637063,Lil'Jordan Humphrey: Anytime Touchdown,nfl-sea-den-2026-10-16-anytime-td-liljordan-humphrey,0.5,0.495,0.995,0.0,6.3798,2026-10-16T00:15:00Z
+2026-10-13T03:20:17.044845+02:00,5638601,Exact Score: Itagui Leones FC 2 - 4 Boyaca Patriotas?,col2-leo-boy-2026-10-15-exact-score-2-4,0.49,0.505,0.995,0.0,7.9198,2026-10-15T22:15:00Z
+2026-10-13T03:20:17.044845+02:00,5638638,Exact Score: Internacional FC De Palmira 1 - 4 Orsomarso SC?,col2-pal-ors-2026-10-15-exact-score-1-4,0.46,0.535,0.9950000000000001,0.0,22.2177,2026-10-15T23:00:00Z
+2026-10-13T03:20:17.044845+02:00,5638686,Exact Score: Boca Juniors de Cali 1 - 5 Atletico FC Cali?,col2-boc-atl-2026-10-16-exact-score-1-5,0.49,0.505,0.995,0.0,10.1498,2026-10-16T22:15:00Z
+2026-10-13T03:20:17.044845+02:00,5638701,Exact Score: Any Other Score?,col2-boc-atl-2026-10-16-exact-score-any-other,0.49,0.505,0.995,0.0,6.5216,2026-10-16T22:15:00Z
