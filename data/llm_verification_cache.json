@@ -22076,5 +22076,1601 @@
     "checked_at": "2026-10-13T11:29:01.006642+00:00",
     "frage_a": "Will JD Vance win the 2028 US Presidential Election?",
     "frage_b": "Who will win the 2028 US presidential election? - JD Vance"
+  },
+  "polymarket:5397478__sxbet:0x64e3424e5aa2270ceb01cda9a15f3c5b84d7bf58f3ca9c31b68dbd345a9b5dce": {
+    "same_event": false,
+    "reason": "Draw vs winner are not complementary outcomes",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Portugal vs. Northern Ireland end in a draw?",
+    "frage_b": "Portugal W vs Northern Ireland W - wer gewinnt?"
+  },
+  "polymarket:5179356__sxbet:0x014b19e0067e90d8e104f28a42435a135e5d5bdd3b344f772956cc3b27220bb1": {
+    "same_event": false,
+    "reason": "Draw vs winner are not complementary outcomes",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Los Angeles FC vs. Austin FC end in a draw?",
+    "frage_b": "Los Angeles FC vs Austin FC - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475936": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.50 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475935": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.60 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475923": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.80 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475934": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.70 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475933": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.80 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475924": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.70 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475931": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $3.00 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475932": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.90 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475925": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.60 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5518869__sxbet:0xe4e8e60d832f23b4e40b99db1cb35ca7b71a2a485fe77d5e5bb1b6eb49e0bda7": {
+    "same_event": false,
+    "reason": "Draw vs winner are not complementary outcomes",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will SK Rapid vs. TSV Hartberg end in a draw?",
+    "frage_b": "SK Rapid Wien vs TSV Hartberg - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475926": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.50 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5263912__sxbet:0xec2a461a440eb59aec75f9d24e913abfece50a5b3c3064d91977528f576e547f": {
+    "same_event": false,
+    "reason": "Draw vs winner are not complementary outcomes",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Manchester City FC vs. Ipswich Town FC end in a draw?",
+    "frage_b": "Manchester City vs Ipswich Town - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5612152": {
+    "same_event": false,
+    "reason": "Different price thresholds and timeframes, not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $3.10 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5263890__sxbet:0xc72d91a91e150164a6a3d94ceea198adbb434cd74d5879ad2a96b6774283d84e": {
+    "same_event": false,
+    "reason": "Question A asks about a draw; Question B asks about which team wins – different outcomes.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Fulham FC vs. Hull City AFC end in a draw?",
+    "frage_b": "Fulham vs Hull City - wer gewinnt?"
+  },
+  "polymarket:5263922__sxbet:0x05a22bab15a65f0fe85f1fc43b82f5d3538285e09b45b7d0ae7fdf53c78e76a2": {
+    "same_event": false,
+    "reason": "Question A asks about a draw; Question B asks about which team wins – different outcomes.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will SV Werder Bremen vs. SC Paderborn 07 end in a draw?",
+    "frage_b": "SV Werder Bremen vs SC Paderborn 07 - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5475927": {
+    "same_event": false,
+    "reason": "Different price thresholds and timing; not complementary events.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.40 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT1417-T3.195__polymarket:5660359": {
+    "same_event": false,
+    "reason": "Different price thresholds and timing; not complementary events.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $3.20 Week of October 12 2026?",
+    "frage_b": "Will the natural gas close price be above 3.195 USD/MMBtu on October 14, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5338537": {
+    "same_event": false,
+    "reason": "A asks if a specific team wins the second half; B asks if neither team wins (draw) – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "COD Meknès to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5386615": {
+    "same_event": false,
+    "reason": "A asks if a specific team wins the second half; B asks if neither team wins (draw) – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Sholing FC to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5409208": {
+    "same_event": false,
+    "reason": "A asks if a specific team wins the second half; B asks if neither team wins (draw) – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AEK to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502199": {
+    "same_event": false,
+    "reason": "A asks if neither team scores first in the first half; B asks if neither team wins the first half – different conditions.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Neither team to score first in the 1st half?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442034": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Frosinone Calcio to score first in the 1st half vs. US Sassuolo Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442035": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "US Sassuolo Calcio to score first in the 1st half vs. Frosinone Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442057": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Deportivo A Coruña to score first in the 1st half vs. Levante UD?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442058": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Levante UD to score first in the 1st half vs. RC Deportivo A Coruña?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442080": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Le Mans FC to score first in the 1st half vs. Toulouse FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5442081": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Toulouse FC to score first in the 1st half vs. Le Mans FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5456256": {
+    "same_event": false,
+    "reason": "A asks if a specific team scores first in the first half; B asks if neither team wins the first half – not opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Everton FC to score first in the 1st half vs. Chelsea FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5456257": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Chelsea FC to score first in the 1st half vs. Everton FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5456279": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RCD Espanyol de Barcelona to score first in the 1st half vs. Club Atlético de Madrid?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5456280": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Club Atlético de Madrid to score first in the 1st half vs. RCD Espanyol de Barcelona?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5457343": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Venezia FC to score first in the 1st half vs. SSC Napoli?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5457344": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "SSC Napoli to score first in the 1st half vs. Venezia FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458236": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Manchester City FC to score first in the 1st half vs. Ipswich Town FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458237": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Ipswich Town FC to score first in the 1st half vs. Manchester City FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458259": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Fulham FC to score first in the 1st half vs. Hull City AFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458260": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Hull City AFC to score first in the 1st half vs. Fulham FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458282": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brentford FC to score first in the 1st half vs. Liverpool FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5458283": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Liverpool FC to score first in the 1st half vs. Brentford FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5459675": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Villarreal CF to score first in the 1st half vs. Elche CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5459676": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Elche CF to score first in the 1st half vs. Villarreal CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5466865": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Bologna FC 1909 to score first in the 1st half vs. FC Internazionale Milano?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5466866": {
+    "same_event": false,
+    "reason": "Scoring first in 1st half is not the exact opposite of 'neither team wins the 1st Half' (halftime tie).",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Internazionale Milano to score first in the 1st half vs. Bologna FC 1909?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5466889": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Strasbourg Alsace to score first in the 1st half vs. Paris Saint-Germain FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5466890": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first in the 1st half vs. RC Strasbourg Alsace?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5469068": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Newcastle United FC to score first in the 1st half vs. Aston Villa FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5469069": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Aston Villa FC to score first in the 1st half vs. Newcastle United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5469110": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Betis Balompié to score first in the 1st half vs. FC Barcelona?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5469111": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Barcelona to score first in the 1st half vs. Real Betis Balompié?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473617": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AS Roma to score first in the 1st half vs. Genoa CFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473618": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Genoa CFC to score first in the 1st half vs. AS Roma?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473640": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Valencia CF to score first in the 1st half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473641": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Athletic Club to score first in the 1st half vs. Valencia CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473663": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Lille OSC to score first in the 1st half vs. Stade Brestois 29?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473664": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Stade Brestois 29 to score first in the 1st half vs. Lille OSC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473686": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "ES Troyes AC to score first in the 1st half vs. Racing Club de Lens?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5473687": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Racing Club de Lens to score first in the 1st half vs. ES Troyes AC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5488983": {
+    "same_event": false,
+    "reason": "Question A asks which team scores first in the 1st half; Question B asks whether neither team leads at halftime (a tie). These are not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Udinese Calcio to score first in the 1st half vs. US Lecce?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5488984": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "US Lecce to score first in the 1st half vs. Udinese Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5493832": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "CA Osasuna to score first in the 1st half vs. Real Racing Club?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5493833": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Racing Club to score first in the 1st half vs. CA Osasuna?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502151": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Leeds United FC to score first in the 1st half vs. Manchester United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502152": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Manchester United FC to score first in the 1st half vs. Leeds United FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502174": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AFC Bournemouth to score first in the 1st half vs. Sunderland AFC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502175": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Sunderland AFC to score first in the 1st half vs. AFC Bournemouth?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502197": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first in the 1st half vs. Crystal Palace FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502198": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Crystal Palace FC to score first in the 1st half vs. Brighton & Hove Albion FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502220": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "ACF Fiorentina to score first in the 1st half vs. Como 1907?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502221": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Como 1907 to score first in the 1st half vs. ACF Fiorentina?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502243": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Angers SCO to score first in the 1st half vs. Olympique de Marseille?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5502244": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Olympique de Marseille to score first in the 1st half vs. Angers SCO?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5506644": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Celta de Vigo to score first in the 1st half vs. Deportivo Alavés?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5506645": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs. halftime draw.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Deportivo Alavés to score first in the 1st half vs. RC Celta de Vigo?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519496": {
+    "same_event": false,
+    "reason": "Questions are not complementary; halftime tie does not equal the negation of 'team scores first'.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Madrid CF to score first in the 1st half vs. Sevilla FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519497": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Sevilla FC to score first in the 1st half vs. Real Madrid CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519535": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Olympique Lyonnais to score first in the 1st half vs. OGC Nice?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519536": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "OGC Nice to score first in the 1st half vs. Olympique Lyonnais?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5572644": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AC Monza to score first in the 1st half vs. Cagliari Calcio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5572645": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Cagliari Calcio to score first in the 1st half vs. AC Monza?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582029": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Tottenham Hotspur FC to score first in the 1st half vs. Coventry City FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582030": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Coventry City FC to score first in the 1st half vs. Tottenham Hotspur FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582126": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Parma Calcio 1913 to score first in the 1st half vs. Torino FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582127": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Torino FC to score first in the 1st half vs. Parma Calcio 1913?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582157": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Rayo Vallecano de Madrid to score first in the 1st half vs. Getafe CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5582156": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 1st half; second about halftime tie – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Getafe CF to score first in the 1st half vs. Rayo Vallecano de Madrid?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502202": {
+    "same_event": false,
+    "reason": "First question about neither team scoring first in 2nd half; second about halftime tie in 2nd half – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Neither team to score first in the 2nd half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519394": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 2nd half; second about halftime tie in 2nd half – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "SS Lazio to score first in the 2nd half vs. Juventus FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442037": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 2nd half; second about halftime tie in 2nd half – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Frosinone Calcio to score first in the 2nd half vs. US Sassuolo Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442038": {
+    "same_event": false,
+    "reason": "First question about a specific team scoring first in 2nd half; second about halftime tie in 2nd half – not exact opposites.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "US Sassuolo Calcio to score first in the 2nd half vs. Frosinone Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442060": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Deportivo A Coruña to score first in the 2nd half vs. Levante UD?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442061": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Levante UD to score first in the 2nd half vs. RC Deportivo A Coruña?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442083": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Le Mans FC to score first in the 2nd half vs. Toulouse FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5442084": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Toulouse FC to score first in the 2nd half vs. Le Mans FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5456259": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Everton FC to score first in the 2nd half vs. Chelsea FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5456260": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Chelsea FC to score first in the 2nd half vs. Everton FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5456282": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RCD Espanyol de Barcelona to score first in the 2nd half vs. Club Atlético de Madrid?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5456283": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Club Atlético de Madrid to score first in the 2nd half vs. RCD Espanyol de Barcelona?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5457346": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Venezia FC to score first in the 2nd half vs. SSC Napoli?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5457347": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "SSC Napoli to score first in the 2nd half vs. Venezia FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458239": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Manchester City FC to score first in the 2nd half vs. Ipswich Town FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458240": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Ipswich Town FC to score first in the 2nd half vs. Manchester City FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458262": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Fulham FC to score first in the 2nd half vs. Hull City AFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458263": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Hull City AFC to score first in the 2nd half vs. Fulham FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458285": {
+    "same_event": false,
+    "reason": "Scoring first in the second half is not the logical negation of 'neither team wins the second half'; both can be true or false depending on match flow.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brentford FC to score first in the 2nd half vs. Liverpool FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5458286": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Liverpool FC to score first in the 2nd half vs. Brentford FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5459681": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Villarreal CF to score first in the 2nd half vs. Elche CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5459682": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Elche CF to score first in the 2nd half vs. Villarreal CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5466868": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Bologna FC 1909 to score first in the 2nd half vs. FC Internazionale Milano?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5466869": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Internazionale Milano to score first in the 2nd half vs. Bologna FC 1909?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5466892": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Strasbourg Alsace to score first in the 2nd half vs. Paris Saint-Germain FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5466893": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first in the 2nd half vs. RC Strasbourg Alsace?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5469071": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Newcastle United FC to score first in the 2nd half vs. Aston Villa FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5469072": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Aston Villa FC to score first in the 2nd half vs. Newcastle United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5469113": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Betis Balompié to score first in the 2nd half vs. FC Barcelona?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5469114": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Barcelona to score first in the 2nd half vs. Real Betis Balompié?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473620": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AS Roma to score first in the 2nd half vs. Genoa CFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473621": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Genoa CFC to score first in the 2nd half vs. AS Roma?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473643": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Valencia CF to score first in the 2nd half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473644": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer in 2nd half vs. whether either team wins the 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Athletic Club to score first in the 2nd half vs. Valencia CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473666": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Lille OSC to score first in the 2nd half vs. Stade Brestois 29?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473667": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Stade Brestois 29 to score first in the 2nd half vs. Lille OSC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473689": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "ES Troyes AC to score first in the 2nd half vs. Racing Club de Lens?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5473690": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Racing Club de Lens to score first in the 2nd half vs. ES Troyes AC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5488986": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Udinese Calcio to score first in the 2nd half vs. US Lecce?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5488987": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "US Lecce to score first in the 2nd half vs. Udinese Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5493835": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "CA Osasuna to score first in the 2nd half vs. Real Racing Club?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5493836": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Racing Club to score first in the 2nd half vs. CA Osasuna?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502154": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Leeds United FC to score first in the 2nd half vs. Manchester United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502155": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Manchester United FC to score first in the 2nd half vs. Leeds United FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502177": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AFC Bournemouth to score first in the 2nd half vs. Sunderland AFC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502178": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Sunderland AFC to score first in the 2nd half vs. AFC Bournemouth?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502200": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first in the 2nd half vs. Crystal Palace FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502201": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Crystal Palace FC to score first in the 2nd half vs. Brighton & Hove Albion FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502223": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score in 2nd half vs. tie in 2nd half.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "ACF Fiorentina to score first in the 2nd half vs. Como 1907?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502224": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Como 1907 to score first in the 2nd half vs. ACF Fiorentina?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502246": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Angers SCO to score first in the 2nd half vs. Olympique de Marseille?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5502247": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Olympique de Marseille to score first in the 2nd half vs. Angers SCO?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5506647": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RC Celta de Vigo to score first in the 2nd half vs. Deportivo Alavés?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5506648": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Deportivo Alavés to score first in the 2nd half vs. RC Celta de Vigo?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509438": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Nottingham Forest FC to score first in the 2nd half vs. Arsenal FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509439": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Arsenal FC to score first in the 2nd half vs. Nottingham Forest FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509461": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AC Milan to score first in the 2nd half vs. Atalanta BC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509462": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Atalanta BC to score first in the 2nd half vs. AC Milan?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509485": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Paris FC to score first in the 2nd half vs. Stade Rennais FC 1901?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509486": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first in the 2nd half vs. Paris FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509508": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Le Havre AC to score first in the 2nd half vs. AJ Auxerre?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509509": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AJ Auxerre to score first in the 2nd half vs. Le Havre AC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509531": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Lorient to score first in the 2nd half vs. AS Monaco FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5509532": {
+    "same_event": false,
+    "reason": "Second question asks if neither team wins the half, not the negation of the first.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AS Monaco FC to score first in the 2nd half vs. FC Lorient?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5512416": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Málaga CF to score first in the 2nd half vs. Real Sociedad de Fútbol?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5512417": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first in the 2nd half vs. Málaga CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519392": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Juventus FC to score first in the 2nd half vs. SS Lazio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519505": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Real Madrid CF to score first in the 2nd half vs. Sevilla FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519506": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Sevilla FC to score first in the 2nd half vs. Real Madrid CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519538": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Olympique Lyonnais to score first in the 2nd half vs. OGC Nice?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5519539": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "OGC Nice to score first in the 2nd half vs. Olympique Lyonnais?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5572647": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AC Monza to score first in the 2nd half vs. Cagliari Calcio?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5572648": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Cagliari Calcio to score first in the 2nd half vs. AC Monza?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582038": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Tottenham Hotspur FC to score first in the 2nd half vs. Coventry City FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582039": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Coventry City FC to score first in the 2nd half vs. Tottenham Hotspur FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582132": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Parma Calcio 1913 to score first in the 2nd half vs. Torino FC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582135": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Torino FC to score first in the 2nd half vs. Parma Calcio 1913?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582159": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Getafe CF to score first in the 2nd half vs. Rayo Vallecano de Madrid?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5582160": {
+    "same_event": false,
+    "reason": "Different propositions: first half scorer vs. neither team winning second half",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Rayo Vallecano de Madrid to score first in the 2nd half vs. Getafe CF?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:4389077": {
+    "same_event": false,
+    "reason": "First half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Levante UD to score first in the 1st half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:4389078": {
+    "same_event": false,
+    "reason": "First half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Athletic Club to score first in the 1st half vs. Levante UD?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:4235335": {
+    "same_event": false,
+    "reason": "First half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Cincinnati to score first in the 1st half vs. D.C. United SC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:4235336": {
+    "same_event": false,
+    "reason": "First half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "D.C. United SC to score first in the 1st half vs. FC Cincinnati?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:4389080": {
+    "same_event": false,
+    "reason": "Second half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Levante UD to score first in the 2nd half vs. Athletic Club?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:4389081": {
+    "same_event": false,
+    "reason": "Second half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Athletic Club to score first in the 2nd half vs. Levante UD?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:4235338": {
+    "same_event": false,
+    "reason": "Second half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "FC Cincinnati to score first in the 2nd half vs. D.C. United SC?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:4235339": {
+    "same_event": false,
+    "reason": "Second half first scorer vs half draw not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "D.C. United SC to score first in the 2nd half vs. FC Cincinnati?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:5273172__sxbet:0xbcd8d10bdfe9f5dfee0c4ffa5ba6b5f2a8ecde1dc28cfc99d955fb228e5afbd6": {
+    "same_event": false,
+    "reason": "Draw vs win outcome not complementary (three-way)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will St Johnstone FC vs. Dundee United FC end in a draw?",
+    "frage_b": "St. Johnstone vs Dundee United - wer gewinnt?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5470562": {
+    "same_event": false,
+    "reason": "Anderlecht winning half vs neither team winning half not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RSC Anderlecht to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5239888": {
+    "same_event": false,
+    "reason": "Amed Sportif winning half vs neither team winning half not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Amed Sportif to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5264176": {
+    "same_event": false,
+    "reason": "Greuther Fürth winning half vs neither team winning half not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "SpVgg Greuther Fürth to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18NONYG-NYGNYG__polymarket:5402309": {
+    "same_event": false,
+    "reason": "York City win on specific date vs New York G half/game win not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will York City FC win on 2026-10-20?",
+    "frage_b": "New York G wins 1st Half / New York G wins game"
+  },
+  "kalshi:KXNFL1HSPREAD-26OCT18TENIND-TEN7__polymarket:5370654": {
+    "same_event": false,
+    "reason": "Exact game margin 1-6 vs first half margin >6.5 not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Tennessee by 1-6",
+    "frage_b": "Tennessee wins 1H by over 6.5 points?"
+  },
+  "kalshi:KXNFL1HSPREAD-26OCT18TENIND-TEN7__polymarket:5633364": {
+    "same_event": false,
+    "reason": "Exact game margin 1-6 vs first half margin >6.5 not complementary",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Tennessee by 1-6",
+    "frage_b": "Tennessee wins 1H by over 6.5 points?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18CARPHI-PHIPHI__polymarket:5286484": {
+    "same_event": false,
+    "reason": "Second phrase is not the logical negation of winning the game; it refers to half or game win.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Philadelphia Union win on 2026-10-17?",
+    "frage_b": "Philadelphia wins 1st Half / Philadelphia wins game"
+  },
+  "kalshi:KXNFLTIE-26OCT18PITTB-Y__polymarket:5535119": {
+    "same_event": false,
+    "reason": "Negation of winning includes loss or draw, not just tie.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Preston North End FC win on 2026-10-24?",
+    "frage_b": "Game to end in a tie"
+  },
+  "kalshi:KXNFL1HFT-26OCT18PITTB-TBTB__polymarket:5574291": {
+    "same_event": false,
+    "reason": "Second phrase is not the logical negation of winning the game; it refers to half or game win.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Tampa Bay Rowdies win on 2026-10-17?",
+    "frage_b": "Tampa Bay wins 1st Half / Tampa Bay wins game"
+  },
+  "kalshi:KXNFL2HSPREAD-26OCT18PITTB-PIT8__polymarket:5633635": {
+    "same_event": false,
+    "reason": "Different propositions: exact margin vs second-half margin >7.5.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Pittsburgh by 7-12",
+    "frage_b": "Pittsburgh wins 2H by over 7.5 points?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18PITTB-TBTB__polymarket:5325143": {
+    "same_event": false,
+    "reason": "Different teams and markets.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Bay FC to win the second half?",
+    "frage_b": "Tampa Bay wins 1st Half / Tampa Bay wins game"
+  },
+  "kalshi:KXNFLTIE-26OCT18PITTB-Y__polymarket:5263938": {
+    "same_event": false,
+    "reason": "Negation of winning includes loss or draw, not just tie.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Preston North End FC win on 2026-10-17?",
+    "frage_b": "Game to end in a tie"
+  },
+  "kalshi:KXNFL2HSPREAD-26OCT18PITTB-PIT8__polymarket:5370821": {
+    "same_event": false,
+    "reason": "Different propositions: exact margin vs second-half margin >7.5.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Pittsburgh by 7-12",
+    "frage_b": "Pittsburgh wins 2H by over 7.5 points?"
+  },
+  "kalshi:KXNFLTIE-26OCT18CHIATL-Y__polymarket:5565435": {
+    "same_event": false,
+    "reason": "Both ask for draw/tie, not opposite.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Atlanta United FC vs. Chicago Fire FC end in a draw?",
+    "frage_b": "Game to end in a tie"
+  },
+  "kalshi:KXNFLTIE-26OCT18NONYG-Y__polymarket:5565535": {
+    "same_event": false,
+    "reason": "Both ask for draw/tie, not opposite.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Orlando City SC vs. New York City FC end in a draw?",
+    "frage_b": "Game to end in a tie"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5212270": {
+    "same_event": false,
+    "reason": "Negation of Anderlecht winning second half includes opponent win or draw, not just neither team winning.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "RSC Anderlecht to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "polymarket:5189181__sxbet:0x1396c49ea7424c7e1a3cd2941e5d7cae9522566ad7c5ee6c9034c66a0381e911": {
+    "same_event": false,
+    "reason": "Second asks which team wins, not a yes/no negation.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will KF Egnatia Rrogozhinë vs. FC Midtjylland end in a draw?",
+    "frage_b": "Egnatia Rrogozhine vs FC Midtjylland - wer gewinnt?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18NONYG-NYGNYG__polymarket:5273628": {
+    "same_event": false,
+    "reason": "Different teams; not negation.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will York City FC win on 2026-10-17?",
+    "frage_b": "New York G wins 1st Half / New York G wins game"
+  },
+  "polymarket:5263906__sxbet:0x9a838f1d7dbd4377d687401be68b83c2ee0c8a020e71d6468758b07a26ca84d8": {
+    "same_event": false,
+    "reason": "Draw vs who wins not opposite.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Hamburger SV vs. VfB Stuttgart end in a draw?",
+    "frage_b": "Hamburger SV vs VfB Stuttgart - wer gewinnt?"
+  },
+  "kalshi:KXNFL1HSPREAD-26OCT18PITTB-PIT7__polymarket:5633630": {
+    "same_event": false,
+    "reason": "Different propositions: exact margin vs first-half margin >6.5.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Pittsburgh by 1-6",
+    "frage_b": "Pittsburgh wins 1H by over 6.5 points?"
+  },
+  "kalshi:KXNFL2H-26OCT18BALCLE-TIE__polymarket:5308248": {
+    "same_event": false,
+    "reason": "Negation of Lecce winning second half includes opponent win or draw, not just neither team winning.",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "US Lecce to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18CHIATL-ATL__polymarket:5282282": {
+    "same_event": false,
+    "reason": "Different teams: AZ (Arizona) vs Atlanta",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AZ to win the second half?",
+    "frage_b": "Will Atlanta win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18NYJNE-NYJ__polymarket:5280732": {
+    "same_event": false,
+    "reason": "Different teams: NJ/NY Gotham FC (NWSL) vs New York J (likely Jets, NFL)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "NJ/NY Gotham FC to win the second half?",
+    "frage_b": "Will New York J win the 2nd Half?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18NONYG-NYGNYG__polymarket:5286639": {
+    "same_event": false,
+    "reason": "Different bet types: full game win on specific date vs 1st half/game combo; different team abbreviations (Red Bulls vs New York G)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will New York Red Bulls win on 2026-10-17?",
+    "frage_b": "New York G wins 1st Half / New York G wins game"
+  },
+  "kalshi:KXNFL2H-26OCT18NYJNE-NYJ__polymarket:5287172": {
+    "same_event": false,
+    "reason": "Different teams: New York City FC (MLS) vs New York J (ambiguous, likely Jets)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "New York City FC to win the second half?",
+    "frage_b": "Will New York J win the 2nd Half?"
+  },
+  "kalshi:KXNFL1HFT-26OCT18CARPHI-PHIPHI__polymarket:5565625": {
+    "same_event": false,
+    "reason": "Different bet types: full game win on specific date vs 1st half/game combo",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Philadelphia Union win on 2026-10-24?",
+    "frage_b": "Philadelphia wins 1st Half / Philadelphia wins game"
+  },
+  "kalshi:KXNFL1HSPREAD-26OCT18PITTB-PIT7__polymarket:5370819": {
+    "same_event": false,
+    "reason": "Different bet types: exact margin 1-6 points full game vs 1st half spread over 6.5 points",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Exact Margin: Pittsburgh by 1-6",
+    "frage_b": "Pittsburgh wins 1H by over 6.5 points?"
+  },
+  "kalshi:KXNFL2H-26OCT18NYJNE-NYJ__polymarket:5565271": {
+    "same_event": false,
+    "reason": "Different teams: New York Red Bulls (MLS) vs New York J (ambiguous, likely Jets)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "New York Red Bulls to win the second half?",
+    "frage_b": "Will New York J win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18NYJNE-NYJ__polymarket:5565552": {
+    "same_event": false,
+    "reason": "Different teams: New York City FC (MLS) vs New York J (ambiguous, likely Jets)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "New York City FC to win the second half?",
+    "frage_b": "Will New York J win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18CHIATL-ATL__polymarket:5437934": {
+    "same_event": false,
+    "reason": "Different teams: AZ (Arizona) vs Atlanta",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "AZ to win the second half?",
+    "frage_b": "Will Atlanta win the 2nd Half?"
+  },
+  "kalshi:KXNFL2H-26OCT18CHIATL-ATL__polymarket:5565446": {
+    "same_event": false,
+    "reason": "One side names specific entity 'Atlanta United FC', other side only generic 'Atlanta' (could be Falcons, Braves, Hawks, United)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Atlanta United FC to win the second half?",
+    "frage_b": "Will Atlanta win the 2nd Half?"
+  },
+  "polymarket:4163224__predictit:8166:31986": {
+    "same_event": true,
+    "reason": "Same event: Steve Hilton winning 2026 California gubernatorial election",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Hilton win the 2026 California gubernatorial election?",
+    "frage_b": "Who will win the 2026 election for governor of California? - Steve Hilton"
+  },
+  "kalshi:KXISRAELGOVT-28JAN01-RECO__polymarket:2167287": {
+    "same_event": false,
+    "reason": "Different countries and parties: Romanian PSD vs Israeli Reservists–New Economic Party",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will the Social Democratic Party (PSD) be included in the next Romanian government?",
+    "frage_b": "Will Reservists–New Economic Party be a part of the next government in Israel?"
+  },
+  "polymarket:5622459__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Different outcomes: second-most votes in first round vs winning the presidential election",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Jean-Luc Mélenchon win the second-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "kalshi:KXISRAELGOVT-28JAN01-RECO__polymarket:2167292": {
+    "same_event": false,
+    "reason": "Different countries and parties: Romanian SOS vs Israeli Reservists–New Economic Party",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will S.O.S. Romania (SOS) be included in the next Romanian government?",
+    "frage_b": "Will Reservists–New Economic Party be a part of the next government in Israel?"
+  },
+  "polymarket:666659__predictit:8850:35124": {
+    "same_event": false,
+    "reason": "Different conditions: leave before 2027 vs be the next Cabinet member to leave (timing and order differ)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Pete Hegseth leave the Trump administration before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - Pete Hegseth"
+  },
+  "polymarket:2682398__predictit:8479:33362": {
+    "same_event": false,
+    "reason": "different threshold (at least one vs exactly one)",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Trump issue a veto in 2026?",
+    "frage_b": "How many vetoes will Trump issue in 2026? - 1 veto"
+  },
+  "polymarket:1981570__predictit:8799:34825": {
+    "same_event": true,
+    "reason": "same proposition",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will Josh Shapiro be the 2028 Democratic Vice-Presidential nominee?",
+    "frage_b": "Who will win the 2028 Democratic vice presidential nomination? - Josh Shapiro"
+  },
+  "kalshi:KXISRAELGOVT-28JAN01-RECO__polymarket:2167288": {
+    "same_event": false,
+    "reason": "different countries/parties",
+    "checked_at": "2026-10-13T18:20:28.337071+00:00",
+    "frage_a": "Will the National Liberal Party (PNL) be included in the next Romanian government?",
+    "frage_b": "Will Reservists–New Economic Party be a part of the next government in Israel?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509435": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Nottingham Forest FC to score first in the 1st half vs. Arsenal FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509436": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Arsenal FC to score first in the 1st half vs. Nottingham Forest FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509458": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "AC Milan to score first in the 1st half vs. Atalanta BC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509459": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Atalanta BC to score first in the 1st half vs. AC Milan?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509482": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Paris FC to score first in the 1st half vs. Stade Rennais FC 1901?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509483": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first in the 1st half vs. Paris FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509505": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Le Havre AC to score first in the 1st half vs. AJ Auxerre?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509506": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "AJ Auxerre to score first in the 1st half vs. Le Havre AC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509528": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "FC Lorient to score first in the 1st half vs. AS Monaco FC?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5509529": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "AS Monaco FC to score first in the 1st half vs. FC Lorient?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5512413": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Málaga CF to score first in the 1st half vs. Real Sociedad de Fútbol?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5512414": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first in the 1st half vs. Málaga CF?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519384": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "Juventus FC to score first in the 1st half vs. SS Lazio?",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT18BALCLE-TIE__polymarket:5519386": {
+    "same_event": false,
+    "reason": "First scorer ≠ half winner",
+    "checked_at": "2026-10-13T18:25:39.188819+00:00",
+    "frage_a": "SS Lazio to score first in the 1st half vs. Juventus FC?",
+    "frage_b": "Will neither team win the 1st Half?"
   }
 }
