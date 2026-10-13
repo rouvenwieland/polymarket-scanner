@@ -99,6 +99,21 @@ def _save_json(path, data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def _parse_same_event(value):
+    """Strenge Auswertung des Modell-Urteils. Nur echte Booleans bzw. die Strings
+    "true"/"false" zaehlen; alles andere ist NICHT verifizierbar (None = fail-closed).
+    Frueher: bool(value) - damit wurde der String "false" zu True (Kauf freigegeben)."""
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, str):
+        v = value.strip().lower()
+        if v == "true":
+            return True
+        if v == "false":
+            return False
+    return None
+
+
 def _pair_key(market_a, market_b):
     a = f"{market_a['platform']}:{market_a['market_id']}"
     b = f"{market_b['platform']}:{market_b['market_id']}"
@@ -187,14 +202,22 @@ def verify_candidates(candidates):
         parsed_results = None
         last_error = None
         for model in FREE_MODELS:
+            if budget["used"] >= DAILY_REQUEST_BUDGET:
+                break
+            # JEDER echte Request verbraucht Anbieter-Budget (auch Fehlversuche und
+            # Fallback-Modelle) - frueher wurde nur 1 pro Batch gezaehlt, bei 5 Modellen
+            # waren so bis zu 5x mehr Requests moeglich als das Budget glaubte.
+            budget["used"] += 1
             try:
                 parsed_results = _call_model(model, pairs_payload)
                 break
             except (requests.RequestException, KeyError, ValueError, json.JSONDecodeError) as e:
                 last_error = e
                 continue
-
-        budget["used"] += 1  # zählt auch Fehlversuche - jeder Aufruf verbraucht Budget beim Anbieter
+            finally:
+                # Sofort sichern: bricht der Lauf spaeter ab (Timeout, Cancel), duerfen
+                # bereits verbrauchte Requests nicht aus der Buchfuehrung verschwinden.
+                _save_json(BUDGET_PATH, budget)
 
         if parsed_results is None:
             print(f"[Warnung] KI-Prüfstufe: alle Modelle fehlgeschlagen ({last_error}) - "
@@ -206,10 +229,10 @@ def verify_candidates(candidates):
         verdicts_by_id = {r.get("id"): r for r in parsed_results if isinstance(r, dict)}
         for i, (key, ma, mb) in enumerate(batch):
             verdict = verdicts_by_id.get(i)
-            if verdict is None or "same_event" not in verdict:
+            same_event = _parse_same_event(verdict.get("same_event")) if verdict is not None else None
+            if same_event is None:
                 results[key] = None
                 continue
-            same_event = bool(verdict["same_event"])
             results[key] = same_event
             cache[key] = {
                 "same_event": same_event,
@@ -218,6 +241,7 @@ def verify_candidates(candidates):
                 "frage_a": ma["question"],
                 "frage_b": mb["question"],
             }
+        _save_json(CACHE_PATH, cache)
 
     _save_json(BUDGET_PATH, budget)
     _save_json(CACHE_PATH, cache)
