@@ -4081,3 +4081,5 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-13T12:38:21.894720+02:00,VERKAUF,5534845,SV 07 Elversberg to score first vs. RB Leipzig?,4.2661,1.0,4.2661,140.6254,Konvergenz erreicht (Kurs 1.000)
 2026-10-13T12:38:21.894720+02:00,VERKAUF,5644284,Exact Score: US Boulogne Côte d'Opale 4 - 3 Stade de Reims?,4.2661,1.0,4.2661,144.8915,Konvergenz erreicht (Kurs 1.000)
 2026-10-13T12:38:21.894720+02:00,VERKAUF,5633347,Exact Margin: Mississippi State by 13-18,4.2661,1.0,4.2661,149.1576,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T17:57:10.843415+02:00,AUSZAHLUNG,5638601,Exact Score: Itagui Leones FC 2 - 4 Boyaca Patriotas?,4.2476,1.0,4.2476,153.4053,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-13T17:57:10.843415+02:00,AUSZAHLUNG,5631109,Oregon vs. Illinois: Both Teams to Score Points - Q2,4.2476,1.0,4.2476,157.6529,Markt nicht mehr auffindbar -> als aufgelöst behandelt

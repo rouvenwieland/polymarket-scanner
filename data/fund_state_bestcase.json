@@ -1,28 +1,5 @@
 {
-  "cash": 149.15764137054234,
-  "positions": [
-    {
-      "market_id": "5638601",
-      "frage": "Exact Score: Itagui Leones FC 2 - 4 Boyaca Patriotas?",
-      "slug": "col2-leo-boy-2026-10-15-exact-score-2-4",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 7.9198,
-      "end_date": "2026-10-15T22:15:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    },
-    {
-      "market_id": "5631109",
-      "frage": "Oregon vs. Illinois: Both Teams to Score Points - Q2",
-      "slug": "cfb-ore-ill-2026-10-24-2q-btts-points",
-      "shares": 4.247619080924411,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 1.92,
-      "end_date": "2026-10-24T17:00:00Z",
-      "eingestiegen": "2026-10-13T03:20:17.044845+02:00"
-    }
-  ],
+  "cash": 157.65287953239115,
+  "positions": [],
   "started": "2026-09-28T09:52:55.524283+02:00"
 }
