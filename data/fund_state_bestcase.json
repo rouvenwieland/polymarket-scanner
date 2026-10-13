@@ -1,17 +1,5 @@
 {
-  "cash": 78.82643976619558,
-  "positions": [
-    {
-      "market_id": "3848683",
-      "frage": "Will Cruzeiro finish 16th in the 2026 Brazil Série A?",
-      "slug": "will-cruzeiro-finish-16th-in-brazil-serie-a-2026",
-      "shares": 79.22255252883977,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 7.4251,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-13T23:01:55.423376+02:00"
-    }
-  ],
+  "cash": 158.04899229503536,
+  "positions": [],
   "started": "2026-09-28T09:52:55.524283+02:00"
 }

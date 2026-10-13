@@ -4084,3 +4084,4 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-13T17:57:10.843415+02:00,AUSZAHLUNG,5638601,Exact Score: Itagui Leones FC 2 - 4 Boyaca Patriotas?,4.2476,1.0,4.2476,153.4053,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-13T17:57:10.843415+02:00,AUSZAHLUNG,5631109,Oregon vs. Illinois: Both Teams to Score Points - Q2,4.2476,1.0,4.2476,157.6529,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-13T23:01:55.423376+02:00,KAUF,3848683,Will Cruzeiro finish 16th in the 2026 Brazil Série A?,79.2226,0.995,-78.8264,78.8264,"Spread 0.50%, Liquiditaet 7 USD"
+2026-10-13T23:58:50.866888+02:00,VERKAUF,3848683,Will Cruzeiro finish 16th in the 2026 Brazil Série A?,79.2226,1.0,79.2226,158.049,Konvergenz erreicht (Kurs 1.000)
