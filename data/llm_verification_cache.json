@@ -23672,5 +23672,1209 @@
     "checked_at": "2026-10-13T18:25:39.188819+00:00",
     "frage_a": "SS Lazio to score first in the 1st half vs. Juventus FC?",
     "frage_b": "Will neither team win the 1st Half?"
+  },
+  "polymarket:5183481__sxbet:0xe5fab7e296844787f2b4c82f7b92a9fd1ece23653dad726efcd02f977c1d7cb3": {
+    "same_event": false,
+    "reason": "questions not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will CA Mineiro vs. Montevideo City Torque end in a draw?",
+    "frage_b": "Atletico Mineiro vs Montevideo City Torque - wer gewinnt?"
+  },
+  "polymarket:5263859__sxbet:0x362634f5cadd6e52c4ceda238ddf955ac179932add91318286e84a10b9a3aca0": {
+    "same_event": false,
+    "reason": "questions not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Middlesbrough FC vs. Cardiff City FC end in a draw?",
+    "frage_b": "Middlesbrough vs Cardiff City - wer gewinnt?"
+  },
+  "kalshi:KXCONMEBOLSUD1H-26OCT14ATLTOR-TOR__polymarket:5183486": {
+    "same_event": false,
+    "reason": "different halves and teams",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Mineiro to win the second half?",
+    "frage_b": "Montevideo City wins 1st Half"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5456256": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Everton FC to score first in the 1st half vs. Chelsea FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5456257": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Chelsea FC to score first in the 1st half vs. Everton FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5198584": {
+    "same_event": false,
+    "reason": "different scope (first half vs overall)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5456279": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "RCD Espanyol de Barcelona to score first in the 1st half vs. Club Atlético de Madrid?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5456280": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Club Atlético de Madrid to score first in the 1st half vs. RCD Espanyol de Barcelona?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5457343": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Venezia FC to score first in the 1st half vs. SSC Napoli?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5457344": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "SSC Napoli to score first in the 1st half vs. Venezia FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458236": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Manchester City FC to score first in the 1st half vs. Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458237": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Ipswich Town FC to score first in the 1st half vs. Manchester City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458259": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Fulham FC to score first in the 1st half vs. Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458260": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Hull City AFC to score first in the 1st half vs. Fulham FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458282": {
+    "same_event": false,
+    "reason": "not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brentford FC to score first in the 1st half vs. Liverpool FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458283": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Liverpool FC to score first in the 1st half vs. Brentford FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5459675": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Villarreal CF to score first in the 1st half vs. Elche CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5459676": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Elche CF to score first in the 1st half vs. Villarreal CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5466889": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "RC Strasbourg Alsace to score first in the 1st half vs. Paris Saint-Germain FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5466890": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Paris Saint-Germain FC to score first in the 1st half vs. RC Strasbourg Alsace?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5466865": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Bologna FC 1909 to score first in the 1st half vs. FC Internazionale Milano?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5466866": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "FC Internazionale Milano to score first in the 1st half vs. Bologna FC 1909?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5469068": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Newcastle United FC to score first in the 1st half vs. Aston Villa FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5469069": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Aston Villa FC to score first in the 1st half vs. Newcastle United FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5469110": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Real Betis Balompié to score first in the 1st half vs. FC Barcelona?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5469111": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "FC Barcelona to score first in the 1st half vs. Real Betis Balompié?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5454517": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Huracán vs. Gimnasia y Esgrima de La Plata: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473617": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AS Roma to score first in the 1st half vs. Genoa CFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473618": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Genoa CFC to score first in the 1st half vs. AS Roma?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473663": {
+    "same_event": false,
+    "reason": "Not opposites; both can be true or false together",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Lille OSC to score first in the 1st half vs. Stade Brestois 29?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473664": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Stade Brestois 29 to score first in the 1st half vs. Lille OSC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473686": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "ES Troyes AC to score first in the 1st half vs. Racing Club de Lens?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473687": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Racing Club de Lens to score first in the 1st half vs. ES Troyes AC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473640": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Valencia CF to score first in the 1st half vs. Athletic Club?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5473641": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Athletic Club to score first in the 1st half vs. Valencia CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5488983": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Udinese Calcio to score first in the 1st half vs. US Lecce?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5488984": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "US Lecce to score first in the 1st half vs. Udinese Calcio?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502199": {
+    "same_event": false,
+    "reason": "Different propositions: neither team scores first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Neither team to score first in the 1st half?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5493832": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Osasuna to score first in the 1st half vs. Real Racing Club?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5493833": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Real Racing Club to score first in the 1st half vs. CA Osasuna?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502151": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Leeds United FC to score first in the 1st half vs. Manchester United FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502152": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Manchester United FC to score first in the 1st half vs. Leeds United FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502174": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AFC Bournemouth to score first in the 1st half vs. Sunderland AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502175": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Sunderland AFC to score first in the 1st half vs. AFC Bournemouth?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502197": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first vs both teams scoring; not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC to score first in the 1st half vs. Crystal Palace FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502198": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Crystal Palace FC to score first in the 1st half vs. Brighton & Hove Albion FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502220": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "ACF Fiorentina to score first in the 1st half vs. Como 1907?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502221": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Como 1907 to score first in the 1st half vs. ACF Fiorentina?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502243": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Angers SCO to score first in the 1st half vs. Olympique de Marseille?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5502244": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Olympique de Marseille to score first in the 1st half vs. Angers SCO?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5506644": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "RC Celta de Vigo to score first in the 1st half vs. Deportivo Alavés?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5506645": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Deportivo Alavés to score first in the 1st half vs. RC Celta de Vigo?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509482": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Paris FC to score first in the 1st half vs. Stade Rennais FC 1901?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509483": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Stade Rennais FC 1901 to score first in the 1st half vs. Paris FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509505": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Le Havre AC to score first in the 1st half vs. AJ Auxerre?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509506": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AJ Auxerre to score first in the 1st half vs. Le Havre AC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509528": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "FC Lorient to score first in the 1st half vs. AS Monaco FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509529": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AS Monaco FC to score first in the 1st half vs. FC Lorient?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509435": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Nottingham Forest FC to score first in the 1st half vs. Arsenal FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509436": {
+    "same_event": false,
+    "reason": "Questions are not logical complements; both can be true or false depending on match outcome.",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Arsenal FC to score first in the 1st half vs. Nottingham Forest FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509458": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AC Milan to score first in the 1st half vs. Atalanta BC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5509459": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Atalanta BC to score first in the 1st half vs. AC Milan?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5512413": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Málaga CF to score first in the 1st half vs. Real Sociedad de Fútbol?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5512414": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Real Sociedad de Fútbol to score first in the 1st half vs. Málaga CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5188754": {
+    "same_event": false,
+    "reason": "Different time frames: first half vs overall match",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1H-26OCT14ATLTOR-TOR__polymarket:5183487": {
+    "same_event": false,
+    "reason": "Different halves and outcomes: second half draw vs first half winner",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Mineiro vs. Montevideo City Torque: Second half draw?",
+    "frage_b": "Montevideo City wins 1st Half"
+  },
+  "polymarket:5263886__sxbet:0x2f0dbed10638f16ca4ff850d501f167b037e404181f2c64c7282a3f2784242b9": {
+    "same_event": false,
+    "reason": "Different propositions: match draw vs which team wins",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Watford FC vs. Charlton Athletic FC end in a draw?",
+    "frage_b": "Watford vs Charlton Athletic - wer gewinnt?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519384": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Juventus FC to score first in the 1st half vs. SS Lazio?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519386": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "SS Lazio to score first in the 1st half vs. Juventus FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519535": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Olympique Lyonnais to score first in the 1st half vs. OGC Nice?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519536": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "OGC Nice to score first in the 1st half vs. Olympique Lyonnais?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519496": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Real Madrid CF to score first in the 1st half vs. Sevilla FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5519497": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Sevilla FC to score first in the 1st half vs. Real Madrid CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1H-26OCT14ATLTOR-TOR__polymarket:5589303": {
+    "same_event": false,
+    "reason": "Different propositions: match winner vs first half winner",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Montevideo City Torque win on 2026-10-18?",
+    "frage_b": "Montevideo City wins 1st Half"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5572644": {
+    "same_event": false,
+    "reason": "Different propositions: first goal scorer vs both scoring in first half",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AC Monza to score first in the 1st half vs. Cagliari Calcio?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5572645": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Cagliari Calcio to score first in the 1st half vs. AC Monza?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582126": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Parma Calcio 1913 to score first in the 1st half vs. Torino FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582127": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Torino FC to score first in the 1st half vs. Parma Calcio 1913?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582029": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Tottenham Hotspur FC to score first in the 1st half vs. Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582030": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Coventry City FC to score first in the 1st half vs. Tottenham Hotspur FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582156": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Getafe CF to score first in the 1st half vs. Rayo Vallecano de Madrid?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582157": {
+    "same_event": false,
+    "reason": "Different propositions (first scorer vs both scoring)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Rayo Vallecano de Madrid to score first in the 1st half vs. Getafe CF?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5223499__sxbet:0xb60f567e46b7829eb4db8d12afe63b9ebe82772d98e4a52dbae1054ace059fd6": {
+    "same_event": false,
+    "reason": "Draw vs winner market not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Burnley FC vs. Wolverhampton Wanderers FC end in a draw?",
+    "frage_b": "Burnley vs Wolverhampton Wanderers - wer gewinnt?"
+  },
+  "polymarket:5535692__sxbet:0x81f54dc0b0aa88178e825f8c28ab3e47f289ee709c46c0689bd694aca21b43fe": {
+    "same_event": false,
+    "reason": "Draw vs winner market not logical opposites",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will AIK vs. IFK Goteborg end in a draw?",
+    "frage_b": "AIK vs IFK Göteborg - wer gewinnt?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5586597": {
+    "same_event": false,
+    "reason": "Specific match vs generic both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Lusail SC vs. Al-Shamal: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:4910349": {
+    "same_event": false,
+    "reason": "First scorer vs both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA River Plate to score first vs. CA Sarmiento?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:4389077": {
+    "same_event": false,
+    "reason": "First scorer vs both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Levante UD to score first in the 1st half vs. Athletic Club?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:4389078": {
+    "same_event": false,
+    "reason": "First scorer vs both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Athletic Club to score first in the 1st half vs. Levante UD?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5323903": {
+    "same_event": false,
+    "reason": "Specific match vs generic both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "MŠK Žilina vs. FC DAC 1904 Dunajská Streda: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:4910348": {
+    "same_event": false,
+    "reason": "First scorer vs both teams to score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Sarmiento to score first vs. CA River Plate?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5314768": {
+    "same_event": false,
+    "reason": "different scope (first half vs overall)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5508823": {
+    "same_event": false,
+    "reason": "specific match vs generic",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Hapoel Haifa FC vs. Hapoel Ramat Gan Givatayim FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5511177": {
+    "same_event": false,
+    "reason": "specific match vs generic",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Maccabi Netanya FC vs. Hapoel Ironi Kiryat Shmona FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5456255": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5456278": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5457342": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5458235": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5458258": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5458281": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5459672": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5315635": {
+    "same_event": false,
+    "reason": "specific match vs generic",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5466888": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5466864": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5469067": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5469109": {
+    "same_event": false,
+    "reason": "different bet type (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5297567": {
+    "same_event": false,
+    "reason": "frage_a specifies a particular match, frage_b is generic",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5473616": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5473662": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5473685": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5473639": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5198583": {
+    "same_event": false,
+    "reason": "frage_a specifies a particular match, frage_b is generic",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. FK Kauno Žalgiris: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5488982": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:4389076": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs both teams to score)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5493831": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5502150": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5502173": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5502196": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5502219": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5502242": {
+    "same_event": false,
+    "reason": "Different bet types (exact score vs over/under)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5442057": {
+    "same_event": false,
+    "reason": "Different bet types (first goal scorer vs both teams to score)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "RC Deportivo A Coruña to score first in the 1st half vs. Levante UD?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5506643": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5509481": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5509504": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5509527": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5509434": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5509457": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5512412": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5519378": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5519534": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5519489": {
+    "same_event": false,
+    "reason": "Different propositions: exact half-score vs over/under goals",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458230": {
+    "same_event": false,
+    "reason": "Different propositions: exact score 0-2 vs both teams score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Manchester City FC 0 - 2 Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5314765": {
+    "same_event": false,
+    "reason": "Missing match specification in second question",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5442034": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs both teams score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Frosinone Calcio to score first in the 1st half vs. US Sassuolo Calcio?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5442081": {
+    "same_event": false,
+    "reason": "Different propositions: first team to score first half vs both teams score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Toulouse FC to score first in the 1st half vs. Le Mans FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458233": {
+    "same_event": false,
+    "reason": "Different propositions: exact score 1-2 vs both teams score",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Manchester City FC 1 - 2 Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458256": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 1 - 2 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5572643": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458253": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 0 - 2 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5582119": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5582022": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXNHL1PTOTAL-26OCT13NJDET-4__polymarket:5582155": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Any Other Score?",
+    "frage_b": "1st Period: Over 3.5 goals scored"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458257": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 2 - 1 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5442035": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "US Sassuolo Calcio to score first in the 1st half vs. Frosinone Calcio?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5599310": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Barcelona SC vs. CD Universidad Catolica del Ecuador: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5188753": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "AZ vs. MH Hapoel Be'er Sheva: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1H-26OCT14ATLTOR-TOR__polymarket:5434363": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Montevideo City Torque win on 2026-10-21?",
+    "frage_b": "Montevideo City wins 1st Half"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582017": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 0 - 2 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5442080": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Le Mans FC to score first in the 1st half vs. Toulouse FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458228": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Manchester City FC 0 - 1 Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458234": {
+    "same_event": false,
+    "reason": "different propositions",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Manchester City FC 2 - 1 Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582020": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 1 - 2 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458231": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Manchester City FC 1 - 1 Ipswich Town FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5315636": {
+    "same_event": false,
+    "reason": "First-half both teams score vs overall both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "SC Cambuur-Leeuwarden vs. AZ: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5454187": {
+    "same_event": false,
+    "reason": "First-half both teams score vs overall both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "CA Vélez Sarsfield vs. CA Gimnasia y Esgrima de Mendoza: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458255": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 2 - 0 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582021": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 2 - 1 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458254": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 1 - 1 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5314845": {
+    "same_event": false,
+    "reason": "Second-half both teams score vs overall both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Brighton & Hove Albion FC vs. Crystal Palace FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXITFWMATCH-26OCT14BERPER-PER__polymarket:5577785": {
+    "same_event": false,
+    "reason": "Different events (match vs person)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Deportivo Pereira win on 2026-10-24?",
+    "frage_b": "Rebeca Pereira wins"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5458251": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Fulham FC 0 - 1 Hull City AFC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5508824": {
+    "same_event": false,
+    "reason": "First-half both teams score vs overall both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Hapoel Haifa FC vs. Hapoel Ramat Gan Givatayim FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXITFWMATCH-26OCT14BERPER-PER__polymarket:3316704": {
+    "same_event": false,
+    "reason": "Different events (match vs person)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Deportivo Pereira win on 2026-08-16?",
+    "frage_b": "Rebeca Pereira wins"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582018": {
+    "same_event": false,
+    "reason": "Exact score vs both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 1 - 1 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5576927": {
+    "same_event": false,
+    "reason": "Both teams score (same phrasing) but not opposite; identical question, not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Manchester City WFC vs. Brighton and Hove Albion WFC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXARGPREMDIVBTTS-26OCT14CASRIV-BTTS__polymarket:5454095": {
+    "same_event": false,
+    "reason": "First-half both teams score vs overall both teams score not complementary",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Estudiantes de La Plata vs. CA San Lorenzo de Almagro: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582015": {
+    "same_event": false,
+    "reason": "Different questions (exact score vs both teams score)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 0 - 1 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCONMEBOLSUD1HBTTS-26OCT14ATLTOR-BTTS__polymarket:5582019": {
+    "same_event": false,
+    "reason": "Different questions (exact score vs both teams score)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "1st Half Exact Score: Tottenham Hotspur FC 2 - 0 Coventry City FC?",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXATPCHALLENGERMATCH-26OCT14MARDOD-MAR__polymarket:5601837": {
+    "same_event": false,
+    "reason": "Different subjects (team vs person)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Deportivo San Pedro win on 2026-10-25?",
+    "frage_b": "Pedro Martinez wins"
+  },
+  "polymarket:3520105__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "Different scope (district vs national)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 OH-01 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:2839991__predictit:8820:34963": {
+    "same_event": false,
+    "reason": "Different scope (state moratorium vs federal legislation)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will any state enact a data center moratorium by December 31?",
+    "frage_b": "Will data center legislation (GRID Act) be enacted in 2026?"
+  },
+  "polymarket:2371046__predictit:8766:34691": {
+    "same_event": false,
+    "reason": "Different outcomes (advance vs win)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Jordan Bardella advance to the second round of the next French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
+  },
+  "polymarket:2054224__predictit:8766:34691": {
+    "same_event": false,
+    "reason": "Different outcomes (ballot vs win)",
+    "checked_at": "2026-10-13T22:44:42.058902+00:00",
+    "frage_a": "Will Jordan Bardella be on the ballot for the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
   }
 }
