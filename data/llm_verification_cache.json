@@ -21789,5 +21789,292 @@
     "checked_at": "2026-10-12T16:18:24.236901+00:00",
     "frage_a": "Exact Score: Slovenia 4 - 2 Turkiye?",
     "frage_b": "Reg Time: Both Teams To Score"
+  },
+  "polymarket:3549033__sxbet:0xa60e783d39affa18fd3a4d84d1bff08498d8741b3a1d3280d9ea9ab25b812e5f": {
+    "same_event": false,
+    "reason": "One asks about draw, other about winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Independiente Santa Fe vs. Jaguares de Córdoba FC end in a draw?",
+    "frage_b": "Independiente Santa Fe vs Jaguares de Córdoba - wer gewinnt?"
+  },
+  "polymarket:5416743__sxbet:0x55ab45010117011f5593e16f9635b890a9908cd75856382530fc747c3961da4b": {
+    "same_event": false,
+    "reason": "First asks win by KO/TKO, second asks who wins (any method) – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Jason Asher win by KO or TKO?",
+    "frage_b": "Jason Asher vs Gregory Foster - wer gewinnt?"
+  },
+  "polymarket:5640055__sxbet:0x0836bc080e276c0d05adc44b6f0819ecfe31d4dedefa0b6628ef8bb8a6e4e513": {
+    "same_event": false,
+    "reason": "First asks Guardians leading after 5 innings, second asks game winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Cleveland Guardians winning after 5 innings?",
+    "frage_b": "Tampa Bay Rays vs Cleveland Guardians - wer gewinnt?"
+  },
+  "polymarket:5640056__sxbet:0x0836bc080e276c0d05adc44b6f0819ecfe31d4dedefa0b6628ef8bb8a6e4e513": {
+    "same_event": false,
+    "reason": "First asks Rays leading after 5 innings, second asks game winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Tampa Bay Rays winning after 5 innings?",
+    "frage_b": "Tampa Bay Rays vs Cleveland Guardians - wer gewinnt?"
+  },
+  "polymarket:5416702__sxbet:0xe9fa3c16bfe9d9ac7932073dc3fd600339aafdffadb918c135122e5959537a78": {
+    "same_event": false,
+    "reason": "First asks win by KO/TKO, second asks who wins – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Luis Francischinelli win by KO or TKO?",
+    "frage_b": "William Rentz vs Luis Francischinelli - wer gewinnt?"
+  },
+  "polymarket:5641213__sxbet:0x0aa12252dae8843f3edabb0f693af30b6320cf57751fd2054f3c3fc6a54f3dfc": {
+    "same_event": false,
+    "reason": "First asks Brewers leading after 5 innings, second asks game winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Los Angeles Dodgers vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:5641214__sxbet:0x0aa12252dae8843f3edabb0f693af30b6320cf57751fd2054f3c3fc6a54f3dfc": {
+    "same_event": false,
+    "reason": "First asks Dodgers leading after 5 innings, second asks game winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Los Angeles Dodgers winning after 5 innings?",
+    "frage_b": "Los Angeles Dodgers vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:5240611__sxbet:0xa04f83ccc5fd57f8c64d2e1793ed112b3718758618c861873575ab00e7347dd9": {
+    "same_event": false,
+    "reason": "One asks about draw, other about winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Atlante FC vs. Pumas de la UNAM end in a draw?",
+    "frage_b": "Atlante vs Pumas UNAM - wer gewinnt?"
+  },
+  "polymarket:5189219__sxbet:0x42bfc85841a2823a73b3f9c38b025ee1c73746e94a597c90cc5aad6800a492ad": {
+    "same_event": false,
+    "reason": "One asks about draw, other about winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Heart of Midlothian FC vs. FC Nordsjælland end in a draw?",
+    "frage_b": "Heart of Midlothian vs FC Nordsjælland - wer gewinnt?"
+  },
+  "polymarket:5263842__sxbet:0xf4db817780f182ea358258858b02f9b8e892691d339e94c279a58c2011d55ed1": {
+    "same_event": false,
+    "reason": "One asks about draw, other about winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will FC Schalke 04 vs. 1. FSV Mainz 05 end in a draw?",
+    "frage_b": "FC Schalke 04 vs FSV Mainz - wer gewinnt?"
+  },
+  "polymarket:5434515__sxbet:0x9a5e4d28463b11f65f698ba50968642520a526a8f248cc6ddf8dbe02ccc8ae60": {
+    "same_event": false,
+    "reason": "One asks halftime draw, other asks game winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "CA Huracán vs. Gimnasia y Esgrima de La Plata: Draw at halftime?",
+    "frage_b": "Huracan vs Gimnasia Y Esgrima La Plata - wer gewinnt?"
+  },
+  "polymarket:5528319__sxbet:0xcd312a119293830028988046a1b19792781a9500e50bd3500423a73af578252f": {
+    "same_event": false,
+    "reason": "First asks if match completed, second asks who wins – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Maia: Completed Match: Francesco Passaro vs Tiago Torres",
+    "frage_b": "Francesco Passaro vs Tiago Torres - wer gewinnt?"
+  },
+  "polymarket:5611043__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "First asks oil price & Senate outcome, second asks Texas Senate winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be below $80 on November 2 and the Democrats win the Senate?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5528332__sxbet:0xe2ab8c3da9b97b9038b9cb510fa79ac2a29004a69fa16bce9903c3d1474f3d1f": {
+    "same_event": false,
+    "reason": "First asks if match completed, second asks who wins – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Maia: Completed Match: Pedro Martinez vs Matej Dodig",
+    "frage_b": "Pedro Martinez Portero vs Matej Dodig - wer gewinnt?"
+  },
+  "polymarket:5611880__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "First asks oil price & Senate outcome, second asks Texas Senate winner – not opposite",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be below $85 on November 2 and the Democrats win the Senate?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5611042__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "frage_a adds oil price condition; frage_b only asks about Senate control.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be below $80 on November 2 and the Republicans win the Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5611879__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "frage_a adds oil price condition; frage_b only asks about Senate control.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be below $85 on November 2 and the Republicans win the Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "kalshi:KXATPCHALLENGERMATCH-26OCT13VILZAR-ZAR__polymarket:5599968": {
+    "same_event": false,
+    "reason": "Different subjects: team AD San Carlos vs person Carlos Maria Zarate.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will AD San Carlos win on 2026-10-25?",
+    "frage_b": "Carlos Maria Zarate wins"
+  },
+  "polymarket:5611881__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "frage_a adds oil price condition; frage_b only asks about Senate control.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be at least $85 on November 2 and the Republicans win the Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5611882__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "frage_a combines oil price and Senate control; frage_b asks about Texas Senate race only.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be at least $85 on November 2 and the Democrats win the Senate?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5611044__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "frage_a adds oil price condition; frage_b only asks about Senate control.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be at least $80 on November 2 and the Republicans win the Senate?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:682706__predictit:8643:34099": {
+    "same_event": true,
+    "reason": "Both ask whether Naftali Bennett will be the Prime Minister of Israel after the 2026 election.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Naftali Bennett be the next Prime Minister of Israel?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Naftali Bennett"
+  },
+  "polymarket:5611045__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "frage_a combines oil price and Senate control; frage_b asks about Texas Senate race only.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will oil be at least $80 on November 2 and the Democrats win the Senate?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5622507__predictit:8766:34694": {
+    "same_event": false,
+    "reason": "frage_a concerns third‑most votes in first round; frage_b concerns winning the election.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Marine Le Pen win the third-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Marine Le Pen"
+  },
+  "polymarket:4199214__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "frage_a about white women vote; frage_b about overall House control.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Republicans win white women in the midterms?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:629506__predictit:8419:33125": {
+    "same_event": true,
+    "reason": "Both ask whether Republicans win the Nevada governor race in 2026.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will the Republicans win the Nevada governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Nevada? - Republican"
+  },
+  "polymarket:3399249__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "frage_a is about AZ‑08 House margin 0‑3%; frage_b about national House margin 0‑3%.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 AZ-08 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:5621936__predictit:8766:34694": {
+    "same_event": false,
+    "reason": "frage_a about first‑round vote share; frage_b about winning the election.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Marine Le Pen win the most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Marine Le Pen"
+  },
+  "polymarket:3523305__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "frage_a is WI‑03 margin 3‑6%; frage_b is national margin 0‑3%.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 WI-03 House election by 3%-6%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:3518604__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "frage_a is NC‑05 margin 0‑3%; frage_b is national margin 0‑3%.",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NC-05 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:631045__predictit:8228:32195": {
+    "same_event": true,
+    "reason": "Both ask if Republicans win the 2026 FL Senate race",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will the Republicans win the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Republican"
+  },
+  "polymarket:5622453__predictit:8766:34694": {
+    "same_event": false,
+    "reason": "One asks for 2nd-place in first round, the other asks for overall winner",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Marine Le Pen win the second-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Marine Le Pen"
+  },
+  "polymarket:3729338__predictit:8156:31949": {
+    "same_event": false,
+    "reason": "First asks about sweeping Senate+Governor, second only about Senate win",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Republicans sweep the Georgia Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Republican"
+  },
+  "polymarket:5622516__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "One asks for 3rd-place in first round, the other asks for overall winner",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Jean-Luc Mélenchon win the third-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:5621938__predictit:8766:34692": {
+    "same_event": false,
+    "reason": "One asks for leading in first round, the other asks for overall winner",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Édouard Philippe win the most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Édouard Philippe"
+  },
+  "polymarket:5622522__predictit:8766:34698": {
+    "same_event": false,
+    "reason": "One asks for 3rd-place in first round, the other asks for overall winner",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Gabriel Attal win the third-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:4714426__predictit:8940:35607": {
+    "same_event": false,
+    "reason": "Different subjects (EU vs Canada) and different actions",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "EU country expels Russian ambassador by December 31?",
+    "frage_b": "Will Canada expel the US ambassador in 2026?"
+  },
+  "polymarket:5151609__predictit:8643:34100": {
+    "same_event": false,
+    "reason": "Different offices (Minister of Defense vs Prime Minister)",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Avigdor Lieberman be the next Israeli Minister of Defense?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Avigdor Lieberman"
+  },
+  "polymarket:5621941__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "One asks for leading in first round, the other asks for overall winner",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will Jean-Luc Mélenchon win the most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:2674178__predictit:8246:32303": {
+    "same_event": true,
+    "reason": "Both ask if James Ho will be the next Supreme Court nominee",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will James Ho be the next Supreme Court nominee?",
+    "frage_b": "Who will be the next Supreme Court nominee? - James Ho"
+  },
+  "polymarket:561229__predictit:8171:32018": {
+    "same_event": true,
+    "reason": "Both ask if JD Vance will win the 2028 US presidential election",
+    "checked_at": "2026-10-13T11:29:01.006642+00:00",
+    "frage_a": "Will JD Vance win the 2028 US Presidential Election?",
+    "frage_b": "Who will win the 2028 US presidential election? - JD Vance"
   }
 }
