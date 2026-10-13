@@ -17,8 +17,8 @@ Gebühren (Kalshi Fee Schedule, bestätigt über docs.kalshi.com/kalshi.com):
   da der simulierte Fonds Markt-Orders annimmt statt im Orderbuch zu warten.
 """
 
-import math
 import time
+from decimal import ROUND_CEILING, Decimal
 
 import requests
 
@@ -157,6 +157,14 @@ def fetch_market_by_ticker(ticker):
 
 
 def taker_fee(contracts, price_dollars, multiplier=1):
-    """ceil(M * 0.07 * C * P * (1-P)), auf den Cent gerundet."""
-    raw = multiplier * 0.07 * contracts * price_dollars * (1 - price_dollars)
-    return math.ceil(raw * 100) / 100.0
+    """ceil(M * 0.07 * C * P * (1-P)), auf den Cent gerundet.
+
+    Exakte Dezimalrechnung statt Float: mit Float ergab z.B. 4 Kontrakte @ 0,50
+    USD 0.07000000000000002 und wurde auf 0,08 statt 0,07 USD aufgerundet
+    (74 von 19.701 getesteten Kontrakt/Preis-Kombinationen waren 1 Cent zu hoch)."""
+    raw = (
+        Decimal(repr(multiplier)) * Decimal("0.07") * Decimal(repr(contracts))
+        * Decimal(repr(price_dollars)) * (1 - Decimal(repr(price_dollars)))
+    )
+    cents = (raw * 100).to_integral_value(rounding=ROUND_CEILING)
+    return float(cents) / 100.0

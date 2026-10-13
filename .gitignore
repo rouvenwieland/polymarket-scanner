@@ -1,2 +1,5 @@
 __pycache__/
+.venv/
+.hypothesis/
+.pytest_cache/
 dashboard/output.html
