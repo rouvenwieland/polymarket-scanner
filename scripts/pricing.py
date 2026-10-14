@@ -33,7 +33,8 @@ LABELS = {
     BASIS_ESTIMATE: "Schätzung, nicht ausführbar (Mittel-/Letztkurs)",
 }
 
-# True = auf reiner Schaetzbasis wird NICHT gehandelt: kein Kauf, kein Verkauf, keine Bewertung aus outcomePrices.
+# True = auf reiner Schaetzbasis wird NICHT gehandelt: kein Kauf und kein vorzeitiger Verkauf; die Polymarkt-Fonds
+# bewerten offene Positionen ohne Orderbuch nicht neu (Cross-Beine werden weiter aus outcomePrices markiert, gekennzeichnet).
 # Seit der Bereinigung vom 14.10.2026 Standard: sie hat alle Schaetzkurs-Kaeufe entfernt (Regel R1); mit False haette
 # schon der naechste Workflow-Lauf genau diese Trades wieder erzeugt (tests/test_workflow_invarianten.py).
 # Im einzelnen Polymarkt-Markt ist Yes+No < 1 auf ausfuehrbaren Preisen ohnehin unmoeglich (Lean book_buy_sum_ge_one).

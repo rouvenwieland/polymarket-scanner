@@ -418,7 +418,13 @@ def _poly_leg_mark_and_result(leg):
         return current_price, None
     if current_price is None:
         return None, None
-    return current_price, (1.0 if current_price >= 0.5 else 0.0)
+    # Ausgezahlt wird nur ein ENDKURS: 1, 0 oder 0,5 (50-50-Aufloesung bei Absage/Unklarheit). "closed" allein heisst nur
+    # "Handel beendet"; Letztkurse wie 0,62/0,38 bedeuten, die Aufloesung steht noch aus -> weiter warten.
+    # Frueher: ">= 0,5 -> 1,00" zahlte eine 50-50-Aufloesung voll aus und entschied offene Maerkte nach dem Letztkurs.
+    for final in (0.0, 0.5, 1.0):
+        if abs(current_price - final) <= 0.01:
+            return current_price, final
+    return current_price, None
 
 
 def _kalshi_leg_mark_and_result(leg):

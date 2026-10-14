@@ -128,3 +128,39 @@ def test_gecachte_paare_stichprobe_ohne_grosse_csv():
     cache = json.load(open(path, encoding="utf-8"))
     hit = [v for v in cache.values() if v["same_event"] and cp._opposite_polarity(v["frage_a"].lower(), v["frage_b"].lower())]
     assert [h["frage_a"] for h in hit] in ([], ["Netanyahu out by end of 2026?"])
+
+
+# ------------------------------------------------------------ Runde 2: Regel _conflicting_generic
+_words = st.sampled_from(["alpha", "bravo", "charlie", "delta", "echo", "foxtrot", "golf", "hotel", "india", "juliet",
+                          "score", "team", "both", "goals", "winner", "final", "cup", "league"])
+_tokset = st.frozensets(_words, max_size=9)
+
+
+@settings(max_examples=400, deadline=None)
+@given(_tokset, _tokset)
+def test_generic_regel_symmetrisch_und_nur_bei_echter_teilmenge(a, b):
+    import cross_platform as cp
+    g = cp._conflicting_generic(set(a), set(b))
+    assert g == cp._conflicting_generic(set(b), set(a))
+    assert not cp._conflicting_generic(set(a), set(a))          # gleicher Titel ist nie ein Gegenbeweis
+    if g:  # nur: kurze Seite (<= 4) ist echte Teilmenge der langen, die >= 3 Woerter mehr hat
+        small, big = (a, b) if len(a) < len(b) else (b, a)
+        assert len(small) <= 4 and small < big and len(big - small) >= 3
+
+
+def test_generic_regel_faengt_die_beiden_bts_fehlurteile_aus_den_daten():
+    import cross_platform as cp
+    for long_q in ("CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score",
+                   "Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score"):
+        assert cp._conflicting_generic(cp._tokenize(long_q), cp._tokenize("Both Teams To Score"))
+
+
+@pytest.mark.xfail(strict=True, reason="Runde 2: Regel ist breiter als 'generischer Spieltitel' - sie verwirft auch kurze, "
+                                       "aber eindeutige Titel ohne Spielpaarung (verpasste echte Paare, kein Fehlkauf). "
+                                       "In den 64 von der KI bestaetigten Paaren der Daten nicht aufgetreten.")
+def test_generic_regel_verwirft_keine_eindeutigen_kurztitel():
+    import cross_platform as cp
+    for short, long_q in (("Chiefs win Super Bowl", "Will the Kansas City Chiefs win Super Bowl LXI?"),
+                          ("Government shutdown in 2026?",
+                           "Will there be a US federal government shutdown before December 31, 2026?")):
+        assert not cp._conflicting_generic(cp._tokenize(short), cp._tokenize(long_q)), short

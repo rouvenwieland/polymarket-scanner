@@ -100,3 +100,35 @@ def test_predictit_gewinngebuehr_profitables_paar_wird_gekauft(buy):
     mb = mk("predictit", "B", 0.60, 0.30, 0.0)  # Summe 0.80, schlechtester Fall: 1 - 0.8 - 0.07 = +0.13
     state = buy(ma, mb)
     assert len(state["positions"]) == 1
+
+
+# ------------------------------------------------------------ Runde 2: Aufloesung des Polymarkt-Beins
+def _poly_leg(monkeypatch, outcome_prices, closed=True):
+    import json
+    m = {"id": "P1", "closed": closed, "outcomes": '["Yes", "No"]', "outcomePrices": json.dumps(outcome_prices)}
+    monkeypatch.setattr(cpf.fund_simulator, "fetch_market_by_id", lambda mid: m)
+    return lambda side: cpf._poly_leg_mark_and_result({"market_id": "P1", "side": side})
+
+
+def test_polymarkt_bein_50_50_aufloesung_zahlt_die_haelfte(monkeypatch):
+    """Polymarket loest abgesagte/unklare Maerkte 50-50 auf (beide Seiten 0,50). Die Schwelle '>= 0,5 -> 1,00' zahlte
+    das Bein voll aus: ein Paar brachte 1,50 bis 2,00 statt 1,00 bis 1,50 je Anteil."""
+    f = _poly_leg(monkeypatch, ["0.5", "0.5"])
+    assert f("yes")[1] == 0.5
+    assert f("no")[1] == 0.5
+
+
+def test_polymarkt_bein_geschlossen_aber_nicht_aufgeloest_wartet(monkeypatch):
+    """'closed' heisst nur: Handel beendet. Mit Letztkursen 0,62/0,38 ist das Ergebnis noch offen (UMA-Aufloesung folgt)."""
+    f = _poly_leg(monkeypatch, ["0.62", "0.38"])
+    assert f("yes")[1] is None
+    assert f("no")[1] is None
+
+
+def test_polymarkt_bein_aufgeloest(monkeypatch):
+    f = _poly_leg(monkeypatch, ["1", "0"])
+    assert f("yes")[1] == 1.0 and f("no")[1] == 0.0
+    g = _poly_leg(monkeypatch, ["0.995", "0.005"])  # praktisch entschieden
+    assert g("yes")[1] == 1.0 and g("no")[1] == 0.0
+    h = _poly_leg(monkeypatch, ["0.3", "0.7"], closed=False)
+    assert h("yes") == (0.3, None)
