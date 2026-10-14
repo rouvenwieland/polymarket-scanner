@@ -4849,3 +4849,44 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-14T07:10:34.525428+02:00,5672856,Davante Adams: Anytime Touchdown,nfl-ari-la-2026-10-18-anytime-td-davante-adams,0.5,0.495,0.995,0.0,6.3598,2026-10-18T20:05:00Z
 2026-10-14T07:10:34.525428+02:00,5673046,Dalton Kincaid: Team First TD (Buffalo Bills),nfl-buf-lv-2026-10-18-team-first-td-51-dalton-kincaid,0.5,0.495,0.995,0.0,2.2999,2026-10-18T20:25:00Z
 2026-10-14T07:10:34.525428+02:00,5677587,Real Salt Lake vs. San Jose Earthquakes: Neither team to score first in the 2nd half?,mls-rsl-sje-2026-10-14-second-half-first-to-score-neither,0.47,0.525,0.995,0.0,3.2631,2026-10-15T01:30:00Z
+2026-10-14T12:11:42.068334+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z
+2026-10-14T12:11:42.068334+02:00,3488449,Will the Democratic Party candidate win the 2026 IL-04 House election by 45%-50%?,will-the-democratic-party-candidate-win-the-2026-il-04-house-election-by-45-50,0.128,0.8715,0.9995,695.2034239999999,384.73393,2026-11-04T04:59:00Z
+2026-10-14T12:11:42.068334+02:00,3503938,"Will Josh Allen have 3,599.5+ passing yards in the 2026-27 NFL regular season?",josh-allen-3599pt5-passing-yards-2026-27,0.68,0.315,0.9950000000000001,3322.509279,81.0694,2027-01-27T04:59:00Z
+2026-10-14T12:11:42.068334+02:00,3849480,Will Chongqing Tonglianglong keep the most clean sheets in the 2026 Chinese Super League?,will-chongqing-tonglianglong-keep-the-most-clean-sheets-in-chinese-super-league-2026,0.495,0.5,0.995,0.0,4.2803,2027-01-01T04:59:00Z
+2026-10-14T12:11:42.068334+02:00,3914378,Will New York City FC keep the most clean sheets in the 2026 MLS?,will-new-york-city-fc-keep-the-most-clean-sheets-in-mls-2026,0.4975,0.502,0.9995,66.0,1.80276,2027-01-01T04:59:00Z
+2026-10-14T12:11:42.068334+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z
+2026-10-14T12:11:42.068334+02:00,5003645,Game 1: Both Teams Destroy Inhibitors?,lol-g2nord-nbs-2026-09-27-game1-both-teams-destroy-inhibitors,0.49,0.5,0.99,0.0,0.0,2026-09-27T20:00:00Z
+2026-10-14T12:11:42.068334+02:00,5187600,Exact Score: KKS Lech Poznań 0 - 5 Bayer 04 Leverkusen?,uel-lep-lev-2026-10-15-exact-score-0-5,0.017,0.9825,0.9995,0.0,7636.48272,2026-10-15T16:45:00Z
+2026-10-14T12:11:42.068334+02:00,5189648,KAA Gent vs. Aarhus GF: Second half draw?,col-gen-agf-2026-10-15-second-half-result-draw,0.345,0.65,0.995,0.0,2151.8954,2026-10-15T16:45:00Z
+2026-10-14T12:11:42.068334+02:00,5223787,Holstein Kiel to score first vs. Hertha BSC?,bl2-ksv-ber-2026-10-16-first-to-score-home,0.43,0.565,0.9949999999999999,0.0,3717.9392,2026-10-16T16:30:00Z
+2026-10-14T12:11:42.068334+02:00,5226722,Córdoba CF to score first vs. CD Leganés?,es2-leg-cor-2026-10-16-first-to-score-away,0.42,0.575,0.9949999999999999,0.0,3517.1604,2026-10-16T18:30:00Z
+2026-10-14T12:11:42.068334+02:00,5264481,1. FC Heidenheim to score first vs. VfL Wolfsburg?,bl2-wob-hei-2026-10-17-first-to-score-away,0.33,0.665,0.9950000000000001,0.0,2625.0953,2026-10-17T11:00:00Z
+2026-10-14T12:11:42.068334+02:00,5268879,RCD Espanyol de Barcelona to win the second half?,lal-esp-mad-2026-10-17-second-half-result-home,0.185,0.81,0.9950000000000001,0.0,2721.2105,2026-10-17T12:00:00Z
+2026-10-14T12:11:42.068334+02:00,5271316,Will Bradford City AFC win on 2026-10-17?,el1-bra-ste-2026-10-17-bra,0.485,0.51,0.995,0.0,5728.4853,2026-10-17T14:00:00Z
+2026-10-14T12:11:42.068334+02:00,5273167,Will FK Shakhtar Donetsk win on 2026-10-17?,ukr1-shd-kol-2026-10-17-shd,0.77,0.225,0.995,5.681816,5714.9076,2026-10-17T15:00:00Z
+2026-10-14T12:11:42.068334+02:00,5298240,FC Machida Zelvia vs. Avispa Fukuoka: Draw at halftime?,jap-zel-avi-2026-10-18-halftime-result-draw,0.43,0.565,0.9949999999999999,0.0,3287.7192,2026-10-18T07:00:00Z
+2026-10-14T12:11:42.068334+02:00,5308444,Juventus FC to score first vs. SS Lazio?,sea-juv-laz-2026-10-18-first-to-score-home,0.62,0.375,0.995,6.2,2494.5543,2026-10-18T18:45:00Z
+2026-10-14T12:11:42.068334+02:00,5312249,Exact Score: Borussia Mönchengladbach 5 - 3 TSG 1899 Hoffenheim?,bun-moe-hof-2026-10-18-exact-score-5-3,0.22,0.775,0.995,0.0,160.6,2026-10-18T15:30:00Z
+2026-10-14T12:11:42.068334+02:00,5312265,Sunderland AFC to win the second half?,epl-bou-sun-2026-10-18-second-half-result-away,0.25,0.745,0.995,0.0,3931.9007,2026-10-18T13:00:00Z
+2026-10-14T12:11:42.068334+02:00,5312563,Exact Score: Paris FC 3 - 2 Stade Rennais FC 1901?,fl1-pfc-ren-2026-10-18-exact-score-3-2,0.032,0.966,0.998,0.0,2769.65274,2026-10-18T15:15:00Z
+2026-10-14T12:11:42.068334+02:00,5325093,Will Seattle Reign FC win on 2026-10-18?,nwsl-chi-rei-2026-10-18-rei,0.72,0.275,0.995,0.0,2166.3205,2026-10-18T23:00:00Z
+2026-10-14T12:11:42.068334+02:00,5373620,EC Bahia vs. CR Flamengo: Both Teams to Score,bra-bah-fla-2026-10-18-btts,0.605,0.39,0.995,0.0,1241.3677,2026-10-18T21:30:00Z
+2026-10-14T12:11:42.068334+02:00,5434950,Exact Score: AA Estudiantes 0 - 1 CA Aldosivi?,arg-aae-ald-2026-10-18-exact-score-0-1,0.125,0.87,0.995,0.0,500.8899,2026-10-18T21:00:00Z
+2026-10-14T12:11:42.068334+02:00,5457517,Will Mike Newman be the next Premier of New South Wales?,will-mike-newman-be-the-next-premier-of-new-south-wales,0.065,0.9295,0.9944999999999999,133.13,5075.08706,2027-03-28T03:59:00Z
+2026-10-14T12:11:42.068334+02:00,5475378,Will Amazon (AMZN) close at $250-$255 on the final day of trading of the week of Oct 12 – Oct 16?,will-amzn-close-between-250-and-255-week-october-16-2026,0.16,0.835,0.995,0.0,484.5603,2026-10-16T20:00:00Z
+2026-10-14T12:11:42.068334+02:00,5475546,Will NVIDIA (NVDA) finish week of October 12 above $235?,nvda-above-235-on-october-16-2026,0.22,0.775,0.995,1.235293,798.3693,2026-10-16T20:00:00Z
+2026-10-14T12:11:42.068334+02:00,5509357,Will Sandvikens IF vs. Ostersunds FK end in a draw?,swe2-san-of-2026-10-17-draw,0.28,0.715,0.995,15.0,5459.0039,2026-10-17T13:00:00Z
+2026-10-14T12:11:42.068334+02:00,5523143,Will the fight end before Round 3?,ufc-ale22-riz-2026-10-24-ends-before-round-3,0.505,0.49,0.995,0.0,2.9197,2026-10-25T03:59:59.999Z
+2026-10-14T12:11:42.068334+02:00,5533528,Will CF Correcaminos UAT vs. CSD Dorados Sinaloa end in a draw?,mex2-cor-drd-2026-10-16-draw,0.195,0.8,0.9950000000000001,0.0,4362.311,2026-10-17T01:00:00Z
+2026-10-14T12:11:42.068334+02:00,5542745,FC Alverca vs. FC Arouca: Both Teams to Score in First Half,por-alv-aro-2026-10-24-btts-first-half,0.385,0.61,0.995,0.0,10.9599,2026-10-24T17:00:00Z
+2026-10-14T12:11:42.068334+02:00,5574292,Will Tampa Bay Rowdies vs. Detroit City FC end in a draw?,uslc-tam-det-2026-10-17-draw,0.3,0.695,0.9949999999999999,55.513889,4659.3119,2026-10-17T23:30:00Z
+2026-10-14T12:11:42.068334+02:00,5574525,Orange County SC vs. Phoenix Rising FC: Draw at halftime?,uslc-oc-pho-2026-10-17-halftime-result-draw,0.395,0.6,0.995,0.0,2453.0689,2026-10-18T02:00:00Z
+2026-10-14T12:11:42.068334+02:00,5613771,Exact Score: PAOK Thessaloniki 1 - 0 POT Iraklis?,gre1-paok-tri-2026-10-18-exact-score-1-0,0.105,0.89,0.995,0.0,1256.9019,2026-10-18T18:00:00Z
+2026-10-14T12:11:42.068334+02:00,5627060,Linfield FC leading at halftime?,nirl1-car-lin-2026-10-17-halftime-result-away,0.385,0.61,0.995,0.0,2424.9492,2026-10-17T14:00:00Z
+2026-10-14T12:11:42.068334+02:00,5633229,Exact Margin: Syracuse by 1-6,cfb-syra-ncar-2026-10-24-exact-margin-long-1-6,0.49,0.505,0.995,0.0,4.5544,2026-10-24T23:30:00Z
+2026-10-14T12:11:42.068334+02:00,5633372,Exact Margin: North Texas by 7-12,cfb-ntx-navy-2026-10-24-exact-margin-long-7-12,0.49,0.505,0.995,0.0,4.5544,2026-10-24T19:30:00Z
+2026-10-14T12:11:42.068334+02:00,5647098,Will Justin Allgaier win the 2026 NASCAR Xfinity Series Timberland PRO 200?,nascar-xfinity-timberland-pro-200-winner-justin-allgaier-2026-10-17,0.495,0.5,0.995,0.0,2.1199,2026-10-24T23:30:00Z
+2026-10-14T12:11:42.068334+02:00,5660154,Bohemians Dublin FC vs. Waterford FC: Draw at halftime?,irl1-boh-wat-2026-10-16-halftime-result-draw,0.345,0.65,0.995,0.0,3148.8893,2026-10-16T18:45:00Z
+2026-10-14T12:11:42.068334+02:00,5670286,BG Pathum United vs. Adelaide United FC: Both Teams to Score,acl2-pau-adu-2026-10-15-btts,0.545,0.45,0.9950000000000001,0.0,3065.9512,2026-10-15T12:15:00Z
+2026-10-14T12:11:42.068334+02:00,5671082,CA Chaco For Ever vs. CA Central Norte Salta: Draw at halftime?,argpn-cfe-ccn-2026-10-18-halftime-result-draw,0.505,0.49,0.995,0.0,479.4397,2026-10-18T20:00:00Z
+2026-10-14T12:11:42.068334+02:00,5679668,Gimnasia Y Tiro de Salta vs. CA Atlanta: Draw at halftime?,argpn-gyt-atl-2026-10-16-halftime-result-draw,0.51,0.485,0.995,0.0,479.9596,2026-10-17T01:00:00Z
