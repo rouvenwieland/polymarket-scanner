@@ -440,7 +440,7 @@ def _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b):
 _BET_ASPECT_PATTERNS = [
     (re.compile(r"extra innings|\bovertime\b|go to overtime"), "extra_innings_or_overtime"),
     (re.compile(r"both teams to score|\bbtts\b"), "btts"),
-    (re.compile(r"exact score|correct score"), "exact_score"),
+    (re.compile(r"exact score|correct score|final score"), "exact_score"),
     (re.compile(r"to score first|score first|first to score"), "first_scorer"),
     (re.compile(r"clean sheet"), "clean_sheet"),
     (re.compile(r"tied after|draw after"), "tied_segment"),
@@ -449,6 +449,11 @@ _BET_ASPECT_PATTERNS = [
     (re.compile(r"1st half|2nd half|first half|second half|halftime|half time"), "segment"),
     (re.compile(r"\bquarter\b|\bperiod\b|\binning\b|\bset\b|\bround\b"), "segment"),
 ]
+
+
+_STRICT_SPORT_ASPECTS = {
+    "extra_innings_or_overtime", "btts", "exact_score", "first_scorer", "clean_sheet", "tied_segment",
+}
 
 
 def _bet_aspect(question_lower):
@@ -463,9 +468,13 @@ def _conflicting_bet_aspect(question_a, question_b):
     Sportmuster zeigt (siehe _extract_matchup_teams) - sonst zu riskant für
     Nicht-Sport-Fragen, in denen dieselben Wörter (z.B. "round" in "advance
     to the second round of the election") etwas völlig anderes bedeuten."""
+    aspect_a, aspect_b = _bet_aspect(question_a), _bet_aspect(question_b)
     if _extract_matchup_teams(question_a) is None and _extract_matchup_teams(question_b) is None:
-        return False
-    return _bet_aspect(question_a) != _bet_aspect(question_b)
+        # Ohne "A vs B"-Muster nur die unmissverstaendlichen Sport-Wettarten vergleichen
+        # ("Exact Score: A 5 - 2 B?" ist nie dasselbe wie "B wins" - bisher scheiterte die Pruefung
+        # hier am fehlenden "vs" und liess ~1.000 solcher Paare ins Tagesbudget der KI-Stufe laufen).
+        return aspect_a != aspect_b and (aspect_a in _STRICT_SPORT_ASPECTS or aspect_b in _STRICT_SPORT_ASPECTS)
+    return aspect_a != aspect_b
 
 
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
