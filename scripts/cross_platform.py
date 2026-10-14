@@ -477,6 +477,31 @@ def _conflicting_bet_aspect(question_a, question_b):
     return aspect_a != aspect_b
 
 
+# Polaritaet: "Yes" beider Fragen muss dasselbe Ereignis bedeuten, sonst ist Yes(A)+No(B) KEINE
+# Absicherung, sondern doppeltes Risiko (z.B. "Netanyahu out by end of 2026?" vs. "Who will be the Prime
+# Minister ... - Benjamin Netanyahu": Yes/No sind vertauscht). Rein regelbasiert: traegt GENAU EINE Seite
+# einen Negations-/Gegenteils-Marker, ist die Polaritaet verschieden. Gemessen an den 3.554 KI-geprueften
+# Paaren aus data/: 27 Treffer, davon 1 von der KI als "gleich" bestaetigt (genau das Netanyahu-Paar,
+# das als Position im Fonds liegt), 0 echte Paare verloren.
+_NEGATION_RE = re.compile(
+    r"\b(?:not|won't|will not|no longer|never|fails? to|doesn't|does not|lose|loses|lost|losing|out|"
+    r"leaves?|resigns?|steps? down|ousted|removed|fired|exits?|below|under|fewer than|less than|lower than|"
+    r"drops? out)\b"
+)
+_BEFORE_RE = re.compile(r"\bbefore\b")
+_AFTER_RE = re.compile(r"\bafter\b")
+
+
+def _opposite_polarity(question_a, question_b):
+    """Eingaben klein geschrieben. True, wenn die Fragen vermutlich umgekehrte Polaritaet haben."""
+    if bool(_NEGATION_RE.search(question_a)) != bool(_NEGATION_RE.search(question_b)):
+        return True
+    for x, y in ((question_a, question_b), (question_b, question_a)):
+        if _BEFORE_RE.search(x) and not _AFTER_RE.search(x) and _AFTER_RE.search(y) and not _BEFORE_RE.search(y):
+            return True
+    return False
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
                      embedding_score=None):
     if (
@@ -486,6 +511,7 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
         or _conflicting_race_type(question_a, question_b)
         or _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b)
         or _conflicting_bet_aspect(question_a, question_b)
+        or _opposite_polarity(question_a, question_b)
     ):
         return 0.0
     # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer

@@ -76,10 +76,44 @@ def test_best_arbitrage_combo_ist_das_minimum_beider_kombinationen(ya, na, yb, n
     assert pa + pb == pytest.approx(summe)
 
 
-def test_gegenpolaritaet_wird_nicht_erkannt():
-    """Dokumentiert eine Grenze (kein Fix): 'X wins' (Yes = X) vs. 'X loses' (Yes = Y) haben umgekehrte
-    Polaritaet. best_arbitrage_combo nimmt blind die guenstigere Kombination - bei umgekehrter Polaritaet ist
-    keine der beiden Kombinationen abgesichert. Die Regelstufe kann das nicht unterscheiden."""
-    a = "Will Lakers win the game against Celtics tonight?"
-    b = "Will Lakers lose the game against Celtics tonight?"
-    assert score(a, b) >= cp.SIMILARITY_THRESHOLD  # wird als Treffer akzeptiert
+# Echte Beispiele aus data/llm_verification_cache.json bzw. den Fonds-Positionen
+POLARITY_PAIRS = [
+    ("Netanyahu out by end of 2026?", "Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu"),
+    ("Mike Johnson out as Speaker by October 31?", "Will Mike Johnson remain Speaker of the House through the 119th Congress?"),
+    ("Will the Buccaneers vs Cowboys game not air?", "Dallas Cowboys vs Tampa Bay Buccaneers - wer gewinnt?"),
+    ("Will Lakers win the game against Celtics tonight?", "Will Lakers lose the game against Celtics tonight?"),
+    ("Will Bitcoin close above 100000 on Friday?", "Will Bitcoin close below 100000 on Friday?"),
+    ("Will Trump visit Alaska before the midterms?", "Will Trump visit Alaska after the midterms?"),
+]
+
+
+@pytest.mark.parametrize("a,b", POLARITY_PAIRS)
+def test_umgekehrte_polaritaet_wird_verworfen(a, b):
+    assert cp._opposite_polarity(a.lower(), b.lower())
+    assert cp._opposite_polarity(b.lower(), a.lower())  # symmetrisch
+    assert score(a, b) < cp.SIMILARITY_THRESHOLD
+
+
+@pytest.mark.parametrize("a,b", [
+    ("Will the Republicans win the Michigan Senate race in 2026?", "Which party will win the 2026 US Senate election in Michigan? - Republican"),
+    ("Jordan Addison: 2+ Touchdowns", "Jordan Addison: 2+ touchdowns"),
+    ("Will Lakers lose the game tonight?", "Will Lakers not win the game tonight?"),  # beide negativ -> gleiche Polaritaet
+])
+def test_gleiche_polaritaet_bleibt_erlaubt(a, b):
+    assert not cp._opposite_polarity(a.lower(), b.lower())
+
+
+def test_llm_prompt_nennt_polaritaet():
+    import llm_verify
+    assert "POLARITÄT" in llm_verify._SYSTEM_PROMPT
+
+
+def test_gecachte_paare_stichprobe_ohne_grosse_csv():
+    """Stichprobe aus data/ (nur die kleine KI-Cache-Datei, nie die 95-MB-CSV): keine echte, von der KI
+    bestaetigte Gleichheit ausser dem bekannten Netanyahu-Paar wird wegen Polaritaet verworfen."""
+    path = os.path.join(HERE, "..", "data", "llm_verification_cache.json")
+    if not os.path.isfile(path):
+        pytest.skip("kein Cache")
+    cache = json.load(open(path, encoding="utf-8"))
+    hit = [v for v in cache.values() if v["same_event"] and cp._opposite_polarity(v["frage_a"].lower(), v["frage_b"].lower())]
+    assert [h["frage_a"] for h in hit] in ([], ["Netanyahu out by end of 2026?"])

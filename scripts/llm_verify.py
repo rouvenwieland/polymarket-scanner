@@ -64,7 +64,7 @@ _SYSTEM_PROMPT = """Du prüfst Paare von Prognosemarkt-Fragen von zwei verschied
 (Polymarket, Kalshi, PredictIt, SX Bet). Für jedes Paar: gilt "Ja" nur, wenn beide Fragen bei \
 GLEICHEM Ausgang des realen Ereignisses GARANTIERT exakt gegensätzlich aufgelöst werden - \
 d.h. Kaufen von "Yes" auf der einen Seite und "No" auf der anderen zahlt immer genau 1.00 \
-(unabhängig vom Ausgang), weil es sich um EXAKT dieselbe Frage handelt.
+(unabhängig vom Ausgang), weil es sich um EXAKT dieselbe Frage handelt. "Yes" BEIDER Fragen muss also dasselbe Ereignis bedeuten (GLEICHE POLARITÄT).
 
 Antworte "Nein", wenn IRGENDEINER dieser Unterschiede vorliegt, auch wenn Thema/Teams/Wortlaut \
 ähnlich klingen:
@@ -73,6 +73,7 @@ Antworte "Nein", wenn IRGENDEINER dieser Unterschiede vorliegt, auch wenn Thema/
 - Unterschiedliche WETTART beim selben Spiel/Ereignis (z.B. "wer gewinnt das Spiel" ist NICHT \
   dasselbe wie "wer gewinnt die 1. Halbzeit/das 7. Inning", "Endstand exakt X:Y", "Handicap/Spread", \
   "beide Teams treffen", "wer trifft zuerst", "geht es in die Verlängerung").
+- UMGEKEHRTE POLARITÄT: eine Frage ist die Verneinung/das Gegenteil der anderen (z.B. "X gewinnt" vs.   "X verliert", "X bleibt Sprecher" vs. "X ist nicht mehr Sprecher", "X out" vs. "X ist Premier - X",   "über/unter", "vor/nach", "nicht"). Dann ist Yes(A)+No(B) KEINE Absicherung, auch wenn beide Ereignisse   einander ausschließen - antworte Nein.
 - Unterschiedliche Jahre, Fristen oder Gebietskörperschaften (Wahlkreis, Bundesstaat, Land).
 - Eine Seite fragt nach einer GESAMT-Anzahl/Schwelle (z.B. "mind. 50 Sitze"), die andere nach dem \
   Ausgang EINES einzelnen Rennens.
