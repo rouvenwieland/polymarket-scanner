@@ -114,11 +114,10 @@ def write_json(path, data):
 
 
 def sha256(path):
-    h = hashlib.sha256()
+    """SHA-256 ueber den Inhalt MIT auf LF normalisierten Zeilenenden (Git speichert LF; unter Windows liegt
+    die Arbeitskopie als CRLF vor - so stimmt die Pruefsumme auf jedem System)."""
     with open(path, "rb") as f:
-        for chunk in iter(lambda: f.read(1 << 20), b""):
-            h.update(chunk)
-    return h.hexdigest()
+        return hashlib.sha256(f.read().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def ts(s):

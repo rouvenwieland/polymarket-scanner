@@ -78,14 +78,15 @@ def test_echtdaten_kasse_und_positionen_konsistent(real_copy):
 
 
 def test_sicherung_entspricht_originalen_und_pruefsummen(real_copy):
-    before = {n: hashlib.sha256(open(os.path.join(real_copy, n), "rb").read()).hexdigest()
+    norm = lambda path: hashlib.sha256(open(path, "rb").read().replace(b"\r\n", b"\n")).hexdigest()
+    before = {n: norm(os.path.join(real_copy, n))
               for n in FUND_FILES if os.path.isfile(os.path.join(real_copy, n))}
     bd.run(real_copy)
     arch = os.path.join(real_copy, bd.ARCHIVE_SUB)
     sums = dict(reversed(line.strip().split("  ", 1)) for line in open(os.path.join(arch, "SHA256SUMS.txt"), encoding="utf-8"))
     for n, h in before.items():
         assert sums[n] == h
-        assert hashlib.sha256(open(os.path.join(arch, n), "rb").read()).hexdigest() == h
+        assert norm(os.path.join(arch, n)) == h
 
 
 def snapshot(d):
