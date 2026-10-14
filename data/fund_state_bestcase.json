@@ -7,7 +7,7 @@
       "slug": "ufc-ale22-riz-2026-10-24-ends-before-round-3",
       "shares": 3.971080208417974,
       "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
+      "letzter_kurs": 0.04000000000000001,
       "liquiditaet": 2.9197,
       "end_date": "2026-10-25T03:59:59.999Z",
       "eingestiegen": "2026-10-14T02:17:10.834029+02:00"
@@ -18,7 +18,7 @@
       "slug": "por-alv-aro-2026-10-24-btts-first-half",
       "shares": 3.209746827844067,
       "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
+      "letzter_kurs": 0.28,
       "liquiditaet": 10.9599,
       "end_date": "2026-10-24T17:00:00Z",
       "eingestiegen": "2026-10-14T07:10:34.525428+02:00"
@@ -29,7 +29,7 @@
       "slug": "fl1-pfc-ren-2026-10-18-exact-score-3-2",
       "shares": 4.317057752930238,
       "einstandskurs": 0.998,
-      "letzter_kurs": 0.998,
+      "letzter_kurs": 0.995,
       "liquiditaet": 2769.65274,
       "end_date": "2026-10-18T15:15:00Z",
       "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
@@ -40,7 +40,7 @@
       "slug": "cfb-ntx-navy-2026-10-24-exact-margin-long-7-12",
       "shares": 4.330074007461686,
       "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
+      "letzter_kurs": 0.04000000000000003,
       "liquiditaet": 4.5544,
       "end_date": "2026-10-24T19:30:00Z",
       "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
@@ -51,7 +51,7 @@
       "slug": "cfb-syra-ncar-2026-10-24-exact-margin-long-1-6",
       "shares": 4.330074007461686,
       "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
+      "letzter_kurs": 0.04000000000000003,
       "liquiditaet": 4.5544,
       "end_date": "2026-10-24T23:30:00Z",
       "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
