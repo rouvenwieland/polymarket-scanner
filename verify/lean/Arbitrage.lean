@@ -1,11 +1,11 @@
 import Mathlib
 
 /-!
-# Arithmetik des Polymarket-/Cross-Platform-Scanners (polymarket-scanner)
+# Arithmetik des Polymarket- und Cross-Platform-Scanners (polymarket-scanner)
 
 Alle Aussagen sind über `ℚ`/`ℝ` bzw. `ℕ` formuliert (keine Gleitkomma-Effekte). Sie bilden die
-Formeln aus `scripts/fund_simulator.py`, `scripts/cross_platform_fund.py` und
-`scripts/platforms/kalshi.py` ab:
+Formeln aus fund_simulator.py, cross_platform_fund.py und
+platforms/kalshi.py ab:
 
 1. `pair_same_market`     : Yes+No DESSELBEN Marktes zahlt in jedem Ausgang genau 1
                             (=> eine zu frühe "Auszahlung" ist ein Timing-, kein Wertfehler).
@@ -39,7 +39,7 @@ theorem cross_pair_eq_one_iff (oA oB : Bool) : payYes oA + payNo oB = 1 ↔ oA =
 /-- Lösen die Plattformen unterschiedlich auf, zahlt das Paar 0 oder 2 (nie 1). -/
 theorem cross_pair_mismatch (oA oB : Bool) (h : oA ≠ oB) :
     payYes oA + payNo oB = 0 ∨ payYes oA + payNo oB = 2 := by
-  cases oA <;> cases oB <;> simp_all [payYes, payNo]
+  cases oA <;> cases oB <;> simp_all [payYes, payNo] <;> norm_num
 
 /-- Bei Fehl-Match (z. B. Auszahlung 0) beträgt der Verlust den kompletten Einsatz `c`. -/
 theorem mismatch_can_lose_everything (c : ℚ) (hc : 0 < c) :
@@ -102,22 +102,34 @@ Anteile = n / e(n); Auszahlung 1 je Anteil; Gewinn P(n) = n / e(n) − n. -/
 
 noncomputable def profit (s a n : ℝ) : ℝ := n / (s * (1 + a * n)) - n
 
+/-- Kernidentität: Maximum minus Gewinn = (r·u−1)² / (a·r²·u). -/
+theorem key_id (r u a : ℝ) (hr : 0 < r) (hu : 0 < u) (ha : 0 < a) :
+    (1 - r) ^ 2 / (a * r ^ 2) - ((u - 1) / a / (r ^ 2 * u) - (u - 1) / a)
+      = (r * u - 1) ^ 2 / (a * r ^ 2 * u) := by
+  have h1 : r ≠ 0 := hr.ne'
+  have h2 : u ≠ 0 := hu.ne'
+  have h3 : a ≠ 0 := ha.ne'
+  field_simp
+  ring
+
 /-- Der Gewinn ist nach oben durch (1−√s)²/(a·s) beschränkt (Maximum bei n* = (1/√s − 1)/a). -/
 theorem profit_le_max (s a n : ℝ) (hs : 0 < s) (ha : 0 < a) (hn : 0 ≤ n) :
     profit s a n ≤ (1 - Real.sqrt s) ^ 2 / (a * s) := by
-  set r := Real.sqrt s with hr
-  have hr0 : 0 < r := Real.sqrt_pos.2 hs
-  have hrs : s = r ^ 2 := by rw [hr, Real.sq_sqrt hs.le]
-  set u := 1 + a * n with hu
+  have hr0 : 0 < Real.sqrt s := Real.sqrt_pos.2 hs
+  have hrs : s = Real.sqrt s ^ 2 := (Real.sq_sqrt hs.le).symm
+  obtain ⟨r, hr⟩ : ∃ r, r = Real.sqrt s := ⟨_, rfl⟩
+  rw [← hr] at hr0 hrs ⊢
+  obtain ⟨u, hu⟩ : ∃ u, u = 1 + a * n := ⟨_, rfl⟩
   have hu0 : 0 < u := by have := mul_nonneg ha.le hn; linarith
-  have key : (1 - r) ^ 2 / (a * s) - profit s a n = (r * u - 1) ^ 2 / (a * s * u) := by
+  have hn' : n = (u - 1) / a := by rw [hu]; field_simp; ring
+  have hp : profit s a n = (u - 1) / a / (r ^ 2 * u) - (u - 1) / a := by
     unfold profit
-    have hn' : n = (u - 1) / a := by rw [hu]; field_simp; ring
-    rw [hn', hrs]
-    have : a * (1 + a * ((u - 1) / a)) / a = u := by field_simp; ring
-    field_simp
-    ring
-  have : 0 ≤ (r * u - 1) ^ 2 / (a * s * u) := by positivity
+    rw [← hu, ← hn', ← hrs]
+  have key := key_id r u a hr0 hu0 ha
+  rw [hrs] at *
+  have : 0 ≤ (r * u - 1) ^ 2 / (a * r ^ 2 * u) := by positivity
+  rw [hp]
+  rw [← hrs] at key ⊢
   linarith
 
 /-- Gewinn am Maximum: n* = (1/√s − 1)/a erreicht die Schranke exakt. -/
@@ -145,22 +157,23 @@ example : (1 : ℝ) / 0.999 - 1 < 0.0011 := by norm_num
 theorem profit_strictly_below_max_off_optimum (s a n : ℝ) (hs : 0 < s) (ha : 0 < a) (hn : 0 ≤ n)
     (hne : Real.sqrt s * (1 + a * n) ≠ 1) :
     profit s a n < (1 - Real.sqrt s) ^ 2 / (a * s) := by
-  set r := Real.sqrt s with hr
-  have hr0 : 0 < r := Real.sqrt_pos.2 hs
-  have hrs : s = r ^ 2 := by rw [hr, Real.sq_sqrt hs.le]
-  set u := 1 + a * n with hu
+  have hr0 : 0 < Real.sqrt s := Real.sqrt_pos.2 hs
+  have hrs : s = Real.sqrt s ^ 2 := (Real.sq_sqrt hs.le).symm
+  obtain ⟨r, hr⟩ : ∃ r, r = Real.sqrt s := ⟨_, rfl⟩
+  rw [← hr] at hr0 hrs hne ⊢
+  obtain ⟨u, hu⟩ : ∃ u, u = 1 + a * n := ⟨_, rfl⟩
+  rw [← hu] at hne
   have hu0 : 0 < u := by have := mul_nonneg ha.le hn; linarith
-  have key : (1 - r) ^ 2 / (a * s) - profit s a n = (r * u - 1) ^ 2 / (a * s * u) := by
+  have hn' : n = (u - 1) / a := by rw [hu]; field_simp; ring
+  have hp : profit s a n = (u - 1) / a / (r ^ 2 * u) - (u - 1) / a := by
     unfold profit
-    have hn' : n = (u - 1) / a := by rw [hu]; field_simp; ring
-    rw [hn', hrs]
-    field_simp
-    ring
-  have hpos : 0 < (r * u - 1) ^ 2 / (a * s * u) := by
-    have : (r * u - 1) ^ 2 > 0 := by
-      have : r * u - 1 ≠ 0 := fun h => hne (by linarith)
-      positivity
+    rw [← hu, ← hn', ← hrs]
+  have key := key_id r u a hr0 hu0 ha
+  have hpos : 0 < (r * u - 1) ^ 2 / (a * r ^ 2 * u) := by
+    have : r * u - 1 ≠ 0 := fun h => hne (by linarith)
     positivity
+  rw [hp]
+  rw [← hrs] at key hpos ⊢
   linarith
 
 /-! ## 6  NAV-Erhaltung (Buchhaltung)  -/
