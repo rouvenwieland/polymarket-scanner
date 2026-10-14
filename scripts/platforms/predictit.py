@@ -32,8 +32,20 @@ bestBuyNoCost sind die Kaufpreise für Yes bzw. No GENAU dieses Contracts.
 Gebühren (PredictIt-Gebührenordnung):
   - 10% Gebühr auf den NETTOGEWINN je Contract, fällig bei Verkauf/Auflösung
     (nicht auf den Umsatz - nur auf tatsächlichen Profit).
-  - 5% Gebühr auf Auszahlungen (Konto-Ebene, nicht pro Trade - hier nur
-    dokumentiert, nicht in der Pro-Trade-Simulation verrechnet).
+  - Auszahlungsgebühr: war 5 %, ist laut PredictIt-Produktmeldung vom
+    23.09.2026 abgeschafft (ACH/Scheck 0 %), siehe FEE_RATE_WITHDRAWAL.
+
+Wie die 10 % zu rechnen sind (Quelle, gelesen 14.10.2026):
+  - predictit.org/stories/detail/102 ("The 10% fee on trading profits remains
+    unchanged") und die PredictIt-Pressemitteilung vom 23.09.2026 (GlobeNewswire:
+    "10% fee only on profits from winning trades"). Beispiel in Drittquellen:
+    100 Anteile zu 60 Cent, Gewinn 40 USD -> 4 USD Gebühr.
+  - Die offizielle "Our Fees"-Seite ist JavaScript-versteckt und per Scrape nicht
+    lesbar; ob Verluste anderer Contracts desselben Markts gegengerechnet werden,
+    steht nirgends ausdrücklich.
+  - Vorsichtige Annahme im Code: Gebühr JE GEWINNENDEM BEIN/Verkauf, KEINE
+    Verrechnung mit Verlusten (siehe pair_fee). Das ist nie günstiger als die
+    Netto-Variante.
 """
 
 import time
@@ -43,7 +55,7 @@ import requests
 API_URL = "https://www.predictit.org/api/marketdata/all/"
 
 FEE_RATE_PROFIT = 0.10
-FEE_RATE_WITHDRAWAL = 0.05
+FEE_RATE_WITHDRAWAL = 0.0   # bis 22.09.2026: 0.05 (Produktmeldung 23.09.2026: abgeschafft)
 
 # Mehrere Fonds (die drei Cross-Platform-Kapitalstufen plus der PredictIt-
 # Solo-Fonds) können Positionen im SELBEN zugrundeliegenden Markt halten -
@@ -146,6 +158,17 @@ def fetch_contract_by_market_id(market_id):
         if contract.get("id") == contract_id:
             return market, contract
     return market, None
+
+
+def pair_fee(proceeds_yes, proceeds_no, cost_yes, cost_no):
+    """Gewinngebühr für Yes- und No-Bein JE BEIN, ohne Verlustverrechnung (vorsichtige Annahme,
+    siehe Moduldoku)."""
+    return FEE_RATE_PROFIT * (max(0.0, proceeds_yes - cost_yes) + max(0.0, proceeds_no - cost_no))
+
+
+def worst_case_settle_fee(cost_yes, cost_no):
+    """Höchste Gebühr bei Auflösung eines Yes+No-Paars: nur EIN Bein gewinnt (zahlt 1,00)."""
+    return max(pair_fee(1.0, 0.0, cost_yes, cost_no), pair_fee(0.0, 1.0, cost_yes, cost_no))
 
 
 def profit_fee(proceeds, cost_basis):

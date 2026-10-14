@@ -175,7 +175,8 @@ def _select_new_trades(profile, state, markets, now):
         if summe >= 1.0 or summe < fund_simulator.MIN_PLAUSIBLE_SUM:
             continue
         liquidity = m.get("liquidity") or 0.0
-        fee_per_share = _entry_fee(platform, 1.0, m["yes_price"], m["no_price"])
+        fee_per_share = (_entry_fee(platform, 1.0, m["yes_price"], m["no_price"])
+                         + _worst_settle_fee_per_share(platform, m["yes_price"], m["no_price"]))
         spread = 1.0 - summe - fee_per_share
         if spread < MIN_SPREAD:
             continue
@@ -231,6 +232,8 @@ def _execute_buy(profile, state, c, notional, now):
         "frage": f"[{profile['platform']}] {m['question']}",
         "shares": shares,
         "einstandskurs": c["summe"],
+        "yes_price": m["yes_price"],
+        "no_price": m["no_price"],
         "letzter_kurs": c["summe"],
         "liquiditaet": m.get("liquidity") or 0.0,
         "end_date": m.get("end_date"),
@@ -247,11 +250,26 @@ def _execute_buy(profile, state, c, notional, now):
 # Bewertung / Auflösung offener Positionen
 # ---------------------------------------------------------------------
 
-def _settle_fee(platform, proceeds_per_share, einstandskurs):
+def _worst_settle_fee_per_share(platform, yes_price, no_price):
+    """Schlechtester Gebührenfall bei Auflösung (PredictIt: Gebühr je gewinnendem Bein)."""
     if platform == "predictit":
-        profit = max(0.0, proceeds_per_share - einstandskurs)
-        return predictit.FEE_RATE_PROFIT * profit
+        return predictit.worst_case_settle_fee(yes_price, no_price)
     return 0.0
+
+
+def _settle_fee(platform, pos, proceeds_per_share, kind):
+    """Gebühr je Anteilspaar. kind="settle": Ausgang unbekannt -> schlechtester Fall (ein Bein gewinnt).
+    kind="sell": Erlös anteilig auf Yes/No aufgeteilt, Gebühr je Bein mit Gewinn.
+    Alte Positionen ohne yes_price/no_price: Rückfall auf die frühere Netto-Rechnung."""
+    if platform != "predictit":
+        return 0.0
+    yes_p, no_p = pos.get("yes_price"), pos.get("no_price")
+    if yes_p is None or no_p is None:
+        return predictit.FEE_RATE_PROFIT * max(0.0, proceeds_per_share - pos["einstandskurs"])
+    if kind == "settle":
+        return predictit.worst_case_settle_fee(yes_p, no_p)
+    share_yes = yes_p / (yes_p + no_p)
+    return predictit.pair_fee(proceeds_per_share * share_yes, proceeds_per_share * (1 - share_yes), yes_p, no_p)
 
 
 def _single_lookup_sum(platform, market_id, einstandskurs=None):
@@ -347,16 +365,16 @@ def _apply_decision(profile, state, pos, decision, now):
 
     if decision["action"] == "settle":
         proceeds_per_share = decision.get("proceeds_per_share", 1.0)
-        fee = _settle_fee(platform, proceeds_per_share, pos["einstandskurs"])
-        proceeds = pos["shares"] * proceeds_per_share - fee
+        fee = _settle_fee(platform, pos, proceeds_per_share, "settle")
+        proceeds = pos["shares"] * (proceeds_per_share - fee)  # Gebuehr ist je Anteilspaar (frueher: nicht mit shares multipliziert)
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
                   pos["shares"], proceeds_per_share, proceeds, state["cash"], "Markt aufgelöst")
         return True
 
     if decision["action"] == "sell":
-        fee = _settle_fee(platform, decision["effective_sum"], pos["einstandskurs"])
-        proceeds = pos["shares"] * decision["effective_sum"] - fee
+        fee = _settle_fee(platform, pos, decision["effective_sum"], "sell")
+        proceeds = pos["shares"] * (decision["effective_sum"] - fee)
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
                   pos["shares"], decision["effective_sum"], proceeds, state["cash"],
