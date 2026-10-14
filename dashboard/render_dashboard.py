@@ -19,7 +19,11 @@ import csv
 import json
 import os
 import re
+import sys
 from datetime import datetime, timezone
+
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "scripts"))
+import pricing  # noqa: E402  (einzige Quelle fuer Basis-Kennzeichnung und Beschriftungen)
 
 STARTING_CAPITAL = 100.0
 ANNUAL_DISCOUNT_RATE = 0.02  # muss zu scripts/fund_simulator.py ANNUAL_DISCOUNT_RATE passen
@@ -173,6 +177,36 @@ def load_latest_hits(data_dir):
                 current_ts, latest = row["timestamp"], []
             latest.append(row)
     return sorted(latest, key=lambda r: float(r["summe"]))
+
+
+def basis_stats(fund_result):
+    """Zaehlt Positionen und Kaeufe nach Preisbasis. Altbestand ohne Feld gilt als Schaetzung."""
+    positions = fund_result["positions"]
+    n_pos_est = sum(1 for p in positions if pricing.basis_of(p) != pricing.BASIS_EXECUTABLE)
+    buys = [t for t in fund_result["trades"] if t.get("aktion") == "KAUF"]
+    n_buy_est = sum(1 for t in buys if pricing.basis_of(t) != pricing.BASIS_EXECUTABLE)
+    return {"pos_total": len(positions), "pos_est": n_pos_est,
+            "buy_total": len(buys), "buy_est": n_buy_est}
+
+
+def basis_pill(stats):
+    """Kurz-Kennzeichnung: ausfuehrbar nur, wenn Positionen UND bisherige Kaeufe vollstaendig ausfuehrbar sind."""
+    total = stats["pos_total"] + stats["buy_total"]
+    est = stats["pos_est"] + stats["buy_est"]
+    if total == 0:
+        return '<span class="basispill exec">keine Käufe</span>'
+    if est == 0:
+        return '<span class="basispill exec">ausführbare Preise</span>'
+    return f'<span class="basispill est">Schätzung: {stats["buy_est"]}/{stats["buy_total"]} Käufe</span>'
+
+
+def basis_warning(stats):
+    if stats["buy_est"] == 0 and stats["pos_est"] == 0:
+        return ""
+    return (f'<div class="basiswarn"><b>Nur Schätzung, nicht ausführbar:</b> {stats["buy_est"]} von {stats["buy_total"]} '
+            f'Käufen und {stats["pos_est"]} von {stats["pos_total"]} offenen Positionen beruhen auf Mittel-/Letztkursen '
+            f'(Gamma-<code>outcomePrices</code>), nicht auf Orderbuch-Preisen. NAV und Rendite dieses Fonds sind '
+            f'deshalb eine Schätzung, kein Ergebnis, das sich so handeln ließe.</div>')
 
 
 def load_json(path, default):
@@ -420,6 +454,11 @@ footer code{ font-family:"IBM Plex Mono",monospace; background:var(--surface-2);
 .retpill{ font-size:13px; font-weight:700; padding:4px 10px; border-radius:999px; font-family:"IBM Plex Mono",monospace; }
 .retpill.pos{ background:var(--accent-dim); color:var(--accent); }
 .retpill.neg{ background:var(--danger-dim); color:var(--danger); }
+.basispill{ font-size:11px; font-weight:700; padding:3px 8px; border-radius:999px; white-space:nowrap; }
+.basispill.exec{ background:var(--accent-dim); color:var(--accent); }
+.basispill.est{ background:var(--danger-dim); color:var(--danger); }
+.basisnote{ margin:10px 0 0; padding:10px 14px; border-left:3px solid var(--danger); background:var(--danger-dim); font-size:13px; line-height:1.45; border-radius:6px; }
+.basiswarn{ margin:10px 0; padding:8px 12px; border-left:3px solid var(--danger); background:var(--danger-dim); font-size:12px; border-radius:6px; }
 .retpill.flat{ background:var(--surface-2); color:var(--muted); }
 .fundstats{ display:flex; gap:22px; flex-wrap:wrap; margin-left:auto; }
 .fundstats div{ font-size:12px; color:var(--muted); }
@@ -592,6 +631,7 @@ def render(data_dir):
           <div class="label">{esc(fr['profile']['label'])}</div>
           <div class="nav">{fr['nav']:.2f}&nbsp;USD</div>
           <span class="retpill {ret_class(fr['return_pct'])}">{fr['return_pct']:+.2f}%</span>
+          <div class="sub"><span>Preisbasis</span><span>{basis_pill(basis_stats(fr))}</span></div>
           <div class="sub"><span>Positionen</span><span>{len(fr['positions'])}</span></div>
           <div class="sub"><span>Kasse</span><span>{fr['state']['cash']:.2f} USD</span></div>
           <div class="sub"><span>Terminierungswert</span><span>{fr['termination_value']:.2f} USD</span></div>
@@ -699,6 +739,7 @@ def render(data_dir):
               <div>Offene Positionen<b>{len(fr['positions'])}</b></div>
               <div>In Positionen gebunden<b>{fr['positions_value']:.2f} USD</b></div>
             </div>
+            {basis_warning(basis_stats(fr))}
             <div class="charttitle">NAV (Marktpreis-bewertet)</div>
             {navchart_html}
           </div>
@@ -789,6 +830,11 @@ def render(data_dir):
     </div>
     <div class="status"><span>Stand</span><b class="mono">{stand_label}&nbsp;CEST</b></div>
   </div>
+  <p class="basisnote"><b>Welche Zahl ist ausführbar?</b> Als <span class="basispill exec">ausführbare Preise</span> gelten
+  Orderbuch-Preise (Kaufen = Ask, Verkaufen = Bid; bei Kalshi, PredictIt, SX Bet immer, bei Polymarket nur wenn
+  <code>bestBid</code>/<code>bestAsk</code> geliefert wurden). Alles andere ist eine <span class="basispill est">Schätzung, nicht ausführbar</span>
+  (Mittel-/Letztkurse, Platzhalter 0,5). Renditen auf Schätzbasis zeigen nur, was passiert wäre, wenn diese Kurse handelbar gewesen wären.
+  Altbestand ohne Kennzeichnung (vor 14.10.2026) gilt als Schätzung. Die Spread-Karten unten stammen aus <code>summary.csv</code>, also großteils aus Schätzkursen.</p>
 
   <div class="kpis">
     <div class="kpi accent">

@@ -78,3 +78,32 @@ def test_dashboard_rendert_mit_echten_daten_ohne_fehler(tmp_path):
                        capture_output=True, text=True, cwd=ROOT)
     assert r.returncode == 0, r.stderr[-500:]
     assert out.stat().st_size > 10_000
+
+
+def test_dashboard_kennzeichnet_ausfuehrbar_und_schaetzung(tmp_path):
+    """Fixture-Datenverzeichnis: ein Fonds mit Schaetzbasis (Altbestand), einer mit ausfuehrbarer Basis."""
+    import json
+    sys.path.insert(0, os.path.join(ROOT, "dashboard"))
+    import render_dashboard as rd
+    d = tmp_path
+    (d / "summary.csv").write_text("Frage,Slug,Erster Treffer,Letzter Treffer,Geschaetzte Dauer unter Schwelle,Min. Summe beobachtet,Zeit bis Terminierung,Max. Volumen (USD),Max. Liquiditaet (USD)\n", encoding="utf-8")
+    tcols = "timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz"
+    (d / "fund_trades.csv").write_text(tcols + "\n2026-10-01T00:00:00+02:00,KAUF,1,Alt?,1,0.9,-0.9,99,x\n", encoding="utf-8")
+    (d / "fund_trades_aggressive.csv").write_text(tcols + ",preisbasis\n2026-10-15T00:00:00+02:00,KAUF,2,Neu?,1,0.9,-0.9,99,x,ausfuehrbar\n", encoding="utf-8")
+    (d / "fund_state.json").write_text(json.dumps({"cash": 99.0, "started": "x", "positions": [
+        {"market_id": "1", "frage": "Alt?", "shares": 1.0, "einstandskurs": 0.9, "letzter_kurs": 0.9, "end_date": None, "liquiditaet": 1}]}), encoding="utf-8")
+    (d / "fund_state_aggressive.json").write_text(json.dumps({"cash": 99.0, "started": "x", "positions": [
+        {"market_id": "2", "frage": "Neu?", "shares": 1.0, "einstandskurs": 0.9, "letzter_kurs": 0.9, "end_date": None, "liquiditaet": 1, "preisbasis": "ausfuehrbar"}]}), encoding="utf-8")
+    html = rd.render(str(d))
+    assert "Welche Zahl ist ausführbar?" in html
+    assert "Schätzung, nicht ausführbar" in html
+    assert "Nur Schätzung, nicht ausführbar:" in html
+    assert "1 von 1 Käufen" in html
+    assert html.count("ausführbare Preise</span>") >= 2
+
+
+def test_basis_stats_altbestand_ist_schaetzung():
+    sys.path.insert(0, os.path.join(ROOT, "dashboard"))
+    import render_dashboard as rd
+    st = rd.basis_stats({"positions": [{}, {"preisbasis": "ausfuehrbar"}], "trades": [{"aktion": "KAUF"}, {"aktion": "VERKAUF"}]})
+    assert st == {"pos_total": 2, "pos_est": 1, "buy_total": 1, "buy_est": 1}
