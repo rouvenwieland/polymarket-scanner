@@ -158,6 +158,23 @@ def load_csv(path):
         return list(csv.DictReader(f))
 
 
+def load_latest_hits(data_dir):
+    """Treffer des juengsten Scan-Laufs aus der juengsten Teildatei cross_platform_hits*.csv. Streamt die
+    Datei (sie ist append-only und chronologisch; die letzte Zeitstempel-Gruppe ist der neueste Lauf) statt
+    sie komplett in den Speicher zu laden - die Datei hat > 100 MB und ~300.000 Zeilen."""
+    import glob
+    files = sorted(glob.glob(os.path.join(data_dir, "cross_platform_hits*.csv")))
+    if not files:
+        return []
+    latest, current_ts = [], None
+    with open(files[-1], newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if row["timestamp"] != current_ts:
+                current_ts, latest = row["timestamp"], []
+            latest.append(row)
+    return sorted(latest, key=lambda r: float(r["summe"]))
+
+
 def load_json(path, default):
     if not os.path.isfile(path):
         return default
@@ -542,14 +559,7 @@ def render(data_dir):
     now_utc = datetime.now(timezone.utc)
 
     platform_overview = load_json(os.path.join(data_dir, "platform_overview.json"), {})
-    cross_hits_rows = load_csv(os.path.join(data_dir, "cross_platform_hits.csv"))
-    latest_cross_hits = []
-    if cross_hits_rows:
-        latest_ts = max(r["timestamp"] for r in cross_hits_rows)
-        latest_cross_hits = sorted(
-            (r for r in cross_hits_rows if r["timestamp"] == latest_ts),
-            key=lambda r: float(r["summe"]),
-        )
+    latest_cross_hits = load_latest_hits(data_dir)
 
     fund_results = []
     for fp in FUND_PROFILES:

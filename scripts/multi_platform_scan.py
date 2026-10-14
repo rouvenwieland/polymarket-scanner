@@ -44,6 +44,23 @@ TIMEZONE = "Europe/Berlin"
 DATA_DIR = "data"
 OVERVIEW_JSON = os.path.join(DATA_DIR, "platform_overview.json")
 CROSS_HITS_CSV = os.path.join(DATA_DIR, "cross_platform_hits.csv")
+# GitHub lehnt Dateien > 100 MiB ab (Push wird mit "pre-receive hook declined" abgewiesen). Die Treffer-
+# Datei wuchs unbegrenzt (Stand 13.10.: 95,8 MiB, ~2 MB/Tag). Ab dieser Groesse beginnt eine neue Teildatei
+# (cross_platform_hits_002.csv, ...); die alte bleibt unveraendert im Repo.
+HITS_MAX_BYTES = 50 * 1024 * 1024
+
+
+def hits_target_path(base=None, max_bytes=None):
+    """Aktive Treffer-Datei: die erste Teildatei (base, base_002, base_003, ...), die noch unter dem
+    Groessenlimit liegt."""
+    base = base or CROSS_HITS_CSV
+    max_bytes = HITS_MAX_BYTES if max_bytes is None else max_bytes
+    root, ext = os.path.splitext(base)
+    path, n = base, 1
+    while os.path.isfile(path) and os.path.getsize(path) >= max_bytes:
+        n += 1
+        path = f"{root}_{n:03d}{ext}"
+    return path
 
 
 def fetch_all_platforms():
@@ -94,7 +111,8 @@ def write_cross_platform_hits(matches, now):
         "timestamp", "plattform_a", "frage_a", "plattform_b", "frage_b",
         "seite_a", "seite_b", "summe", "score", "url_a", "url_b",
     ]
-    file_exists = os.path.isfile(CROSS_HITS_CSV)
+    target = hits_target_path()
+    file_exists = os.path.isfile(target)
     rows = []
     for match in matches:
         ma, mb = match["market_a"], match["market_b"]
@@ -111,7 +129,7 @@ def write_cross_platform_hits(matches, now):
         })
     if not rows:
         return
-    with open(CROSS_HITS_CSV, "a", newline="", encoding="utf-8") as f:
+    with open(target, "a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         if not file_exists:
             writer.writeheader()
