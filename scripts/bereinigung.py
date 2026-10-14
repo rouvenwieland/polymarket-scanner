@@ -7,8 +7,8 @@ Aufruf:   python scripts/bereinigung.py [--data data] [--dry-run]
 Was passiert (alles deterministisch und IDEMPOTENT - mehrfaches Ausfuehren ergibt denselben Stand):
 
  1. SICHERUNG: Die Originale (fund_trades/history/state) werden einmalig nach
-    data/archiv/vor_bereinigung/ kopiert (+ SHA256SUMS.txt). Existiert die Sicherung, wird sie NIE
-    ueberschrieben.
+    data/archiv/vor_bereinigung/ kopiert (+ SHA256SUMS.txt). Existiert die Sicherung, werden vorhandene
+    Zeilen NIE veraendert; neue Rohzeilen spaeterer Workflow-Laeufe werden nur angehaengt (append-only).
  2. EINGABE = Sicherung (Originale) + alle Live-Zeilen, die noch nicht in der Sicherung stehen
     (z. B. neue Workflow-Laeufe seit der Bereinigung). Jede Handelszeile hat den Schluessel
     (Zeitstempel, Aktion, ID, n-tes Vorkommen).
@@ -144,6 +144,7 @@ def archive_originals(data_dir):
             if os.path.isfile(src) and not os.path.isfile(dst):
                 shutil.copy2(src, dst)
                 copied.append(name)
+    copied += extend_archive(data_dir)
     sums = {}
     for name in sorted(os.listdir(arch)):
         if name.endswith(".csv") or name.endswith(".json"):
@@ -155,9 +156,42 @@ def archive_originals(data_dir):
     if not os.path.isfile(readme):
         with open(readme, "w", encoding="utf-8", newline="\n") as f:
             f.write("# Sicherung vor der Bereinigung\n\nUnveraenderte Originale der Fonds-Dateien (trades, history, state) "
-                    "vom Stand vor `scripts/bereinigung.py`. Wird vom Skript nie ueberschrieben. Pruefsummen: SHA256SUMS.txt. "
-                    "Die Bereinigung berechnet ihren Stand immer aus dieser Sicherung plus neueren Live-Zeilen.\n")
+                    "vom Stand vor `scripts/bereinigung.py`. Vorhandene Zeilen werden nie veraendert; neue Rohzeilen spaeterer "
+                    "Workflow-Laeufe werden nur ANGEHAENGT (append-only, siehe extend_archive). Pruefsummen: SHA256SUMS.txt. "
+                    "Die Bereinigung berechnet ihren Stand immer aus dieser Sicherung.\n")
     return copied
+
+
+def extend_archive(data_dir):
+    """Haengt Live-ROHZEILEN, die noch nicht in der Sicherung stehen (neue Workflow-Laeufe), append-only an die
+    Sicherung an (Trades und offene Positionen). Bereits vorhandene Originalzeilen werden nie veraendert. So bleibt
+    die Eingabe der Bereinigung reproduzierbar und ein erneuter Lauf liefert dasselbe Protokoll."""
+    touched = []
+    for fund in FUNDS:
+        arch_t = os.path.join(data_dir, ARCHIVE_SUB, fund["trades"])
+        live_t = os.path.join(data_dir, fund["trades"])
+        idcol = fund["idcol"]
+        if os.path.isfile(arch_t) and os.path.isfile(live_t):
+            a_rows, a_fields = read_csv(arch_t)
+            l_rows, l_fields = read_csv(live_t)
+            a_keys = set(row_keys(a_rows, idcol))
+            new = [r for r, k in zip(l_rows, row_keys(l_rows, idcol)) if k not in a_keys]
+            if new:
+                fields = list(a_fields) + [f for f in l_fields if f not in a_fields]
+                write_csv(arch_t, fields, a_rows + new)
+                touched.append(fund["trades"])
+        arch_s = os.path.join(data_dir, ARCHIVE_SUB, fund["state"])
+        live_s = os.path.join(data_dir, fund["state"])
+        if os.path.isfile(arch_s) and os.path.isfile(live_s):
+            a, l = read_json(arch_s), read_json(live_s)
+            have = {p.get(idcol) or p.get("pair_id") or p.get("market_id") for p in a.get("positions", [])}
+            new_pos = [p for p in l.get("positions", []) if not p.get("bereinigt")
+                       and (p.get(idcol) or p.get("pair_id") or p.get("market_id")) not in have]
+            if new_pos:
+                a["positions"] = a.get("positions", []) + new_pos
+                write_json(arch_s, a)
+                touched.append(fund["state"])
+    return touched
 
 
 # ----------------------------------------------------------------------------- Lebenszyklen
@@ -251,7 +285,7 @@ def classify_poly(lc):
     return ("behalten", "Preisbasis ausfuehrbar (Orderbuch-Ask)", 0.0)
 
 
-def impact_correction(lc):
+def impact_correction(lc, pi_fee_ps=0.0):
     """Nachtraeglich anzurechnender Kaufimpact. REGEL: der KASSENABFLUSS des Trades bleibt unveraendert (so bleibt die
     Kasse nie negativ und alles mergebar); der Impact verteuert stattdessen jeden Anteil, die Stueckzahl sinkt.
     Modell wie cross_platform_fund: Kosten(s) = s*c1 + q*s^2, c1 = Summe + Gebuehr/Anteil, q = headroom/Cap
@@ -266,7 +300,7 @@ def impact_correction(lc):
     cap = int(m.group(1))
     c1 = total_cost / shares                      # Summe + Gebuehr je Anteil (aus dem tatsaechlichen Abfluss)
     fee_ps = max(0.0, c1 - summe)
-    headroom = MAX_EFFECTIVE_BUY_PRICE - 1e-6 - summe - fee_ps
+    headroom = MAX_EFFECTIVE_BUY_PRICE - 1e-6 - summe - fee_ps - pi_fee_ps  # wie _max_shares_for_edge (inkl. PredictIt-Worst-Case)
     if headroom <= 0:
         return shares, "kein Spielraum bis 0,999"
     q = headroom / cap
@@ -289,6 +323,7 @@ def classify_cross(lc, state_pos):
         return ("entfernen",
                 f"Unplausibler Spread {spread*100:.1f}% (> {MAX_PLAUSIBLE_SPREAD*100:.0f}%): Polymarkt-Seite vermutlich Platzhalter-/"
                 "Schaetzkurs ohne Gegenseite (z. B. 0,50 bei neuem Markt), nicht ausfuehrbar", 0.0, "")
+    worst_fee = 0.0
     if state_pos is not None and not lc["closed"]:
         la, lb = state_pos["leg_a"], state_pos["leg_b"]
         worst_fee = max(
@@ -307,7 +342,7 @@ def classify_cross(lc, state_pos):
     shares_new, note = shares, ""
     legacy = not (kauf.get("preisbasis") or kauf.get("bereinigung"))
     if legacy:
-        shares_new, note = impact_correction(lc)
+        shares_new, note = impact_correction(lc, worst_fee)
     if shares_new < shares * (1 - 1e-6):
         return ("korrigieren", f"Kaufimpact war nicht eingepreist: bei gleichem Kassenabfluss nur {shares_new:.3f} statt "
                 f"{shares:.3f} Anteile ({note})", shares_new, basis)
@@ -322,10 +357,19 @@ def process_fund(fund, data_dir):
     live_state = read_json(os.path.join(data_dir, fund["state"]))
     arch_state = read_json(os.path.join(data_dir, ARCHIVE_SUB, fund["state"]))
     state_src = live_state or arch_state
-    pos_by_id = {}
-    for src in (arch_state, live_state):  # live ueberschreibt (aktuellere Marken)
-        for p in (src or {}).get("positions", []):
-            pos_by_id[p.get(idcol) or p.get("pair_id") or p.get("market_id")] = p
+    def pid_of(p):
+        return p.get(idcol) or p.get("pair_id") or p.get("market_id")
+
+    # Klassifikation nutzt NUR unbereinigte Positionsdaten (Sicherung, sonst Live-Stand ohne Bereinigungsmarke),
+    # sonst waere ein zweiter Lauf nicht identisch. Die Ausgabe nimmt die Live-Position (aktuelle Marken).
+    pos_cls, pos_by_id = {}, {}
+    for p in (arch_state or {}).get("positions", []):
+        pos_cls[pid_of(p)] = p
+        pos_by_id[pid_of(p)] = p
+    for p in (live_state or {}).get("positions", []):
+        pos_by_id[pid_of(p)] = p
+        if not p.get("bereinigt") and pid_of(p) not in pos_cls:
+            pos_cls[pid_of(p)] = p
 
     lcs = lifecycles(rows, idcol)
     decisions = {}  # row index -> (decision, reason, extra, basis)
@@ -335,7 +379,7 @@ def process_fund(fund, data_dir):
             dec, reason, extra = classify_poly(lc)
             basis = pricing.basis_of(lc["rows"][0][1]) if lc["rows"] else pricing.BASIS_ESTIMATE
         else:
-            dec, reason, extra, basis = classify_cross(lc, pos_by_id.get(lc["id"]))
+            dec, reason, extra, basis = classify_cross(lc, pos_cls.get(lc["id"]))
         n = len(lc["rows"])
         for j, (i, r) in enumerate(lc["rows"]):
             decisions[i] = (dec, reason, extra, basis)
