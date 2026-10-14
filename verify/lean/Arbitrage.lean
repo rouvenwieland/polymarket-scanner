@@ -204,4 +204,14 @@ theorem selling_below_cost_is_dominated (shares e p : ℚ) (hsh : 0 < shares) (h
     shares * p < shares * e ∧ shares * e < shares * 1 := by
   exact ⟨mul_lt_mul_of_pos_left hp hsh, mul_lt_mul_of_pos_left he hsh⟩
 
+/-! ## 7  Orderbuch statt Mittelkurs (pricing.py)
+Ein binärer Polymarket-Markt hat ein gespiegeltes Buch: Yes kaufen = ask, No kaufen = 1 − bid. -/
+
+/-- Bei gültigem Buch (bid ≤ ask) ist die ausführbare Kauf-Summe Yes+No immer ≥ 1:
+Yes+No < 1 kann im EINZELNEN Markt nie ausführbar sein, nur auf Mittel- und Letztkursen. -/
+theorem book_buy_sum_ge_one (bid ask : ℚ) (h : bid ≤ ask) : 1 ≤ ask + (1 - bid) := by linarith
+
+/-- Dual: die Verkaufs-Summe ist ≤ 1 (Bewertung zu Bids ist nie optimistischer als 1). -/
+theorem book_sell_sum_le_one (bid ask : ℚ) (h : bid ≤ ask) : bid + (1 - ask) ≤ 1 := by linarith
+
 end Scanner
