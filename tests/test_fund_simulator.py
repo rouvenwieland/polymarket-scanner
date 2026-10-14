@@ -114,3 +114,66 @@ def test_invarianten_ueber_mehrere_laeufe(profile_key, ticks, datadir):
         recon = fs.STARTING_CAPITAL + sum(float(r["betrag"]) for r in rows)
         assert abs(recon - state["cash"]) <= 1e-3 + 1e-4 * len(rows)
         assert all(math.isfinite(float(r["betrag"])) for r in rows)
+
+
+# ------------------------------------------------- Watcher: Fehler != "aufgeloest"
+class _Resp:
+    def __init__(self, status, payload=None):
+        self.status_code = status
+        self._p = payload
+
+    def raise_for_status(self):
+        if self.status_code >= 400:
+            import requests
+            raise requests.HTTPError(str(self.status_code))
+
+    def json(self):
+        if self._p is None:
+            raise ValueError("kein JSON")
+        return self._p
+
+
+def _state_with_position(profile):
+    fs.save_state(profile, {"cash": 50.0, "started": "x", "positions": [{
+        "market_id": "42", "frage": "F?", "slug": "f", "shares": 50.0, "einstandskurs": 0.9, "letzter_kurs": 0.9,
+        "liquiditaet": 100.0, "end_date": "2027-01-01T00:00:00Z", "eingestiegen": "x"}]})
+
+
+@pytest.mark.parametrize("behavior", ["timeout", "http500", "http429", "kaputtes_json"])
+def test_watcher_zahlt_bei_transienten_fehlern_nicht_aus(datadir, monkeypatch, behavior):
+    import requests
+    profile = fs.PROFILES["aggressive"]
+    _state_with_position(profile)
+
+    def fake_get(url, timeout=None, **kw):
+        if behavior == "timeout":
+            raise requests.Timeout("zu langsam")
+        if behavior == "http500":
+            return _Resp(500)
+        if behavior == "http429":
+            return _Resp(429)
+        return _Resp(200, None)
+
+    monkeypatch.setattr(requests, "get", fake_get)
+    fs.watch_positions_step(profile, NOW)
+    st = fs.load_state(profile)
+    assert st["cash"] == 50.0 and len(st["positions"]) == 1
+
+
+def test_watcher_zahlt_bei_eindeutigem_404_aus(datadir, monkeypatch):
+    import requests
+    profile = fs.PROFILES["aggressive"]
+    _state_with_position(profile)
+    monkeypatch.setattr(requests, "get", lambda url, timeout=None, **kw: _Resp(404))
+    fs.watch_positions_step(profile, NOW)
+    st = fs.load_state(profile)
+    assert st["positions"] == [] and st["cash"] == pytest.approx(100.0)
+
+
+def test_watcher_zahlt_bei_geschlossenem_markt_aus(datadir, monkeypatch):
+    import requests
+    profile = fs.PROFILES["aggressive"]
+    _state_with_position(profile)
+    monkeypatch.setattr(requests, "get", lambda url, timeout=None, **kw: _Resp(200, gamma(42, 1.0, 0.0, closed=True)))
+    fs.watch_positions_step(profile, NOW)
+    assert fs.load_state(profile)["positions"] == []

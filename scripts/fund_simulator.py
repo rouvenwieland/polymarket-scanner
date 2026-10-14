@@ -153,28 +153,39 @@ def parse_prices(market):
     return yes_p, no_p
 
 
-def fetch_market_by_id(market_id):
+def lookup_market(market_id):
     """Einzel-Lookup für den schnellen Watcher - viel billiger als eine volle
-    Keyset-Pagination über alle Märkte. Gibt None zurück, wenn der Markt nicht
-    (mehr) auffindbar ist (dann wird die Position als aufgelöst behandelt)."""
+    Keyset-Pagination über alle Märkte. Gibt (markt, status) zurück:
+      "ok"        - Marktdaten gefunden
+      "not_found" - BEIDE Adressen antworten eindeutig 404/leer (Markt existiert nicht mehr)
+      "error"     - Netzwerkfehler, Timeout, HTTP 429/5xx, kaputtes JSON: Zustand UNBEKANNT.
+    Frueher lieferten Fehler und 404 beide None und wurden beide als "aufgeloest" ausgezahlt - ein
+    einziger Timeout hat dadurch 1,00 USD/Paar gutgeschrieben."""
+    saw_error = False
     for url in (f"{GAMMA_URL}/{market_id}", f"{GAMMA_URL}/slug/{market_id}"):
         try:
             resp = requests.get(url, timeout=15)
         except requests.RequestException as e:
             print(f"[Warnung] Fehler beim Einzel-Lookup {market_id}: {e}")
-            return None
+            return None, "error"
         if resp.status_code == 404:
             continue
         try:
             resp.raise_for_status()
             data = resp.json()
         except (requests.RequestException, ValueError):
+            saw_error = True
             continue
         if isinstance(data, list):
             data = data[0] if data else None
         if isinstance(data, dict) and data:
-            return data
-    return None
+            return data, "ok"
+    return None, ("error" if saw_error else "not_found")
+
+
+def fetch_market_by_id(market_id):
+    """Kompatibilitaets-Wrapper (Cross-Platform-Fonds): Marktdaten oder None."""
+    return lookup_market(market_id)[0]
 
 
 def _empty_state():
@@ -402,7 +413,10 @@ def _mark_positions_via_lookup(profile, state, now):
     """Watcher-Variante: jede Position bekommt ihren eigenen Einzel-API-Call."""
     still_open = []
     for pos in state["positions"]:
-        market = fetch_market_by_id(pos["market_id"])
+        market, status = lookup_market(pos["market_id"])
+        if status == "error":
+            still_open.append(pos)  # Zustand unbekannt: halten, naechster Lauf versucht es erneut
+            continue
         decision = _evaluate_position(pos, market, profile)
         closed = _apply_decision(profile, state, pos, decision, now)
         if not closed:
