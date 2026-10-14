@@ -37,7 +37,11 @@ def test_verifizierte_echte_paare_bleiben_erhalten():
     pairs = json.load(open(os.path.join(HERE, "fixtures", "llm_true_pairs.json"), encoding="utf-8"))
     assert len(pairs) >= 60
     lost = [p for p in pairs if score(*p) < cp.SIMILARITY_THRESHOLD]
-    assert len(lost) <= 3, lost
+    # 2 der 60 "bestaetigten" Paare sind KI-Fehlurteile (generischer Kalshi-Titel "Both Teams To Score" ohne Teams):
+    # die Regelstufe verwirft sie jetzt zu Recht (_conflicting_generic).
+    wrong = [p for p in lost if p[1] == "Both Teams To Score"]
+    assert len(wrong) == 2
+    assert len(lost) - len(wrong) <= 3, lost
 
 
 words = st.sampled_from(["Will", "the", "Democrats", "Republicans", "win", "2026", "2027", "Senate", "House", "Ohio",
@@ -101,6 +105,13 @@ def test_umgekehrte_polaritaet_wird_verworfen(a, b):
 ])
 def test_gleiche_polaritaet_bleibt_erlaubt(a, b):
     assert not cp._opposite_polarity(a.lower(), b.lower())
+
+
+def test_generischer_titel_identifiziert_kein_konkretes_spiel():
+    a = "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score"
+    b = "Both Teams To Score"
+    assert cp._conflicting_generic(cp._tokenize(a), cp._tokenize(b))
+    assert score(a, b) < cp.SIMILARITY_THRESHOLD
 
 
 def test_llm_prompt_nennt_polaritaet():

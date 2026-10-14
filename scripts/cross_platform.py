@@ -502,6 +502,18 @@ def _opposite_polarity(question_a, question_b):
     return False
 
 
+def _conflicting_generic(title_tokens_a, title_tokens_b):
+    """Fuenfter-Art Gegenbeweis (Live-Befund 14.10.): ein generischer Kurztitel ("Both Teams To Score", <= 4
+    Inhaltstokens) ist KEINE Identitaet eines konkreten Spiels. Die Teamnamen-Pruefung (_conflicting_matchup) greift nur
+    bei Teamnamen bis 4 Woerter; "CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score" lief
+    durch. Hier: Tokenmenge der einen Seite ist (<= 4 Tokens) echte Teilmenge der anderen, die >= 3 weitere traegt."""
+    for small, big in ((title_tokens_a, title_tokens_b), (title_tokens_b, title_tokens_a)):
+        sm, bg = _non_numeric(small), _non_numeric(big)
+        if sm and len(sm) <= 4 and sm < bg and len(bg - sm) >= 3:
+            return True
+    return False
+
+
 def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, full_tokens_b, question_b,
                      embedding_score=None):
     if (
@@ -512,6 +524,7 @@ def _combined_score(title_tokens_a, full_tokens_a, question_a, title_tokens_b, f
         or _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b)
         or _conflicting_bet_aspect(question_a, question_b)
         or _opposite_polarity(question_a, question_b)
+        or _conflicting_generic(title_tokens_a, title_tokens_b)
     ):
         return 0.0
     # Schutz gegen entartete Kurz-Titel: wenn nach Tokenisierung auf einer
