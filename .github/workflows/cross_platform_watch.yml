@@ -16,6 +16,9 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
+    # Ohne Timeout gilt das 360-min-Standardlimit; ein haengender Lauf wuerde wegen der
+    # gemeinsamen Concurrency-Gruppe alle anderen Workflows bis dahin blockieren.
+    timeout-minutes: 30
     steps:
       - name: Repo auschecken
         uses: actions/checkout@v4
