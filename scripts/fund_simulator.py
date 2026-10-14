@@ -65,6 +65,10 @@ DATA_DIR = "data"
 STARTING_CAPITAL = 100.0
 MIN_TRADE_NOTIONAL = 2.0          # Trades unter diesem Betrag lohnen sich nicht (Rundungsrauschen)
 MAX_EFFECTIVE_BUY_PRICE = 0.999   # universeller Sicherheitsnetz-Wert: nie zu einem Garantie-Verlust kaufen
+# Plausibilitaets-Untergrenze fuer Yes+No: eine "Arbitrage" von > 50 % ist kein Markt-, sondern ein
+# Datenartefakt (fehlende Gegenseite, Platzhalterkurse). Ohne Untergrenze gaebe es bei Summe -> 0
+# beliebig viele Anteile pro Dollar (shares = notional / summe) und damit erfundenes Kapital.
+MIN_PLAUSIBLE_SUM = 0.5
 
 # ---------------------------------------------------------------------
 # Strategie-Profile
@@ -136,9 +140,17 @@ def parse_prices(market):
         return None
     yi, ni = idx_map["yes"], idx_map["no"]
     try:
-        return float(prices[yi]), float(prices[ni])
+        yes_p, no_p = float(prices[yi]), float(prices[ni])
     except (ValueError, TypeError):
         return None
+    # Unsinnige Kurse (NaN/inf, negativ, > 1) und die Platzhalter-Kombination 0/0
+    # ("kein Kurs") waeren sonst als Yes+No<1-"Treffer" durchgerutscht bzw. haetten
+    # mit Summe 0 eine Division durch null im Positionsgroessen-Code ausgeloest.
+    if not (math.isfinite(yes_p) and math.isfinite(no_p)):
+        return None
+    if not (0.0 <= yes_p <= 1.0 and 0.0 <= no_p <= 1.0) or yes_p + no_p <= 0.0:
+        return None
+    return yes_p, no_p
 
 
 def fetch_market_by_id(market_id):
@@ -338,7 +350,10 @@ def _evaluate_position(pos, market, profile):
         notional = pos["shares"] * current_sum
         impact = profile["impact_coefficient"] * (notional / max(liquidity_now, 1.0))
         effective_sum = current_sum * (1 - min(impact, 0.3))
-        return {"action": "sell", "effective_sum": effective_sum, "current_sum": current_sum}
+        # Halten zahlt bei Aufloesung garantiert 1,00/Paar: ein Verkauf, der (nach Impact)
+        # unter dem Einstandskurs liegt, wuerde einen sicheren Verlust realisieren.
+        if effective_sum >= pos.get("einstandskurs", 0.0):
+            return {"action": "sell", "effective_sum": effective_sum, "current_sum": current_sum}
 
     return {"action": "hold", "current_sum": current_sum}
 
@@ -459,6 +474,8 @@ def _select_new_trades(profile, state, hits, now):
     for h in hits:
         if h["market_id"] in open_ids:
             continue
+        if not MIN_PLAUSIBLE_SUM <= h["summe"] < 1.0:
+            continue  # Summe ~0 ("kein Kurs") wuerde durch 0 teilen, < 0,5 ist ein Datenartefakt
         spread = 1.0 - h["summe"]
         if spread < profile["min_spread"] or h["liquiditaet"] < profile["min_liquidity"]:
             continue

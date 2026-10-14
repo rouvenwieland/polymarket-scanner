@@ -172,7 +172,7 @@ def _select_new_trades(profile, state, markets, now):
         if m["market_id"] in open_ids:
             continue
         summe = m["yes_price"] + m["no_price"]
-        if summe >= 1.0:
+        if summe >= 1.0 or summe < fund_simulator.MIN_PLAUSIBLE_SUM:
             continue
         liquidity = m.get("liquidity") or 0.0
         fee_per_share = _entry_fee(platform, 1.0, m["yes_price"], m["no_price"])
