@@ -178,6 +178,25 @@ def _leg_entry_fee(platform, shares, price):
     return 0.0  # Polymarket: keine Fee. PredictIt: Gewinn-Fee erst bei Settlement.
 
 
+def _worst_case_settle_fee_per_share(ma, mb, price_a, price_b):
+    """Hoechste Gebuehr, die bei Aufloesung je Anteil faellig werden kann. PredictIt nimmt 10 % auf den
+    Gewinn des GEWINNENDEN Beins (siehe _settle_leg); gewinnt genau dieses Bein, schrumpft der Paar-Gewinn
+    um 0,10 * (1 - Einsatz). Fuer die Auswahl muss der schlechteste der beiden Ausgaenge zaehlen, sonst
+    entstehen Positionen mit garantiertem Verlust in einem der Ausgaenge."""
+    fee_a = predictit.FEE_RATE_PROFIT * max(0.0, 1.0 - price_a) if ma["platform"] == "predictit" else 0.0
+    fee_b = predictit.FEE_RATE_PROFIT * max(0.0, 1.0 - price_b) if mb["platform"] == "predictit" else 0.0
+    return max(fee_a, fee_b)
+
+
+def _leg_effective_price(price, shares, liquidity):
+    """Linearer Kaufimpact (wie fund_simulator): Preis steigt mit Orderwert/Liquiditaet, hoechstens +30 %.
+    Ohne bekannte Liquiditaet (<= 0) gibt es keine Datenbasis - dann wird der notierte Preis genommen
+    (dort begrenzt UNKNOWN_LIQUIDITY_LEG_CAP die Groesse)."""
+    if liquidity is None or liquidity <= 0:
+        return price
+    return price * (1.0 + min(IMPACT_COEFFICIENT * shares * price / liquidity, 0.3))
+
+
 def _max_shares_for_edge(price_a, liquidity_a, price_b, liquidity_b, fee_per_share):
     """Größte Stückzahl für EIN Anteilspaar (beide Beine zusammen), bei der
     der simulierte Kaufimpact - je Bein an dessen EIGENE bekannte Liquidität
@@ -227,7 +246,14 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         # Gelegenheiten überhaupt in Betracht kommen.
         price_a = ma["yes_price"] if side_a == "yes" else ma["no_price"]
         price_b = mb["yes_price"] if side_b == "yes" else mb["no_price"]
-        est_fee_per_share = _leg_entry_fee(ma["platform"], 1.0, price_a) + _leg_entry_fee(mb["platform"], 1.0, price_b)
+        if not (0.0 < price_a < 1.0 and 0.0 < price_b < 1.0):
+            continue  # Preis 0 ("kein Angebot") bzw. 1 ist nicht handelbar und wuerde durch 0 teilen
+        if summe < fund_simulator.MIN_PLAUSIBLE_SUM:
+            continue  # "Arbitrage" > 50 %: Datenartefakt bzw. Fehl-Match, nicht handelbar
+        est_fee_per_share = (
+            _leg_entry_fee(ma["platform"], 1.0, price_a) + _leg_entry_fee(mb["platform"], 1.0, price_b)
+            + _worst_case_settle_fee_per_share(ma, mb, price_a, price_b)
+        )
         spread = 1.0 - summe - est_fee_per_share
         if spread < MIN_SPREAD:
             continue
@@ -305,9 +331,19 @@ def _execute_buy(profile, state, c, shares, now):
 
     price_a = ma["yes_price"] if c["side_a"] == "yes" else ma["no_price"]
     price_b = mb["yes_price"] if c["side_b"] == "yes" else mb["no_price"]
-    fee_a = _leg_entry_fee(ma["platform"], shares, price_a)
-    fee_b = _leg_entry_fee(mb["platform"], shares, price_b)
-    total_cost = shares * price_a + shares * price_b + fee_a + fee_b
+    liq_a, liq_b = ma.get("liquidity") or 0.0, mb.get("liquidity") or 0.0
+
+    def cost_of(n):
+        # Der Kaufimpact wird BEZAHLT (nicht nur als Groessenlimit genutzt): jedes Bein kostet
+        # den um den linearen Impact erhoehten Preis - dasselbe Modell, mit dem
+        # _max_shares_for_edge die Stueckzahl begrenzt.
+        eff_a = _leg_effective_price(price_a, n, liq_a)
+        eff_b = _leg_effective_price(price_b, n, liq_b)
+        fa = _leg_entry_fee(ma["platform"], n, price_a)
+        fb = _leg_entry_fee(mb["platform"], n, price_b)
+        return eff_a, eff_b, fa, fb, n * eff_a + n * eff_b + fa + fb
+
+    eff_a, eff_b, fee_a, fee_b, total_cost = cost_of(shares)
     if total_cost > state["cash"]:
         # Die Gebühr steckt nicht in der ursprünglichen Notional-Berechnung -
         # bei knapper Kasse (v.a. beim 100-USD-Fonds) kann das Budget dadurch
@@ -320,9 +356,7 @@ def _execute_buy(profile, state, c, shares, now):
         # Bruchteile eines Cents knapp wieder überschreiten.
         scale = 0.998 * state["cash"] / total_cost
         shares *= scale
-        fee_a = _leg_entry_fee(ma["platform"], shares, price_a)
-        fee_b = _leg_entry_fee(mb["platform"], shares, price_b)
-        total_cost = shares * price_a + shares * price_b + fee_a + fee_b
+        eff_a, eff_b, fee_a, fee_b, total_cost = cost_of(shares)
         if total_cost > state["cash"] or shares * c["summe"] < fund_simulator.MIN_TRADE_NOTIONAL:
             return False  # auch nach Rückskalierung zu knapp - Sicherheitsnetz
 
@@ -335,15 +369,15 @@ def _execute_buy(profile, state, c, shares, now):
         "eingestiegen": now.isoformat(),
         "leg_a": {
             "platform": ma["platform"], "market_id": ma["market_id"], "side": c["side_a"],
-            "einstandskurs": price_a, "letzter_kurs": price_a, "fee_gezahlt": fee_a,
+            "einstandskurs": eff_a, "letzter_kurs": eff_a, "fee_gezahlt": fee_a,
         },
         "leg_b": {
             "platform": mb["platform"], "market_id": mb["market_id"], "side": c["side_b"],
-            "einstandskurs": price_b, "letzter_kurs": price_b, "fee_gezahlt": fee_b,
+            "einstandskurs": eff_b, "letzter_kurs": eff_b, "fee_gezahlt": fee_b,
         },
     })
     log_trade(profile, now.isoformat(), "KAUF", c["pair_id"], state["positions"][-1]["frage"],
-              shares, c["summe"], -total_cost, state["cash"],
+              shares, eff_a + eff_b, -total_cost, state["cash"],
               f"Spread {c['spread']*100:.2f}% nach geschaetzten Gebuehren, Edge-Limit {c['shares_cap']:.0f} Anteile, "
               f"Beine: {ma['platform']}/{c['side_a']} + {mb['platform']}/{c['side_b']}")
     return True
