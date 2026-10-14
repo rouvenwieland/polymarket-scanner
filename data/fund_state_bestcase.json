@@ -1,30 +1,5 @@
 {
-  "cash": 0.0,
-  "positions": [
-    {
-      "market_id": "5535737",
-      "frage": "Exact Score: AIK 4 - 4 IFK Goteborg?",
-      "slug": "swe-aik-ifk-2026-10-17-exact-score-4-4",
-      "shares": 50.255963892806676,
-      "einstandskurs": 0.995,
-      "letzter_kurs": 0.995,
-      "liquiditaet": 177.6995,
-      "end_date": "2026-10-17T15:30:00Z",
-      "eingestiegen": "2026-10-14T21:42:22.642922+02:00",
-      "preisbasis": "schaetzung"
-    },
-    {
-      "market_id": "4227805",
-      "frage": "Will Nico Iamaleava be the 2026 Big Ten Passing Yards Leader?",
-      "slug": "will-nico-iamaleava-be-the-2026-big-ten-passing-yards-leader",
-      "shares": 50.255963892806676,
-      "einstandskurs": 0.9950000000000001,
-      "letzter_kurs": 0.9950000000000001,
-      "liquiditaet": 9.5778,
-      "end_date": "2026-12-06T23:59:00Z",
-      "eingestiegen": "2026-10-14T21:42:22.642922+02:00",
-      "preisbasis": "schaetzung"
-    }
-  ],
+  "cash": 100.0094,
+  "positions": [],
   "started": "2026-09-28T09:52:55.524283+02:00"
 }

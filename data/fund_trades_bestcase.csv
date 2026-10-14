@@ -1,3 +1,1 @@
-timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz,preisbasis
-2026-10-14T21:42:22.642922+02:00,KAUF,5535737,Exact Score: AIK 4 - 4 IFK Goteborg?,50.256,0.995,-50.0047,50.0047,"Spread 0.50%, Liquiditaet 178 USD",schaetzung
-2026-10-14T21:42:22.642922+02:00,KAUF,4227805,Will Nico Iamaleava be the 2026 Big Ten Passing Yards Leader?,50.256,0.995,-50.0047,0.0,"Spread 0.50%, Liquiditaet 10 USD",schaetzung
+timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz,preisbasis,bereinigung

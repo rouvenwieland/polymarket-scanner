@@ -178,3 +178,17 @@ def test_watcher_zahlt_bei_geschlossenem_markt_aus(datadir, monkeypatch):
     monkeypatch.setattr(requests, "get", lambda url, timeout=None, **kw: _Resp(200, gamma(42, 1.0, 0.0, closed=True)))
     fs.watch_positions_step(profile, NOW)
     assert fs.load_state(profile)["positions"] == []
+
+
+def test_anhaengen_behaelt_zusatzspalten_und_schreibt_die_datei_nicht_um(datadir):
+    """Runde 2 (Snapshot ceddafb): jeder Workflow-Lauf schrieb die History-/Trades-Datei auf seinen eigenen Header um
+    und warf die Spalten 'bereinigt'/'bereinigung' der Bereinigung weg (Hunderte geaenderte Zeilen je Lauf)."""
+    path = datadir / "t.csv"
+    path.write_text("timestamp,kasse,bereinigt\r\n2026-10-01,100.0,1\r\n", encoding="utf-8", newline="")
+    fs._append_csv(str(path), ["timestamp", "kasse"], {"timestamp": "2026-10-02", "kasse": 99.0})
+    rows = list(csv.DictReader(open(path, newline="", encoding="utf-8")))
+    assert [r["bereinigt"] for r in rows] == ["1", ""]
+    assert path.read_bytes().startswith(b"timestamp,kasse,bereinigt\r\n2026-10-01,100.0,1\r\n")  # nur angehaengt
+    fs._append_csv(str(path), ["timestamp", "kasse", "neu"], {"timestamp": "2026-10-03", "kasse": 98.0, "neu": 7})
+    rows = list(csv.DictReader(open(path, newline="", encoding="utf-8")))
+    assert [r["neu"] for r in rows] == ["", "", "7"] and rows[0]["bereinigt"] == "1"

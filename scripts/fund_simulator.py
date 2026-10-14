@@ -206,7 +206,9 @@ def _append_csv(path, fieldnames, row):
         with open(path, "r", newline="", encoding="utf-8") as f:
             reader = csv.reader(f)
             existing_header = next(reader, None)
-        if existing_header is not None and existing_header != fieldnames:
+        merged = (list(existing_header) + [f for f in fieldnames if f not in existing_header]
+                  if existing_header is not None else list(fieldnames))
+        if existing_header is not None and merged != existing_header:
             # Schema hat sich erweitert (z.B. neue Kennzahl-Spalten) - alte
             # Zeilen behalten, aber auf den neuen Header migrieren, damit
             # csv.DictReader nicht an der Spaltenzahl verrutscht. Fehlende
@@ -215,13 +217,15 @@ def _append_csv(path, fieldnames, row):
             with open(path, "r", newline="", encoding="utf-8") as f:
                 old_rows = list(csv.DictReader(f))
             with open(path, "w", newline="", encoding="utf-8") as f:
-                writer = csv.DictWriter(f, fieldnames=fieldnames)
+                writer = csv.DictWriter(f, fieldnames=merged)
                 writer.writeheader()
                 for old_row in old_rows:
-                    writer.writerow({k: old_row.get(k, "") for k in fieldnames})
-            file_exists = True
-        else:
-            file_exists = True
+                    writer.writerow({k: old_row.get(k, "") for k in merged})
+        # Vorhandene Zusatzspalten (z.B. "bereinigung"/"bereinigt" aus scripts/bereinigung.py) bleiben erhalten.
+        # Frueher schrieb jeder Lauf die ganze Datei auf den eigenen Header um und warf sie weg (Snapshot ceddafb:
+        # 235-271 geaenderte Zeilen je History-Datei, Bereinigungsmarken verloren, unnoetige Merge-Konflikte).
+        fieldnames = merged
+        file_exists = existing_header is not None
     else:
         file_exists = False
 

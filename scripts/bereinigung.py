@@ -157,37 +157,53 @@ def archive_originals(data_dir):
             f.write("# Sicherung vor der Bereinigung\n\nUnveraenderte Originale der Fonds-Dateien (trades, history, state) "
                     "vom Stand vor `scripts/bereinigung.py`. Vorhandene Zeilen werden nie veraendert; neue Rohzeilen spaeterer "
                     "Workflow-Laeufe werden nur ANGEHAENGT (append-only, siehe extend_archive). Pruefsummen: SHA256SUMS.txt. "
-                    "Die Bereinigung berechnet ihren Stand immer aus dieser Sicherung.\n")
+                    "Die Bereinigung berechnet ihren Stand immer aus dieser Sicherung. Damit die Sicherung fuer sich "
+                    "konsistent bleibt, bucht das Anhaengen die Betraege auch auf die Kasse in den state-Dateien und "
+                    "entfernt Positionen, deren Lebenszyklus inzwischen geschlossen ist (Kasse = Start + Summe der "
+                    "Handelsliste, Positionen = offene Lebenszyklen).\n")
     return copied
 
 
 def extend_archive(data_dir):
     """Haengt Live-ROHZEILEN, die noch nicht in der Sicherung stehen (neue Workflow-Laeufe), append-only an die
     Sicherung an (Trades und offene Positionen). Bereits vorhandene Originalzeilen werden nie veraendert. So bleibt
-    die Eingabe der Bereinigung reproduzierbar und ein erneuter Lauf liefert dasselbe Protokoll."""
+    die Eingabe der Bereinigung reproduzierbar und ein erneuter Lauf liefert dasselbe Protokoll.
+    Die Sicherung bleibt dabei FUER SICH konsistent: Kasse der Sicherung = Start + Summe ihrer Handelsliste
+    (angehaengte Betraege werden auf ihre Kasse gebucht) und ihre Positionen = offene Lebenszyklen ihrer Handelsliste
+    (angehaengte Schliessungen entfernen die Position). Frueher wurden nur Zeilen und Positionen angehaengt, die Kasse
+    nicht: nach den zwei Kaeufen des Snapshots ceddafb (14.10.) wich die Best-Case-Sicherung um 100 USD ab."""
     touched = []
     for fund in FUNDS:
         arch_t = os.path.join(data_dir, ARCHIVE_SUB, fund["trades"])
         live_t = os.path.join(data_dir, fund["trades"])
         idcol = fund["idcol"]
+        appended, a_rows = [], None
         if os.path.isfile(arch_t) and os.path.isfile(live_t):
             a_rows, a_fields = read_csv(arch_t)
             l_rows, l_fields = read_csv(live_t)
             a_keys = set(row_keys(a_rows, idcol))
-            new = [r for r, k in zip(l_rows, row_keys(l_rows, idcol)) if k not in a_keys]
-            if new:
+            appended = [r for r, k in zip(l_rows, row_keys(l_rows, idcol)) if k not in a_keys]
+            if appended:
                 fields = list(a_fields) + [f for f in l_fields if f not in a_fields]
-                write_csv(arch_t, fields, a_rows + new)
+                a_rows = a_rows + appended
+                write_csv(arch_t, fields, a_rows)
                 touched.append(fund["trades"])
         arch_s = os.path.join(data_dir, ARCHIVE_SUB, fund["state"])
         live_s = os.path.join(data_dir, fund["state"])
         if os.path.isfile(arch_s) and os.path.isfile(live_s):
             a, l = read_json(arch_s), read_json(live_s)
-            have = {p.get(idcol) or p.get("pair_id") or p.get("market_id") for p in a.get("positions", [])}
-            new_pos = [p for p in l.get("positions", []) if not p.get("bereinigt")
-                       and (p.get(idcol) or p.get("pair_id") or p.get("market_id")) not in have]
-            if new_pos:
-                a["positions"] = a.get("positions", []) + new_pos
+            before = json.dumps(a, sort_keys=True)
+            pid = lambda p: p.get(idcol) or p.get("pair_id") or p.get("market_id")
+            if appended:
+                a["cash"] = a.get("cash", fund["start"]) + sum(num(r["betrag"]) for r in appended)
+            have = {pid(p) for p in a.get("positions", [])}
+            positions = a.get("positions", []) + [p for p in l.get("positions", [])
+                                                  if not p.get("bereinigt") and pid(p) not in have]
+            if a_rows is not None:
+                still_open = {lc["id"] for lc in lifecycles(a_rows, idcol) if not lc["closed"]}
+                positions = [p for p in positions if pid(p) in still_open]
+            a["positions"] = positions
+            if json.dumps(a, sort_keys=True) != before:
                 write_json(arch_s, a)
                 touched.append(fund["state"])
     return touched

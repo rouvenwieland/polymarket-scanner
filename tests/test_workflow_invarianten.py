@@ -128,7 +128,7 @@ run_spec = st.tuples(st.sampled_from(["snapshot", "fund_watch", "multi_scan", "c
                      st.lists(poly_spec, max_size=5), st.lists(cross_spec, max_size=3))
 
 
-def check_invariants(d):
+def check_invariants(d, strict=True):
     for f in SIM_FUNDS:
         sp = os.path.join(d, f["state"])
         if not os.path.isfile(sp):
@@ -142,7 +142,7 @@ def check_invariants(d):
         state_ids = sorted(p.get("pair_id") or p.get("market_id") for p in state["positions"])
         assert open_ids == state_ids, (f["key"], "I3")
         for t in trades:
-            if t["aktion"] == "KAUF" and when(t) >= T0:
+            if strict and t["aktion"] == "KAUF" and when(t) >= T0:
                 assert t.get("preisbasis") == pricing.BASIS_EXECUTABLE, (f["key"], "I4 Schaetzkurs-Kauf", t["frage"], t["notiz"])
 
 
@@ -151,7 +151,7 @@ def new_rows(d):
                        if when(t) >= T0] for f in SIM_FUNDS}
 
 
-def simulate(d, runs):
+def simulate(d, runs, t0=T0, strict=True):
     world = World()
     with patched((fs, "DATA_DIR", d), (fs, "lookup_market", world.lookup),
                  (fs, "fetch_market_by_id", lambda mid: world.poly.get(mid)),
@@ -160,7 +160,7 @@ def simulate(d, runs):
                  (sxbet, "fetch_market_by_hash", lambda h: None), (sxbet, "fetch_market_meta", lambda h: None),
                  (llm_verify, "verify_candidates", lambda cands: {llm_verify._pair_key(a, b): True for a, b in cands})):
         for k, (kind, polys, crosses) in enumerate(runs):
-            now = T0 + timedelta(hours=3 * k)
+            now = t0 + timedelta(hours=3 * k)
             markets = [world.poly_market(s) for s in polys]
             matches = [world.cross_match(c) for c in crosses]
             if kind == "snapshot":
@@ -171,7 +171,7 @@ def simulate(d, runs):
                 cpf.run_all_fund_steps(matches, now)
             else:
                 cpf.watch_all_positions_step(now)
-            check_invariants(d)
+            check_invariants(d, strict)
 
 
 @settings(max_examples=20, deadline=None, derandomize=True, suppress_health_check=[HealthCheck.too_slow])
@@ -238,3 +238,108 @@ def test_dasselbe_paar_zweimal_in_einem_lauf_wird_einmal_gekauft():
 
 def test_spread_schwelle_wie_in_der_bereinigung():
     assert cpf.MAX_PLAUSIBLE_SPREAD == bd.MAX_PLAUSIBLE_SPREAD
+
+
+# ------------------------------------------------------------------ Merge mit Workflow-Laeufen (Snapshot ceddafb, 14.10.)
+def check_archive(d):
+    """Die Sicherung muss fuer sich konsistent bleiben: sie dient spaeteren Laeufen (und den Tests) als 'unbereinigter
+    Stand'. Kasse = Start + Summe ihrer Handelsliste, Positionen = offene Lebenszyklen."""
+    arch = os.path.join(d, bd.ARCHIVE_SUB)
+    for f in bd.FUNDS:
+        st = bd.read_json(os.path.join(arch, f["state"]))
+        if st is None:
+            continue
+        rows, _ = bd.read_csv(os.path.join(arch, f["trades"]))
+        ledger = f["start"] + sum(float(r["betrag"]) for r in rows)
+        assert abs(st["cash"] - ledger) < bd.TOLERANCE, (f["key"], "Sicherung: Kasse", st["cash"], ledger)
+        opn = sorted(lc["id"] for lc in bd.lifecycles(rows, f["idcol"]) if not lc["closed"])
+        pos = sorted(p.get(f["idcol"]) or p.get("pair_id") or p.get("market_id") for p in st["positions"])
+        assert opn == pos, (f["key"], "Sicherung: Positionen")
+
+
+def rebuild_from_archive(d, tmp):
+    """Wie tests/test_bereinigung.py (real_copy): die Sicherung als unbereinigte Live-Daten neu bereinigen."""
+    o = os.path.join(tmp, "orig")
+    os.makedirs(o)
+    for f in bd.FUNDS:
+        for k in ("trades", "history", "state"):
+            p = os.path.join(d, bd.ARCHIVE_SUB, f[k])
+            if os.path.isfile(p):
+                shutil.copy2(p, os.path.join(o, f[k]))
+    bd.run(o)
+    check_invariants(o)
+
+
+def snapshot_hashes(d):
+    import glob
+    import hashlib
+    return {os.path.relpath(p, d): hashlib.sha256(open(p, "rb").read()).hexdigest()
+            for p in glob.glob(os.path.join(d, "**", "*"), recursive=True) if os.path.isfile(p)}
+
+
+def test_alter_workflow_kauft_auf_schaetzkurs_bereinigung_bleibt_konsistent():
+    """Genau der Vorfall: der Snapshot auf main (alter Code, REQUIRE_EXECUTABLE aus) kaufte im bereinigten Best-Case-
+    Fonds zwei Schaetzkurs-Positionen. Merge + Bereinigung: die zwei Kaeufe fliegen raus, Kasse wieder 100,0094.
+    Vorher blieb die Sicherung inkonsistent (Zeilen angehaengt, Kasse nicht) -> 10 Tests rot ('Kasse 200,0188 weicht
+    von Handelsliste 100,0000 ab'), sobald jemand die Sicherung als unbereinigten Stand liest."""
+    with tempfile.TemporaryDirectory() as tmp:
+        d = os.path.join(tmp, "data")
+        os.makedirs(d)
+        clean_copy(d)
+        cash0 = json.load(open(os.path.join(d, "fund_state_bestcase.json"), encoding="utf-8"))["cash"]
+        with patched((pricing, "REQUIRE_EXECUTABLE", False)):
+            simulate(d, [("snapshot", [{"i": 1, "yes": 0.40, "no": 0.595, "book": None, "liq": 180.0, "closed": False},
+                                       {"i": 2, "yes": 0.30, "no": 0.695, "book": None, "liq": 10.0, "closed": False}], [])],
+                     strict=False)
+        assert [t for t in rd(os.path.join(d, "fund_trades_bestcase.csv")) if t["aktion"] == "KAUF"]
+        bd.run(d)
+        check_invariants(d)
+        check_archive(d)
+        assert abs(json.load(open(os.path.join(d, "fund_state_bestcase.json"), encoding="utf-8"))["cash"] - cash0) < 1e-6
+        first = snapshot_hashes(d)
+        bd.run(d)
+        assert snapshot_hashes(d) == first, "zweiter Lauf nicht idempotent"
+        rebuild_from_archive(d, tmp)
+
+
+def test_schliessung_spaeterer_laeufe_entfernt_position_aus_der_sicherung():
+    """Kauf in Lauf 1, Auszahlung in Lauf 2 (je mit Bereinigung dazwischen): die Sicherung fuehrt die Position danach
+    nicht mehr als offen (sonst zaehlte sie 'Positionen vorher' falsch und waere nicht mehr fuer sich konsistent)."""
+    c = {"j": 3, "ya": 0.46, "na": 0.56, "yb": 0.55, "nb": 0.47, "basis_b": pricing.BASIS_EXECUTABLE,
+         "liq_a": 4000.0, "liq_b": 4000.0, "resolve": None}
+    with tempfile.TemporaryDirectory() as tmp:
+        d = os.path.join(tmp, "data")
+        os.makedirs(d)
+        clean_copy(d)
+        simulate(d, [("multi_scan", [], [c])])
+        bd.run(d)
+        check_archive(d)
+        arch_state = bd.read_json(os.path.join(d, bd.ARCHIVE_SUB, "fund_state_crossplatform_1k.json"))
+        assert any("KXSIM-3" in p["pair_id"] for p in arch_state["positions"])
+        simulate(d, [("cross_watch", [], [dict(c, resolve="yes")])], t0=T0 + timedelta(days=1))
+        bd.run(d)
+        check_invariants(d)
+        check_archive(d)
+        arch_state = bd.read_json(os.path.join(d, bd.ARCHIVE_SUB, "fund_state_crossplatform_1k.json"))
+        assert not any("KXSIM-3" in p["pair_id"] for p in arch_state["positions"])
+        rebuild_from_archive(d, tmp)
+
+
+@settings(max_examples=10, deadline=None, derandomize=True, suppress_health_check=[HealthCheck.too_slow])
+@given(st.lists(run_spec, min_size=1, max_size=4), st.lists(run_spec, min_size=1, max_size=4))
+def test_mehrere_merges_mit_workflow_laeufen_bleiben_idempotent_und_konsistent(phase1, phase2):
+    """Workflow-Laeufe -> Bereinigung -> weitere Laeufe -> Bereinigung: Live-Daten und Sicherung bleiben konsistent,
+    jeder Bereinigungslauf ist idempotent, und die Sicherung laesst sich als unbereinigter Stand neu bereinigen."""
+    with tempfile.TemporaryDirectory() as tmp:
+        d = os.path.join(tmp, "data")
+        os.makedirs(d)
+        clean_copy(d)
+        for n, phase in enumerate((phase1, phase2)):
+            simulate(d, phase, t0=T0 + timedelta(days=n))
+            bd.run(d)
+            check_invariants(d)
+            check_archive(d)
+            first = snapshot_hashes(d)
+            bd.run(d)
+            assert snapshot_hashes(d) == first
+        rebuild_from_archive(d, tmp)
