@@ -201,13 +201,9 @@ def rebuild_summary(tz):
     print(f"Summary aktualisiert: {len(out_rows)} Märkte insgesamt erfasst.")
 
 
-def main():
-    tz = ZoneInfo(TIMEZONE)
-    now = datetime.now(tz)
-
-    print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: lade Märkte...")
-    markets, fetch_complete = fetch_all_open_markets_checked()
-
+def build_hits(markets, now):
+    """Treffer dieses Laufs (Yes+No < THRESHOLD auf Kaufpreisen) - genau die Zeilen, die in snapshots.csv landen und
+    die der Fonds-Schritt als Kaufkandidaten bekommt."""
     rows = []
     for m in markets:
         parsed = pricing.buy_quotes(m)  # Orderbuch-Ask wenn vorhanden, sonst Schaetzung (gekennzeichnet)
@@ -231,6 +227,17 @@ def main():
                 "end_date": m.get("endDate") or "",
                 "preisbasis": parsed.basis,
             })
+    return rows
+
+
+def main():
+    tz = ZoneInfo(TIMEZONE)
+    now = datetime.now(tz)
+
+    print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: lade Märkte...")
+    markets, fetch_complete = fetch_all_open_markets_checked()
+
+    rows = build_hits(markets, now)
 
     print(f"{len(markets)} Märkte geprüft, {len(rows)} Treffer unter Schwelle {THRESHOLD}.")
 

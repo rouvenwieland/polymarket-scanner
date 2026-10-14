@@ -33,9 +33,11 @@ LABELS = {
     BASIS_ESTIMATE: "Schätzung, nicht ausführbar (Mittel-/Letztkurs)",
 }
 
-# True = Kandidaten auf reiner Schaetzbasis werden NICHT gehandelt (empfohlen, aber nicht Standard:
-# der Standard bevorzugt ausfuehrbare Preise und kennzeichnet den Rest sichtbar).
-REQUIRE_EXECUTABLE = False
+# True = auf reiner Schaetzbasis wird NICHT gehandelt: kein Kauf, kein Verkauf, keine Bewertung aus outcomePrices.
+# Seit der Bereinigung vom 14.10.2026 Standard: sie hat alle Schaetzkurs-Kaeufe entfernt (Regel R1); mit False haette
+# schon der naechste Workflow-Lauf genau diese Trades wieder erzeugt (tests/test_workflow_invarianten.py).
+# Im einzelnen Polymarkt-Markt ist Yes+No < 1 auf ausfuehrbaren Preisen ohnehin unmoeglich (Lean book_buy_sum_ge_one).
+REQUIRE_EXECUTABLE = True
 
 Quotes = namedtuple("Quotes", "yes no basis")
 

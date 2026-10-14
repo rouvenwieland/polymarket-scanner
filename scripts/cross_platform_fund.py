@@ -66,6 +66,7 @@ from platforms import kalshi, predictit, sxbet
 import cross_platform
 
 MIN_SPREAD = 0.03                 # nach grob geschätzten Gebühren noch 3 Cent Edge pro Paar nötig
+MAX_PLAUSIBLE_SPREAD = 0.25       # darüber: Daten-/Fehlmatch-Artefakt (Regel R3 der Bereinigung, gleiche Schwelle)
 IMPACT_COEFFICIENT = 0.15         # gleicher Wert wie bei den Polymarket-Fonds (fund_simulator.py)
 UNKNOWN_LIQUIDITY_LEG_CAP = 10.0  # Not-Deckel NUR für Beine ohne verifizierte Liquidität (aktuell: PredictIt)
 MAX_OPEN_POSITIONS = 15
@@ -246,6 +247,7 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         pair_id = f"{ma['platform']}:{ma['market_id']}__{mb['platform']}:{mb['market_id']}"
         if pair_id in open_pair_ids:
             continue
+        open_pair_ids.add(pair_id)  # dasselbe Paar zweimal in einem Lauf: nur einmal kaufen (sonst 2 offene Zyklen je ID)
         side_a, side_b, summe = cross_platform.best_arbitrage_combo(ma, mb)
 
         # grobe Gebührenabschätzung für die Auswahl (bei 1 Anteil) - reduziert
@@ -268,6 +270,8 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         spread = 1.0 - summe - est_fee_per_share
         if spread < MIN_SPREAD:
             continue
+        if spread > MAX_PLAUSIBLE_SPREAD:
+            continue  # wie Bereinigung R3: so grosse "Arbitrage" war immer Platzhalterkurs oder Fehl-Match
 
         end_a = fund_simulator._days_to_end(ma.get("end_date"), now)
         end_b = fund_simulator._days_to_end(mb.get("end_date"), now)

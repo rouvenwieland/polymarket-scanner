@@ -14,8 +14,10 @@ END = (NOW + timedelta(days=5)).isoformat()
 
 
 def mk(platform, mid, yes, no, liq, q="Will X happen?"):
+    # Kalshi/PredictIt/SX liefern Asks, Polymarkt hier mit Orderbuch: ausfuehrbar (pricing.REQUIRE_EXECUTABLE ist Standard)
     return {"platform": platform, "market_id": mid, "question": q, "extra_text": "",
-            "yes_price": yes, "no_price": no, "volume": liq, "liquidity": liq, "end_date": END, "url": ""}
+            "yes_price": yes, "no_price": no, "volume": liq, "liquidity": liq, "end_date": END, "url": "",
+            "price_basis": "ausfuehrbar"}
 
 
 @pytest.fixture

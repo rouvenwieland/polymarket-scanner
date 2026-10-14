@@ -347,6 +347,8 @@ def _evaluate_position(pos, market, profile):
     quotes = pricing.sell_quotes(market)
     if quotes is None:
         return {"action": "hold", "current_sum": None}
+    if pricing.REQUIRE_EXECUTABLE and quotes.basis != pricing.BASIS_EXECUTABLE:
+        return {"action": "hold", "current_sum": None}  # ohne Orderbuch kein Verkauf und keine Bewertung zu Schaetzkursen
 
     current_sum = quotes.yes + quotes.no
 
@@ -489,6 +491,7 @@ def _select_new_trades(profile, state, hits, now):
     for h in hits:
         if h["market_id"] in open_ids:
             continue
+        open_ids.add(h["market_id"])  # derselbe Markt zweimal in einem Lauf (doppelte Seite beim Abruf): nur einmal kaufen
         if pricing.REQUIRE_EXECUTABLE and h.get("preisbasis", pricing.BASIS_ESTIMATE) != pricing.BASIS_EXECUTABLE:
             continue  # nur ausfuehrbare Preise handeln (Schalter pricing.REQUIRE_EXECUTABLE)
         if not MIN_PLAUSIBLE_SUM <= h["summe"] < 1.0:

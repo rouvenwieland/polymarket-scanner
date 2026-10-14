@@ -70,12 +70,16 @@ def test_altbestand_ohne_feld_gilt_als_schaetzung():
 
 
 # ------------------------------------------------------- Polymarkt-Fonds
-def test_verkauf_nutzt_bid_nicht_mittelkurs():
-    """Mittelkurs-Summe 0,998 wuerde bei Konvergenz verkaufen; zu den echten Bids (Summe 0,98) nicht."""
+def test_verkauf_nutzt_bid_nicht_mittelkurs(monkeypatch):
+    """Mittelkurs-Summe 0,998 wuerde bei Konvergenz verkaufen; zu den echten Bids (Summe 0,98) nicht.
+    Standard (REQUIRE_EXECUTABLE): ohne Orderbuch wird gar nicht verkauft."""
     profile = fs.PROFILES["conservative"]
     pos = {"market_id": "1", "shares": 1.0, "einstandskurs": 0.9, "letzter_kurs": 0.9, "liquiditaet": 5000.0}
     est = gm(1, 0.50, 0.498)
     book = gm(1, 0.50, 0.498, bid=0.49, ask=0.51)
+    assert fs._evaluate_position(pos, est, profile)["action"] == "hold"
+    assert fs._evaluate_position(pos, book, profile)["action"] == "hold"
+    monkeypatch.setattr(pricing, "REQUIRE_EXECUTABLE", False)
     assert fs._evaluate_position(pos, est, profile)["action"] == "sell"
     assert fs._evaluate_position(pos, book, profile)["action"] == "hold"
 
@@ -147,6 +151,7 @@ def test_snapshot_migriert_altbestand_ohne_basisspalte(datadir, monkeypatch):
 
 
 def test_fonds_protokolliert_basis_in_trades_history_und_position(datadir, monkeypatch):
+    monkeypatch.setattr(pricing, "REQUIRE_EXECUTABLE", False)  # Kennzeichnung, falls der Schalter abgeschaltet wird
     snapshot_run(monkeypatch, [gm(1, 0.40, 0.50, liq=2000.0)])
     profile = fs.PROFILES["conservative"]
     state = fs.load_state(profile)
@@ -189,10 +194,11 @@ def test_polymarkt_normalize_markiert_basis():
 
 
 def test_cross_paar_ist_nur_ausfuehrbar_wenn_beide_beine_es_sind(datadir, monkeypatch):
+    monkeypatch.setattr(pricing, "REQUIRE_EXECUTABLE", False)  # Kennzeichnung, falls der Schalter abgeschaltet wird
     E, S = pricing.BASIS_EXECUTABLE, pricing.BASIS_ESTIMATE
     for basis_a, expected in ((E, E), (S, S)):
-        ma = mk("polymarket", "A", 0.30, 0.70, 1e6, basis_a)
-        mb = mk("kalshi", "B", 0.60, 0.40, 1e6, E)
+        ma = mk("polymarket", "A", 0.40, 0.60, 1e6, basis_a)  # Summe 0,85: plausibler Spread (<= 25 %)
+        mb = mk("kalshi", "B", 0.55, 0.45, 1e6, E)
         profile, state = cross_buy(monkeypatch, ma, mb)
         assert state["positions"][0]["preisbasis"] == expected
         trades = read_rows(datadir / profile["trades_csv"])

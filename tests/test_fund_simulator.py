@@ -64,7 +64,8 @@ def test_kein_verkauf_unter_einstandskurs():
 def test_verkauf_ueber_einstandskurs_bleibt_moeglich():
     profile = fs.PROFILES["conservative"]
     pos = {"market_id": "1", "shares": 1.0, "einstandskurs": 0.95, "letzter_kurs": 0.95, "liquiditaet": 5000.0}
-    decision = fs._evaluate_position(pos, gamma(1, 0.50, 0.498, liq=5000.0), profile)
+    market = dict(gamma(1, 0.50, 0.498, liq=5000.0), bestBid=0.50, bestAsk=0.502)  # ausfuehrbar: Bid-Summe 0,998
+    decision = fs._evaluate_position(pos, market, profile)
     assert decision["action"] == "sell"
     assert decision["effective_sum"] >= 0.95
 
