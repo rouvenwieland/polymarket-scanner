@@ -61,6 +61,14 @@ LAST_RUN_STATS_JSON = os.path.join(DATA_DIR, "last_run_stats.json")
 
 
 def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
+    """Kompatibilitaets-Wrapper: nur die Marktliste (siehe fetch_all_open_markets_checked)."""
+    return fetch_all_open_markets_checked(batch_size, min_volume)[0]
+
+
+def fetch_all_open_markets_checked(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
+    """Wie oben, liefert aber (markets, complete). complete=False heisst: die Pagination
+    ist mittendrin an einem Fehler abgebrochen, die Liste ist unvollstaendig. Das ist fuer
+    den Fonds wichtig: fehlende Maerkte duerfen NICHT als 'aufgeloest' gelten."""
     # Die alte Offset-Pagination auf /markets wird von Polymarket nicht mehr
     # unterstützt (liefert ab einem gewissen Offset HTTP 422). Die Gamma-API
     # verlangt inzwischen Keyset-Pagination über /markets/keyset mit
@@ -68,6 +76,7 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
     # filtern, daher wird das Feld unten pro Markt geprüft.
     markets = []
     cursor = None
+    complete = True
     while True:
         params = {"closed": "false", "limit": batch_size}
         if cursor:
@@ -78,6 +87,7 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
             data = resp.json()
         except requests.RequestException as e:
             print(f"[Warnung] Fehler bei Cursor {cursor!r}: {e}")
+            complete = False
             break
         batch = data.get("markets", [])
         for m in batch:
@@ -90,7 +100,7 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=MIN_VOLUME):
         if not cursor:
             break
         time.sleep(0.05)
-    return markets
+    return markets, complete
 
 
 def format_timedelta(td):
@@ -127,9 +137,17 @@ def append_snapshot_rows(rows):
 def rebuild_summary(tz):
     if not os.path.isfile(SNAPSHOTS_CSV):
         return
-    df = pd.read_csv(SNAPSHOTS_CSV, parse_dates=["timestamp"])
+    df = pd.read_csv(SNAPSHOTS_CSV)
     if df.empty:
         return
+    # utc=True: nach der Zeitumstellung (Europe/Berlin, 25.10.) stehen +02:00 und +01:00 in
+    # derselben Spalte; ohne einheitliche Zone liefert pandas eine object-Spalte (strftime scheitert).
+    df["timestamp"] = pd.to_datetime(df["timestamp"], utc=True, format="ISO8601").dt.tz_convert(tz)
+    # Tatsaechlicher Abstand der Laeufe statt festem Cron-Takt: GitHub fuehrt Schedules real nur
+    # etwa alle 4-5 h aus, nicht alle INTERVAL_MINUTES.
+    run_times = df["timestamp"].drop_duplicates().sort_values()
+    gaps = run_times.diff().dropna().dt.total_seconds() / 60.0
+    interval_minutes = float(gaps.median()) if len(gaps) else float(INTERVAL_MINUTES)
 
     now = datetime.now(tz)
     out_rows = []
@@ -137,7 +155,7 @@ def rebuild_summary(tz):
         first_t = g["timestamp"].min()
         last_t = g["timestamp"].max()
         n_samples = len(g)
-        dauer_minuten = n_samples * INTERVAL_MINUTES
+        dauer_minuten = n_samples * interval_minutes
 
         end_date_raw = g["end_date"].iloc[-1]
         end_dt = None
@@ -172,7 +190,7 @@ def main():
     now = datetime.now(tz)
 
     print(f"{now.strftime('%Y-%m-%d %H:%M:%S %Z')}: lade Märkte...")
-    markets = fetch_all_open_markets()
+    markets, fetch_complete = fetch_all_open_markets_checked()
 
     rows = []
     for m in markets:
@@ -181,6 +199,8 @@ def main():
             continue
         yes_p, no_p = parsed
         total = yes_p + no_p
+        if yes_p <= 0.0 or no_p <= 0.0:
+            continue  # eine Seite ohne Kurs ("kein Angebot") ist keine kaufbare Yes+No-Kombination
         if total < THRESHOLD:
             rows.append({
                 "timestamp": now.isoformat(),
@@ -216,6 +236,11 @@ def main():
     # Fonds-Simulation läuft unabhängig davon, ob dieser Run neue Treffer
     # gebracht hat - offene Positionen müssen auch sonst auf Auflösung/
     # Konvergenz geprüft werden. Nutzt die schon geladenen Marktdaten weiter.
+    if not fetch_complete:
+        # Teil-Abruf: fehlende Maerkte wuerden als "aufgeloest" ausgezahlt (1,00 USD/Paar).
+        # Positionen bleiben unveraendert; der Watcher bzw. der naechste volle Lauf prueft sie.
+        print("[Warnung] Marktabruf unvollstaendig - Fonds-Schritt in diesem Lauf uebersprungen.")
+        return
     fund_simulator.run_all_fund_steps(markets, rows, now)
 
 
