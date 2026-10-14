@@ -1,5 +1,17 @@
 {
-  "cash": 155.9577068579005,
-  "positions": [],
+  "cash": 153.6147668579005,
+  "positions": [
+    {
+      "market_id": "5587169",
+      "frage": "Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?",
+      "slug": "hun-ujp-pus-2026-10-17-exact-score-2-1",
+      "shares": 2.355423745853021,
+      "einstandskurs": 0.9946999999999999,
+      "letzter_kurs": 0.9946999999999999,
+      "liquiditaet": 23.4294,
+      "end_date": "2026-10-17T17:30:00Z",
+      "eingestiegen": "2026-10-14T07:10:34.525428+02:00"
+    }
+  ],
   "started": "2026-09-27T14:55:14.167226+02:00"
 }

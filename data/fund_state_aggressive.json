@@ -1,5 +1,5 @@
 {
-  "cash": 37.98226516493432,
+  "cash": 25.054623219356067,
   "positions": [
     {
       "market_id": "3365462",
@@ -88,6 +88,28 @@
       "liquiditaet": 383.6394,
       "end_date": "2026-10-27T03:59:00Z",
       "eingestiegen": "2026-10-10T21:25:48.877167+02:00"
+    },
+    {
+      "market_id": "5587169",
+      "frage": "Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?",
+      "slug": "hun-ujp-pus-2026-10-17-exact-score-2-1",
+      "shares": 3.031164608017537,
+      "einstandskurs": 0.9989990000000001,
+      "letzter_kurs": 0.9989990000000001,
+      "liquiditaet": 23.4294,
+      "end_date": "2026-10-17T17:30:00Z",
+      "eingestiegen": "2026-10-14T07:10:34.525428+02:00"
+    },
+    {
+      "market_id": "5652629",
+      "frage": "Will Stephon Castle lead the NBA in Player Efficiency Rating (PER) in 2026-27?",
+      "slug": "nba-2026-27-per-leader-stephon-castle",
+      "shares": 14.18064966814688,
+      "einstandskurs": 0.6980999999999999,
+      "letzter_kurs": 0.6980999999999999,
+      "liquiditaet": 1.72599,
+      "end_date": "2027-04-26T03:59:00Z",
+      "eingestiegen": "2026-10-14T07:10:34.525428+02:00"
     }
   ],
   "started": "2026-09-28T09:52:55.524283+02:00"
