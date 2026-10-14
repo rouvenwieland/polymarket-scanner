@@ -5,7 +5,8 @@ on:
     # Läuft rund um die Uhr. Ein voller Durchlauf (Keyset-Pagination über
     # alle offenen Märkte) dauert inzwischen ~11 Minuten, daher 15-Minuten-
     # Takt statt 10 - sonst reihen sich die Läufe unnötig in der Warteschlange.
-    - cron: "*/15 * * * *"
+    # ALT: "*/15 * * * *" -> NEU: alle 3 h zur Minute :47. Real laeuft dieser Schedule im Median alle ~4,8 h.
+    - cron: "47 */3 * * *"
   workflow_dispatch: {}
 
 permissions:

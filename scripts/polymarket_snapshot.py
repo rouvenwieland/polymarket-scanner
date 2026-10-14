@@ -49,7 +49,7 @@ GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
 # Konfiguration
 # ---------------------------------------------------------------------
 THRESHOLD = 1.0
-INTERVAL_MINUTES = 15                # muss zum Cron-Takt in der .yml passen
+INTERVAL_MINUTES = 180               # muss zum Cron-Takt in der .yml passen (alt: 15; Ist-Takt wird in rebuild_summary gemessen)
 TIMEZONE = "Europe/Berlin"
 BATCH_SIZE = 100
 MIN_VOLUME = 0.0

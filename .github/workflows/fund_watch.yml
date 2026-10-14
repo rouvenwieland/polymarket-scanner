@@ -6,7 +6,10 @@ on:
     # Cron-Intervall für Actions-Schedules - kürzere Angaben werden unter
     # Last stark verzögert/übersprungen. Damit wird das Fonds-Portfolio
     # trotzdem deutlich öfter beobachtet als beim 15-Minuten-Vollscan.
-    - cron: "*/5 * * * *"
+    # ALT: "*/5 * * * *" -> NEU: alle 2 h zur Minute :07. Gemessen (300 Laeufe, 25.09.-13.10.2026):
+    # GitHub startet diesen Schedule real nur alle ~5 h (Median); */5 erzeugte nur Verdraengung in
+    # der gemeinsamen Concurrency-Gruppe. Krumme Minute statt :00, weil volle Stunden am staerksten gedrosselt werden.
+    - cron: "7 */2 * * *"
   workflow_dispatch: {}
 
 permissions:

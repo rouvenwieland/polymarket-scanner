@@ -2,7 +2,9 @@ name: Cross-Platform-Fonds-Watch
 
 on:
   schedule:
-    - cron: "*/5 * * * *"
+    # ALT: "*/5 * * * *" -> NEU: alle 2 h zur Minute :37 (Begruendung siehe fund_watch.yml;
+    # versetzt zu fund_watch, damit beide nicht gleichzeitig in der Gruppe ankommen).
+    - cron: "37 */2 * * *"
   workflow_dispatch: {}
 
 permissions:

@@ -13,7 +13,9 @@ on:
     # noch neuerer Lauf dazukam - samt seiner bereits verbrauchten
     # KI-Prüfstufen-Anfragen, die beim Abbruch verloren gehen. */30 gibt
     # jedem Lauf realistisch Zeit, durchzulaufen und zu committen.
-    - cron: "*/30 * * * *"
+    # ALT: "*/30 * * * *" -> NEU: alle 4 h zur Minute :17. Der Lauf dauert 30-50 min, real startet
+    # GitHub ihn ohnehin nur alle ~4,3 h (Median); der engere Takt brachte nur Verdraengung.
+    - cron: "17 */4 * * *"
   workflow_dispatch: {}
 
 permissions:

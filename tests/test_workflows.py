@@ -58,7 +58,23 @@ def test_geheimnis_nur_im_scan_und_nur_als_env_des_scan_schritts():
 
 def test_cron_passt_zu_intervall_konstante():
     cron = WORKFLOWS["polymarket_overnight.yml"]["on"]["schedule"][0]["cron"]
-    assert cron == f"*/{polymarket_snapshot.INTERVAL_MINUTES} * * * *"
+    hours = polymarket_snapshot.INTERVAL_MINUTES // 60
+    assert re.fullmatch(rf"\d+ \*/{hours} \* \* \*", cron)
+
+
+def test_zeitplaene_sind_realistisch_und_versetzt():
+    """Gemessener Ist-Takt: Median 4-5 h. Kein Schedule darf dichter als 2 h deklariert sein (sonst nur
+    Verdraengung in der gemeinsamen Gruppe), und die Minuten muessen verschieden und != 0 sein."""
+    minutes, intervals = [], []
+    for name, wf in WORKFLOWS.items():
+        for item in wf["on"]["schedule"]:
+            m, h = item["cron"].split()[:2]
+            assert m.isdigit() and int(m) != 0, name
+            assert h.startswith("*/"), name
+            minutes.append(int(m))
+            intervals.append(int(h[2:]))
+    assert len(set(minutes)) == len(minutes)
+    assert min(intervals) >= 2
 
 
 @pytest.mark.parametrize("name", sorted(WORKFLOWS))
