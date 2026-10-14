@@ -160,6 +160,7 @@ def normalize(market, book):
         end_date = datetime.fromtimestamp(market["gameTime"], tz=timezone.utc).isoformat()
     return {
         "platform": "sxbet",
+        "price_basis": "ausfuehrbar",  # beste Taker-Preise aus dem Orderbuch
         "market_id": market_hash,
         "question": question,
         "extra_text": extra_text,

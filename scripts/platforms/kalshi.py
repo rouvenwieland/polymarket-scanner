@@ -114,6 +114,7 @@ def normalize(market):
     ticker = market.get("ticker", "")
     return {
         "platform": "kalshi",
+        "price_basis": "ausfuehrbar",  # yes/no_ask_dollars = Orderbuch-Asks
         "market_id": ticker,
         "question": market.get("title") or market.get("subtitle") or ticker,
         # Zusätzlicher Text fürs Cross-Platform-Matching (siehe cross_platform.py):

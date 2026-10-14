@@ -60,6 +60,7 @@ import math
 import os
 
 import fund_simulator
+import pricing
 import llm_verify
 from platforms import kalshi, predictit, sxbet
 import cross_platform
@@ -124,11 +125,13 @@ def save_state(profile, state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def log_trade(profile, timestamp, action, pair_id, frage, shares, price, amount, cash_after, note=""):
+def log_trade(profile, timestamp, action, pair_id, frage, shares, price, amount, cash_after, note="",
+              basis=pricing.BASIS_ESTIMATE):
     fund_simulator._append_csv(
         os.path.join(fund_simulator.DATA_DIR, profile["trades_csv"]),
-        ["timestamp", "aktion", "pair_id", "frage", "anteile", "preis", "betrag", "kasse_danach", "notiz"],
+        ["timestamp", "aktion", "pair_id", "frage", "anteile", "preis", "betrag", "kasse_danach", "notiz", "preisbasis"],
         {
+            "preisbasis": basis,
             "timestamp": timestamp, "aktion": action, "pair_id": pair_id, "frage": frage,
             "anteile": round(shares, 4), "preis": round(price, 4), "betrag": round(amount, 4),
             "kasse_danach": round(cash_after, 4), "notiz": note,
@@ -148,12 +151,16 @@ def log_history(profile, now, cash, positions):
         p["shares"] * 1.0 * fund_simulator._discount_factor(d) for p, d in zip(positions, days_list)
     )
     starting_capital = profile["starting_capital"]
+    n_est, v_est = pricing.estimate_split(
+        positions, lambda p: p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"]))
 
     fund_simulator._append_csv(
         os.path.join(fund_simulator.DATA_DIR, profile["history_csv"]),
         ["timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
-         "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct"],
+         "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct",
+         "positionen_schaetzung", "positionswert_schaetzung"],
         {
+            "positionen_schaetzung": n_est, "positionswert_schaetzung": round(v_est, 4),
             "timestamp": now.isoformat(),
             "kasse": round(cash, 4),
             "positionswert": round(positions_value, 4),
@@ -248,6 +255,10 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         price_b = mb["yes_price"] if side_b == "yes" else mb["no_price"]
         if not (0.0 < price_a < 1.0 and 0.0 < price_b < 1.0):
             continue  # Preis 0 ("kein Angebot") bzw. 1 ist nicht handelbar und wuerde durch 0 teilen
+        if pricing.REQUIRE_EXECUTABLE and pricing.combine_basis(
+                ma.get("price_basis", pricing.BASIS_ESTIMATE), mb.get("price_basis", pricing.BASIS_ESTIMATE)
+        ) != pricing.BASIS_EXECUTABLE:
+            continue  # Schalter pricing.REQUIRE_EXECUTABLE: nur ausfuehrbare Preise handeln
         if summe < fund_simulator.MIN_PLAUSIBLE_SUM:
             continue  # "Arbitrage" > 50 %: Datenartefakt bzw. Fehl-Match, nicht handelbar
         est_fee_per_share = (
@@ -286,6 +297,8 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
             "pair_id": pair_id, "match": match, "side_a": side_a, "side_b": side_b,
             "summe": summe, "spread": spread, "days": days, "end_date": end_date,
             "shares_cap": shares_cap,
+            "preisbasis": pricing.combine_basis(ma.get("price_basis", pricing.BASIS_ESTIMATE),
+                                                mb.get("price_basis", pricing.BASIS_ESTIMATE)),
         })
 
     candidates.sort(key=lambda c: -_score(c["spread"], c["days"]))
@@ -367,6 +380,7 @@ def _execute_buy(profile, state, c, shares, now):
         "shares": shares,
         "end_date": c["end_date"],
         "eingestiegen": now.isoformat(),
+        "preisbasis": c["preisbasis"],
         "leg_a": {
             "platform": ma["platform"], "market_id": ma["market_id"], "side": c["side_a"],
             "einstandskurs": eff_a, "letzter_kurs": eff_a, "fee_gezahlt": fee_a,
@@ -379,7 +393,7 @@ def _execute_buy(profile, state, c, shares, now):
     log_trade(profile, now.isoformat(), "KAUF", c["pair_id"], state["positions"][-1]["frage"],
               shares, eff_a + eff_b, -total_cost, state["cash"],
               f"Spread {c['spread']*100:.2f}% nach geschaetzten Gebuehren, Edge-Limit {c['shares_cap']:.0f} Anteile, "
-              f"Beine: {ma['platform']}/{c['side_a']} + {mb['platform']}/{c['side_b']}")
+              f"Beine: {ma['platform']}/{c['side_a']} + {mb['platform']}/{c['side_b']}", c["preisbasis"])
     return True
 
 
@@ -391,7 +405,7 @@ def _poly_leg_mark_and_result(leg):
     market = fund_simulator.fetch_market_by_id(leg["market_id"])
     if market is None:
         return None, None  # (aktueller Kurs oder None, Payout oder None falls noch offen)
-    prices = fund_simulator.parse_prices(market)
+    prices = pricing.parse_outcome_prices(market)  # Aufloesung aus Endkursen (0/1), nicht aus Orderbuch-Asks
     current_price = None
     if prices is not None:
         yes_p, no_p = prices
@@ -515,7 +529,8 @@ def _mark_and_settle_all(profile, state, now):
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["pair_id"], pos["frage"], pos["shares"],
                   proceeds_per_share, proceeds, state["cash"],
-                  f"Beide Beine aufgelöst (Payout A={results['leg_a']:.2f}, B={results['leg_b']:.2f})")
+                  f"Beide Beine aufgelöst (Payout A={results['leg_a']:.2f}, B={results['leg_b']:.2f})",
+                  pricing.basis_of(pos))
     state["positions"] = still_open
 
 

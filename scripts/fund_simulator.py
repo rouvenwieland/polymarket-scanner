@@ -57,6 +57,8 @@ from datetime import datetime
 
 import requests
 
+import pricing
+
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 TIMEZONE = "Europe/Berlin"
 
@@ -128,29 +130,16 @@ PROFILES = {
 
 
 def parse_prices(market):
-    try:
-        outcomes = json.loads(market.get("outcomes", "[]"))
-        prices = json.loads(market.get("outcomePrices", "[]"))
-    except (json.JSONDecodeError, TypeError):
-        return None
-    if len(outcomes) != 2 or len(prices) != 2:
-        return None
-    idx_map = {str(o).strip().lower(): i for i, o in enumerate(outcomes)}
-    if "yes" not in idx_map or "no" not in idx_map:
-        return None
-    yi, ni = idx_map["yes"], idx_map["no"]
-    try:
-        yes_p, no_p = float(prices[yi]), float(prices[ni])
-    except (ValueError, TypeError):
-        return None
-    # Unsinnige Kurse (NaN/inf, negativ, > 1) und die Platzhalter-Kombination 0/0
-    # ("kein Kurs") waeren sonst als Yes+No<1-"Treffer" durchgerutscht bzw. haetten
-    # mit Summe 0 eine Division durch null im Positionsgroessen-Code ausgeloest.
-    if not (math.isfinite(yes_p) and math.isfinite(no_p)):
-        return None
-    if not (0.0 <= yes_p <= 1.0 and 0.0 <= no_p <= 1.0) or yes_p + no_p <= 0.0:
-        return None
-    return yes_p, no_p
+    """Kaufpreise (yes, no): bevorzugt Orderbuch-Asks (ausfuehrbar), sonst die validierte
+    outcomePrices-Schaetzung (siehe pricing.py). Die Basis liefert parse_prices_with_basis."""
+    q = pricing.buy_quotes(market)
+    return None if q is None else (q.yes, q.no)
+
+
+def parse_prices_with_basis(market):
+    """(yes, no, basis) mit basis = pricing.BASIS_EXECUTABLE | BASIS_ESTIMATE, oder None."""
+    q = pricing.buy_quotes(market)
+    return None if q is None else (q.yes, q.no, q.basis)
 
 
 def lookup_market(market_id):
@@ -243,11 +232,13 @@ def _append_csv(path, fieldnames, row):
         writer.writerow(row)
 
 
-def log_trade(profile, timestamp, action, market_id, frage, shares, price, amount, cash_after, note=""):
+def log_trade(profile, timestamp, action, market_id, frage, shares, price, amount, cash_after, note="",
+              basis=pricing.BASIS_ESTIMATE):
     _append_csv(os.path.join(DATA_DIR, profile["trades_csv"]), [
         "timestamp", "aktion", "market_id", "frage", "anteile",
-        "preis", "betrag", "kasse_danach", "notiz",
+        "preis", "betrag", "kasse_danach", "notiz", "preisbasis",
     ], {
+        "preisbasis": basis,
         "timestamp": timestamp,
         "aktion": action,
         "market_id": market_id,
@@ -288,11 +279,15 @@ def log_history(profile, now, cash, positions):
     nav = cash + positions_value
     termination_value = cash + sum(termination_value_of(p, now) for p in positions)
     discounted_value = cash + sum(discounted_termination_value_of(p, now) for p in positions)
+    n_est, v_est = pricing.estimate_split(positions, lambda p: p["shares"] * p.get("letzter_kurs", p["einstandskurs"]))
 
     _append_csv(os.path.join(DATA_DIR, profile["history_csv"]), [
         "timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
         "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct",
+        "positionen_schaetzung", "positionswert_schaetzung",
     ], {
+        "positionen_schaetzung": n_est,
+        "positionswert_schaetzung": round(v_est, 4),
         "timestamp": now.isoformat(),
         "kasse": round(cash, 4),
         "positionswert": round(positions_value, 4),
@@ -348,12 +343,12 @@ def _evaluate_position(pos, market, profile):
     if market.get("closed"):
         return {"action": "settle", "note": "Markt als geschlossen/aufgelöst markiert"}
 
-    prices = parse_prices(market)
-    if prices is None:
+    # Bewertung/Verkauf zu BID-Preisen (Orderbuch), ohne Orderbuch: Schaetzung (outcomePrices)
+    quotes = pricing.sell_quotes(market)
+    if quotes is None:
         return {"action": "hold", "current_sum": None}
 
-    yes_p, no_p = prices
-    current_sum = yes_p + no_p
+    current_sum = quotes.yes + quotes.no
 
     sell_convergence = profile["sell_convergence"]
     if sell_convergence is not None and current_sum >= sell_convergence:
@@ -376,7 +371,7 @@ def _apply_decision(profile, state, pos, decision, now):
         proceeds = pos["shares"] * 1.0
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
-                  pos["shares"], 1.0, proceeds, state["cash"], decision["note"])
+                  pos["shares"], 1.0, proceeds, state["cash"], decision["note"], pricing.basis_of(pos))
         return True
 
     if decision["action"] == "sell":
@@ -384,13 +379,17 @@ def _apply_decision(profile, state, pos, decision, now):
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
                   pos["shares"], decision["effective_sum"], proceeds, state["cash"],
-                  f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})")
+                  f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})", pricing.basis_of(pos))
         return True
 
     # hold
     if decision.get("current_sum") is not None:
         pos["letzter_kurs"] = decision["current_sum"]
     return False
+
+
+def _n_est(positions):
+    return sum(1 for p in positions if pricing.basis_of(p) != pricing.BASIS_EXECUTABLE)
 
 
 def _positions_value(positions):
@@ -475,10 +474,12 @@ def _execute_buy(profile, state, h, spread, days, now):
         "liquiditaet": h["liquiditaet"],
         "end_date": h["end_date"],
         "eingestiegen": now.isoformat(),
+        "preisbasis": h.get("preisbasis", pricing.BASIS_ESTIMATE),
     })
     log_trade(profile, now.isoformat(), "KAUF", h["market_id"], h["frage"],
               shares, effective_sum, -notional, state["cash"],
-              f"Spread {spread*100:.2f}%, Liquiditaet {h['liquiditaet']:.0f} USD")
+              f"Spread {spread*100:.2f}%, Liquiditaet {h['liquiditaet']:.0f} USD",
+              h.get("preisbasis", pricing.BASIS_ESTIMATE))
     return True
 
 
@@ -488,6 +489,8 @@ def _select_new_trades(profile, state, hits, now):
     for h in hits:
         if h["market_id"] in open_ids:
             continue
+        if pricing.REQUIRE_EXECUTABLE and h.get("preisbasis", pricing.BASIS_ESTIMATE) != pricing.BASIS_EXECUTABLE:
+            continue  # nur ausfuehrbare Preise handeln (Schalter pricing.REQUIRE_EXECUTABLE)
         if not MIN_PLAUSIBLE_SUM <= h["summe"] < 1.0:
             continue  # Summe ~0 ("kein Kurs") wuerde durch 0 teilen, < 0,5 ist ein Datenartefakt
         spread = 1.0 - h["summe"]
@@ -519,7 +522,7 @@ def _select_new_trades(profile, state, hits, now):
         state["positions"].remove(worst_pos)
         log_trade(profile, now.isoformat(), "UMSCHICHTUNG", worst_pos["market_id"], worst_pos["frage"],
                   worst_pos["shares"], worst_pos.get("letzter_kurs", worst_pos["einstandskurs"]), proceeds,
-                  state["cash"], "Für bessere Gelegenheit glattgestellt")
+                  state["cash"], "Für bessere Gelegenheit glattgestellt", pricing.basis_of(worst_pos))
         free_slots = 1
 
     picks = candidates[:free_slots]
@@ -552,7 +555,8 @@ def run_fund_step(profile, markets, hits, now):
     save_state(profile, state)
     nav = log_history(profile, now, state["cash"], state["positions"])
     print(f"Fonds [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
-          f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
+          f"{len(state['positions'])} offene Position(en) ({_n_est(state['positions'])} auf Schaetzkursen, nicht ausfuehrbar), "
+          f"Kasse {state['cash']:.2f} USD.")
 
 
 def run_all_fund_steps(markets, hits, now):
@@ -572,7 +576,8 @@ def watch_positions_step(profile, now):
     save_state(profile, state)
     nav = log_history(profile, now, state["cash"], state["positions"])
     print(f"Fonds-Watch [{profile['label']}]: NAV {nav:.2f} USD ({(nav/STARTING_CAPITAL-1)*100:+.2f}%), "
-          f"{len(state['positions'])} offene Position(en), Kasse {state['cash']:.2f} USD.")
+          f"{len(state['positions'])} offene Position(en) ({_n_est(state['positions'])} auf Schaetzkursen, nicht ausfuehrbar), "
+          f"Kasse {state['cash']:.2f} USD.")
 
 
 def watch_all_positions_step(now):

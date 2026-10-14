@@ -94,6 +94,7 @@ def normalize_contract(market, contract):
 
     return {
         "platform": "predictit",
+        "price_basis": "ausfuehrbar",  # bestBuyYes/NoCost = Orderbuch-Asks
         "market_id": f"{market.get('id')}:{contract.get('id')}",
         "question": question,
         # PredictIts öffentliche API liefert keinen Beschreibungstext -

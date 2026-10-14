@@ -15,6 +15,8 @@ import time
 
 import requests
 
+import pricing
+
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
 BATCH_SIZE = 100
@@ -49,24 +51,16 @@ def fetch_all_open_markets(batch_size=BATCH_SIZE, min_volume=0.0):
 
 
 def normalize(market):
-    try:
-        outcomes = json.loads(market.get("outcomes", "[]"))
-        prices = json.loads(market.get("outcomePrices", "[]"))
-    except (json.JSONDecodeError, TypeError):
+    # Orderbuch-Asks (bestAsk / 1-bestBid) wenn vorhanden und plausibel, sonst outcomePrices als
+    # gekennzeichnete SCHAETZUNG (siehe pricing.py).
+    quotes = pricing.buy_quotes(market)
+    if quotes is None:
         return None
-    if len(outcomes) != 2 or len(prices) != 2:
-        return None
-    idx_map = {str(o).strip().lower(): i for i, o in enumerate(outcomes)}
-    if "yes" not in idx_map or "no" not in idx_map:
-        return None
-    yi, ni = idx_map["yes"], idx_map["no"]
-    try:
-        yes_price, no_price = float(prices[yi]), float(prices[ni])
-    except (ValueError, TypeError):
-        return None
+    yes_price, no_price = quotes.yes, quotes.no
 
     return {
         "platform": "polymarket",
+        "price_basis": quotes.basis,
         "market_id": market.get("id") or market.get("slug"),
         "question": market.get("question", "?"),
         # Zusätzlicher Beschreibungstext, nur fürs Cross-Platform-Matching

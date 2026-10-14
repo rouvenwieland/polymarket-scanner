@@ -30,6 +30,7 @@ import math
 import os
 
 import fund_simulator
+import pricing
 from platforms import kalshi, predictit, sxbet
 
 IMPACT_COEFFICIENT = 0.15       # gleicher Wert wie bei den Polymarket-Fonds
@@ -92,11 +93,13 @@ def save_state(profile, state):
         json.dump(state, f, ensure_ascii=False, indent=2)
 
 
-def log_trade(profile, timestamp, action, market_id, frage, shares, price, amount, cash_after, note=""):
+def log_trade(profile, timestamp, action, market_id, frage, shares, price, amount, cash_after, note="",
+              basis=pricing.BASIS_ESTIMATE):
     fund_simulator._append_csv(
         os.path.join(fund_simulator.DATA_DIR, profile["trades_csv"]),
-        ["timestamp", "aktion", "market_id", "frage", "anteile", "preis", "betrag", "kasse_danach", "notiz"],
+        ["timestamp", "aktion", "market_id", "frage", "anteile", "preis", "betrag", "kasse_danach", "notiz", "preisbasis"],
         {
+            "preisbasis": basis,
             "timestamp": timestamp, "aktion": action, "market_id": market_id, "frage": frage,
             "anteile": round(shares, 4), "preis": round(price, 4), "betrag": round(amount, 4),
             "kasse_danach": round(cash_after, 4), "notiz": note,
@@ -113,12 +116,15 @@ def log_history(profile, now, cash, positions):
         p["shares"] * 1.0 * fund_simulator._discount_factor(d) for p, d in zip(positions, days_list)
     )
     starting_capital = profile["starting_capital"]
+    n_est, v_est = pricing.estimate_split(positions, lambda p: p["shares"] * p.get("letzter_kurs", p["einstandskurs"]))
 
     fund_simulator._append_csv(
         os.path.join(fund_simulator.DATA_DIR, profile["history_csv"]),
         ["timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
-         "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct"],
+         "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct",
+         "positionen_schaetzung", "positionswert_schaetzung"],
         {
+            "positionen_schaetzung": n_est, "positionswert_schaetzung": round(v_est, 4),
             "timestamp": now.isoformat(),
             "kasse": round(cash, 4),
             "positionswert": round(positions_value, 4),
@@ -232,6 +238,7 @@ def _execute_buy(profile, state, c, notional, now):
         "frage": f"[{profile['platform']}] {m['question']}",
         "shares": shares,
         "einstandskurs": c["summe"],
+        "preisbasis": m.get("price_basis", pricing.BASIS_EXECUTABLE),  # Kalshi/PredictIt/SX: Asks
         "yes_price": m["yes_price"],
         "no_price": m["no_price"],
         "letzter_kurs": c["summe"],
@@ -242,7 +249,8 @@ def _execute_buy(profile, state, c, notional, now):
     })
     log_trade(profile, now.isoformat(), "KAUF", m["market_id"], state["positions"][-1]["frage"],
               shares, c["summe"], -total_cost, state["cash"],
-              f"Spread {c['spread']*100:.2f}% nach geschaetzter Gebuehr, Edge-Limit {c['notional_cap']:.0f} USD")
+              f"Spread {c['spread']*100:.2f}% nach geschaetzter Gebuehr, Edge-Limit {c['notional_cap']:.0f} USD",
+              pricing.basis_of(state["positions"][-1]))
     return True
 
 
@@ -369,7 +377,7 @@ def _apply_decision(profile, state, pos, decision, now):
         proceeds = pos["shares"] * (proceeds_per_share - fee)  # Gebuehr ist je Anteilspaar (frueher: nicht mit shares multipliziert)
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["market_id"], pos["frage"],
-                  pos["shares"], proceeds_per_share, proceeds, state["cash"], "Markt aufgelöst")
+                  pos["shares"], proceeds_per_share, proceeds, state["cash"], "Markt aufgelöst", pricing.basis_of(pos))
         return True
 
     if decision["action"] == "sell":
@@ -378,7 +386,7 @@ def _apply_decision(profile, state, pos, decision, now):
         state["cash"] += proceeds
         log_trade(profile, now.isoformat(), "VERKAUF", pos["market_id"], pos["frage"],
                   pos["shares"], decision["effective_sum"], proceeds, state["cash"],
-                  f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})")
+                  f"Konvergenz erreicht (Kurs {decision['current_sum']:.3f})", pricing.basis_of(pos))
         return True
 
     # hold

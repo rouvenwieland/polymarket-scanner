@@ -40,7 +40,7 @@ import pandas as pd
 import requests
 
 import fund_simulator
-from fund_simulator import parse_prices
+import pricing
 
 GAMMA_URL = "https://gamma-api.polymarket.com/markets"
 GAMMA_KEYSET_URL = GAMMA_URL + "/keyset"
@@ -121,14 +121,30 @@ def format_timedelta(td):
     return sign + " ".join(parts)
 
 
+SNAPSHOT_FIELDS = [
+    "timestamp", "market_id", "frage", "slug", "yes_preis",
+    "no_preis", "summe", "volumen", "liquiditaet", "end_date", "preisbasis",
+]
+
+
 def append_snapshot_rows(rows):
+    """Haengt Zeilen an; aeltere Dateien ohne Spalte `preisbasis` werden auf den neuen Kopf migriert
+    (leer = Altbestand = Schaetzung, siehe pricing.basis_of)."""
     os.makedirs(DATA_DIR, exist_ok=True)
     file_exists = os.path.isfile(SNAPSHOTS_CSV)
+    if file_exists:
+        with open(SNAPSHOTS_CSV, newline="", encoding="utf-8") as f:
+            header = next(csv.reader(f), None)
+        if header is not None and header != SNAPSHOT_FIELDS:
+            with open(SNAPSHOTS_CSV, newline="", encoding="utf-8") as f:
+                old = list(csv.DictReader(f))
+            with open(SNAPSHOTS_CSV, "w", newline="", encoding="utf-8") as f:
+                w = csv.DictWriter(f, fieldnames=SNAPSHOT_FIELDS)
+                w.writeheader()
+                for r in old:
+                    w.writerow({k: r.get(k, "") for k in SNAPSHOT_FIELDS})
     with open(SNAPSHOTS_CSV, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=[
-            "timestamp", "market_id", "frage", "slug", "yes_preis",
-            "no_preis", "summe", "volumen", "liquiditaet", "end_date",
-        ])
+        writer = csv.DictWriter(f, fieldnames=SNAPSHOT_FIELDS)
         if not file_exists:
             writer.writeheader()
         writer.writerows(rows)
@@ -194,10 +210,10 @@ def main():
 
     rows = []
     for m in markets:
-        parsed = parse_prices(m)
+        parsed = pricing.buy_quotes(m)  # Orderbuch-Ask wenn vorhanden, sonst Schaetzung (gekennzeichnet)
         if parsed is None:
             continue
-        yes_p, no_p = parsed
+        yes_p, no_p = parsed.yes, parsed.no
         total = yes_p + no_p
         if yes_p <= 0.0 or no_p <= 0.0:
             continue  # eine Seite ohne Kurs ("kein Angebot") ist keine kaufbare Yes+No-Kombination
@@ -213,6 +229,7 @@ def main():
                 "volumen": float(m.get("volumeNum") or m.get("volume") or 0),
                 "liquiditaet": float(m.get("liquidityNum") or m.get("liquidity") or 0),
                 "end_date": m.get("endDate") or "",
+                "preisbasis": parsed.basis,
             })
 
     print(f"{len(markets)} Märkte geprüft, {len(rows)} Treffer unter Schwelle {THRESHOLD}.")
