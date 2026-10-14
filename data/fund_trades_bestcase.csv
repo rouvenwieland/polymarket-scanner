@@ -4085,3 +4085,226 @@ timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
 2026-10-13T17:57:10.843415+02:00,AUSZAHLUNG,5631109,Oregon vs. Illinois: Both Teams to Score Points - Q2,4.2476,1.0,4.2476,157.6529,Markt nicht mehr auffindbar -> als aufgelöst behandelt
 2026-10-13T23:01:55.423376+02:00,KAUF,3848683,Will Cruzeiro finish 16th in the 2026 Brazil Série A?,79.2226,0.995,-78.8264,78.8264,"Spread 0.50%, Liquiditaet 7 USD"
 2026-10-13T23:58:50.866888+02:00,VERKAUF,3848683,Will Cruzeiro finish 16th in the 2026 Brazil Série A?,79.2226,1.0,79.2226,158.049,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:17:10.834029+02:00,KAUF,5675535,William Alarcón: 1+ shots on target,3.9711,0.995,-3.9512,154.0978,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5392604,Will the fight end before Round 3?,3.9711,0.995,-3.9512,150.1465,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5675312,Cuiabano: 3+ assists,3.9711,0.995,-3.9512,146.1953,"Spread 0.50%, Liquiditaet 1 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5626802,Will Larne FC vs. Coleraine FC end in a draw?,3.9711,0.995,-3.9512,142.2441,"Spread 0.50%, Liquiditaet 4659 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5223790,Burnley FC to score first vs. Wolverhampton Wanderers FC?,3.9711,0.995,-3.9512,138.2929,"Spread 0.50%, Liquiditaet 1939 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5533530,CF Correcaminos UAT leading at halftime?,3.9711,0.995,-3.9512,134.3416,"Spread 0.50%, Liquiditaet 2211 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5281293,Erzurumspor FK vs. Eyüpspor: Both Teams to Score,3.9711,0.995,-3.9512,130.3904,"Spread 0.50%, Liquiditaet 4046 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5264710,Cardiff City FC to score first vs. Middlesbrough FC?,3.9711,0.995,-3.9512,126.4392,"Spread 0.50%, Liquiditaet 1053 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5269881,USL Dunkerque leading at halftime?,3.9711,0.995,-3.9512,122.488,"Spread 0.50%, Liquiditaet 3081 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5244930,FK Mladá Boleslav leading at halftime?,3.9711,0.995,-3.9512,118.5367,"Spread 0.50%, Liquiditaet 2389 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5270991,Benevento Calcio leading at halftime?,3.9711,0.995,-3.9512,114.5855,"Spread 0.50%, Liquiditaet 3409 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5278213,AS Trenčín leading at halftime?,3.9711,0.995,-3.9512,110.6343,"Spread 0.50%, Liquiditaet 2775 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5265083,West Bromwich Albion FC vs. Blackburn Rovers FC: Draw at halftime?,3.9711,0.995,-3.9512,106.6831,"Spread 0.50%, Liquiditaet 1560 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5271459,Cambridge United FC leading at halftime?,3.9711,0.995,-3.9512,102.7318,"Spread 0.50%, Liquiditaet 2730 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5274350,Newport County AFC vs. York City FC: Both Teams to Score,3.9711,0.995,-3.9512,98.7806,"Spread 0.50%, Liquiditaet 2305 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5271505,Leicester City FC leading at halftime?,3.9711,0.995,-3.9512,94.8294,"Spread 0.50%, Liquiditaet 3109 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5247391,Aalesunds FK to score first vs. Kristiansund BK?,3.9711,0.995,-3.9512,90.8782,"Spread 0.50%, Liquiditaet 1019 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5264366,Liverpool FC to score first vs. Brentford FC?,3.9711,0.995,-3.9512,86.9269,"Spread 0.50%, Liquiditaet 6514 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5269122,Real Betis Balompié vs. FC Barcelona: Second half draw?,3.9711,0.995,-3.9512,82.9757,"Spread 0.50%, Liquiditaet 2136 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5434687,CS Independiente Rivadavia vs. CA Tigre: Draw at halftime?,3.9711,0.995,-3.9512,79.0245,"Spread 0.50%, Liquiditaet 2996 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5306428,Jeonbuk Hyundai Motors FC vs. Jeju SK FC: Both Teams to Score,3.9711,0.995,-3.9512,75.0733,"Spread 0.50%, Liquiditaet 2339 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5319052,FK Kryvbas Kryvyi Rih vs. FK LNZ Cherkasy: Draw at halftime?,3.9711,0.995,-3.9512,71.122,"Spread 0.50%, Liquiditaet 1253 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5299588,Brøndby IF to win the second half?,3.9711,0.995,-3.9512,67.1708,"Spread 0.50%, Liquiditaet 1761 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5321666,MŠK Žilina leading at halftime?,3.9711,0.995,-3.9512,63.2196,"Spread 0.50%, Liquiditaet 2353 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5297499,CS Cristal vs. CD Comerciantes Unidos: Draw at halftime?,3.9711,0.995,-3.9512,59.2684,"Spread 0.50%, Liquiditaet 2389 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5318984,FK Dynamo Kyiv leading at halftime?,3.9711,0.995,-3.9512,55.3171,"Spread 0.50%, Liquiditaet 50 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5337452,Exact Score: Llaneros FC 0 - 0 Independiente Santa Fe?,3.9711,0.995,-3.9512,51.3659,"Spread 0.50%, Liquiditaet 44 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5672856,Davante Adams: Anytime Touchdown,3.9711,0.995,-3.9512,47.4147,"Spread 0.50%, Liquiditaet 6 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5662133,Cam Ward: Anytime Touchdown,3.9711,0.995,-3.9512,43.4635,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5673095,Travis Kelce: Anytime Touchdown,3.9711,0.995,-3.9512,39.5122,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5269590,Will Bulls win?,3.9711,0.995,-3.9512,35.561,"Spread 0.50%, Liquiditaet 121 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5597009,FC Internazionale Milano vs. ACF Fiorentina: Both Teams to Score in First Half,3.9711,0.995,-3.9512,31.6098,"Spread 0.50%, Liquiditaet 373 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5549220,Sutton United FC leading at halftime?,3.9711,0.995,-3.9512,27.6586,"Spread 0.50%, Liquiditaet 39 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5473285,Al Qadisiyah Saudi Club vs. Al Hilal Saudi Club: Neither team to score first?,3.9711,0.995,-3.9512,23.7073,"Spread 0.50%, Liquiditaet 19 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5523143,Will the fight end before Round 3?,3.9711,0.995,-3.9512,19.7561,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,734852,Will Donald Trump visit Idaho in 2026?,3.9711,0.995,-3.9512,15.8049,"Spread 0.50%, Liquiditaet 453 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,3544742,Will Estudiantes (RC) be runner-up in the 2026 Liga Profesional (Argentina)?,3.9711,0.995,-3.9512,11.8537,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5671360,Will Neftekhimik Nizhnekamsk win the 2026-27 KHL championship?,3.9711,0.995,-3.9512,7.9024,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T02:17:10.834029+02:00,KAUF,5162430,Will Igor Thiago score 14 or more goals during the 2026-27 English Premier League season?,3.9711,0.995,-3.9512,3.9512,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5675535,William Alarcón: 1+ shots on target,3.9711,1.0,3.9711,7.9223,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5392604,Will the fight end before Round 3?,3.9711,1.0,3.9711,11.8934,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5675312,Cuiabano: 3+ assists,3.9711,1.0,3.9711,15.8645,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5626802,Will Larne FC vs. Coleraine FC end in a draw?,3.9711,1.0,3.9711,19.8355,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5223790,Burnley FC to score first vs. Wolverhampton Wanderers FC?,3.9711,1.0,3.9711,23.8066,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5533530,CF Correcaminos UAT leading at halftime?,3.9711,1.0,3.9711,27.7777,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5281293,Erzurumspor FK vs. Eyüpspor: Both Teams to Score,3.9711,1.0,3.9711,31.7488,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5264710,Cardiff City FC to score first vs. Middlesbrough FC?,3.9711,1.0,3.9711,35.7199,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5269881,USL Dunkerque leading at halftime?,3.9711,1.0,3.9711,39.6909,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5244930,FK Mladá Boleslav leading at halftime?,3.9711,1.0,3.9711,43.662,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5270991,Benevento Calcio leading at halftime?,3.9711,1.0,3.9711,47.6331,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5278213,AS Trenčín leading at halftime?,3.9711,1.0,3.9711,51.6042,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5265083,West Bromwich Albion FC vs. Blackburn Rovers FC: Draw at halftime?,3.9711,1.0,3.9711,55.5753,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5271459,Cambridge United FC leading at halftime?,3.9711,1.0,3.9711,59.5463,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5274350,Newport County AFC vs. York City FC: Both Teams to Score,3.9711,1.0,3.9711,63.5174,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5271505,Leicester City FC leading at halftime?,3.9711,1.0,3.9711,67.4885,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5247391,Aalesunds FK to score first vs. Kristiansund BK?,3.9711,1.0,3.9711,71.4596,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5264366,Liverpool FC to score first vs. Brentford FC?,3.9711,1.0,3.9711,75.4307,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5269122,Real Betis Balompié vs. FC Barcelona: Second half draw?,3.9711,1.0,3.9711,79.4017,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5434687,CS Independiente Rivadavia vs. CA Tigre: Draw at halftime?,3.9711,1.0,3.9711,83.3728,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5306428,Jeonbuk Hyundai Motors FC vs. Jeju SK FC: Both Teams to Score,3.9711,1.0,3.9711,87.3439,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5319052,FK Kryvbas Kryvyi Rih vs. FK LNZ Cherkasy: Draw at halftime?,3.9711,1.0,3.9711,91.315,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5299588,Brøndby IF to win the second half?,3.9711,1.0,3.9711,95.2861,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5321666,MŠK Žilina leading at halftime?,3.9711,1.0,3.9711,99.2571,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5297499,CS Cristal vs. CD Comerciantes Unidos: Draw at halftime?,3.9711,1.0,3.9711,103.2282,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5318984,FK Dynamo Kyiv leading at halftime?,3.9711,1.0,3.9711,107.1993,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5269590,Will Bulls win?,3.9711,1.0,3.9711,111.1704,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5597009,FC Internazionale Milano vs. ACF Fiorentina: Both Teams to Score in First Half,3.9711,1.0,3.9711,115.1415,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5549220,Sutton United FC leading at halftime?,3.9711,1.0,3.9711,119.1126,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,734852,Will Donald Trump visit Idaho in 2026?,3.9711,1.0,3.9711,123.0836,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,3544742,Will Estudiantes (RC) be runner-up in the 2026 Liga Profesional (Argentina)?,3.9711,1.0,3.9711,127.0547,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T02:56:00.519769+02:00,VERKAUF,5162430,Will Igor Thiago score 14 or more goals during the 2026-27 English Premier League season?,3.9711,1.0,3.9711,131.0258,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,VERKAUF,5337452,Exact Score: Llaneros FC 0 - 0 Independiente Santa Fe?,3.9711,1.0,3.9711,134.9969,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,VERKAUF,5662133,Cam Ward: Anytime Touchdown,3.9711,1.0,3.9711,138.968,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,VERKAUF,5673095,Travis Kelce: Anytime Touchdown,3.9711,1.0,3.9711,142.939,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,VERKAUF,5473285,Al Qadisiyah Saudi Club vs. Al Hilal Saudi Club: Neither team to score first?,3.9711,1.0,3.9711,146.9101,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,KAUF,5600153,Will the lowest temperature in Houston be between 74-75°F on October 14?,3.2097,0.995,-3.1937,143.7164,"Spread 0.50%, Liquiditaet 82 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5650470,Game 2: Both Teams Beat Roshan?,3.2097,0.995,-3.1937,140.5227,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5587169,Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?,3.2589,0.98,-3.1937,137.329,"Spread 2.00%, Liquiditaet 23 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5677587,Real Salt Lake vs. San Jose Earthquakes: Neither team to score first in the 2nd half?,3.2097,0.995,-3.1937,134.1353,"Spread 0.50%, Liquiditaet 3 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5189370,FC Midtjylland leading at halftime?,3.2097,0.995,-3.1937,130.9416,"Spread 0.50%, Liquiditaet 5844 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5212217,PFK Levski Sofia to score first vs. NEC?,3.2097,0.995,-3.1937,127.7479,"Spread 0.50%, Liquiditaet 3588 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5650498,Game 3: Any Player Rampage?,3.2097,0.995,-3.1937,124.5542,"Spread 0.50%, Liquiditaet 0 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5214742,Al Qadisiyah Saudi Club vs. Abha Saudi Club: Draw at halftime?,3.2097,0.995,-3.1937,121.3605,"Spread 0.50%, Liquiditaet 3248 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5584283,Will Al Ahli Doha SC vs. AL Wakrah SC end in a draw?,3.2097,0.995,-3.1937,118.1668,"Spread 0.50%, Liquiditaet 5730 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5584933,Wisla Krakow to score first vs. Widzew Lodz?,3.2097,0.995,-3.1937,114.9731,"Spread 0.50%, Liquiditaet 3482 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5251457,Dalian Yingbo FC leading at halftime?,3.2097,0.995,-3.1937,111.7794,"Spread 0.50%, Liquiditaet 1690 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5267896,Everton FC vs. Chelsea FC: Both Teams to Score in Second Half,3.2097,0.995,-3.1937,108.5857,"Spread 0.50%, Liquiditaet 1335 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5269881,USL Dunkerque leading at halftime?,3.2097,0.995,-3.1937,105.392,"Spread 0.50%, Liquiditaet 1262 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5651036,LKP Motor Lublin vs. WKS Slask Wroclaw: Both Teams to Score,3.2097,0.995,-3.1937,102.1983,"Spread 0.50%, Liquiditaet 934 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5609788,HJK Helsinki vs. IF Gnistan: Both Teams to Score in First Half,3.2097,0.995,-3.1937,99.0046,"Spread 0.50%, Liquiditaet 1132 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5652856,Sariyer SK leading at halftime?,3.2097,0.995,-3.1937,95.8109,"Spread 0.50%, Liquiditaet 286 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5308701,St Johnstone FC vs. Dundee United FC: Both Teams to Score,3.2097,0.995,-3.1937,92.6172,"Spread 0.50%, Liquiditaet 2351 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5264991,Wrexham AFC vs. Preston North End FC: Draw at halftime?,3.2097,0.995,-3.1937,89.4235,"Spread 0.50%, Liquiditaet 1445 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5271507,Doncaster Rovers FC leading at halftime?,3.2097,0.995,-3.1937,86.2298,"Spread 0.50%, Liquiditaet 1304 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5273728,Barnet FC to win the second half?,3.2097,0.995,-3.1937,83.0362,"Spread 0.50%, Liquiditaet 634 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5274141,Newport County AFC vs. York City FC: Draw at halftime?,3.2097,0.995,-3.1937,79.8425,"Spread 0.50%, Liquiditaet 1381 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5271117,Pisa SC vs. US Cremonese: Draw at halftime?,3.2097,0.995,-3.1937,76.6488,"Spread 0.50%, Liquiditaet 3233 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5264504,FC St. Pauli 1910 leading at halftime?,3.2097,0.995,-3.1937,73.4551,"Spread 0.50%, Liquiditaet 3287 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5264623,FC St. Pauli 1910 to score first vs. Hannover 96?,3.2097,0.995,-3.1937,70.2614,"Spread 0.50%, Liquiditaet 1108 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5267262,ES Troyes AC vs. Racing Club de Lens: Both Teams to Score in First Half,3.2097,0.995,-3.1937,67.0677,"Spread 0.50%, Liquiditaet 3841 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5244521,Club Aurora leading at halftime?,3.2097,0.995,-3.1937,63.874,"Spread 0.50%, Liquiditaet 139 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5652629,Will Stephon Castle lead the NBA in Player Efficiency Rating (PER) in 2026-27?,5.9473,0.537,-3.1937,60.6803,"Spread 46.30%, Liquiditaet 2 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5317736,SS Juve Stabia leading at halftime?,3.2097,0.995,-3.1937,57.4866,"Spread 0.50%, Liquiditaet 3433 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5299652,FC København vs. Aarhus GF: Draw at halftime?,3.2097,0.995,-3.1937,54.2929,"Spread 0.50%, Liquiditaet 3006 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5255067,Will Joaquin Buckley win by KO or TKO?,3.2097,0.995,-3.1937,51.0992,"Spread 0.50%, Liquiditaet 47 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5599265,Mushuc Runa SC vs. Orense SC: Both Teams to Score in First Half,3.2097,0.995,-3.1937,47.9055,"Spread 0.50%, Liquiditaet 41 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5662761,Jong Ajax Amsterdam vs. De Graafschap: Both Teams to Score in First Half,3.2097,0.995,-3.1937,44.7118,"Spread 0.50%, Liquiditaet 18 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5673046,Dalton Kincaid: Team First TD (Buffalo Bills),3.2097,0.995,-3.1937,41.5181,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5383832,Fenerbahçe SK to score first vs. SK Slavia Praha?,3.2097,0.995,-3.1937,38.3244,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5614168,CA Vélez Sarsfield leading at halftime?,3.2097,0.995,-3.1937,35.1307,"Spread 0.50%, Liquiditaet 106 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5316734,Will the match end in a draw?,3.2097,0.995,-3.1937,31.937,"Spread 0.50%, Liquiditaet 74 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5632970,New Mexico State vs. Sam Houston: Both Teams to Score Points - Q4,3.2097,0.995,-3.1937,28.7433,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5542745,FC Alverca vs. FC Arouca: Both Teams to Score in First Half,3.2097,0.995,-3.1937,25.5496,"Spread 0.50%, Liquiditaet 11 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,4167086,Will the Republican Party candidate win the 2026 TX-38 House election by 25%-30%?,3.2097,0.995,-3.1937,22.3559,"Spread 0.50%, Liquiditaet 104 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,3914382,Will Orlando City SC keep the most clean sheets in the 2026 MLS?,3.2097,0.995,-3.1937,19.1622,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,3544917,Will San Pedro be runner-up in the 2026 Liga Nacional (Guatemala)?,3.2097,0.995,-3.1937,15.9685,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-14T07:10:34.525428+02:00,KAUF,5671492,Will Reyer Venezia win the 2026-27 EuroCup championship?,3.2097,0.995,-3.1937,12.7748,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5671360,Will Neftekhimik Nizhnekamsk win the 2026-27 KHL championship?,3.9711,1.0,3.9711,16.7459,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5600153,Will the lowest temperature in Houston be between 74-75°F on October 14?,3.2097,1.0,3.2097,19.9556,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5650470,Game 2: Both Teams Beat Roshan?,3.2097,1.0,3.2097,23.1654,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5587169,Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?,3.2589,1.0,3.2589,26.4242,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5189370,FC Midtjylland leading at halftime?,3.2097,1.0,3.2097,29.634,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5212217,PFK Levski Sofia to score first vs. NEC?,3.2097,1.0,3.2097,32.8437,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5214742,Al Qadisiyah Saudi Club vs. Abha Saudi Club: Draw at halftime?,3.2097,1.0,3.2097,36.0535,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5584283,Will Al Ahli Doha SC vs. AL Wakrah SC end in a draw?,3.2097,1.0,3.2097,39.2632,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5584933,Wisla Krakow to score first vs. Widzew Lodz?,3.2097,1.0,3.2097,42.473,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5251457,Dalian Yingbo FC leading at halftime?,3.2097,1.0,3.2097,45.6827,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5267896,Everton FC vs. Chelsea FC: Both Teams to Score in Second Half,3.2097,1.0,3.2097,48.8925,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5269881,USL Dunkerque leading at halftime?,3.2097,1.0,3.2097,52.1022,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5651036,LKP Motor Lublin vs. WKS Slask Wroclaw: Both Teams to Score,3.2097,1.0,3.2097,55.312,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5609788,HJK Helsinki vs. IF Gnistan: Both Teams to Score in First Half,3.2097,1.0,3.2097,58.5217,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5652856,Sariyer SK leading at halftime?,3.2097,1.0,3.2097,61.7315,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5308701,St Johnstone FC vs. Dundee United FC: Both Teams to Score,3.2097,1.0,3.2097,64.9412,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5264991,Wrexham AFC vs. Preston North End FC: Draw at halftime?,3.2097,1.0,3.2097,68.151,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5273728,Barnet FC to win the second half?,3.2097,1.0,3.2097,71.3607,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5274141,Newport County AFC vs. York City FC: Draw at halftime?,3.2097,1.0,3.2097,74.5704,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5271117,Pisa SC vs. US Cremonese: Draw at halftime?,3.2097,1.0,3.2097,77.7802,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5264504,FC St. Pauli 1910 leading at halftime?,3.2097,1.0,3.2097,80.9899,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5264623,FC St. Pauli 1910 to score first vs. Hannover 96?,3.2097,1.0,3.2097,84.1997,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5267262,ES Troyes AC vs. Racing Club de Lens: Both Teams to Score in First Half,3.2097,1.0,3.2097,87.4094,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5244521,Club Aurora leading at halftime?,3.2097,1.0,3.2097,90.6192,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5317736,SS Juve Stabia leading at halftime?,3.2097,1.0,3.2097,93.8289,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5299652,FC København vs. Aarhus GF: Draw at halftime?,3.2097,1.0,3.2097,97.0387,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5599265,Mushuc Runa SC vs. Orense SC: Both Teams to Score in First Half,3.2097,1.0,3.2097,100.2484,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5662761,Jong Ajax Amsterdam vs. De Graafschap: Both Teams to Score in First Half,3.2097,1.0,3.2097,103.4582,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5383832,Fenerbahçe SK to score first vs. SK Slavia Praha?,3.2097,1.0,3.2097,106.6679,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5614168,CA Vélez Sarsfield leading at halftime?,3.2097,1.0,3.2097,109.8777,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5316734,Will the match end in a draw?,3.2097,1.0,3.2097,113.0874,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5632970,New Mexico State vs. Sam Houston: Both Teams to Score Points - Q4,3.2097,1.0,3.2097,116.2972,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,4167086,Will the Republican Party candidate win the 2026 TX-38 House election by 25%-30%?,3.2097,1.0,3.2097,119.5069,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,3914382,Will Orlando City SC keep the most clean sheets in the 2026 MLS?,3.2097,1.0,3.2097,122.7166,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:42:21.949981+02:00,VERKAUF,3544917,Will San Pedro be runner-up in the 2026 Liga Nacional (Guatemala)?,3.2097,1.0,3.2097,125.9264,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5672856,Davante Adams: Anytime Touchdown,3.9711,1.0,3.9711,129.8975,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5677587,Real Salt Lake vs. San Jose Earthquakes: Neither team to score first in the 2nd half?,3.2097,1.0,3.2097,133.1072,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5650498,Game 3: Any Player Rampage?,3.2097,1.0,3.2097,136.317,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5271507,Doncaster Rovers FC leading at halftime?,3.2097,1.0,3.2097,139.5267,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5652629,Will Stephon Castle lead the NBA in Player Efficiency Rating (PER) in 2026-27?,5.9473,1.0,5.9473,145.474,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5255067,Will Joaquin Buckley win by KO or TKO?,3.2097,1.0,3.2097,148.6838,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5673046,Dalton Kincaid: Team First TD (Buffalo Bills),3.2097,1.0,3.2097,151.8935,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,VERKAUF,5671492,Will Reyer Venezia win the 2026-27 EuroCup championship?,3.2097,1.0,3.2097,155.1033,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:11:42.068334+02:00,KAUF,5670286,BG Pathum United vs. Adelaide United FC: Both Teams to Score,4.3301,0.995,-4.3084,150.7948,"Spread 0.50%, Liquiditaet 3066 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5189648,KAA Gent vs. Aarhus GF: Second half draw?,4.3301,0.995,-4.3084,146.4864,"Spread 0.50%, Liquiditaet 2152 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5223787,Holstein Kiel to score first vs. Hertha BSC?,4.3301,0.995,-4.3084,142.178,"Spread 0.50%, Liquiditaet 3718 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5226722,Córdoba CF to score first vs. CD Leganés?,4.3301,0.995,-4.3084,137.8696,"Spread 0.50%, Liquiditaet 3517 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5660154,Bohemians Dublin FC vs. Waterford FC: Draw at halftime?,4.3301,0.995,-4.3084,133.5611,"Spread 0.50%, Liquiditaet 3149 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5475378,Will Amazon (AMZN) close at $250-$255 on the final day of trading of the week of Oct 12 – Oct 16?,4.3301,0.995,-4.3084,129.2527,"Spread 0.50%, Liquiditaet 485 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5475546,Will NVIDIA (NVDA) finish week of October 12 above $235?,4.3301,0.995,-4.3084,124.9443,"Spread 0.50%, Liquiditaet 798 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5679668,Gimnasia Y Tiro de Salta vs. CA Atlanta: Draw at halftime?,4.3301,0.995,-4.3084,120.6359,"Spread 0.50%, Liquiditaet 480 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5533528,Will CF Correcaminos UAT vs. CSD Dorados Sinaloa end in a draw?,4.3301,0.995,-4.3084,116.3274,"Spread 0.50%, Liquiditaet 4362 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5264481,1. FC Heidenheim to score first vs. VfL Wolfsburg?,4.3301,0.995,-4.3084,112.019,"Spread 0.50%, Liquiditaet 2625 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5268879,RCD Espanyol de Barcelona to win the second half?,4.3301,0.995,-4.3084,107.7106,"Spread 0.50%, Liquiditaet 2721 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5509357,Will Sandvikens IF vs. Ostersunds FK end in a draw?,4.3301,0.995,-4.3084,103.4022,"Spread 0.50%, Liquiditaet 5459 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5271316,Will Bradford City AFC win on 2026-10-17?,4.3301,0.995,-4.3084,99.0937,"Spread 0.50%, Liquiditaet 5728 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5627060,Linfield FC leading at halftime?,4.3301,0.995,-4.3084,94.7853,"Spread 0.50%, Liquiditaet 2425 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5273167,Will FK Shakhtar Donetsk win on 2026-10-17?,4.3301,0.995,-4.3084,90.4769,"Spread 0.50%, Liquiditaet 5715 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5574292,Will Tampa Bay Rowdies vs. Detroit City FC end in a draw?,4.3301,0.995,-4.3084,86.1685,"Spread 0.50%, Liquiditaet 4659 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5574525,Orange County SC vs. Phoenix Rising FC: Draw at halftime?,4.3301,0.995,-4.3084,81.86,"Spread 0.50%, Liquiditaet 2453 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5298240,FC Machida Zelvia vs. Avispa Fukuoka: Draw at halftime?,4.3301,0.995,-4.3084,77.5516,"Spread 0.50%, Liquiditaet 3288 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5312265,Sunderland AFC to win the second half?,4.3301,0.995,-4.3084,73.2432,"Spread 0.50%, Liquiditaet 3932 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5312249,Exact Score: Borussia Mönchengladbach 5 - 3 TSG 1899 Hoffenheim?,4.3301,0.995,-4.3084,68.9348,"Spread 0.50%, Liquiditaet 161 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5613771,Exact Score: PAOK Thessaloniki 1 - 0 POT Iraklis?,4.3301,0.995,-4.3084,64.6264,"Spread 0.50%, Liquiditaet 1257 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5308444,Juventus FC to score first vs. SS Lazio?,4.3301,0.995,-4.3084,60.3179,"Spread 0.50%, Liquiditaet 2495 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5671082,CA Chaco For Ever vs. CA Central Norte Salta: Draw at halftime?,4.3301,0.995,-4.3084,56.0095,"Spread 0.50%, Liquiditaet 479 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5434950,Exact Score: AA Estudiantes 0 - 1 CA Aldosivi?,4.3301,0.995,-4.3084,51.7011,"Spread 0.50%, Liquiditaet 501 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5373620,EC Bahia vs. CR Flamengo: Both Teams to Score,4.3301,0.995,-4.3084,47.3927,"Spread 0.50%, Liquiditaet 1241 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5325093,Will Seattle Reign FC win on 2026-10-18?,4.3301,0.995,-4.3084,43.0842,"Spread 0.50%, Liquiditaet 2166 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5312563,Exact Score: Paris FC 3 - 2 Stade Rennais FC 1901?,4.3171,0.998,-4.3084,38.7758,"Spread 0.20%, Liquiditaet 2770 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5633372,Exact Margin: North Texas by 7-12,4.3301,0.995,-4.3084,34.4674,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5633229,Exact Margin: Syracuse by 1-6,4.3301,0.995,-4.3084,30.159,"Spread 0.50%, Liquiditaet 5 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5647098,Will Justin Allgaier win the 2026 NASCAR Xfinity Series Timberland PRO 200?,4.3301,0.995,-4.3084,25.8505,"Spread 0.50%, Liquiditaet 2 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,3503938,"Will Josh Allen have 3,599.5+ passing yards in the 2026-27 NFL regular season?",4.3301,0.995,-4.3084,21.5421,"Spread 0.50%, Liquiditaet 81 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,3849480,Will Chongqing Tonglianglong keep the most clean sheets in the 2026 Chinese Super League?,4.3301,0.995,-4.3084,17.2337,"Spread 0.50%, Liquiditaet 4 USD"
+2026-10-14T12:11:42.068334+02:00,KAUF,5457517,Will Mike Newman be the next Premier of New South Wales?,4.3323,0.9945,-4.3084,12.9253,"Spread 0.55%, Liquiditaet 5075 USD"
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5670286,BG Pathum United vs. Adelaide United FC: Both Teams to Score,4.3301,1.0,4.3301,17.2553,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5189648,KAA Gent vs. Aarhus GF: Second half draw?,4.3301,1.0,4.3301,21.5854,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5223787,Holstein Kiel to score first vs. Hertha BSC?,4.3301,1.0,4.3301,25.9155,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5226722,Córdoba CF to score first vs. CD Leganés?,4.3301,1.0,4.3301,30.2456,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5660154,Bohemians Dublin FC vs. Waterford FC: Draw at halftime?,4.3301,1.0,4.3301,34.5756,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5475378,Will Amazon (AMZN) close at $250-$255 on the final day of trading of the week of Oct 12 – Oct 16?,4.3301,1.0,4.3301,38.9057,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5475546,Will NVIDIA (NVDA) finish week of October 12 above $235?,4.3301,1.0,4.3301,43.2358,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5679668,Gimnasia Y Tiro de Salta vs. CA Atlanta: Draw at halftime?,4.3301,1.0,4.3301,47.5659,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5533528,Will CF Correcaminos UAT vs. CSD Dorados Sinaloa end in a draw?,4.3301,1.0,4.3301,51.8959,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5264481,1. FC Heidenheim to score first vs. VfL Wolfsburg?,4.3301,1.0,4.3301,56.226,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5268879,RCD Espanyol de Barcelona to win the second half?,4.3301,1.0,4.3301,60.5561,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5509357,Will Sandvikens IF vs. Ostersunds FK end in a draw?,4.3301,1.0,4.3301,64.8862,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5271316,Will Bradford City AFC win on 2026-10-17?,4.3301,1.0,4.3301,69.2162,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5627060,Linfield FC leading at halftime?,4.3301,1.0,4.3301,73.5463,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5273167,Will FK Shakhtar Donetsk win on 2026-10-17?,4.3301,1.0,4.3301,77.8764,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5574292,Will Tampa Bay Rowdies vs. Detroit City FC end in a draw?,4.3301,1.0,4.3301,82.2065,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5574525,Orange County SC vs. Phoenix Rising FC: Draw at halftime?,4.3301,1.0,4.3301,86.5365,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5298240,FC Machida Zelvia vs. Avispa Fukuoka: Draw at halftime?,4.3301,1.0,4.3301,90.8666,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5312265,Sunderland AFC to win the second half?,4.3301,1.0,4.3301,95.1967,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5312249,Exact Score: Borussia Mönchengladbach 5 - 3 TSG 1899 Hoffenheim?,4.3301,1.0,4.3301,99.5268,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5613771,Exact Score: PAOK Thessaloniki 1 - 0 POT Iraklis?,4.3301,1.0,4.3301,103.8568,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5308444,Juventus FC to score first vs. SS Lazio?,4.3301,1.0,4.3301,108.1869,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5671082,CA Chaco For Ever vs. CA Central Norte Salta: Draw at halftime?,4.3301,1.0,4.3301,112.517,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5434950,Exact Score: AA Estudiantes 0 - 1 CA Aldosivi?,4.3301,1.0,4.3301,116.847,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5373620,EC Bahia vs. CR Flamengo: Both Teams to Score,4.3301,1.0,4.3301,121.1771,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5325093,Will Seattle Reign FC win on 2026-10-18?,4.3301,1.0,4.3301,125.5072,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5647098,Will Justin Allgaier win the 2026 NASCAR Xfinity Series Timberland PRO 200?,4.3301,1.0,4.3301,129.8373,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,3503938,"Will Josh Allen have 3,599.5+ passing yards in the 2026-27 NFL regular season?",4.3301,1.0,4.3301,134.1673,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,3849480,Will Chongqing Tonglianglong keep the most clean sheets in the 2026 Chinese Super League?,4.3301,1.0,4.3301,138.4974,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T12:37:08.350381+02:00,VERKAUF,5457517,Will Mike Newman be the next Premier of New South Wales?,4.3323,1.0,4.3323,142.8297,Konvergenz erreicht (Kurs 1.000)

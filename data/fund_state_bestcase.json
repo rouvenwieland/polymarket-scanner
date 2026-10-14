@@ -1,5 +1,61 @@
 {
-  "cash": 158.04899229503536,
-  "positions": [],
+  "cash": 142.82966814668555,
+  "positions": [
+    {
+      "market_id": "5523143",
+      "frage": "Will the fight end before Round 3?",
+      "slug": "ufc-ale22-riz-2026-10-24-ends-before-round-3",
+      "shares": 3.971080208417974,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 2.9197,
+      "end_date": "2026-10-25T03:59:59.999Z",
+      "eingestiegen": "2026-10-14T02:17:10.834029+02:00"
+    },
+    {
+      "market_id": "5542745",
+      "frage": "FC Alverca vs. FC Arouca: Both Teams to Score in First Half",
+      "slug": "por-alv-aro-2026-10-24-btts-first-half",
+      "shares": 3.209746827844067,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 10.9599,
+      "end_date": "2026-10-24T17:00:00Z",
+      "eingestiegen": "2026-10-14T07:10:34.525428+02:00"
+    },
+    {
+      "market_id": "5312563",
+      "frage": "Exact Score: Paris FC 3 - 2 Stade Rennais FC 1901?",
+      "slug": "fl1-pfc-ren-2026-10-18-exact-score-3-2",
+      "shares": 4.317057752930238,
+      "einstandskurs": 0.998,
+      "letzter_kurs": 0.998,
+      "liquiditaet": 2769.65274,
+      "end_date": "2026-10-18T15:15:00Z",
+      "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
+    },
+    {
+      "market_id": "5633372",
+      "frage": "Exact Margin: North Texas by 7-12",
+      "slug": "cfb-ntx-navy-2026-10-24-exact-margin-long-7-12",
+      "shares": 4.330074007461686,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 4.5544,
+      "end_date": "2026-10-24T19:30:00Z",
+      "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
+    },
+    {
+      "market_id": "5633229",
+      "frage": "Exact Margin: Syracuse by 1-6",
+      "slug": "cfb-syra-ncar-2026-10-24-exact-margin-long-1-6",
+      "shares": 4.330074007461686,
+      "einstandskurs": 0.995,
+      "letzter_kurs": 0.995,
+      "liquiditaet": 4.5544,
+      "end_date": "2026-10-24T23:30:00Z",
+      "eingestiegen": "2026-10-14T12:11:42.068334+02:00"
+    }
+  ],
   "started": "2026-09-28T09:52:55.524283+02:00"
 }
