@@ -1,0 +1,101 @@
+timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz
+2026-09-28T09:16:53.703979+02:00,KAUF,4903979,Will GPT Sol's output price be at or below $5 in 2026?,6.2388,0.9186,-5.7308,94.2692,"Spread 9.5%, Liquiditaet 57 USD"
+2026-09-28T09:44:17.093437+02:00,VERKAUF,4903979,Will GPT Sol's output price be at or below $5 in 2026?,6.2388,0.9928,6.1939,100.4631,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T10:05:22.550814+02:00,KAUF,4593703,Will Chronicle have the highest ACS at VALORANT Champions 2026?,18.0308,0.9286,-16.7438,83.7192,"Spread 7.50%, Liquiditaet 641 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,2.4264,0.999,-2.424,81.2953,"Spread 1.00%, Liquiditaet 40 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,2.4264,0.999,-2.424,78.8713,"Spread 1.00%, Liquiditaet 40 USD"
+2026-09-28T10:05:22.550814+02:00,KAUF,3503884,"Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",3.3339,0.9947,-3.3162,75.5551,"Spread 2.00%, Liquiditaet 33 USD"
+2026-09-28T11:29:11.942274+02:00,VERKAUF,4593703,Will Chronicle have the highest ACS at VALORANT Champions 2026?,18.0308,0.9935,17.9143,93.4694,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T11:29:11.942274+02:00,VERKAUF,3503884,"Will Justin Herbert have 4,099.5+ passing yards in the 2026-27 NFL regular season?",3.3339,0.9743,3.2483,96.7177,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T11:29:11.942274+02:00,KAUF,4757297,Will United States win on 2026-10-03?,18.5514,0.9896,-18.3589,78.3588,"Spread 2.50%, Liquiditaet 184 USD"
+2026-09-28T11:29:11.942274+02:00,KAUF,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,3.0817,0.8881,-2.7369,75.6219,"Spread 12.50%, Liquiditaet 27 USD"
+2026-09-28T11:29:11.942274+02:00,KAUF,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,2.997,0.8983,-2.6921,72.9298,"Spread 11.50%, Liquiditaet 27 USD"
+2026-09-28T17:44:48.949767+02:00,VERKAUF,4757297,Will United States win on 2026-10-03?,18.5514,0.997,18.4957,91.4256,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3401701,Will Derrick Henry be the highest-scoring FLEX of the 2026-27 NFL season?,3.0817,0.9906,3.0525,94.4781,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T17:44:48.949767+02:00,VERKAUF,3400211,Will Kyren Williams be the highest-scoring fantasy football player of the 2026-27 NFL season?,2.997,0.983,2.946,97.4241,Konvergenz erreicht (Kurs 1.000)
+2026-09-28T23:24:34.469429+02:00,KAUF,4595279,Will NoMan have the most first bloods at VALORANT Champions 2026?,3.3904,0.8881,-3.0111,94.413,"Spread 12.50%, Liquiditaet 30 USD"
+2026-09-28T23:44:05.828205+02:00,VERKAUF,4595279,Will NoMan have the most first bloods at VALORANT Champions 2026?,3.3904,0.9915,3.3617,97.7747,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T20:53:05.805023+02:00,VERKAUF,4844770,Will Nihal Sarin finish in the Top 5 of Titled Tuesday on September 29?,2.4264,0.9992,2.4244,100.199,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T20:53:05.805023+02:00,VERKAUF,4844826,Will Jan-Krzysztof Duda finish in the Top 8 of Titled Tuesday on September 29?,2.4264,0.9963,2.4174,102.6164,Konvergenz erreicht (Kurs 1.000)
+2026-09-29T20:53:05.805023+02:00,KAUF,5120358,Will FK Livyi Bereh win on 2026-10-12?,15.8673,0.8374,-13.2869,89.3296,"Spread 17.50%, Liquiditaet 133 USD"
+2026-09-30T00:46:17.127907+02:00,VERKAUF,5120358,Will FK Livyi Bereh win on 2026-10-12?,15.8673,0.9834,15.6038,104.9334,Konvergenz erreicht (Kurs 1.000)
+2026-09-30T00:49:36.463813+02:00,KAUF,4753358,Will CSD Mixco win on 2026-10-03?,58.4095,0.8983,-52.4667,52.4667,"Spread 11.50%, Liquiditaet 525 USD"
+2026-09-30T00:49:36.463813+02:00,KAUF,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,2.2791,0.8881,-2.0241,50.4426,"Spread 12.50%, Liquiditaet 20 USD"
+2026-09-30T03:37:45.195528+02:00,VERKAUF,4753358,Will CSD Mixco win on 2026-10-03?,58.4095,0.9841,57.4796,107.9222,Konvergenz erreicht (Kurs 1.000)
+2026-09-30T03:37:45.195528+02:00,VERKAUF,4567127,Will Jaume Martinez Vich reach the Semifinals of the 2027 PPA Tour Finals?,2.2791,0.9892,2.2545,110.1767,Konvergenz erreicht (Kurs 1.000)
+2026-09-30T16:34:55.494544+02:00,KAUF,4799625,CA Talleres leading at halftime?,85.7714,0.999,-85.6855,24.4912,"Spread 1.00%, Liquiditaet 1414 USD"
+2026-09-30T20:49:37.821389+02:00,VERKAUF,4799625,CA Talleres leading at halftime?,85.7714,0.991,84.9969,109.4881,Konvergenz erreicht (Kurs 1.000)
+2026-09-30T21:38:27.436094+02:00,KAUF,5077232,Will Jackson Chourio lead the 2026 MLB Postseason in stolen bases?,5.3545,0.8272,-4.4294,105.0587,"Spread 18.50%, Liquiditaet 44 USD"
+2026-10-01T00:39:41.467519+02:00,VERKAUF,5077232,Will Jackson Chourio lead the 2026 MLB Postseason in stolen bases?,5.3545,0.988,5.2901,110.3487,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T01:12:35.568662+02:00,KAUF,5051025,Will Mike Sullivan win the 2026-27 Jack Adams Award?,9.9438,0.8932,-8.8818,101.4669,"Spread 12.00%, Liquiditaet 89 USD"
+2026-10-01T01:12:35.568662+02:00,KAUF,5131129,Will Cristobal Henriquez Villagra finish in the Top 3 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,99.0429,"Spread 1.00%, Liquiditaet 40 USD"
+2026-10-01T03:33:13.425622+02:00,VERKAUF,5051025,Will Mike Sullivan win the 2026-27 Jack Adams Award?,9.9438,0.9859,9.8032,108.8462,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T04:10:41.166982+02:00,KAUF,4846865,Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?,5.9485,0.9947,-5.917,102.9292,"Spread 2.00%, Liquiditaet 59 USD"
+2026-10-01T09:42:14.370052+02:00,VERKAUF,4846865,Exact Score: Tadley Calleva FC 1 - 2 Dartford FC?,5.9485,0.9849,5.8588,108.788,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T16:46:36.733649+02:00,VERKAUF,5131129,Will Cristobal Henriquez Villagra finish in the Top 3 of Titled Tuesday on October 6?,2.4264,0.9984,2.4224,111.2104,Konvergenz erreicht (Kurs 1.000)
+2026-10-01T22:58:20.756443+02:00,KAUF,4593766,Will LêwN have the highest ACS at VALORANT Champions 2026?,3.0687,0.8881,-2.7254,108.485,"Spread 12.50%, Liquiditaet 27 USD"
+2026-10-01T22:58:20.756443+02:00,KAUF,5136271,Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half,9.2147,0.9947,-9.1659,99.3192,"Spread 2.00%, Liquiditaet 92 USD"
+2026-10-02T01:46:41.913664+02:00,VERKAUF,4593766,Will LêwN have the highest ACS at VALORANT Champions 2026?,3.0687,0.9689,2.9734,102.2926,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T01:46:41.913664+02:00,VERKAUF,5136271,Racing Club de Lens vs. Sporting CP: Both Teams to Score in Second Half,9.2147,0.9852,9.0782,111.3708,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T02:36:53.145566+02:00,KAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,108.9468,"Spread 1.00%, Liquiditaet 40 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,5162920,Game 2: Any Player Ultra Kill?,8.9566,0.6141,-5.5,103.4468,"Spread 39.50%, Liquiditaet 55 USD"
+2026-10-02T14:40:59.050255+02:00,KAUF,4755063,AFC Fylde to score first vs. Southend United FC?,55.5454,0.9807,-54.4734,48.9734,"Spread 2.50%, Liquiditaet 1398 USD"
+2026-10-02T17:05:44.636472+02:00,VERKAUF,5162920,Game 2: Any Player Ultra Kill?,8.9566,0.9756,8.7378,57.7112,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T17:05:44.636472+02:00,VERKAUF,4755063,AFC Fylde to score first vs. Southend United FC?,55.5454,0.9964,55.3441,113.0553,Konvergenz erreicht (Kurs 1.000)
+2026-10-02T20:02:47.900374+02:00,AUSZAHLUNG,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,1.0,2.4264,115.4817,Markt nicht mehr auffindbar -> als aufgelöst behandelt
+2026-10-03T00:12:51.254307+02:00,KAUF,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,15.0067,0.7003,-10.51,104.9717,"Spread 31.00%, Liquiditaet 105 USD"
+2026-10-03T00:12:51.254307+02:00,KAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.999,-2.424,102.5478,"Spread 1.00%, Liquiditaet 40 USD"
+2026-10-03T01:24:27.182676+02:00,VERKAUF,4751277,Burton Albion FC vs. Huddersfield Town AFC: Both Teams to Score in Second Half,15.0067,0.974,14.6167,117.1645,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T14:02:36.092687+02:00,KAUF,4765516,CA Tigre to win the second half?,32.5595,0.9642,-31.3955,85.769,"Spread 5.00%, Liquiditaet 314 USD"
+2026-10-03T14:02:36.092687+02:00,KAUF,4970693,1. FC Kaiserslautern to win the second half?,47.8403,0.9338,-44.6733,41.0958,"Spread 8.00%, Liquiditaet 447 USD"
+2026-10-03T15:17:08.470757+02:00,VERKAUF,4765516,CA Tigre to win the second half?,32.5595,0.9896,32.2195,73.3153,Konvergenz erreicht (Kurs 1.000)
+2026-10-03T15:17:08.470757+02:00,VERKAUF,4970693,1. FC Kaiserslautern to win the second half?,47.8403,0.9847,47.1106,120.4259,Konvergenz erreicht (Kurs 1.000)
+2026-10-04T00:17:01.658931+02:00,KAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,3.057,0.8983,-2.746,117.6799,"Spread 11.50%, Liquiditaet 27 USD"
+2026-10-04T00:17:01.658931+02:00,KAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,3.2018,0.8983,-2.8761,114.8038,"Spread 11.50%, Liquiditaet 29 USD"
+2026-10-04T00:45:18.881397+02:00,VERKAUF,3365462,Will Tony Elliott win 2026 NCAA Coach of the Year?,3.057,0.9878,3.0196,117.8234,Konvergenz erreicht (Kurs 1.000)
+2026-10-04T00:45:18.881397+02:00,VERKAUF,4567147,Will Liz Truluck reach the Semifinals of the 2027 PPA Tour Finals?,3.2018,0.9832,3.1481,120.9716,Konvergenz erreicht (Kurs 1.000)
+2026-10-04T03:47:12.906690+02:00,VERKAUF,5131225,Will Pranav Venkatesh finish in the Top 5 of Titled Tuesday on October 6?,2.4264,0.9561,2.32,123.2916,Konvergenz erreicht (Kurs 1.000)
+2026-10-04T03:47:12.906690+02:00,KAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.6445,-11.0891,112.2025,"Spread 36.50%, Liquiditaet 111 USD"
+2026-10-04T04:00:10.557503+02:00,VERKAUF,5260958,Los Angeles Dodgers to win the 3rd inning?,17.205,0.9767,16.8046,129.0071,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T13:09:11.948773+02:00,KAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,8.0647,0.9947,-8.022,120.9851,"Spread 2.00%, Liquiditaet 80 USD"
+2026-10-05T21:37:32.878839+02:00,VERKAUF,4972876,BV Borussia 09 Dortmund vs. SV Werder Bremen: Both Teams to Score in Second Half,8.0647,0.9853,7.9462,128.9313,Konvergenz erreicht (Kurs 1.000)
+2026-10-05T21:37:32.878839+02:00,KAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,12.2742,0.9947,-12.2092,116.7222,"Spread 2.00%, Liquiditaet 122 USD"
+2026-10-06T02:57:44.122981+02:00,VERKAUF,5313239,Will the lowest temperature in Jeddah be 30°C on October 7?,12.2742,0.9853,12.0936,128.8158,Konvergenz erreicht (Kurs 1.000)
+2026-10-06T09:19:49.359762+02:00,KAUF,3848441,Will Bologna be relegated from the 2026-27 Serie A?,16.55,0.8983,-14.8664,113.9494,"Spread 11.50%, Liquiditaet 149 USD"
+2026-10-06T16:13:07.174200+02:00,VERKAUF,3848441,Will Bologna be relegated from the 2026-27 Serie A?,16.55,0.9925,16.4251,130.3745,Konvergenz erreicht (Kurs 1.000)
+2026-10-06T21:40:38.249377+02:00,KAUF,4228892,Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?,49.7989,0.999,-49.749,80.6255,"Spread 1.50%, Liquiditaet 525 USD"
+2026-10-07T01:12:32.002889+02:00,VERKAUF,4228892,Will the Kansas City Chiefs finish the 2026-27 NFL regular season with the worst record?,49.7989,0.9856,49.0829,129.7084,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T04:35:19.271956+02:00,KAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,9.2163,0.675,-6.2208,123.4876,"Spread 33.50%, Liquiditaet 62 USD"
+2026-10-07T10:55:39.604352+02:00,VERKAUF,4586860,Will Munchkin win the VALORANT Champions 2026 MVP?,9.2163,0.9786,9.0195,132.5071,Konvergenz erreicht (Kurs 1.000)
+2026-10-07T23:45:16.650111+02:00,KAUF,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,2.7591,0.8678,-2.3944,130.1127,"Spread 14.50%, Liquiditaet 24 USD"
+2026-10-08T08:51:25.797917+02:00,VERKAUF,5404216,WTI Crude Oil (WTI) closes above $88 on October 8?,2.7591,0.9997,2.7583,132.8711,Konvergenz erreicht (Kurs 1.000)
+2026-10-08T22:41:55.192375+02:00,KAUF,4965240,Al Fateh Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score in Second Half,13.431,0.812,-10.906,121.9651,"Spread 20.00%, Liquiditaet 109 USD"
+2026-10-09T01:59:42.884697+02:00,VERKAUF,4965240,Al Fateh Saudi Club vs. Al Ahli Saudi Club: Both Teams to Score in Second Half,13.431,0.9908,13.3072,135.2723,Konvergenz erreicht (Kurs 1.000)
+2026-10-09T15:49:48.172282+02:00,KAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,8.1745,0.878,-7.177,128.0953,"Spread 13.50%, Liquiditaet 72 USD"
+2026-10-09T20:08:30.206068+02:00,VERKAUF,5261389,Almere City FC vs. FC Eindhoven: Both Teams to Score in Second Half,8.1745,0.7,5.7221,133.8174,Konvergenz erreicht (Kurs 1.000)
+2026-10-09T21:14:19.541763+02:00,KAUF,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,13.3871,0.7562,-10.123,123.6945,"Spread 25.50%, Liquiditaet 101 USD"
+2026-10-09T21:14:19.541763+02:00,KAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,7.9952,0.999,-7.9872,115.7072,"Spread 1.50%, Liquiditaet 84 USD"
+2026-10-10T00:34:44.522595+02:00,VERKAUF,5033555,Avispa Fukuoka vs. Fagiano Okayama: Both Teams to Score in Second Half,13.3871,0.9802,13.1215,128.8287,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T00:34:44.522595+02:00,VERKAUF,5379291,Will Jeffery Xiong finish in the Top 5 of Titled Tuesday on October 13?,7.9952,0.996,7.9632,136.7919,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T04:32:32.251449+02:00,KAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.999,-5.5412,131.2507,"Spread 1.00%, Liquiditaet 91 USD"
+2026-10-10T04:32:32.251449+02:00,KAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.999,-2.9879,128.2629,"Spread 1.00%, Liquiditaet 49 USD"
+2026-10-10T09:48:59.571932+02:00,VERKAUF,5064464,ES Troyes AC vs. Olympique de Marseille: Both Teams to Score in Second Half,5.5467,0.9907,5.495,133.7579,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T09:48:59.571932+02:00,VERKAUF,5047507,Atlético Nacional leading at halftime?,2.9908,0.9885,2.9565,136.7144,Konvergenz erreicht (Kurs 1.000)
+2026-10-10T21:25:48.877167+02:00,KAUF,3852384,Will Leanne Caron win the 2026 Guelph mayoral election?,23.2716,0.999,-23.2483,113.4661,"Spread 1.00%, Liquiditaet 384 USD"
+2026-10-10T23:51:51.832826+02:00,VERKAUF,3852384,Will Leanne Caron win the 2026 Guelph mayoral election?,23.2716,0.9908,23.0582,136.5243,Konvergenz erreicht (Kurs 1.000)
+2026-10-11T03:32:08.256510+02:00,KAUF,5279701,SCR Altach vs. Wolfsberger AC: Both Teams to Score in Second Half,118.0339,0.9236,-109.022,27.5023,"Spread 9.00%, Liquiditaet 1090 USD"
+2026-10-11T08:19:55.868934+02:00,VERKAUF,5279701,SCR Altach vs. Wolfsberger AC: Both Teams to Score in Second Half,118.0339,0.9893,116.7742,144.2765,Konvergenz erreicht (Kurs 1.000)
+2026-10-11T09:49:44.394407+02:00,KAUF,5372071,Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?,15.3371,0.9287,-14.244,130.0325,"Spread 8.50%, Liquiditaet 142 USD"
+2026-10-11T15:05:27.566347+02:00,VERKAUF,5372071,Exact Score: Gimnasia y Esgrima de Jujuy 5 - 5 Gimnasia Y Tiro de Salta?,15.3371,0.9831,15.0775,145.1101,Konvergenz erreicht (Kurs 1.000)
+2026-10-11T21:10:51.527227+02:00,KAUF,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,19.8993,0.9287,-18.481,126.6291,"Spread 8.50%, Liquiditaet 185 USD"
+2026-10-11T23:44:37.180081+02:00,VERKAUF,5363669,Exact Score: Malmo FF 5 - 5 Kalmar FF?,19.8993,0.9867,19.6353,146.2644,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T04:01:59.971903+02:00,KAUF,5229661,Will Lewis Hamilton win the 2026 F1 United States Grand Prix?,38.6356,0.9338,-36.0779,110.1865,"Spread 8.00%, Liquiditaet 361 USD"
+2026-10-12T08:39:23.696351+02:00,VERKAUF,5229661,Will Lewis Hamilton win the 2026 F1 United States Grand Prix?,38.6356,0.9943,38.4158,148.6023,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T11:10:34.503266+02:00,KAUF,5595943,Will the highest temperature in Moscow be 9°C on October 14?,88.4473,0.9592,-84.8365,63.7658,"Spread 5.50%, Liquiditaet 848 USD"
+2026-10-12T18:20:31.741394+02:00,VERKAUF,5595943,Will the highest temperature in Moscow be 9°C on October 14?,88.4473,0.9989,88.3481,152.1139,Konvergenz erreicht (Kurs 1.000)
+2026-10-12T21:02:07.427523+02:00,KAUF,5548848,"Will it rain in Seattle, WA on October 12?",2.9456,0.7714,-2.2722,149.8417,"Spread 24.00%, Liquiditaet 23 USD"
+2026-10-12T21:02:07.427523+02:00,KAUF,3849944,"Will MegaETH hit $0.10 by December 31, 2027?",37.4775,0.8983,-33.6651,116.1766,"Spread 11.50%, Liquiditaet 337 USD"
+2026-10-13T01:17:35.119307+02:00,VERKAUF,5548848,"Will it rain in Seattle, WA on October 12?",2.9456,0.992,2.9219,119.0985,Konvergenz erreicht (Kurs 1.000)
+2026-10-13T01:17:35.119307+02:00,VERKAUF,3849944,"Will MegaETH hit $0.10 by December 31, 2027?",37.4775,0.9835,36.8592,155.9577,Konvergenz erreicht (Kurs 1.000)
+2026-10-14T07:10:34.525428+02:00,KAUF,5587169,Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?,2.3554,0.9947,-2.3429,153.6148,"Spread 2.00%, Liquiditaet 23 USD"
+2026-10-14T07:42:21.949981+02:00,VERKAUF,5587169,Exact Score: Ujpest FC Budapest 2 - 1 Puskas Akademia FC Felcsut?,2.3554,0.9938,2.3409,155.9556,Konvergenz erreicht (Kurs 1.000)

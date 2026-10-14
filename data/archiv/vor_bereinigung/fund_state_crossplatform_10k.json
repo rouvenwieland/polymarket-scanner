@@ -1,0 +1,351 @@
+{
+  "cash": 9654.504260597421,
+  "positions": [
+    {
+      "pair_id": "polymarket:5152046__kalshi:KXMLSBTTS-26OCT14TORORL-BTTS",
+      "frage": "[polymarket] CA Gimnasia y Esgrima de Mendoza vs. CA Newell's Old Boys: Both Teams to Score  <->  [kalshi] Both Teams To Score",
+      "shares": 32.25806451612903,
+      "end_date": "2026-10-16T23:30:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5152046",
+        "side": "yes",
+        "einstandskurs": 0.5,
+        "letzter_kurs": 0.0,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
+        "side": "no",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.3,
+        "fee_gezahlt": 0.49
+      }
+    },
+    {
+      "pair_id": "polymarket:5297567__kalshi:KXMLSBTTS-26OCT14TORORL-BTTS",
+      "frage": "[polymarket] Real Sociedad de Fútbol B vs. UD Almería: Both Teams to Score  <->  [kalshi] Both Teams To Score",
+      "shares": 32.25806451612903,
+      "end_date": "2026-10-17T12:00:00Z",
+      "eingestiegen": "2026-10-08T02:45:47.606633+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5297567",
+        "side": "yes",
+        "einstandskurs": 0.505,
+        "letzter_kurs": 0.58,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "kalshi",
+        "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
+        "side": "no",
+        "einstandskurs": 0.31,
+        "letzter_kurs": 0.3,
+        "fee_gezahlt": 0.49
+      }
+    },
+    {
+      "pair_id": "polymarket:5378964__predictit:8939:35603",
+      "frage": "[polymarket] Will Maine be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Maine",
+      "shares": 11.764705882352942,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-09T02:32:24.801755+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5378964",
+        "side": "yes",
+        "einstandskurs": 0.0965,
+        "letzter_kurs": 0.0845,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8939:35603",
+        "side": "no",
+        "einstandskurs": 0.85,
+        "letzter_kurs": 0.87,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3344127__predictit:8375:33006",
+      "frage": "[polymarket] Will the Democratic Party candidate win the 2026 South Carolina Senate election?  <->  [predictit] Which party will win the 2026 US Senate election in South Carolina? - Democratic",
+      "shares": 12.82051282051282,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3344127",
+        "side": "yes",
+        "einstandskurs": 0.145,
+        "letzter_kurs": 0.165,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8375:33006",
+        "side": "no",
+        "einstandskurs": 0.78,
+        "letzter_kurs": 0.8,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5378949__predictit:8939:35602",
+      "frage": "[polymarket] Will Alaska be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Alaska",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5378949",
+        "side": "yes",
+        "einstandskurs": 0.0365,
+        "letzter_kurs": 0.09,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8939:35602",
+        "side": "no",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.92,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:630806__predictit:8158:31953",
+      "frage": "[polymarket] Will the Republicans win the Michigan Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Michigan? - Republican",
+      "shares": 15.384615384615383,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "630806",
+        "side": "yes",
+        "einstandskurs": 0.315,
+        "letzter_kurs": 0.305,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8158:31953",
+        "side": "no",
+        "einstandskurs": 0.65,
+        "letzter_kurs": 0.67,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:635012__predictit:8245:32302",
+      "frage": "[polymarket] Will Bernadette Wilson win the 2026 Alaska governor election?  <->  [predictit] Who will win the 2026 election for governor of Alaska? - Bernadette Wilson",
+      "shares": 12.987012987012987,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "635012",
+        "side": "yes",
+        "einstandskurs": 0.195,
+        "letzter_kurs": 0.215,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8245:32302",
+        "side": "no",
+        "einstandskurs": 0.77,
+        "letzter_kurs": 0.82,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:4641265__predictit:8983:35852",
+      "frage": "[polymarket] Will Canada become a European Union Association Member by December 31, 2027? (copy)  <->  [predictit] Will Canada become an EU Associate Member by year-end 2027?",
+      "shares": 58.8235294117647,
+      "end_date": "2028-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "4641265",
+        "side": "no",
+        "einstandskurs": 0.555,
+        "letzter_kurs": 0.66,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8983:35852",
+        "side": "yes",
+        "einstandskurs": 0.17,
+        "letzter_kurs": 0.17,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:567688__predictit:8643:34096",
+      "frage": "[polymarket] Netanyahu out by end of 2026?  <->  [predictit] Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu",
+      "shares": 16.949152542372882,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "567688",
+        "side": "yes",
+        "einstandskurs": 0.36,
+        "letzter_kurs": 0.405,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8643:34096",
+        "side": "no",
+        "einstandskurs": 0.59,
+        "letzter_kurs": 0.65,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3190125__predictit:8804:34867",
+      "frage": "[polymarket] Crypto Market Structure legislation becomes law in 2026?  <->  [predictit] Will crypto regulation (Clarity Act) be enacted in 2026?",
+      "shares": 11.11111111111111,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3190125",
+        "side": "yes",
+        "einstandskurs": 0.057,
+        "letzter_kurs": 0.066,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8804:34867",
+        "side": "no",
+        "einstandskurs": 0.9,
+        "letzter_kurs": 0.86,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2674183__predictit:8246:32304",
+      "frage": "[polymarket] Will Amul Thapar be the next Supreme Court nominee?  <->  [predictit] Who will be the next Supreme Court nominee? - Amul Thapar",
+      "shares": 166.66666666666669,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2674183",
+        "side": "no",
+        "einstandskurs": 0.855,
+        "letzter_kurs": 0.87,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8246:32304",
+        "side": "yes",
+        "einstandskurs": 0.06,
+        "letzter_kurs": 0.06,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2865981__predictit:8656:34169",
+      "frage": "[polymarket] Will Josh Shapiro be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Josh Shapiro",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2865981",
+        "side": "yes",
+        "einstandskurs": 0.018,
+        "letzter_kurs": 0.018,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8656:34169",
+        "side": "no",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.91,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2865982__predictit:8656:34164",
+      "frage": "[polymarket] Will Pete Buttigieg be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Pete Buttigieg",
+      "shares": 90.9090909090909,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2865982",
+        "side": "no",
+        "einstandskurs": 0.825,
+        "letzter_kurs": 0.825,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8656:34164",
+        "side": "yes",
+        "einstandskurs": 0.11,
+        "letzter_kurs": 0.11,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:565064__predictit:8181:32067",
+      "frage": "[polymarket] Will the Republicans win the 2028 US Presidential Election?  <->  [predictit] Which party will win the 2028 US presidential election? - Republican",
+      "shares": 16.666666666666668,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "565064",
+        "side": "yes",
+        "einstandskurs": 0.345,
+        "letzter_kurs": 0.345,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8181:32067",
+        "side": "no",
+        "einstandskurs": 0.6,
+        "letzter_kurs": 0.6,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:1981997__predictit:8800:34837",
+      "frage": "[polymarket] Will Ron DeSantis be the 2028 Republican Vice-Presidential nominee?  <->  [predictit] Who will win the 2028 Republican vice presidential nomination? - Ron DeSantis",
+      "shares": 10.638297872340425,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "1981997",
+        "side": "yes",
+        "einstandskurs": 0.0095,
+        "letzter_kurs": 0.01,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8800:34837",
+        "side": "no",
+        "einstandskurs": 0.94,
+        "letzter_kurs": 0.94,
+        "fee_gezahlt": 0.0
+      }
+    }
+  ],
+  "started": "2026-10-07T17:30:18.239410+02:00"
+}
