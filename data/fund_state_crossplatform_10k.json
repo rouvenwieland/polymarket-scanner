@@ -1,5 +1,5 @@
 {
-  "cash": 9892.54396059742,
+  "cash": 2082.3102009268982,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.0525,
+        "letzter_kurs": 0.054,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -45,7 +45,7 @@
         "market_id": "8375:33006",
         "side": "no",
         "einstandskurs": 0.8210766096695764,
-        "letzter_kurs": 0.81,
+        "letzter_kurs": 0.82,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -62,7 +62,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.1205,
+        "letzter_kurs": 0.072,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.68,
+        "letzter_kurs": 0.67,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.012,
+        "letzter_kurs": 0.0095,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -220,11 +220,155 @@
         "market_id": "8800:34837",
         "side": "no",
         "einstandskurs": 0.979946936622575,
-        "letzter_kurs": 0.94,
+        "letzter_kurs": 0.98,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
       "bereinigt": true
+    },
+    {
+      "pair_id": "polymarket:5179347__sxbet:0x5ca052c745a8f89b26664ee43aa3742f25dcf7c1b8b4410fe92fcb70e888aca0",
+      "frage": "[polymarket] Will Chicago Fire FC vs. Philadelphia Union end in a draw?  <->  [sxbet] Chicago Fire vs Philadelphia Union FC - wer gewinnt?",
+      "shares": 2254.710874210238,
+      "end_date": "2026-10-15T00:30:00Z",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5179347",
+        "side": "yes",
+        "einstandskurs": 0.2502131171725409,
+        "letzter_kurs": 0.2502131171725409,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0x5ca052c745a8f89b26664ee43aa3742f25dcf7c1b8b4410fe92fcb70e888aca0",
+        "side": "no",
+        "einstandskurs": 0.49067523915770056,
+        "letzter_kurs": 0.49067523915770056,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5227840__sxbet:0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
+      "frage": "[polymarket] Will Hellas Verona FC vs. US Catanzaro 1929 end in a draw?  <->  [sxbet] Hellas Verona vs Catanzaro - wer gewinnt?",
+      "shares": 2970.7339221013276,
+      "end_date": "2026-10-16T18:30:00Z",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5227840",
+        "side": "yes",
+        "einstandskurs": 0.26159289468022384,
+        "letzter_kurs": 0.26159289468022384,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
+        "side": "no",
+        "einstandskurs": 0.3835,
+        "letzter_kurs": 0.3835,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5223471__sxbet:0x8aab85d69e9ee9c8e8afc51015b9691a7d9204a242df0f1ca89c1879875f2e53",
+      "frage": "[polymarket] Will Eintracht Frankfurt vs. 1. FC Köln end in a draw?  <->  [sxbet] Eintracht Frankfurt vs 1. FC Koln - wer gewinnt?",
+      "shares": 2691.8486967612025,
+      "end_date": "2026-10-16T18:30:00Z",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5223471",
+        "side": "yes",
+        "einstandskurs": 0.24047886265842738,
+        "letzter_kurs": 0.24047886265842738,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0x8aab85d69e9ee9c8e8afc51015b9691a7d9204a242df0f1ca89c1879875f2e53",
+        "side": "no",
+        "einstandskurs": 0.47843968445123214,
+        "letzter_kurs": 0.47843968445123214,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5239715__sxbet:0x98a657e543761e53264e49478465d1a88848621639414427987de1d2da8c1aaa",
+      "frage": "[polymarket] Will Çorum FK vs. Çaykur Rizespor end in a draw?  <->  [sxbet] Çorum Belediyespor vs Caykur Rizespor - wer gewinnt?",
+      "shares": 648.4448817863249,
+      "end_date": "2026-10-16T17:00:00Z",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5239715",
+        "side": "yes",
+        "einstandskurs": 0.2604366179284036,
+        "letzter_kurs": 0.2604366179284036,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0x98a657e543761e53264e49478465d1a88848621639414427987de1d2da8c1aaa",
+        "side": "no",
+        "einstandskurs": 0.53625,
+        "letzter_kurs": 0.53625,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5226621__sxbet:0x5e0ab6c7b7ab27e75b39dac733023fa1c42af875b66ababe4daae529665d93f6",
+      "frage": "[polymarket] Will RC Deportivo A Coruña vs. Levante UD end in a draw?  <->  [sxbet] Deportivo La Coruna vs Levante - wer gewinnt?",
+      "shares": 2479.3343259642656,
+      "end_date": "2026-10-16T19:00:00Z",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5226621",
+        "side": "yes",
+        "einstandskurs": 0.29045290932249124,
+        "letzter_kurs": 0.29045290932249124,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0x5e0ab6c7b7ab27e75b39dac733023fa1c42af875b66ababe4daae529665d93f6",
+        "side": "no",
+        "einstandskurs": 0.41981902322532455,
+        "letzter_kurs": 0.41981902322532455,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:629465__predictit:8212:32165",
+      "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
+      "shares": 10.989010989010989,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "629465",
+        "side": "yes",
+        "einstandskurs": 0.04700003591886818,
+        "letzter_kurs": 0.04700003591886818,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8212:32165",
+        "side": "no",
+        "einstandskurs": 0.91,
+        "letzter_kurs": 0.91,
+        "fee_gezahlt": 0.0
+      }
     }
   ],
   "started": "2026-10-07T17:30:18.239410+02:00"
