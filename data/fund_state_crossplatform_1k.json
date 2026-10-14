@@ -20,7 +20,7 @@
         "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
         "side": "no",
         "einstandskurs": 0.31,
-        "letzter_kurs": 0.31,
+        "letzter_kurs": 0.3,
         "fee_gezahlt": 0.49
       }
     },
@@ -43,7 +43,7 @@
         "market_id": "KXMLSBTTS-26OCT14TORORL-BTTS",
         "side": "no",
         "einstandskurs": 0.31,
-        "letzter_kurs": 0.31,
+        "letzter_kurs": 0.3,
         "fee_gezahlt": 0.49
       }
     },
@@ -81,7 +81,7 @@
         "market_id": "3344127",
         "side": "yes",
         "einstandskurs": 0.145,
-        "letzter_kurs": 0.19,
+        "letzter_kurs": 0.17,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -127,7 +127,7 @@
         "market_id": "630806",
         "side": "yes",
         "einstandskurs": 0.315,
-        "letzter_kurs": 0.295,
+        "letzter_kurs": 0.305,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -135,7 +135,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.68,
+        "letzter_kurs": 0.67,
         "fee_gezahlt": 0.0
       }
     },
@@ -219,7 +219,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.057,
-        "letzter_kurs": 0.0425,
+        "letzter_kurs": 0.04,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -334,7 +334,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.0095,
-        "letzter_kurs": 0.0185,
+        "letzter_kurs": 0.019,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
