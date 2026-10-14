@@ -28299,5 +28299,89 @@
     "checked_at": "2026-10-14T02:17:55.062347+00:00",
     "frage_a": "US Lecce to score first in the 1st half vs. Udinese Calcio?",
     "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5678319__sxbet:0x760f8863218a5584f75cbce407c3740c10cf4d5467a93ede6acc3cce4e19fead": {
+    "same_event": false,
+    "reason": "leading after 5 innings vs overall winner",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Tampa Bay Rays winning after 5 innings?",
+    "frage_b": "Cleveland Guardians vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5244536__sxbet:0xf341f3d62701f506f204bf8c63ae2302b878358a204f542c5f79040885fa1a92": {
+    "same_event": false,
+    "reason": "draw vs winner",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Will SK Sigma Olomouc vs. FC Slovan Liberec end in a draw?",
+    "frage_b": "SK Sigma Olomouc vs FC Slovan Liberec - wer gewinnt?"
+  },
+  "polymarket:5678320__sxbet:0x760f8863218a5584f75cbce407c3740c10cf4d5467a93ede6acc3cce4e19fead": {
+    "same_event": false,
+    "reason": "leading after 5 innings vs overall winner",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Cleveland Guardians winning after 5 innings?",
+    "frage_b": "Cleveland Guardians vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "kalshi:KXNFLPASSYDS-26OCT18TENIND-TENCWARD1-250__polymarket:5662134": {
+    "same_event": false,
+    "reason": "different stat (TDs vs passing yards)",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Cam Ward: 2+ Touchdowns",
+    "frage_b": "Cam Ward: 250+ passing yards"
+  },
+  "kalshi:KXALEAGUEBTTS-26OCT17MACPER-BTTS__polymarket:5289701": {
+    "same_event": false,
+    "reason": "first half BTTS vs overall BTTS",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Macarthur FC vs. Perth Glory FC: Both Teams to Score in First Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXALEAGUEBTTS-26OCT17MACPER-BTTS__polymarket:5289735": {
+    "same_event": false,
+    "reason": "second half BTTS vs overall BTTS",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Macarthur FC vs. Perth Glory FC: Both Teams to Score in Second Half",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXALEAGUEBTTS-26OCT17MACPER-BTTS__polymarket:5248925": {
+    "same_event": false,
+    "reason": "first team to score vs BTTS",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Macarthur FC to score first vs. Perth Glory FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXALEAGUEBTTS-26OCT17MACPER-BTTS__polymarket:5248926": {
+    "same_event": false,
+    "reason": "first team to score vs BTTS",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Perth Glory FC to score first vs. Macarthur FC?",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:5205568__sxbet:0xca123577c17f5566b2b5219e71292484c489e620820ddb5f7bdfb857f4dbc68a": {
+    "same_event": false,
+    "reason": "draw vs winner",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Will Estudiantes de La Plata vs. CR Flamengo end in a draw?",
+    "frage_b": "Estudiantes de La Plata vs CR Flamengo - wer gewinnt?"
+  },
+  "polymarket:3519633__predictit:8856:35175": {
+    "same_event": false,
+    "reason": "district-specific margin vs national margin",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 NY-19 House election by 0%-3%?",
+    "frage_b": "What will be the national vote margin in the 2026 House midterms? - Republicans 0-3%"
+  },
+  "polymarket:629558__predictit:8441:33212": {
+    "same_event": true,
+    "reason": "both ask if Republicans win Ohio governor race",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Will the Republicans win the Ohio governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Ohio? - Republican"
+  },
+  "polymarket:629465__predictit:8212:32165": {
+    "same_event": true,
+    "reason": "both ask if Republicans win Michigan governor race",
+    "checked_at": "2026-10-14T07:00:04.663009+00:00",
+    "frage_a": "Will the Republicans win the Michigan governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
   }
 }
