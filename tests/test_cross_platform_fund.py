@@ -132,3 +132,59 @@ def test_polymarkt_bein_aufgeloest(monkeypatch):
     assert g("yes")[1] == 1.0 and g("no")[1] == 0.0
     h = _poly_leg(monkeypatch, ["0.3", "0.7"], closed=False)
     assert h("yes") == (0.3, None)
+
+
+# ------------------------------------------------------------ Kalshi-Bein: Ergebnis "scalar"
+def _kalshi_leg(monkeypatch, market):
+    monkeypatch.setattr(cpf.kalshi, "fetch_market_by_ticker", lambda ticker: market)
+    return lambda side: cpf._kalshi_leg_mark_and_result({"market_id": "K1", "side": side})
+
+
+def _kalshi_market(result, **extra):
+    m = {"status": "finalized", "result": result, "yes_ask_dollars": "0.9900", "no_ask_dollars": "0.0200"}
+    m.update(extra)
+    return m
+
+
+def test_kalshi_bein_scalar_zahlt_anteil_statt_null(monkeypatch):
+    """Kalshi-Doku (Market Settlement / Settlement Bounds): Bei result='scalar' zahlt ein YES-Kontrakt den
+    Abwicklungswert (settlement_value_dollars, 0..1), ein NO-Kontrakt dessen Komplement. Bisher galt
+    'result == side' -> bei 'scalar' zahlte BEIDE Seiten 0, das Paar verlor den ganzen Einsatz."""
+    f = _kalshi_leg(monkeypatch, _kalshi_market("scalar", settlement_value_dollars="0.3060"))
+    assert f("yes")[1] == pytest.approx(0.306)
+    assert f("no")[1] == pytest.approx(0.694)
+    assert f("yes")[1] + f("no")[1] == pytest.approx(1.0)
+
+
+def test_kalshi_bein_scalar_ohne_abwicklungswert_wartet(monkeypatch):
+    """Ohne (gueltigen) Abwicklungswert nichts erfinden: Position bleibt offen statt falsch ausgezahlt zu werden."""
+    for extra in ({}, {"settlement_value_dollars": ""}, {"settlement_value_dollars": "abc"},
+                  {"settlement_value_dollars": "1.4"}, {"settlement_value_dollars": "-0.1"}):
+        f = _kalshi_leg(monkeypatch, _kalshi_market("scalar", **extra))
+        assert f("yes")[1] is None and f("no")[1] is None, extra
+
+
+def test_kalshi_bein_yes_no_ergebnis_bleibt_unveraendert(monkeypatch):
+    f = _kalshi_leg(monkeypatch, _kalshi_market("yes"))
+    assert f("yes")[1] == 1.0 and f("no")[1] == 0.0
+    g = _kalshi_leg(monkeypatch, _kalshi_market("no"))
+    assert g("yes")[1] == 0.0 and g("no")[1] == 1.0
+    h = _kalshi_leg(monkeypatch, _kalshi_market("", status="active"))
+    assert h("yes")[1] is None  # noch nicht aufgeloest
+    i = _kalshi_leg(monkeypatch, _kalshi_market("yes", status="closed"))
+    assert i("yes")[1] is None  # Handel beendet, aber noch nicht abgewickelt
+
+
+def test_kalshi_scalar_paar_zahlt_in_summe_ein_vollstaendiges_paar_aus(monkeypatch):
+    """Zwei Beine desselben Kalshi-Markts (yes + no) zahlen zusammen immer 1,00 - auch bei scalar."""
+    market = _kalshi_market("scalar", settlement_value_dollars="0.25")
+    monkeypatch.setattr(cpf.kalshi, "fetch_market_by_ticker", lambda ticker: market)
+    leg = {"platform": "kalshi", "market_id": "K1", "einstandskurs": 0.5, "letzter_kurs": 0.5}
+    pos = {"leg_a": dict(leg, side="yes"), "leg_b": dict(leg, side="no")}
+    proceeds, results = cpf._mark_and_maybe_settle(pos, NOW)
+    assert proceeds == pytest.approx(1.0)
+
+
+def test_kalshi_bein_scalar_aelteres_cent_feld_als_rueckfall(monkeypatch):
+    f = _kalshi_leg(monkeypatch, _kalshi_market("scalar", settlement_value=75))
+    assert f("yes")[1] == pytest.approx(0.75) and f("no")[1] == pytest.approx(0.25)

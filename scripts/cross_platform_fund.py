@@ -439,7 +439,33 @@ def _kalshi_leg_mark_and_result(leg):
     status, result = market.get("status"), market.get("result")
     if status not in ("finalized", "settled") or not result:
         return current_price, None
+    if result == "scalar":
+        # Kalshi-Doku (Market Settlement, Settlement Bounds): Bei "scalar" zahlt ein YES-Kontrakt den Abwicklungswert
+        # (settlement_value_dollars, Anteil 0..1 des Nennwerts 1,00), ein NO-Kontrakt "1 minus Abwicklungswert".
+        # Beide Seiten zusammen zahlen also weiterhin genau 1,00. Frueher: "result == side" -> 0 fuer BEIDE Seiten.
+        # (Eine Untergrenze/floor, die Kalshi vorab gutschreibt, bildet der Fonds nicht ab: er rechnet mit dem
+        # vollen Abwicklungswert am Ende.) Fehlt der Wert oder ist er ungueltig: nichts erfinden, Position bleibt offen.
+        value = _kalshi_settlement_value(market)
+        if value is None:
+            return current_price, None
+        return current_price, (value if leg["side"] == "yes" else 1.0 - value)
     return current_price, (1.0 if result == leg["side"] else 0.0)
+
+
+def _kalshi_settlement_value(market):
+    """Abwicklungswert der YES-Seite in USD (0..1) oder None, wenn nicht vorhanden/ungueltig.
+    settlement_value_dollars ist das aktuelle Feld; das aeltere settlement_value (Cent) dient als Rueckfall."""
+    raw = market.get("settlement_value_dollars")
+    divisor = 1.0
+    if raw in (None, ""):
+        raw, divisor = market.get("settlement_value"), 100.0
+    try:
+        value = float(raw) / divisor
+    except (TypeError, ValueError):
+        return None
+    if not (0.0 <= value <= 1.0):  # inkl. NaN
+        return None
+    return value
 
 
 def _predictit_leg_mark_and_result(leg):
