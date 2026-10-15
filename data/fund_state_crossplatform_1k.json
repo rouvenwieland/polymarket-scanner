@@ -1,5 +1,5 @@
 {
-  "cash": 258.17050476448577,
+  "cash": 830.2518047644858,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -227,102 +227,6 @@
       "bereinigt": true
     },
     {
-      "pair_id": "polymarket:5227840__sxbet:0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
-      "frage": "[polymarket] Will Hellas Verona FC vs. US Catanzaro 1929 end in a draw?  <->  [sxbet] Hellas Verona vs Catanzaro - wer gewinnt?",
-      "shares": 268.03123170253417,
-      "end_date": "2026-10-16T18:30:00Z",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5227840",
-        "side": "yes",
-        "einstandskurs": 0.26014371718716933,
-        "letzter_kurs": 0.25,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
-        "side": "no",
-        "einstandskurs": 0.30852815391183686,
-        "letzter_kurs": 0.28625,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:5223471__sxbet:0x8aab85d69e9ee9c8e8afc51015b9691a7d9204a242df0f1ca89c1879875f2e53",
-      "frage": "[polymarket] Will Eintracht Frankfurt vs. 1. FC Köln end in a draw?  <->  [sxbet] Eintracht Frankfurt vs 1. FC Koln - wer gewinnt?",
-      "shares": 242.86911607331663,
-      "end_date": "2026-10-16T18:30:00Z",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5223471",
-        "side": "yes",
-        "einstandskurs": 0.24004320486166725,
-        "letzter_kurs": 0.235,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0x8aab85d69e9ee9c8e8afc51015b9691a7d9204a242df0f1ca89c1879875f2e53",
-        "side": "no",
-        "einstandskurs": 0.3820582926152997,
-        "letzter_kurs": 0.36625,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:5239715__sxbet:0x98a657e543761e53264e49478465d1a88848621639414427987de1d2da8c1aaa",
-      "frage": "[polymarket] Will Çorum FK vs. Çaykur Rizespor end in a draw?  <->  [sxbet] Çorum Belediyespor vs Caykur Rizespor - wer gewinnt?",
-      "shares": 221.2004960519055,
-      "end_date": "2026-10-16T17:00:00Z",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5239715",
-        "side": "yes",
-        "einstandskurs": 0.2601489411129007,
-        "letzter_kurs": 0.255,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0x98a657e543761e53264e49478465d1a88848621639414427987de1d2da8c1aaa",
-        "side": "no",
-        "einstandskurs": 0.5237278972106525,
-        "letzter_kurs": 0.4125,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:5226621__sxbet:0x5e0ab6c7b7ab27e75b39dac733023fa1c42af875b66ababe4daae529665d93f6",
-      "frage": "[polymarket] Will RC Deportivo A Coruña vs. Levante UD end in a draw?  <->  [sxbet] Deportivo La Coruna vs Levante - wer gewinnt?",
-      "shares": 223.6952384885811,
-      "end_date": "2026-10-16T19:00:00Z",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5226621",
-        "side": "yes",
-        "einstandskurs": 0.2900408632502069,
-        "letzter_kurs": 0.285,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0x5e0ab6c7b7ab27e75b39dac733023fa1c42af875b66ababe4daae529665d93f6",
-        "side": "no",
-        "einstandskurs": 0.3790437475431293,
-        "letzter_kurs": 0.3725,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
       "pair_id": "polymarket:629465__predictit:8212:32165",
       "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
       "shares": 10.989010989010989,
@@ -344,7 +248,8 @@
         "einstandskurs": 0.91,
         "letzter_kurs": 0.93,
         "fee_gezahlt": 0.0
-      }
+      },
+      "bereinigt": true
     },
     {
       "pair_id": "polymarket:4641265__predictit:8983:35852",
@@ -368,7 +273,8 @@
         "einstandskurs": 0.17,
         "letzter_kurs": 0.17,
         "fee_gezahlt": 0.0
-      }
+      },
+      "bereinigt": true
     }
   ],
   "started": "2026-10-07T17:30:18.239410+02:00"
