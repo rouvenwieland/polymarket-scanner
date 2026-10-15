@@ -1,5 +1,5 @@
 {
-  "cash": 2082.3102009268982,
+  "cash": 4285.24551726576,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.051,
+        "letzter_kurs": 0.056,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -20,7 +20,7 @@
         "market_id": "8939:35603",
         "side": "no",
         "einstandskurs": 0.881823160636168,
-        "letzter_kurs": 0.87,
+        "letzter_kurs": 0.88,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -45,7 +45,7 @@
         "market_id": "8375:33006",
         "side": "no",
         "einstandskurs": 0.8210766096695764,
-        "letzter_kurs": 0.82,
+        "letzter_kurs": 0.81,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -62,7 +62,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.06,
+        "letzter_kurs": 0.1215,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.67,
+        "letzter_kurs": 0.7,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -137,7 +137,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.07,
+        "letzter_kurs": 0.068,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.0155,
+        "letzter_kurs": 0.011,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -225,30 +225,6 @@
       },
       "preisbasis": "schaetzung",
       "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:5179347__sxbet:0x5ca052c745a8f89b26664ee43aa3742f25dcf7c1b8b4410fe92fcb70e888aca0",
-      "frage": "[polymarket] Will Chicago Fire FC vs. Philadelphia Union end in a draw?  <->  [sxbet] Chicago Fire vs Philadelphia Union FC - wer gewinnt?",
-      "shares": 2254.710874210238,
-      "end_date": "2026-10-15T00:30:00Z",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5179347",
-        "side": "yes",
-        "einstandskurs": 0.2502131171725409,
-        "letzter_kurs": 0.245,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0x5ca052c745a8f89b26664ee43aa3742f25dcf7c1b8b4410fe92fcb70e888aca0",
-        "side": "no",
-        "einstandskurs": 0.49067523915770056,
-        "letzter_kurs": 0.505,
-        "fee_gezahlt": 0.0
-      }
     },
     {
       "pair_id": "polymarket:5227840__sxbet:0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
@@ -270,7 +246,7 @@
         "market_id": "0xc1b6381bb737ad20775d85c87e213ab859f35a64cfe68eb607c9d97b88be06be",
         "side": "no",
         "einstandskurs": 0.3835,
-        "letzter_kurs": 0.295,
+        "letzter_kurs": 0.28625,
         "fee_gezahlt": 0.0
       }
     },
@@ -342,7 +318,7 @@
         "market_id": "0x5e0ab6c7b7ab27e75b39dac733023fa1c42af875b66ababe4daae529665d93f6",
         "side": "no",
         "einstandskurs": 0.41981902322532455,
-        "letzter_kurs": 0.375,
+        "letzter_kurs": 0.3725,
         "fee_gezahlt": 0.0
       }
     },
@@ -358,7 +334,7 @@
         "market_id": "629465",
         "side": "yes",
         "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.0475,
+        "letzter_kurs": 0.048,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -366,7 +342,31 @@
         "market_id": "8212:32165",
         "side": "no",
         "einstandskurs": 0.91,
-        "letzter_kurs": 0.91,
+        "letzter_kurs": 0.93,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:4641265__predictit:8983:35852",
+      "frage": "[polymarket] Will Canada become a European Union Association Member by December 31, 2027? (copy)  <->  [predictit] Will Canada become an EU Associate Member by year-end 2027?",
+      "shares": 58.8235294117647,
+      "end_date": "2028-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-15T06:48:17.102416+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "4641265",
+        "side": "no",
+        "einstandskurs": 0.7101844838133934,
+        "letzter_kurs": 0.7101844838133934,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8983:35852",
+        "side": "yes",
+        "einstandskurs": 0.17,
+        "letzter_kurs": 0.17,
         "fee_gezahlt": 0.0
       }
     }
