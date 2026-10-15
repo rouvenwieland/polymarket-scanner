@@ -10,6 +10,7 @@ import shutil
 import pytest
 
 import bereinigung as bd
+from datenpruefung import check_archive
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REAL = os.path.join(ROOT, "data")
@@ -307,3 +308,68 @@ def test_kassenzwang_verkleinert_spaetere_kaeufe_proportional(tmp_path):
     st = rj(tmp_path / fund["state"])
     assert st["cash"] >= -0.01 and st["positions"][0]["shares"] < 150
     check_consistent(str(tmp_path))
+
+
+# ------------------------------------------------- Dasselbe Paar nach dem Entfernen erneut gekauft (15.10.2026)
+def _cross_position(pair, frage, shares, eingestiegen, a, b):
+    return {"pair_id": pair, "frage": frage, "shares": shares, "end_date": None, "eingestiegen": eingestiegen,
+            "leg_a": {"platform": "kalshi", "market_id": "a", "side": "yes", "einstandskurs": a, "letzter_kurs": a, "fee_gezahlt": 0.0},
+            "leg_b": {"platform": "sxbet", "market_id": "b", "side": "no", "einstandskurs": b, "letzter_kurs": b, "fee_gezahlt": 0.0}}
+
+
+def _append_live_buy(d, fund, row, position):
+    """Ein spaeterer Workflow-Lauf haengt einen Kauf an die Live-Dateien an (Zeile + Position + Kasse)."""
+    tpath, spath = os.path.join(d, fund["trades"]), os.path.join(d, fund["state"])
+    rows, fields = bd.read_csv(tpath)
+    state = rj(spath)
+    cost = -float(row["betrag"])
+    row = dict(row, kasse_danach=round(state["cash"] - cost, 4))
+    bd.write_csv(tpath, fields, rows + [row])
+    state["cash"] -= cost
+    state["positions"].append(position)
+    json.dump(state, open(spath, "w", encoding="utf-8"))
+
+
+def test_paar_wird_nach_dem_entfernen_erneut_gekauft_sicherung_und_live_bleiben_konsistent(tmp_path):
+    """Vorfall nach den Workflow-Laeufen seit 017bac6: Die Bereinigung entfernte den alten Kauf eines Paars (z. B.
+    Spread 27,5 %), der Zustand des Workflows kannte die Position danach nicht mehr - der naechste Lauf kaufte DASSELBE
+    Paar erneut (jetzt plausibel). Die Sicherung fuehrt dann zwei offene Lebenszyklen derselben ID, hatte aber nur eine
+    Position (Zuordnung nur ueber die ID): 3 Tests rot ('Sicherung: Positionen'). Ausserdem wurde der zweite Kauf mit den
+    Beinen des ersten klassifiziert (hier: Verlust-Beine des ersten Kaufs -> zweiter Kauf faelschlich entfernt)."""
+    fund = next(f for f in bd.FUNDS if f["key"] == "cross_platform_1k")
+    pair = "kalshi:KXSIM-1__sxbet:0xabc"
+    q = "[kalshi] Will Beta Team win the 2026 Cup final?  <->  [sxbet] Beta Team wins the 2026 Cup final?"
+    t1, t2 = "2026-10-11T22:30:58+02:00", "2026-10-15T06:48:17+02:00"
+    # Lauf 1 (alter Code): Beine 0,52 + 0,52 = garantierter Verlust -> wird entfernt
+    row1 = dict(cross_trade(t1, pair, q, 100, 1.04, 104.0, 5.0, 100000), preisbasis="ausfuehrbar", kasse_danach=896.0)
+    write_fund(str(tmp_path), fund, [row1], {"cash": 896.0, "started": t1,
+                                             "positions": [_cross_position(pair, q, 100, t1, 0.52, 0.52)]})
+    bd.run(str(tmp_path))
+    assert rd(tmp_path / fund["trades"]) == [] and abs(rj(tmp_path / fund["state"])["cash"] - 1000.0) < 0.02
+    # Lauf 2: derselbe Pair-ID-Kauf, jetzt mit Gewinnspanne (0,46 + 0,47 = 0,93)
+    row2 = dict(cross_trade(t2, pair, q, 100, 0.93, 93.0, 7.0, 100000), preisbasis="ausfuehrbar")
+    _append_live_buy(str(tmp_path), fund, row2, _cross_position(pair, q, 100, t2, 0.46, 0.47))
+    bd.run(str(tmp_path))
+
+    check_consistent(str(tmp_path))
+    check_archive(str(tmp_path))
+    arch = rj(tmp_path / bd.ARCHIVE_SUB / fund["state"])
+    assert sorted(p["eingestiegen"] for p in arch["positions"]) == [t1, t2]
+    live = rj(tmp_path / fund["state"])
+    assert [p["eingestiegen"] for p in live["positions"]] == [t2]            # zweiter Kauf bleibt, erster ist entfernt
+    assert live["positions"][0]["leg_a"]["einstandskurs"] == 0.46             # mit den Beinen des ZWEITEN Kaufs
+    assert [r["timestamp"] for r in rd(tmp_path / fund["trades"])] == [t2]
+    assert abs(live["cash"] - 907.0) < 0.02
+    first = snapshot(str(tmp_path))
+    bd.run(str(tmp_path))
+    assert snapshot(str(tmp_path)) == first, "zweiter Lauf nicht idempotent"
+    # Die Sicherung als unbereinigter Stand neu bereinigt ergibt denselben Live-Stand
+    raw = tmp_path / "raw"
+    raw.mkdir()
+    for n in FUND_FILES:
+        p = tmp_path / bd.ARCHIVE_SUB / n
+        if p.is_file():
+            shutil.copy2(p, raw / n)
+    bd.run(str(raw))
+    assert [r["timestamp"] for r in rd(raw / fund["trades"])] == [t2]
+    assert [p["eingestiegen"] for p in rj(raw / fund["state"])["positions"]] == [t2]

@@ -171,7 +171,10 @@ def extend_archive(data_dir):
     Die Sicherung bleibt dabei FUER SICH konsistent: Kasse der Sicherung = Start + Summe ihrer Handelsliste
     (angehaengte Betraege werden auf ihre Kasse gebucht) und ihre Positionen = offene Lebenszyklen ihrer Handelsliste
     (angehaengte Schliessungen entfernen die Position). Frueher wurden nur Zeilen und Positionen angehaengt, die Kasse
-    nicht: nach den zwei Kaeufen des Snapshots ceddafb (14.10.) wich die Best-Case-Sicherung um 100 USD ab."""
+    nicht: nach den zwei Kaeufen des Snapshots ceddafb (14.10.) wich die Best-Case-Sicherung um 100 USD ab.
+    Positionen und Lebenszyklen gehoeren ueber (ID, Einstiegszeit == Zeit des KAUF) zusammen, nicht ueber die ID allein:
+    kauft der Workflow ein Paar erneut, dessen erster Kauf die Bereinigung aus den Live-Daten entfernt hat (15.10.), ist
+    die ID in der Sicherung zweimal offen und braucht zwei Positionen (match_positions)."""
     touched = []
     for fund in FUNDS:
         arch_t = os.path.join(data_dir, ARCHIVE_SUB, fund["trades"])
@@ -193,15 +196,17 @@ def extend_archive(data_dir):
         if os.path.isfile(arch_s) and os.path.isfile(live_s):
             a, l = read_json(arch_s), read_json(live_s)
             before = json.dumps(a, sort_keys=True)
-            pid = lambda p: p.get(idcol) or p.get("pair_id") or p.get("market_id")
             if appended:
                 a["cash"] = a.get("cash", fund["start"]) + sum(num(r["betrag"]) for r in appended)
-            have = {pid(p) for p in a.get("positions", [])}
+            # Eine Position ist ueber (ID, Einstiegszeit) bestimmt, nicht ueber die ID allein: dasselbe Paar kann nach
+            # dem Entfernen seines ersten Kaufs erneut gekauft werden und ist dann zweimal offen.
+            have = {position_key(p, idcol) for p in a.get("positions", [])}
             positions = a.get("positions", []) + [p for p in l.get("positions", [])
-                                                  if not p.get("bereinigt") and pid(p) not in have]
+                                                  if not p.get("bereinigt") and position_key(p, idcol) not in have]
             if a_rows is not None:
-                still_open = {lc["id"] for lc in lifecycles(a_rows, idcol) if not lc["closed"]}
-                positions = [p for p in positions if pid(p) in still_open]
+                open_lcs = [lc for lc in lifecycles(a_rows, idcol) if not lc["closed"] and lc["rows"]]
+                matched = {id(p) for _lc, p in match_positions(open_lcs, positions, idcol) if p is not None}
+                positions = [p for p in positions if id(p) in matched]
             a["positions"] = positions
             if json.dumps(a, sort_keys=True) != before:
                 write_json(arch_s, a)
@@ -217,6 +222,39 @@ def row_keys(rows, idcol):
         seen[base] = seen.get(base, 0) + 1
         keys.append(base + (seen[base],))
     return keys
+
+
+def position_id(p, idcol):
+    return p.get(idcol) or p.get("pair_id") or p.get("market_id")
+
+
+def position_key(p, idcol):
+    """Identitaet einer Position: (ID, Einstiegszeit). Die Einstiegszeit ist der Zeitstempel des KAUF (der Workflow
+    schreibt beides mit demselben now.isoformat()). Nur die ID reicht nicht: dasselbe Paar kann mehrfach offen sein."""
+    return (position_id(p, idcol), p.get("eingestiegen"))
+
+
+def match_positions(open_lcs, positions, idcol):
+    """Ordnet jedem offenen Lebenszyklus (Reihenfolge wie uebergeben) hoechstens eine Position zu und gibt
+    [(lc, position oder None), ...] zurueck. Erst exakt ueber (ID, Einstiegszeit == Zeit des KAUF), danach je ID der
+    Reihe nach (aeltere/handgebaute Daten ohne Einstiegszeit). Jede Position wird hoechstens einmal vergeben."""
+    free = list(range(len(positions)))
+    chosen = [None] * len(open_lcs)
+    for i, lc in enumerate(open_lcs):
+        t = lc["rows"][0][1]["timestamp"]
+        for j in free:
+            if position_id(positions[j], idcol) == lc["id"] and positions[j].get("eingestiegen") == t:
+                chosen[i] = j
+                free.remove(j)
+                break
+    for i, lc in enumerate(open_lcs):
+        if chosen[i] is None:
+            for j in free:
+                if position_id(positions[j], idcol) == lc["id"]:
+                    chosen[i] = j
+                    free.remove(j)
+                    break
+    return [(lc, positions[j] if j is not None else None) for lc, j in zip(open_lcs, chosen)]
 
 
 def build_union(fund, data_dir):
@@ -372,21 +410,23 @@ def process_fund(fund, data_dir):
     live_state = read_json(os.path.join(data_dir, fund["state"]))
     arch_state = read_json(os.path.join(data_dir, ARCHIVE_SUB, fund["state"]))
     state_src = live_state or arch_state
-    def pid_of(p):
-        return p.get(idcol) or p.get("pair_id") or p.get("market_id")
 
     # Klassifikation nutzt NUR unbereinigte Positionsdaten (Sicherung, sonst Live-Stand ohne Bereinigungsmarke),
     # sonst waere ein zweiter Lauf nicht identisch. Die Ausgabe nimmt die Live-Position (aktuelle Marken).
-    pos_cls, pos_by_id = {}, {}
+    # Positionen und Lebenszyklen werden ueber (ID, Einstiegszeit) zugeordnet, nicht ueber die ID allein: dasselbe Paar
+    # kann nach dem Entfernen seines ersten Kaufs erneut gekauft worden sein (zwei offene Lebenszyklen, zwei Positionen).
+    cls_by_key, out_by_key = {}, {}
     for p in (arch_state or {}).get("positions", []):
-        pos_cls[pid_of(p)] = p
-        pos_by_id[pid_of(p)] = p
+        cls_by_key[position_key(p, idcol)] = p
+        out_by_key[position_key(p, idcol)] = p
     for p in (live_state or {}).get("positions", []):
-        pos_by_id[pid_of(p)] = p
-        if not p.get("bereinigt") and pid_of(p) not in pos_cls:
-            pos_cls[pid_of(p)] = p
+        out_by_key[position_key(p, idcol)] = p
+        if not p.get("bereinigt") and position_key(p, idcol) not in cls_by_key:
+            cls_by_key[position_key(p, idcol)] = p
 
     lcs = lifecycles(rows, idcol)
+    open_lcs = [lc for lc in lcs if not lc["closed"] and lc["rows"]]
+    cls_pos = {id(lc): p for lc, p in match_positions(open_lcs, list(cls_by_key.values()), idcol)}
     decisions = {}  # row index -> (decision, reason, extra, basis)
     lc_info = []
     for lc in lcs:
@@ -394,7 +434,7 @@ def process_fund(fund, data_dir):
             dec, reason, extra = classify_poly(lc)
             basis = pricing.basis_of(lc["rows"][0][1]) if lc["rows"] else pricing.BASIS_ESTIMATE
         else:
-            dec, reason, extra, basis = classify_cross(lc, pos_cls.get(lc["id"]))
+            dec, reason, extra, basis = classify_cross(lc, cls_pos.get(id(lc)))
         n = len(lc["rows"])
         for j, (i, r) in enumerate(lc["rows"]):
             decisions[i] = (dec, reason, extra, basis)
@@ -504,17 +544,19 @@ def process_fund(fund, data_dir):
             out_fields.append(c)
 
     # Zustand
-    open_ids = [info["lc"]["id"] for info in lc_info
-                if info["decision"] != "entfernen" and not info["lc"]["closed"] and info["lc"]["rows"]]
     positions = []
-    extra_by_id = {info["lc"]["id"]: info for info in lc_info if not info["lc"]["closed"]}
-    for pid in open_ids:
-        p = pos_by_id.get(pid)
+    open_infos = [info for info in lc_info if not info["lc"]["closed"] and info["lc"]["rows"]]
+    # Zuordnung ueber ALLE offenen Lebenszyklen (auch die entfernten), damit ein entfernter Kauf keiner behaltenen
+    # Position derselben ID im Weg steht.
+    out_pos = {id(lc): p for lc, p in match_positions([i["lc"] for i in open_infos], list(out_by_key.values()), idcol)}
+    for info in open_infos:
+        if info["decision"] == "entfernen":
+            continue
+        pid = info["lc"]["id"]
+        p = out_pos.get(id(info["lc"]))
         if p is None:
             raise RuntimeError(f"{fund['key']}: offene Position {pid} fehlt im Zustand")
         p = json.loads(json.dumps(p))
-        info = extra_by_id[pid]
-        kauf = info["lc"]["rows"][0][1]
         p["preisbasis"] = p.get("preisbasis") or info["basis"]
         if info["decision"] == "korrigieren" and not p.get("bereinigt"):
             pf = info["f"] * info["s_old"] / info["s_final"]   # Preisfaktor je Anteil (Impact bezahlt)

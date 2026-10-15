@@ -13,6 +13,7 @@ R5 Impact) entfernt hat.
 Alles offline: jeder Marktabruf ist durch ein Modell der "Welt" ersetzt."""
 import contextlib
 import csv
+import io
 import json
 import os
 import shutil
@@ -28,6 +29,7 @@ import fund_simulator as fs
 import llm_verify
 import polymarket_snapshot as snap
 import pricing
+from datenpruefung import check_archive
 from platforms import kalshi, predictit, sxbet
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -64,13 +66,40 @@ def patched(*triples):
             setattr(o, n, v)
 
 
+_BEREINIGTER_STAND = []
+
+
+def _bereinigter_stand():
+    """Der BEREINIGTE Stand der echten Daten (data/ + Sicherung), einmal je Testlauf in einem Temp-Verzeichnis berechnet.
+    Nicht der rohe Inhalt von data/: Workflow-Laeufe committen laufend neue Zeilen nach main (auch von altem Code oder
+    waehrend eines Merges), dann stuende dort ein Zwischenstand und die Tests haengen vom Zufall des letzten Laufs ab.
+    Die Bereinigung ist genau das, was nach jedem Merge ausgefuehrt wird - ihr Ergebnis ist die Ausgangslage."""
+    if not _BEREINIGTER_STAND:
+        import atexit
+        tmp = tempfile.mkdtemp()
+        atexit.register(shutil.rmtree, tmp, ignore_errors=True)
+        d = os.path.join(tmp, "data")
+        os.makedirs(d)
+        for f in bd.FUNDS:
+            for k in ("trades", "history", "state"):
+                p = os.path.join(REAL, f[k])
+                if os.path.isfile(p):
+                    shutil.copy2(p, os.path.join(d, f[k]))
+        shutil.copytree(os.path.join(REAL, bd.ARCHIVE_SUB), os.path.join(d, bd.ARCHIVE_SUB))
+        with contextlib.redirect_stdout(io.StringIO()):
+            bd.run(d)
+        _BEREINIGTER_STAND.append(d)
+    return _BEREINIGTER_STAND[0]
+
+
 def clean_copy(dst):
+    src = _bereinigter_stand()
     for f in bd.FUNDS:
         for k in ("trades", "history", "state"):
-            p = os.path.join(REAL, f[k])
+            p = os.path.join(src, f[k])
             if os.path.isfile(p):
                 shutil.copy2(p, os.path.join(dst, f[k]))
-    shutil.copytree(os.path.join(REAL, bd.ARCHIVE_SUB), os.path.join(dst, bd.ARCHIVE_SUB))
+    shutil.copytree(os.path.join(src, bd.ARCHIVE_SUB), os.path.join(dst, bd.ARCHIVE_SUB))
 
 
 class World:
@@ -191,10 +220,12 @@ def test_workflow_laeufe_halten_invarianten_und_bereinigung_ist_fixpunkt(runs):
 
 # ------------------------------------------------------------------ gezielte Einzelfaelle (deterministisch)
 def _one_run(kind, polys=(), crosses=()):
+    """Ein einzelner Lauf auf FRISCHEN Fonds (leeres Verzeichnis, volle Kasse, alle Plaetze frei). Bewusst nicht auf den
+    echten Daten: dort haengen 'es wird gekauft' (freie Plaetze, Kasse) und 'es wird nicht gekauft' (sonst waere ein Fonds mit
+    15 offenen Positionen nie kaufbereit) vom jeweiligen Stand des Workflows ab."""
     tmp = tempfile.mkdtemp()
     d = os.path.join(tmp, "data")
     os.makedirs(d)
-    clean_copy(d)
     simulate(d, [(kind, list(polys), list(crosses))])
     return d
 
@@ -241,22 +272,6 @@ def test_spread_schwelle_wie_in_der_bereinigung():
 
 
 # ------------------------------------------------------------------ Merge mit Workflow-Laeufen (Snapshot ceddafb, 14.10.)
-def check_archive(d):
-    """Die Sicherung muss fuer sich konsistent bleiben: sie dient spaeteren Laeufen (und den Tests) als 'unbereinigter
-    Stand'. Kasse = Start + Summe ihrer Handelsliste, Positionen = offene Lebenszyklen."""
-    arch = os.path.join(d, bd.ARCHIVE_SUB)
-    for f in bd.FUNDS:
-        st = bd.read_json(os.path.join(arch, f["state"]))
-        if st is None:
-            continue
-        rows, _ = bd.read_csv(os.path.join(arch, f["trades"]))
-        ledger = f["start"] + sum(float(r["betrag"]) for r in rows)
-        assert abs(st["cash"] - ledger) < bd.TOLERANCE, (f["key"], "Sicherung: Kasse", st["cash"], ledger)
-        opn = sorted(lc["id"] for lc in bd.lifecycles(rows, f["idcol"]) if not lc["closed"])
-        pos = sorted(p.get(f["idcol"]) or p.get("pair_id") or p.get("market_id") for p in st["positions"])
-        assert opn == pos, (f["key"], "Sicherung: Positionen")
-
-
 def rebuild_from_archive(d, tmp):
     """Wie tests/test_bereinigung.py (real_copy): die Sicherung als unbereinigte Live-Daten neu bereinigen."""
     o = os.path.join(tmp, "orig")
@@ -284,9 +299,8 @@ def test_alter_workflow_kauft_auf_schaetzkurs_bereinigung_bleibt_konsistent():
     von Handelsliste 100,0000 ab'), sobald jemand die Sicherung als unbereinigten Stand liest."""
     with tempfile.TemporaryDirectory() as tmp:
         d = os.path.join(tmp, "data")
-        os.makedirs(d)
-        clean_copy(d)
-        cash0 = json.load(open(os.path.join(d, "fund_state_bestcase.json"), encoding="utf-8"))["cash"]
+        os.makedirs(d)  # frische Fonds: der Test verlangt Kaeufe, die Kasse/Plaetze der echten Daten duerfen dabei nicht zaehlen
+        cash0 = 100.0
         with patched((pricing, "REQUIRE_EXECUTABLE", False)):
             simulate(d, [("snapshot", [{"i": 1, "yes": 0.40, "no": 0.595, "book": None, "liq": 180.0, "closed": False},
                                        {"i": 2, "yes": 0.30, "no": 0.695, "book": None, "liq": 10.0, "closed": False}], [])],
@@ -309,8 +323,7 @@ def test_schliessung_spaeterer_laeufe_entfernt_position_aus_der_sicherung():
          "liq_a": 4000.0, "liq_b": 4000.0, "resolve": None}
     with tempfile.TemporaryDirectory() as tmp:
         d = os.path.join(tmp, "data")
-        os.makedirs(d)
-        clean_copy(d)
+        os.makedirs(d)  # frische Fonds: der Test verlangt einen Kauf (freier Platz, Kasse), unabhaengig vom echten Stand
         simulate(d, [("multi_scan", [], [c])])
         bd.run(d)
         check_archive(d)
