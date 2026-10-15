@@ -1,5 +1,5 @@
 {
-  "cash": 9830.25191726576,
+  "cash": 9818.535866564811,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.048,
+        "letzter_kurs": 0.0455,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -62,7 +62,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.0605,
+        "letzter_kurs": 0.0565,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.024,
+        "letzter_kurs": 0.0205,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -275,6 +275,30 @@
         "fee_gezahlt": 0.0
       },
       "bereinigt": true
+    },
+    {
+      "pair_id": "polymarket:559661__predictit:8153:32160",
+      "frage": "[polymarket] Will Jon Ossoff win the 2028 Democratic presidential nomination?  <->  [predictit] Who will win the 2028 Democratic presidential nomination? - Jon Ossoff",
+      "shares": 12.345679012345679,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-15T15:29:53.682669+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "559661",
+        "side": "yes",
+        "einstandskurs": 0.1390001067768278,
+        "letzter_kurs": 0.1390001067768278,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8153:32160",
+        "side": "no",
+        "einstandskurs": 0.81,
+        "letzter_kurs": 0.81,
+        "fee_gezahlt": 0.0
+      }
     }
   ],
   "started": "2026-10-07T17:30:18.239410+02:00"
