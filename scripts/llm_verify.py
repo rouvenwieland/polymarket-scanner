@@ -72,7 +72,8 @@ Antworte "Nein", wenn IRGENDEINER dieser Unterschiede vorliegt, auch wenn Thema/
   Kandidat B in DERSELBEN Wahl - Match nur, wenn es wortgleich derselbe Kandidat ist).
 - Unterschiedliche WETTART beim selben Spiel/Ereignis (z.B. "wer gewinnt das Spiel" ist NICHT \
   dasselbe wie "wer gewinnt die 1. Halbzeit/das 7. Inning", "Endstand exakt X:Y", "Handicap/Spread", \
-  "beide Teams treffen", "wer trifft zuerst", "geht es in die Verlängerung").
+  "beide Teams treffen", "wer trifft zuerst", "geht es in die Verlängerung", "endet es Remis/Unentschieden" - \
+  auch nie gegen "wer gewinnt" (zwei Ausgänge ohne Remis) -, "Über/Unter", "Siegmarge", "Doppelte Chance").
 - UMGEKEHRTE POLARITÄT: eine Frage ist die Verneinung/das Gegenteil der anderen (z.B. "X gewinnt" vs.   "X verliert", "X bleibt Sprecher" vs. "X ist nicht mehr Sprecher", "X out" vs. "X ist Premier - X",   "über/unter", "vor/nach", "nicht"). Dann ist Yes(A)+No(B) KEINE Absicherung, auch wenn beide Ereignisse   einander ausschließen - antworte Nein.
 - Unterschiedliche Jahre, Fristen oder Gebietskörperschaften (Wahlkreis, Bundesstaat, Land).
 - Eine Seite fragt nach einer GESAMT-Anzahl/Schwelle (z.B. "mind. 50 Sitze"), die andere nach dem \

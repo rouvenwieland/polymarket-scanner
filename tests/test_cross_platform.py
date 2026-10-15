@@ -39,8 +39,10 @@ def test_verifizierte_echte_paare_bleiben_erhalten():
     lost = [p for p in pairs if score(*p) < cp.SIMILARITY_THRESHOLD]
     # 2 der 60 "bestaetigten" Paare sind KI-Fehlurteile (generischer Kalshi-Titel "Both Teams To Score" ohne Teams):
     # die Regelstufe verwirft sie jetzt zu Recht (_conflicting_generic).
-    wrong = [p for p in lost if p[1] == "Both Teams To Score"]
-    assert len(wrong) == 2
+    # Ebenso die 7 'bestaetigten' Paare "Remis-Frage <-> wer gewinnt" (Polymarkt/SX Bet): Remis ist nicht Sieger
+    # (_bet_aspect "draw"); die Regelstufe verwirft sie jetzt zu Recht.
+    wrong = [p for p in lost if p[1] == "Both Teams To Score" or "end in a draw" in p[0]]
+    assert len(wrong) == 2 + 7
     assert len(lost) - len(wrong) <= 3, lost
 
 
@@ -164,3 +166,71 @@ def test_generic_regel_verwirft_keine_eindeutigen_kurztitel():
                           ("Government shutdown in 2026?",
                            "Will there be a US federal government shutdown before December 31, 2026?")):
         assert not cp._conflicting_generic(cp._tokenize(short), cp._tokenize(long_q)), short
+
+
+# ------------------------------------------------------------ Ergebnistyp: Remis, Sieger, Ueber/Unter, exaktes Ergebnis, beide treffen ...
+# Live-Befund 15.10.: Der Cross-Fonds kaufte "Will Chicago Fire FC vs. Philadelphia Union end in a draw?" (Polymarkt) gegen
+# "Chicago Fire vs Philadelphia Union FC - wer gewinnt?" (SX Bet) - Remis ist nicht "Sieger"; nur der Spread-Schutz (> 25 %)
+# stoppte 5 solcher Paare, ein Paar mit kleinerem Spread waere durchgekommen.
+REAL_DRAW_VS_WINNER = [
+    ("Will Chicago Fire FC vs. Philadelphia Union end in a draw?", "Chicago Fire vs Philadelphia Union FC - wer gewinnt?"),
+    ("Will Hellas Verona FC vs. US Catanzaro 1929 end in a draw?", "Hellas Verona vs Catanzaro - wer gewinnt?"),
+    ("Will Eintracht Frankfurt vs. 1. FC Köln end in a draw?", "Eintracht Frankfurt vs 1. FC Koln - wer gewinnt?"),
+    ("Will Çorum FK vs. Çaykur Rizespor end in a draw?", "Çorum Belediyespor vs Caykur Rizespor - wer gewinnt?"),
+    ("Will RC Deportivo A Coruña vs. Levante UD end in a draw?", "Deportivo La Coruna vs Levante - wer gewinnt?"),
+]
+
+
+@pytest.mark.parametrize("a,b", REAL_DRAW_VS_WINNER)
+def test_remis_frage_wird_nie_mit_sieger_frage_gepaart(a, b):
+    assert cp._conflicting_bet_aspect(a.lower(), b.lower())
+    assert score(a, b) < cp.SIMILARITY_THRESHOLD
+    assert score(b, a) < cp.SIMILARITY_THRESHOLD
+
+
+# Je Ergebnistyp mehrere Formulierungen (englisch/deutsch, mit und ohne "A vs B"-Muster) zum selben Spiel.
+RESULT_TYPES = {
+    "remis": ["Will Alpha FC vs. Bravo FC end in a draw?", "Alpha FC vs Bravo FC - Unentschieden?", "Alpha FC vs Bravo FC: Draw",
+              "Will Alpha FC and Bravo FC draw?", "Alpha FC vs Bravo FC - Remis"],
+    "sieger": ["Alpha FC vs Bravo FC - wer gewinnt?", "Will Alpha FC win against Bravo FC?", "Alpha FC vs. Bravo FC: Winner",
+               "Alpha FC vs Bravo FC - Sieger?"],
+    "ueber_unter": ["Alpha FC vs Bravo FC: Over 2.5 goals", "Alpha FC vs Bravo FC - Über/Unter 2,5 Tore",
+                    "Will Alpha FC and Bravo FC score under 3.5 goals?"],
+    "exaktes_ergebnis": ["Exact Score: Alpha FC 2 - 1 Bravo FC?", "Alpha FC vs Bravo FC - Correct Score 2-1",
+                         "Alpha FC vs Bravo FC - exaktes Ergebnis"],
+    "beide_treffen": ["Both Teams To Score: Alpha FC vs Bravo FC", "Alpha FC vs Bravo FC - beide Teams treffen?",
+                      "Alpha FC vs Bravo FC - BTTS"],
+    "doppelte_chance": ["Alpha FC vs Bravo FC - Double Chance: Alpha FC or draw", "Will Alpha FC win or draw against Bravo FC?"],
+    "siegmarge": ["Alpha FC vs Bravo FC - winning margin", "Alpha FC vs Bravo FC - Siegmarge"],
+}
+
+
+def test_unterschiedliche_ergebnistypen_gelten_als_unvereinbar():
+    bad = []
+    types = list(RESULT_TYPES)
+    for i, ta in enumerate(types):
+        for tb in types[i + 1:]:
+            for a in RESULT_TYPES[ta]:
+                for b in RESULT_TYPES[tb]:
+                    if not cp._conflicting_bet_aspect(a.lower(), b.lower()) or score(a, b) >= cp.SIMILARITY_THRESHOLD:
+                        bad.append((ta, a, tb, b))
+    assert not bad, bad[:10]
+
+
+def test_gleicher_ergebnistyp_ist_kein_gegenbeweis():
+    bad = [(t, a, b) for t, qs in RESULT_TYPES.items() for a in qs for b in qs
+           if cp._conflicting_bet_aspect(a.lower(), b.lower())]
+    assert not bad, bad[:10]
+
+
+def test_remis_regel_trifft_keine_politik_fragen():
+    """'tie'/'draw' sind nur als eigene Woerter ein Remis-Marker; benutzen BEIDE Fragen dieselbe Wettart, ist das kein Gegenbeweis."""
+    for a, b in (("Will the Electoral College end in a tie in 2028?", "Electoral College tie in the 2028 election?"),
+                 ("Will the lottery draw be held in 2026?", "Will the 2026 lottery draw take place?")):
+        assert not cp._conflicting_bet_aspect(a.lower(), b.lower()), (a, b)
+    assert cp._bet_aspect("will the senate be tied after the 2026 election?") == "tied_segment"  # bestehende Regel unveraendert
+
+
+def test_llm_prompt_nennt_remis_als_eigene_wettart():
+    import llm_verify
+    assert "Remis" in llm_verify._SYSTEM_PROMPT

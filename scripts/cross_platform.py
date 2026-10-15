@@ -439,13 +439,21 @@ def _conflicting_matchup(question_a, question_b, full_tokens_a, full_tokens_b):
 # (Wortgrenze), um z.B. "set" nicht in "upset"/"asset" zu matchen.
 _BET_ASPECT_PATTERNS = [
     (re.compile(r"extra innings|\bovertime\b|go to overtime"), "extra_innings_or_overtime"),
-    (re.compile(r"both teams to score|\bbtts\b"), "btts"),
-    (re.compile(r"exact score|correct score|final score"), "exact_score"),
+    (re.compile(r"both teams to score|\bbtts\b|\bbeide (?:teams |mannschaften )?treffen\b"), "btts"),
+    (re.compile(r"exact score|correct score|final score|\bexaktes ergebnis\b|\bgenaues ergebnis\b"), "exact_score"),
     (re.compile(r"to score first|score first|first to score"), "first_scorer"),
     (re.compile(r"clean sheet"), "clean_sheet"),
     (re.compile(r"tied after|draw after"), "tied_segment"),
+    # Ergebnistyp "Remis" ist NICHT "Sieger": "Will A vs. B end in a draw?" gegen "A vs B - wer gewinnt?" (SX Bet, zwei
+    # Ausgaenge ohne Remis) ist keine Absicherung (Live-Befund 15.10.: 5 solche Paare im Cross-Fonds, nur der Spread-Schutz
+    # hat sie gestoppt). Doppelte Chance und Remis-ohne-Einsatz sind wieder eigene Ergebnistypen.
+    (re.compile(r"draw no bet|remis ohne einsatz"), "draw_no_bet"),
+    (re.compile(r"double chance|doppelte chance|\b(?:win|wins|gewinnt) or (?:a )?draw\b|\b(?:a )?draw or (?:win|wins)\b"),
+     "double_chance"),
+    (re.compile(r"\bdraws?\b|\bremis\b|\bunentschieden\b|\bties?\b"), "draw"),
+    (re.compile(r"winning margin|margin of victory|\bsiegmarge\b|\bsiegesmarge\b"), "margin"),
     (re.compile(r"by more than|\bhandicap\b|\bspread\b"), "handicap"),
-    (re.compile(r"\bover\b|\bunder\b|total points|total goals"), "totals"),
+    (re.compile(r"\bover\b|\bunder\b|total points|total goals|\b(?:ü|ue)ber\s*/\s*unter\b"), "totals"),
     (re.compile(r"1st half|2nd half|first half|second half|halftime|half time"), "segment"),
     (re.compile(r"\bquarter\b|\bperiod\b|\binning\b|\bset\b|\bround\b"), "segment"),
 ]
@@ -453,7 +461,12 @@ _BET_ASPECT_PATTERNS = [
 
 _STRICT_SPORT_ASPECTS = {
     "extra_innings_or_overtime", "btts", "exact_score", "first_scorer", "clean_sheet", "tied_segment",
+    "draw", "draw_no_bet", "double_chance", "margin",
 }
+# "over/under" ist nur mit Sporteinheit eindeutig ein Ueber/Unter-Wettmarkt ("over 3%" in Wirtschafts-/Politikfragen nicht)
+_SPORT_TOTALS_RE = re.compile(
+    r"\b(?:over|under)\s+\d+(?:[.,]\d+)?\s+(?:goals?|points?|runs?|games?|sets?|corners?|cards?|tore|punkte)\b"
+    r"|\btotal (?:goals|points|runs)\b|\b(?:ü|ue)ber\s*/\s*unter\b")
 
 
 def _bet_aspect(question_lower):
@@ -473,7 +486,10 @@ def _conflicting_bet_aspect(question_a, question_b):
         # Ohne "A vs B"-Muster nur die unmissverstaendlichen Sport-Wettarten vergleichen
         # ("Exact Score: A 5 - 2 B?" ist nie dasselbe wie "B wins" - bisher scheiterte die Pruefung
         # hier am fehlenden "vs" und liess ~1.000 solcher Paare ins Tagesbudget der KI-Stufe laufen).
-        return aspect_a != aspect_b and (aspect_a in _STRICT_SPORT_ASPECTS or aspect_b in _STRICT_SPORT_ASPECTS)
+        # Ergebnistypen wie Remis, Sieger, Ueber/Unter, exaktes Ergebnis, beide treffen sind untereinander unvereinbar.
+        def strict(aspect, question):
+            return aspect in _STRICT_SPORT_ASPECTS or (aspect == "totals" and bool(_SPORT_TOTALS_RE.search(question)))
+        return aspect_a != aspect_b and (strict(aspect_a, question_a) or strict(aspect_b, question_b))
     return aspect_a != aspect_b
 
 
