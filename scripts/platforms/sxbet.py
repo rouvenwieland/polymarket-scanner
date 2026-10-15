@@ -30,8 +30,12 @@ Preis-Umrechnung (siehe docs.sx.bet/developers/order-book):
 Nur echte Zwei-Ausgänge-ohne-Unentschieden-Markttypen werden übernommen
 (siehe docs.sx.bet/api-reference/market-types - Spalte "Has lines: false",
 Beschreibung nennt explizit "no draw" bzw. ist strukturell binär):
-  52  - "12"                     wer gewinnt (kein Unentschieden möglich)
-  226 - "12 Including Overtime"  wie 52, inkl. Verlängerung (keine Draws)
+  52  - "12"                     wer gewinnt, zwei Ausgänge OHNE Remis-Ausgang (in der Praxis: Fußball). Ein Remis wird
+                                 weder als Sieg der einen noch der anderen Seite gewertet (Void-Name "NO_CONTEST";
+                                 die Doku nennt die Abrechnung nicht). Das ist KEIN Gegenstück zu "Will X win?" bei
+                                 Polymarkt/Kalshi, wo ein Remis als "Nein" zählt - der Fragetext trägt deshalb den Vermerk
+                                 "(ohne Remis-Wertung)" und gilt im Matcher als eigene Wettart (draw_no_bet)
+  226 - "12 Including Overtime"  wie 52, inkl. Verlängerung - laut Doku "no draw" (NFL, NBA): ohne Vermerk
   17  - "Both Teams To Score"    echte Yes/No-Frage
 
 Gebühren (docs.sx.bet/developers/fees): die vier Payout-Gebühren
@@ -140,6 +144,10 @@ def _build_question(market):
     league = market.get("leagueLabel") or market.get("sportLabel") or ""
     if type_id == 17:
         question = f"Both Teams To Score: {market.get('teamOneName')} vs {market.get('teamTwoName')}"
+    elif type_id == 52:
+        # Remis moeglich (Fussball), aber kein Remis-Ausgang: nicht mit "Will X win?" (Remis = Nein) gleichsetzen
+        question = (f"{market.get('outcomeOneName')} vs {market.get('outcomeTwoName')} - "
+                    f"wer gewinnt (ohne Remis-Wertung)?")
     else:
         question = f"{market.get('outcomeOneName')} vs {market.get('outcomeTwoName')} - wer gewinnt?"
     extra = " ".join(filter(None, [league, _TYPE_LABELS.get(type_id, "")]))

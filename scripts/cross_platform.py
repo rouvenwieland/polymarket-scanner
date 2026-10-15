@@ -446,8 +446,10 @@ _BET_ASPECT_PATTERNS = [
     (re.compile(r"tied after|draw after"), "tied_segment"),
     # Ergebnistyp "Remis" ist NICHT "Sieger": "Will A vs. B end in a draw?" gegen "A vs B - wer gewinnt?" (SX Bet, zwei
     # Ausgaenge ohne Remis) ist keine Absicherung (Live-Befund 15.10.: 5 solche Paare im Cross-Fonds, nur der Spread-Schutz
-    # hat sie gestoppt). Doppelte Chance und Remis-ohne-Einsatz sind wieder eigene Ergebnistypen.
-    (re.compile(r"draw no bet|remis ohne einsatz"), "draw_no_bet"),
+    # hat sie gestoppt). Doppelte Chance und Remis-ohne-Einsatz sind wieder eigene Ergebnistypen. Ebenso SX Bets
+    # Fussball-"wer gewinnt" ("(ohne Remis-Wertung)", platforms/sxbet.py): "Will X win?" zaehlt ein Remis als Nein, dort ist
+    # ein Remis weder Sieg noch Niederlage - bei Remis zahlt die eine Seite nichts, die andere nur die Rueckerstattung.
+    (re.compile(r"draw no bet|remis ohne einsatz|ohne remis-wertung"), "draw_no_bet"),
     (re.compile(r"double chance|doppelte chance|\b(?:win|wins|gewinnt) or (?:a )?draw\b|\b(?:a )?draw or (?:win|wins)\b"),
      "double_chance"),
     (re.compile(r"\bdraws?\b|\bremis\b|\bunentschieden\b|\bties?\b"), "draw"),
