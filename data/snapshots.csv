@@ -4941,3 +4941,7 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-16T07:09:48.649987+02:00,5264507,Exact Score: SV 07 Elversberg 5 - 0 FC Augsburg?,bun-elv-aug-2026-10-17-exact-score-5-0,0.0095,0.99,0.9994999999999999,0.0,6618.30751,2026-10-17T13:30:00Z,schaetzung
 2026-10-16T07:09:48.649987+02:00,5287250,Exact Score: Atlanta United FC 5 - 2 Inter Miami CF?,mls-atl-mia-2026-10-17-exact-score-5-2,0.0095,0.99,0.9994999999999999,0.0,2577.35129,2026-10-17T23:30:00Z,schaetzung
 2026-10-16T07:09:48.649987+02:00,5691030,Game 2: Any Player Rampage?,dota2-tt2-rg6-2026-10-15-game2-any-player-rampage,0.495,0.5,0.995,0.0,0.0,2026-10-16T14:00:00Z,schaetzung
+2026-10-16T13:55:05.998339+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-16T13:55:05.998339+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-16T13:55:05.998339+02:00,5685046,Will the lowest temperature in Toronto be 3°C on October 16?,lowest-temperature-in-toronto-on-october-16-2026-3c,0.45,0.5,0.95,0.0,0.0,2026-10-16T12:00:00Z,schaetzung
+2026-10-16T13:55:05.998339+02:00,5772648,Exact Score: Giravanz Kitakyushu 5 - 0 FC Osaka?,ja3-gir-osa-2026-10-17-exact-score-5-0,0.485,0.51,0.995,0.0,9.9197,2026-10-17T05:00:00Z,schaetzung
