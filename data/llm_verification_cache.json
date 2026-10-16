@@ -32058,5 +32058,425 @@
     "checked_at": "2026-10-15T00:02:45.830769+00:00",
     "frage_a": "1. FC Union Berlin vs. BV Borussia 09 Dortmund: O/U 6.5",
     "frage_b": "Union Berlin vs Borussia Dortmund - wer gewinnt?"
+  },
+  "polymarket:5660494__sxbet:0x734ef60e8169486d297c7384504a56aab738cfe65da7d76d079f003ef043a6f1": {
+    "same_event": false,
+    "reason": "1H moneyline vs full-game winner",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Ohio State vs. Indiana: 1H Moneyline",
+    "frage_b": "Indiana Hoosiers vs Ohio State Buckeyes - wer gewinnt?"
+  },
+  "kalshi:KXJLEAGUE1HBTTS-26OCT17SHIGAM-BTTS__polymarket:5284725": {
+    "same_event": false,
+    "reason": "team-specific O/U vs both teams score",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Shimizu S-Pulse vs. Gamba Ōsaka: Shimizu S-Pulse 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXJLEAGUE1HBTTS-26OCT17SHIGAM-BTTS__polymarket:5284743": {
+    "same_event": false,
+    "reason": "different halves and teams",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Shimizu S-Pulse vs. Gamba Ōsaka: Gamba Ōsaka 2nd Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXALEAGUE1HBTTS-26OCT17AUCMEL-BTTS__polymarket:5289875": {
+    "same_event": false,
+    "reason": "different halves and teams",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Auckland FC vs. Melbourne City FC: Melbourne City FC 2nd Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXALEAGUE1HBTTS-26OCT17AUCMEL-BTTS__polymarket:5289839": {
+    "same_event": false,
+    "reason": "team-specific O/U vs both teams score",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Auckland FC vs. Melbourne City FC: Auckland FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5349493__sxbet:0xf64628d1d40c28c204866c2ed4c7215fc33dd36e786e899bd89659832cd5d372": {
+    "same_event": false,
+    "reason": "total points O/U vs game winner",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Brown vs. Princeton: O/U 51.5",
+    "frage_b": "Princeton vs Brown - wer gewinnt?"
+  },
+  "polymarket:5660520__sxbet:0xe1322be72802aa96e71565eea5f753d71625c7f3f3a8c86cd8990f6e020565a8": {
+    "same_event": false,
+    "reason": "1H moneyline vs full-game winner",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Florida Atlantic vs. Army: 1H Moneyline",
+    "frage_b": "Army Black Knights vs Florida Atlantic Owls - wer gewinnt?"
+  },
+  "kalshi:KXALEAGUE1HBTTS-26OCT17AUCMEL-BTTS__polymarket:5289847": {
+    "same_event": false,
+    "reason": "team-specific O/U vs both teams score",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Auckland FC vs. Melbourne City FC: Melbourne City FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXALEAGUE1H-26OCT17AUCMEL-MEL__polymarket:5458244": {
+    "same_event": false,
+    "reason": "spread on Hull City vs Melbourne City win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "1st Half Spread: Hull City AFC (-1.5)",
+    "frage_b": "Melbourne City wins 1st Half"
+  },
+  "kalshi:KXJLEAGUE1H-26OCT17SHIGAM-SHI__polymarket:5284710": {
+    "same_event": false,
+    "reason": "total goals O/U vs team win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Shimizu S-Pulse vs. Gamba Ōsaka: 1st Half O/U 2.5",
+    "frage_b": "Shimizu wins 1st Half"
+  },
+  "kalshi:KXJLEAGUE1HBTTS-26OCT17SHIGAM-BTTS__polymarket:5284729": {
+    "same_event": false,
+    "reason": "team-specific O/U vs both teams score",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Shimizu S-Pulse vs. Gamba Ōsaka: Gamba Ōsaka 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAMX1H-26OCT17CRAJUA-CRA__polymarket:5317747": {
+    "same_event": false,
+    "reason": "total goals O/U vs team win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "CF Cruz Azul vs. FC Juárez: 1st Half O/U 0.5",
+    "frage_b": "Cruz Azul wins 1st Half"
+  },
+  "kalshi:KXJLEAGUE1H-26OCT17SHIGAM-SHI__polymarket:5284711": {
+    "same_event": false,
+    "reason": "total goals O/U vs team win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Shimizu S-Pulse vs. Gamba Ōsaka: 1st Half O/U 3.5",
+    "frage_b": "Shimizu wins 1st Half"
+  },
+  "kalshi:KXALEAGUE1H-26OCT17AUCMEL-MEL__polymarket:5289814": {
+    "same_event": false,
+    "reason": "total goals O/U vs team win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Auckland FC vs. Melbourne City FC: 1st Half O/U 2.5",
+    "frage_b": "Melbourne City wins 1st Half"
+  },
+  "kalshi:KXALEAGUE1H-26OCT17AUCMEL-MEL__polymarket:5458242": {
+    "same_event": false,
+    "reason": "spread on Fulham vs Melbourne City win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "1st Half Spread: Fulham FC (-1.5)",
+    "frage_b": "Melbourne City wins 1st Half"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT18DALGB-DALCBROWN80__polymarket:5617318": {
+    "same_event": false,
+    "reason": "different events: total TDs vs first TD scorer",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Browns Total Touchdowns: O/U 1.5",
+    "frage_b": "Camden Brown: 1st Touchdown"
+  },
+  "kalshi:KXALEAGUE1H-26OCT17AUCMEL-MEL__polymarket:5289859": {
+    "same_event": false,
+    "reason": "different events: 2nd half O/U vs 1st half winner",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Auckland FC vs. Melbourne City FC: 2nd Half O/U 1.5",
+    "frage_b": "Melbourne City wins 1st Half"
+  },
+  "kalshi:KXLIGAMX1H-26OCT17CRAJUA-CRA__polymarket:5317748": {
+    "same_event": false,
+    "reason": "different events: 1st half O/U vs 1st half winner",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "CF Cruz Azul vs. FC Juárez: 1st Half O/U 1.5",
+    "frage_b": "Cruz Azul wins 1st Half"
+  },
+  "kalshi:KXJLEAGUE1H-26OCT17SHIGAM-SHI__polymarket:5246075": {
+    "same_event": false,
+    "reason": "different events: match win vs 1st half win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Shimizu S-Pulse win on 2026-10-17?",
+    "frage_b": "Shimizu wins 1st Half"
+  },
+  "kalshi:KXATPMATCH-26OCT17ZVEDAV-DAV__polymarket:3195624": {
+    "same_event": false,
+    "reason": "different events: ATP Finals qualification vs generic win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Alejandro Davidovich Fokina Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Alejandro Davidovich Fokina wins"
+  },
+  "polymarket:5420666__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "different events: multi‑seat condition vs Ohio special election",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Republicans win the Ohio and Iowa Senate seats, and Democrats win Maine?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:4443226__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "different events: Maine Senate vs overall Senate control",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Republican Party control the Maine Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5420669__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "different events: multi‑seat condition vs Ohio special election",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Ohio Senate seat, and Republicans win Iowa and Maine?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:5166768__predictit:8939:35606": {
+    "same_event": false,
+    "reason": "different events: Maine vs Texas closeness vs overall closest race",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Closer Senate Race: Maine or Texas?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Texas"
+  },
+  "polymarket:4443225__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "different events: Maine Senate vs overall Senate control",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democratic Party control the Maine Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "kalshi:KXATPMATCH-26OCT17ZVEDAV-DAV__polymarket:3204338": {
+    "same_event": false,
+    "reason": "different events: Top 10 ranking vs generic win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Alejandro Davidovich Fokina Make the Top 10 in the 2026 ATP end of year rankings",
+    "frage_b": "Alejandro Davidovich Fokina wins"
+  },
+  "kalshi:KXATPMATCH-26OCT17ZVEDAV-ZVE__polymarket:3204315": {
+    "same_event": false,
+    "reason": "different events: Top 10 ranking vs generic win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Alexander Zverev Make the Top 10 in the 2026 ATP end of year rankings",
+    "frage_b": "Alexander Zverev wins"
+  },
+  "polymarket:4063889__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "different events: Oakland County win vs Michigan Senate win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win Oakland County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5420672__predictit:8159:31956": {
+    "same_event": false,
+    "reason": "different events: three‑seat condition vs Maine Senate win",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Ohio, Iowa, and Maine Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Democrats (Jackson)"
+  },
+  "polymarket:5420671__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "different events: multi‑seat condition vs Ohio special election",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Ohio and Iowa Senate seats, and Republicans win Maine?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:3515949__predictit:8378:33011": {
+    "same_event": false,
+    "reason": "frage_a asks about IA Gov & Senate; frase_b only IA Gov",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Iowa Governor election and Republicans win the Iowa Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Iowa? - Republican"
+  },
+  "kalshi:KXNHLGAME-26OCT22DETVAN-VAN__polymarket:5443647": {
+    "same_event": false,
+    "reason": "frage_a about specific candidate; frase_b vague",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Margareta Dovgal win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:4641987__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a asks about TX, MI, ME Senate; frase_b only MI Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Texas, Michigan, and Maine Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5091427__predictit:8383:33037": {
+    "same_event": false,
+    "reason": "frage_a compares closeness of two races; frase_b asks party win in NJ",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Closer Senate Race: Montana or New Jersey?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Jersey? - Democratic"
+  },
+  "polymarket:5420667__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "frage_a asks about OH, ME, IA Senate; frase_b only OH Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Republicans win the Ohio and Maine Senate seats, and Democrats win Iowa?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "kalshi:KXNHLGAME-26OCT22DETVAN-VAN__polymarket:5443667": {
+    "same_event": false,
+    "reason": "frage_a about specific candidate; frase_b vague",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Sunita Dhir win the next Vancouver-Langara British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:4063198__predictit:8228:32196": {
+    "same_event": false,
+    "reason": "frage_a about Miami-Dade County in FL Senate; frase_b about overall FL Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win Miami-Dade County in the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Democrat (Nixon)"
+  },
+  "polymarket:5765883__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a asks if Rogers wins MI Senate; frase_b asks if Democrats win MI Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Rogers flips El-Sayed for Michigan Senate by November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5420665__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "frage_a asks about OH, IA, ME Senate; frase_b only OH Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Republicans win the Ohio, Iowa, and Maine Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:4063831__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a asks about Genesee County in MI Senate; frase_b about overall MI Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win Genesee County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:4063994__predictit:8156:31949": {
+    "same_event": false,
+    "reason": "frage_a asks about Collin County in TX Senate; frase_b about GA Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Republicans win Collin County in the Texas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Republican (Collins)"
+  },
+  "polymarket:4063844__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a asks about Kent County in MI Senate; frase_b about overall MI Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win Kent County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5445095__predictit:8215:32172": {
+    "same_event": false,
+    "reason": "frage_a compares closeness of CA vs NY governor races; frase_b asks party win NY governor",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Closer Governor Race: California or New York?",
+    "frage_b": "Which party will win the 2026 election for governor of New York? - Democratic"
+  },
+  "polymarket:5765880__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a asks who is favorite in MI Senate; frase_b asks party win MI Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Michigan Senate favorite on November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5420670__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "frage_a asks about OH, ME, IA Senate; frase_b only OH Senate",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Ohio and Maine Senate seats, and Republicans win Iowa?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:3516005__predictit:8159:31956": {
+    "same_event": false,
+    "reason": "frage_a combines governor and senate outcomes; frageb only asks senate party.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Maine Governor election and Republicans win the Maine Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Democrats (Jackson)"
+  },
+  "polymarket:5704300__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "frage_a is a compound of three seats; frageb only asks Nebraska senate.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Texas and Kansas Senate seats, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:5737327__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "frage_a compounds Iowa, Kansas, Nebraska; frageb only Nebraska senate.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Iowa and Kansas Senate seats, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent"
+  },
+  "polymarket:630857__predictit:8161:31960": {
+    "same_event": false,
+    "reason": "different states (New Jersey vs New Hampshire).",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win the New Jersey Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Democratic (Pappas)"
+  },
+  "polymarket:3515950__predictit:8378:33011": {
+    "same_event": false,
+    "reason": "frage_a combines governor and senate; frageb only governor.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Republicans win the Iowa Governor election and Democrats win the Iowa Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Iowa? - Republican"
+  },
+  "polymarket:630870__predictit:8161:31960": {
+    "same_event": false,
+    "reason": "different states (New Mexico vs New Hampshire).",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win the New Mexico Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Democratic (Pappas)"
+  },
+  "polymarket:3409134__predictit:8540:33611": {
+    "same_event": false,
+    "reason": "different persons (Max Miller vs Stephen Miller).",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Max Miller out as US Rep by December 31, 2026?",
+    "frage_b": "Will Stephen Miller leave office in 2026?"
+  },
+  "polymarket:5091424__predictit:8939:35606": {
+    "same_event": false,
+    "reason": "frage_a asks which of two races is closer; frageb claims Texas is the closest.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Closer Senate Race: Nebraska or Texas?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Texas"
+  },
+  "polymarket:4844497__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "frage_a is county‑level; frageb is statewide senate.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will the Democrats win Grand Traverse County in the Michigan Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:3515995__predictit:8212:32165": {
+    "same_event": false,
+    "reason": "frage_a combines governor and senate; frageb only governor.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Democrats win the Michigan Governor election and Republicans win the Michigan Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
+  },
+  "polymarket:5444891__predictit:8376:33007": {
+    "same_event": false,
+    "reason": "frage_a asks which of two races is closer; frageb asks party winner in South Dakota.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Closer Senate Race: South Dakota or New Mexico?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Republican"
+  },
+  "polymarket:3363914__predictit:8377:33519": {
+    "same_event": false,
+    "reason": "different states (South Dakota vs Montana).",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will an Independent candidate win the 2026 South Dakota Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent"
+  },
+  "polymarket:5765890__predictit:8171:32023": {
+    "same_event": false,
+    "reason": "frage_a about odds leader; frageb about outright winner.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Gavin Newsom 2028 presidential odds leader on November 30?",
+    "frage_b": "Who will win the 2028 US presidential election? - Gavin Newsom"
+  },
+  "polymarket:5765891__predictit:8171:32024": {
+    "same_event": false,
+    "reason": "frage_a about odds leader; frageb about outright winner.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Marco Rubio 2028 presidential odds leader on November 30?",
+    "frage_b": "Who will win the 2028 US presidential election? - Marco Rubio"
+  },
+  "polymarket:2865977__predictit:8656:34166": {
+    "same_event": true,
+    "reason": "both ask whether Gavin Newsom will be the first Democratic candidate to announce a 2028 run.",
+    "checked_at": "2026-10-16T05:05:15.957238+00:00",
+    "frage_a": "Will Gavin Newsom be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Which of these Democratic candidates will announce a 2028 POTUS run first? - Gavin Newsom"
   }
 }

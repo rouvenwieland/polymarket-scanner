@@ -1,5 +1,5 @@
 {
-  "cash": 818.5357540635373,
+  "cash": 805.4700587502625,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.051,
+        "letzter_kurs": 0.0495,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -62,7 +62,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.0925,
+        "letzter_kurs": 0.0905,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.68,
+        "letzter_kurs": 0.67,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.021,
+        "letzter_kurs": 0.0195,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -297,6 +297,30 @@
         "side": "no",
         "einstandskurs": 0.81,
         "letzter_kurs": 0.81,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:2865977__predictit:8656:34166",
+      "frage": "[polymarket] Will Gavin Newsom be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Gavin Newsom",
+      "shares": 16.39344262295082,
+      "end_date": "NA",
+      "eingestiegen": "2026-10-16T06:38:35.627986+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "2865977",
+        "side": "yes",
+        "einstandskurs": 0.18700741410976,
+        "letzter_kurs": 0.18700741410976,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8656:34166",
+        "side": "no",
+        "einstandskurs": 0.61,
+        "letzter_kurs": 0.61,
         "fee_gezahlt": 0.0
       }
     }
