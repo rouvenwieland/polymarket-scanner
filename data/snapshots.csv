@@ -4945,3 +4945,6 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-16T13:55:05.998339+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
 2026-10-16T13:55:05.998339+02:00,5685046,Will the lowest temperature in Toronto be 3°C on October 16?,lowest-temperature-in-toronto-on-october-16-2026-3c,0.45,0.5,0.95,0.0,0.0,2026-10-16T12:00:00Z,schaetzung
 2026-10-16T13:55:05.998339+02:00,5772648,Exact Score: Giravanz Kitakyushu 5 - 0 FC Osaka?,ja3-gir-osa-2026-10-17-exact-score-5-0,0.485,0.51,0.995,0.0,9.9197,2026-10-17T05:00:00Z,schaetzung
+2026-10-16T18:57:57.072825+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-16T18:57:57.072825+02:00,3914345,Will Charlotte FC keep the most clean sheets in the 2026 MLS?,will-charlotte-fc-keep-the-most-clean-sheets-in-mls-2026,0.475,0.52,0.995,58.0,3.5678,2027-01-01T04:59:00Z,schaetzung
+2026-10-16T18:57:57.072825+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
