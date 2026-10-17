@@ -1,5 +1,5 @@
 {
-  "cash": 9805.470171251536,
+  "cash": 9781.183039093636,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.064,
+        "letzter_kurs": 0.065,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -45,7 +45,7 @@
         "market_id": "8375:33006",
         "side": "no",
         "einstandskurs": 0.8210766096695764,
-        "letzter_kurs": 0.82,
+        "letzter_kurs": 0.81,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -137,7 +137,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.093,
+        "letzter_kurs": 0.1125,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -162,7 +162,7 @@
         "market_id": "2865981",
         "side": "yes",
         "einstandskurs": 0.019130364529533424,
-        "letzter_kurs": 0.1625,
+        "letzter_kurs": 0.187,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.021,
+        "letzter_kurs": 0.0225,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -238,7 +238,7 @@
         "market_id": "629465",
         "side": "yes",
         "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.051,
+        "letzter_kurs": 0.0455,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -296,7 +296,7 @@
         "market_id": "8153:32160",
         "side": "no",
         "einstandskurs": 0.81,
-        "letzter_kurs": 0.8,
+        "letzter_kurs": 0.81,
         "fee_gezahlt": 0.0
       }
     },
@@ -312,7 +312,7 @@
         "market_id": "2865977",
         "side": "yes",
         "einstandskurs": 0.18700741410976,
-        "letzter_kurs": 0.1785,
+        "letzter_kurs": 0.1755,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -321,6 +321,30 @@
         "side": "no",
         "einstandskurs": 0.61,
         "letzter_kurs": 0.79,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:3347348__predictit:8570:33724",
+      "frage": "[polymarket] Will Jon Ossoff announce a Presidential run before 2028?  <->  [predictit] Will Jon Ossoff announce a run for President before 2028? - Will John Ossoff announce a run for President before 2028?",
+      "shares": 28.571428571428573,
+      "end_date": "2028-01-01T04:59:00Z",
+      "eingestiegen": "2026-10-17T06:35:33.628100+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "3347348",
+        "side": "yes",
+        "einstandskurs": 0.5000496255265376,
+        "letzter_kurs": 0.5000496255265376,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8570:33724",
+        "side": "no",
+        "einstandskurs": 0.35,
+        "letzter_kurs": 0.35,
         "fee_gezahlt": 0.0
       }
     }

@@ -35733,5 +35733,187 @@
     "checked_at": "2026-10-16T14:34:17.462711+00:00",
     "frage_a": "Exact Score: Stade de Reims 2 - 1 Dijon Football Côte d'Or?",
     "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5351284__sxbet:0x1a4af2d91ee62b800ec9df9c199b93ac6713c8e2e59d335db31c956288bc2cb3": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 51.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "University at Albany vs. Stony Brook: O/U 51.5",
+    "frage_b": "Stony Brook vs Albany Great Danes - wer gewinnt?"
+  },
+  "polymarket:5351446__sxbet:0x889c239efdbeb7e6526ada35d8e5acecf7c3d6e384bcbdc3b973b837764fcded": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 61.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alcorn State vs. Prairie View A&M: O/U 61.5",
+    "frage_b": "Prairie View A&M vs Alcorn State - wer gewinnt?"
+  },
+  "polymarket:5351487__sxbet:0x816c416ab91530fc7467e0c8e3c27ac0755238bca13092eae849388c46ae563a": {
+    "same_event": false,
+    "reason": "frage_a gibt keinen Wettotyp an (nur Matchup), frage_b fragt explizit nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Lafayette vs. Bucknell",
+    "frage_b": "Bucknell vs Lafayette - wer gewinnt?"
+  },
+  "polymarket:5348817__sxbet:0x9c017487fc94d545c225072ef899ab8e7219a713bce435f68bdc49ccaafe0775": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 53.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Central Connecticut State vs. Mercyhurst: O/U 53.5",
+    "frage_b": "Mercyhurst Lakers vs Central Connecticut Blue Devils - wer gewinnt?"
+  },
+  "polymarket:5351310__sxbet:0x59b2d3d0a8729ccb8125423184b8a6ede769dcd4eec1f64a45cebc4de6da5b82": {
+    "same_event": false,
+    "reason": "frage_a gibt keinen Wettotyp an, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alabama State vs. Arkansas-Pine Bluff",
+    "frage_b": "Arkansas-Pine Bluff vs Alabama State Hornets - wer gewinnt?"
+  },
+  "polymarket:5351386__sxbet:0xe271141169b213e96771b8aa30ee6b5521ce7926e5f22308e7ce0a55200dac6e": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 53.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Bethune-Cookman vs. Mississippi Valley State: O/U 53.5",
+    "frage_b": "Mississippi Valley State vs Bethune-Cookman Wildcats - wer gewinnt?"
+  },
+  "polymarket:5351327__sxbet:0x59b2d3d0a8729ccb8125423184b8a6ede769dcd4eec1f64a45cebc4de6da5b82": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 55.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alabama State vs. Arkansas-Pine Bluff: O/U 55.5",
+    "frage_b": "Arkansas-Pine Bluff vs Alabama State Hornets - wer gewinnt?"
+  },
+  "polymarket:5351443__sxbet:0x889c239efdbeb7e6526ada35d8e5acecf7c3d6e384bcbdc3b973b837764fcded": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 57.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alcorn State vs. Prairie View A&M: O/U 57.5",
+    "frage_b": "Prairie View A&M vs Alcorn State - wer gewinnt?"
+  },
+  "polymarket:5351326__sxbet:0x59b2d3d0a8729ccb8125423184b8a6ede769dcd4eec1f64a45cebc4de6da5b82": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 53.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alabama State vs. Arkansas-Pine Bluff: O/U 53.5",
+    "frage_b": "Arkansas-Pine Bluff vs Alabama State Hornets - wer gewinnt?"
+  },
+  "polymarket:5351445__sxbet:0x889c239efdbeb7e6526ada35d8e5acecf7c3d6e384bcbdc3b973b837764fcded": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 59.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alcorn State vs. Prairie View A&M: O/U 59.5",
+    "frage_b": "Prairie View A&M vs Alcorn State - wer gewinnt?"
+  },
+  "polymarket:5351367__sxbet:0xcf1bb2d17035a9f2e62235184c0ce23f9cf8754baad16589054dfd135ced0573": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 55.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Western Illinois vs. Southeast Missouri State: O/U 55.5",
+    "frage_b": "Southeast Missouri State vs Western Illinois - wer gewinnt?"
+  },
+  "polymarket:5351501__sxbet:0x816c416ab91530fc7467e0c8e3c27ac0755238bca13092eae849388c46ae563a": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 51.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Lafayette vs. Bucknell: O/U 51.5",
+    "frage_b": "Bucknell vs Lafayette - wer gewinnt?"
+  },
+  "polymarket:5351500__sxbet:0x816c416ab91530fc7467e0c8e3c27ac0755238bca13092eae849388c46ae563a": {
+    "same_event": false,
+    "reason": "frage_a ist Over/Under 49.5 Punkte, frage_b fragt nach Siegern",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Lafayette vs. Bucknell: O/U 49.5",
+    "frage_b": "Bucknell vs Lafayette - wer gewinnt?"
+  },
+  "polymarket:5765885__predictit:8274:32442": {
+    "same_event": false,
+    "reason": "frage_a fragt nach einem bestimmten Kandidatenwechsel, frage_b nach Parteigewinn 2026",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Turek flips Hinson for Iowa Senate by November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Iowa? - Republican (Hinson)"
+  },
+  "polymarket:5420668__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "frage_a ist eine kombinierte Bedingung (OH+IA+ME), frage_b nur Parteigewinn OH 2026",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will Republicans win the Ohio Senate seat, and Democrats win Iowa and Maine?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican"
+  },
+  "polymarket:4641967__predictit:8939:35605": {
+    "same_event": false,
+    "reason": "Different propositions: worst-performing vs closest race.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will the Iowa Republican perform worst among these tossup Senate races?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Iowa"
+  },
+  "polymarket:5765878__predictit:8173:32031": {
+    "same_event": false,
+    "reason": "Asks about favorite vs actual winner; also different years.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Texas Senate favorite on November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Democrats (Talarico)"
+  },
+  "polymarket:5765884__predictit:8159:31956": {
+    "same_event": false,
+    "reason": "Opposite polarity: Collins flipping (Republican win) vs Democrats winning.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Collins flips Jackson for Maine Senate by November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Democrats (Jackson)"
+  },
+  "polymarket:5444887__predictit:8939:35605": {
+    "same_event": false,
+    "reason": "Compares Iowa vs Maine vs Iowa being the closest overall.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Closer Senate Race: Iowa or Maine?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Iowa"
+  },
+  "polymarket:3729382__predictit:8297:32553": {
+    "same_event": false,
+    "reason": "Conjunction of governor and senate outcomes vs governor only.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will Republicans win the Minnesota Governor election and Democrats win the Minnesota Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Minnesota? - Republican"
+  },
+  "polymarket:5790787__predictit:8396:33065": {
+    "same_event": false,
+    "reason": "County-level win vs statewide Senate win.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will the Republicans win Leavenworth County in the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Republican"
+  },
+  "polymarket:5790786__predictit:8156:31950": {
+    "same_event": false,
+    "reason": "County in Kansas vs statewide in Georgia; different states.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will the Democrats win Leavenworth County in the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Georgia? - Democrats (Ossoff)"
+  },
+  "polymarket:3729380__predictit:8297:32553": {
+    "same_event": false,
+    "reason": "Sweep of both offices vs governor only.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will Republicans sweep the Minnesota Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Minnesota? - Republican"
+  },
+  "polymarket:5765889__predictit:8171:32019": {
+    "same_event": false,
+    "reason": "Being odds leader vs winning the election.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Alexandria Ocasio-Cortez 2028 presidential odds leader on November 30?",
+    "frage_b": "Who will win the 2028 US presidential election? - A. Ocasio-Cortez"
+  },
+  "polymarket:3347348__predictit:8570:33724": {
+    "same_event": true,
+    "reason": "Both ask if Jon Ossoff will announce a presidential run before 2028.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will Jon Ossoff announce a Presidential run before 2028?",
+    "frage_b": "Will Jon Ossoff announce a run for President before 2028? - Will John Ossoff announce a run for President before 2028?"
+  },
+  "polymarket:3229388__predictit:8171:34444": {
+    "same_event": false,
+    "reason": "Winning SC Democratic primary vs winning the 2028 general election.",
+    "checked_at": "2026-10-17T05:19:18.754588+00:00",
+    "frage_a": "Will Andy Beshear win the South Carolina Democratic Presidential primary?",
+    "frage_b": "Who will win the 2028 US presidential election? - Andy Beshear"
   }
 }
