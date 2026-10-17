@@ -4966,3 +4966,18 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-17T13:10:53.877609+02:00,3530240,Will Racing Club de Montevideo win the 2026 Uruguayan Primera División?,2026-soccer-uruguayan-primera-divisin-winner-racing-club-de-montevideo,0.45,0.545,0.9950000000000001,0.0,2.5569,2027-01-01T04:59:00Z,schaetzung
 2026-10-17T13:10:53.877609+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
 2026-10-17T13:10:53.877609+02:00,5264386,Exact Score: Lille OSC 5 - 3 Stade Brestois 29?,fl1-lil-sbr-2026-10-17-exact-score-5-3,0.088,0.8695,0.9575,0.0,211.59194,2026-10-17T18:45:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,3401738,Will Terry McLaurin be the highest-scoring FLEX of the 2026-27 NFL season?,will-terry-mclaurin-be-the-highest-scoring-flex-of-the-2026-27-nfl-season-20260806224131617,0.452,0.5475,0.9995,5.0,37.7059,2027-01-27T04:59:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,4411475,Will Mexico win the 2027 FIFA Women's World Cup?,will-mexico-win-the-2027-fifa-womens-world-cup,0.475,0.52,0.995,0.0,5.5247,2027-07-26T03:59:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5214907,Exact Score: Al Ittihad Saudi Club 2 - 1 Al Shabab Saudi Club?,spl-ith-sha-2026-10-16-exact-score-2-1,0.49,0.505,0.995,0.0,5.3316,2026-12-19T17:30:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5246984,Exact Score: NEOM SC 0 - 1 Al Ettifaq Saudi Club?,spl-neo-ett-2026-10-17-exact-score-0-1,0.483,0.512,0.995,0.0,13.1189,2026-10-17T15:40:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5274182,Exact Score: Any Other Score?,el2-new-yor-2026-10-17-exact-score-any-other,0.005,0.5,0.505,0.0,0.0,2026-10-17T14:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5370846,Exact Margin: SMU by 1-6,cfb-vir-smu-2026-10-17-exact-margin-short-1-6,0.495,0.5,0.995,0.0,0.0,2026-10-17T16:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5370881,Exact Margin: West Virginia by 19-24,cfb-cin-wvir-2026-10-17-exact-margin-short-19-24,0.5,0.495,0.995,0.0,0.0,2026-10-17T16:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5370935,Exact Margin: Texas by 7-12,cfb-fl-tx-2026-10-17-exact-margin-short-7-12,0.5,0.495,0.995,0.0,0.0,2026-10-17T16:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5434672,Exact Score: CA Banfield 2 - 5 AA Argentinos Juniors?,arg-ban-aaj-2026-10-17-exact-score-2-5,0.205,0.64,0.845,0.0,42.7699,2026-10-17T18:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5506908,Exact Score: Hapoel Haifa FC 0 - 1 Hapoel Ramat Gan Givatayim FC?,isr-hh-rgg-2026-10-17-exact-score-0-1,0.052,0.9295,0.9815,14.15493,556.989,2026-10-17T16:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5771218,Exact Score: Sekhukhune United 1 - 2 Marumo Gallants FC?,saf1-sek-mgl-2026-10-17-exact-score-1-2,0.4375,0.5005,0.938,0.0,2.11999,2026-10-17T16:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5823405,Will Jimmy Stanger finish in the Top 10 at the 2026 Butterfield Bermuda Championship?,2026-butterfield-bermuda-championship-top10-jimmy-stanger,0.495,0.5,0.995,0.0,0.1,2026-10-25T00:00:00Z,schaetzung
+2026-10-17T18:28:51.899677+02:00,5823632,Exact Score: Vis Pesaro 1898 2 - 1 Ravenna FC 1913?,serc-p98-rav-2026-10-24-exact-score-2-1,0.485,0.51,0.995,0.0,9.9197,2026-10-24T15:30:00Z,schaetzung
