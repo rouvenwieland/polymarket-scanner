@@ -36286,5 +36286,110 @@
     "checked_at": "2026-10-17T18:59:27.011997+00:00",
     "frage_a": "Closer Senate Race: Alaska or Texas?",
     "frage_b": "Which 2026 Senate race will be the closest? - Texas"
+  },
+  "polymarket:5355093__sxbet:0xa1de9308f6fa7bb52284e9e5604ec534561432c0a6f79f0d7876cda08af44e82": {
+    "same_event": false,
+    "reason": "Team total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "San Jose State Team Total: O/U 26.5",
+    "frage_b": "UTEP Miners vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5355102__sxbet:0xa1de9308f6fa7bb52284e9e5604ec534561432c0a6f79f0d7876cda08af44e82": {
+    "same_event": false,
+    "reason": "First half total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "San Jose State 1H Team Total: O/U 11.5",
+    "frage_b": "UTEP Miners vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5354093__sxbet:0xfa2916aa935f6b749465651d2e46ace83a2905b3da17a0ebb27f61c9a6eedd6f": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "East Texas A&M vs. Houston Christian: O/U 53.5",
+    "frage_b": "Houston Christian vs East Texas A&M - wer gewinnt?"
+  },
+  "polymarket:5353700__sxbet:0xddd1fea1b90690f3f7bfe2fc13989ac4ca6e5a1df312af0495538791621cc6ce": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Incarnate Word: O/U 57.5",
+    "frage_b": "Incarnate Word vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "polymarket:5353699__sxbet:0xddd1fea1b90690f3f7bfe2fc13989ac4ca6e5a1df312af0495538791621cc6ce": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Incarnate Word: O/U 55.5",
+    "frage_b": "Incarnate Word vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "polymarket:5354092__sxbet:0xfa2916aa935f6b749465651d2e46ace83a2905b3da17a0ebb27f61c9a6eedd6f": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "East Texas A&M vs. Houston Christian: O/U 51.5",
+    "frage_b": "Houston Christian vs East Texas A&M - wer gewinnt?"
+  },
+  "polymarket:5354091__sxbet:0xfa2916aa935f6b749465651d2e46ace83a2905b3da17a0ebb27f61c9a6eedd6f": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "East Texas A&M vs. Houston Christian: O/U 49.5",
+    "frage_b": "Houston Christian vs East Texas A&M - wer gewinnt?"
+  },
+  "polymarket:5353698__sxbet:0xddd1fea1b90690f3f7bfe2fc13989ac4ca6e5a1df312af0495538791621cc6ce": {
+    "same_event": false,
+    "reason": "Game total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Incarnate Word: O/U 53.5",
+    "frage_b": "Incarnate Word vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "polymarket:5355411__sxbet:0x7f2fed43f5488b09e4cc4cc39423d154f719fc44c52c5b5ef3f1394cd57d141e": {
+    "same_event": false,
+    "reason": "Team total vs game winner",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "San Diego State Team Total: O/U 23.5",
+    "frage_b": "San Diego State Aztecs vs Fresno State Bulldogs - wer gewinnt?"
+  },
+  "kalshi:KXLOLGAME-26OCT181400MVKKC-MVK__polymarket:5838886": {
+    "same_event": false,
+    "reason": "Match description vs win outcome",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "LoL: Karmine Corp vs MVK Esports (BO5) - Worlds Play-In",
+    "frage_b": "MVK Esports wins"
+  },
+  "kalshi:KXLOLGAME-26OCT181400MVKKC-MVK__polymarket:5838882": {
+    "same_event": false,
+    "reason": "Game 1 winner vs unspecified win",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "LoL: Karmine Corp vs MVK Esports - Game 1 Winner",
+    "frage_b": "MVK Esports wins"
+  },
+  "kalshi:KXLOLGAME-26OCT181400MVKKC-KC__polymarket:3532209": {
+    "same_event": false,
+    "reason": "Award win vs unspecified win",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "Will Karmine Corp Win the 2026 Esports Content Group of the Year Award?",
+    "frage_b": "Karmine Corp wins"
+  },
+  "kalshi:KXLOLGAME-26OCT181400MVKKC-MVK__polymarket:5838883": {
+    "same_event": false,
+    "reason": "Game 2 winner vs unspecified win",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "LoL: Karmine Corp vs MVK Esports - Game 2 Winner",
+    "frage_b": "MVK Esports wins"
+  },
+  "kalshi:KXLOLGAME-26OCT181400MVKKC-MVK__polymarket:5838884": {
+    "same_event": false,
+    "reason": "Game 3 winner vs unspecified win",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "LoL: Karmine Corp vs MVK Esports - Game 3 Winner",
+    "frage_b": "MVK Esports wins"
+  },
+  "polymarket:2750299__predictit:8890:35357": {
+    "same_event": false,
+    "reason": "Next leader out before 2027 vs next leader out (no date)",
+    "checked_at": "2026-10-17T23:06:44.109129+00:00",
+    "frage_a": "Will Recep Tayyip Erdoğan be the next leader out before 2027?",
+    "frage_b": "Which of these 10 European leaders will leave office next? - Recep Tayyip Erdoğan"
   }
 }
