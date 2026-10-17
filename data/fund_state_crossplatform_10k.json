@@ -1,5 +1,5 @@
 {
-  "cash": 9781.183039093636,
+  "cash": 4104.211805518094,
   "positions": [
     {
       "pair_id": "polymarket:5378964__predictit:8939:35603",
@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.066,
+        "letzter_kurs": 0.0875,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -20,7 +20,7 @@
         "market_id": "8939:35603",
         "side": "no",
         "einstandskurs": 0.881823160636168,
-        "letzter_kurs": 0.87,
+        "letzter_kurs": 0.9,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -62,7 +62,7 @@
         "market_id": "5378949",
         "side": "yes",
         "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.088,
+        "letzter_kurs": 0.089,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -70,7 +70,7 @@
         "market_id": "8939:35602",
         "side": "no",
         "einstandskurs": 0.9500187767980822,
-        "letzter_kurs": 0.9,
+        "letzter_kurs": 0.92,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.68,
+        "letzter_kurs": 0.7,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -137,7 +137,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.109,
+        "letzter_kurs": 0.101,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -162,7 +162,7 @@
         "market_id": "2865981",
         "side": "yes",
         "einstandskurs": 0.019130364529533424,
-        "letzter_kurs": 0.248,
+        "letzter_kurs": 0.2225,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -212,7 +212,7 @@
         "market_id": "1981997",
         "side": "yes",
         "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.0215,
+        "letzter_kurs": 0.021,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -238,7 +238,7 @@
         "market_id": "629465",
         "side": "yes",
         "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.0475,
+        "letzter_kurs": 0.0495,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -312,7 +312,7 @@
         "market_id": "2865977",
         "side": "yes",
         "einstandskurs": 0.18700741410976,
-        "letzter_kurs": 0.1715,
+        "letzter_kurs": 0.163,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -345,6 +345,30 @@
         "side": "no",
         "einstandskurs": 0.35,
         "letzter_kurs": 0.35,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:5353156__sxbet:0x14d7a922850399d3f06b223f87b503db16308155892935c2001d681e2e9facb9",
+      "frage": "[polymarket] Lamar vs. Southeastern Louisiana  <->  [sxbet] Southeastern Louisiana vs Lamar - wer gewinnt?",
+      "shares": 6353.358969424528,
+      "end_date": "2026-10-17T21:00:00Z",
+      "eingestiegen": "2026-10-17T14:14:36.142263+02:00",
+      "preisbasis": "ausfuehrbar",
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "5353156",
+        "side": "no",
+        "einstandskurs": 0.38653856139656284,
+        "letzter_kurs": 0.38653856139656284,
+        "fee_gezahlt": 0.0
+      },
+      "leg_b": {
+        "platform": "sxbet",
+        "market_id": "0x14d7a922850399d3f06b223f87b503db16308155892935c2001d681e2e9facb9",
+        "side": "yes",
+        "einstandskurs": 0.507,
+        "letzter_kurs": 0.507,
         "fee_gezahlt": 0.0
       }
     }

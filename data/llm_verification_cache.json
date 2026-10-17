@@ -35915,5 +35915,208 @@
     "checked_at": "2026-10-17T05:19:18.754588+00:00",
     "frage_a": "Will Andy Beshear win the South Carolina Democratic Presidential primary?",
     "frage_b": "Who will win the 2028 US presidential election? - Andy Beshear"
+  },
+  "polymarket:5351325__sxbet:0x59b2d3d0a8729ccb8125423184b8a6ede769dcd4eec1f64a45cebc4de6da5b82": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Alabama State vs. Arkansas-Pine Bluff: O/U 51.5",
+    "frage_b": "Arkansas-Pine Bluff vs Alabama State Hornets - wer gewinnt?"
+  },
+  "polymarket:5353156__sxbet:0x14d7a922850399d3f06b223f87b503db16308155892935c2001d681e2e9facb9": {
+    "same_event": true,
+    "reason": "same moneyline, only team order reversed",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Lamar vs. Southeastern Louisiana",
+    "frage_b": "Southeastern Louisiana vs Lamar - wer gewinnt?"
+  },
+  "polymarket:5352877__sxbet:0xc04abd65bbb402ca637055aa28bc5197cdf5ad458375f31657786c4513f5dd86": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Valparaiso vs. San Diego: O/U 55.5",
+    "frage_b": "San Diego vs Valparaiso - wer gewinnt?"
+  },
+  "polymarket:5352878__sxbet:0xc04abd65bbb402ca637055aa28bc5197cdf5ad458375f31657786c4513f5dd86": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Valparaiso vs. San Diego: O/U 57.5",
+    "frage_b": "San Diego vs Valparaiso - wer gewinnt?"
+  },
+  "polymarket:5674824__sxbet:0x55e7796dd1a43c427ad9c487178ff1ddd3bc947e6cc635d1cb4fab5ddb23bfc6": {
+    "same_event": false,
+    "reason": "different bet types (1Q moneyline vs full-game moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Arkansas State vs. Southern Miss: 1Q Moneyline",
+    "frage_b": "Southern Miss Golden Eagles vs Arkansas State Red Wolves - wer gewinnt?"
+  },
+  "polymarket:5354112__sxbet:0x4dc876b76f7d191d1b58deab89d4d9efafb33473e8706dcfe0f5e740fcecfba1": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Mercer vs. Samford: O/U 51.5",
+    "frage_b": "Samford vs Mercer - wer gewinnt?"
+  },
+  "polymarket:5354138__sxbet:0x017dcefe67be521613cba0d0b99217b33f367aca462f18d399e0f81e887fd052": {
+    "same_event": true,
+    "reason": "same moneyline, only team order reversed",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Abilene Christian vs. North Alabama",
+    "frage_b": "North Alabama vs Abilene Christian - wer gewinnt?"
+  },
+  "polymarket:5352827__sxbet:0xe3b7e57619c0af53aa8081f0475e347bfa3106e32c03ee92415edef0042b96bb": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Illinois State vs. Southern Illinois: O/U 53.5",
+    "frage_b": "Southern Illinois vs Illinois State - wer gewinnt?"
+  },
+  "polymarket:5481967__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": true,
+    "reason": "same moneyline, only team order reversed (W suffix irrelevant)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5353575__sxbet:0x34e2061fde17e9223e27b0d82ae548a0e4c2a2390b7dd4024c483a84577128e8": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Central Arkansas vs. Tarleton State: O/U 55.5",
+    "frage_b": "Tarleton State vs Central Arkansas - wer gewinnt?"
+  },
+  "polymarket:5353949__sxbet:0x10c3a28ac316aea9bf2925f71834d722c74685bf2ddd9b0695b9120985b6b157": {
+    "same_event": false,
+    "reason": "different bet types (team total over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "North Dakota State Team Total: O/U 23.5",
+    "frage_b": "North Dakota State vs Nevada Wolf Pack - wer gewinnt?"
+  },
+  "polymarket:5353683__sxbet:0xddd1fea1b90690f3f7bfe2fc13989ac4ca6e5a1df312af0495538791621cc6ce": {
+    "same_event": true,
+    "reason": "same moneyline, only team order reversed",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Incarnate Word",
+    "frage_b": "Incarnate Word vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "polymarket:5353953__sxbet:0x10c3a28ac316aea9bf2925f71834d722c74685bf2ddd9b0695b9120985b6b157": {
+    "same_event": false,
+    "reason": "different bet types (team total over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "North Dakota State Team Total: O/U 35.5",
+    "frage_b": "North Dakota State vs Nevada Wolf Pack - wer gewinnt?"
+  },
+  "polymarket:5734980__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: O/U 154.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5352875__sxbet:0xc04abd65bbb402ca637055aa28bc5197cdf5ad458375f31657786c4513f5dd86": {
+    "same_event": false,
+    "reason": "different bet types (over/under vs moneyline)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Valparaiso vs. San Diego: O/U 51.5",
+    "frage_b": "San Diego vs Valparaiso - wer gewinnt?"
+  },
+  "polymarket:5353573__sxbet:0x34e2061fde17e9223e27b0d82ae548a0e4c2a2390b7dd4024c483a84577128e8": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Central Arkansas vs. Tarleton State: O/U 51.5",
+    "frage_b": "Tarleton State vs Central Arkansas - wer gewinnt?"
+  },
+  "polymarket:5353337__sxbet:0x97ac54a39dabe7e6130cb533fb1c743f74961bed52497233abc425ec15330121": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Morgan State vs. Tennessee State: O/U 51.5",
+    "frage_b": "Tennessee State vs Morgan State - wer gewinnt?"
+  },
+  "polymarket:5351388__sxbet:0xe271141169b213e96771b8aa30ee6b5521ce7926e5f22308e7ce0a55200dac6e": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Bethune-Cookman vs. Mississippi Valley State: O/U 57.5",
+    "frage_b": "Mississippi Valley State vs Bethune-Cookman Wildcats - wer gewinnt?"
+  },
+  "polymarket:5354078__sxbet:0xfa2916aa935f6b749465651d2e46ace83a2905b3da17a0ebb27f61c9a6eedd6f": {
+    "same_event": false,
+    "reason": "Unspecified bet type vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "East Texas A&M vs. Houston Christian",
+    "frage_b": "Houston Christian vs East Texas A&M - wer gewinnt?"
+  },
+  "polymarket:5352876__sxbet:0xc04abd65bbb402ca637055aa28bc5197cdf5ad458375f31657786c4513f5dd86": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Valparaiso vs. San Diego: O/U 53.5",
+    "frage_b": "San Diego vs Valparaiso - wer gewinnt?"
+  },
+  "polymarket:5351385__sxbet:0xe271141169b213e96771b8aa30ee6b5521ce7926e5f22308e7ce0a55200dac6e": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Bethune-Cookman vs. Mississippi Valley State: O/U 51.5",
+    "frage_b": "Mississippi Valley State vs Bethune-Cookman Wildcats - wer gewinnt?"
+  },
+  "polymarket:5353959__sxbet:0x10c3a28ac316aea9bf2925f71834d722c74685bf2ddd9b0695b9120985b6b157": {
+    "same_event": false,
+    "reason": "1H team total O/U vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "North Dakota State 1H Team Total: O/U 16.5",
+    "frage_b": "North Dakota State vs Nevada Wolf Pack - wer gewinnt?"
+  },
+  "polymarket:5354152__sxbet:0x017dcefe67be521613cba0d0b99217b33f367aca462f18d399e0f81e887fd052": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Abilene Christian vs. North Alabama: O/U 51.5",
+    "frage_b": "North Alabama vs Abilene Christian - wer gewinnt?"
+  },
+  "polymarket:5354156__sxbet:0x017dcefe67be521613cba0d0b99217b33f367aca462f18d399e0f81e887fd052": {
+    "same_event": false,
+    "reason": "O/U total vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Abilene Christian vs. North Alabama: O/U 59.5",
+    "frage_b": "North Alabama vs Abilene Christian - wer gewinnt?"
+  },
+  "polymarket:5481970__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "Unspecified bet type vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "kalshi:KXNHLFIRSTGOAL-26OCT17STLNSH-STLBCARLO25__polymarket:5369124": {
+    "same_event": false,
+    "reason": "Different events (win date vs. first goalscorer)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Will AD San Carlos win on 2026-10-19?",
+    "frage_b": "Brandon Carlo: First Goalscorer"
+  },
+  "polymarket:5675146__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "Unspecified bet type vs. winner bet",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5790794__predictit:8396:33065": {
+    "same_event": false,
+    "reason": "County-specific vs. statewide Senate race",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Republican"
+  },
+  "polymarket:3364160__predictit:8376:33008": {
+    "same_event": false,
+    "reason": "Different states (Montana vs. South Dakota)",
+    "checked_at": "2026-10-17T13:03:34.143517+00:00",
+    "frage_a": "Will the Democratic Party Candidate win the 2026 Montana Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Democratic"
   }
 }
