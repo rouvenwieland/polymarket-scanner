@@ -4981,3 +4981,10 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-17T18:28:51.899677+02:00,5771218,Exact Score: Sekhukhune United 1 - 2 Marumo Gallants FC?,saf1-sek-mgl-2026-10-17-exact-score-1-2,0.4375,0.5005,0.938,0.0,2.11999,2026-10-17T16:00:00Z,schaetzung
 2026-10-17T18:28:51.899677+02:00,5823405,Will Jimmy Stanger finish in the Top 10 at the 2026 Butterfield Bermuda Championship?,2026-butterfield-bermuda-championship-top10-jimmy-stanger,0.495,0.5,0.995,0.0,0.1,2026-10-25T00:00:00Z,schaetzung
 2026-10-17T18:28:51.899677+02:00,5823632,Exact Score: Vis Pesaro 1898 2 - 1 Ravenna FC 1913?,serc-p98-rav-2026-10-24-exact-score-2-1,0.485,0.51,0.995,0.0,9.9197,2026-10-24T15:30:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,5370745,Exact Margin: Texas Tech by 7-12,cfb-arzst-txtech-2026-10-17-exact-margin-short-7-12,0.5,0.495,0.995,0.0,0.0,2026-10-17T19:30:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,5608552,Will Patrick Reed finish in the Top 10 at the 2026 India Championship?,dpwt-2026-india-championship-top10-patrick-reed,0.495,0.5,0.995,0.0,1.0,2026-10-19T03:59:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,5650165,Exact Score: Colon de Santa Fe 1 - 0 Club Almirante Brown?,argpn-col-alb-2026-10-17-exact-score-1-0,0.45,0.545,0.9950000000000001,0.0,19.1192,2026-10-17T21:00:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,5831894,Exact Score: CD Coquimbo Unido 3 - 4 CD Unión La Calera?,chi1-ccu-cul-2026-10-30-exact-score-3-4,0.49,0.505,0.995,0.0,4.9198,2026-10-30T22:00:00Z,schaetzung
+2026-10-17T22:58:13.789109+02:00,5831928,Exact Score: SC Corinthians Paulista 3 - 1 Mirassol FC?,bra-cor1-mir-2026-10-30-exact-score-3-1,0.48,0.515,0.995,0.0,12.7093,2026-10-30T23:00:00Z,schaetzung
