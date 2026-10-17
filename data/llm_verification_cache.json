@@ -36118,5 +36118,173 @@
     "checked_at": "2026-10-17T13:03:34.143517+00:00",
     "frage_a": "Will the Democratic Party Candidate win the 2026 Montana Senate election?",
     "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Democratic"
+  },
+  "polymarket:5354881__sxbet:0xaab4b02a57dd48ec5e950a6908d4b9af4b60904fed1409718fd99d73a9026453": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "UC Davis vs. Southern Utah: O/U 55.5",
+    "frage_b": "Southern Utah vs UC Davis - wer gewinnt?"
+  },
+  "polymarket:5354111__sxbet:0x4dc876b76f7d191d1b58deab89d4d9efafb33473e8706dcfe0f5e740fcecfba1": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Mercer vs. Samford: O/U 49.5",
+    "frage_b": "Samford vs Mercer - wer gewinnt?"
+  },
+  "polymarket:5354865__sxbet:0xaab4b02a57dd48ec5e950a6908d4b9af4b60904fed1409718fd99d73a9026453": {
+    "same_event": false,
+    "reason": "first lacks bet type, not guaranteed same event",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "UC Davis vs. Southern Utah",
+    "frage_b": "Southern Utah vs UC Davis - wer gewinnt?"
+  },
+  "polymarket:5670956__sxbet:0x0754f551cbe9c5864ad69dde6c0fae0293e52a77833f7e57878c26af4d3e6606": {
+    "same_event": false,
+    "reason": "1H moneyline vs full-game moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Missouri vs. Ole Miss: 1H Moneyline",
+    "frage_b": "Ole Miss Rebels vs Missouri Tigers - wer gewinnt?"
+  },
+  "polymarket:5674782__sxbet:0x1e4501c7fb924b6baf73c15f33b57e1e190c8e9109e088563354718a89c21432": {
+    "same_event": false,
+    "reason": "1H moneyline vs full-game moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Oklahoma State vs. Houston: 1H Moneyline",
+    "frage_b": "Houston Cougars vs Oklahoma State Cowboys - wer gewinnt?"
+  },
+  "polymarket:5355103__sxbet:0xa1de9308f6fa7bb52284e9e5604ec534561432c0a6f79f0d7876cda08af44e82": {
+    "same_event": false,
+    "reason": "1H team total O/U vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "San Jose State 1H Team Total: O/U 13.5",
+    "frage_b": "UTEP Miners vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5354883__sxbet:0xaab4b02a57dd48ec5e950a6908d4b9af4b60904fed1409718fd99d73a9026453": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "UC Davis vs. Southern Utah: O/U 59.5",
+    "frage_b": "Southern Utah vs UC Davis - wer gewinnt?"
+  },
+  "polymarket:5674785__sxbet:0x1e4501c7fb924b6baf73c15f33b57e1e190c8e9109e088563354718a89c21432": {
+    "same_event": false,
+    "reason": "1Q moneyline vs full-game moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Oklahoma State vs. Houston: 1Q Moneyline",
+    "frage_b": "Houston Cougars vs Oklahoma State Cowboys - wer gewinnt?"
+  },
+  "polymarket:5351366__sxbet:0xcf1bb2d17035a9f2e62235184c0ce23f9cf8754baad16589054dfd135ced0573": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Western Illinois vs. Southeast Missouri State: O/U 53.5",
+    "frage_b": "Southeast Missouri State vs Western Illinois - wer gewinnt?"
+  },
+  "polymarket:5354882__sxbet:0xaab4b02a57dd48ec5e950a6908d4b9af4b60904fed1409718fd99d73a9026453": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "UC Davis vs. Southern Utah: O/U 57.5",
+    "frage_b": "Southern Utah vs UC Davis - wer gewinnt?"
+  },
+  "polymarket:5351324__sxbet:0x59b2d3d0a8729ccb8125423184b8a6ede769dcd4eec1f64a45cebc4de6da5b82": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Alabama State vs. Arkansas-Pine Bluff: O/U 49.5",
+    "frage_b": "Arkansas-Pine Bluff vs Alabama State Hornets - wer gewinnt?"
+  },
+  "polymarket:5353336__sxbet:0x97ac54a39dabe7e6130cb533fb1c743f74961bed52497233abc425ec15330121": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Morgan State vs. Tennessee State: O/U 49.5",
+    "frage_b": "Tennessee State vs Morgan State - wer gewinnt?"
+  },
+  "polymarket:5670960__sxbet:0x0754f551cbe9c5864ad69dde6c0fae0293e52a77833f7e57878c26af4d3e6606": {
+    "same_event": false,
+    "reason": "1Q moneyline vs full-game moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Missouri vs. Ole Miss: 1Q Moneyline",
+    "frage_b": "Ole Miss Rebels vs Missouri Tigers - wer gewinnt?"
+  },
+  "polymarket:5351442__sxbet:0x889c239efdbeb7e6526ada35d8e5acecf7c3d6e384bcbdc3b973b837764fcded": {
+    "same_event": false,
+    "reason": "O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Alcorn State vs. Prairie View A&M: O/U 55.5",
+    "frage_b": "Prairie View A&M vs Alcorn State - wer gewinnt?"
+  },
+  "polymarket:5482057__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "1H O/U total vs moneyline (different bet type)",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: 1H O/U 76.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5482058__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "Different bet types: 1H moneyline vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: 1H Moneyline",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5351440__sxbet:0x889c239efdbeb7e6526ada35d8e5acecf7c3d6e384bcbdc3b973b837764fcded": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Alcorn State vs. Prairie View A&M: O/U 53.5",
+    "frage_b": "Prairie View A&M vs Alcorn State - wer gewinnt?"
+  },
+  "polymarket:5355094__sxbet:0xa1de9308f6fa7bb52284e9e5604ec534561432c0a6f79f0d7876cda08af44e82": {
+    "same_event": false,
+    "reason": "Team total over/under vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "San Jose State Team Total: O/U 29.5",
+    "frage_b": "UTEP Miners vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5481969__sxbet:0x5eb663f090440d3d481edd22f2dadbe34ca27e59811ec3159e12cc531fc3cc9b": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: O/U 153.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5351404__sxbet:0xefbf3d442adce65e41b303905fad54676ca9a46ed9644d39c5a5c0a254e5f97c": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Gardner-Webb vs. Tennessee-Martin: O/U 49.5",
+    "frage_b": "UT Martin vs Gardner-Webb - wer gewinnt?"
+  },
+  "polymarket:5354151__sxbet:0x017dcefe67be521613cba0d0b99217b33f367aca462f18d399e0f81e887fd052": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Abilene Christian vs. North Alabama: O/U 49.5",
+    "frage_b": "North Alabama vs Abilene Christian - wer gewinnt?"
+  },
+  "polymarket:5353338__sxbet:0x97ac54a39dabe7e6130cb533fb1c743f74961bed52497233abc425ec15330121": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Morgan State vs. Tennessee State: O/U 53.5",
+    "frage_b": "Tennessee State vs Morgan State - wer gewinnt?"
+  },
+  "polymarket:5351502__sxbet:0x816c416ab91530fc7467e0c8e3c27ac0755238bca13092eae849388c46ae563a": {
+    "same_event": false,
+    "reason": "Over/under total vs game winner",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Lafayette vs. Bucknell: O/U 53.5",
+    "frage_b": "Bucknell vs Lafayette - wer gewinnt?"
+  },
+  "polymarket:5091419__predictit:8939:35606": {
+    "same_event": false,
+    "reason": "Choice between Alaska/Texas vs statement that Texas is closest",
+    "checked_at": "2026-10-17T18:59:27.011997+00:00",
+    "frage_a": "Closer Senate Race: Alaska or Texas?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Texas"
   }
 }
