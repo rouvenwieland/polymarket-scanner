@@ -4957,3 +4957,8 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-16T23:43:27.856573+02:00,5774613,Will the highest temperature in Panama City be 28°C on October 18?,highest-temperature-in-panama-city-on-october-18-2026-28c,0.07,0.925,0.9950000000000001,8.9,1189.46,2026-10-18T12:00:00Z,schaetzung
 2026-10-17T01:52:59.773874+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
 2026-10-17T01:52:59.773874+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-17T07:20:56.599890+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-17T07:20:56.599890+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-17T07:20:56.599890+02:00,5216436,Will Rest have the most kills at Worlds 2026?,will-rest-have-the-most-kills-at-worlds-2026,0.37,0.615,0.985,34.739999999999995,90.1088,2026-12-15T04:59:00Z,schaetzung
+2026-10-17T07:20:56.599890+02:00,5479633,Exact Score: Any Other Score?,epl-ips-not-2026-10-23-exact-score-any-other,0.37,0.625,0.995,0.0,21.4105,2026-10-23T19:00:00Z,schaetzung
+2026-10-17T07:20:56.599890+02:00,5604108,Game 3: Both Teams Destroy Barracks?,dota2-pckcp-ic-2026-10-13-game3-both-teams-destroy-barracks,0.49,0.5,0.99,0.0,0.0,2026-10-17T16:00:00Z,schaetzung
