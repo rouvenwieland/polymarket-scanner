@@ -4998,3 +4998,30 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-18T01:25:47.746832+02:00,5831894,Exact Score: CD Coquimbo Unido 3 - 4 CD Unión La Calera?,chi1-ccu-cul-2026-10-30-exact-score-3-4,0.49,0.505,0.995,0.0,4.9198,2026-10-30T22:00:00Z,schaetzung
 2026-10-18T01:25:47.746832+02:00,5831928,Exact Score: SC Corinthians Paulista 3 - 1 Mirassol FC?,bra-cor1-mir-2026-10-30-exact-score-3-1,0.48,0.515,0.995,0.0,12.7093,2026-10-30T23:00:00Z,schaetzung
 2026-10-18T01:25:47.746832+02:00,5838194,Exact Score: Vanraure Hachinohe FC 0 - 1 Montedio Yamagata?,ja2-van-mon-2026-10-31-exact-score-0-1,0.48,0.515,0.995,0.0,12.7093,2026-10-31T05:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,3848010,Will Southampton be promoted to Premier League?,will-southampton-be-promoted-to-premier-league-2026-27,0.475,0.52,0.995,0.0,4.7839,2027-07-01T03:59:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,3914365,Will LA Galaxy keep the most clean sheets in the 2026 MLS?,will-la-galaxy-keep-the-most-clean-sheets-in-mls-2026,0.465,0.53,0.9950000000000001,58.0,4.5677,2027-01-01T04:59:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5360827,Exact Margin: Utah by 13-18,cfb-utah-col-2026-10-17-exact-margin-long-13-18,0.495,0.5,0.995,0.0,0.0,2026-10-18T02:15:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5709711,Will the match end in a draw?,cricranji-and-hyd-2026-10-18-draw,0.495,0.5,0.995,0.0,0.0,2026-10-25T04:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5709715,Ranji Trophy: Andhra vs Hyderabad - Match goes to Day 4?,cricranji-and-hyd-2026-10-18-match-to-day-4,0.495,0.5,0.995,0.0,0.0,2026-10-25T04:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5719365,Ranji Trophy: Delhi vs Gujarat - Match goes to Day 3?,cricranji-del-guj-2026-10-18-match-to-day-3,0.5,0.495,0.995,0.0,0.0,2026-10-25T04:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5831894,Exact Score: CD Coquimbo Unido 3 - 4 CD Unión La Calera?,chi1-ccu-cul-2026-10-30-exact-score-3-4,0.49,0.505,0.995,0.0,4.9198,2026-10-30T22:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5831977,Exact Score: CD Oriente Petrolero 2 - 3 Club Aurora?,bol1-ori-aur-2026-10-30-exact-score-2-3,0.48,0.515,0.995,0.0,13.8795,2026-10-31T00:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5832195,Exact Score: CDT Real Oruro 4 - 1 CA Nacional Potosí?,bol1-oru-nap-2026-10-31-exact-score-4-1,0.48,0.515,0.995,0.0,13.8794,2026-10-31T19:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5835757,Exact Score: Mohun Bagan Super Giant 4 - 0 Punjab FC?,isp-mob-pun-2026-10-31-exact-score-4-0,0.485,0.51,0.995,0.0,8.5104,2026-10-31T14:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5837896,Exact Score: Hokkaidō Consadole Sapporo 0 - 3 Shōnan Bellmāre?,ja2-con-sho-2026-10-31-exact-score-0-3,0.48,0.515,0.995,0.0,13.8597,2026-10-31T04:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5837949,Exact Score: Júbilo Iwata 4 - 0 Sagan Tosu?,ja2-jub-sag-2026-10-31-exact-score-4-0,0.48,0.515,0.995,0.0,12.6523,2026-10-31T05:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5838286,Exact Score: FC Imabari 1 - 2 Ventforet Kōfu?,ja2-imb-ven-2026-10-31-exact-score-1-2,0.48,0.515,0.995,0.0,13.8594,2026-10-31T05:05:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5842057,Exact Score: IK Brage 1 - 3 Osters IF?,swe2-ikb-ost-2026-10-24-exact-score-1-3,0.48,0.515,0.995,0.0,12.6523,2026-10-24T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5851397,Exact Score: Borussia Mönchengladbach 0 - 2 SC Paderborn 07?,bun-moe-scp-2026-10-31-exact-score-0-2,0.48,0.515,0.995,0.0,13.8593,2026-10-31T14:30:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5851677,Exact Score: FC Augsburg 0 - 2 SC Freiburg?,bun-aug-fre-2026-10-31-exact-score-0-2,0.48,0.515,0.995,0.0,13.8593,2026-10-31T14:30:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5851955,Exact Score: Olympique Lyonnais 0 - 1 Angers SCO?,fl1-lyo-ang-2026-10-31-exact-score-0-1,0.48,0.515,0.995,0.0,12.7093,2026-10-31T19:45:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5851967,Exact Score: Manchester City FC 0 - 0 Brighton & Hove Albion FC?,epl-mac-bri-2026-10-31-exact-score-0-0,0.49,0.505,0.995,0.0,3.3316,2026-10-31T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852069,Exact Score: Karlsruher SC 1 - 2 1. FC Heidenheim?,bl2-ksc-hei-2026-10-31-exact-score-1-2,0.48,0.515,0.995,0.0,13.8593,2026-10-31T19:30:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852270,Exact Score: Hull City AFC 1 - 5 Ipswich Town FC?,epl-hul-ips-2026-10-31-exact-score-1-5,0.49,0.505,0.995,0.0,4.9198,2026-10-31T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852384,Exact Score: Bayer 04 Leverkusen 5 - 0 VfB Stuttgart?,bun-b04-stu-2026-10-31-exact-score-5-0,0.485,0.51,0.995,0.0,8.5688,2026-10-31T14:30:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852457,Exact Score: Swansea City AFC 0 - 5 Blackburn Rovers FC?,elc-swa-bbr-2026-10-31-exact-score-0-5,0.49,0.505,0.995,0.0,4.9198,2026-10-31T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852745,Exact Score: Bolton Wanderers FC 0 - 2 Bristol City FC?,elc-bol-bri-2026-10-31-exact-score-0-2,0.48,0.515,0.995,0.0,12.7093,2026-10-31T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5852861,Exact Score: Burnley FC 4 - 5 Portsmouth FC?,elc-bur-por-2026-10-31-exact-score-4-5,0.49,0.505,0.995,0.0,4.9198,2026-10-31T15:00:00Z,schaetzung
+2026-10-18T07:21:54.759370+02:00,5853145,European Open: Completed Match: Arends/Johnson vs Luz/Matos,atp-doubles-arenjoh-luzmato-2026-10-20-completed-match,0.525,0.465,0.99,0.0,0.3,2026-10-27T08:00:00Z,schaetzung
