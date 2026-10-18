@@ -36433,5 +36433,194 @@
     "checked_at": "2026-10-18T05:21:04.056363+00:00",
     "frage_a": "Will Pedro Sánchez be the next leader out before 2027?",
     "frage_b": "Which of these 10 European leaders will leave office next? - Pedro Sánchez"
+  },
+  "kalshi:KXCS2GAME-26OCT180700MAYFAL-MAY__polymarket:5837596": {
+    "same_event": false,
+    "reason": "first describes a match, second is a win proposition; not same event",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Counter-Strike: Falcons Force vs maybe (BO3) - CCT Europe Challengers Series Playoffs",
+    "frage_b": "maybe wins"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BOUSUN-SUNTTUTER57-1__polymarket:5873448": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Timur Tuterov: 1+ shots",
+    "frage_b": "Timur Tuterov: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-MUNASANTO17-1__polymarket:5873468": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Andrey Santos: 1+ shots",
+    "frage_b": "Andrey Santos: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BRICRY-CRYTMITCH3-1__polymarket:5873987": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Tyrick Mitchell: 1+ shots",
+    "frage_b": "Tyrick Mitchell: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BRICRY-CRYAKHALA25-1__polymarket:5873997": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Anan Khalaili: 1+ shots",
+    "frage_b": "Anan Khalaili: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BOUSUN-BOUJHILL5-1__polymarket:5873368": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "James Hill: 1+ shots",
+    "frage_b": "James Hill: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BOUSUN-BOUASILVA14-1__polymarket:5873388": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "António Silva: 1+ shots",
+    "frage_b": "Antonio Silva: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-MUNCBALEB20-1__polymarket:5873449": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Carlos Baleba: 1+ shots",
+    "frage_b": "Carlos Baleba: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BRICRY-BRIOBOSCA21-1__polymarket:5873942": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Olivier Boscagli: 1+ shots",
+    "frage_b": "Olivier Boscagli: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-LEETMUHAR5-1__polymarket:5873429": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Tarik Muharemović: 1+ shots",
+    "frage_b": "Tarik Muharemovic: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-LEEJJUSTI24-1__polymarket:5873389": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "James Justin: 1+ shots",
+    "frage_b": "James Justin: 1+ goals"
+  },
+  "kalshi:KXLIGUE1GOAL-26OCT18ANGOLM-ANGEBIUML24-1__polymarket:5874466": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Emmanuel Biumla: 1+ shots",
+    "frage_b": "Emmanuel Biumla: 1+ goals"
+  },
+  "kalshi:KXLIGUE1GOAL-26OCT18ANGOLM-ANGAELOUA19-2__polymarket:5874488": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Amine El Ouazzani: 2+ shots",
+    "frage_b": "Amine El Ouazzani: 2+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BRICRY-BRILVUSKO44-1__polymarket:5873907": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Luka Vušković: 1+ shots",
+    "frage_b": "Luka Vuskovic: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-MUNLMARTI6-1__polymarket:5873500": {
+    "same_event": false,
+    "reason": "shots vs goals are different metrics",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Lisandro Martínez: 1+ shots",
+    "frage_b": "Lisandro Martinez: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-MUNHMAGUI5-1__polymarket:5873530": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Harry Maguire: 1+ shots",
+    "frage_b": "Harry Maguire: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-MUNDDALOT2-1__polymarket:5873439": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Diogo Dalot: 1+ shots",
+    "frage_b": "Diogo Dalot: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BOUSUN-BOUATRUFF3-1__polymarket:5873378": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Adrien Truffert: 1+ shots",
+    "frage_b": "Adrien Truffert: 1+ goals"
+  },
+  "kalshi:KXEPLFIRSTGOAL-26OCT18LEEMUN-MUNCBALEB20__polymarket:5369124": {
+    "same_event": false,
+    "reason": "Different events: match winner vs first goalscorer",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Will AD San Carlos win on 2026-10-19?",
+    "frage_b": "Carlos Baleba: First Goalscorer"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BRICRY-BRILDUNK5-1__polymarket:5873927": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Lewis Dunk: 1+ shots",
+    "frage_b": "Lewis Dunk: 1+ goals"
+  },
+  "kalshi:KXLIGUE1GOAL-26OCT18ANGOLM-ANGBVANDE8-2__polymarket:5874554": {
+    "same_event": false,
+    "reason": "Different thresholds/metrics: 1+ shots vs 2+ goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Branco van den Boomen: 1+ shots",
+    "frage_b": "Branco Van den Boomen: 2+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18BOUSUN-SUNOALDER15-1__polymarket:5873497": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Omar Alderete: 1+ shots",
+    "frage_b": "Omar Alderete: 1+ goals"
+  },
+  "kalshi:KXEPLGOAL-26OCT18LEEMUN-LEENELVED30-1__polymarket:5873419": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Nico Elvedi: 1+ shots",
+    "frage_b": "Nico Elvedi: 1+ goals"
+  },
+  "kalshi:KXLIGUE1FIRSTGOAL-26OCT18ANGOLM-ANGLMOUTO6__polymarket:5565922": {
+    "same_event": false,
+    "reason": "Different events: match winner vs first goalscorer",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Will St. Louis City SC win on 2026-10-24?",
+    "frage_b": "Louis Mouton: First Goalscorer"
+  },
+  "kalshi:KXEPLAST-26OCT18BRICRY-CRYQTIMBE23-1__polymarket:5873982": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs assists",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Quinten Timber: 1+ shots",
+    "frage_b": "Quinten Timber: 1+ assists?"
+  },
+  "kalshi:KXLIGUE1GOAL-26OCT18ANGOLM-OLMGKONDO19-1__polymarket:5874564": {
+    "same_event": false,
+    "reason": "Different metrics: shots vs goals",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Geoffrey Kondogbia: 1+ shots",
+    "frage_b": "Geoffrey Kondogbia: 1+ goals"
+  },
+  "polymarket:5784291__predictit:9029:36063": {
+    "same_event": false,
+    "reason": "Different propositions: timing of announcement vs specific person",
+    "checked_at": "2026-10-18T13:24:21.837995+00:00",
+    "frage_a": "Next White House Press Secretary announced by December 31, 2026?",
+    "frage_b": "Who will be the next White House press secretary? - Lara Trump"
   }
 }
