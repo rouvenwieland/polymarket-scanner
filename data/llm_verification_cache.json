@@ -36706,5 +36706,68 @@
     "checked_at": "2026-10-18T19:03:08.054932+00:00",
     "frage_a": "Will the Republican Party candidate win the 2026 Rhode Island gubernatorial election?",
     "frage_b": "Which party will win the 2026 election for governor of New York? - Republican"
+  },
+  "polymarket:5612884__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different market types: over/under total vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 57.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5839446__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": false,
+    "reason": "Different market types: 1H over/under vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: 1H O/U 75.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5613499__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different market types: over/under total vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 43.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613512__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different market types: over/under total vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 51.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613498__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different market types: over/under total vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 41.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5675146__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": true,
+    "reason": "Both ask who wins the game; same polarity.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5613509__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different market types: over/under total vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 49.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613556__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different market types: team total over/under vs winner.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "New Mexico State Team Total: O/U 23.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:3229169__predictit:8152:32069": {
+    "same_event": false,
+    "reason": "Different propositions: Trump endorsement vs DeSantis nomination win.",
+    "checked_at": "2026-10-18T23:10:41.352570+00:00",
+    "frage_a": "Will Donald Trump endorse Ron DeSantis in the 2028 US Presidential election?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
   }
 }

@@ -12,7 +12,7 @@
         "market_id": "5378964",
         "side": "yes",
         "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.091,
+        "letzter_kurs": 0.098,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -20,7 +20,7 @@
         "market_id": "8939:35603",
         "side": "no",
         "einstandskurs": 0.881823160636168,
-        "letzter_kurs": 0.88,
+        "letzter_kurs": 0.87,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -87,7 +87,7 @@
         "market_id": "630806",
         "side": "yes",
         "einstandskurs": 0.315,
-        "letzter_kurs": 0.305,
+        "letzter_kurs": 0.3,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.68,
+        "letzter_kurs": 0.66,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -137,7 +137,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.106,
+        "letzter_kurs": 0.102,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -162,7 +162,7 @@
         "market_id": "2865981",
         "side": "yes",
         "einstandskurs": 0.019130364529533424,
-        "letzter_kurs": 0.1725,
+        "letzter_kurs": 0.1865,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -238,7 +238,7 @@
         "market_id": "629465",
         "side": "yes",
         "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.057,
+        "letzter_kurs": 0.061,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -246,7 +246,7 @@
         "market_id": "8212:32165",
         "side": "no",
         "einstandskurs": 0.91,
-        "letzter_kurs": 0.93,
+        "letzter_kurs": 0.92,
         "fee_gezahlt": 0.0
       },
       "bereinigt": true
@@ -312,7 +312,7 @@
         "market_id": "2865977",
         "side": "yes",
         "einstandskurs": 0.18700741410976,
-        "letzter_kurs": 0.176,
+        "letzter_kurs": 0.18,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
