@@ -36622,5 +36622,89 @@
     "checked_at": "2026-10-18T13:24:21.837995+00:00",
     "frage_a": "Next White House Press Secretary announced by December 31, 2026?",
     "frage_b": "Who will be the next White House press secretary? - Lara Trump"
+  },
+  "polymarket:5612874__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 37.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613518__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 63.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613497__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 39.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612841__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (matchup vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5612883__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 55.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5612877__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 43.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613515__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 57.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612881__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 51.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5612882__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 53.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613464__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (matchup vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613500__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 45.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:3369455__predictit:8215:32171": {
+    "same_event": false,
+    "reason": "Different jurisdictions (Rhode Island vs New York)",
+    "checked_at": "2026-10-18T19:03:08.054932+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Rhode Island gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of New York? - Republican"
   }
 }
