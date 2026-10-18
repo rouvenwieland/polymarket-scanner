@@ -36391,5 +36391,47 @@
     "checked_at": "2026-10-17T23:06:44.109129+00:00",
     "frage_a": "Will Recep Tayyip Erdoğan be the next leader out before 2027?",
     "frage_b": "Which of these 10 European leaders will leave office next? - Recep Tayyip Erdoğan"
+  },
+  "polymarket:5481970__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": true,
+    "reason": "Same matchup, both ask which team wins.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:4232128__predictit:8398:33070": {
+    "same_event": false,
+    "reason": "Different elections: Israeli Knesset vs. US Senate Colorado.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Will Dems win 8-9 seats in the 2026 Knesset elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Colorado? - Dems (Hickenlooper)"
+  },
+  "polymarket:5837849__predictit:8486:33391": {
+    "same_event": false,
+    "reason": "Different propositions: saying 'Greenland' this week vs. visiting Greenland in 2026.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Will Trump say \"Greenland\" this week?",
+    "frage_b": "Will Trump visit Greenland in 2026?"
+  },
+  "polymarket:5481971__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": true,
+    "reason": "Same matchup, both ask which team wins.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:3369185__predictit:8215:32171": {
+    "same_event": true,
+    "reason": "Both ask if Republican wins NY governor 2026.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 New York gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of New York? - Republican"
+  },
+  "polymarket:2750314__predictit:8890:35353": {
+    "same_event": false,
+    "reason": "Different time constraints: before 2027 vs. unspecified 'next'.",
+    "checked_at": "2026-10-18T05:21:04.056363+00:00",
+    "frage_a": "Will Pedro Sánchez be the next leader out before 2027?",
+    "frage_b": "Which of these 10 European leaders will leave office next? - Pedro Sánchez"
   }
 }
