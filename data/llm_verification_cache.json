@@ -36769,5 +36769,201 @@
     "checked_at": "2026-10-18T23:10:41.352570+00:00",
     "frage_a": "Will Donald Trump endorse Ron DeSantis in the 2028 US Presidential election?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
+  },
+  "polymarket:5612872__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 35.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613495__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 35.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613521__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 69.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612885__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 59.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613520__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 67.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5842021__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: O/U 152.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5613519__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 65.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612875__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 39.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613496__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 37.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612876__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 41.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5613516__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 59.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5613517__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 61.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5911564__sxbet:0x0f20aa434e54b31e5f9b42f4ee9750f355a658b73db3b46573a3c0c10b88bc2d": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Cleveland Guardians vs. Tampa Bay Rays: O/U 6.5",
+    "frage_b": "Tampa Bay Rays vs Cleveland Guardians - wer gewinnt?"
+  },
+  "polymarket:5612878__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "O/U vs win",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 45.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-MIN__polymarket:5565775": {
+    "same_event": false,
+    "reason": "different phrasing/ambiguity",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Minnesota United FC win on 2026-10-24?",
+    "frage_b": "Minnesota wins"
+  },
+  "polymarket:5613514__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 55.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443674": {
+    "same_event": false,
+    "reason": "Different events (candidate election vs unspecified Vancouver win)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Alan Beesley win the next Vancouver-Langara British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:5613555__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (team total O/U vs winner)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State Team Total: O/U 20.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443672": {
+    "same_event": false,
+    "reason": "Different events (candidate election vs unspecified Vancouver win)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will John Atoyebi win the next Vancouver-Langara British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443648": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Sam Chandola win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443649": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Priyan Samarakoone win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443650": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Timothy Webster win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:5613513__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different bet types (over/under vs winner)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 53.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:4867548__predictit:8153:31937": {
+    "same_event": false,
+    "reason": "Different propositions (odds leader vs actual nomination win)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Gavin Newsom Democratic nomination odds leader on October 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443647": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Margareta Dovgal win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:5538608__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": false,
+    "reason": "First lacks a clear proposition; second asks winner",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "kalshi:KXNHLGAME-26OCT25MINVAN-VAN__polymarket:5443646": {
+    "same_event": false,
+    "reason": "Different events",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Terry Yung win the next Vancouver-Yaletown British Columbia Legislative Assembly election?",
+    "frage_b": "Vancouver wins"
+  },
+  "polymarket:3515994__predictit:8212:32165": {
+    "same_event": false,
+    "reason": "Different scope (sweep vs governor only)",
+    "checked_at": "2026-10-19T05:31:10.576551+00:00",
+    "frage_a": "Will Republicans sweep the Michigan Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
   }
 }
