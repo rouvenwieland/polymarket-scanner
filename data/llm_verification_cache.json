@@ -36965,5 +36965,334 @@
     "checked_at": "2026-10-19T05:31:10.576551+00:00",
     "frage_a": "Will Republicans sweep the Michigan Senate and Governor elections?",
     "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
+  },
+  "polymarket:5482032__sxbet:0x303a607cef01c25c710573bd842af73093e28629e7fdb56f5d74d2012864359c": {
+    "same_event": false,
+    "reason": "First half moneyline vs full game winner",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: 1H Moneyline",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:5612897__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "First half O/U vs game winner",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Missouri State vs. Delaware: 1H O/U 30.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5339870": {
+    "same_event": false,
+    "reason": "Different teams/events",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Faisaly Saudi Club win on 2026-10-19?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5393109": {
+    "same_event": false,
+    "reason": "Al Ettifaq 1H O/U vs both teams score 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Ettifaq Saudi Club vs. Al Ittihad Saudi Club: Al Ettifaq Saudi Club 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5346873": {
+    "same_event": false,
+    "reason": "1H total O/U vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Shabab Saudi Club vs. Al Faisaly Saudi Club: 1st Half O/U 0.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5393094": {
+    "same_event": false,
+    "reason": "1H O/U 2.5 vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Ettifaq Saudi Club vs. Al Ittihad Saudi Club: 1st Half O/U 2.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5445125": {
+    "same_event": false,
+    "reason": "1H O/U 0.5 vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Ahli Saudi Club vs. Al Khaleej Saudi Club: 1st Half O/U 0.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5445127": {
+    "same_event": false,
+    "reason": "Al Faisaly 2H O/U vs both teams score 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Ahli Saudi Club vs. Al Khaleej Saudi Club: 1st Half O/U 2.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5346908": {
+    "same_event": false,
+    "reason": "Al Faisaly 2H O/U vs both teams score 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Shabab Saudi Club vs. Al Faisaly Saudi Club: Al Faisaly Saudi Club 2nd Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5393186": {
+    "same_event": false,
+    "reason": "1H O/U 2.5 vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Taawoun Saudi Club vs. Al Qadisiyah Saudi Club: 1st Half O/U 2.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5437504": {
+    "same_event": false,
+    "reason": "1H O/U 0.5 vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Club Brugge KV vs. Racing Club de Lens: 1st Half O/U 0.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5437527": {
+    "same_event": false,
+    "reason": "Lens 1H O/U vs both teams score 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Club Brugge KV vs. Racing Club de Lens: Racing Club de Lens 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5441791": {
+    "same_event": false,
+    "reason": "Al Ahli win date vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Ahli Saudi Club win on 2026-10-22?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5390733": {
+    "same_event": false,
+    "reason": "Al Nassr win date vs Diriyah wins 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Nassr Saudi Club win on 2026-10-20?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5438804": {
+    "same_event": false,
+    "reason": "1H total corners O/U vs both teams score 1H",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 4.5 Total Corners",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-RIY__polymarket:5393231": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs win)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Diraiyah Saudi Club vs. Al Riyadh Saudi Club: 1st Half O/U 1.5",
+    "frage_b": "Al-Riyadh wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5439237": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5390732": {
+    "same_event": false,
+    "reason": "different teams and bet types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Qadisiyah Saudi Club win on 2026-10-20?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "polymarket:5612896__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs win)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Missouri State vs. Delaware: 1H O/U 27.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5704889": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Sharkia ENPPI vs. El Mokawloon El Arab SC: Sharkia ENPPI 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5704897": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Sharkia ENPPI vs. El Mokawloon El Arab SC: El Mokawloon El Arab SC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5346894": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Shabab Saudi Club vs. Al Faisaly Saudi Club: Al Faisaly Saudi Club 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5390736": {
+    "same_event": false,
+    "reason": "different teams and bet types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Ettifaq Saudi Club win on 2026-10-20?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5393201": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Taawoun Saudi Club vs. Al Qadisiyah Saudi Club: Al Taawoun Saudi Club 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5473150": {
+    "same_event": false,
+    "reason": "different teams and bet types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Nassr Saudi Club win on 2026-10-23?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5390727": {
+    "same_event": false,
+    "reason": "different bet types (win vs half win)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Diraiyah Saudi Club win on 2026-10-20?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5644799": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs win)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Club Tijuana vs. Club Santos Laguna: 1st Half O/U 2.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5704686": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Wadi Degla SC vs. National Bank of Egypt Club: Wadi Degla SC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5393251": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Diraiyah Saudi Club vs. Al Riyadh Saudi Club: Al Riyadh Saudi Club 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5643014": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5439239": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 3.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:4232130__predictit:8398:33070": {
+    "same_event": false,
+    "reason": "different elections (Knesset vs US Senate)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Dems win 12-13 seats in the 2026 Knesset elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Colorado? - Dems (Hickenlooper)"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5644797": {
+    "same_event": false,
+    "reason": "different matches and bet types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Club Tijuana vs. Club Santos Laguna: 1st Half O/U 0.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5473196": {
+    "same_event": false,
+    "reason": "different bet types (match win vs first-half win)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Diraiyah Saudi Club win on 2026-10-23?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5339868": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Shabab Saudi Club win on 2026-10-19?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5704694": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Wadi Degla SC vs. National Bank of Egypt Club: National Bank of Egypt Club 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5441745": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Fateh Saudi Club win on 2026-10-22?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5346905": {
+    "same_event": false,
+    "reason": "different halves and bet types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Shabab Saudi Club vs. Al Faisaly Saudi Club: Al Shabab Saudi Club 2nd Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5346874": {
+    "same_event": false,
+    "reason": "different clubs/match",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Al Shabab Saudi Club vs. Al Faisaly Saudi Club: 1st Half O/U 1.5",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5048090": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Faisaly Saudi Club win on 2026-10-11?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5441701": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Fayha Saudi Club win on 2026-10-22?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1HBTTS-26OCT20DIRRIY-BTTS__polymarket:5643025": {
+    "same_event": false,
+    "reason": "different bet types (O/U vs both teams score)",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 3.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXCS2GAME-26OCT200500PRIVALL-ALL__polymarket:4961813": {
+    "same_event": false,
+    "reason": "different seat threshold vs generic win",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Alliance of Vojvodina Hungarians – Dr Bálint Pásztor win the third most seats in the 2026 Serbian parliamentary election?",
+    "frage_b": "Alliance wins"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5518916": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Abha Saudi Club win on 2026-10-24?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5473240": {
+    "same_event": false,
+    "reason": "different clubs",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Qadisiyah Saudi Club win on 2026-10-23?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "kalshi:KXSAUDIPL1H-26OCT20DIRRIY-DIR__polymarket:5518962": {
+    "same_event": false,
+    "reason": "Different clubs and event types",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Al Ettifaq Saudi Club win on 2026-10-24?",
+    "frage_b": "Diriyah Club wins 1st Half"
+  },
+  "polymarket:4155313__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "Different demographics vs House control",
+    "checked_at": "2026-10-19T16:12:43.709235+00:00",
+    "frage_a": "Will Republicans win older women in the midterms?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
   }
 }
