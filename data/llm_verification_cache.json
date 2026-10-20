@@ -37567,5 +37567,152 @@
     "checked_at": "2026-10-19T21:35:01.263813+00:00",
     "frage_a": "Buccaneers 1H Team Total: O/U 6.5",
     "frage_b": "No team scores a TD"
+  },
+  "polymarket:5917443__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "First half moneyline vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Missouri State vs. Delaware: 1H Moneyline",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5907711__sxbet:0x7858d1774c705a9385d1bdaba01b0238cf63dac487280e987e4e1ee327cc9f85": {
+    "same_event": false,
+    "reason": "First half moneyline vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "South Alabama vs. Marshall: 1H Moneyline",
+    "frage_b": "Marshall Thundering Herd vs South Alabama Jaguars - wer gewinnt?"
+  },
+  "polymarket:5612905__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "First quarter over/under vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Missouri State vs. Delaware: 1Q O/U 10.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5917446__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "First quarter moneyline vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Missouri State vs. Delaware: 1Q Moneyline",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5907712__sxbet:0x7858d1774c705a9385d1bdaba01b0238cf63dac487280e987e4e1ee327cc9f85": {
+    "same_event": false,
+    "reason": "First quarter moneyline vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "South Alabama vs. Marshall: 1Q Moneyline",
+    "frage_b": "Marshall Thundering Herd vs South Alabama Jaguars - wer gewinnt?"
+  },
+  "polymarket:5613528__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "First half over/under vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: 1H O/U 30.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5612924__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Team total over/under vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Missouri State Team Total: O/U 20.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:5704686": {
+    "same_event": false,
+    "reason": "Team first half over/under vs draw in first half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Wadi Degla SC vs. National Bank of Egypt Club: Wadi Degla SC 1st Half O/U 0.5",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "polymarket:5613527__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "First half over/under vs full game winner",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: 1H O/U 27.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "kalshi:KXNFL2H-26OCT22NECHI-TIE__polymarket:5470562": {
+    "same_event": false,
+    "reason": "Team to win second half vs draw in second half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "RSC Anderlecht to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:5450137": {
+    "same_event": false,
+    "reason": "Team first half over/under vs draw in first half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "FK Jablonec vs. Brighton & Hove Albion FC: FK Jablonec 1st Half O/U 0.5",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:5704694": {
+    "same_event": false,
+    "reason": "Team first half over/under vs draw in first half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Wadi Degla SC vs. National Bank of Egypt Club: National Bank of Egypt Club 1st Half O/U 0.5",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT22NECHI-TIE__polymarket:5439264": {
+    "same_event": false,
+    "reason": "Second half over/under vs draw in second half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 2nd Half O/U 2.5",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:5643020": {
+    "same_event": false,
+    "reason": "First half over/under vs draw in first half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 2.5",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:4235320": {
+    "same_event": false,
+    "reason": "First half spread vs draw in first half",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "1st Half Spread: FC Cincinnati (-1.5)",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXESOCCERGAME-26OCT200056JULYQUIN-QUIN__polymarket:5851327": {
+    "same_event": false,
+    "reason": "Different teams (Manchester United vs Manchester City) and different question focus.",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Will Manchester United FC win on 2026-10-31?",
+    "frage_b": "Manchester City (Quinnie) wins"
+  },
+  "kalshi:KXNFL1H-26OCT22NECHI-TIE__polymarket:5439238": {
+    "same_event": false,
+    "reason": "Different bet types: first-half over/under goals vs draw (no winner) in first half.",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 2.5",
+    "frage_b": "Will neither team win the 1st Half?"
+  },
+  "kalshi:KXNFL2H-26OCT22NECHI-TIE__polymarket:5763534": {
+    "same_event": false,
+    "reason": "Opposite propositions: Lecce winning second half vs no team winning second half (draw).",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "US Lecce to win the second half?",
+    "frage_b": "Will neither team win the 2nd Half?"
+  },
+  "kalshi:KXESOCCERGAME-26OCT200056JULYQUIN-QUIN__polymarket:5851637": {
+    "same_event": false,
+    "reason": "Different teams (Coventry City vs Manchester City).",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Will Coventry City FC win on 2026-10-31?",
+    "frage_b": "Manchester City (Quinnie) wins"
+  },
+  "kalshi:KXESOCCERGAME-26OCT200056JULYQUIN-QUIN__polymarket:5852248": {
+    "same_event": false,
+    "reason": "Different teams (Cardiff City vs Manchester City).",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Will Cardiff City FC win on 2026-10-31?",
+    "frage_b": "Manchester City (Quinnie) wins"
+  },
+  "polymarket:5939181__predictit:8643:34100": {
+    "same_event": false,
+    "reason": "Different outcomes: receiving first mandate to form government vs becoming Prime Minister.",
+    "checked_at": "2026-10-20T05:47:10.248415+00:00",
+    "frage_a": "Will Avigdor Lieberman receive the first mandate to form a government after the 2026 Israeli election?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Avigdor Lieberman"
   }
 }
