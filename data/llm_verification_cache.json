@@ -38022,5 +38022,159 @@
     "checked_at": "2026-10-20T15:08:46.842497+00:00",
     "frage_a": "Atlanta Dream vs. Golden State Valkyries",
     "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "kalshi:KXNATGASD-26OCT2017-T3.380__polymarket:5920690": {
+    "same_event": false,
+    "reason": "Unterschiedliche Definition: 'Up or Down' (relativ) vs. absoluter Schlusskurs-Schwellenwert 3.380; Jahr in A fehlt.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Natural Gas (NG) Up or Down on October 20?",
+    "frage_b": "Will the natural gas close price be above 3.380 USD/MMBtu on October 20, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT2017-T3.380__polymarket:5968110": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Underlyings: Tesla-Aktie vs. Erdgas.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Tesla (TSLA) close above $380 on October 21?",
+    "frage_b": "Will the natural gas close price be above 3.380 USD/MMBtu on October 20, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXNATGASD-26OCT2017-T3.365__polymarket:5789201": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisdefinition: Intraday-Hoch in der Woche (3.20) vs. Schlusskurs an einem Tag (3.365).",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.20 Week of October 19 2026?",
+    "frage_b": "Will the natural gas close price be above 3.365 USD/MMBtu on October 20, 2026 at 5:00 PM EDT?"
+  },
+  "polymarket:5972295__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Over/Under Gesamtpunkte vs. Moneyline-Sieger.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: O/U 151.5",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "kalshi:KXIBPLGAME-26OCT221515VALNJA-VAL__polymarket:5825658": {
+    "same_event": false,
+    "reason": "Unterschiedliche Zeiträume: Führung zur Halbzeit vs. Endstand-Sieg.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Valur Reykjavik leading at halftime?",
+    "frage_b": "Valur Reykjavik wins"
+  },
+  "kalshi:KXIBPLGAME-26OCT221515ARMKRR-KRR__polymarket:5961581": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams: Vikingur Reykjavik vs. KR Reykjavik.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Vikingur Reykjavik win on 2026-10-24?",
+    "frage_b": "KR Reykjavik wins"
+  },
+  "kalshi:KXNATGASD-26OCT2017-T3.395__polymarket:5789205": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisdefinition: Intraday-Tief in der Woche (2.80) vs. Schlusskurs an einem Tag (3.395).",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (LOW) $2.80 Week of October 19 2026?",
+    "frage_b": "Will the natural gas close price be above 3.395 USD/MMBtu on October 20, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXIBPLGAME-26OCT221515VALNJA-VAL__polymarket:5825655": {
+    "same_event": true,
+    "reason": "Beide fragen exakt nach Sieg von Valur Reykjavik am 2026-10-24 (gleiche Polarität).",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Valur Reykjavik win on 2026-10-24?",
+    "frage_b": "Valur Reykjavik wins"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5913245": {
+    "same_event": false,
+    "reason": "Unterschiedliche Formate: Binäre Range-Frage vs. offene 'What will...'-Frage.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 21, 2026 be 5.5 to 5.6?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5913244": {
+    "same_event": false,
+    "reason": "Unterschiedliche Formate: Binäre Range-Frage vs. offene 'What will...'-Frage.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 21, 2026 be 5.3 to 5.4?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5913246": {
+    "same_event": false,
+    "reason": "Unterschiedliche Formate: Binäre Range-Frage vs. offene 'What will...'-Frage.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 21, 2026 be 5.7 to 5.8?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5957691": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten: 22. Okt vs. 21. Okt.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.5 to 5.6?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXNATGASD-26OCT2017-T3.395__polymarket:5789200": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisdefinition: Intraday-Hoch in der Woche (3.30) vs. Schlusskurs an einem Tag (3.395).",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Natural Gas (NG) hit (HIGH) $3.30 Week of October 19 2026?",
+    "frage_b": "Will the natural gas close price be above 3.395 USD/MMBtu on October 20, 2026 at 5:00 PM EDT?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5957690": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten: 22. Okt vs. 21. Okt.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.3 to 5.4?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5913247": {
+    "same_event": false,
+    "reason": "Unterschiedliche Formate: Binäre Range-Frage vs. offene 'What will...'-Frage.",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 21, 2026 be 5.9 to 6.0?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-21OCT26-7.0__polymarket:5957692": {
+    "same_event": false,
+    "reason": "Different dates (Oct 22 vs Oct 21) and different question types (specific magnitude range vs open-ended magnitude)",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.7 to 5.8?",
+    "frage_b": "What will the biggest earthquake be on Oct 21, 2026?"
+  },
+  "kalshi:KXTRUMPMENTION-26OCT20-GERM__polymarket:5105635": {
+    "same_event": false,
+    "reason": "Different scope (entire month of October vs single specific rally on Oct 20) and different question types (yes/no vs open-ended)",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Trump say \"Discord\" in October?",
+    "frage_b": "What will Donald Trump say during Midterm Rally in Greenville, North Carolina originally scheduled for October 20, 2026?"
+  },
+  "polymarket:5704284__predictit:8173:32030": {
+    "same_event": false,
+    "reason": "Different scope: A is a parlay of three Senate seats (TX, KS, NE), B is only Texas Senate race",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Republicans win the Texas, Kansas, and Nebraska Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in Texas? - Republican (Paxton)"
+  },
+  "kalshi:KXIBPLGAME-26OCT221515STJUMF-STJ__polymarket:5825656": {
+    "same_event": false,
+    "reason": "Different betting markets: halftime lead vs full-time win (different outcomes possible)",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Stjarnan Gardabae leading at halftime?",
+    "frage_b": "Stjarnan wins"
+  },
+  "polymarket:5971436__predictit:8375:33005": {
+    "same_event": false,
+    "reason": "Different scope: A is a parlay of three Senate seats (MS, SC, MT), B is only South Carolina Senate race",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Republicans win the Mississippi, South Carolina, and Montana Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Carolina? - Republican (Graham)"
+  },
+  "polymarket:5704293__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Different scope (3 states vs 1 state) and different predicted outcome for Nebraska (Republican vs Independent/Osborn)",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Democrats win the Texas Senate seat, and Republicans win Kansas and Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:3515996__predictit:8212:32165": {
+    "same_event": false,
+    "reason": "Different scope: A combines two different elections (Governor + Senate), B is only Governor election",
+    "checked_at": "2026-10-20T20:31:44.514431+00:00",
+    "frage_a": "Will Republicans win the Michigan Governor election and Democrats win the Michigan Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
   }
 }
