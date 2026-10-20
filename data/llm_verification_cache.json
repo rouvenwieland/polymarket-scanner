@@ -37714,5 +37714,236 @@
     "checked_at": "2026-10-20T05:47:10.248415+00:00",
     "frage_a": "Will Avigdor Lieberman receive the first mandate to form a government after the 2026 Israeli election?",
     "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Avigdor Lieberman"
+  },
+  "polymarket:5612928__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total O/U (Punkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Missouri State Team Total: O/U 32.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5612927__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total O/U (Punkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Missouri State Team Total: O/U 29.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5612926__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total O/U (Punkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Missouri State Team Total: O/U 26.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "kalshi:KXNHLFIRSTGOAL-26OCT20MINEDM-EDMLDRAISAITL29__polymarket:5408113": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Fußball-Vereinsmannschaft (Club León) vs. NHL-Spieler (Leon Draisaitl)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Club León FC win on 2026-10-20?",
+    "frage_b": "Leon Draisaitl: First Goalscorer"
+  },
+  "kalshi:KXNHLFIRSTGOAL-26OCT20MINEDM-EDMLDRAISAITL29__polymarket:5568108": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Fußball-Vereinsmannschaft (Club León) vs. NHL-Spieler (Leon Draisaitl)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Club León FC win on 2026-10-24?",
+    "frage_b": "Leon Draisaitl: First Goalscorer"
+  },
+  "polymarket:5704291__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Kombiwette auf drei Senatsrennen (TX, KS, NE) vs. Einzelwette nur auf Nebraska",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Texas Senate seat, Democrats win Kansas, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:3515975__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Zwei Alaska-Wahlen (Gouverneur + Senat) vs. gesamtstaatliche Senatsmehrheit",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Alaska Governor election and Democrats win the Alaska Senate election?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4882440__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "Anzahl Unabhängiger im Kongress vs. Mehrheitspartei im Repräsentantenhaus",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will 0 Independents be elected to Congress in 2026?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:4641985__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "Kombiwette (TX, ME, MI) vs. Einzelwette Michigan; zudem widersprüchlich (Rep vs. Dem in MI)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Texas and Maine Senate seats, and Republicans win Michigan?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5704286__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Kombiwette auf drei Senatsrennen (TX, KS, NE) vs. Einzelwette nur auf Nebraska",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Texas and Kansas Senate seats, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:2773664__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Anzahl gewonnener Wahlen in Kamala-Staaten (Senat+Gouverneur) vs. Senatsmehrheit insgesamt",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win 4 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5737307__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Kombiwette auf drei Senatsrennen (IA, KS, NE) vs. Einzelwette nur auf Nebraska",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Iowa Senate seat, Democrats win Kansas, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5737314__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Kombiwette (IA, KS, NE) vs. Einzelwette Nebraska; zudem widersprüchlich (Rep vs. Ind in NE)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Iowa Senate seat, and Republicans win Kansas and Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5737304__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "Kombiwette (IA, NE, KS) vs. Einzelwette Nebraska; zudem widersprüchlich (Rep vs. Ind in NE)",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Iowa and Nebraska Senate seats, and Democrats win Kansas?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5951586__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Stimmenanteil in einer Stadt (Rio de Janeiro) vs. gesamtbrasilianischer Wahlsieg",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election in the city of Rio de Janeiro?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:2773661__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Parlay (Senate+Gov in specific states) vs. overall Senate control",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win 1 Senate and Governor election in states won by Kamala?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5704296__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (TX, KS, NE) vs. single NE Senate race",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Texas Senate seat, Republicans win Kansas, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:3515974__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Two specific AK races (Gov+Sen) vs. overall Senate control",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Alaska Governor election and Republicans win the Alaska Senate election?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5790793__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "County-level KS Senate vs. MI Senate winner",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will the Democrats win Sedgwick County in the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:3515973__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Two AK races (Sen+Gov) vs. overall Senate control",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans sweep the Alaska Senate and Governor elections?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4965406__predictit:8159:31956": {
+    "same_event": false,
+    "reason": "Vote share comparison (undeperform) vs. race winner",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Troy Jackson underperform Kamala in Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Maine? - Democratic (Jackson)"
+  },
+  "polymarket:3515947__predictit:8378:33011": {
+    "same_event": false,
+    "reason": "Parlay (IA Sen+Gov Dem sweep) vs. IA Gov Republican winner",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats sweep the Iowa Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Iowa? - Republican"
+  },
+  "polymarket:5790794__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "County-level KS Senate vs. overall Senate control",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will the Republicans win Sedgwick County in the Kansas Senate race in 2026?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:5737294__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (IA, KS, NE) vs. single NE Senate race",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Iowa and Kansas Senate seats, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5737322__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (NE Rep win) vs. NE Independent win",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Iowa and Kansas Senate seats, and Republicans win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:4064474__predictit:8228:32195": {
+    "same_event": false,
+    "reason": "County-level FL Senate vs. FL Senate winner",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will the Democrats win Broward County in the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Republican (Moody)"
+  },
+  "polymarket:5737287__predictit:8274:32442": {
+    "same_event": false,
+    "reason": "3-leg parlay (IA, KS, NE) vs. single IA Senate race",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Iowa, Kansas, and Nebraska Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in Iowa? - Republican (Hinson)"
+  },
+  "polymarket:5704289__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (NE Rep win) vs. NE Independent win",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Republicans win the Texas and Nebraska Senate seats, and Democrats win Kansas?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5704298__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (NE Rep win) vs. NE Independent win",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Texas and Kansas Senate seats, and Republicans win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:5737319__predictit:8172:32029": {
+    "same_event": false,
+    "reason": "3-leg parlay (IA, KS, NE) vs. single NE Senate race",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win the Iowa Senate seat, Republicans win Kansas, and an independent win Nebraska?",
+    "frage_b": "Which party will win the 2026 US Senate election in Nebraska? - Independent (Osborn)"
+  },
+  "polymarket:1178882__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "Frage_a betrifft das kollektive Ergebnis von vier 'core four' Senatsrennen (alle müssen gewonnen werden), Frage_b nur das einzelne Rennen in Michigan (Kandidat El-Sayed). Unterschiedlicher Umfang/Entität.",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Democrats win all \"core four\" senate races?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:5378975__predictit:8388:33047": {
+    "same_event": false,
+    "reason": "Frage_a fragt, ob Mississippi das engste Senatsrennen 2026 wird (Margenvergleich aller Rennen), Frage_b fragt nach dem Sieger der Mississippi-Wahl (Partei/Kandidat Colom). Unterschiedliche Wettart/Definition.",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will Mississippi be the closest Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Mississippi? - Democratic (Colom)"
+  },
+  "polymarket:4199205__predictit:8160:31958": {
+    "same_event": false,
+    "reason": "Frage_a betrifft die North Carolina Supreme Court Wahl (Richterwahl), Frage_b die US-Senatswahl 2026 in North Carolina (Kandidat Cooper). Unterschiedliches Amt/Wahl.",
+    "checked_at": "2026-10-20T14:19:20.346284+00:00",
+    "frage_a": "Will the Democrat win the North Carolina Supreme Court general election?",
+    "frage_b": "Which party will win the 2026 US Senate election in North Carolina? - Democratic (Cooper)"
   }
 }
