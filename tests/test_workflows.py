@@ -82,3 +82,33 @@ def test_push_schleife_endet_mit_fehlercode(name):
     text = open(os.path.join(ROOT, ".github", "workflows", name), encoding="utf-8").read()
     assert "git pull --rebase origin main" in text
     assert re.search(r"exit 1\s*$", text.strip())
+
+
+DATA_WRITE_GROUP = "polymarket-data-write"
+DATA_WRITERS = sorted(n for n, wf in WORKFLOWS.items() if wf.get("concurrency", {}).get("group") == DATA_WRITE_GROUP)
+
+
+def test_gruppe_der_schreiber_ist_nicht_leer():
+    assert DATA_WRITERS == sorted(WORKFLOWS)
+
+
+@pytest.mark.parametrize("name", DATA_WRITERS)
+def test_checkout_holt_aktuellen_main_statt_ausloese_sha(name):
+    """Regression 11.-18.10.2026: Ohne ref checkt actions/checkout den SHA vom AUSLOESEzeitpunkt aus. Ein
+    Cross-Watch, der in der gemeinsamen Gruppe hinter einem Multi-Platform Scan (30-50 min) wartet, rechnete
+    danach auf altem Fonds-Zustand und scheiterte beim Rebase an Inhaltskonflikten in
+    data/fund_history_crossplatform*.csv. Mit ref: main holt jeder Lauf die Branch-Spitze bei seinem Start,
+    also inklusive des Pushs seines Vorgaengers in der Gruppe."""
+    for job_name, job in WORKFLOWS[name]["jobs"].items():
+        checkouts = [s for s in job["steps"] if str(s.get("uses", "")).startswith("actions/checkout@")]
+        assert len(checkouts) == 1, f"{name}:{job_name}"
+        assert (checkouts[0].get("with") or {}).get("ref") == "main", f"{name}:{job_name}"
+
+
+@pytest.mark.parametrize("name", DATA_WRITERS)
+def test_rebase_konflikt_wird_sauber_abgebrochen(name):
+    """Scheitert git pull --rebase (Inhaltskonflikt), muss der Rebase abgebrochen und der Lauf mit klarer
+    Meldung beendet werden, statt mit halbem Rebase-Zustand per bash -e zu sterben."""
+    for job in WORKFLOWS[name]["jobs"].values():
+        run = next(s["run"] for s in job["steps"] if s.get("name") == "Ergebnisse committen")
+        assert re.search(r"if ! git pull --rebase origin main; then.*?git rebase --abort.*?exit 1\s*fi", run, re.S), name

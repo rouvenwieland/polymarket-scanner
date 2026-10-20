@@ -39,7 +39,13 @@ jobs:
     timeout-minutes: 120
     steps:
       - name: Repo auschecken
+        # ref: main = aktuelle Branch-Spitze beim START des Laufs statt des SHA vom Ausloesezeitpunkt.
+        # Ein geplanter Lauf, der in der Concurrency-Gruppe hinter einem anderen wartet, rechnet sonst
+        # auf altem Stand und scheitert beim Rebase an Inhaltskonflikten (Cross-Watch hinter
+        # Multi-Platform Scan, 11.-18.10.2026). Die Gruppe serialisiert nur, sie aktualisiert nichts.
         uses: actions/checkout@v4
+        with:
+          ref: main
 
       - name: Python einrichten
         uses: actions/setup-python@v5
@@ -92,7 +98,13 @@ jobs:
               exit 0
             fi
             echo "Push fehlgeschlagen (Versuch $i/5) - hole aktuellen main-Stand und versuche erneut..."
-            git pull --rebase origin main
+            if ! git pull --rebase origin main; then
+              echo "Rebase auf origin/main fehlgeschlagen (Inhaltskonflikt?). Konfliktdateien:" >&2
+              git diff --name-only --diff-filter=U >&2 || true
+              git rebase --abort || true
+              echo "Rebase abgebrochen, nichts gepusht. Hat ein anderer Lauf dieselben data/-Dateien geschrieben?" >&2
+              exit 1
+            fi
             sleep 3
           done
           echo "Push nach 5 Versuchen weiterhin fehlgeschlagen." >&2

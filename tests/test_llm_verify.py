@@ -92,3 +92,53 @@ def test_budget_erschoepft_blockiert_und_fail_closed(api, monkeypatch):
     (api / "llm_verification_budget.json").write_text(json.dumps({"date": llm_verify._today_str(), "used": llm_verify.DAILY_REQUEST_BUDGET}))
     monkeypatch.setattr(llm_verify, "_call_model", lambda m, p: pytest.fail("kein Request bei leerem Budget"))
     assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
+
+
+class _FakeResp:
+    def __init__(self, payload):
+        self._payload = payload
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return self._payload
+
+
+_GUT = {"choices": [{"message": {"content": '```json\n{"results": [{"id": 0, "same_event": true, "reason": "ok"}]}\n```'}}]}
+
+
+@pytest.mark.parametrize("kaputt", [
+    {"choices": [{"message": {"content": None}}]},           # 17.10.2026: TypeError in re.search -> Scan-Absturz
+    {"choices": [{"message": {}}]},                          # content fehlt ganz
+    {"choices": [{"message": {"content": [{"type": "text", "text": "{}"}]}}]},  # content kein String
+    {"choices": []},                                         # IndexError
+    {"choices": [{"message": None}]},                        # AttributeError
+    {"choices": [{"message": {"content": '{"results": 5}'}}]},  # results keine Liste
+], ids=["content_null", "content_fehlt", "content_liste", "choices_leer", "message_null", "results_keine_liste"])
+def test_kaputte_modellantwort_weicht_auf_naechstes_modell_aus(api, monkeypatch, kaputt):
+    """Eine kaputte Antwort des ersten freien Modells darf den Scan nicht abbrechen: es wird das naechste
+    Modell gefragt, jeder Versuch zaehlt im Budget, und dessen Urteil gilt."""
+    calls = []
+
+    def fake_post(url, headers=None, json=None, timeout=None):
+        calls.append(json["model"])
+        return _FakeResp(kaputt if len(calls) == 1 else _GUT)
+
+    monkeypatch.setattr(llm_verify.requests, "post", fake_post)
+    res = llm_verify.verify_candidates([(MA, MB)])
+    assert res == {KEY: True}
+    assert calls == llm_verify.FREE_MODELS[:2]
+    assert json.load(open(llm_verify.BUDGET_PATH))["used"] == 2
+
+
+def test_alle_modelle_liefern_null_fail_closed_ohne_absturz(api, monkeypatch):
+    calls = []
+
+    def fake_post(url, headers=None, json=None, timeout=None):
+        calls.append(json["model"])
+        return _FakeResp({"choices": [{"message": {"content": None}}]})
+
+    monkeypatch.setattr(llm_verify.requests, "post", fake_post)
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
+    assert calls == llm_verify.FREE_MODELS

@@ -149,13 +149,19 @@ def _call_model(model, pairs_payload):
     }
     resp = requests.post(API_URL, headers=headers, json=body, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
-    content = resp.json()["choices"][0]["message"]["content"]
+    # Freie Modelle liefern gelegentlich "content": null (17.10.2026: TypeError in re.search hat
+    # den ganzen Multi-Platform-Scan nach 45 min abgebrochen). Leere Antwort -> ValueError unten
+    # -> der Aufrufer weicht auf das naechste Modell aus.
+    content = resp.json()["choices"][0]["message"].get("content") or ""
     # Manche freien Modelle umschließen JSON trotz Anweisung mit Codeblock-Markern.
     match = re.search(r"\{.*\}", content, re.DOTALL)
     if not match:
         raise ValueError(f"Keine JSON-Antwort erkennbar: {content[:200]!r}")
     parsed = json.loads(match.group(0))
-    return parsed.get("results", [])
+    results = parsed.get("results", [])
+    if not isinstance(results, list):
+        raise ValueError(f"'results' ist keine Liste: {type(results).__name__}")
+    return results
 
 
 def verify_candidates(candidates):
@@ -213,7 +219,11 @@ def verify_candidates(candidates):
             try:
                 parsed_results = _call_model(model, pairs_payload)
                 break
-            except (requests.RequestException, KeyError, ValueError, json.JSONDecodeError) as e:
+            # TypeError/IndexError/AttributeError: kaputte Antwortstruktur eines Modells (content kein
+            # String, leeres "choices", JSON-Liste statt Objekt) - naechstes Modell statt Scan-Absturz.
+            # Der try umschliesst nur _call_model, echte Programmfehler anderswo bleiben sichtbar.
+            except (requests.RequestException, KeyError, ValueError, json.JSONDecodeError,
+                    TypeError, IndexError, AttributeError) as e:
                 last_error = e
                 continue
             finally:
