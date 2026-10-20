@@ -37945,5 +37945,82 @@
     "checked_at": "2026-10-20T14:19:20.346284+00:00",
     "frage_a": "Will the Democrat win the North Carolina Supreme Court general election?",
     "frage_b": "Which party will win the 2026 US Senate election in North Carolina? - Democratic (Cooper)"
+  },
+  "polymarket:5612879__sxbet:0xfdd033438b7d1ab72849d045299f1aff8eb19e460f4126d5847f869428ed0bd2": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 47.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Missouri State vs. Delaware: O/U 47.5",
+    "frage_b": "Delaware vs Missouri State - wer gewinnt?"
+  },
+  "polymarket:5675146__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": true,
+    "reason": "Identische Teams (WNBA), identische Frage (Sieger), nur Reihenfolge vertauscht",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5956791__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 152.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: O/U 152.5",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5481971__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": true,
+    "reason": "Identische Teams (WNBA), identische Frage (Sieger), nur Reihenfolge vertauscht",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5917451__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Moneyline vs. Spiel-Sieger (ganzes Spiel)",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: 1H Moneyline",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5538608__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": true,
+    "reason": "Identische Teams (WNBA), identische Frage (Sieger), nur Reihenfolge vertauscht",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "kalshi:KXNFL1HFT-26OCT25PITNO-PITPIT__polymarket:5439257": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Armenischer Fußball (Ararat-Armenia vs AZ, 1. HZ O/U 0.5) vs. Pittsburgh (US-Sport, 1. HZ/Sieg Kombi)",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: AZ 1st Half O/U 0.5",
+    "frage_b": "Pittsburgh wins 1st Half / Pittsburgh wins game"
+  },
+  "polymarket:4641984__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: Kombi-Wette (3 Senatsrennen) vs. Einzelwette (nur Michigan); zudem gegensätzliche Polarität für Michigan (A: Reps gewinnen, B: Dems gewinnen)",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Will Democrats win the Texas Senate seat, and Republicans win Michigan and Maine?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "polymarket:4232129__predictit:8396:33066": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wahlen: Israelische Knesset (Sitzanzahl 10-13) vs. US-Senat Kansas",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Will Dems win 10-11 seats in the 2026 Knesset elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Dems (Hamilton)"
+  },
+  "polymarket:4232130__predictit:8396:33066": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wahlen: Israelische Knesset (Sitzanzahl 12-13) vs. US-Senat Kansas",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Will Dems win 12-13 seats in the 2026 Knesset elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Dems (Hamilton)"
+  },
+  "polymarket:5642600__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": true,
+    "reason": "Identische Teams (WNBA), identische Frage (Sieger), nur Reihenfolge vertauscht",
+    "checked_at": "2026-10-20T15:08:46.842497+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
   }
 }
