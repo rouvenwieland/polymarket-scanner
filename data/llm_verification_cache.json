@@ -38176,5 +38176,180 @@
     "checked_at": "2026-10-20T20:31:44.514431+00:00",
     "frage_a": "Will Republicans win the Michigan Governor election and Democrats win the Michigan Senate election?",
     "frage_b": "Which party will win the 2026 election for governor of Michigan? - Republican"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5615688": {
+    "same_event": false,
+    "reason": "Different market type (Team Total points vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "UConn 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:3312700": {
+    "same_event": false,
+    "reason": "Different market type (Team to score vs Both teams to score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: Birmingham Legion FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1H-26OCT21BROBIR-BIR__polymarket:5833720": {
+    "same_event": false,
+    "reason": "Different market type (Total Goals O/U vs 1st Half Winner)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: 1st Half O/U 3.5",
+    "frage_b": "Birmingham Legion FC wins 1st Half"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:3312694": {
+    "same_event": false,
+    "reason": "Different market type (Team to score vs Both teams to score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: Brooklyn FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5613043": {
+    "same_event": false,
+    "reason": "Different market type (Team Total vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Marshall 1H Team Total: O/U 14.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5614911": {
+    "same_event": false,
+    "reason": "Different market type (Team Total vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Memphis 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5616723": {
+    "same_event": false,
+    "reason": "Different market type (Team Total vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "TCU 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5438804": {
+    "same_event": false,
+    "reason": "Different underlying metric (Corners vs Goals)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 4.5 Total Corners",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5917455__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Different timeframe (1st Quarter vs Full Match/Unspecified)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: 1Q Moneyline",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:3308855": {
+    "same_event": false,
+    "reason": "Different underlying metric (Corners vs Goals)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: 1st Half O/U 4.5 Total Corners",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5439239": {
+    "same_event": false,
+    "reason": "Different market type (Total Goals O/U vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 3.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5578563": {
+    "same_event": false,
+    "reason": "Different market type (Team to score vs Both teams to score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "UD Las Palmas vs. Real Sociedad de Fútbol B: UD Las Palmas 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5439237": {
+    "same_event": false,
+    "reason": "Different market type (Total Goals O/U vs Both Teams To Score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1H-26OCT21BROBIR-BIR__polymarket:3312710": {
+    "same_event": false,
+    "reason": "Different half and market type (2H Total Goals vs 1H Winner)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: 2nd Half O/U 1.5",
+    "frage_b": "Birmingham Legion FC wins 1st Half"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5596881": {
+    "same_event": false,
+    "reason": "Different market type (Team to score vs Both teams to score)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Liverpool FC vs. Brighton & Hove Albion FC: Brighton & Hove Albion FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5613525__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Punkte) vs. Moneyline (Sieger ganzes Spiel)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: 1H O/U 21.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "kalshi:KXUSL1H-26OCT21BROBIR-BIR__polymarket:3312674": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Tore) vs. 1. Halbzeit Sieger",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: 1st Half O/U 2.5",
+    "frage_b": "Birmingham Legion FC wins 1st Half"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5613042": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Marshall Punkte 1. HZ) vs. Both Teams To Score (1. HZ)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Marshall 1H Team Total: O/U 12.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5643025": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Gesamttore) vs. Both Teams To Score (1. HZ)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 3.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5643014": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Gesamttore) vs. Both Teams To Score (1. HZ)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXUSL1H-26OCT21BROBIR-BIR__polymarket:3312671": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Gesamttore) vs. 1. Halbzeit Sieger",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Brooklyn FC vs. Birmingham Legion FC: 1st Half O/U 1.5",
+    "frage_b": "Birmingham Legion FC wins 1st Half"
+  },
+  "polymarket:5972006__predictit:8375:33005": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelner County (Greenville) vs. ganzer Bundesstaat South Carolina",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Will the Republicans win Greenville County in the South Carolina Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Carolina? - Republican (Graham)"
+  },
+  "kalshi:KXUSL1HBTTS-26OCT21BROBIR-BTTS__polymarket:5439238": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Over/Under (Gesamttore) vs. Both Teams To Score (1. HZ)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: 1st Half O/U 2.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5091422__predictit:8939:35599": {
+    "same_event": false,
+    "reason": "Unterschiedliche Entitäten/Optionen: Binary Florida vs. South Carolina vs. Option North Carolina in Multi-State-Markt",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Closer Senate Race: Florida or South Carolina?",
+    "frage_b": "Which 2026 Senate race will be the closest? - North Carolina"
+  },
+  "polymarket:631044__predictit:8228:32196": {
+    "same_event": true,
+    "reason": "Identisches Ereignis: Demokraten gewinnen Florida Senate Race 2026; gleiche Polarität (Yes = Dem-Sieg)",
+    "checked_at": "2026-10-21T00:07:50.839754+00:00",
+    "frage_a": "Will the Democrats win the Florida Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Florida? - Democratic (Nixon)"
   }
 }
