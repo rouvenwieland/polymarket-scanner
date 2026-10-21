@@ -38351,5 +38351,19 @@
     "checked_at": "2026-10-21T00:07:50.839754+00:00",
     "frage_a": "Will the Democrats win the Florida Senate race in 2026?",
     "frage_b": "Which party will win the 2026 US Senate election in Florida? - Democratic (Nixon)"
+  },
+  "polymarket:5939176__predictit:8643:34096": {
+    "same_event": false,
+    "reason": "Erhalt des ersten Mandats zur Regierungsbildung ≠ Premierminister werden; Mandat kann scheitern, anderer kann PM werden.",
+    "checked_at": "2026-10-21T05:32:13.604457+00:00",
+    "frage_a": "Will Benjamin Netanyahu receive the first mandate to form a government after the 2026 Israeli election?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Benjamin Netanyahu"
+  },
+  "polymarket:3515950__predictit:9032:36070": {
+    "same_event": false,
+    "reason": "Frage A erfordert spezifisch: Rep Gov + Dem Sen. Frage B ist erfüllt bei JEDER parteiübergreifenden Kombination (auch Dem Gov + Rep Sen).",
+    "checked_at": "2026-10-21T05:32:13.604457+00:00",
+    "frage_a": "Will Republicans win the Iowa Governor election and Democrats win the Iowa Senate election?",
+    "frage_b": "Will Iowa elect a Senator and Governor from different parties?"
   }
 }
