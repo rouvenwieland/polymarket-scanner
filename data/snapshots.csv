@@ -5216,3 +5216,9 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-21T19:39:45.306165+02:00,5438207,Exact Score: OFI 5 - 1 Bayer 04 Leverkusen?,uel-ofi-lev-2026-10-22-exact-score-5-1,0.012,0.9875,0.9995,0.0,3811.33562,2026-10-22T16:45:00Z,schaetzung
 2026-10-21T19:39:45.306165+02:00,5470637,Exact Score: FC Viktoria Plzeň 5 - 1 PFK Levski Sofia?,uel-plz-lev2-2026-10-22-exact-score-5-1,0.0145,0.985,0.9994999999999999,0.0,7345.94082,2026-10-22T19:00:00Z,schaetzung
 2026-10-21T19:39:45.306165+02:00,5702946,Sheffield Shield: Tasmania Tigers vs Victoria - Match goes to Day 4?,cricshield-tig-vic-2026-10-18-match-to-day-4,0.5,0.495,0.995,0.0,0.0,2026-10-25T23:30:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,5702946,Sheffield Shield: Tasmania Tigers vs Victoria - Match goes to Day 4?,cricshield-tig-vic-2026-10-18-match-to-day-4,0.5,0.495,0.995,0.0,0.0,2026-10-25T23:30:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,5967682,Will Austin Dillon win the 2026 NASCAR Cup Series YellaWood 500?,nascar-yellawood-500-winner-austin-dillon-2026-10-25,0.4545,0.545,0.9995,0.0,482.05166,2026-11-01T18:00:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,5978036,Will Benjamin Bok finish in the Top 3 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top3-benjamin-bok,0.49,0.505,0.995,0.0,2.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-21T23:58:57.114698+02:00,6026440,1st Half Exact Score: Any Other Score?,sea-fio-ata-2026-10-29-first-half-exact-score-any-other,0.475,0.52,0.995,0.0,7.1298,2026-10-29T19:45:00Z,schaetzung
