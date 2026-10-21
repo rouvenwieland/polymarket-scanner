@@ -5211,3 +5211,8 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-21T14:25:21.052435+02:00,6002633,Exact Score: Queens Park Rangers FC 2 - 3 Burnley FC?,elc-qpr-bur-2026-11-03-exact-score-2-3,0.48,0.515,0.995,0.0,18.1293,2026-11-03T19:45:00Z,schaetzung
 2026-10-21T14:25:21.052435+02:00,6002862,Exact Score: Birmingham City FC 1 - 4 Millwall FC?,elc-bir-mil-2026-11-03-exact-score-1-4,0.485,0.51,0.995,0.0,13.1297,2026-11-03T20:00:00Z,schaetzung
 2026-10-21T14:25:21.052435+02:00,6008302,Exact Score: IA Akranes 0 - 5 Keflavik IF?,isl1-akr-kef-2026-10-24-exact-score-0-5,0.485,0.51,0.995,0.0,8.2497,2026-10-24T14:00:00Z,schaetzung
+2026-10-21T19:39:45.306165+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-21T19:39:45.306165+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-21T19:39:45.306165+02:00,5438207,Exact Score: OFI 5 - 1 Bayer 04 Leverkusen?,uel-ofi-lev-2026-10-22-exact-score-5-1,0.012,0.9875,0.9995,0.0,3811.33562,2026-10-22T16:45:00Z,schaetzung
+2026-10-21T19:39:45.306165+02:00,5470637,Exact Score: FC Viktoria Plzeň 5 - 1 PFK Levski Sofia?,uel-plz-lev2-2026-10-22-exact-score-5-1,0.0145,0.985,0.9994999999999999,0.0,7345.94082,2026-10-22T19:00:00Z,schaetzung
+2026-10-21T19:39:45.306165+02:00,5702946,Sheffield Shield: Tasmania Tigers vs Victoria - Match goes to Day 4?,cricshield-tig-vic-2026-10-18-match-to-day-4,0.5,0.495,0.995,0.0,0.0,2026-10-25T23:30:00Z,schaetzung
