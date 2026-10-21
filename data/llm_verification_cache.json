@@ -38428,5 +38428,131 @@
     "checked_at": "2026-10-21T14:47:15.050802+00:00",
     "frage_a": "Will Democrats win the Mississippi and South Carolina Senate seats, and an independent win Montana?",
     "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent (Bodnar)"
+  },
+  "polymarket:5675599__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Moneyline vs. Gesamtsieg",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: 1H Moneyline",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5613503__sxbet:0x62ec4ce48850d682b806b5a8bbb507c6121beb67c64ca241119c38bdf9c5439c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 47.5 vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "New Mexico State vs. Sam Houston: O/U 47.5",
+    "frage_b": "Sam Houston Bearkats vs New Mexico State Aggies - wer gewinnt?"
+  },
+  "polymarket:5035390__sxbet:0xb5abfd6d580da970dfcf82ae224a733fa1b77a91558db23c29bf20b3de76e4a8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (Blue Jackets vs. Blues) und Wettart (O/U vs. Moneyline)",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Golden Knights vs. Blue Jackets: O/U 4.5",
+    "frage_b": "St. Louis Blues vs Vegas Golden Knights - wer gewinnt?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:5957691": {
+    "same_event": false,
+    "reason": "Binäre Schwellenfrage (5.5-5.6) vs. offene Magnituden-Frage",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.5 to 5.6?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "polymarket:5035389__sxbet:0xb5abfd6d580da970dfcf82ae224a733fa1b77a91558db23c29bf20b3de76e4a8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams: Blue Jackets vs. St. Louis Blues",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Golden Knights vs. Blue Jackets",
+    "frage_b": "St. Louis Blues vs Vegas Golden Knights - wer gewinnt?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:6002898": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten: 23. Okt vs. 22. Okt 2026",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 23, 2026 be 5.5 to 5.6?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:5957692": {
+    "same_event": false,
+    "reason": "Binäre Schwellenfrage (5.7-5.8) vs. offene Magnituden-Frage",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.7 to 5.8?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "polymarket:629397__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelwahl (Iowa) vs. Sweep aller Swing-States",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the Democrats win the Iowa governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:6002897": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten: 23. Okt vs. 22. Okt 2026",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 23, 2026 be 5.3 to 5.4?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:5957690": {
+    "same_event": false,
+    "reason": "Binäre Schwellenfrage (5.3-5.4) vs. offene Magnituden-Frage",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 22, 2026 be 5.3 to 5.4?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "polymarket:629583__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelwahl (Oregon) vs. Sweep aller Swing-States",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the Democrats win the Oregon governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "kalshi:KXBIGGESTQUAKE-22OCT26-7.0__polymarket:6002899": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten: 23. Okt vs. 22. Okt 2026",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the biggest earthquake on October 23, 2026 be 5.7 to 5.8?",
+    "frage_b": "What will the biggest earthquake be on Oct 22, 2026?"
+  },
+  "polymarket:629720__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelwahl (Wisconsin) vs. Sweep aller Swing-States",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the Democrats win the Wisconsin governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629557__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelwahl (Ohio) vs. Sweep aller Swing-States",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the Democrats win the Ohio governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:5939177__predictit:8643:34099": {
+    "same_event": false,
+    "reason": "Erster Mandat zur Regierungsbildung ≠ tatsächlicher Amtsantritt als Premierminister",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will Naftali Bennett receive the first mandate to form a government after the 2026 Israeli election?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Naftali Bennett"
+  },
+  "polymarket:630937__predictit:8376:36094": {
+    "same_event": false,
+    "reason": "Frage A ist binär auf Demokraten-Sieg; Frage B ist eine Option (Independent Bengs) in einem Mehrparteien-Markt (Republikaner, Demokraten, Independent). Unterschiedliche Propositionen und Polarität.",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will the Democrats win the South Dakota Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Independent (Bengs)"
+  },
+  "polymarket:1170844__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "'Blue tsunami' ist unscharf/umgangssprachlich (könnte House, Senate, Presidency oder Welle bedeuten); Frage B ist spezifisch auf House-Mehrheit der Demokraten. Nicht wortgleich derselbe Event.",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Blue tsunami in 2026?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:3515993__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Frage A bezieht sich nur auf Michigan (Senat + Gouverneur); Frage B auf alle Swing-States (nur Gouverneur). Unterschiedlicher geografischer und inhaltlicher Scope.",
+    "checked_at": "2026-10-21T20:49:06.256067+00:00",
+    "frage_a": "Will Democrats sweep the Michigan Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
   }
 }
