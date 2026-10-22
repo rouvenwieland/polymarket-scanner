@@ -45,7 +45,7 @@
         "market_id": "8375:33006",
         "side": "no",
         "einstandskurs": 0.8210766096695764,
-        "letzter_kurs": 0.81,
+        "letzter_kurs": 0.8,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -87,7 +87,7 @@
         "market_id": "630806",
         "side": "yes",
         "einstandskurs": 0.315,
-        "letzter_kurs": 0.295,
+        "letzter_kurs": 0.285,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -95,7 +95,7 @@
         "market_id": "8158:31953",
         "side": "no",
         "einstandskurs": 0.65,
-        "letzter_kurs": 0.67,
+        "letzter_kurs": 0.66,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -112,7 +112,7 @@
         "market_id": "635012",
         "side": "yes",
         "einstandskurs": 0.1971949589115934,
-        "letzter_kurs": 0.12,
+        "letzter_kurs": 0.115,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -120,7 +120,7 @@
         "market_id": "8245:32302",
         "side": "no",
         "einstandskurs": 0.7786672736509072,
-        "letzter_kurs": 0.83,
+        "letzter_kurs": 0.85,
         "fee_gezahlt": 0.0
       },
       "preisbasis": "schaetzung",
@@ -137,7 +137,7 @@
         "market_id": "3190125",
         "side": "yes",
         "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.081,
+        "letzter_kurs": 0.084,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -238,7 +238,7 @@
         "market_id": "629465",
         "side": "yes",
         "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.061,
+        "letzter_kurs": 0.062,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
@@ -246,7 +246,7 @@
         "market_id": "8212:32165",
         "side": "no",
         "einstandskurs": 0.91,
-        "letzter_kurs": 0.92,
+        "letzter_kurs": 0.93,
         "fee_gezahlt": 0.0
       },
       "bereinigt": true
@@ -336,7 +336,7 @@
         "market_id": "3347348",
         "side": "yes",
         "einstandskurs": 0.5000496255265376,
-        "letzter_kurs": 0.5,
+        "letzter_kurs": 0.445,
         "fee_gezahlt": 0.0
       },
       "leg_b": {
