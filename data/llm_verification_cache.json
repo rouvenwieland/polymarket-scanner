@@ -38743,5 +38743,1265 @@
     "checked_at": "2026-10-22T05:27:01.436602+00:00",
     "frage_a": "Will AP call US Senate control by November 18, 11:59 PM?",
     "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24RBLSVE-RBL3SVE2__polymarket:5643010": {
+    "same_event": false,
+    "reason": "Different matches (AZ vs FC Twente vs RB Leipzig) and different bet types (1H Total Goals O/U vs Exact Score).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be RB Leipzig wins 3-2?"
+  },
+  "kalshi:KXNHLFIRSTGOAL-26OCT22CAREDM-EDMLDRAISAITL29__polymarket:5568108": {
+    "same_event": false,
+    "reason": "Different sports/events (Club León soccer match vs Leon Draisaitl NHL player prop).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Will Club León FC win on 2026-10-24?",
+    "frage_b": "Leon Draisaitl: First Goalscorer"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24PADHSV-PAD3HSV2__polymarket:5537496": {
+    "same_event": false,
+    "reason": "Same match but different bet types (1H Total Goals O/U 0.5 vs Exact Score 3-2).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "SC Paderborn 07 vs. Hamburger SV: 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be SC Paderborn 07 wins 3-2?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377602": {
+    "same_event": false,
+    "reason": "Different bet types (Bears 1H Team Total points vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624179": {
+    "same_event": false,
+    "reason": "Different bet types (USC 1H Team Total points vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "USC 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995104": {
+    "same_event": false,
+    "reason": "Different player props (Daniel Jones Passing TDs vs D/ST TD).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Daniel Jones: Passing Touchdowns O/U 0.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLESCALATORREC-26OCT25PITNO-NODVELE14__polymarket:5995542": {
+    "same_event": false,
+    "reason": "Different market types (Standard Receptions O/U vs Receptions Escalator).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Devaughn Vele: Receptions O/U 4.5",
+    "frage_b": "Devaughn Vele Receptions Escalator"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5994696": {
+    "same_event": false,
+    "reason": "Different player props (Jared Goff Passing TDs vs D/ST TD).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Jared Goff: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5994928": {
+    "same_event": false,
+    "reason": "Different player props (Cam Ward Passing TDs vs D/ST TD).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cam Ward: Passing Touchdowns O/U 0.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995041": {
+    "same_event": false,
+    "reason": "Different player props (Malik Willis Passing TDs vs D/ST TD).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Malik Willis: Passing Touchdowns O/U 0.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588472": {
+    "same_event": false,
+    "reason": "Different bet types (Cardinals 2H Team Total vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cardinals 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24RBLSVE-RBL3SVE2__polymarket:5536052": {
+    "same_event": false,
+    "reason": "Different bet types (1H Total Corners vs Exact Score).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "RB Leipzig vs. SV 07 Elversberg: 1st Half O/U 3.5 Total Corners",
+    "frage_b": "Will the 1st half score be RB Leipzig wins 3-2?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614631": {
+    "same_event": false,
+    "reason": "Different bet types (Liberty 1H Team Total vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Liberty 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614803": {
+    "same_event": false,
+    "reason": "Different bet types (James Madison 1H Team Total vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "James Madison 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614910": {
+    "same_event": false,
+    "reason": "Different bet types (Memphis 1H Team Total vs No TD scored).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Memphis 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24RBLSVE-RBL3SVE2__polymarket:5439257": {
+    "same_event": false,
+    "reason": "Different teams (Ararat-Armenia/AZ vs RB Leipzig) and different market types (Team 1H O/U 0.5 vs Exact 1H Score).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ararat-Armenia FA vs. AZ: AZ 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be RB Leipzig wins 3-2?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995204": {
+    "same_event": false,
+    "reason": "Different events: Player passing TDs O/U vs D/ST touchdown occurrence.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "C.J. Stroud: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995300": {
+    "same_event": false,
+    "reason": "Different events: Player passing TDs O/U vs D/ST touchdown occurrence.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Joe Burrow: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5994620": {
+    "same_event": false,
+    "reason": "Different events: Player passing TDs O/U vs D/ST touchdown occurrence.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Matthew Stafford: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587896": {
+    "same_event": false,
+    "reason": "Different events: Raiders 2H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Raiders 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588466": {
+    "same_event": false,
+    "reason": "Different events: Broncos 2H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377596": {
+    "same_event": false,
+    "reason": "Different events: Patriots 1H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Patriots 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377931": {
+    "same_event": false,
+    "reason": "Different events: Texans 1H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texans 1H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624296": {
+    "same_event": false,
+    "reason": "Different events: Kentucky 1H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Kentucky 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377617": {
+    "same_event": false,
+    "reason": "Different events: Bears 2H Team Total points O/U vs No TD scored in game.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24KOESCH-KOE0SCH2__polymarket:5438181": {
+    "same_event": false,
+    "reason": "Different halves (2H winner vs 1H exact score), different teams (Leverkusen vs Schalke), different market types.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bayer 04 Leverkusen to win the second half?",
+    "frage_b": "Will the 1st half score be Schalke 04 wins 2-0?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24FCAUNI-FCA2UNI3__polymarket:5536075": {
+    "same_event": false,
+    "reason": "Different market types: 1H Total Corners O/U vs 1H Exact Score.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "FC Augsburg vs. 1. FC Union Berlin: 1st Half O/U 3.5 Total Corners",
+    "frage_b": "Will the 1st half score be Union Berlin wins 3-2?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24RBLSVE-RBL3SVE2__polymarket:5537019": {
+    "same_event": false,
+    "reason": "Same teams/half but different market types: Leipzig 1H Goals O/U 0.5 vs 1H Exact Score 3-2.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "RB Leipzig vs. SV 07 Elversberg: RB Leipzig 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be RB Leipzig wins 3-2?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5758656": {
+    "same_event": false,
+    "reason": "Different timeframes (1H vs Full Time) and different scores (0-0 vs 3-3).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "1st Half Exact Score: Ipswich Town FC 0 - 0 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995345": {
+    "same_event": false,
+    "reason": "Different events: Derrick Henry Anytime TD (offensive) vs D/ST TD (defensive/special teams).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Derrick Henry: Anytime Touchdown",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587889": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588451": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377606": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 1H Team Total: O/U 19.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614637": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Liberty 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5618416": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Arizona 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622439": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Hawai'i 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995248": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Passing TDs eines QBs vs. D/ST Touchdown",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bryce Young: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995380": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Passing TDs eines QBs vs. D/ST Touchdown",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Brock Purdy: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLTEAMFIRSTTD-26OCT25PITNO-PIT-ARODGERS8__polymarket:5995438": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Passing TDs O/U vs. 1. Pittsburgh Touchdown",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Aaron Rodgers: Passing Touchdowns O/U 1.5",
+    "frage_b": "Aaron Rodgers: 1st Pittsburgh Touchdown"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587874": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588465": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377609": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Patriots 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377932": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texans 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5378497": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ravens 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5615686": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "UConn 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5617923": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "BYU 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624181": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Wisconsin 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624606": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ole Miss 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624609": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texas 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5758692": {
+    "same_event": false,
+    "reason": "Different timeframes (1H vs Full Time) and different exact scores (0-0 vs 3-3)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "1st Half Exact Score: Stade Brestois 29 0 - 0 OGC Nice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995444": {
+    "same_event": false,
+    "reason": "Different markets: player passing TDs O/U vs D/ST touchdown Yes/No",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Tyler Shough: Passing Touchdowns O/U 3.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587586": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Chiefs 1H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588164": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Lions 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588176": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U (2H) vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Packers 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4589326": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Vikings 1H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614916": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U (2H) vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Memphis 2H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616486": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Indiana 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624965": {
+    "same_event": false,
+    "reason": "Different bet types: team total points O/U vs no TD scored by either team",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "New Mexico 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24PADHSV-PAD3HSV2__polymarket:5536121": {
+    "same_event": false,
+    "reason": "Different markets: 1H total corners O/U vs 1H exact score",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "SC Paderborn 07 vs. Hamburger SV: 1st Half O/U 3.5 Total Corners",
+    "frage_b": "Will the 1st half score be SC Paderborn 07 wins 3-2?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24RBLSVE-RBL3SVE2__polymarket:5537059": {
+    "same_event": false,
+    "reason": "Different halves (2H vs 1H) and different markets (O/U vs exact score)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "RB Leipzig vs. SV 07 Elversberg: 2nd Half O/U 1.5",
+    "frage_b": "Will the 1st half score be RB Leipzig wins 3-2?"
+  },
+  "kalshi:KXNFLEQBTTS-26OCT25PITNO-Y__polymarket:5704139": {
+    "same_event": false,
+    "reason": "Unterschiedliche Sportarten/Marktstruktur: 'Both Teams to Score' (Fußball, ganzes Spiel) vs. 'Both teams to score in every quarter' (Basketball/Football, jedes Viertel).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Zamalek SC vs. El Mokawloon El Arab SC: Both Teams to Score",
+    "frage_b": "Both teams to score in every quarter"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588155": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD' (kein Touchdown im Spiel/Halbzeit).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Packers 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588168": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Lions 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588452": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377605": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 1H Team Total: O/U 17.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377888": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 2. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Steelers 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5617555": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Louisiana 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624295": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Kentucky 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24M05SVW-M053SVW2__polymarket:5536098": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Märkte: 1. Halbzeit O/U 3.5 Ecken (Corners) vs. Exakter Halbzeitstand 3:2 für Mainz (Tore).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "1. FSV Mainz 05 vs. SV Werder Bremen: 1st Half O/U 3.5 Total Corners",
+    "frage_b": "Will the 1st half score be FSV Mainz wins 3-2?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587309": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cowboys 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5615687": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "UConn 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616895": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "LSU 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622337": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ball State 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5623192": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 1. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ohio 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624061": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Points O/U 2. Halbzeit vs. 'No team scores a TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Georgia State 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587596": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD' (ganzes Spiel/anderer Markt).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Seahawks 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588174": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (2. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Packers 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377607": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 1H Team Total: O/U 20.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377949": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (2. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texans 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614917": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (2. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Memphis 2H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616721": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "TCU 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (2. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "TCU 2H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5618757": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Oregon 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5623191": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ohio 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5623870": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "San Diego State 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5614214": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Ergebnisse: 1-0 vs. 3-3 (Unentschieden).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Barracas Central 1 - 0 AA Estudiantes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5959398": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Ergebnisse: 1-0 vs. 3-3 (Unentschieden).",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Estudiantes 1 - 0 Club Atletico Los Andes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587588": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Chiefs 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587618": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (2. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Seahawks 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587876": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team Total Points (1. Halbzeit) vs. 'Kein Team erzielt TD'.",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587897": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Raiders 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588457": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cardinals 1H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588464": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588736": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Titans 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614805": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Appalachian State 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24FCAUNI-FCA2UNI3__polymarket:5537225": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Augsburg 1. HZ O/U 0.5 Tore vs. exaktes Ergebnis Union 3-2 in 1. HZ",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "FC Augsburg vs. 1. FC Union Berlin: FC Augsburg 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be Union Berlin wins 3-2?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587317": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Eagles 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587607": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Chiefs 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587888": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587891": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588179": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Packers 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588192": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Lions 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588459": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cardinals 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377611": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Patriots 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit vs. kein TD im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texans 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377948": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (2H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texans 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616722": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "TCU 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616729": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (2H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "TCU 2H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616898": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Auburn 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5618550": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Kansas State 1H Team Total: O/U 15.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5621566": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "North Texas 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624783": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (2H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "UTSA 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLLADDERRSHYDS-26OCT25PITNO-PITJWARREN30__polymarket:5995455": {
+    "same_event": false,
+    "reason": "Different bet types: single O/U rushing yards vs. rushing yards ladder (multiple thresholds)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Jaylen Warren: Rushing Yards O/U 59.5",
+    "frage_b": "Jaylen Warren rushing yards ladder"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5510837": {
+    "same_event": false,
+    "reason": "Different exact score propositions (1-0 vs 3-3), not complementary binary market",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Tigre 1 - 0 CA Tucumán?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5910126": {
+    "same_event": false,
+    "reason": "Different exact score propositions (0-1 vs 3-3), not complementary binary market",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Club Almagro 0 - 1 CSD Tristan Suarez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24M05SVW-M053SVW2__polymarket:5537419": {
+    "same_event": false,
+    "reason": "Different bet types: team total O/U 0.5 (1H) vs. exact score 3-2 (1H)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "1. FSV Mainz 05 vs. SV Werder Bremen: 1. FSV Mainz 05 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be FSV Mainz wins 3-2?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587310": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cowboys 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587595": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Seahawks 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587883": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Raiders 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588156": {
+    "same_event": false,
+    "reason": "Different bet types: team total points (1H) vs. no touchdown scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Packers 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588467": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 2. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4589062": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 2. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Jets 2H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377598": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Patriots 1H Team Total: O/U 19.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377874": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Steelers 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377882": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Saints 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5378489": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bengals 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614907": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "East Carolina 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616308": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Northwestern 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616896": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "LSU 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616902": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 2. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "LSU 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5617766": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texas Tech 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5618548": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Kansas State 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5623563": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 2. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Nevada 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5623658": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total Punkte in 1. Halbzeit vs. kein Touchdown im gesamten Spiel",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Boise State 1H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995586": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Spieler-Touchdown (Noah Fant) vs. Defense/Special Teams Touchdown",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Noah Fant: Anytime Touchdown",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5458317": {
+    "same_event": false,
+    "reason": "Different exact score outcomes (Flamengo 2-0 vs Draw 3-3)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CR Flamengo 2 - 0 Estudiantes de La Plata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5483870": {
+    "same_event": false,
+    "reason": "Different exact score outcomes (Polissia 2-0 vs Draw 3-3)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: FK Polissia 2 - 0 FK Obolon Kyiv?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587587": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Chiefs 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587878": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 1H Team Total: O/U 19.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588454": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Broncos 1H Team Total: O/U 19.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588473": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Cardinals 2H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4589317": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Colts 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377879": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Saints 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5614811": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Appalachian State 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616204": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Miami (FL) 1H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616492": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Indiana 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5616725": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "West Virginia 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5617451": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Akron 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5619417": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Clemson 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622103": {
+    "same_event": false,
+    "reason": "Different bet types: Team Total O/U points vs No TD scored",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Buffalo 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622228": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Texas A&M 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622238": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Alabama 2H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624302": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Kentucky 2H Team Total: O/U 14.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5598000": {
+    "same_event": false,
+    "reason": "Zwei verschiedene Exact-Score-Ausgänge (1:0 vs. 3:3 Unentschieden) - gegenseitig ausschließend, aber nicht dieselbe Frage mit umgekehrter Polarität",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Athletic Club 1 - 0 Getafe CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5959535": {
+    "same_event": false,
+    "reason": "Zwei verschiedene Exact-Score-Ausgänge (1:0 vs. 3:3 Unentschieden) - gegenseitig ausschließend, aber nicht dieselbe Frage mit umgekehrter Polarität",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Patronato Parana 1 - 0 Agropecuario Argentino?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587597": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Seahawks 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587890": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Rams 2H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4587899": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Raiders 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:4588728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Browns 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377597": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Patriots 1H Team Total: O/U 17.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5377619": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Bears 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5378221": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Panthers 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5621574": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "North Texas 1H Team Total: O/U 15.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5621973": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 2. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Tennessee 2H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5622097": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total 1. Halbzeit (Over/Under Punkte) vs. 'Kein Team erzielt TD' (ganzes Spiel)",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Buffalo 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624611": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Ole Miss 2H Team Total: O/U 11.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLFIRSTTDTEAM-26OCT25PITNO-NONE__polymarket:5624773": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "UTSA 1H Team Total: O/U 13.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNFLDSTTD-26OCT25PITNO-Y__polymarket:5995208": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Jameis Winston: Passing Touchdowns O/U 1.5",
+    "frage_b": "D/ST touchdown in the game?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5458313": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CR Flamengo 1 - 0 Estudiantes de La Plata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24M05SVW-M052SVW0__polymarket:5479482": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "VfB Stuttgart to win the second half?",
+    "frage_b": "Will the 1st half score be FSV Mainz wins 2-0?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5510753": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 1 CA Platense?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5510794": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 0 CA Sarmiento?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5518726": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Tōkyō Verdy 1 - 1 Avispa Fukuoka?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5522167": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Incheon United FC 1 - 1 Jeju SK FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5526187": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Cagliari Calcio 1 - 1 Bologna FC 1909?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5570845": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CA Rosario Central 1 - 0 CA Huracán?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGA1HSCORE-26OCT24M05SVW-M050SVW2__polymarket:5590014": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "FC Internazionale Milano to win the second half?",
+    "frage_b": "Will the 1st half score be Werder Bremen wins 2-0?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5594309": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: Sunderland AFC 1 - 1 Leeds United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5597899": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "Exact Score: CE Sabadell FC 1 - 0 CD Tenerife?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXBUNDESLIGASCORE-26OCT24RBLSVE-RBL3SVE3__polymarket:5758658": {
+    "same_event": false,
+    "reason": "Different questions",
+    "checked_at": "2026-10-22T14:23:19.640808+00:00",
+    "frage_a": "1st Half Exact Score: Ipswich Town FC 0 - 1 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
   }
 }
