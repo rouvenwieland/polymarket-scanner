@@ -38638,5 +38638,110 @@
     "checked_at": "2026-10-22T00:21:11.830127+00:00",
     "frage_a": "Will AP call US Senate control by December 2, 11:59 PM?",
     "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6035055__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Different bet type (total runs vs winner)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: 1st 5 Innings O/U 3.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6035070__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Different bet type (team total vs winner)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 3.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6035065__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Different bet type (team total vs winner)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 2.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6035061__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Different event (after‑5‑innings lead vs final winner)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5765886__predictit:8396:33065": {
+    "same_event": false,
+    "reason": "Different event (candidate flip vs party win)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Hamilton flips Marshall for Kansas Senate by November 2?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - GOP (Marshall)"
+  },
+  "polymarket:5166768__predictit:8939:35603": {
+    "same_event": false,
+    "reason": "Different phrasing/polarity (binary choice vs specific answer)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Closer Senate Race: Maine or Texas?",
+    "frage_b": "Which 2026 Senate race will be the closest? - Maine"
+  },
+  "kalshi:KXEBASKETBALLGAME-26OCT220220CLYDSHAQ-SHAQ__polymarket:2646003": {
+    "same_event": false,
+    "reason": "Different event (player roster vs team win)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will Russell Westbrook play for the New Orleans Pelicans in 2026-27?",
+    "frage_b": "New Orleans Pelicans (Shaq) wins"
+  },
+  "polymarket:6028087__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Different event (AP call timing vs party control)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will AP call US Senate control by November 4, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:629733__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (single race vs sweep)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will the Democrats win the Wyoming governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629653__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (single race vs sweep)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will the Democrats win the South Dakota governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629283__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (single race vs sweep)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will the Democrats win the Arkansas governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629363__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (single race vs sweep)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will the Democrats win the Idaho governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:3516240__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (NH Senate+Gov vs swing state Gov sweep)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will Democrats sweep the New Hampshire Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:6028092__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Different event (AP call timing vs party control)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will AP call US Senate control by January 4, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6028090__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Different event (AP call timing vs party control)",
+    "checked_at": "2026-10-22T05:27:01.436602+00:00",
+    "frage_a": "Will AP call US Senate control by November 18, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
   }
 }
