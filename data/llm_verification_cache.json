@@ -38554,5 +38554,89 @@
     "checked_at": "2026-10-21T20:49:06.256067+00:00",
     "frage_a": "Will Democrats sweep the Michigan Senate and Governor elections?",
     "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:5675601__sxbet:0xdffb985f9e967c05cde034d9b01a805f145325406bb5ac49b748c29809a7bcbd": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: 1Q Moneyline",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5614918__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": true,
+    "reason": "Identische Teams (NCCU vs. Delaware State) und Wettart (Moneyline/Sieger)",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5614936__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 59.5 vs. Moneyline/Sieger",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 59.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5614934__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 55.5 vs. Moneyline/Sieger",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 55.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5035391__sxbet:0xb5abfd6d580da970dfcf82ae224a733fa1b77a91558db23c29bf20b3de76e4a8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (Blue Jackets vs. Blues) und Wettart (O/U vs. Sieger)",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Golden Knights vs. Blue Jackets: O/U 5.5",
+    "frage_b": "St. Louis Blues vs Vegas Golden Knights - wer gewinnt?"
+  },
+  "polymarket:5035393__sxbet:0xb5abfd6d580da970dfcf82ae224a733fa1b77a91558db23c29bf20b3de76e4a8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (Blue Jackets vs. Blues) und Wettart (O/U vs. Sieger)",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Golden Knights vs. Blue Jackets: O/U 7.5",
+    "frage_b": "St. Louis Blues vs Vegas Golden Knights - wer gewinnt?"
+  },
+  "polymarket:6028084__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fragestellung: AP-Call bis Datum vs. finale Parteienkontrolle 2026",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will AP call US Senate control by November 3, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6028085__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fragestellung: AP-Call bis Datum vs. finale Parteienkontrolle 2026",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will AP call US Senate control by November 4, 12:59 AM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6028089__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fragestellung: AP-Call bis Datum vs. finale Parteienkontrolle 2026",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will AP call US Senate control by November 13, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6028088__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fragestellung: AP-Call bis Datum vs. finale Parteienkontrolle 2026",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will AP call US Senate control by November 6, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:2773663__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: 3 spezifische Rennen in Kamala-Staaten vs. gesamte Senatskontrolle",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will Republicans win 3 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:6028091__predictit:8155:31947": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fragestellung: AP-Call bis Datum vs. finale Parteienkontrolle 2026",
+    "checked_at": "2026-10-22T00:21:11.830127+00:00",
+    "frage_a": "Will AP call US Senate control by December 2, 11:59 PM?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
   }
 }
