@@ -5359,3 +5359,89 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-23T14:07:25.546474+02:00,6023667,Exact Score: SC Internacional 1 - 1 Coritiba FBC?,bra-int-cor-2026-11-03-exact-score-1-1,0.48,0.515,0.995,0.0,15.9193,2026-11-04T00:30:00Z,schaetzung
 2026-10-23T14:07:25.546474+02:00,6023677,Exact Score: SC Internacional 4 - 0 Coritiba FBC?,bra-int-cor-2026-11-03-exact-score-4-0,0.48,0.515,0.995,0.0,15.9193,2026-11-04T00:30:00Z,schaetzung
 2026-10-23T14:07:25.546474+02:00,6079715,Exact Score: Al Duhail SC 5 - 1 Lusail SC?,qat1-duh-lus-2026-10-24-exact-score-5-1,0.485,0.51,0.995,0.0,12.1697,2026-10-24T16:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,3344397,Exact Score: CA Bucaramanga 2 - 2 AD Pasto?,col1-cab-adp-2026-08-17-exact-score-2-2,0.485,0.51,0.995,0.0,4.2199,2026-10-31T01:05:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5559281,Exact Score: Denver Summit FC 5 - 1 Racing Louisville FC?,nwsl-den-rac-2026-10-24-exact-score-5-1,0.48,0.515,0.995,0.0,19.0195,2026-10-24T22:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5578221,Exact Score: CD Comerciantes Unidos 0 - 4 CS Cienciano?,per1-ccu-cs1-2026-10-25-exact-score-0-4,0.455,0.54,0.9950000000000001,0.0,18.0193,2026-10-25T16:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5580039,Exact Score: FC Tōkyō 0 - 4 FC Mito Holly Hock?,jap-fct-hol-2026-10-25-exact-score-0-4,0.354,0.6455,0.9994999999999999,0.0,270.44388,2026-10-25T07:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5582314,Exact Score: AC Horsens 5 - 0 Sønderjyske Fodbold?,den-hor-sjs-2026-10-25-exact-score-5-0,0.385,0.61,0.995,0.0,106.2477,2026-10-25T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5614068,Exact Score: CA Aldosivi 3 - 5 CA Belgrano?,arg-ald-bel-2026-10-25-exact-score-3-5,0.255,0.74,0.995,0.0,95.6796,2026-10-25T17:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5627591,Exact Score: Club Aurora 5 - 3 CD Real Tomayapo?,bol1-aur-tom-2026-10-25-exact-score-5-3,0.48,0.515,0.995,0.0,18.9193,2026-10-25T21:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5681335,Exact Score: L.R. Vicenza 2 - 0 Modena FC 2018?,itsb-vic-mod-2026-10-27-exact-score-2-0,0.48,0.515,0.995,0.0,13.8396,2026-10-27T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5681350,Exact Score: L.R. Vicenza 5 - 0 Modena FC 2018?,itsb-vic-mod-2026-10-27-exact-score-5-0,0.48,0.515,0.995,0.0,13.6592,2026-10-27T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5692401,Exact Score: CE Manresa 4 - 1 UE Sant Andreu?,cdr-cm-ue1-2026-10-27-exact-score-4-1,0.48,0.515,0.995,0.0,13.6392,2026-10-27T19:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5692669,Exact Score: RSD Alcalá 3 - 0 UD Las Palmas?,cdr-alc-lpm-2026-10-27-exact-score-3-0,0.48,0.515,0.995,0.0,13.8393,2026-10-27T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5692771,Exact Score: Arosa SC 4 - 1 Pontevedra CF?,cdr-aro-pon-2026-10-27-exact-score-4-1,0.48,0.515,0.995,0.0,13.7393,2026-10-27T20:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5699416,Exact Score: National Bank of Egypt Club 1 - 2 El Masry SC?,egy1-nbo-ems-2026-10-28-exact-score-1-2,0.48,0.515,0.995,0.0,13.6595,2026-10-28T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5713130,Exact Score: Parma Calcio 1913 5 - 3 Udinese Calcio?,sea-par-udi-2026-10-28-exact-score-5-3,0.46,0.535,0.9950000000000001,0.0,31.8395,2026-10-28T17:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5728504,Exact Score: AS Néstos Chrysoúpolis 3 - 0 PS Kalamáta?,grc-anc-pk-2026-10-28-exact-score-3-0,0.48,0.515,0.995,0.0,12.4076,2026-10-28T13:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5729919,Exact Score: VVV Venlo 4 - 4 SBV Vitesse?,nlc-vvv-vit-2026-10-28-exact-score-4-4,0.48,0.515,0.995,0.0,12.5621,2026-10-28T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5729943,Exact Score: Excelsior Maassluis 3 - 0 SC Heerenveen?,nlc-exm-hee-2026-10-28-exact-score-3-0,0.48,0.515,0.995,0.0,13.6996,2026-10-28T20:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5739982,Exact Score: Toronto FC 4 - 2 D.C. United SC?,mls-tor-dcu-2026-10-28-exact-score-4-2,0.48,0.515,0.995,0.0,13.7393,2026-10-28T23:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5743865,Exact Score: CD Anaitasuna 1 - 3 Deportivo Alavés?,cdr-ana-ala-2026-10-28-exact-score-1-3,0.48,0.515,0.995,0.0,12.5852,2026-10-28T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5744878,Exact Score: CF Trival Valderas 5 - 2 CD Leganés?,cdr-tri-leg-2026-10-28-exact-score-5-2,0.48,0.515,0.995,0.0,13.7393,2026-10-28T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5745985,Exact Score: Holstein Kiel 0 - 3 TSG 1899 Hoffenheim?,dfb-ksv-hof-2026-10-28-exact-score-0-3,0.48,0.515,0.995,0.0,13.5995,2026-10-28T19:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5758807,Exact Score: FK Austria Wien 5 - 3 Juventus FC?,uwcl-faw-juv-2026-10-29-exact-score-5-3,0.48,0.515,0.995,0.0,12.5621,2026-10-29T17:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5786044,Exact Score: FK Bodø/Glimt 2 - 1 Viking FK?,nor-bog-vik-2026-10-30-exact-score-2-1,0.48,0.515,0.995,0.0,13.8394,2026-10-30T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5799442,Exact Score: Royal Francs Borains 2 - 5 FCV Dender EH?,bel2-rfb-den-2026-10-23-exact-score-2-5,0.48,0.515,0.995,0.0,3.2197,2026-10-23T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5800161,Exact Score: FK Shakhtar Donetsk 1 - 3 FK Obolon Kyiv?,ukr1-shd-obo-2026-10-30-exact-score-1-3,0.48,0.515,0.995,0.0,13.7393,2026-10-30T16:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5810693,Exact Score: Inter Milano U23 4 - 2 ASD Sorrento 1945?,serc-int-sor-2026-10-24-exact-score-4-2,0.47,0.525,0.995,0.0,14.1398,2026-10-24T12:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5823213,Will Ryan Brehm finish in the Top 5 at the 2026 Butterfield Bermuda Championship?,2026-butterfield-bermuda-championship-top5-ryan-brehm,0.02,0.5,0.52,10.0,0.0,2026-10-25T00:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5824445,Exact Score: Erzurumspor FK 5 - 4 Çorum FK?,tur-erz-cf-2026-10-31-exact-score-5-4,0.48,0.515,0.995,0.0,13.7393,2026-10-31T10:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5832372,Exact Score: SK Sigma Olomouc 4 - 3 FC Zbrojovka Brno?,cze1-sso-zbr-2026-10-31-exact-score-4-3,0.48,0.515,0.995,0.0,13.7393,2026-10-31T17:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5851831,Exact Score: 1. FC Kaiserslautern 2 - 0 Hertha BSC?,bl2-fck-ber-2026-10-31-exact-score-2-0,0.48,0.515,0.995,0.0,12.5795,2026-10-31T12:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5852383,Exact Score: Bayer 04 Leverkusen 4 - 1 VfB Stuttgart?,bun-b04-stu-2026-10-31-exact-score-4-1,0.48,0.515,0.995,0.0,12.4095,2026-10-31T14:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5852801,Exact Score: Bolton Wanderers FC 5 - 3 Bristol City FC?,elc-bol-bri-2026-10-31-exact-score-5-3,0.48,0.515,0.995,0.0,13.7393,2026-10-31T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5858602,Exact Score: Al-Sailiya SC 3 - 3 Al Rayyan SC?,qat1-als-alr-2026-10-23-exact-score-3-3,0.473,0.522,0.995,0.0,3.61905,2026-10-23T16:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5859204,Exact Score: Celta Fortuna 0 - 1 Córdoba CF?,es2-cel-cor-2026-10-31-exact-score-0-1,0.48,0.515,0.995,0.0,13.7393,2026-10-31T17:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5864267,Exact Score: US Catanzaro 1929 5 - 1 Calcio Padova?,itsb-cat-pad-2026-10-31-exact-score-5-1,0.48,0.515,0.995,0.0,12.4744,2026-10-31T16:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5864318,Exact Score: UC Sampdoria 4 - 2 Virtus Entella?,itsb-sam-ent-2026-10-31-exact-score-4-2,0.48,0.515,0.995,0.0,13.7794,2026-10-31T18:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5864535,Exact Score: Bradford City AFC 4 - 4 Huddersfield Town AFC?,el1-bra-hud-2026-10-31-exact-score-4-4,0.48,0.515,0.995,0.0,13.7393,2026-10-31T12:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5864889,Exact Score: Barnsley FC 2 - 3 Oxford United FC?,el1-bar-oxf-2026-10-31-exact-score-2-3,0.48,0.515,0.995,0.0,13.9192,2026-10-31T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5870709,Exact Score: Worthing FC 1 - 0 Sutton United FC?,enl-wor-sut-2026-10-31-exact-score-1-0,0.485,0.51,0.995,0.0,9.2199,2026-10-31T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5870731,Exact Score: Worthing FC 4 - 2 Sutton United FC?,enl-wor-sut-2026-10-31-exact-score-4-2,0.485,0.51,0.995,0.0,9.2199,2026-10-31T15:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5872919,Exact Score: FK Železiarne Podbrezová 2 - 1 ŠK Slovan Bratislava?,svk1-pod-sba-2026-10-31-exact-score-2-1,0.48,0.515,0.995,0.0,13.7593,2026-10-31T17:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5889875,Exact Score: Rams Başakşehir FK 3 - 2 Samsunspor?,tur-iba-sam-2026-11-01-exact-score-3-2,0.485,0.51,0.995,0.0,9.2199,2026-11-01T13:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5889915,Exact Score: Trabzonspor 3 - 0 Gaziantep FK?,tur-tra-gfk-2026-11-01-exact-score-3-0,0.485,0.51,0.995,0.0,9.2199,2026-11-01T13:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5894081,Exact Score: Any Other Score?,gre1-aek-pa-2026-10-24-exact-score-any-other,0.47,0.525,0.995,0.0,12.9395,2026-10-24T17:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5895852,Exact Score: FK Orenburg 2 - 3 PFK CSKA Moskva?,rus-ore-csk-2026-11-01-exact-score-2-3,0.485,0.51,0.995,0.0,9.2199,2026-11-01T10:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5900926,Exact Score: O'Higgins FC 5 - 0 CD Ñublense?,chi1-ohf-cdu-2026-10-31-exact-score-5-0,0.485,0.51,0.995,0.0,9.2199,2026-10-31T23:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5900939,Exact Score: Club ABB 2 - 3 CD San Antonio Bulo Bulo?,bol1-abb-ant-2026-10-31-exact-score-2-3,0.485,0.51,0.995,0.0,9.2199,2026-10-31T21:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5901304,Exact Score: Any Other Score?,col1-llf-cjf-2026-10-31-exact-score-any-other,0.485,0.51,0.995,0.0,4.2199,2026-10-31T23:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5901697,Exact Score: Bohemians Praha 1905 4 - 1 AC Sparta Praha?,cze1-bop-asp-2026-11-01-exact-score-4-1,0.485,0.51,0.995,0.0,9.2199,2026-11-01T17:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5901725,Exact Score: Dinamo 1948 0 - 2 FC UTA Arad?,rou1-din-fua-2026-11-01-exact-score-0-2,0.485,0.51,0.995,0.0,9.2199,2026-11-01T18:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5903541,Exact Score: FC Machida Zelvia 4 - 0 Gamba Ōsaka?,jap-zel-gam-2026-11-01-exact-score-4-0,0.485,0.51,0.995,0.0,9.2199,2026-11-01T07:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5904136,Exact Score: Vålerenga Fotball 4 - 1 Tromsø IL?,nor-vif-tro-2026-11-01-exact-score-4-1,0.485,0.51,0.995,0.0,9.2199,2026-11-01T18:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5909504,Exact Score: Frosinone Calcio 5 - 4 Torino FC?,sea-fro-tor-2026-11-01-exact-score-5-4,0.485,0.51,0.995,0.0,9.2199,2026-11-01T14:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5917623,Exact Score: US Avellino 1912 1 - 2 Pisa SC?,itsb-ave-pis-2026-11-01-exact-score-1-2,0.48,0.515,0.995,0.0,12.6865,2026-11-01T14:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5923664,Exact Score: Seattle Reign FC 2 - 2 Orlando Pride?,nwsl-rei-pri-2026-11-01-exact-score-2-2,0.48,0.515,0.995,0.0,12.7465,2026-11-01T22:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5935097,Exact Score: CA Defensores de Belgrano 5 - 0 CA San Miguel?,argpn-ddb-casm-2026-10-26-exact-score-5-0,0.48,0.515,0.995,0.0,13.4715,2026-10-26T18:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5936626,Exact Score: Club Guabirá 5 - 1 Club Bolívar?,bol1-gua-bol-2026-11-01-exact-score-5-1,0.48,0.515,0.995,0.0,13.7193,2026-11-01T21:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5936669,Exact Score: CD Universidad Católica 4 - 4 CF Universidad de Chile?,chi1-cuc-cud-2026-11-01-exact-score-4-4,0.48,0.515,0.995,0.0,13.7195,2026-11-01T20:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5936859,Exact Score: FC Universitario 2 - 3 Club Always Ready?,bol1-uvi-alw-2026-11-01-exact-score-2-3,0.48,0.515,0.995,0.0,13.6793,2026-11-01T23:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5963801,Exact Score: Red Star FC 5 - 4 AS Nancy-Lorraine?,fr2-rst-asn-2026-11-02-exact-score-5-4,0.48,0.515,0.995,0.0,13.6793,2026-11-02T19:45:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5967081,Exact Score: Nueva Chicago 1 - 4 San Martin de San Juan?,argpn-chi-sma-2026-10-26-exact-score-1-4,0.445,0.55,0.9950000000000001,0.0,18.0194,2026-10-26T16:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5969661,Exact Score: Inter Milano U23 2 - 3 Scafatese Calcio 1922?,serc-int-scc-2026-10-27-exact-score-2-3,0.48,0.515,0.995,0.0,13.6993,2026-10-27T13:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5978197,Will Pranesh Munirethinam finish in the Top 8 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top8-pranesh-munirethinam,0.49,0.5,0.99,0.0,60.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5980280,Exact Score: CA Tucumán 2 - 0 AA Argentinos Juniors?,arg-cat-aaj-2026-11-02-exact-score-2-0,0.48,0.515,0.995,0.0,13.5993,2026-11-03T00:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5980303,Exact Score: CA Tucumán 4 - 3 AA Argentinos Juniors?,arg-cat-aaj-2026-11-02-exact-score-4-3,0.48,0.515,0.995,0.0,13.5993,2026-11-03T00:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5980890,Exact Score: Sport Lisboa e Benfica 5 - 4 FC Alverca?,por-ben-alv-2026-11-02-exact-score-5-4,0.48,0.515,0.995,0.0,13.5793,2026-11-02T20:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5980934,Exact Score: Gil Vicente FC 4 - 2 Vitória SC?,por-gil-gui-2026-11-02-exact-score-4-2,0.48,0.515,0.995,0.0,13.5793,2026-11-02T20:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5980944,Exact Score: Gil Vicente FC 5 - 4 Vitória SC?,por-gil-gui-2026-11-02-exact-score-5-4,0.48,0.515,0.995,0.0,13.5793,2026-11-02T20:15:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5989423,Exact Score: Cúcuta Deportivo FC 3 - 1 Independiente Santa Fe?,col1-cdf-isf-2026-11-02-exact-score-3-1,0.48,0.515,0.995,0.0,13.5793,2026-11-02T23:10:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5989745,Exact Score: Raja Club Athletic 4 - 3 HUS Agadir?,mar1-rca-hua-2026-10-28-exact-score-4-3,0.48,0.515,0.995,0.0,12.4716,2026-10-28T19:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5992903,Exact Score: FC Koper 4 - 2 NK Maribor?,slo-kop-nkm-2026-10-27-exact-score-4-2,0.48,0.515,0.995,0.0,12.4065,2026-10-27T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5993180,Exact Score: Ōita Trinita 1 - 2 Vanraure Hachinohe FC?,ja2-oit-van-2026-11-03-exact-score-1-2,0.48,0.515,0.995,0.0,12.4328,2026-11-03T05:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5993270,Exact Score: Fujieda MYFC 1 - 3 Júbilo Iwata?,ja2-fuj-jub-2026-11-03-exact-score-1-3,0.48,0.515,0.995,0.0,13.5793,2026-11-03T05:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,5993442,Exact Score: Ventforet Kōfu 1 - 3 Albirex Niigata?,ja2-ven-alb-2026-11-03-exact-score-1-3,0.48,0.515,0.995,0.0,12.4065,2026-11-03T05:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6009134,Will the fight be won by KO or TKO?,powerslap-25-kamotskii-viernes-2026-10-23-win-by-ko-tko,0.495,0.5,0.995,0.0,0.0,2026-10-24T03:59:59.999Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6009717,Exact Score: FC Isloch 1 - 0 Maxline Vitebsk?,blr1-isl-max-2026-10-28-exact-score-1-0,0.48,0.515,0.995,0.0,13.3766,2026-10-28T12:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6019095,Exact Score: Real Sociedad San Sebastian 3 - 1 Fenerbahce Istanbul?,uwec-rso-fen-2026-10-28-exact-score-3-1,0.48,0.515,0.995,0.0,14.7465,2026-10-28T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6019126,Exact Score: PSV Eindhoven 0 - 1 Eintracht Frankfurt?,uwec-psv-sge-2026-10-28-exact-score-0-1,0.48,0.515,0.995,0.0,12.3872,2026-10-28T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6019127,Exact Score: PSV Eindhoven 1 - 0 Eintracht Frankfurt?,uwec-psv-sge-2026-10-28-exact-score-1-0,0.48,0.515,0.995,0.0,15.9193,2026-10-28T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6019193,Exact Score: VfL Wolfsburg 5 - 1 Feyenoord Rotterdam?,uwec-wob-fey-2026-10-28-exact-score-5-1,0.48,0.515,0.995,0.0,15.9193,2026-10-28T18:00:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6023667,Exact Score: SC Internacional 1 - 1 Coritiba FBC?,bra-int-cor-2026-11-03-exact-score-1-1,0.48,0.515,0.995,0.0,15.9193,2026-11-04T00:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6023677,Exact Score: SC Internacional 4 - 0 Coritiba FBC?,bra-int-cor-2026-11-03-exact-score-4-0,0.48,0.515,0.995,0.0,15.9193,2026-11-04T00:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6025181,Exact Score: Monagas SC 5 - 0 Academia Puerto Cabello?,ven1-msc-apc-2026-10-24-exact-score-5-0,0.48,0.515,0.995,0.0,12.446,2026-10-24T21:30:00Z,schaetzung
+2026-10-23T19:26:50.742994+02:00,6085986,Exact Score: Bangor FC 2 - 5 Larne FC?,nirl1-ban-lar-2026-10-24-exact-score-2-5,0.48,0.515,0.995,0.0,10.1695,2026-10-24T17:00:00Z,schaetzung
