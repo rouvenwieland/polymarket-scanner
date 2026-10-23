@@ -40087,5 +40087,89 @@
     "checked_at": "2026-10-23T00:13:16.926993+00:00",
     "frage_a": "Will Republicans sweep the Iowa Senate and Governor elections?",
     "frage_b": "Which party will win the 2026 election for governor of Iowa? - Republican"
+  },
+  "polymarket:5614937__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 61.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5614935__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 57.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5614933__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 53.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:5631939__sxbet:0xce6a4493e7abd057b8d9512ebcb194e303e18a1138037d12001b3a606dd48fac": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamt-Touchdowns vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Rice vs. Florida Atlantic: Total Touchdowns O/U 7.5",
+    "frage_b": "Florida Atlantic Owls vs Rice Owls - wer gewinnt?"
+  },
+  "polymarket:5978566__sxbet:0x31b69a8754e3b3bce21dd7cf7d2841231d9c78ebef2c26278a6e498d77f53c62": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit Moneyline vs. Gesamtsieger (Full Game)",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Western Michigan vs. Toledo: 1H Moneyline",
+    "frage_b": "Toledo Rockets vs Western Michigan Broncos - wer gewinnt?"
+  },
+  "kalshi:KXNBA1HTEAMTOTAL-26OCT23MEMGSW-MEM71__polymarket:5643130": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Events: Fußball (AZ vs FC Twente, 1. HZ Tore) vs. Basketball (Memphis, 1. HZ Punkte)",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "AZ vs. FC Twente: FC Twente 1st Half O/U 0.5",
+    "frage_b": "Memphis over 70.5 1st half points scored"
+  },
+  "polymarket:5978569__sxbet:0x31b69a8754e3b3bce21dd7cf7d2841231d9c78ebef2c26278a6e498d77f53c62": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel Moneyline vs. Gesamtsieger (Full Game)",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Western Michigan vs. Toledo: 1Q Moneyline",
+    "frage_b": "Toledo Rockets vs Western Michigan Broncos - wer gewinnt?"
+  },
+  "polymarket:5614932__sxbet:0x6e8931c4fb920c9d9dc894280c9a37e307b01b67354aa6349c1f371308bc8186": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "North Carolina Central vs. Delaware State: O/U 51.5",
+    "frage_b": "Delaware State Hornets vs North Carolina Central - wer gewinnt?"
+  },
+  "polymarket:6035064__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Runs (Tampa Bay) vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 1.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "kalshi:KXNBA1HTEAMTOTAL-26OCT23MEMGSW-MEM71__polymarket:5643014": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Events: Fußball (AZ vs FC Twente, 1. HZ Tore) vs. Basketball (Memphis, 1. HZ Punkte)",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 1.5",
+    "frage_b": "Memphis over 70.5 1st half points scored"
+  },
+  "polymarket:5631921__sxbet:0xce6a4493e7abd057b8d9512ebcb194e303e18a1138037d12001b3a606dd48fac": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamt-Touchdowns vs. Moneyline/Sieger des Spiels",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Rice vs. Florida Atlantic: Total Touchdowns O/U 6.5",
+    "frage_b": "Florida Atlantic Owls vs Rice Owls - wer gewinnt?"
+  },
+  "polymarket:6067012__predictit:8157:31952": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wahlen: Spanische Wahl (Wahlkreis Ceuta, Partei PP) vs. US-Wahl (Repräsentantenhaus, Republikaner)",
+    "checked_at": "2026-10-23T05:52:30.793982+00:00",
+    "frage_a": "Will PP win the Ceuta seat in the 2026 Spanish general election?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
   }
 }
