@@ -5252,3 +5252,8 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-22T23:55:45.485905+02:00,5798669,Game 1: Both Teams Beat Roshan?,dota2-1win-og-2026-10-23-game1-both-teams-beat-roshan,0.5,0.495,0.995,0.0,0.0,2026-10-23T12:00:00Z,schaetzung
 2026-10-22T23:55:45.485905+02:00,5967681,Will Casey Mears win the 2026 NASCAR Cup Series YellaWood 500?,nascar-yellawood-500-winner-casey-mears-2026-10-25,0.4595,0.54,0.9995,0.0,550.89022,2026-11-01T18:00:00Z,schaetzung
 2026-10-22T23:55:45.485905+02:00,6000394,Jaxon Smith-Njigba: 2+ Touchdowns,nfl-kc-sea-2026-10-26-2plus-td-jaxon-smith-njigba,0.485,0.51,0.995,0.0,2.0999,2026-10-26T00:20:00Z,schaetzung
+2026-10-23T07:54:17.931385+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-23T07:54:17.931385+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-23T07:54:17.931385+02:00,5534709,Exact Score: Chelsea FC 1 - 4 Tottenham Hotspur FC?,epl-che-tot-2026-10-24-exact-score-1-4,0.0035,0.996,0.9994999999999999,0.0,19670.90348,2026-10-24T16:30:00Z,schaetzung
+2026-10-23T07:54:17.931385+02:00,5798669,Game 1: Both Teams Beat Roshan?,dota2-1win-og-2026-10-23-game1-both-teams-beat-roshan,0.5,0.495,0.995,0.0,0.0,2026-10-23T12:00:00Z,schaetzung
+2026-10-23T07:54:17.931385+02:00,5798726,Game 3: Both Teams Destroy Barracks?,dota2-bb4-ai1-2026-10-23-game3-both-teams-destroy-barracks,0.495,0.5,0.995,0.0,0.0,2026-10-23T19:00:00Z,schaetzung
