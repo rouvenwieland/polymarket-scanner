@@ -40003,5 +40003,89 @@
     "checked_at": "2026-10-22T14:23:19.640808+00:00",
     "frage_a": "1st Half Exact Score: Ipswich Town FC 0 - 1 Nottingham Forest FC?",
     "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:6035071__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs O/U) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 4.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6035068__sxbet:0xe64a8cd43a977dca09d971b2730ac3478702afdfa132e864bca66e964cb83d84": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs O/U) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 1.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:2773665__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: 5 spezifische Rennen in Harris-Staaten vs. gesamte Senatskontrolle",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Republicans win 5 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:629505__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelnes Rennen (NV Gov) vs. Sweep aller Swing-State-Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will the Democrats win the Nevada governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:3516134__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: OH Sen+Gov vs. alle Swing-State-Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Democrats sweep the Ohio Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:5971441__predictit:8377:33519": {
+    "same_event": false,
+    "reason": "Parlay aus 3 Rennen vs. einzelnes Rennen (MT Sen)",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Democrats win the Mississippi Senate seat, Republicans win South Carolina, and an independent win Montana?",
+    "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent (Bodnar)"
+  },
+  "polymarket:3516003__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: ME Sen+Gov vs. alle Swing-State-Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Democrats sweep the Maine Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629337__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelnes Rennen (GA Gov) vs. Sweep aller Swing-State-Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will the Democrats win the Georgia governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:3729337__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: GA Sen+Gov vs. alle Swing-State-Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Democrats sweep the Georgia Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:5971439__predictit:8377:33519": {
+    "same_event": false,
+    "reason": "Parlay aus 3 Rennen vs. einzelnes Rennen (MT Sen)",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Republicans win the Mississippi Senate seat, Democrats win South Carolina, and an independent win Montana?",
+    "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent (Bodnar)"
+  },
+  "polymarket:630833__predictit:8377:33519": {
+    "same_event": false,
+    "reason": "Generische Formulierung ('an Independent') vs. spezifischer Kandidat ('Bodnar')",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will an Independent win the Montana Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent (Bodnar)"
+  },
+  "polymarket:3515948__predictit:8378:33011": {
+    "same_event": false,
+    "reason": "Sweep (Sen+Gov) vs. einzelnes Gov-Rennen",
+    "checked_at": "2026-10-23T00:13:16.926993+00:00",
+    "frage_a": "Will Republicans sweep the Iowa Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 election for governor of Iowa? - Republican"
   }
 }
