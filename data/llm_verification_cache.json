@@ -40171,5 +40171,1580 @@
     "checked_at": "2026-10-23T05:52:30.793982+00:00",
     "frage_a": "Will PP win the Ceuta seat in the 2026 Spanish general election?",
     "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6040700": {
+    "same_event": false,
+    "reason": "Different strike prices ($101 vs $101.89) and different dates (Oct 23 unspecified year vs Oct 23, 2026).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "WTI Crude Oil (WTI) closes above $101 on October 23?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6040649": {
+    "same_event": false,
+    "reason": "Different underlying assets (Meta stock vs WTI Crude Oil).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Will Meta (META) close above $680 on October 23?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6040651": {
+    "same_event": false,
+    "reason": "Different underlying assets (Meta stock vs WTI Crude Oil).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Will Meta (META) close above $700 on October 23?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6040650": {
+    "same_event": false,
+    "reason": "Different underlying assets (Meta stock vs WTI Crude Oil).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Will Meta (META) close above $690 on October 23?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "polymarket:5616511__sxbet:0xa5c4dcac18d07fdfab1a5de15048c7ada0ef3e04ab5490c3cd034e0674af21e7": {
+    "same_event": false,
+    "reason": "Different bet types (Total Points Over/Under 51.5 vs Moneyline Winner).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "New Haven vs. Central Connecticut State: O/U 51.5",
+    "frage_b": "Central Connecticut Blue Devils vs New Haven Chargers - wer gewinnt?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6079875": {
+    "same_event": false,
+    "reason": "Different strike prices ($99 vs $101.89) and different dates (Oct 26 vs Oct 23, 2026).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "WTI Crude Oil (WTI) closes above $99 on October 26?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758656": {
+    "same_event": false,
+    "reason": "Different periods (1st Half vs Full Time) and different score conditions (0-0 vs 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Ipswich Town FC 0 - 0 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758692": {
+    "same_event": false,
+    "reason": "Different matches, periods (1st Half vs Full Time), and score conditions (0-0 vs 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Stade Brestois 29 0 - 0 OGC Nice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5545739": {
+    "same_event": false,
+    "reason": "Different bet types (Team 1st Half Goals O/U 0.5 vs Both Teams To Score in 1st Half).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Platense: CA Gimnasia y Esgrima de Mendoza 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH1GET2__polymarket:5599565": {
+    "same_event": false,
+    "reason": "Different bet types (1st Half Total Corners O/U 5.5 vs 1st Half Exact Score).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Athletic Club vs. Getafe CF: 1st Half O/U 5.5 Total Corners",
+    "frage_b": "Will the 1st half score be Getafe CF wins 2-1?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH1GET2__polymarket:5599895": {
+    "same_event": false,
+    "reason": "Different bet types (1st Half Goals O/U 1.5 vs 1st Half Exact Score Getafe 2-1).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Athletic Club vs. Getafe CF: 1st Half O/U 1.5",
+    "frage_b": "Will the 1st half score be Getafe CF wins 2-1?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996909": {
+    "same_event": false,
+    "reason": "Different matches, periods (1st Half vs Full Time), and score conditions (0-0 vs 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: SS Lazio 0 - 0 Parma Calcio 1913?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5578585": {
+    "same_event": false,
+    "reason": "Different bet types (Team 1st Half Goals O/U 0.5 vs Both Teams To Score in 1st Half).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "UD Las Palmas vs. Real Sociedad de Fútbol B: Real Sociedad de Fútbol B 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996932": {
+    "same_event": false,
+    "reason": "Different matches, periods (1st Half vs Full Time), and score conditions (0-0 vs 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: SSC Napoli 0 - 0 AS Roma?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997208": {
+    "same_event": false,
+    "reason": "Different matches, periods (1st Half vs Full Time), and score conditions (0-0 vs 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Rayo Vallecano de Madrid 0 - 0 Elche CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997235": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Deportivo Alavés 1 - 0 Málaga CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH1GET1__polymarket:5597985": {
+    "same_event": false,
+    "reason": "Different bet types (2nd half draw vs 1st half exact score 1-1)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Athletic Club vs. Getafe CF: Second half draw?",
+    "frage_b": "Will the 1st half score be Draw 1-1?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996532": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Coventry City FC 0 - 0 Fulham FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996555": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Arsenal FC 0 - 0 Everton FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997141": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Club Atlético de Madrid 1 - 0 RC Deportivo A Coruña?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997162": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Valencia CF 0 - 0 Villarreal CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6072704": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Atlante FC 0 - 0 Atlético San Luis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5545745": {
+    "same_event": false,
+    "reason": "Different bet types (team 1st half O/U 0.5 vs both teams to score in 1st half)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CA Gimnasia y Esgrima de Mendoza vs. CA Platense: CA Platense 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5601639": {
+    "same_event": false,
+    "reason": "Different bet types (team 1st half O/U 0.5 vs both teams to score in 1st half)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CA San Lorenzo de Almagro vs. CA Newell's Old Boys: CA San Lorenzo de Almagro 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996557": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Arsenal FC 1 - 0 Everton FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996578": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Aston Villa FC 0 - 0 Manchester City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996911": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: SS Lazio 1 - 0 Parma Calcio 1913?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997185": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Real Racing Club 0 - 0 RCD Espanyol de Barcelona?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997494": {
+    "same_event": false,
+    "reason": "Different bet types (1st half exact score vs final exact score)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Racing Club de Lens 0 - 0 Paris FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6079874": {
+    "same_event": false,
+    "reason": "Different thresholds, dates, and times ($100 vs $101.89, Oct 26 vs Oct 23 2026, close vs 10:00 AM ET)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "WTI Crude Oil (WTI) closes above $100 on October 26?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH1GET2__polymarket:5599915": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Tor-O/U 0.5 in HZ vs. Exaktes HZ-Ergebnis 2-1",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Athletic Club vs. Getafe CF: Getafe CF 1st Half O/U 0.5",
+    "frage_b": "Will the 1st half score be Getafe CF wins 2-1?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996579": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (0-1 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Aston Villa FC 0 - 1 Manchester City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6071886": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (0-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Club Necaxa 0 - 0 FC Juárez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5825071": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Tor-O/U 0.5 in HZ vs. Both Teams To Score in HZ",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Hapoel Ironi Kiryat Shmona FC vs. Bnei Sakhnin FC: Bnei Sakhnin FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5614214": {
+    "same_event": false,
+    "reason": "Unterschiedliches Exaktes Endergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Barracas Central 1 - 0 AA Estudiantes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959398": {
+    "same_event": false,
+    "reason": "Unterschiedliches Exaktes Endergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Estudiantes 1 - 0 Club Atletico Los Andes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997003": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Torino FC 1 - 0 AC Monza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997139": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (0-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Club Atlético de Madrid 0 - 0 RC Deportivo A Coruña?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6071888": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Club Necaxa 1 - 0 FC Juárez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5555306": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Tor-O/U 0.5 in HZ vs. Both Teams To Score in HZ",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "FC DAC 1904 Dunajská Streda vs. MFK Ružomberok: MFK Ružomberok 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5916769": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Tor-O/U 0.5 in HZ vs. Both Teams To Score in HZ",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CA Juventud de Las Piedras vs. CA Penarol Montevideo: CA Juventud de Las Piedras 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910126": {
+    "same_event": false,
+    "reason": "Unterschiedliches Exaktes Endergebnis (0-1 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Almagro 0 - 1 CSD Tristan Suarez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996509": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (0-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Chelsea FC 0 - 0 Tottenham Hotspur FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996980": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Como 1907 1 - 0 US Sassuolo Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997210": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (HZ vs. Endstand) und unterschiedliches Ergebnis (1-0 vs. 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Rayo Vallecano de Madrid 1 - 0 Elche CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758658": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (0-1) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Ipswich Town FC 0 - 1 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758694": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Stade Brestois 29 1 - 0 OGC Nice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910215": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Colegiales 1 - 0 Atletico de Rafaela?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959268": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Ferro Carril Oeste 1 - 0 CA Chaco For Ever?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996511": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Chelsea FC 1 - 0 Tottenham Hotspur FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5555303": {
+    "same_event": false,
+    "reason": "Different bet type: Team 1st Half O/U 1.5 vs Both Teams To Score in 1st Half",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "FC DAC 1904 Dunajská Streda vs. MFK Ružomberok: FC DAC 1904 Dunajská Streda 1st Half O/U 1.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5510837": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Tigre 1 - 0 CA Tucumán?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996978": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (0-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Como 1907 0 - 0 US Sassuolo Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5962594": {
+    "same_event": false,
+    "reason": "Different bet type: Team 1st Half O/U 0.5 vs Both Teams To Score in 1st Half",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CSD Independiente del Valle vs. CD Universidad Catolica del Ecuador: CD Universidad Catolica del Ecuador 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570845": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Rosario Central 1 - 0 CA Huracán?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910172": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Deportivo Madryn 1 - 0 CA San Telmo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959664": {
+    "same_event": false,
+    "reason": "Different bet type: Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Ferrocarril Midland 1 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996463": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (0-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Liverpool FC 0 - 0 Brighton & Hove Albion FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996465": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (1-0) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Liverpool FC 1 - 0 Brighton & Hove Albion FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997163": {
+    "same_event": false,
+    "reason": "Different bet type: 1st Half Exact Score (0-1) vs Final Score Draw (3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Valencia CF 0 - 1 Villarreal CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997187": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (1. Halbzeit vs. Endstand) und unterschiedliche Wettart (Exaktes Ergebnis 1:0 vs. Unentschieden 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Real Racing Club 1 - 0 RCD Espanyol de Barcelona?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HBTTS-26OCT25ATHGET-BTTS__polymarket:5601643": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (O/U 0.5 Tore für eine Mannschaft vs. Beide Teams treffen) in der 1. Halbzeit",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CA San Lorenzo de Almagro vs. CA Newell's Old Boys: CA Newell's Old Boys 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH1GET2__polymarket:5643020": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Mannschaften (AZ vs. Twente vs. Getafe) und unterschiedliche Wettart (O/U 2.5 vs. Exaktes Ergebnis 2:1)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "AZ vs. FC Twente: 1st Half O/U 2.5",
+    "frage_b": "Will the 1st half score be Getafe CF wins 2-1?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5662838": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:0 vs. 3:3 Unentschieden)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Instituto AC Córdoba 1 - 0 CD Riestra?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758659": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (1. Halbzeit vs. Endstand) und unterschiedliche Wettart (Exaktes Ergebnis 1:0 vs. Unentschieden 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Ipswich Town FC 1 - 0 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5935072": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:0 vs. 3:3 Unentschieden)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Defensores de Belgrano 1 - 0 CA San Miguel?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959535": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:0 vs. 3:3 Unentschieden)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Patronato Parana 1 - 0 Agropecuario Argentino?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996533": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (1. Halbzeit vs. Endstand) und unterschiedliche Wettart (Exaktes Ergebnis 0:1 vs. Unentschieden 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Coventry City FC 0 - 1 Fulham FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997186": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (1. Halbzeit vs. Endstand) und unterschiedliche Wettart (Exaktes Ergebnis 0:1 vs. Unentschieden 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Real Racing Club 0 - 1 RCD Espanyol de Barcelona?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6012503": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (2:0 vs. 3:3 Unentschieden)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Orlando Pirates FC 2 - 0 African Stars?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXCZEFLBTTS-26OCT24FCZSIG-BTTS__polymarket:5643002": {
+    "same_event": false,
+    "reason": "Frage B ist generisch ohne Nennung der konkreten Teams (AZ vs. FC Twente)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "AZ vs. FC Twente: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482684": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:1 vs. 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Sochaux-Montbéliard 1 - 1 FC Annecy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5507291": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:1 vs. 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gaziantep FK 1 - 1 Erzurumspor FK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5510753": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:1 vs. 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Gimnasia y Esgrima de Mendoza 1 - 1 CA Platense?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5517158": {
+    "same_event": false,
+    "reason": "Unterschiedliches exaktes Ergebnis (1:1 vs. 3:3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Zbrojovka Brno 1 - 1 Bohemians Praha 1905?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5518726": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Tōkyō Verdy 1 - 1 Avispa Fukuoka?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5522167": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Incheon United FC 1 - 1 Jeju SK FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5526187": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Cagliari Calcio 1 - 1 Bologna FC 1909?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541116": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Südtirol 1 - 1 UC Sampdoria?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570804": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA San Lorenzo de Almagro 1 - 1 CA Newell's Old Boys?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577235": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Argeș Pitești 1 - 1 FC UTA Arad?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5597899": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-0 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CE Sabadell FC 1 - 0 CD Tenerife?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5758693": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage), unterschiedliche Zeiträume (1. Halbzeit vs. Endstand) und unterschiedliche Exact Scores (0-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Stade Brestois 29 0 - 1 OGC Nice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5859534": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Dunav Ruse 1 - 1 FK Spartak 1918 Varna?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910124": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (0-0 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Almagro 0 - 0 CSD Tristan Suarez?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959357": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Ciudad de Bolivar 1 - 1 Colon de Santa Fe?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959621": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-0 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Central Norte Salta 1 - 0 CA Acassuso?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959662": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (0-0 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Ferrocarril Midland 0 - 0 Gimnasia Y Tiro de Salta?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5976404": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Zemun 1 - 1 FK Macva Sabac?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5976491": {
+    "same_event": false,
+    "reason": "Unterschiedliche Spiele (konkrete Teams vs. generische Frage) und unterschiedliche Exact Scores (1-1 vs. 3-3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK IMT Novi Beograd 1 - 1 FK Zeleznicar Pancevo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996956": {
+    "same_event": false,
+    "reason": "Different bet type (1st Half vs Final) and different score (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Cagliari Calcio 0 - 1 Bologna FC 1909?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997002": {
+    "same_event": false,
+    "reason": "Different bet type (1st Half vs Final) and different score (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Torino FC 0 - 1 AC Monza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6072706": {
+    "same_event": false,
+    "reason": "Different bet type (1st Half vs Final) and different score (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Atlante FC 1 - 0 Atlético San Luis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5476453": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Torino FC 1 - 1 AC Monza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5479534": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Ipswich Town FC 1 - 1 Nottingham Forest FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482111": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Granada CF 1 - 1 Real Valladolid CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482155": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Deportivo Alavés 1 - 0 Málaga CF?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482485": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Clermont Foot 63 1 - 1 En Avant Guingamp?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482933": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Puntarenas FC 1 - 1 Inter San Carlos?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5483562": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Empoli FC 1 - 1 L.R. Vicenza?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5507196": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Alanyaspor 1 - 0 Kocaelispor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5507198": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Alanyaspor 1 - 1 Kocaelispor?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5507242": {
+    "same_event": false,
+    "reason": "Different exact score (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Eyüpspor 0 - 1 Kasımpaşa SK?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5509285": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Atlante FC 1 - 1 Atlético San Luis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5510794": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de La Plata 1 - 0 CA Sarmiento?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5511690": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Alverca 1 - 1 FC Arouca?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516819": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (0-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Boyacá Chicó FC 0 - 1 CA Bucaramanga?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516830": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Boyacá Chicó FC 1 - 1 CA Bucaramanga?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516982": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CD La Serena 1 - 1 CD Concepción?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5517101": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SC Recife 1 - 1 Criciúma EC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5518634": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Vissel Kōbe 1 - 1 FC Machida Zelvia?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5518723": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (0-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Tōkyō Verdy 0 - 1 Avispa Fukuoka?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5522396": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Fujieda MYFC 1 - 1 Tokushima Vortis?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5526236": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SSC Napoli 1 - 1 AS Roma?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5526315": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-0 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SS Lazio 1 - 0 Parma Calcio 1913?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5526319": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (2-0 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SS Lazio 2 - 0 Parma Calcio 1913?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534225": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-0 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Arsenal FC 1 - 0 Everton FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534239": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (2-0 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Arsenal FC 2 - 0 Everton FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534387": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Portsmouth FC 1 - 1 Millwall FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534939": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3) auf dasselbe Spiel",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Blackburn Rovers FC 1 - 1 Wrexham AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5538896": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CD Leganés 1 - 1 RCD Mallorca?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5540966": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: US Avellino 1912 1 - 1 Calcio Padova?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541162": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Virtus Entella 1 - 1 Mantova 1911?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541211": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: US Catanzaro 1929 1 - 1 Ascoli Calcio 1898 FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541257": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SS Arezzo 1 - 1 Benevento Calcio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5542717": {
+    "same_event": false,
+    "reason": "Different outcomes (0-1 loss vs 3-3 draw)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Livyi Bereh 0 - 1 FK LNZ Cherkasy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5542726": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Livyi Bereh 1 - 1 FK LNZ Cherkasy?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5543361": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Northampton Town FC 1 - 1 Colchester United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGA1HSCORE-26OCT25ATHGET-ATH0GET2__polymarket:5565104": {
+    "same_event": false,
+    "reason": "Different teams, halves, and bet types (CF Montréal 2nd half win vs Getafe 1st half exact score 2-0)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "CF Montréal to win the second half?",
+    "frage_b": "Will the 1st half score be Getafe CF wins 2-0?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570715": {
+    "same_event": false,
+    "reason": "Different exact scores (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Banfield 0 - 1 CA Lanús?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570718": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Banfield 1 - 1 CA Lanús?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570761": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Talleres 1 - 1 CSyD Defensa y Justicia?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570800": {
+    "same_event": false,
+    "reason": "Different exact scores (0-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA San Lorenzo de Almagro 0 - 0 CA Newell's Old Boys?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5571250": {
+    "same_event": false,
+    "reason": "Different exact scores (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gil Vicente FC 0 - 1 FC Porto?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577239": {
+    "same_event": false,
+    "reason": "Different exact scores (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Mirassol FC 1 - 1 São Paulo FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577392": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Hradec Králové 1 - 1 FK Jablonec?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577486": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: AC Goianiense 1 - 1 Grêmio Novorizontino?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577558": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: EC Vitória 1 - 1 CA Paranaense?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577936": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: São Bernardo FC 1 - 1 Vila Nova FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5578678": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (0-2 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: AA Ponte Preta 0 - 2 Fortaleza EC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5590119": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Genoa CFC 1 - 1 Venezia FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5593822": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Angers SCO 1 - 1 FC Lorient?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5594309": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Sunderland AFC 1 - 1 Leeds United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5614217": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (2-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Barracas Central 2 - 0 AA Estudiantes?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5647584": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: HNK Gorica 1 - 1 NK Lokomotiva Zagreb?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5662797": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Unión 1 - 1 Estudiantes de La Plata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5662836": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (0-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Instituto AC Córdoba 0 - 0 CD Riestra?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5668365": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: EC Juventude 1 - 0 Clube Náutico Capibaribe?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5784914": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Perugia Calcio Spa 1 - 1 Delfino Pescara?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5784957": {
+    "same_event": false,
+    "reason": "Unterschiedliche Teams (frage_b nennt keine) und unterschiedlicher Exact Score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: ASD Pineto Calcio 1 - 1 AS Gubbio?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5785043": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Casertana FC 1 - 1 SSC Bari?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5790375": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: GD Chaves 1 - 1 FC Vizela?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5810499": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-0 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Treviso FBC 1993 1 - 0 Dolomiti Bellunesi?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5819230": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Academica de Coimbra 1 - 1 Leixoes SC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5819270": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Sporting CP B 1 - 1 Portimonense SAD?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5824173": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Hapoel Ironi Kiryat Shmona FC 1 - 1 Bnei Sakhnin FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5863306": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Defensor Sporting 1 - 1 Racing Club Montevideo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5890275": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: WSG Tirol 1 - 1 Grazer AK 1902?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5891301": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Felgueiras 1932 1 - 1 Lusitania FC Lourosa?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5894003": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Asteras Tripolis 1 - 1 APO Levadiakos FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5894096": {
+    "same_event": false,
+    "reason": "Different exact score lines (2-0 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Olympiacos Piraeus 2 - 0 PAE PS Kalamata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5894100": {
+    "same_event": false,
+    "reason": "Different exact score lines (3-0 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Olympiacos Piraeus 3 - 0 PAE PS Kalamata?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5907191": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: POT Iraklis 1 - 1 AE Kifisia FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5907231": {
+    "same_event": false,
+    "reason": "Different exact score lines (1-1 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Central Espanol FC 1 - 1 Albion FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910175": {
+    "same_event": false,
+    "reason": "Different exact score lines (2-0 vs 3-3) for same match; not same question.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Deportivo Madryn 2 - 0 CA San Telmo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910213": {
+    "same_event": false,
+    "reason": "Different exact scoreline (0-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Colegiales 0 - 0 Atletico de Rafaela?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5910678": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CS Emelec 1 - 0 Guayaquil City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5916448": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Juventud de Las Piedras 1 - 1 CA Penarol Montevideo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5923032": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Rubio Nu 1 - 1 Club Guarani Asuncion?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959271": {
+    "same_event": false,
+    "reason": "Different exact scoreline (2-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Ferro Carril Oeste 2 - 0 CA Chaco For Ever?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959353": {
+    "same_event": false,
+    "reason": "Different exact scoreline (0-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Ciudad de Bolivar 0 - 0 Colon de Santa Fe?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959355": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Ciudad de Bolivar 1 - 0 Colon de Santa Fe?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959492": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 0 CA Atlanta?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959494": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gimnasia y Esgrima de Jujuy 1 - 1 CA Atlanta?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959750": {
+    "same_event": false,
+    "reason": "Different exact scoreline (0-0 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Racing de Cordoba 0 - 0 CA All Boys?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5959751": {
+    "same_event": false,
+    "reason": "Different exact scoreline (0-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA Racing de Cordoba 0 - 1 CA All Boys?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5976579": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Radnicki Nis 1 - 1 FK Novi Pazar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5981320": {
+    "same_event": false,
+    "reason": "Different exact scoreline (1-1 vs 3-3) and different match teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Real Union de Irun 1 - 1 CD Lugo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5996933": {
+    "same_event": false,
+    "reason": "Different market type (1st Half Exact Score vs Final Score) and different scoreline (0-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: SSC Napoli 0 - 1 AS Roma?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5997496": {
+    "same_event": false,
+    "reason": "Different market type (1st Half Exact Score vs Final Score) and different scoreline (1-0 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "1st Half Exact Score: Racing Club de Lens 1 - 0 Paris FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:6011173": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3) and different teams",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Kyzylzhar SK 1 - 0 Ulytau FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXWTIH-26OCT2310-T101.89__polymarket:6079817": {
+    "same_event": false,
+    "reason": "Completely different underlying assets (Meta stock vs WTI Oil)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Will Meta (META) close above $630 on October 26?",
+    "frage_b": "Will the WTI Oil close price be above 101.89 USD/barrel on October 23, 2026 at 10:00 AM ET?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5472298": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3); frage_b lacks team specification",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Botoşani 1 - 1 FC Petrolul Ploieşti?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5472349": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Corvinul 1921 Hunedoara 1 - 1 FC Universitatea Cluj?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5479499": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Stade Brestois 29 1 - 1 OGC Nice?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5479643": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SV Darmstadt 98 1 - 1 FC St. Pauli 1910?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482534": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: USL Dunkerque 1 - 1 FC Metz?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482729": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3) and not a draw",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Pau FC 1 - 0 Grenoble Foot 38?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5482731": {
+    "same_event": false,
+    "reason": "Same teams but different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Pau FC 1 - 1 Grenoble Foot 38?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5511477": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3) and not a draw",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Vitória SC 1 - 0 CS Marítimo?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5511561": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Fakel Voronezh 1 - 1 FK Rodina Moskva?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5511646": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Rubin Kazan 1 - 1 PFK Krylia Sovetov Samara?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516642": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Audax CS Italiano 1 - 1 CD Huachipato?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516747": {
+    "same_event": false,
+    "reason": "Different exact score (1-0 vs 3-3) and not a draw",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Operário Ferroviário EC 1 - 0 Athletic Club?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5516794": {
+    "same_event": false,
+    "reason": "Different exact score (1-1 vs 3-3)",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Csíkszereda Miercurea Ciuc 1 - 1 FC Voluntari?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5518680": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Kashima vs. Kashiwa vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Kashima Antlers 1 - 1 Kashiwa Reysol?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5518722": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Tokyo Verdy vs. Avispa vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (0:0 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Tōkyō Verdy 0 - 0 Avispa Fukuoka?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5520680": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Western Sydney vs. Auckland vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Western Sydney Wanderers FC 1 - 1 Auckland FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5520735": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Melbourne Victory vs. Melbourne City vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Melbourne Victory FC 1 - 1 Melbourne City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5521596": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Chongqing vs. Qingdao vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (2:0 vs. 3:3; zudem 2:0 kein Unentschieden).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Chongqing Tonglianglong FC 2 - 0 Qingdao Hainiu FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5521687": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Tianjin vs. Shanghai vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Tianjin Jinmen Hu FC 1 - 1 Shanghai Haigang FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5522121": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Bucheon vs. Gwangju vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Bucheon FC 1995 1 - 1 Gwangju FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5522213": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Anyang vs. Jeonbuk vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FC Anyang 1 - 1 Jeonbuk Hyundai Motors FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534164": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Charlton vs. Norwich vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Charlton Athletic FC 1 - 1 Norwich City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534486": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Coventry vs. Fulham vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Coventry City FC 1 - 1 Fulham FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5534749": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Stoke vs. Bristol vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Stoke City FC 1 - 1 Bristol City FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5535083": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (QPR vs. Swansea vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Queens Park Rangers FC 1 - 1 Swansea City AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5535175": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Lincoln vs. Burnley vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Lincoln City FC 1 - 1 Burnley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5538721": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Córdoba vs. Eibar vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (1:1 vs. 3:3).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Córdoba CF 1 - 1 SD Eibar?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5539228": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Atlético Madrid vs. Deportivo vs. generisches 3:3-Unentschieden) und unterschiedliche Exact-Score-Werte (2:0 vs. 3:3; zudem 2:0 kein Unentschieden).",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Club Atlético de Madrid 2 - 0 RC Deportivo A Coruña?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5540885": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: US Cremonese 1 - 1 SS Juve Stabia?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541704": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Stevenage FC 1 - 1 Milton Keynes Dons FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541750": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Oxford United FC 1 - 1 Bradford City AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5541842": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Burton Albion FC 1 - 1 Leyton Orient FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5543359": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-0 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Northampton Town FC 1 - 0 Colchester United FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5543407": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Cheltenham Town FC 1 - 1 Newport County AFC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5543500": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Exeter City FC 1 - 1 Fleetwood Town FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5543596": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Rochdale AFC 1 - 1 Accrington Stanley FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5568164": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CF Monterrey 1 - 1 CD Guadalajara?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5568210": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Pumas de la UNAM 1 - 1 Tigres de la UANL?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5570802": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-0 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: CA San Lorenzo de Almagro 1 - 0 CA Newell's Old Boys?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5571254": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (0-2 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: Gil Vicente FC 0 - 2 FC Porto?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5571425": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (2-0 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: FK Zenit 2 - 0 FK Dinamo Makhachkala?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577455": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (2-0 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: América de Cali 2 - 0 Cúcuta Deportivo FC?",
+    "frage_b": "Final score Draw 3-3?"
+  },
+  "kalshi:KXLALIGASCORE-26OCT25ATHGET-ATH3GET3__polymarket:5577828": {
+    "same_event": false,
+    "reason": "Unterschiedliche Exact-Score-Wetten (1-1 vs. 3-3); frage_b nennt keine Teams.",
+    "checked_at": "2026-10-23T14:34:47.091714+00:00",
+    "frage_a": "Exact Score: SC Internacional 1 - 1 Botafogo FR?",
+    "frage_b": "Final score Draw 3-3?"
   }
 }
