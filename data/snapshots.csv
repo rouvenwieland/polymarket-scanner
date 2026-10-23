@@ -5445,3 +5445,19 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-23T19:26:50.742994+02:00,6023677,Exact Score: SC Internacional 4 - 0 Coritiba FBC?,bra-int-cor-2026-11-03-exact-score-4-0,0.48,0.515,0.995,0.0,15.9193,2026-11-04T00:30:00Z,schaetzung
 2026-10-23T19:26:50.742994+02:00,6025181,Exact Score: Monagas SC 5 - 0 Academia Puerto Cabello?,ven1-msc-apc-2026-10-24-exact-score-5-0,0.48,0.515,0.995,0.0,12.446,2026-10-24T21:30:00Z,schaetzung
 2026-10-23T19:26:50.742994+02:00,6085986,Exact Score: Bangor FC 2 - 5 Larne FC?,nirl1-ban-lar-2026-10-24-exact-score-2-5,0.48,0.515,0.995,0.0,10.1695,2026-10-24T17:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,3544738,Will Central Córdoba (SdE) be runner-up in the 2026 Liga Profesional (Argentina)?,2026-soccer-liga-profesional-argentina-runner-up-central-crdoba-sde,0.465,0.53,0.9950000000000001,62.0,3.8866,2027-01-01T04:59:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5825600,Exact Score: AC Savoia 1908 3 - 4 Cosenza Calcio?,serc-sav-cos-2026-10-24-exact-score-3-4,0.455,0.54,0.9950000000000001,0.0,21.5196,2026-10-24T15:30:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5863220,Exact Score: Deportivo Saprissa 3 - 4 LD Alajuelense?,fpd-sap-ala-2026-10-31-exact-score-3-4,0.49,0.505,0.995,0.0,4.9198,2026-11-01T22:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5872613,Exact Score: Catania FC 5 - 0 Giugliano Calcio 1928?,serc-cat-giu-2026-10-25-exact-score-5-0,0.45,0.545,0.9950000000000001,0.0,32.2391,2026-10-25T14:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5889961,Exact Score: Kasımpaşa SK 3 - 0 Beşiktaş JK?,tur-kas-bes-2026-11-01-exact-score-3-0,0.49,0.505,0.995,0.0,6.9198,2026-11-01T16:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5895996,Exact Score: FC Arouca 5 - 4 CD Nacional?,por-aro-nac-2026-11-01-exact-score-5-4,0.49,0.505,0.995,0.0,6.9198,2026-11-01T15:30:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5904510,Exact Score: FC Nordsjælland 1 - 3 FC Midtjylland?,den-nor-mid-2026-11-01-exact-score-1-3,0.49,0.505,0.995,0.0,5.3376,2026-11-01T15:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5915530,Exact Score: CD Eldense 3 - 2 Granada CF?,es2-eld-gra-2026-11-01-exact-score-3-2,0.485,0.51,0.995,0.0,8.4025,2026-11-01T13:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5919364,Exact Score: CD Guastatoya 1 - 2 CSD Cobán Imperial?,gtm-cdg-cob-2026-11-01-exact-score-1-2,0.485,0.51,0.995,0.0,8.5032,2026-11-01T23:00:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5963058,Exact Score: Batman Petrolspor 4 - 1 Esenler Erokspor?,tur2-bat-ese-2026-10-25-exact-score-4-1,0.485,0.51,0.995,0.0,8.6688,2026-10-25T10:30:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,5978143,Will Vincent Keymer finish in the Top 5 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top5-vincent-keymer,0.495,0.5,0.995,0.0,0.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,6009134,Will the fight be won by KO or TKO?,powerslap-25-kamotskii-viernes-2026-10-23-win-by-ko-tko,0.495,0.5,0.995,0.0,0.0,2026-10-24T03:59:59.999Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,6016712,Exact Score: FK Transinvest 1 - 4 FC Hegelmann Kaunas?,ltu1-tra-heg-2026-10-24-exact-score-1-4,0.465,0.53,0.9950000000000001,0.0,7.1691,2026-10-24T14:30:00Z,schaetzung
+2026-10-23T23:41:09.667099+02:00,6023219,Exact Score: Olimpija Ljubljana 5 - 1 NK Celje?,slo-oli-cel-2026-10-28-exact-score-5-1,0.485,0.51,0.995,0.0,8.6184,2026-10-28T18:30:00Z,schaetzung
