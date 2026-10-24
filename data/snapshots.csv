@@ -5461,3 +5461,43 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-23T23:41:09.667099+02:00,6009134,Will the fight be won by KO or TKO?,powerslap-25-kamotskii-viernes-2026-10-23-win-by-ko-tko,0.495,0.5,0.995,0.0,0.0,2026-10-24T03:59:59.999Z,schaetzung
 2026-10-23T23:41:09.667099+02:00,6016712,Exact Score: FK Transinvest 1 - 4 FC Hegelmann Kaunas?,ltu1-tra-heg-2026-10-24-exact-score-1-4,0.465,0.53,0.9950000000000001,0.0,7.1691,2026-10-24T14:30:00Z,schaetzung
 2026-10-23T23:41:09.667099+02:00,6023219,Exact Score: Olimpija Ljubljana 5 - 1 NK Celje?,slo-oli-cel-2026-10-28-exact-score-5-1,0.485,0.51,0.995,0.0,8.6184,2026-10-28T18:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5627623,Exact Score: Sport Boys Association 5 - 0 FC Cajamarca?,per1-sba-fcc-2026-10-25-exact-score-5-0,0.48,0.515,0.995,0.0,19.0196,2026-10-25T20:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5671740,Will Shandong Hi-Speed Kirin win the 2026-27 Chinese CBA championship?,chinese-cba-2027-champion-shandong-hi-speed-kirin,0.475,0.52,0.995,0.0,5.7976,2027-06-17T03:59:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5683062,Exact Score: Wealdstone FC 4 - 1 Solihull Moors FC?,enl-wea-sol-2026-10-27-exact-score-4-1,0.48,0.515,0.995,0.0,12.7741,2026-10-27T19:45:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5692251,Exact Score: UD Pinatar 3 - 0 Elche CF?,cdr-pin-elc-2026-10-27-exact-score-3-0,0.485,0.51,0.995,0.0,8.6513,2026-10-27T18:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5692365,Exact Score: Sestao River Club 5 - 2 RCD Espanyol de Barcelona?,cdr-ses-esp-2026-10-27-exact-score-5-2,0.485,0.51,0.995,0.0,8.6189,2026-10-27T18:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5692503,Exact Score: CD Atlético Tordesillas 5 - 2 CD Mirandés?,cdr-cat-mir-2026-10-27-exact-score-5-2,0.48,0.515,0.995,0.0,12.7465,2026-10-27T19:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5692711,Exact Score: CD Don Benito 2 - 0 CD Extremadura?,cdr-cd10-cd12-2026-10-27-exact-score-2-0,0.485,0.51,0.995,0.0,8.6122,2026-10-27T19:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5693343,Exact Score: BV Borussia 09 Dortmund 2 - 2 SV Werder Bremen?,dfb-bvb-bre-2026-10-27-exact-score-2-2,0.48,0.515,0.995,0.0,12.7735,2026-10-27T19:45:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5699434,Exact Score: National Bank of Egypt Club 5 - 1 El Masry SC?,egy1-nbo-ems-2026-10-28-exact-score-5-1,0.485,0.51,0.995,0.0,8.6117,2026-10-28T15:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5725100,Exact Score: St Mirren FC 1 - 3 Hibernian FC?,scop-stm-hib-2026-10-28-exact-score-1-3,0.48,0.515,0.995,0.0,12.7242,2026-10-28T19:45:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5725213,Exact Score: Aberdeen FC 5 - 3 Falkirk FC?,scop-abe-fal-2026-10-28-exact-score-5-3,0.48,0.515,0.995,0.0,13.9794,2026-10-28T19:45:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5729781,Exact Score: JOS Watergraafsmeer 4 - 4 NAC Breda?,nlc-jos-nac-2026-10-28-exact-score-4-4,0.485,0.51,0.995,0.0,8.6513,2026-10-28T19:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5740053,Exact Score: New England Revolution 0 - 2 New York Red Bulls?,mls-ner-nyr-2026-10-28-exact-score-0-2,0.485,0.51,0.995,0.0,8.6388,2026-10-28T23:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5740634,Exact Score: Nashville SC 3 - 1 Philadelphia Union?,mls-nas-phi-2026-10-28-exact-score-3-1,0.485,0.51,0.995,0.0,8.6178,2026-10-29T00:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5744288,Exact Score: SD Amorebieta 1 - 3 UD Logroñés?,cdr-amo-ud4-2026-10-28-exact-score-1-3,0.485,0.51,0.995,0.0,8.6173,2026-10-28T19:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5745302,Exact Score: Xerez CD 2 - 1 Cádiz CF?,cdr-xer-cad-2026-10-28-exact-score-2-1,0.48,0.515,0.995,0.0,12.7539,2026-10-28T20:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5756365,Exact Score: Fluminense FC 0 - 2 SC Internacional?,bra-flu-int-2026-10-28-exact-score-0-2,0.485,0.51,0.995,0.0,8.6307,2026-10-28T22:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5778834,Exact Score: UB Lebrijana 3 - 2 Getafe CF?,cdr-leb-get-2026-10-29-exact-score-3-2,0.48,0.515,0.995,0.0,12.6493,2026-10-29T18:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5779350,Exact Score: Auriense CA 4 - 3 RC Deportivo A Coruña?,cdr-aur-dep-2026-10-29-exact-score-4-3,0.485,0.51,0.995,0.0,8.6143,2026-10-29T20:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5787439,Exact Score: North East United FC 1 - 0 Bengaluru FC?,isp-neu-ben-2026-10-30-exact-score-1-0,0.485,0.51,0.995,0.0,8.6171,2026-10-30T14:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5825594,Exact Score: AC Savoia 1908 1 - 5 Cosenza Calcio?,serc-sav-cos-2026-10-24-exact-score-1-5,0.25,0.745,0.995,0.0,65.02,2026-10-24T15:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5827097,Exact Score: Racing Club 0 - 1 CA Aldosivi?,arg-rac-ald-2026-10-30-exact-score-0-1,0.48,0.515,0.995,0.0,12.7529,2026-10-31T00:15:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5828141,Exact Score: Moreirense FC 0 - 2 CF Estrela da Amadora?,por-mor-ama-2026-10-31-exact-score-0-2,0.48,0.515,0.995,0.0,12.7496,2026-10-31T15:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5832669,Exact Score: Kyōto Sanga FC 3 - 0 Shimizu S-Pulse?,jap-kyo-ssp-2026-10-31-exact-score-3-0,0.485,0.51,0.995,0.0,8.6125,2026-10-31T05:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5846149,Exact Score: Any Other Score?,ecu1-ldu-mac-2026-10-24-exact-score-any-other,0.16,0.725,0.885,0.0,118.4399,2026-10-24T21:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5860051,Exact Score: Colorado Springs Switchbacks FC 0 - 4 FC Tulsa?,uslc-css-tul-2026-10-24-exact-score-0-4,0.46,0.535,0.9950000000000001,0.0,2400.746,2026-10-25T01:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5912871,Exact Score: RC Strasbourg Alsace 1 - 5 AJ Auxerre?,fl1-str-aja-2026-11-01-exact-score-1-5,0.465,0.53,0.9950000000000001,0.0,12.5195,2026-11-01T14:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5917641,Exact Score: US Avellino 1912 5 - 0 Pisa SC?,itsb-ave-pis-2026-11-01-exact-score-5-0,0.485,0.51,0.995,0.0,8.6439,2026-11-01T14:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5920719,Exact Score: MFK Ružomberok 2 - 2 MFK Skalica?,svk1-ruz-ska-2026-11-01-exact-score-2-2,0.485,0.51,0.995,0.0,8.6319,2026-11-01T14:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5930924,Exact Score: Club Santos Laguna 2 - 2 Club Necaxa?,mex-san-nec-2026-11-01-exact-score-2-2,0.48,0.515,0.995,0.0,12.7684,2026-11-01T23:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5936672,Exact Score: Grêmio Novorizontino 3 - 2 Operário Ferroviário EC?,bra2-nov-ope-2026-11-01-exact-score-3-2,0.48,0.515,0.995,0.0,12.7465,2026-11-01T21:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5978134,Will Renato Terry Lujan finish in the Top 5 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top5-renato-terry-lujan,0.49,0.5,0.99,0.0,0.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5982081,Exact Score: FC Arda Kardzhali 5 - 2 PFC Levski Sofia?,bul-ard-lev-2026-10-27-exact-score-5-2,0.485,0.51,0.995,0.0,8.6505,2026-10-27T17:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,5996402,1st Half Exact Score: Any Other Score?,epl-sun-lee-2026-10-25-first-half-exact-score-any-other,0.455,0.54,0.9950000000000001,0.0,24.2998,2026-10-25T16:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,6009134,Will the fight be won by KO or TKO?,powerslap-25-kamotskii-viernes-2026-10-23-win-by-ko-tko,0.495,0.5,0.995,0.0,0.0,2026-10-24T03:59:59.999Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,6023219,Exact Score: Olimpija Ljubljana 5 - 1 NK Celje?,slo-oli-cel-2026-10-28-exact-score-5-1,0.485,0.51,0.995,0.0,8.6184,2026-10-28T18:30:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,6065020,Game 1: Both Teams Beat Roshan?,dota2-1win-gl-2026-10-24-game1-both-teams-beat-roshan,0.5,0.495,0.995,0.0,0.0,2026-10-24T12:00:00Z,schaetzung
+2026-10-24T02:01:35.640010+02:00,6067608,Davion Mitchell: Rebounds O/U 3.5,nba-det-mia-2026-10-23-rebounds-davion-mitchell-3pt5,0.5,0.495,0.995,0.0,1.1198,2026-10-24T00:00:00Z,schaetzung
