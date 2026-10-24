@@ -43265,5 +43265,33 @@
     "checked_at": "2026-10-24T19:25:01.259859+00:00",
     "frage_a": "Will PSOE win the most seats in Málaga in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:5623949__sxbet:0x125f4922e180408fcdaebdfa85d056f7316340c8eb3a09ff5b54352476d29cf3": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 49.5 (Gesamtpunkte) vs. Moneyline (Sieger des Spiels)",
+    "checked_at": "2026-10-24T23:27:43.041392+00:00",
+    "frage_a": "Prairie View A&M vs. East Texas A&M: O/U 49.5",
+    "frage_b": "East Texas A&M vs Prairie View A&M - wer gewinnt?"
+  },
+  "polymarket:6106417__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total O/U 2.5 (Runs der Rays) vs. Moneyline (Sieger des Spiels)",
+    "checked_at": "2026-10-24T23:27:43.041392+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 2.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6029937__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliches Gebiet: Madrid (Wahlkreis) vs. Spanien gesamt (nationale Wahl)",
+    "checked_at": "2026-10-24T23:27:43.041392+00:00",
+    "frage_a": "Will PP win the most seats in Madrid in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6031137__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliches Gebiet: Ourense (Wahlkreis) vs. Spanien gesamt (nationale Wahl)",
+    "checked_at": "2026-10-24T23:27:43.041392+00:00",
+    "frage_a": "Will PP win the most seats in Ourense in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
   }
 }
