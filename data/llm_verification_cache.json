@@ -42201,5 +42201,551 @@
     "checked_at": "2026-10-24T05:29:08.278682+00:00",
     "frage_a": "Will PSOE win the most seats in Soria in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:5621162__sxbet:0x6e30d3bb27e9cc13ba0ffb2480366f2db4df1c1e1c678a0643ff23b97d1b44e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Weber State vs. Montana State: O/U 59.5",
+    "frage_b": "Montana State vs Weber State - wer gewinnt?"
+  },
+  "polymarket:5621163__sxbet:0x6e30d3bb27e9cc13ba0ffb2480366f2db4df1c1e1c678a0643ff23b97d1b44e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Weber State vs. Montana State: O/U 61.5",
+    "frage_b": "Montana State vs Weber State - wer gewinnt?"
+  },
+  "polymarket:5621120__sxbet:0x3e153875b4cac0f47d8ad61144614e6f2a7843bbfd7f502260f274a394780728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Indiana State vs. Illinois State: O/U 55.5",
+    "frage_b": "Illinois State vs Indiana State - wer gewinnt?"
+  },
+  "polymarket:5621039__sxbet:0x6992f1202284b3aaf9e076a201e0a453c4d02aada0cfdca4fb299507222e1e89": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nicholls State vs. Northwestern State: O/U 55.5",
+    "frage_b": "Northwestern State vs Nicholls State - wer gewinnt?"
+  },
+  "polymarket:5621119__sxbet:0x3e153875b4cac0f47d8ad61144614e6f2a7843bbfd7f502260f274a394780728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Indiana State vs. Illinois State: O/U 53.5",
+    "frage_b": "Illinois State vs Indiana State - wer gewinnt?"
+  },
+  "polymarket:5621198__sxbet:0xafe9e790ab373ae2dfa6bdf6ecd488fc1a4da240962984b0d0b84a11cf4e669d": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeast Missouri State vs. Eastern Illinois: O/U 49.5",
+    "frage_b": "Eastern Illinois vs Southeast Missouri State - wer gewinnt?"
+  },
+  "polymarket:5621160__sxbet:0x6e30d3bb27e9cc13ba0ffb2480366f2db4df1c1e1c678a0643ff23b97d1b44e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Weber State vs. Montana State: O/U 55.5",
+    "frage_b": "Montana State vs Weber State - wer gewinnt?"
+  },
+  "polymarket:5630336__sxbet:0x391cf61008936e4d052f21a35d7c32dc94d61aa12e9724d9f4b24f533107ac05": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Total Touchdowns vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Sacramento State vs. Ball State: Total Touchdowns O/U 6.5",
+    "frage_b": "Ball State Cardinals vs Sacramento State - wer gewinnt?"
+  },
+  "polymarket:5980522__sxbet:0x7ca1f140b41e2cc5fdf04c8dfc3a629213847e23cde159cd4040010a2556195b": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Miami (OH) vs. Central Michigan: 1Q Moneyline",
+    "frage_b": "Central Michigan Chippewas vs Miami RedHawks - wer gewinnt?"
+  },
+  "polymarket:5630601__sxbet:0x9f32085dea7fd1320b7c3a799a26e1cdae747ab20707c9bc473e00bc27199bdb": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Total Touchdowns vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Boston College vs. Georgia Tech: Total Touchdowns O/U 7.5",
+    "frage_b": "Georgia Tech Yellow Jackets vs Boston College Eagles - wer gewinnt?"
+  },
+  "polymarket:5621040__sxbet:0x6992f1202284b3aaf9e076a201e0a453c4d02aada0cfdca4fb299507222e1e89": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nicholls State vs. Northwestern State: O/U 57.5",
+    "frage_b": "Northwestern State vs Nicholls State - wer gewinnt?"
+  },
+  "polymarket:5623751__sxbet:0x8d57670632430426b6dc842df27ba821ddda44e36dd4e31951d93c5aceb53313": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeastern Louisiana vs. Stephen F. Austin: O/U 53.5",
+    "frage_b": "Stephen F. Austin vs Southeastern Louisiana - wer gewinnt?"
+  },
+  "polymarket:5630067__sxbet:0xa04b82ce672e5b9eb864f8d07f6bb047390850c272022822e9aad194c852adb8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Total Touchdowns vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "San Jose State vs. Nevada: Total Touchdowns O/U 7.5",
+    "frage_b": "Nevada Wolf Pack vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5994593__sxbet:0x46aa461ac1a1d4fab46470f53be09f3e50930f90e8c703d20dbd4a6b685c7487": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Boise State vs. Washington State: 1Q Moneyline",
+    "frage_b": "Washington State Cougars vs Boise State Broncos - wer gewinnt?"
+  },
+  "polymarket:5621161__sxbet:0x6e30d3bb27e9cc13ba0ffb2480366f2db4df1c1e1c678a0643ff23b97d1b44e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Moneyline Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Weber State vs. Montana State: O/U 57.5",
+    "frage_b": "Montana State vs Weber State - wer gewinnt?"
+  },
+  "polymarket:5990711__sxbet:0x47218b1d8e4f38672cf596cc03655631fcfd11556830b522838ceec5453b7082": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "North Texas vs. Navy: 1H Moneyline",
+    "frage_b": "Navy Midshipmen vs North Texas Mean Green - wer gewinnt?"
+  },
+  "polymarket:5990715__sxbet:0x47218b1d8e4f38672cf596cc03655631fcfd11556830b522838ceec5453b7082": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "North Texas vs. Navy: 1Q Moneyline",
+    "frage_b": "Navy Midshipmen vs North Texas Mean Green - wer gewinnt?"
+  },
+  "polymarket:5621118__sxbet:0x3e153875b4cac0f47d8ad61144614e6f2a7843bbfd7f502260f274a394780728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Indiana State vs. Illinois State: O/U 51.5",
+    "frage_b": "Illinois State vs Indiana State - wer gewinnt?"
+  },
+  "polymarket:5623294__sxbet:0xf3536fe62569796a0aa6417df464f58bfa567c0067986d901b410a5fffbfa41f": {
+    "same_event": false,
+    "reason": "Umgekehrte Polarität: Frage A impliziert Sieg UTRGV, Frage B (wer gewinnt?) mit erstgenanntem Team Central Arkansas impliziert Sieg Central Arkansas; zudem generische kategorialer Markt vs. binärer Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Central Arkansas",
+    "frage_b": "Central Arkansas vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "polymarket:5623750__sxbet:0x8d57670632430426b6dc842df27ba821ddda44e36dd4e31951d93c5aceb53313": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeastern Louisiana vs. Stephen F. Austin: O/U 51.5",
+    "frage_b": "Stephen F. Austin vs Southeastern Louisiana - wer gewinnt?"
+  },
+  "polymarket:5990710__sxbet:0x8a06d397117989628d43800837b328212d09b4805c2e6adb5d6e856d4d89afac": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Bowling Green vs. Buffalo: 1H Moneyline",
+    "frage_b": "Buffalo Bulls vs Bowling Green Falcons - wer gewinnt?"
+  },
+  "polymarket:5622641__sxbet:0x1a2c8b17536be59035148e3ef98eb440c76caaa5dcd43fdac41aa2ebf70759a2": {
+    "same_event": false,
+    "reason": "Umgekehrte Polarität: Frage A impliziert Sieg Charleston Southern, Frage B impliziert Sieg Tennessee State; generischer kategorialer Markt vs. binärer Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Charleston Southern vs. Tennessee State",
+    "frage_b": "Tennessee State vs Charleston Southern - wer gewinnt?"
+  },
+  "polymarket:5630047__sxbet:0xa04b82ce672e5b9eb864f8d07f6bb047390850c272022822e9aad194c852adb8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Total Touchdowns vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "San Jose State vs. Nevada: Total Touchdowns O/U 6.5",
+    "frage_b": "Nevada Wolf Pack vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:5990714__sxbet:0x8a06d397117989628d43800837b328212d09b4805c2e6adb5d6e856d4d89afac": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Bowling Green vs. Buffalo: 1Q Moneyline",
+    "frage_b": "Buffalo Bulls vs Bowling Green Falcons - wer gewinnt?"
+  },
+  "polymarket:5623749__sxbet:0x8d57670632430426b6dc842df27ba821ddda44e36dd4e31951d93c5aceb53313": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeastern Louisiana vs. Stephen F. Austin: O/U 49.5",
+    "frage_b": "Stephen F. Austin vs Southeastern Louisiana - wer gewinnt?"
+  },
+  "polymarket:5623219__sxbet:0xb0acd74d1a32a1d89af4f3ba2abf936a8293d2b95ab4d55fd4a4956a81c771f8": {
+    "same_event": false,
+    "reason": "Umgekehrte Polarität: Frage A impliziert Sieg Southern Utah, Frage B impliziert Sieg Idaho; generischer kategorialer Markt vs. binärer Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southern Utah vs. Idaho",
+    "frage_b": "Idaho vs Southern Utah - wer gewinnt?"
+  },
+  "polymarket:5992453__sxbet:0x4af293e47c1232bdc90d2fc2b374fb9faa17a078b7e6a1d7daf251d0dab2a8e2": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Eastern Michigan vs. Ohio: 1Q Moneyline",
+    "frage_b": "Ohio Bobcats vs Eastern Michigan Eagles - wer gewinnt?"
+  },
+  "polymarket:5621199__sxbet:0xafe9e790ab373ae2dfa6bdf6ecd488fc1a4da240962984b0d0b84a11cf4e669d": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeast Missouri State vs. Eastern Illinois: O/U 51.5",
+    "frage_b": "Eastern Illinois vs Southeast Missouri State - wer gewinnt?"
+  },
+  "polymarket:5630850__sxbet:0xddf440c7b6ac8f3f5100822b2fbdcaab352e65c2104bb850564b24a5c23bc484": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Total Touchdowns vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Old Dominion vs. Louisiana Tech: Total Touchdowns O/U 5.5",
+    "frage_b": "Louisiana Tech Bulldogs vs Old Dominion Monarchs - wer gewinnt?"
+  },
+  "polymarket:5621117__sxbet:0x3e153875b4cac0f47d8ad61144614e6f2a7843bbfd7f502260f274a394780728": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under Gesamtpunkte vs. Sieger",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Indiana State vs. Illinois State: O/U 49.5",
+    "frage_b": "Illinois State vs Indiana State - wer gewinnt?"
+  },
+  "polymarket:5621200__sxbet:0xafe9e790ab373ae2dfa6bdf6ecd488fc1a4da240962984b0d0b84a11cf4e669d": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeast Missouri State vs. Eastern Illinois: O/U 53.5",
+    "frage_b": "Eastern Illinois vs Southeast Missouri State - wer gewinnt?"
+  },
+  "polymarket:5990708__sxbet:0xfb3fdeee566a54f1ab46240bc2fef36eb88c360fef62175a4c9b0f8bf5095e16": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit (1H) vs. ganzes Spiel",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Tennessee vs. South Carolina: 1H Moneyline",
+    "frage_b": "South Carolina Gamecocks vs Tennessee Volunteers - wer gewinnt?"
+  },
+  "polymarket:5621205__sxbet:0x5ddaa5e37bc92953fc3a67911504b1ffa206a3dbdeba3143b8639539a2c7dbe2": {
+    "same_event": true,
+    "reason": "Identisches Matchup (West Florida vs. Eastern Kentucky), beide implizieren Sieger des Spiels",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "West Florida vs. Eastern Kentucky",
+    "frage_b": "Eastern Kentucky vs West Florida - wer gewinnt?"
+  },
+  "polymarket:5623237__sxbet:0xb0acd74d1a32a1d89af4f3ba2abf936a8293d2b95ab4d55fd4a4956a81c771f8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southern Utah vs. Idaho: O/U 59.5",
+    "frage_b": "Idaho vs Southern Utah - wer gewinnt?"
+  },
+  "polymarket:5990712__sxbet:0xfb3fdeee566a54f1ab46240bc2fef36eb88c360fef62175a4c9b0f8bf5095e16": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel (1Q) vs. ganzes Spiel",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Tennessee vs. South Carolina: 1Q Moneyline",
+    "frage_b": "South Carolina Gamecocks vs Tennessee Volunteers - wer gewinnt?"
+  },
+  "polymarket:5990678__sxbet:0x3bbec4d3d6936c710325565090a4ef6751f25c5ed38897addd4ec266638dc230": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit (1H) vs. ganzes Spiel",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Oklahoma vs. Mississippi State: 1H Moneyline",
+    "frage_b": "Mississippi State Bulldogs vs Oklahoma Sooners - wer gewinnt?"
+  },
+  "polymarket:5623233__sxbet:0xb0acd74d1a32a1d89af4f3ba2abf936a8293d2b95ab4d55fd4a4956a81c771f8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southern Utah vs. Idaho: O/U 51.5",
+    "frage_b": "Idaho vs Southern Utah - wer gewinnt?"
+  },
+  "polymarket:5622681__sxbet:0x0c67f92e3031ef6412a61774e0ce161829fe6062079b659a665cabdfc15fe304": {
+    "same_event": true,
+    "reason": "Identisches Matchup (Tennessee-Martin/UT Martin vs. Western Illinois), beide fragen Sieger des Spiels ab",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Tennessee-Martin vs. Western Illinois",
+    "frage_b": "Western Illinois vs UT Martin - wer gewinnt?"
+  },
+  "polymarket:5620841__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 51.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5623235__sxbet:0xb0acd74d1a32a1d89af4f3ba2abf936a8293d2b95ab4d55fd4a4956a81c771f8": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southern Utah vs. Idaho: O/U 55.5",
+    "frage_b": "Idaho vs Southern Utah - wer gewinnt?"
+  },
+  "polymarket:5621204__sxbet:0xafe9e790ab373ae2dfa6bdf6ecd488fc1a4da240962984b0d0b84a11cf4e669d": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Southeast Missouri State vs. Eastern Illinois: O/U 61.5",
+    "frage_b": "Eastern Illinois vs Southeast Missouri State - wer gewinnt?"
+  },
+  "polymarket:5990682__sxbet:0x3bbec4d3d6936c710325565090a4ef6751f25c5ed38897addd4ec266638dc230": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel (1Q) vs. ganzes Spiel",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Oklahoma vs. Mississippi State: 1Q Moneyline",
+    "frage_b": "Mississippi State Bulldogs vs Oklahoma Sooners - wer gewinnt?"
+  },
+  "polymarket:5630595__sxbet:0x9f32085dea7fd1320b7c3a799a26e1cdae747ab20707c9bc473e00bc27199bdb": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Total Touchdowns O/U vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Boston College vs. Georgia Tech: Total Touchdowns O/U 6.5",
+    "frage_b": "Georgia Tech Yellow Jackets vs Boston College Eagles - wer gewinnt?"
+  },
+  "polymarket:5621041__sxbet:0x6992f1202284b3aaf9e076a201e0a453c4d02aada0cfdca4fb299507222e1e89": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under vs. Moneyline",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nicholls State vs. Northwestern State: O/U 59.5",
+    "frage_b": "Northwestern State vs Nicholls State - wer gewinnt?"
+  },
+  "polymarket:5992469__sxbet:0x68dec8a2e252aff2b48156f31178b5a07349a5b772d9c4f56e4dcd4937d899e0": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel (1Q) vs. ganzes Spiel",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Kansas State vs. Arizona State: 1Q Moneyline",
+    "frage_b": "Arizona State Sun Devils vs Kansas State Wildcats - wer gewinnt?"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-SASDBERAR10-1__polymarket:6120069": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Domenico Berardi: 1+ shots",
+    "frage_b": "Domenico Berardi: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-SASBDOMIN25-1__polymarket:6120079": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Benjamín Domínguez: 1+ shots",
+    "frage_b": "Benjamin Dominguez: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-COMSRICCI21-2__polymarket:6120014": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten und Schwellenwerte: 1+ Schüsse vs. 2+ Tore",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Samuele Ricci: 1+ shots",
+    "frage_b": "Samuele Ricci: 2+ goals"
+  },
+  "polymarket:5623326__sxbet:0xf3536fe62569796a0aa6417df464f58bfa567c0067986d901b410a5fffbfa41f": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Over/Under Gesamtpunkte vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "UT Rio Grande Valley vs. Central Arkansas: O/U 49.5",
+    "frage_b": "Central Arkansas vs UT Rio Grande Valley - wer gewinnt?"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCLFERGU19-1__polymarket:6119348": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Lewis Ferguson: 1+ shots",
+    "frage_b": "Lewis Ferguson: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-COMYCOUTO27-1__polymarket:6120034": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Yan Couto: 1+ shots",
+    "frage_b": "Yan Couto: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-CAGHWINKS6-1__polymarket:6119338": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Harry Winks: 1+ shots",
+    "frage_b": "Harry Winks: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-SASVADZIC17-1__polymarket:6120084": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Vasilije Adžić: 1+ shots",
+    "frage_b": "Vasilije Adzic: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCJODGAA21-1__polymarket:6119384": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten und Schwellenwerte: 2+ Schüsse vs. 1+ Tore",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Jens Odgaard: 2+ shots",
+    "frage_b": "Jens Odgaard: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-SASKBOWIE9-2__polymarket:6120100": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Kieron Bowie: 2+ shots",
+    "frage_b": "Kieron Bowie: 2+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCNCAMBI28-2__polymarket:6119374": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nicolò Cambiaghi: 2+ shots",
+    "frage_b": "Nicolo Cambiaghi: 2+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCJMIRAN33-1__polymarket:6119353": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Juan Miranda: 1+ shots",
+    "frage_b": "Juan Miranda: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCATHEAT3-1__polymarket:6119368": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Arthur Theate: 1+ shots",
+    "frage_b": "Arthur Theate: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-CAGJRODRI15-1__polymarket:6119298": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Juan Rodríguez: 1+ shots",
+    "frage_b": "Juan Rodriguez: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-BFCNZORTE20-1__polymarket:6119378": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Schüsse (shots) vs. Tore (goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nadir Zortea: 1+ shots",
+    "frage_b": "Nadir Zortea: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-COMMKEMPF2-1__polymarket:6120059": {
+    "same_event": false,
+    "reason": "Different bet types (shots vs goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Marc-Oliver Kempf: 1+ shots",
+    "frage_b": "Marc Kempf: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-SASNMATIC18-1__polymarket:6120094": {
+    "same_event": false,
+    "reason": "Different bet types (shots vs goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Nemanja Matić: 1+ shots",
+    "frage_b": "Nemanja Matic: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-CAGAOBERT33-1__polymarket:6119318": {
+    "same_event": false,
+    "reason": "Different bet types (shots vs goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Adam Obert: 1+ shots",
+    "frage_b": "Adam Obert: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24COMSAS-COMWKAMBW53-1__polymarket:6120029": {
+    "same_event": false,
+    "reason": "Different bet types (shots vs goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Willy Kambwala: 1+ shots",
+    "frage_b": "Willy Kambwala: 1+ goals"
+  },
+  "kalshi:KXSERIEAGOAL-26OCT24CAGBFC-CAGADEIOL14-1__polymarket:6119333": {
+    "same_event": false,
+    "reason": "Different bet types (shots vs goals)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Alessandro Deiola: 1+ shots",
+    "frage_b": "Alessandro Deiola: 1+ goals"
+  },
+  "kalshi:KXATPMATCH-26OCT25SHERUU-RUU__polymarket:3195615": {
+    "same_event": false,
+    "reason": "Different events (qualify for ATP Finals vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Casper Ruud Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Casper Ruud wins"
+  },
+  "polymarket:3515972__predictit:8158:31954": {
+    "same_event": false,
+    "reason": "Different races (Alaska Senate+Governor sweep vs Michigan Senate)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Democrats sweep the Alaska Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Democrats (El-Sayed)"
+  },
+  "kalshi:KXATPMATCH-26OCT25VACNAV-VAC__polymarket:3204331": {
+    "same_event": false,
+    "reason": "Different events (year-end top 10 ranking vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Valentin Vacherot Make the Top 10 in the 2026 ATP end of year rankings",
+    "frage_b": "Valentin Vacherot wins"
+  },
+  "polymarket:629270__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Different scope (Alabama Governor vs sweep of swing state Governors)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will the Democrats win the Alabama governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "kalshi:KXATPMATCH-26OCT25DAVBER-DAV__polymarket:3195624": {
+    "same_event": false,
+    "reason": "Different events (qualify for ATP Finals vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Alejandro Davidovich Fokina Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Alejandro Davidovich Fokina wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25DAVBER-BER__polymarket:3195636": {
+    "same_event": false,
+    "reason": "Different events (qualify for ATP Finals vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Zizou Bergs Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Zizou Bergs wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25SHERUU-RUU__polymarket:3204326": {
+    "same_event": false,
+    "reason": "Different events (year-end top 10 ranking vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Casper Ruud Make the Top 10 in the 2026 ATP end of year rankings",
+    "frage_b": "Casper Ruud wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25STRBUB-BUB__polymarket:3195621": {
+    "same_event": false,
+    "reason": "Different events (qualify for ATP Finals vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Alexander Bublik Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Alexander Bublik wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25TABJOD-TAB__polymarket:3195626": {
+    "same_event": false,
+    "reason": "Different events (qualify for ATP Finals vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Alejandro Tabilo Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Alejandro Tabilo wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25SHERUU-SHE__polymarket:3204321": {
+    "same_event": false,
+    "reason": "Different events (year-end top 10 ranking vs win)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Ben Shelton Make the Top 10 in the 2026 ATP end of year rankings",
+    "frage_b": "Ben Shelton wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25FRITSI-TSI__polymarket:3195639": {
+    "same_event": false,
+    "reason": "Different events: qualifying for ATP Finals (season-long ranking achievement) vs 'wins' (unspecified event/tournament)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Stefanos Tsitsipas Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Stefanos Tsitsipas wins"
+  },
+  "kalshi:KXATPMATCH-26OCT25VACNAV-NAV__polymarket:3195638": {
+    "same_event": false,
+    "reason": "Different events: qualifying for ATP Finals (season-long ranking achievement) vs 'wins' (unspecified event/tournament)",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will Mariano Navone Qualify for the Nitto ATP Finals 2026?",
+    "frage_b": "Mariano Navone wins"
+  },
+  "polymarket:6030082__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Different geographic scope and metrics: most seats in La Rioja province vs winning the national Spanish election",
+    "checked_at": "2026-10-24T13:40:38.460271+00:00",
+    "frage_a": "Will PSOE win the most seats in La Rioja in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
