@@ -41746,5 +41746,460 @@
     "checked_at": "2026-10-23T14:34:47.091714+00:00",
     "frage_a": "Exact Score: SC Internacional 1 - 1 Botafogo FR?",
     "frage_b": "Final score Draw 3-3?"
+  },
+  "polymarket:5618783__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 51.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5618784__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 53.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5620999__sxbet:0x0f13e3e3c43740870524fa825ff9cb5845b0847daf974acfd9eb6ad0a7b4382c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Chattanooga vs. Western Carolina: O/U 55.5",
+    "frage_b": "Western Carolina vs Chattanooga - wer gewinnt?"
+  },
+  "polymarket:5616512__sxbet:0xa5c4dcac18d07fdfab1a5de15048c7ada0ef3e04ab5490c3cd034e0674af21e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "New Haven vs. Central Connecticut State: O/U 53.5",
+    "frage_b": "Central Connecticut Blue Devils vs New Haven Chargers - wer gewinnt?"
+  },
+  "polymarket:5620846__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 61.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5620822__sxbet:0x281c0ea4062bc08925313b7f1ba601aa03dabbd561f5e6dfc6850ae67b0e4f51": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Tennessee Tech vs. The Citadel: O/U 53.5",
+    "frage_b": "The Citadel vs Tennessee Tech - wer gewinnt?"
+  },
+  "polymarket:5620890__sxbet:0x728d2d1667f2d4feabc279e13beab7bb0e39fb6cf34abf9b3cd6f15f5daa9368": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Samford vs. Furman: O/U 49.5",
+    "frage_b": "Furman vs Samford - wer gewinnt?"
+  },
+  "polymarket:5620892__sxbet:0x728d2d1667f2d4feabc279e13beab7bb0e39fb6cf34abf9b3cd6f15f5daa9368": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Samford vs. Furman: O/U 51.5",
+    "frage_b": "Furman vs Samford - wer gewinnt?"
+  },
+  "polymarket:5620893__sxbet:0x728d2d1667f2d4feabc279e13beab7bb0e39fb6cf34abf9b3cd6f15f5daa9368": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Samford vs. Furman: O/U 53.5",
+    "frage_b": "Furman vs Samford - wer gewinnt?"
+  },
+  "polymarket:5978532__sxbet:0x26ae7b136bdbe3103cd9e839cb6f64a5327279e41220dbe371bd2e360314353d": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Viertel Moneyline vs. Gesamtspiel Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Texas Tech vs. Cincinnati: 1Q Moneyline",
+    "frage_b": "Cincinnati Bearcats vs Texas Tech Red Raiders - wer gewinnt?"
+  },
+  "polymarket:5620642__sxbet:0xeaacf0faae5e8f91dab0758269cad7ebd28ef368222fec262267e5e26fea5af0": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "East Tennessee State vs. VMI: O/U 61.5",
+    "frage_b": "VMI vs East Tennessee State - wer gewinnt?"
+  },
+  "polymarket:5620806__sxbet:0x4d86cffe8037af136e1ecb033ff336958a0ce61c92f0b88c9e4d878506305bfe": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Tarleton State vs. West Georgia: O/U 61.5",
+    "frage_b": "West Georgia vs Tarleton State - wer gewinnt?"
+  },
+  "polymarket:5620823__sxbet:0x281c0ea4062bc08925313b7f1ba601aa03dabbd561f5e6dfc6850ae67b0e4f51": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Tennessee Tech vs. The Citadel: O/U 55.5",
+    "frage_b": "The Citadel vs Tennessee Tech - wer gewinnt?"
+  },
+  "polymarket:6043881__sxbet:0xaa69329e538c13095eb4ff7b2d871e3c7bf653365f985bbb80b1725a47d36aa7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: O/U 153.5",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5618785__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under (Gesamtpunktzahl) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 55.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5618786__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 57.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5620827__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Frage A ohne Wettart spezifiziert (generisch), Frage B explizit Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5980521__sxbet:0x7ca1f140b41e2cc5fdf04c8dfc3a629213847e23cde159cd4040010a2556195b": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit (1H) Moneyline vs. ganzes Spiel Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Miami (OH) vs. Central Michigan: 1H Moneyline",
+    "frage_b": "Central Michigan Chippewas vs Miami RedHawks - wer gewinnt?"
+  },
+  "polymarket:5620997__sxbet:0x0f13e3e3c43740870524fa825ff9cb5845b0847daf974acfd9eb6ad0a7b4382c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Chattanooga vs. Western Carolina: O/U 51.5",
+    "frage_b": "Western Carolina vs Chattanooga - wer gewinnt?"
+  },
+  "polymarket:6034369__sxbet:0xaa69329e538c13095eb4ff7b2d871e3c7bf653365f985bbb80b1725a47d36aa7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Golden State Valkyries vs. Atlanta Dream: O/U 152.5",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5620844__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 57.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5978568__sxbet:0xce7df5fc2d88ae9fe0ba0580878fbe2428b3dc3f2b0594b7f0ac9a9e6f8199ca": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel (1Q) Moneyline vs. ganzes Spiel Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "West Virginia vs. TCU: 1Q Moneyline",
+    "frage_b": "TCU Horned Frogs vs West Virginia Mountaineers - wer gewinnt?"
+  },
+  "polymarket:5616510__sxbet:0xa5c4dcac18d07fdfab1a5de15048c7ada0ef3e04ab5490c3cd034e0674af21e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "New Haven vs. Central Connecticut State: O/U 49.5",
+    "frage_b": "Central Connecticut Blue Devils vs New Haven Chargers - wer gewinnt?"
+  },
+  "polymarket:5616768__sxbet:0xc4dbed4f0a839f19785ff59b1deb61c4314cf6d7fe61acabea0133121b5768e6": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "University at Albany vs. Rhode Island: O/U 49.5",
+    "frage_b": "Rhode Island vs Albany Great Danes - wer gewinnt?"
+  },
+  "polymarket:5616769__sxbet:0xc4dbed4f0a839f19785ff59b1deb61c4314cf6d7fe61acabea0133121b5768e6": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "University at Albany vs. Rhode Island: O/U 51.5",
+    "frage_b": "Rhode Island vs Albany Great Danes - wer gewinnt?"
+  },
+  "polymarket:5980539__sxbet:0xe8975077a4f5123c8d93b8127e305be39d9afafdb2637ff9bbc6a4c241fc4d35": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit (1H) Moneyline vs. ganzes Spiel Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Akron vs. Kent State: 1H Moneyline",
+    "frage_b": "Kent State Golden Flashes vs Akron Zips - wer gewinnt?"
+  },
+  "polymarket:5978545__sxbet:0xce6a4493e7abd057b8d9512ebcb194e303e18a1138037d12001b3a606dd48fac": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel (1Q) Moneyline vs. ganzes Spiel Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Rice vs. Florida Atlantic: 1Q Moneyline",
+    "frage_b": "Florida Atlantic Owls vs Rice Owls - wer gewinnt?"
+  },
+  "polymarket:5620842__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 53.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5620983__sxbet:0x0f13e3e3c43740870524fa825ff9cb5845b0847daf974acfd9eb6ad0a7b4382c": {
+    "same_event": false,
+    "reason": "Frage A ohne Wettart spezifiziert (generisch), Frage B explizit Moneyline",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Chattanooga vs. Western Carolina",
+    "frage_b": "Western Carolina vs Chattanooga - wer gewinnt?"
+  },
+  "polymarket:5620825__sxbet:0x281c0ea4062bc08925313b7f1ba601aa03dabbd561f5e6dfc6850ae67b0e4f51": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: O/U (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Tennessee Tech vs. The Citadel: O/U 59.5",
+    "frage_b": "The Citadel vs Tennessee Tech - wer gewinnt?"
+  },
+  "polymarket:5618787__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 59.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 59.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5618788__sxbet:0x850663eb04d5dc32dcf9c3ccf6310b7dc637fc417aa1426d2c6847788b852b06": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 61.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Campbell vs. Maine: O/U 61.5",
+    "frage_b": "Maine vs Campbell - wer gewinnt?"
+  },
+  "polymarket:5620843__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 55.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 55.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5620824__sxbet:0x281c0ea4062bc08925313b7f1ba601aa03dabbd561f5e6dfc6850ae67b0e4f51": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 57.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Tennessee Tech vs. The Citadel: O/U 57.5",
+    "frage_b": "The Citadel vs Tennessee Tech - wer gewinnt?"
+  },
+  "polymarket:5620840__sxbet:0x2b08166917272d792ce27c993eefdb7e97b038e4262f8a959443495adf5ff3ea": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 49.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Northern Iowa vs. Southern Illinois: O/U 49.5",
+    "frage_b": "Southern Illinois vs Northern Iowa - wer gewinnt?"
+  },
+  "polymarket:5642600__sxbet:0xaa69329e538c13095eb4ff7b2d871e3c7bf653365f985bbb80b1725a47d36aa7": {
+    "same_event": true,
+    "reason": "Beide Fragen beziehen sich auf den Sieger desselben WNBA-Spiels (Atlanta Dream vs. Golden State Valkyries), gleiche Polarität",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Atlanta Dream W vs Golden State Valkyries W - wer gewinnt?"
+  },
+  "polymarket:5620996__sxbet:0x0f13e3e3c43740870524fa825ff9cb5845b0847daf974acfd9eb6ad0a7b4382c": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 49.5 (Gesamtpunkte) vs. Moneyline (Sieger)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Chattanooga vs. Western Carolina: O/U 49.5",
+    "frage_b": "Western Carolina vs Chattanooga - wer gewinnt?"
+  },
+  "polymarket:6083711__predictit:8163:31964": {
+    "same_event": false,
+    "reason": "Unterschiedliche Bedingung: 'exakt 47 Sitze' vs. '47 oder weniger Sitze' (Teilmenge, keine perfekte Absicherung)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will the Republican Party hold exactly 47 Senate seats after the 2026 midterm elections?",
+    "frage_b": "How many Senate seats will the GOP control after the 2026 midterms? - 47 or fewer"
+  },
+  "polymarket:6029164__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Barcelona (Provinz) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PP win the most seats in Barcelona in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6028998__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Katalonien (Region) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PP win the most seats in Catalonia in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6031122__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Pontevedra (Provinz) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Pontevedra in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6031051__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Segovia (Provinz) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Segovia in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:629666__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Einzelnes Rennen (Tennessee Governor) vs. Aggregat 'Sweep aller Swing-State-Governor-Races'",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will the Democrats win the Tennessee governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:6029938__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Madrid (Region/Provinz) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Madrid in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030699__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Melilla (Einzelwahlkreis) vs. Spanien (national)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the Melilla seat in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6031142__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Ourense vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Ourense in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6067075__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "PP drittmeiste Sitze vs. PP Wahlsieger (1. Platz)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PP win the third-most seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6029083__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz A Coruña vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in A Coruña in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029284__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Ávila vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Ávila in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6031075__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Salamanca vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Salamanca in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030507__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Zamora vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Zamora in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6027260__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Konkreter Sitzbereich 96-101 vs. Wahlsieg (meiste Sitze)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win 96-101 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030593__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Toledo vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Toledo in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029959__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Lugo vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Lugo in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029120__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Burgos vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Burgos in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6067013__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Einzelmandat Ceuta vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the Ceuta seat in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6031133__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Palencia vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Palencia in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030527__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Provinz Valladolid vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Valladolid in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030830__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Region Navarra vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Navarre in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6067073__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "PSOE drittmeiste Sitze vs. PSOE Wahlsieger (1. Platz)",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the third-most seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029597__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "frage_a betrifft die meisten Sitze in der Provinz Kantabrien, frage_b den Gewinn der gesamtspanischen Wahl (national). Unterschiedlicher geografischer Geltungsbereich und Gewinnbedingung.",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Cantabria in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030747__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "frage_a betrifft die meisten Sitze in der Provinz Murcia, frage_b den Gewinn der gesamtspanischen Wahl (national). Unterschiedlicher geografischer Geltungsbereich und Gewinnbedingung.",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Murcia in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030488__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "frage_a betrifft die meisten Sitze in der Provinz Saragossa, frage_b den Gewinn der gesamtspanischen Wahl (national). Unterschiedlicher geografischer Geltungsbereich und Gewinnbedingung.",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Zaragoza in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029343__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "frage_a betrifft die meisten Sitze in der Provinz Almería, frage_b den Gewinn der gesamtspanischen Wahl (national). Unterschiedlicher geografischer Geltungsbereich und Gewinnbedingung.",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Almería in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030945__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "frage_a betrifft die meisten Sitze in der Provinz Soria, frage_b den Gewinn der gesamtspanischen Wahl (national). Unterschiedlicher geografischer Geltungsbereich und Gewinnbedingung.",
+    "checked_at": "2026-10-24T05:29:08.278682+00:00",
+    "frage_a": "Will PSOE win the most seats in Soria in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
