@@ -42747,5 +42747,523 @@
     "checked_at": "2026-10-24T13:40:38.460271+00:00",
     "frage_a": "Will PSOE win the most seats in La Rioja in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6106405__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. 5 Innings Over/Under vs. Spielsieger (Moneyline)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: 1st 5 Innings O/U 1.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5624941__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (North Dakota State) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State Team Total: O/U 20.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5623861__sxbet:0xe792c6055c79fc0cbb9140a3d8746d9c9413c4dc473ca62e9007951ec4e96ca9": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (San Diego State) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "San Diego State Team Total: O/U 23.5",
+    "frage_b": "Colorado State Rams vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5624861__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gesamtpunktzahl Over/Under vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: O/U 43.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:6001692__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Halbzeit Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: 1H Moneyline",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5621037__sxbet:0x6992f1202284b3aaf9e076a201e0a453c4d02aada0cfdca4fb299507222e1e89": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gesamtpunktzahl Over/Under vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Nicholls State vs. Northwestern State: O/U 51.5",
+    "frage_b": "Northwestern State vs Nicholls State - wer gewinnt?"
+  },
+  "polymarket:6106471__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gesamtpunktzahl Over/Under vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: O/U 8.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6106424__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Milwaukee) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 1.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6106468__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gesamtpunktzahl Over/Under vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: O/U 4.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5994257__sxbet:0xa04b82ce672e5b9eb864f8d07f6bb047390850c272022822e9aad194c852adb8": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "San Jose State vs. Nevada: 1Q Moneyline",
+    "frage_b": "Nevada Wolf Pack vs San Jose State Spartans - wer gewinnt?"
+  },
+  "polymarket:6106427__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Milwaukee) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 4.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6001693__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: 1. Viertel Moneyline vs. Gesamtsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: 1Q Moneyline",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:6106416__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Tampa Bay) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 1.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6106419__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Tampa Bay) vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 4.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5624860__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gesamtpunktzahl Over/Under vs. Spielsieger",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: O/U 41.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5624906__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "1Q Over/Under vs. Full Game Moneyline - unterschiedliche Wettart und Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: 1Q O/U 7.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:6106408__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "1st 5 Innings Over/Under vs. Full Game Moneyline - unterschiedliche Wettart und Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: 1st 5 Innings O/U 4.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5623914__sxbet:0x125f4922e180408fcdaebdfa85d056f7316340c8eb3a09ff5b54352476d29cf3": {
+    "same_event": false,
+    "reason": "Umgekehrte Polaritaet: Erste Frage impliziert 'Prairie View gewinnt', zweite 'East Texas gewinnt' (erstgenanntes Team)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Prairie View A&M vs. East Texas A&M",
+    "frage_b": "East Texas A&M vs Prairie View A&M - wer gewinnt?"
+  },
+  "polymarket:5624950__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Team Total Over/Under vs. Full Game Moneyline - unterschiedliche Wettart",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "New Mexico Team Total: O/U 23.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5992452__sxbet:0x4af293e47c1232bdc90d2fc2b374fb9faa17a078b7e6a1d7daf251d0dab2a8e2": {
+    "same_event": false,
+    "reason": "1H Moneyline vs. Full Game Moneyline - unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Eastern Michigan vs. Ohio: 1H Moneyline",
+    "frage_b": "Ohio Bobcats vs Eastern Michigan Eagles - wer gewinnt?"
+  },
+  "polymarket:6106470__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Full Game Over/Under vs. Full Game Moneyline - unterschiedliche Wettart",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: O/U 7.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5623862__sxbet:0xe792c6055c79fc0cbb9140a3d8746d9c9413c4dc473ca62e9007951ec4e96ca9": {
+    "same_event": false,
+    "reason": "Team Total Over/Under vs. Full Game Moneyline - unterschiedliche Wettart",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "San Diego State Team Total: O/U 26.5",
+    "frage_b": "Colorado State Rams vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5998574__sxbet:0x5c9d2ef1a8b9de3c69ebe6c8a287a744726f145e5c471e220e31a409b25c14a4": {
+    "same_event": false,
+    "reason": "1H Moneyline vs. Full Game Moneyline - unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Ole Miss vs. Texas: 1H Moneyline",
+    "frage_b": "Texas Longhorns vs Ole Miss Rebels - wer gewinnt?"
+  },
+  "polymarket:5998619__sxbet:0x660bca34fe7986928f53d74111ec10c22b35846d2de78a5cb4475c61e80652df": {
+    "same_event": false,
+    "reason": "1H Moneyline vs. Full Game Moneyline - unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Virginia Tech vs. Clemson: 1H Moneyline",
+    "frage_b": "Clemson Tigers vs Virginia Tech Hokies - wer gewinnt?"
+  },
+  "polymarket:5998622__sxbet:0x660bca34fe7986928f53d74111ec10c22b35846d2de78a5cb4475c61e80652df": {
+    "same_event": false,
+    "reason": "1Q Moneyline vs. Full Game Moneyline - unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Virginia Tech vs. Clemson: 1Q Moneyline",
+    "frage_b": "Clemson Tigers vs Virginia Tech Hokies - wer gewinnt?"
+  },
+  "polymarket:6106413__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Fuehrung nach 5 Innings vs. Full Game Sieger - unterschiedliche Wettart/Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5624858__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Full Game Over/Under vs. Full Game Moneyline - unterschiedliche Wettart",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: O/U 39.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5624895__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "1H Over/Under vs. Full Game Moneyline - unterschiedliche Wettart und Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: 1H O/U 30.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:6106412__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Fuehrung nach 5 Innings vs. Full Game Sieger - unterschiedliche Wettart/Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays winning after 5 innings?",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5998599__sxbet:0xe35d5f1bccd67dead66d2cd0c7cd29605c979cc6f73dce0f419cbb0f7cde23d6": {
+    "same_event": false,
+    "reason": "1H Moneyline vs. Full Game Moneyline - unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Georgia State vs. Arkansas State: 1H Moneyline",
+    "frage_b": "Arkansas State Red Wolves vs Georgia State Panthers - wer gewinnt?"
+  },
+  "polymarket:6106406__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (1. 5 Innings Over/Under vs. Spielsieger) und unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: 1st 5 Innings O/U 2.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6106469__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Gesamt-Runs Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: O/U 5.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5998602__sxbet:0xe35d5f1bccd67dead66d2cd0c7cd29605c979cc6f73dce0f419cbb0f7cde23d6": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (1. Viertel Moneyline vs. Gesamtsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Georgia State vs. Arkansas State: 1Q Moneyline",
+    "frage_b": "Arkansas State Red Wolves vs Georgia State Panthers - wer gewinnt?"
+  },
+  "polymarket:6106418__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Team Total Runs Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 3.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:6106426__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Team Total Runs Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 3.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5623864__sxbet:0xe792c6055c79fc0cbb9140a3d8746d9c9413c4dc473ca62e9007951ec4e96ca9": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Team Total Punkte Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "San Diego State Team Total: O/U 32.5",
+    "frage_b": "Colorado State Rams vs San Diego State Aztecs - wer gewinnt?"
+  },
+  "polymarket:5621158__sxbet:0x6e30d3bb27e9cc13ba0ffb2480366f2db4df1c1e1c678a0643ff23b97d1b44e7": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Gesamt-Punkte Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Weber State vs. Montana State: O/U 51.5",
+    "frage_b": "Montana State vs Weber State - wer gewinnt?"
+  },
+  "polymarket:6106407__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (1. 5 Innings Over/Under vs. Spielsieger) und unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tampa Bay Rays vs. Milwaukee Brewers: 1st 5 Innings O/U 3.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5624856__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Gesamt-Punkte Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: O/U 37.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:6106425__sxbet:0xd30d7224666ec2b9ea6a2e07d6a4625332562057bc7c23c61a26ee88c4079a76": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Team Total Runs Over/Under vs. Spielsieger)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 2.5",
+    "frage_b": "Milwaukee Brewers vs Tampa Bay Rays - wer gewinnt?"
+  },
+  "polymarket:5624893__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (1. Halbzeit Over/Under vs. Spielsieger) und unterschiedlicher Zeitraum",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "North Dakota State vs. New Mexico: 1H O/U 27.5",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:5951583__predictit:8544:33624": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Geltungsbereich (Stadt São Paulo, 2. Wahlgang vs. Landesweite Präsidentschaftswahl 2026)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will Flavio Bolsonaro win the most votes in the second round of the Brazil presidential election in the city of São Paulo?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "kalshi:KXLIGAPORTUGAL1H-26OCT25CDNBRA-CDN__polymarket:5923108": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum (Gesamtes Spiel vs. 1. Halbzeit)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will Nacional Asuncion win on 2026-10-24?",
+    "frage_b": "Nacional wins 1st Half"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5703532": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (Team Total 1. HZ Over/Under vs. Beide Teams treffen 1. HZ)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Club Universitario de Deportes vs. ADC Juan Pablo II College: Club Universitario de Deportes 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAPORTUGAL1H-26OCT25CDNBRA-CDN__polymarket:5645436": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart (1. Halbzeit Gesamt-Tore Over/Under vs. Sieger 1. Halbzeit)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "CD Nacional vs. SC Braga: 1st Half O/U 1.5",
+    "frage_b": "Nacional wins 1st Half"
+  },
+  "kalshi:KXSLGREECEBTTS-26OCT25ARISATR-BTTS__polymarket:5643002": {
+    "same_event": false,
+    "reason": "Frage A nennt konkretes Spiel (AZ vs. FC Twente), Frage B ist generisch ohne Teams; zudem fehlt in B der Zeitraum (ganzes Spiel vs. unklar).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "AZ vs. FC Twente: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLIGAPORTUGAL1HBTTS-26OCT25RAVFAM-BTTS__polymarket:5645406": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (Rio Ave trifft in 1. HZ) vs. Both Teams To Score in 1. HZ (beide treffen).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Rio Ave FC vs. FC Famalicão: Rio Ave FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1H-26OCT25TLACOR-TLA__polymarket:5907747": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Gesamttore 1. HZ O/U 2.5 vs. Sieger 1. HZ (Tlaxcala).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tlaxcala FC vs. CF Correcaminos UAT: 1st Half O/U 2.5",
+    "frage_b": "Tlaxcala wins 1st Half"
+  },
+  "kalshi:KXLIGAPORTUGAL1H-26OCT25CDNBRA-CDN__polymarket:3316686": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Zeitraum: ganzes Spiel (Sieger) vs. nur 1. Halbzeit (Sieger 1. HZ).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will Atlético Nacional win on 2026-08-15?",
+    "frage_b": "Nacional wins 1st Half"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5703129": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (Ude Chile trifft in 1. HZ) vs. Both Teams To Score in 1. HZ.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "CF Universidad de Chile vs. Everton de Viña del Mar: CF Universidad de Chile 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5596873": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (Liverpool trifft in 1. HZ) vs. Both Teams To Score in 1. HZ.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Liverpool FC vs. Brighton & Hove Albion FC: Liverpool FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5643108": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (AZ trifft in 1. HZ) vs. Both Teams To Score in 1. HZ.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "AZ vs. FC Twente: AZ 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5907762": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (Tlaxcala trifft in 1. HZ) vs. Both Teams To Score in 1. HZ.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Tlaxcala FC vs. CF Correcaminos UAT: Tlaxcala FC 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5619411": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten/Sportarten: Team Total Points O/U 12.5 (Football/Basketball) vs. Both Teams To Score (Fußball-Tor-Wette).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Clemson 1H Team Total: O/U 12.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAPORTUGAL1HBTTS-26OCT25CDNBRA-BTTS__polymarket:5645452": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Tor-O/U 0.5 (CD Nacional trifft in 1. HZ) vs. Both Teams To Score in 1. HZ.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "CD Nacional vs. SC Braga: CD Nacional 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAPORTUGAL1H-26OCT25RAVFAM-RAV__polymarket:5645391": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Gesamttore 1. HZ O/U 2.5 vs. Sieger 1. HZ (Rio Ave).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Rio Ave FC vs. FC Famalicão: 1st Half O/U 2.5",
+    "frage_b": "Rio Ave wins 1st Half"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5624179": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten/Sportarten: Team Total Points O/U 13.5 vs. Both Teams To Score (generisch).",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "USC 1H Team Total: O/U 13.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGUE1FIRSTGOAL-26OCT24RCLPAR-PARDCOPPO42__polymarket:5740810": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Spielsieger San Diego FC vs. Erster Torschütze Diego Coppola.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will San Diego FC win on 2026-10-28?",
+    "frage_b": "Diego Coppola: First Goalscorer"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5623557": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten/Sportarten: Team Total Points O/U 12.5 vs. Both Teams To Score.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Nevada 1H Team Total: O/U 12.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5617557": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten/Sportarten: Team Total Points O/U 15.5 vs. Both Teams To Score.",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Louisiana 1H Team Total: O/U 15.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5620496": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total-Punkte (O/U) vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Troy 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5622232": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total-Punkte (O/U) vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Alabama 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5624297": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total-Punkte (O/U) vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Kentucky 1H Team Total: O/U 16.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAPORTUGAL1H-26OCT25RAVFAM-RAV__polymarket:5645390": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1. Halbzeit Gesamt-Tore O/U vs. Sieger 1. Halbzeit",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Rio Ave FC vs. FC Famalicão: 1st Half O/U 1.5",
+    "frage_b": "Rio Ave wins 1st Half"
+  },
+  "kalshi:KXSLGREECEBTTS-26OCT25ARISATR-BTTS__polymarket:5916079": {
+    "same_event": true,
+    "reason": "Beide fragen nach 'Both Teams To Score' für dasselbe Spiel (Ajax vs AZ)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "AFC Ajax vs. AZ: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXNFLTD-26OCT25PITNO-NOBBROWN19-1__polymarket:5995344": {
+    "same_event": false,
+    "reason": "Verschiedene Spieler (Chase Brown vs. Barion Brown) und unterschiedliche Schwellenwerte (2+ vs 1+)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Chase Brown: 2+ Touchdowns",
+    "frage_b": "Barion Brown: 1+ touchdowns"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5619056": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total-Punkte (O/U) vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "UCLA 1H Team Total: O/U 14.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5619940": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team-Total-Punkte (O/U) vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Houston 1H Team Total: O/U 11.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5643130": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: FC Twente 1. HZ Tore O/U 0.5 vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "AZ vs. FC Twente: FC Twente 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "kalshi:KXLIGAEXP1HBTTS-26OCT25TLACOR-BTTS__polymarket:5961981": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Gimnasia 1. HZ Tore O/U 0.5 vs. Both Teams To Score",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Gimnasia y Esgrima de Jujuy vs. CA Atlanta: Gimnasia y Esgrima de Jujuy 1st Half O/U 0.5",
+    "frage_b": "Both teams score in the 1st Half?"
+  },
+  "polymarket:5941101__sxbet:0xc99b57d2c8b2dfc17ad01eeef4f0a18c2a38735905e2b6d211d94702b884ecae": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Begegnungen (Jacksonville State vs New Mexico State vs. New Mexico Lobos vs North Dakota State)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Jacksonville State vs. New Mexico State",
+    "frage_b": "New Mexico Lobos vs North Dakota State - wer gewinnt?"
+  },
+  "polymarket:630746__predictit:8396:33066": {
+    "same_event": false,
+    "reason": "Eine Seite generisch ('Democrats'), andere nennt konkreten Kandidaten 'Hamilton' (generisch vs. spezifisch)",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will the Democrats win the Kansas Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kansas? - Dems (Hamilton)"
+  },
+  "polymarket:6030281__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaften: Wahlkreis Granada vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will PSOE win the most seats in Granada in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030680__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaften: Wahlkreis Málaga vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-24T19:25:01.259859+00:00",
+    "frage_a": "Will PSOE win the most seats in Málaga in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
