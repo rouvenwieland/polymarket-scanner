@@ -5640,3 +5640,31 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-24T18:15:00.748585+02:00,6137702,"Will the price of Ethereum be above $1,900 on October 31?",ethereum-above-1900-on-october-31-2026,0.525,0.47,0.995,0.0,10.0379,2026-10-31T16:00:00Z,schaetzung
 2026-10-24T18:15:00.748585+02:00,6139383,Exact Score: Gaziantep FK 1 - 4 Kasımpaşa SK?,tur-gfk-kas-2026-11-06-exact-score-1-4,0.49,0.505,0.995,0.0,2.5016,2026-11-06T17:00:00Z,schaetzung
 2026-10-24T18:15:00.748585+02:00,6139389,Exact Score: Gaziantep FK 2 - 4 Kasımpaşa SK?,tur-gfk-kas-2026-11-06-exact-score-2-4,0.49,0.505,0.995,0.0,2.5016,2026-11-06T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,4226429,Will Blake Corum finish the 2026-27 NFL regular season with the most scrimmage yards?,will-blake-corum-finish-the-2026-27-nfl-regular-season-with-the-most-scrimmage-yards,0.4965,0.503,0.9995,164.99,1.90498,2027-01-12T23:59:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,4226488,Will Travis Etienne Jr. finish the 2026-27 NFL regular season with the most scrimmage yards?,will-travis-etienne-jrpt-finish-the-2026-27-nfl-regular-season-with-the-most-scrimmage-yards,0.4965,0.503,0.9995,166.0,1.91697,2027-01-12T23:59:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5601871,Exact Score: Deportivo San Pedro 4 - 3 CD Malacateco?,gtm-dsp-adm-2026-10-25-exact-score-4-3,0.465,0.53,0.9950000000000001,0.0,24.9997,2026-10-25T21:10:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5630303,Sacramento State vs. Ball State: Both Teams to Score a Touchdown - 1H,cfb-sacst-ballst-2026-10-24-1h-btts-td,0.495,0.5,0.995,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5630332,Sacramento State vs. Ball State: Kickoff or Punt Return Touchdown,cfb-sacst-ballst-2026-10-24-kick-punt-return-td,0.495,0.5,0.995,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5630833,Old Dominion vs. Louisiana Tech: Both Teams to Score Points - Q2,cfb-old-loutch-2026-10-24-2q-btts-points,0.5,0.495,0.995,0.0,0.0,2026-10-24T21:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5630836,Old Dominion vs. Louisiana Tech: Game Goes to Overtime,cfb-old-loutch-2026-10-24-overtime,0.495,0.5,0.995,0.0,0.0,2026-10-24T21:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5631112,Michigan State vs. UCLA: Kickoff or Punt Return Touchdown,cfb-mst-ucla-2026-10-24-kick-punt-return-td,0.495,0.5,0.995,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633401,Exact Margin: South Carolina by 19-24,cfb-tenn-sc-2026-10-24-exact-margin-short-19-24,0.5,0.495,0.995,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633404,Exact Margin: Georgia Tech by 25+,cfb-boscol-gtech-2026-10-24-exact-margin-short-25-plus,0.5,0.495,0.995,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633433,Exact Margin: Tie,cfb-vtech-clmsn-2026-10-24-exact-margin-tie,0.5,0.495,0.995,0.0,0.0,2026-10-24T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633463,Exact Margin: Colorado by 19-24,cfb-col-okst-2026-10-24-exact-margin-long-19-24,0.43,0.5,0.9299999999999999,0.0,0.0,2026-10-24T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633487,Exact Margin: Oklahoma State by 19-24,cfb-col-okst-2026-10-24-exact-margin-short-19-24,0.405,0.5,0.905,0.0,0.0,2026-10-24T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5633583,Exact Margin: Southern Miss by 25+,cfb-loulaf-soumis-2026-10-24-exact-margin-short-25-plus,0.5,0.495,0.995,0.0,0.0,2026-10-24T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5866359,Exact Score: Tranmere Rovers FC 2 - 2 Cheltenham Town FC?,el2-tra-che-2026-10-31-exact-score-2-2,0.48,0.515,0.995,0.0,12.6421,2026-10-31T15:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5895022,Exact Score: Everton FC 4 - 5 Aston Villa WFC?,wsl-eve-avl-2026-10-25-exact-score-4-5,0.485,0.51,0.995,0.0,10.0397,2026-10-25T14:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5917641,Exact Score: US Avellino 1912 5 - 0 Pisa SC?,itsb-ave-pis-2026-11-01-exact-score-5-0,0.485,0.51,0.995,0.0,8.6439,2026-11-01T14:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5919281,Exact Score: Aurora FC 3 - 2 Antigua GFC?,gtm-aur-ant-2026-11-01-exact-score-3-2,0.485,0.51,0.995,0.0,8.6099,2026-11-01T17:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5932591,Exact Score: CA Belgrano 2 - 2 CA Barracas Central?,arg-bel-bar-2026-11-01-exact-score-2-2,0.485,0.51,0.995,0.0,8.603,2026-11-01T21:30:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5978053,Will Jules Moussard finish in the Top 3 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top3-jules-moussard,0.495,0.5,0.995,0.0,20.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5980337,Exact Score: CS Independiente Rivadavia 4 - 1 CA Banfield?,arg-riv1-ban-2026-11-02-exact-score-4-1,0.48,0.515,0.995,0.0,12.7465,2026-11-03T00:15:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,5989861,Exact Score: Maghreb AS de Fès 2 - 2 RS Berkane?,mar1-mad-rsb-2026-10-29-exact-score-2-2,0.47,0.525,0.995,0.0,10.4656,2026-10-29T21:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,6018782,Exact Score: Club Atlético de Madrid 0 - 3 FC Bayern München?,ucl-atm-bay-2026-11-03-exact-score-0-3,0.455,0.54,0.9950000000000001,0.0,31.0198,2026-11-03T20:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,6132287,1st Half Exact Score: Getafe CF 2 - 0 Sevilla FC?,lal-get-sev-2026-11-01-first-half-exact-score-2-0,0.47,0.525,0.995,0.0,12.7198,2026-11-01T13:00:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,6140713,1st Half Exact Score: Real Racing Club 2 - 1 Real Madrid CF?,lal-rrc-rea-2026-11-01-first-half-exact-score-2-1,0.47,0.525,0.995,0.0,13.5892,2026-11-01T15:15:00Z,schaetzung
+2026-10-24T23:11:17.839391+02:00,6148040,Santiago García: Anytime Goalscorer,por-gil-por-2026-10-24-ags-santiago-garcia-90100070,0.005,0.5,0.505,0.0,0.0,2026-10-24T19:30:00Z,schaetzung
