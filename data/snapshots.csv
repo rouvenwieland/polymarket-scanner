@@ -5701,3 +5701,11 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-25T06:28:11.663407+01:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
 2026-10-25T06:28:11.663407+01:00,5630827,Houston vs. Utah: Kickoff or Punt Return Touchdown,cfb-hou-utah-2026-10-24-kick-punt-return-td,0.495,0.5,0.995,0.0,0.0,2026-10-25T02:15:00Z,schaetzung
 2026-10-25T06:28:11.663407+01:00,5978053,Will Jules Moussard finish in the Top 3 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top3-jules-moussard,0.495,0.5,0.995,0.0,20.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,5912710,"Will Ethereum reach $3,100 October 19-25?",will-ethereum-reach-3100-october-19-25-2026,0.001,0.9985,0.9995,35929.005022,41542.6588,2026-10-26T04:00:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,5978053,Will Jules Moussard finish in the Top 3 of Titled Tuesday on October 27?,titled-tuesday-2026-10-27-top3-jules-moussard,0.495,0.5,0.995,0.0,20.0,2026-11-11T04:59:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,5996895,FC Internazionale Milano to score first in the 1st half vs. ACF Fiorentina?,sea-int-fio-2026-10-25-first-half-first-to-score-home,0.415,0.5,0.915,0.0,0.0,2026-10-25T11:30:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,6085338,Game 3: Any Player Rampage?,dota2-liquid-og-2026-10-25-game3-any-player-rampage,0.16,0.5,0.66,0.0,0.0,2026-10-25T15:00:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,6186016,Exact Score: Al Nassr Club 5 - 3 Al Wasl FC?,acle-aln-alw-2026-10-26-exact-score-5-3,0.49,0.505,0.995,0.0,9.0598,2026-10-26T18:15:00Z,schaetzung
+2026-10-25T12:59:39.104520+01:00,6187152,Exact Score: FC DAC 1904 Dunajská Streda 2 - 1 FC Košice?,svk1-dac-kos-2026-11-07-exact-score-2-1,0.49,0.505,0.995,0.0,4.0598,2026-11-07T17:00:00Z,schaetzung
