@@ -43300,5 +43300,173 @@
     "checked_at": "2026-10-25T05:27:31.584569+00:00",
     "frage_a": "Will AP call US Senate control by November 3, 10:59 PM?",
     "frage_b": "Which party will control the Senate after the 2026 election? - Democratic"
+  },
+  "polymarket:6173155__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Milwaukee) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 5.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173163__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Tampa Bay) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 5.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173207__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Game Total (Gesamtruns) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 9.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173203__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Game Total (Gesamtruns) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 4.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173159__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Tampa Bay) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 1.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173151__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Milwaukee) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 1.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173144__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1st 5 Innings Total vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: 1st 5 Innings O/U 5.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173206__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Game Total (Gesamtruns) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 8.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173154__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Milwaukee) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 4.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173162__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total (Runs Tampa Bay) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 4.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173141__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1st 5 Innings Total vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: 1st 5 Innings O/U 2.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173147__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Führung nach 5 Innings (First 5 Moneyline) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers winning after 5 innings?",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173204__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Game Total (Gesamtruns) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 5.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173143__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1st 5 Innings Total vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: 1st 5 Innings O/U 4.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173205__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Game Total (Gesamtruns) vs. Matchwinner (Gesamtspiel)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 7.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173160__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Runs (Over/Under 2.5) vs. Spielgewinner",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Tampa Bay Rays Team Total: O/U 2.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173148__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Führung nach 5 Innings vs. Endergebnis (Spielgewinner)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Tampa Bay Rays winning after 5 innings?",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173152__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Runs (Over/Under 2.5) vs. Spielgewinner",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 2.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173153__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Team Total Runs (Over/Under 3.5) vs. Spielgewinner",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Milwaukee Brewers Team Total: O/U 3.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "kalshi:KXLALIGABTTS-26NOV01GETSEV-BTTS__polymarket:5916079": {
+    "same_event": false,
+    "reason": "Spezifisches Spiel (Ajax vs. AZ) vs. generische Frage ohne Teams",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "AFC Ajax vs. AZ: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "kalshi:KXLALIGABTTS-26NOV01GETSEV-BTTS__polymarket:6092015": {
+    "same_event": false,
+    "reason": "Spezifisches Spiel (AZ vs. Juventus) vs. generische Frage ohne Teams",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "AZ vs. Juventus FC: Both Teams to Score",
+    "frage_b": "Both Teams To Score"
+  },
+  "polymarket:4713286__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliche Länder (Dänemark vs. Spanien), unterschiedliche Fragen (Ausrufung vs. Sieger), unterschiedliche Zeiträume",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Denmark snap election called by December 31?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:4713277__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliche Länder (Grönland vs. Spanien), unterschiedliche Fragen (Ausrufung vs. Sieger), unterschiedliche Zeiträume",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Greenland snap election called by December 31?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6030363__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaften (Provinz Gipuzkoa vs. ganz Spanien), unterschiedliche Wahlarten (Generalwahl vs. Snap Election)",
+    "checked_at": "2026-10-25T14:07:59.336096+00:00",
+    "frage_a": "Will PSOE win the most seats in Gipuzkoa in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
