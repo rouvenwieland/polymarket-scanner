@@ -43468,5 +43468,68 @@
     "checked_at": "2026-10-25T14:07:59.336096+00:00",
     "frage_a": "Will PSOE win the most seats in Gipuzkoa in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6173136__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Over/Under 6.5 Runs (Gesamtpunktzahl) vs. Moneyline-Sieger des Spiels",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: O/U 6.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:6173142__sxbet:0x9e89f6d93358363b16e876a5f194a6757b2005ca099bc821736788bc593d9531": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 1st 5 Innings O/U 3.5 vs. Sieger des gesamten Spiels",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Milwaukee Brewers vs. Tampa Bay Rays: 1st 5 Innings O/U 3.5",
+    "frage_b": "Tampa Bay Rays vs Milwaukee Brewers - wer gewinnt?"
+  },
+  "polymarket:5642600__sxbet:0x4686b21c60c7424c529a1ba5e5574c12e40bdba883be959899f5db512cbe29e1": {
+    "same_event": false,
+    "reason": "Frage_a unvollständig/mehrdeutig (nur Teams, keine Wettart spezifiziert), Frage_b explizit 'wer gewinnt'",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "polymarket:6029531__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelwahlkreis Córdoba vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will PSOE win the most seats in Córdoba in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030904__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelwahlkreis Teruel vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will PSOE win the most seats in Teruel in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029423__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelwahlkreis Albacete vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will PSOE win the most seats in Albacete in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029545__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelwahlkreis Ciudad Real vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will PSOE win the most seats in Ciudad Real in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6030395__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gebietskörperschaft: Einzelwahlkreis Cuenca vs. gesamtspanische Wahl",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will PSOE win the most seats in Cuenca in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:2865978__predictit:8656:34165": {
+    "same_event": false,
+    "reason": "Unterschiedliche Frage-Struktur: Binäres Ja/Nein auf AOC als Erste vs. Multiple-Choice unter mehreren Kandidaten (unterschiedliche Kandidatensets möglich)",
+    "checked_at": "2026-10-25T19:46:01.401298+00:00",
+    "frage_a": "Will Alexandria Ocasio-Cortez be the first listed Democrat to announce a run for President in 2028?",
+    "frage_b": "Which of these Democratic candidates will announce a 2028 POTUS run first? - A. Ocasio-Cortez"
   }
 }
