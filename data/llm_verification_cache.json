@@ -43531,5 +43531,61 @@
     "checked_at": "2026-10-25T19:46:01.401298+00:00",
     "frage_a": "Will Alexandria Ocasio-Cortez be the first listed Democrat to announce a run for President in 2028?",
     "frage_b": "Which of these Democratic candidates will announce a 2028 POTUS run first? - A. Ocasio-Cortez"
+  },
+  "polymarket:601826__predictit:8544:33624": {
+    "same_event": true,
+    "reason": "Identische Frage: gleicher Kandidat (Flávio Bolsonaro), gleiche Wahl (Brasilien 2026), gleiche Polarität.",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Flávio Bolsonaro"
+  },
+  "polymarket:601819__predictit:8544:33623": {
+    "same_event": true,
+    "reason": "Identische Frage: gleicher Kandidat (Lula da Silva / Lula), gleiche Wahl (Brasilien 2026), gleiche Polarität.",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?",
+    "frage_b": "Who will win the 2026 Brazilian presidential election? - Luiz Inácio Lula"
+  },
+  "kalshi:KXNFLTD-26OCT25GBDET-DETJWILLIAMS1-4__polymarket:6032622": {
+    "same_event": false,
+    "reason": "Verschiedene Spieler (Javonte vs. Jameson Williams) und verschiedene Schwellen (2+ vs. 4+ Touchdowns).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Javonte Williams: 2+ Touchdowns",
+    "frage_b": "Jameson Williams: 4+ touchdowns"
+  },
+  "polymarket:5923413__predictit:8939:35599": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Fußballspiel (NWSL) vs. Senatswahl (USA).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will North Carolina Courage win on 2026-11-01?",
+    "frage_b": "Which 2026 Senate race will be the closest? - North Carolina"
+  },
+  "polymarket:5941188__sxbet:0x703c2ce1a21bb122fcd1e0de5898313f700b8c6c2d78ecea2114b2a21648586f": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total Over/Under (Punkte) vs. Moneyline (Sieger des Spiels).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "New Mexico State Team Total: O/U 23.5",
+    "frage_b": "New Mexico State Aggies vs Jacksonville State Gamecocks - wer gewinnt?"
+  },
+  "polymarket:6029225__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliches Gebiet: Balearische Inseln (Regionalergebnis) vs. ganz Spanien (Gesamtsieger).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will PSOE win the most seats in the Balearic Islands in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6027262__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Propositions: konkreter Sitzbereich (108-113) vs. Wahlsieg (Pluralität der Sitze).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will PSOE win 108-113 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6029375__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliches Gebiet: Provinz Alicante (Regionalergebnis) vs. ganz Spanien (Gesamtsieger).",
+    "checked_at": "2026-10-25T23:22:42.435056+00:00",
+    "frage_a": "Will PSOE win the most seats in Alicante in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
