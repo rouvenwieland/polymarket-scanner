@@ -43587,5 +43587,103 @@
     "checked_at": "2026-10-25T23:22:42.435056+00:00",
     "frage_a": "Will PSOE win the most seats in Alicante in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "kalshi:KXNBA1HTEAMTOTAL-26OCT26WASCHA-CHA70__polymarket:5739841": {
+    "same_event": false,
+    "reason": "Different sports (soccer vs basketball), different bet types (2nd half winner vs 1st half points total), different halves",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Charlotte FC to win the second half?",
+    "frage_b": "Charlotte over 69.5 1st half points scored"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-ATLJJOHNSON1__polymarket:6236111": {
+    "same_event": false,
+    "reason": "Different prop bets: points over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Jalen Johnson: Points O/U 34.5",
+    "frage_b": "Jalen Johnson: Double Double"
+  },
+  "kalshi:KXWNBA3QWINNER-26OCT26ATLGS-ATL__polymarket:5740122": {
+    "same_event": false,
+    "reason": "Different sports (soccer vs basketball/football), different bet types (full game winner vs quarter winner)",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Will Atlanta United FC win on 2026-10-28?",
+    "frage_b": "Atlanta wins the 3rd quarter"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-HOUASENGUN28__polymarket:6236129": {
+    "same_event": false,
+    "reason": "Different prop bets: rebounds over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Alperen Sengün: Rebounds O/U 13.5",
+    "frage_b": "Alperen Sengun: Double Double"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-HOUASENGUN28__polymarket:6236085": {
+    "same_event": false,
+    "reason": "Different prop bets: points over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Alperen Sengün: Points O/U 34.5",
+    "frage_b": "Alperen Sengun: Double Double"
+  },
+  "polymarket:6153159__sxbet:0x4686b21c60c7424c529a1ba5e5574c12e40bdba883be959899f5db512cbe29e1": {
+    "same_event": false,
+    "reason": "Same game but different bet types: total points over/under vs moneyline winner",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Atlanta Dream vs. Golden State Valkyries: O/U 150.5",
+    "frage_b": "Golden State Valkyries W vs Atlanta Dream W - wer gewinnt?"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-HOUASENGUN28__polymarket:6236130": {
+    "same_event": false,
+    "reason": "Different prop bets: rebounds over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Alperen Sengün: Rebounds O/U 15.5",
+    "frage_b": "Alperen Sengun: Double Double"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-ATLJJOHNSON1__polymarket:6236110": {
+    "same_event": false,
+    "reason": "Different prop bets: points over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Jalen Johnson: Points O/U 29.5",
+    "frage_b": "Jalen Johnson: Double Double"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-HOUASENGUN28__polymarket:6236084": {
+    "same_event": false,
+    "reason": "Different prop bets: points over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Alperen Sengün: Points O/U 29.5",
+    "frage_b": "Alperen Sengun: Double Double"
+  },
+  "kalshi:KXNBA2D-26OCT26ATLHOU-HOUATHOMPSON1__polymarket:6236137": {
+    "same_event": false,
+    "reason": "Different prop bets: rebounds over/under vs double-double achievement",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Amen Thompson: Rebounds O/U 13.5",
+    "frage_b": "Amen Thompson: Double Double"
+  },
+  "kalshi:KXNFLFIRSTTD-26OCT29CARGB-CARBYOUNG9__polymarket:6222940": {
+    "same_event": false,
+    "reason": "Different prop bets: passing touchdowns over/under vs first touchdown scorer",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Bryce Young: Passing Touchdowns O/U 2.5",
+    "frage_b": "Bryce Young: 1st Touchdown"
+  },
+  "polymarket:630759__predictit:8386:33043": {
+    "same_event": true,
+    "reason": "Same event: 2026 Kentucky Senate race, Democratic victory. Both resolve Yes if Democrats win.",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Will the Democrats win the Kentucky Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Kentucky? - Democratic (Booker)"
+  },
+  "polymarket:6027263__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Different bet types: specific seat range (114-119) vs election winner",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Will PSOE win 114-119 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:2750300__predictit:8533:33579": {
+    "same_event": false,
+    "reason": "First question has deadline 'before 2027', second has no deadline; resolution differs if Kim leaves next but after 2027",
+    "checked_at": "2026-10-26T05:36:41.228214+00:00",
+    "frage_a": "Will Kim Jong Un be the next leader out before 2027?",
+    "frage_b": "Which of these 10 Asian leaders will leave office next? - Kim Jong Un"
   }
 }
