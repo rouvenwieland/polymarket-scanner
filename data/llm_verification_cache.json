@@ -43685,5 +43685,33 @@
     "checked_at": "2026-10-26T05:36:41.228214+00:00",
     "frage_a": "Will Kim Jong Un be the next leader out before 2027?",
     "frage_b": "Which of these 10 Asian leaders will leave office next? - Kim Jong Un"
+  },
+  "polymarket:6207435__sxbet:0xcfa6a32048f449769255c115c7d7b966323c7585a7d43d61a4d2e06222f6fa17": {
+    "same_event": false,
+    "reason": "Different bet types: 1st Half Moneyline vs full game winner",
+    "checked_at": "2026-10-26T16:04:13.346151+00:00",
+    "frage_a": "Sam Houston vs. Missouri State: 1H Moneyline",
+    "frage_b": "Missouri State vs Sam Houston Bearkats - wer gewinnt?"
+  },
+  "kalshi:KXTRUMPLULA-26OCT-26OCT__polymarket:5177545": {
+    "same_event": false,
+    "reason": "Different events: public praise vs meeting",
+    "checked_at": "2026-10-26T16:04:13.346151+00:00",
+    "frage_a": "Will Donald Trump publicly praise Luiz Inácio Lula da Silva by October 31, 2026?",
+    "frage_b": "Donald Trump and Luiz Inácio Lula da Silva meet before Nov 1, 2026?"
+  },
+  "polymarket:3515974__predictit:9033:36071": {
+    "same_event": false,
+    "reason": "Different logical conditions: specific party-seat combo (Dem Gov + Rep Sen) vs any split-party outcome",
+    "checked_at": "2026-10-26T16:04:13.346151+00:00",
+    "frage_a": "Will Democrats win the Alaska Governor election and Republicans win the Alaska Senate election?",
+    "frage_b": "Will Alaska elect a Senator and Governor from different parties?"
+  },
+  "polymarket:5336560__predictit:9047:36154": {
+    "same_event": true,
+    "reason": "Same event: PSOE winning most seats in 2026 Spanish general election",
+    "checked_at": "2026-10-26T16:04:13.346151+00:00",
+    "frage_a": "Will PSOE win the most seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }

@@ -1,18 +1,18 @@
 {
-  "timestamp": "2026-10-26T05:55:09.950351+01:00",
+  "timestamp": "2026-10-26T16:15:11.060931+01:00",
   "platforms": {
     "polymarket": {
-      "open_markets": 178953
+      "open_markets": 186114
     },
     "kalshi": {
-      "open_markets": 1789
+      "open_markets": 651
     },
     "predictit": {
-      "open_markets": 637
+      "open_markets": 634
     },
     "sxbet": {
-      "open_markets": 226
+      "open_markets": 200
     }
   },
-  "total_open_markets": 181605
+  "total_open_markets": 187599
 }
