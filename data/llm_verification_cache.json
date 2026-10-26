@@ -43713,5 +43713,250 @@
     "checked_at": "2026-10-26T16:04:13.346151+00:00",
     "frage_a": "Will PSOE win the most seats in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6044804": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (29. Okt vs 28. Okt 2026) und Fragetypen (binärer Bereich vs. offener Preis)",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on October 29?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6044826": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (29. Okt vs 28. Okt 2026) und Fragetypen (binärer Schwellenwert vs. offener Preis)",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on October 29?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6084520": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (30. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on October 30?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6015124": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (28. Okt vs 28. Okt 2026, Jahr unterschiedlich) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on October 28?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6084499": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (30. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on October 30?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6084502": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (30. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on October 30?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6044806": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (29. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on October 29?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6205306": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (1. Nov vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on November 1?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6137716": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (31. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on October 31?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6137758": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (31. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on October 31?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6015121": {
+    "same_event": false,
+    "reason": "Unterschiedliche Jahre (2026 in frage_b nicht in frage_a) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on October 28?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6205304": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (1. Nov vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on November 1?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6137719": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (31. Okt vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on October 31?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6205325": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (1. Nov vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on November 1?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6255211": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (2. Nov vs 28. Okt 2026) und Fragetypen",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $78,000 and $80,000 on November 2?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6015145": {
+    "same_event": false,
+    "reason": "Unterschiedliche Schwellenwerte (über 78k vs. offener Preis) und unterschiedliche Datumsangaben (kein Jahr vs. 2026)",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on October 28?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T79999.99__polymarket:6255216": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (2. Nov vs. 28. Okt), unterschiedliche Schwellenwert-Art (Range vs. offen), anderes Jahr",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be between $80,000 and $82,000 on November 2?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6255270": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten (2. Nov vs. 28. Okt) und Jahr",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $78,000 on November 2?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5654089": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Packers 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "polymarket:6245325__sxbet:0xc249ef32e209e8cc3acf610fd0b411bc60ceeed3806cab69ac2bc1a7a8f35035": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: 1. Halbzeit Moneyline vs. Gesamtsieger (Full Game)",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Kennesaw State vs. Middle Tennessee: 1H Moneyline",
+    "frage_b": "Middle Tennessee Blue Raiders vs Kennesaw State Owls - wer gewinnt?"
+  },
+  "kalshi:KXUFCFIGHT-26OCT31SANSANT-SANT__polymarket:5930903": {
+    "same_event": false,
+    "reason": "Unterschiedliche Entitäten: Club Santos Laguna (Fußballverein) vs. Luana Santos (Einzelsportler)",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will Club Santos Laguna win on 2026-11-01?",
+    "frage_b": "Luana Santos wins"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5654091": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Packers 1H Team Total: O/U 12.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXUFCFIGHT-26OCT31SEZBER-SEZ__polymarket:5839717": {
+    "same_event": false,
+    "reason": "Frage A ist nur Event-Listing ohne konkrete Wettfrage, Frage B fragt nach Sieger",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "UFC Fight Night: Theodor Berggren vs. Rodrigo Sezinando (Welterweight, Prelims)",
+    "frage_b": "Rodrigo Sezinando wins"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5654090": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Packers 1H Team Total: O/U 10.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXUFCFIGHT-26OCT31SANSANT-SANT__polymarket:6140106": {
+    "same_event": false,
+    "reason": "Unterschiedliche Entitäten: Club Santos Laguna vs. Luana Santos",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will Club Santos Laguna win on 2026-11-06?",
+    "frage_b": "Luana Santos wins"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6255267": {
+    "same_event": false,
+    "reason": "Unterschiedliche Daten, Schwellenwerte und Jahr",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $76,000 on November 2?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5655724": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Jets 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5654371": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Buccaneers 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5655031": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Steelers 1H Team Total: O/U 6.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UVAWAKE-NONE__polymarket:5656007": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Wettarten: 1H Team Total O/U vs. 'No team scores a TD'",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Jaguars 1H Team Total: O/U 16.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXNCAAFFIRSTTDTEAM-26OCT31UTAHCIN-NONE__polymarket:5945700": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Team-Total-Punkte (Over/Under 23.5) vs. 'Kein Team erzielt einen Touchdown' – völlig verschiedene Ereignisse.",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Utah Team Total: O/U 23.5",
+    "frage_b": "No team scores a TD"
+  },
+  "kalshi:KXBTCD-26OCT2817-T75999.99__polymarket:6205323": {
+    "same_event": false,
+    "reason": "Unterschiedliches Datum (Nov 1 ohne Jahr vs. 28. Okt 2026), unterschiedliche Fragestellung (binärer Schwellenwert vs. offene Preisabfrage), keine identische Ereignisdefinition.",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the price of Bitcoin be above $76,000 on November 1?",
+    "frage_b": "Bitcoin price on Oct 28, 2026?"
+  },
+  "polymarket:629640__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: Einzelwahl (South Carolina Governor) vs. 'Sweep' mehrerer Swing-State-Gouverneurswahlen; South Carolina ist kein typischer Swing State.",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will the Democrats win the South Carolina governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:2683261__predictit:8163:31965": {
+    "same_event": false,
+    "reason": "Frage A ist eine kombinierte Bedingung (Senate 50–52 UND House 208–222), Frage B nur Senate-Sitze = 50 (einzelner Bucket). Unterschiedliche Auflösungslogik.",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Will Republicans hold 50–52 Senate seats and 208–222 House seats after the 2026 midterms?",
+    "frage_b": "How many Senate seats will the GOP control after the 2026 midterms? - 50"
+  },
+  "polymarket:5371617__predictit:8643:34101": {
+    "same_event": false,
+    "reason": "Frage A: Parteibeteiligung an der Regierung (Likud oder Yashar), Frage B: Konkreter Premierminister (Gadi Eisenkot). Unterschiedliche Entitäten und Auflösungsereignisse.",
+    "checked_at": "2026-10-26T21:52:46.786317+00:00",
+    "frage_a": "Israel Election: Likud or Yashar in Government?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Gadi Eisenkot"
   }
 }
