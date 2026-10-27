@@ -1,171 +1,155 @@
 {
- "cash": 50.0,
- "neuberechnung": {
-  "bein_deckel_usd": 10.0,
-  "skript": "scripts/neuberechnung.py",
-  "strategie": "v2-2026-10-27"
- },
- "positions": [
-  {
-   "eingestiegen": "2026-10-14T14:14:13.555736+02:00",
-   "einstand_gesamt": 10.0,
-   "end_date": "2026-11-04T04:59:00Z",
-   "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
-   "garantierter_endwert": 10.385744234800839,
-   "leg_a": {
-    "einstandskurs": 0.046,
-    "end_date": "2026-11-04T04:59:00Z",
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.046,
-    "market_id": "629465",
-    "platform": "polymarket",
-    "side": "yes"
-   },
-   "leg_b": {
-    "einstandskurs": 0.9079999999999999,
-    "end_date": null,
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.9079999999999999,
-    "market_id": "8212:32165",
-    "platform": "predictit",
-    "side": "no"
-   },
-   "pair_id": "polymarket:629465__predictit:8212:32165",
-   "predictit_ableiten": true,
-   "preisbasis": "ausfuehrbar",
-   "shares": 10.482180293501049,
-   "sport": false,
-   "strategie": "v2-2026-10-27",
-   "zuordnung": "same"
+  "cash": 60.989010989010985,
+  "neuberechnung": {
+    "bein_deckel_usd": 10.0,
+    "skript": "scripts/neuberechnung.py",
+    "strategie": "v2-2026-10-27"
   },
-  {
-   "eingestiegen": "2026-10-18T14:38:49.011455+02:00",
-   "einstand_gesamt": 10.0,
-   "end_date": "2026-10-26T03:59:00Z",
-   "frage": "[polymarket] Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?  <->  [predictit] Who will win the 2026 Brazilian presidential election? - Luiz Inácio Lula",
-   "garantierter_endwert": 10.675824175824175,
-   "leg_a": {
-    "einstandskurs": 0.19500000000000003,
-    "end_date": "2026-10-26T03:59:00Z",
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.19500000000000003,
-    "market_id": "601819",
-    "platform": "polymarket",
-    "side": "yes"
-   },
-   "leg_b": {
-    "einstandskurs": 0.7150000000000001,
-    "end_date": null,
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.7150000000000001,
-    "market_id": "8544:33623",
-    "platform": "predictit",
-    "side": "no"
-   },
-   "pair_id": "polymarket:601819__predictit:8544:33623",
-   "predictit_ableiten": true,
-   "preisbasis": "ausfuehrbar",
-   "shares": 10.989010989010987,
-   "sport": false,
-   "strategie": "v2-2026-10-27",
-   "zuordnung": "same"
-  },
-  {
-   "eingestiegen": "2026-10-21T01:13:31.604788+02:00",
-   "einstand_gesamt": 10.0,
-   "end_date": "2026-11-04T04:59:00Z",
-   "frage": "[polymarket] Will the Democrats win the Florida Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Florida? - Democratic (Nixon)",
-   "garantierter_endwert": 10.373684210526317,
-   "leg_a": {
-    "einstandskurs": 0.09499999999999999,
-    "end_date": "2026-11-04T04:59:00Z",
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.09499999999999999,
-    "market_id": "631044",
-    "platform": "polymarket",
-    "side": "yes"
-   },
-   "leg_b": {
-    "einstandskurs": 0.855,
-    "end_date": null,
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.855,
-    "market_id": "8228:32196",
-    "platform": "predictit",
-    "side": "no"
-   },
-   "pair_id": "polymarket:631044__predictit:8228:32196",
-   "predictit_ableiten": true,
-   "preisbasis": "ausfuehrbar",
-   "shares": 10.526315789473685,
-   "sport": false,
-   "strategie": "v2-2026-10-27",
-   "zuordnung": "same"
-  },
-  {
-   "eingestiegen": "2026-10-21T22:13:18.640448+02:00",
-   "einstand_gesamt": 10.0,
-   "end_date": "2026-11-04T04:59:00Z",
-   "frage": "[polymarket] Will the Republicans win the Nevada governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Nevada? - Republican",
-   "garantierter_endwert": 10.418478260869566,
-   "leg_a": {
-    "einstandskurs": 0.335,
-    "end_date": "2026-11-04T04:59:00Z",
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.335,
-    "market_id": "629506",
-    "platform": "polymarket",
-    "side": "yes"
-   },
-   "leg_b": {
-    "einstandskurs": 0.585,
-    "end_date": null,
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.585,
-    "market_id": "8419:33125",
-    "platform": "predictit",
-    "side": "no"
-   },
-   "pair_id": "polymarket:629506__predictit:8419:33125",
-   "predictit_ableiten": true,
-   "preisbasis": "ausfuehrbar",
-   "shares": 10.869565217391305,
-   "sport": false,
-   "strategie": "v2-2026-10-27",
-   "zuordnung": "same"
-  },
-  {
-   "eingestiegen": "2026-10-26T05:55:09.950351+01:00",
-   "einstand_gesamt": 10.0,
-   "end_date": "2026-11-04T04:59:00Z",
-   "frage": "[polymarket] Will the Democrats win the Kentucky Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Kentucky? - Democratic (Booker)",
-   "garantierter_endwert": 10.448421052631579,
-   "leg_a": {
-    "einstandskurs": 0.024,
-    "end_date": "2026-11-04T04:59:00Z",
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.024,
-    "market_id": "630759",
-    "platform": "polymarket",
-    "side": "yes"
-   },
-   "leg_b": {
-    "einstandskurs": 0.9259999999999998,
-    "end_date": null,
-    "fee_gezahlt": 0.0,
-    "letzter_kurs": 0.9259999999999998,
-    "market_id": "8386:33043",
-    "platform": "predictit",
-    "side": "no"
-   },
-   "pair_id": "polymarket:630759__predictit:8386:33043",
-   "predictit_ableiten": true,
-   "preisbasis": "ausfuehrbar",
-   "shares": 10.526315789473685,
-   "sport": false,
-   "strategie": "v2-2026-10-27",
-   "zuordnung": "same"
-  }
- ],
- "started": "2026-10-07T17:30:18.239410+02:00"
+  "positions": [
+    {
+      "eingestiegen": "2026-10-14T14:14:13.555736+02:00",
+      "einstand_gesamt": 10.0,
+      "end_date": "2026-11-04T04:59:00Z",
+      "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
+      "garantierter_endwert": 10.385744234800839,
+      "leg_a": {
+        "einstandskurs": 0.046,
+        "end_date": "2026-11-04T04:59:00Z",
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.063,
+        "market_id": "629465",
+        "platform": "polymarket",
+        "side": "yes",
+        "geldkurs": 0.063,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "leg_b": {
+        "einstandskurs": 0.9079999999999999,
+        "end_date": null,
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.9,
+        "market_id": "8212:32165",
+        "platform": "predictit",
+        "side": "no",
+        "geldkurs": 0.9,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "pair_id": "polymarket:629465__predictit:8212:32165",
+      "predictit_ableiten": true,
+      "preisbasis": "ausfuehrbar",
+      "shares": 10.482180293501049,
+      "sport": false,
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same"
+    },
+    {
+      "eingestiegen": "2026-10-21T01:13:31.604788+02:00",
+      "einstand_gesamt": 10.0,
+      "end_date": "2026-11-04T04:59:00Z",
+      "frage": "[polymarket] Will the Democrats win the Florida Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Florida? - Democratic (Nixon)",
+      "garantierter_endwert": 10.373684210526317,
+      "leg_a": {
+        "einstandskurs": 0.09499999999999999,
+        "end_date": "2026-11-04T04:59:00Z",
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.09,
+        "market_id": "631044",
+        "platform": "polymarket",
+        "side": "yes",
+        "geldkurs": 0.09,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "leg_b": {
+        "einstandskurs": 0.855,
+        "end_date": null,
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.86,
+        "market_id": "8228:32196",
+        "platform": "predictit",
+        "side": "no",
+        "geldkurs": 0.86,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "pair_id": "polymarket:631044__predictit:8228:32196",
+      "predictit_ableiten": true,
+      "preisbasis": "ausfuehrbar",
+      "shares": 10.526315789473685,
+      "sport": false,
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same"
+    },
+    {
+      "eingestiegen": "2026-10-21T22:13:18.640448+02:00",
+      "einstand_gesamt": 10.0,
+      "end_date": "2026-11-04T04:59:00Z",
+      "frage": "[polymarket] Will the Republicans win the Nevada governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Nevada? - Republican",
+      "garantierter_endwert": 10.418478260869566,
+      "leg_a": {
+        "einstandskurs": 0.335,
+        "end_date": "2026-11-04T04:59:00Z",
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.27,
+        "market_id": "629506",
+        "platform": "polymarket",
+        "side": "yes",
+        "geldkurs": 0.27,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "leg_b": {
+        "einstandskurs": 0.585,
+        "end_date": null,
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.69,
+        "market_id": "8419:33125",
+        "platform": "predictit",
+        "side": "no",
+        "geldkurs": 0.69,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "pair_id": "polymarket:629506__predictit:8419:33125",
+      "predictit_ableiten": true,
+      "preisbasis": "ausfuehrbar",
+      "shares": 10.869565217391305,
+      "sport": false,
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same"
+    },
+    {
+      "eingestiegen": "2026-10-26T05:55:09.950351+01:00",
+      "einstand_gesamt": 10.0,
+      "end_date": "2026-11-04T04:59:00Z",
+      "frage": "[polymarket] Will the Democrats win the Kentucky Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Kentucky? - Democratic (Booker)",
+      "garantierter_endwert": 10.448421052631579,
+      "leg_a": {
+        "einstandskurs": 0.024,
+        "end_date": "2026-11-04T04:59:00Z",
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.021,
+        "market_id": "630759",
+        "platform": "polymarket",
+        "side": "yes",
+        "geldkurs": 0.021,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "leg_b": {
+        "einstandskurs": 0.9259999999999998,
+        "end_date": null,
+        "fee_gezahlt": 0.0,
+        "letzter_kurs": 0.93,
+        "market_id": "8386:33043",
+        "platform": "predictit",
+        "side": "no",
+        "geldkurs": 0.93,
+        "geprueft": "2026-10-27T14:04:26.959906+01:00"
+      },
+      "pair_id": "polymarket:630759__predictit:8386:33043",
+      "predictit_ableiten": true,
+      "preisbasis": "ausfuehrbar",
+      "shares": 10.526315789473685,
+      "sport": false,
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same"
+    }
+  ],
+  "started": "2026-10-07T17:30:18.239410+02:00"
 }
