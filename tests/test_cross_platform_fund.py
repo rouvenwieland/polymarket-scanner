@@ -87,8 +87,11 @@ def test_unklare_zuordnung_kein_kauf(buy):
 
 
 @pytest.mark.parametrize("ya,na,yb,nb,expected", [
-    ("Atlanta Dream", "Golden State Valkyries", "Atlanta Dream W", "Golden State Valkyries W", "same"),
-    ("Atlanta Dream", "Golden State Valkyries", "Golden State Valkyries W", "Atlanta Dream W", "flipped"),
+    ("Atlanta Dream", "Golden State Valkyries", "Atlanta Dream", "Golden State Valkyries", "same"),
+    ("Atlanta Dream", "Golden State Valkyries", "Golden State Valkyries", "Atlanta Dream", "flipped"),
+    # Frauen-Kennung nur auf einer Seite: anderes Team (Herren "Duke" gegen Damen "Duke W") -> lieber unklar
+    ("Duke", "North Carolina", "Duke W", "North Carolina W", None),
+    ("Atlanta Dream", "Golden State Valkyries", "Atlanta Dream W", "Golden State Valkyries W", None),
     ("Tennessee-Martin", "Western Illinois", "Western Illinois", "UT Martin", "flipped"),
     ("Georgia", "Georgia State", "Georgia State", "Georgia", None),      # gemeinsamer Namensteil: nicht eindeutig
     ("Lamar", "McNeese", "Lamar", "Nicholls", None),                     # anderes Spiel
@@ -148,7 +151,9 @@ def test_polymarkt_taker_gebuehr_formel():
     assert polymarket.taker_fee(100, 0.5, 0.05) == pytest.approx(1.25)
     assert polymarket.taker_fee(100, 0.3, 0.07) == pytest.approx(1.47)
     assert polymarket.fee_rate({"feesEnabled": False}) == 0.0
-    assert polymarket.fee_rate({"feesEnabled": True, "feeSchedule": {"rate": 0.03, "exponent": 1}}) == 0.03
+    # Markt meldet 0,03 (Lamar), Doku nennt fuer Sport 0,05: es gilt vorsichtig der hoehere Wert
+    assert polymarket.fee_rate({"feesEnabled": True, "feeSchedule": {"rate": 0.03, "exponent": 1}}) == 0.05
+    assert polymarket.fee_rate({"feesEnabled": True, "feeSchedule": {"rate": 0.07}}) == 0.07
     assert polymarket.fee_rate({}) == polymarket.UNKNOWN_FEE_RATE
 
 
@@ -192,9 +197,14 @@ def test_sport_abbruch_regeln_werden_eingerechnet():
     assert not chk.ok and any("garantierter Gewinn" in r for r in chk.reasons)
     worlds = ac.world_values("polymarket", "sxbet", 0.62, 0.30, True)
     assert worlds["Absage"] == pytest.approx(0.5 + 0.30)
+    # Gemischter Fall (adversariale Pruefung): Polymarkt wertet das verlegte Spiel am Nachholtermin, SX Bet erklaert es
+    # nichtig. Dann verliert selbst ein Paar mit 5 % Vorsprung - die Abbruch-Regeln sind nicht gleich, also keine Arbitrage.
     c = _sport("polymarket", "P", 0.40, 0.62, "Alpha", "Bravo")
-    d = _sport("sxbet", "S", 0.47, 0.55, "Alpha", "Bravo")  # Yes_A + No_B = 0,95, Polymarkt-Bein 0,40 < 0,5
-    assert ac.check_pair(c, d, NOW).ok
+    d = _sport("sxbet", "S", 0.47, 0.55, "Alpha", "Bravo")  # Yes_A + No_B = 0,95
+    chk = ac.check_pair(c, d, NOW)
+    assert not chk.ok
+    worlds = ac.world_values("polymarket", "sxbet", 0.40, 0.55, True)
+    assert worlds["B abgesagt, A verliert"] == pytest.approx(0.55)
 
 
 def test_sport_anderes_spiel_oder_kalshi_wird_ausgeschlossen():
@@ -342,15 +352,17 @@ def test_polymarkt_bein_geschlossen_aber_nicht_aufgeloest_wartet(monkeypatch):
 def test_polymarkt_bein_aufgeloest(monkeypatch):
     f = _poly_leg(monkeypatch, ["1", "0"])
     assert f("yes")[1] == 1.0 and f("no")[1] == 0.0
-    g = _poly_leg(monkeypatch, ["0.995", "0.005"])
+    g = _poly_leg(monkeypatch, ["0.995", "0.005"], umaResolutionStatus="resolved")
     assert g("yes")[1] == 1.0 and g("no")[1] == 0.0
+    u = _poly_leg(monkeypatch, ["0.505", "0.495"])  # geschlossen, ohne Status, nur Letztkurse: nicht als 50-50 buchen
+    assert u("yes")[1] is None
     h = _poly_leg(monkeypatch, ["0.3", "0.7"], closed=False, bestBid=0.29, bestAsk=0.31)
     assert h("yes") == (pytest.approx(0.29), None)   # Geldkurs (sofort verkaufbar), nicht der Ask
     assert h("no") == (pytest.approx(0.69), None)
 
 
 def test_predictit_geschlossen_ohne_endkurs_wartet(monkeypatch):
-    for last, expected in ((0.62, None), (0.99, 1.0), (0.01, 0.0)):
+    for last, expected in ((0.62, None), (0.96, None), (0.99, 1.0), (0.01, 0.0)):
         contract = {"status": "Closed", "lastTradePrice": last, "bestSellYesCost": None}
         monkeypatch.setattr(cpf.predictit, "fetch_contract_by_market_id", lambda mid, c=contract: ({}, c))
         assert cpf._predictit_leg_mark_and_result({"market_id": "1:2", "side": "yes"})[1] == expected
@@ -434,3 +446,27 @@ def test_nav_zum_anschaffungswert_unabhaengig_von_kursausschlaegen(datadir):
     assert nav == pytest.approx(1000.0)
     row = (datadir / profile["history_csv"]).read_text(encoding="utf-8").splitlines()[-1]
     assert "1005.0" in row and "973.0" in row  # Terminierungswert 908 + 97, Liquidationswert 908 + 100*0,65
+
+
+def test_fehlendes_enddatum_eines_beins_verlaengert_die_kapitalbindung():
+    """Adversariale Pruefung: PredictIt ohne Enddatum darf die Kapitalkosten-Huerde nicht umgehen."""
+    ma = mk("polymarket", "A", 0.20, 0.82, end_date=(NOW + timedelta(days=3)).isoformat())
+    mb = mk("predictit", "B", 0.30, 0.72, end_date=None)
+    assert ac.days_to_resolution(ma, mb, NOW) == pytest.approx(3.0 + ac.MISSING_END_DAYS)
+
+
+def test_typografischer_apostroph_und_vermeiden_gelten_als_verneinung():
+    assert cross_platform._opposite_polarity("will the senate pass it?", "will the senate won\u2019t pass it?")
+    assert cross_platform._opposite_polarity("will the government shut down?", "will the government avoid a shutdown?")
+
+
+def test_kalshi_void_wird_nicht_als_doppelter_verlust_gebucht(monkeypatch):
+    f = _kalshi_leg(monkeypatch, _kalshi_market("void"))
+    assert f("yes")[1] is None and f("no")[1] is None
+
+
+def test_kalshi_frage_enthaelt_den_untertitel():
+    from platforms import kalshi
+    m = {"status": "active", "ticker": "KXBTC-1", "title": "Bitcoin price on Oct 28, 2026?", "yes_sub_title": "Above 82,000",
+         "yes_ask_dollars": "0.4", "no_ask_dollars": "0.6"}
+    assert kalshi.normalize(m)["question"] == "Bitcoin price on Oct 28, 2026? - Above 82,000"

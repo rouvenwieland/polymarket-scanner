@@ -23,6 +23,9 @@ Echte Arbitrage heisst hier (und NUR das wird gekauft):
        - SX Bet: 2 % auf den Gewinn des gewinnenden Beins (vorsichtige Annahme, siehe platforms/sxbet.py)
      Abbruch eines Spiels: Polymarkt zahlt 0,5 je Anteil (50-50), SX Bet erstattet den Einsatz, Kalshi zahlt einen
      vorab unbekannten "fair price" und PredictIt ist unbekannt - beide werden mit 0 angesetzt (schlechtester Fall).
+     Weil die Plattformen Verschiebung/Aufgabe verschieden werten, zaehlen auch gemischte Faelle (eine Seite
+     abgesagt, die andere entschieden). Praktisch besteht damit KEIN Sportpaar die Pruefung: die Abbruch-Regeln
+     sind nicht identisch, also ist es keine Arbitrage (adversariale Pruefung 27.10.2026).
   6. Die garantierte Rendite schlaegt die Kapitalbindung: mindestens MIN_ANNUAL_RETURN pro Jahr bis zur
      spaetesten Aufloesung beider Beine. 3 % Vorsprung fuer zwei Jahre Bindung ist kein Geschaeft.
 
@@ -94,8 +97,15 @@ def world_values(platform_a, platform_b, cost_a, cost_b, with_cancel):
         "B gewinnt": settle_value(platform_a, 0.0, cost_a) + settle_value(platform_b, 1.0, cost_b),
     }
     if with_cancel:
-        out["Absage"] = (settle_value(platform_a, _cancel_payout(platform_a, cost_a), cost_a)
-                         + settle_value(platform_b, _cancel_payout(platform_b, cost_b), cost_b))
+        ca, cb = _cancel_payout(platform_a, cost_a), _cancel_payout(platform_b, cost_b)
+        out["Absage"] = settle_value(platform_a, ca, cost_a) + settle_value(platform_b, cb, cost_b)
+        # Gemischte Faelle (Pruefung 27.10.2026): Die Plattformen werten Verschiebung/Aufgabe/Abbruch verschieden
+        # (Polymarkt wertet ein verlegtes Spiel am Nachholtermin, SX Bet erklaert es nichtig; Tennis-Aufgabe). Dann ist
+        # das Spiel auf der einen Seite abgesagt und auf der anderen entschieden - in beide Richtungen.
+        out["A abgesagt, B verliert"] = settle_value(platform_a, ca, cost_a) + settle_value(platform_b, 0.0, cost_b)
+        out["A abgesagt, B gewinnt"] = settle_value(platform_a, ca, cost_a) + settle_value(platform_b, 1.0, cost_b)
+        out["B abgesagt, A verliert"] = settle_value(platform_a, 0.0, cost_a) + settle_value(platform_b, cb, cost_b)
+        out["B abgesagt, A gewinnt"] = settle_value(platform_a, 1.0, cost_a) + settle_value(platform_b, cb, cost_b)
     return out
 
 
@@ -161,14 +171,23 @@ def rule_conflicts(ma, mb):
 
 # ---------------------------------------------------------------- Laufzeit
 
+MISSING_END_DAYS = 30.0  # Bein ohne Enddatum (PredictIt "NA"): Aufloesung/Auszahlung dort mindestens 30 Tage spaeter
+
+
 def days_to_resolution(ma, mb, now):
-    """Tage bis zur SPAETEREN Aufloesung beider Beine (das Kapital ist bis dahin gebunden), oder None."""
-    days = []
+    """Tage bis zur SPAETEREN Aufloesung beider Beine (das Kapital ist bis dahin gebunden), oder None.
+    Fehlt das Enddatum eines Beins, gilt das andere plus MISSING_END_DAYS (vorsichtig: das Bein kann spaeter
+    aufloesen oder auszahlen; frueher wurde die fehlende Seite einfach ignoriert)."""
+    days, missing = [], False
     for m in (ma, mb):
         dt = _parse_time(m.get("end_date"))
         if dt is not None:
             days.append((dt - now).total_seconds() / 86400.0)
-    return max(days) if days else None
+        else:
+            missing = True
+    if not days:
+        return None
+    return max(days) + (MISSING_END_DAYS if missing else 0.0)
 
 
 # ---------------------------------------------------------------- Hauptpruefung
@@ -245,9 +264,12 @@ def size_pair(ma, mb, chk, levels_a, levels_b, budget):
     fills_a, fills_b, spent, n = [], [], 0.0, 0.0
     while i < len(la) and j < len(lb):
         pa, pb = la[i][0], lb[j][0]
-        if worst_net_per_share(ma, mb, pa, pb, with_cancel) < MIN_EDGE:
-            break
+        edge = worst_net_per_share(ma, mb, pa, pb, with_cancel)
         unit = pa + pb + entry_fee_per_share(ma, pa) + entry_fee_per_share(mb, pb)
+        if edge < MIN_EDGE:
+            break
+        if chk.days is not None and (edge / unit) * 365.0 / max(chk.days, 1.0) < MIN_ANNUAL_RETURN:
+            break  # auch tiefere Stufen muessen die Kapitalkosten-Huerde schaffen
         q = min(ra, rb, (budget - spent) / unit)
         if q <= 1e-9:
             break

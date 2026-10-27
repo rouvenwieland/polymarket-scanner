@@ -124,6 +124,10 @@ def _iso_utc(value):
 # Jeder Gamma-Markt traegt "feesEnabled" und "feeSchedule" ({"rate": 0.03, "exponent": 1, "takerOnly": true}).
 # Frueher rechnete der Code Polymarket gebuehrenfrei (Lamar-Markt: feesEnabled=true, rate 0,03).
 UNKNOWN_FEE_RATE = 0.07  # Feld fehlt: hoechster veroeffentlichter Satz (Krypto), also vorsichtig
+# Die Doku nennt fuer Sport 0,05, der Lamar-Markt traegt im feeSchedule 0,03. Bis das geklaert ist, gilt bei einem
+# positiven Satz der hoehere Wert (mindestens FEE_RATE_FLOOR). Ein ausdruecklicher Satz 0 (z.B. Wahl-Maerkte im
+# Oktober 2026: feesEnabled true, rate 0) bleibt 0 - der Markt erklaert sich selbst gebuehrenfrei.
+FEE_RATE_FLOOR = 0.05
 
 
 def fee_rate(market):
@@ -139,7 +143,7 @@ def fee_rate(market):
         except (TypeError, ValueError):
             rate = None
         if rate is not None and 0.0 <= rate <= 1.0:
-            return rate
+            return max(rate, FEE_RATE_FLOOR) if rate > 0 else 0.0
     return UNKNOWN_FEE_RATE
 
 

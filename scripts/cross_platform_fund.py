@@ -53,9 +53,8 @@ Gebühren werden GENAU dort verrechnet, wo sie real anfallen:
   - Kalshi: Taker-Fee beim Kauf (ceil(0.07*C*P*(1-P)), siehe platforms/kalshi.py).
   - PredictIt: 10% Gebühr auf den Nettogewinn JE BEIN, verrechnet bei
     Auflösung dieses Beins (nicht vorher, da der Gewinn erst dann feststeht).
-  - Polymarket: keine Trading-Fee (anders als bei den anderen beiden
-    Plattformen gibt es hier real keine Gebühr zu verrechnen - bewusst
-    nicht künstlich hinzugefügt).
+  - Polymarket: Taker-Gebuehr je Markt (feeSchedule, siehe platforms/polymarket.py; frueher
+    faelschlich als gebuehrenfrei gerechnet).
 Vereinfachung: die Kalshi-Fee wird nur beim Einstieg verrechnet (nicht bei
 vorzeitigem Verkauf/Settlement). Die PredictIt-Auszahlungsgebühr (5%,
 Konto-Ebene) wird bewusst NICHT pro Trade verrechnet (siehe platforms/predictit.py).
@@ -355,9 +354,12 @@ def _poly_leg_mark_and_result(leg):
     prices = pricing.parse_outcome_prices(market)  # Endkurse je Ausgang; Sport: ["0","1"] fuer Teamnamen
     if prices is None:
         return bid, None
+    # Mit bestaetigter Aufloesung ("resolved") genuegt ein Kurs nahe am Endwert; ohne Statusfeld nur exakte Endkurse
+    # (sonst wuerden Letztkurse wie 0,505/0,495 als 50-50 oder 0,993 als 1 gebucht).
+    tol = 0.01 if status == "resolved" else 0.001
     final_price = prices[side_idx]
     for final in (0.0, 0.5, 1.0):
-        if abs(final_price - final) <= 0.01:
+        if abs(final_price - final) <= tol:
             return final, final
     return bid, None
 
@@ -381,6 +383,8 @@ def _kalshi_leg_mark_and_result(leg):
         if value is None:
             return current_price, None
         return current_price, (value if leg["side"] == "yes" else 1.0 - value)
+    if result not in ("yes", "no"):
+        return current_price, None  # "void" o.ae.: nicht als Verlust beider Beine buchen, der Alarm meldet die Position
     return current_price, (1.0 if result == leg["side"] else 0.0)
 
 
@@ -400,7 +404,7 @@ def _kalshi_settlement_value(market):
     return value
 
 
-PREDICTIT_FINAL_TOLERANCE = 0.05
+PREDICTIT_FINAL_TOLERANCE = 0.01
 
 
 def _predictit_leg_mark_and_result(leg):

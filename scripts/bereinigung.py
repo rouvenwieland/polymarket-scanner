@@ -132,12 +132,22 @@ def num(x, default=0.0):
 
 
 # ----------------------------------------------------------------------------- Sicherung
+def superseded(fund, data_dir):
+    """Reparatur 27.10.2026: Fonds, deren Live-State die Marke "neuberechnung" traegt, wurden von
+    scripts/neuberechnung.py vollstaendig neu berechnet. Diese Bereinigung (14.10.) darf sie nicht mehr anfassen: sie
+    wuerde die Zeilen ihrer Sicherung (vor_bereinigung) wieder mit den neuen Daten vereinigen."""
+    st = read_json(os.path.join(data_dir, fund["state"]))
+    return bool(st and st.get("neuberechnung"))
+
+
 def archive_originals(data_dir):
     """Kopiert fehlende Originaldateien einmalig; vorhandene Sicherungsdateien bleiben unveraendert."""
     arch = os.path.join(data_dir, ARCHIVE_SUB)
     os.makedirs(arch, exist_ok=True)
     copied = []
     for fund in FUNDS:
+        if superseded(fund, data_dir):
+            continue
         for name in (fund["trades"], fund["history"], fund["state"]):
             src, dst = os.path.join(data_dir, name), os.path.join(arch, name)
             if os.path.isfile(src) and not os.path.isfile(dst):
@@ -177,6 +187,8 @@ def extend_archive(data_dir):
     die ID in der Sicherung zweimal offen und braucht zwei Positionen (match_positions)."""
     touched = []
     for fund in FUNDS:
+        if superseded(fund, data_dir):
+            continue
         arch_t = os.path.join(data_dir, ARCHIVE_SUB, fund["trades"])
         live_t = os.path.join(data_dir, fund["trades"])
         idcol = fund["idcol"]
@@ -677,7 +689,10 @@ def run(data_dir="data", dry_run=False):
     if not dry_run:
         archive_originals(data_dir)
     results = []
+    skipped = [f["label"] for f in FUNDS if superseded(f, data_dir)]
     for fund in FUNDS:
+        if fund["label"] in skipped:
+            continue
         have_any = any(os.path.isfile(os.path.join(data_dir, n)) for n in (fund["trades"], fund["state"]))
         if not have_any:
             continue
@@ -688,6 +703,8 @@ def run(data_dir="data", dry_run=False):
         results.append(res)
     if dry_run:
         return results
+    if skipped:
+        print("Bereinigung uebersprungen (durch die Neuberechnung vom 27.10.2026 abgeloest): " + ", ".join(skipped))
     for res in results:
         fund = res["fund"]
         if res["has_trades"]:
@@ -696,6 +713,8 @@ def run(data_dir="data", dry_run=False):
             write_csv(os.path.join(data_dir, fund["history"]), res["hist_fields"], res["hist"])
         write_json(os.path.join(data_dir, fund["state"]), res["state"])
     out = os.path.join(data_dir, OUT_SUB)
+    if skipped:
+        return results  # Protokoll der Bereinigung vom 14.10. bleibt unveraendert (dokumentiert den damaligen Lauf)
     log_fields = ["fund", "timestamp", "aktion", "id", "frage", "betrag_alt", "betrag_neu", "entscheidung", "grund"]
     write_csv(os.path.join(out, "entscheidungen_trades.csv"), log_fields, [r for res in results for r in res["log"]])
     lc_fields = ["fund", "id", "frage", "eroeffnet", "geschlossen", "entscheidung", "preisbasis", "anteile_neu", "grund"]

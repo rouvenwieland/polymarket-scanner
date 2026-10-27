@@ -18,7 +18,8 @@ Datengrundlage und Grenzen (stehen auch in data/korrigiert/zusammenfassung.md):
   - Kandidaten: alle Zeilen der Treffer-Dateien data/cross_platform_hits*.csv (jeder Scan seit 03.10.2026).
   - Die alten Treffer-Dateien speichern nur die Kombi-Summe, nicht die Einzelpreise. Der Preis des Polymarkt-Beins
     kommt aus dem CLOB-Kursverlauf (Stundenwerte) des gekauften Tokens, das andere Bein = Summe - Polymarkt-Preis.
-    Weil der Kursverlauf kein Ask ist, muss die Pruefung bei Polymarkt-Preis -1, 0 und +1 Cent bestehen.
+    Weil der Kursverlauf kein Ask ist, muss die Pruefung bei Polymarkt-Preis -2, 0, +2 und +4 Cent bestehen
+    (Kurs hoechstens 2 h alt).
   - Polymarkt-Preise sind erst ab dem Scan nach 14.10.2026 12:00 Orderbuch-Asks (Commit 914bc77); davor nur
     Mittel-/Letztkurse, also nicht ausfuehrbar: keine Kaeufe vor CUT_EXECUTABLE.
   - Paare mit vertauschter Seitenzuordnung ("flipped") sind nicht nachrechenbar: gespeichert ist die falsche
@@ -55,9 +56,10 @@ QUELLEN_SUB = os.path.join(OUT_SUB, "quellen")
 ARCHIV_SUB = os.path.join("archiv", "vor_reparatur_2026-10-27")
 CUT_EXECUTABLE = datetime.fromisoformat("2026-10-14T13:00:00+02:00")
 LEG_CAP_USD = ac.UNKNOWN_DEPTH_LEG_USD
-PRICE_BAND = (-0.01, 0.0, 0.01)
-MAX_PRICE_AGE_H = 6.0
+PRICE_BAND = (-0.02, 0.0, 0.02, 0.04)  # Kursverlauf ist kein Ask: auch 4 Cent teurer muss es reichen
+MAX_PRICE_AGE_H = 2.0
 STRATEGIE = "v2-2026-10-27"
+PREDICTIT_LAG_DAYS = 3.0
 
 CROSS_FUNDS = [
     ("cross_platform", 100.0, "fund_state_crossplatform.json", "fund_trades_crossplatform.csv",
@@ -427,6 +429,15 @@ def simulate(runs, cands, src, review, start_capital, start_time, leg_cap):
         for p in positions:
             ra = resolution(p["leg_a"]["platform"], p["leg_a"]["market_id"], src, p["leg_a"]["einstandskurs"])
             rb = resolution(p["leg_b"]["platform"], p["leg_b"]["market_id"], src, p["leg_b"]["einstandskurs"])
+            # PredictIt-Maerkte verschwinden nach der Aufloesung aus der API. Ist das andere Bein aufgeloest und das Paar
+            # von Hand als regelgleich bestaetigt, gilt fuer PredictIt dasselbe Ergebnis (Zuordnung "same"), ausgezahlt
+            # PREDICTIT_LAG_DAYS spaeter. Gekennzeichnet in der Notiz ("abgeleitet").
+            derived = False
+            for mine, other, leg in ((ra, rb, "leg_a"), (rb, ra, "leg_b")):
+                if mine is None and other is not None and p[leg]["platform"] == "predictit" and other[0] != "refund":
+                    d = (other[0], other[1], other[2] + timedelta(days=PREDICTIT_LAG_DAYS))
+                    ra, rb = (d, rb) if leg == "leg_a" else (ra, d)
+                    derived = True
             if ra is None or rb is None or max(ra[2], rb[2]) > now:
                 still.append(p)
                 continue
@@ -440,7 +451,8 @@ def simulate(runs, cands, src, review, start_capital, start_time, leg_cap):
             trades.append({"timestamp": run, "aktion": "AUSZAHLUNG", "pair_id": p["pair_id"], "frage": p["frage"],
                            "anteile": round(p["shares"], 4), "preis": round(sum(pay), 4), "betrag": round(proceeds, 4),
                            "kasse_danach": round(cash, 4), "preisbasis": pricing.BASIS_EXECUTABLE,
-                           "notiz": f"Neuberechnung: aufgeloest (netto A={pay[0]:.3f}, B={pay[1]:.3f} je Anteil)"})
+                           "notiz": f"Neuberechnung: aufgeloest (netto A={pay[0]:.3f}, B={pay[1]:.3f} je Anteil)"
+                                    + (", PredictIt-Ergebnis abgeleitet" if derived else "")})
         positions = still
         # 2) kaufen
         open_ids = {p["pair_id"] for p in positions}

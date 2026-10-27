@@ -609,11 +609,15 @@ def render(data_dir):
         positions = state["positions"]
         two_legged = fp.get("two_legged", False)
         if two_legged:
-            positions_value = sum(p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"]) for p in positions)
+            # Reparatur 27.10.2026: Cross-Paare zum Anschaffungswert (wie cross_platform_fund.log_history), nicht zu
+            # Ask-/Geldkursen der Beine - Gewinne zaehlen erst bei Aufloesung.
+            positions_value = sum(p["einstand_gesamt"] if p.get("einstand_gesamt") is not None else
+                                  p["shares"] * (p["leg_a"]["einstandskurs"] + p["leg_b"]["einstandskurs"])
+                                  for p in positions)
         else:
             positions_value = sum(p["shares"] * p.get("letzter_kurs", p["einstandskurs"]) for p in positions)
         nav = state["cash"] + positions_value
-        termination_value = state["cash"] + sum(p["shares"] for p in positions)
+        termination_value = state["cash"] + sum(p.get("garantierter_endwert", p["shares"]) for p in positions)
         discounted_value = state["cash"] + sum(
             p["shares"] * discount_factor(days_to_end(p.get("end_date"), now_utc)) for p in positions
         )

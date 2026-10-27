@@ -117,7 +117,9 @@ def normalize(market):
         "platform": "kalshi",
         "price_basis": "ausfuehrbar",  # yes/no_ask_dollars = Orderbuch-Asks
         "market_id": ticker,
-        "question": market.get("title") or market.get("subtitle") or ticker,
+        # Titel allein reicht nicht: Schwellen/Spannen stehen im Untertitel ("Bitcoin price on Oct 28" - "Above 82,000").
+        # Ohne ihn sahen zwei verschiedene Schwellen gleich aus (adversariale Pruefung 27.10.2026).
+        "question": _question(market, ticker),
         # Zusätzlicher Text fürs Cross-Platform-Matching (siehe cross_platform.py):
         # subtitle (falls nicht schon die question) + rules_primary, falls
         # die API sie liefert - hilft bei anders formulierten Titeln.
@@ -143,6 +145,14 @@ def normalize(market):
         "start_time": market.get("occurrence_datetime") or market.get("expected_expiration_time"),
         "rules": " ".join(filter(None, [market.get("rules_primary"), market.get("rules_secondary")])),
     }
+
+
+def _question(market, ticker):
+    title = market.get("title") or market.get("subtitle") or ticker
+    sub = (market.get("yes_sub_title") or market.get("subtitle") or "").strip()
+    if sub and sub.lower() not in title.lower():
+        return f"{title} - {sub}"
+    return title
 
 
 def fetch_all_normalized():

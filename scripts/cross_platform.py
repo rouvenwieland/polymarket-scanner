@@ -504,7 +504,7 @@ def _conflicting_bet_aspect(question_a, question_b):
 _NEGATION_RE = re.compile(
     r"\b(?:not|won't|will not|no longer|never|fails? to|doesn't|does not|lose|loses|lost|losing|out|"
     r"leaves?|resigns?|steps? down|ousted|removed|fired|exits?|below|under|fewer than|less than|lower than|"
-    r"drops? out)\b"
+    r"drops? out|avoids?|avoided|replaced|without)\b"
 )
 _BEFORE_RE = re.compile(r"\bbefore\b")
 _AFTER_RE = re.compile(r"\bafter\b")
@@ -512,6 +512,7 @@ _AFTER_RE = re.compile(r"\bafter\b")
 
 def _opposite_polarity(question_a, question_b):
     """Eingaben klein geschrieben. True, wenn die Fragen vermutlich umgekehrte Polaritaet haben."""
+    question_a, question_b = question_a.replace("\u2019", "'"), question_b.replace("\u2019", "'")
     if bool(_NEGATION_RE.search(question_a)) != bool(_NEGATION_RE.search(question_b)):
         return True
     for x, y in ((question_a, question_b), (question_b, question_a)):
@@ -695,9 +696,16 @@ def _label_tokens(label):
     return {_stem(t) for t in toks if t not in _TEAM_NOISE and t not in STOPWORDS and not t.isdigit()}
 
 
+_WOMEN_RE = re.compile(r"(?:\bw\b|\(w\)|\bwomen\b|\bwomen's\b|\bladies\b)", re.IGNORECASE)
+
+
 def labels_match(label_a, label_b):
     """Zwei Teamnamen meinen (vermutlich) dieselbe Mannschaft: gemeinsamer, nicht generischer Namensbestandteil.
-    "Delaware State Hornets" ~ "Delaware State", "Tennessee-Martin" ~ "UT Martin"."""
+    "Delaware State Hornets" ~ "Delaware State", "Tennessee-Martin" ~ "UT Martin". Traegt genau EINE Seite eine
+    Frauen-Kennung ("Duke W", "(W)", "Women"), ist es eine andere Mannschaft (Pruefung 27.10.2026: Herren-Spiel
+    "Duke vs. North Carolina" passte sonst auf SX "Duke W vs North Carolina W")."""
+    if bool(_WOMEN_RE.search(label_a or "")) != bool(_WOMEN_RE.search(label_b or "")):
+        return False
     a, b = _label_tokens(label_a), _label_tokens(label_b)
     return bool(a and b and a & b)
 
