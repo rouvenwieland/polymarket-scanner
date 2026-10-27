@@ -71,3 +71,9 @@ jobs:
           done
           echo "Push nach 5 Versuchen weiterhin fehlgeschlagen." >&2
           exit 1
+
+      - name: Haengende Positionen pruefen (Alarm)
+        # Reparatur 27.10.2026: Lauf wird rot, wenn eine Position mehr als 72 h nach ihrem Enddatum noch offen ist
+        # (Lamar vs. Southeastern Louisiana hing zehn Tage unbemerkt). Steht NACH dem Commit, damit die Daten
+        # des Laufs trotzdem gesichert sind. Quittieren: siehe scripts/haengende_positionen.py.
+        run: python scripts/haengende_positionen.py

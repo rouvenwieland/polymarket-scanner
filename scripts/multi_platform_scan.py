@@ -35,6 +35,7 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
+import arbitrage_check
 import cross_platform
 import cross_platform_fund
 import single_platform_fund
@@ -50,14 +51,30 @@ CROSS_HITS_CSV = os.path.join(DATA_DIR, "cross_platform_hits.csv")
 HITS_MAX_BYTES = 50 * 1024 * 1024
 
 
-def hits_target_path(base=None, max_bytes=None):
+HITS_FIELDNAMES = [
+    "timestamp", "plattform_a", "frage_a", "plattform_b", "frage_b",
+    "seite_a", "seite_b", "summe", "score", "url_a", "url_b",
+    # seit 27.10.2026: Markt-IDs, Beinpreise, Preisbasis, Seitenzuordnung und Ergebnis der Strategie-Pruefung,
+    # damit spaetere Neuberechnungen nicht mehr aus der Kombi-Summe zurueckrechnen muessen
+    "market_id_a", "market_id_b", "preis_a", "preis_b", "basis_a", "basis_b", "zuordnung", "pruefung",
+]
+
+
+def _header(path):
+    with open(path, "r", newline="", encoding="utf-8") as f:
+        return next(csv.reader(f), None)
+
+
+def hits_target_path(base=None, max_bytes=None, fieldnames=None):
     """Aktive Treffer-Datei: die erste Teildatei (base, base_002, base_003, ...), die noch unter dem
-    Groessenlimit liegt."""
+    Groessenlimit liegt und (falls fieldnames angegeben) denselben Spaltenkopf hat. Eine Datei mit altem
+    Spaltenkopf bleibt unveraendert; neue Zeilen kommen dann in die naechste Teildatei."""
     base = base or CROSS_HITS_CSV
     max_bytes = HITS_MAX_BYTES if max_bytes is None else max_bytes
     root, ext = os.path.splitext(base)
     path, n = base, 1
-    while os.path.isfile(path) and os.path.getsize(path) >= max_bytes:
+    while os.path.isfile(path) and (os.path.getsize(path) >= max_bytes
+                                    or (fieldnames is not None and _header(path) != list(fieldnames))):
         n += 1
         path = f"{root}_{n:03d}{ext}"
     return path
@@ -107,18 +124,19 @@ def write_cross_platform_hits(matches, now):
     eine CSV an (Rohdaten, ein Eintrag pro Markt-Paar pro Run) - unabhängig
     davon, ob der Fonds daraus tatsächlich eine Position eröffnet hat."""
     os.makedirs(DATA_DIR, exist_ok=True)
-    fieldnames = [
-        "timestamp", "plattform_a", "frage_a", "plattform_b", "frage_b",
-        "seite_a", "seite_b", "summe", "score", "url_a", "url_b",
-    ]
-    target = hits_target_path()
+    fieldnames = HITS_FIELDNAMES
+    target = hits_target_path(fieldnames=fieldnames)
     file_exists = os.path.isfile(target)
     rows = []
     for match in matches:
         ma, mb = match["market_a"], match["market_b"]
-        side_a, side_b, summe = cross_platform.best_arbitrage_combo(ma, mb)
+        # Seitenzuordnung (Reparatur 27.10.2026): bei vertauschter Teamreihenfolge sichern Yes+Yes bzw. No+No ab.
+        # Unklare Zuordnung: Kombination wie frueher ("same"), aber als "unklar" gekennzeichnet (nie handelbar).
+        alignment = cross_platform.outcome_alignment(ma, mb)
+        side_a, side_b, summe = cross_platform.best_arbitrage_combo(ma, mb, alignment or "same")
         if summe >= 1.0:
             continue  # kein Arbitrage-Vorteil (vor Gebühren) - für die Übersicht uninteressant
+        chk = arbitrage_check.check_pair(ma, mb, now, alignment) if alignment else None
         rows.append({
             "timestamp": now.isoformat(),
             "plattform_a": ma["platform"], "frage_a": ma["question"],
@@ -126,6 +144,13 @@ def write_cross_platform_hits(matches, now):
             "seite_a": side_a, "seite_b": side_b,
             "summe": round(summe, 4), "score": round(match["score"], 3),
             "url_a": ma.get("url", ""), "url_b": mb.get("url", ""),
+            "market_id_a": ma.get("market_id", ""), "market_id_b": mb.get("market_id", ""),
+            "preis_a": round(ma["yes_price"] if side_a == "yes" else ma["no_price"], 4),
+            "preis_b": round(mb["yes_price"] if side_b == "yes" else mb["no_price"], 4),
+            "basis_a": ma.get("price_basis", ""), "basis_b": mb.get("price_basis", ""),
+            "zuordnung": alignment or "unklar",
+            "pruefung": ("ok" if chk is not None and chk.ok else
+                         "Seitenzuordnung unklar" if chk is None else "; ".join(chk.reasons))[:300],
         })
     if not rows:
         return

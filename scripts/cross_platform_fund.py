@@ -43,6 +43,12 @@ Kapital bis zur Auflösung zu binden.
     seriöse Impact-Schätzung möglich ist.
   - Mindest-Spread NACH geschätzten Gebühren (MIN_SPREAD) als Einstiegs-Filter.
 
+REPARATUR 27.10.2026 (gilt vor allem anderen in dieser Doku): Jeder Kauf muss die Strategie-Pruefung in
+arbitrage_check.py bestehen (Seitenzuordnung, vergleichbare Regeln, ausfuehrbare Preise, garantierter Gewinn
+in jedem Ausgang nach allen Gebuehren inkl. Polymarkt-Taker-Gebuehr, Kapitalkosten-Huerde). Die Groesse folgt
+der echten Orderbuch-Tiefe (nicht mehr dem linearen Impact-Modell), hoechstens 10 % des Fondswerts je Paar.
+Bewertet wird zum Anschaffungswert; Geldkurs-Liquidationswert und garantierter Endwert stehen daneben.
+
 Gebühren werden GENAU dort verrechnet, wo sie real anfallen:
   - Kalshi: Taker-Fee beim Kauf (ceil(0.07*C*P*(1-P)), siehe platforms/kalshi.py).
   - PredictIt: 10% Gebühr auf den Nettogewinn JE BEIN, verrechnet bei
@@ -56,22 +62,22 @@ Konto-Ebene) wird bewusst NICHT pro Trade verrechnet (siehe platforms/predictit.
 """
 
 import json
-import math
 import os
 
-import fund_simulator
-import pricing
-import llm_verify
-from platforms import kalshi, predictit, sxbet
+import arbitrage_check as ac
 import cross_platform
+import fund_simulator
+import llm_verify
+import pricing
+from platforms import kalshi, polymarket, predictit, sxbet
 
-MIN_SPREAD = 0.03                 # nach grob geschätzten Gebühren noch 3 Cent Edge pro Paar nötig
-MAX_PLAUSIBLE_SPREAD = 0.25       # darüber: Daten-/Fehlmatch-Artefakt (Regel R3 der Bereinigung, gleiche Schwelle)
-IMPACT_COEFFICIENT = 0.15         # gleicher Wert wie bei den Polymarket-Fonds (fund_simulator.py)
-UNKNOWN_LIQUIDITY_LEG_CAP = 10.0  # Not-Deckel NUR für Beine ohne verifizierte Liquidität (aktuell: PredictIt)
+# Strategie-Parameter stehen in arbitrage_check.py (eine Quelle fuer Live-Fonds, Neuberechnung und Tests).
+MIN_SPREAD = ac.MIN_EDGE
+MAX_PLAUSIBLE_SPREAD = ac.MAX_PLAUSIBLE_SPREAD
 MAX_OPEN_POSITIONS = 15
 MATCH_THRESHOLD = cross_platform.SIMILARITY_THRESHOLD
 MATCH_MAX_DAYS = cross_platform.MAX_DAYS_APART
+STRATEGY_VERSION = "v2-2026-10-27"
 
 # Drei identische Strategien, nur das Startkapital unterscheidet sich - um
 # zu testen, wie sich die Strategie mit mehr Kapital verhält (siehe Moduldoku).
@@ -140,26 +146,51 @@ def log_trade(profile, timestamp, action, pair_id, frage, shares, price, amount,
     )
 
 
+# ---------------------------------------------------------------------
+# Bewertung: Anschaffungswert, Liquidationswert, garantierter Endwert
+# ---------------------------------------------------------------------
+# Frueher: NAV = Kasse + Anteile x (letzter ASK beider Beine). Das ist weder ein erzielbarer Verkaufspreis (der
+# waere der Geldkurs) noch der Endwert, und bei einem nicht abrechenbaren Bein (Lamar) eingefroren. Jetzt:
+#   nav               = Kasse + Anschaffungswert offener Paare (inkl. Kaufgebuehren). Gewinne zaehlen erst bei
+#                       Aufloesung - bei echter Arbitrage steht der Endwert ohnehin fest.
+#   liquidationswert  = Kasse + Anteile x Geldkurse (sofort verkaufbar), soweit bekannt, sonst Anschaffungswert.
+#   terminierungswert = Kasse + garantierter Endwert (schlechtester Ausgang nach Gebuehren).
+
+def book_value(p):
+    if p.get("einstand_gesamt") is not None:
+        return float(p["einstand_gesamt"])
+    a, b = p["leg_a"], p["leg_b"]
+    return p["shares"] * (a["einstandskurs"] + b["einstandskurs"]) + a.get("fee_gezahlt", 0.0) + b.get("fee_gezahlt", 0.0)
+
+
+def liquidation_value(p):
+    a, b = p["leg_a"].get("geldkurs"), p["leg_b"].get("geldkurs")
+    if a is None or b is None:
+        return book_value(p)
+    return p["shares"] * (a + b)
+
+
+def guaranteed_value(p):
+    if p.get("garantierter_endwert") is not None:
+        return float(p["garantierter_endwert"])
+    return p["shares"] * 1.0  # Altbestand ohne Pruefung: Kernannahme 1 USD je Paar (nicht garantiert!)
+
+
 def log_history(profile, now, cash, positions):
-    positions_value = sum(p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"]) for p in positions)
+    positions_value = sum(book_value(p) for p in positions)
     nav = cash + positions_value
-    # Terminierungswert: wie bei den Polymarket-Fonds wird angenommen, dass
-    # ein korrekt gematchtes Paar bei Auflösung garantiert 1.00 USD/Anteil
-    # auszahlt (Kernannahme der Strategie, siehe Moduldoku).
-    termination_value = cash + sum(p["shares"] * 1.0 for p in positions)
+    termination_value = cash + sum(guaranteed_value(p) for p in positions)
     days_list = [fund_simulator._days_to_end(p.get("end_date"), now) for p in positions]
     discounted_value = cash + sum(
-        p["shares"] * 1.0 * fund_simulator._discount_factor(d) for p, d in zip(positions, days_list)
-    )
+        guaranteed_value(p) * fund_simulator._discount_factor(d) for p, d in zip(positions, days_list))
     starting_capital = profile["starting_capital"]
-    n_est, v_est = pricing.estimate_split(
-        positions, lambda p: p["shares"] * (p["leg_a"]["letzter_kurs"] + p["leg_b"]["letzter_kurs"]))
+    n_est, v_est = pricing.estimate_split(positions, book_value)
 
     fund_simulator._append_csv(
         os.path.join(fund_simulator.DATA_DIR, profile["history_csv"]),
         ["timestamp", "kasse", "positionswert", "nav", "rendite_pct", "offene_positionen",
          "terminierungswert", "diskontierter_terminierungswert", "diskontierte_rendite_pct",
-         "positionen_schaetzung", "positionswert_schaetzung"],
+         "positionen_schaetzung", "positionswert_schaetzung", "liquidationswert", "bewertung"],
         {
             "positionen_schaetzung": n_est, "positionswert_schaetzung": round(v_est, 4),
             "timestamp": now.isoformat(),
@@ -171,75 +202,38 @@ def log_history(profile, now, cash, positions):
             "terminierungswert": round(termination_value, 4),
             "diskontierter_terminierungswert": round(discounted_value, 4),
             "diskontierte_rendite_pct": round((discounted_value / starting_capital - 1) * 100, 3),
+            "liquidationswert": round(cash + sum(liquidation_value(p) for p in positions), 4),
+            "bewertung": "anschaffungswert",
         },
     )
     return nav
 
 
 # ---------------------------------------------------------------------
-# Kauf neuer Positionen
+# Kauf neuer Positionen (nur nach bestandener Strategie-Pruefung)
 # ---------------------------------------------------------------------
 
-def _leg_entry_fee(platform, shares, price):
+def leg_depth(market, side):
+    """Kauf-Tiefe [(preis, anteile)] eines Beins oder None (unbekannt -> arbitrage_check.UNKNOWN_DEPTH_LEG_USD)."""
+    platform = market["platform"]
+    if platform == "sxbet":
+        return market.get("depth_yes" if side == "yes" else "depth_no") or None
+    if platform == "polymarket":
+        tokens = market.get("token_ids") or []
+        idx = 0 if side == "yes" else 1
+        return polymarket.fetch_ask_levels(tokens[idx]) if len(tokens) == 2 else None
     if platform == "kalshi":
-        return kalshi.taker_fee(shares, price)
-    return 0.0  # Polymarket: keine Fee. PredictIt: Gewinn-Fee erst bei Settlement.
+        return kalshi.fetch_ask_levels(market["market_id"], side)
+    return None  # PredictIt: keine Tiefe in der oeffentlichen API
 
 
-def _worst_case_settle_fee_per_share(ma, mb, price_a, price_b):
-    """Hoechste Gebuehr, die bei Aufloesung je Anteil faellig werden kann. PredictIt nimmt 10 % auf den
-    Gewinn des GEWINNENDEN Beins (siehe _settle_leg); gewinnt genau dieses Bein, schrumpft der Paar-Gewinn
-    um 0,10 * (1 - Einsatz). Fuer die Auswahl muss der schlechteste der beiden Ausgaenge zaehlen, sonst
-    entstehen Positionen mit garantiertem Verlust in einem der Ausgaenge."""
-    fee_a = predictit.FEE_RATE_PROFIT * max(0.0, 1.0 - price_a) if ma["platform"] == "predictit" else 0.0
-    fee_b = predictit.FEE_RATE_PROFIT * max(0.0, 1.0 - price_b) if mb["platform"] == "predictit" else 0.0
-    return max(fee_a, fee_b)
+def _label(market, side):
+    lab = market.get("yes_label") if side == "yes" else market.get("no_label")
+    return lab or ("Ja" if side == "yes" else "Nein")
 
 
-def _leg_effective_price(price, shares, liquidity):
-    """Linearer Kaufimpact (wie fund_simulator): Preis steigt mit Orderwert/Liquiditaet, hoechstens +30 %.
-    Ohne bekannte Liquiditaet (<= 0) gibt es keine Datenbasis - dann wird der notierte Preis genommen
-    (dort begrenzt UNKNOWN_LIQUIDITY_LEG_CAP die Groesse)."""
-    if liquidity is None or liquidity <= 0:
-        return price
-    return price * (1.0 + min(IMPACT_COEFFICIENT * shares * price / liquidity, 0.3))
-
-
-def _max_shares_for_edge(price_a, liquidity_a, price_b, liquidity_b, fee_per_share):
-    """Größte Stückzahl für EIN Anteilspaar (beide Beine zusammen), bei der
-    der simulierte Kaufimpact - je Bein an dessen EIGENE bekannte Liquidität
-    gekoppelt - die Kombi-Summe noch nicht über MAX_EFFECTIVE_BUY_PRICE
-    treibt. Kein künstlicher Fraktions-Deckel: es wird so weit gekauft, wie
-    der Trade noch profitabel bleibt - ein Zwei-Beine-Analogon zu
-    fund_simulator._max_notional_for_edge (das Impact-Modell ist linear in
-    der Stückzahl, daher lässt sich die Grenze direkt auflösen statt sie
-    iterativ zu suchen).
-
-    Für ein Bein OHNE bekannte Liquidität (<=0) wird dessen Impact NICHT
-    modelliert (dafür gibt es schlicht keine Daten) - der Aufrufer muss für
-    dieses Bein stattdessen UNKNOWN_LIQUIDITY_LEG_CAP als harte Grenze
-    durchsetzen, siehe _select_new_trades."""
-    quad_coef = 0.0
-    if liquidity_a > 0:
-        quad_coef += IMPACT_COEFFICIENT * price_a * price_a / liquidity_a
-    if liquidity_b > 0:
-        quad_coef += IMPACT_COEFFICIENT * price_b * price_b / liquidity_b
-
-    # Kleiner Sicherheitsabstand (1e-6), siehe fund_simulator._max_notional_for_edge.
-    headroom = (fund_simulator.MAX_EFFECTIVE_BUY_PRICE - 1e-6) - fee_per_share - price_a - price_b
-    if headroom <= 0:
-        return 0.0
-    if quad_coef <= 0:
-        return math.inf  # beide Beine ohne Liquiditätsdaten - Deckel kommt ausschließlich vom Not-Deckel
-    return headroom / quad_coef
-
-
-def _score(spread, days_to_end):
-    horizon = max(days_to_end if days_to_end else 0.25, 0.25)
-    return spread / horizon
-
-
-def _select_new_trades(profile, state, matches_by_platforms, now):
+def _select_new_trades(profile, state, matches_by_platforms, now, depth_fn=None):
+    depth_fn = depth_fn or leg_depth
     open_pair_ids = {p["pair_id"] for p in state["positions"]}
     candidates = []
     for match in matches_by_platforms:
@@ -247,76 +241,18 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         pair_id = f"{ma['platform']}:{ma['market_id']}__{mb['platform']}:{mb['market_id']}"
         if pair_id in open_pair_ids:
             continue
-        open_pair_ids.add(pair_id)  # dasselbe Paar zweimal in einem Lauf: nur einmal kaufen (sonst 2 offene Zyklen je ID)
-        side_a, side_b, summe = cross_platform.best_arbitrage_combo(ma, mb)
-
-        # grobe Gebührenabschätzung für die Auswahl (bei 1 Anteil) - reduziert
-        # den rechnerischen Spread, damit nur nach Gebühren noch profitable
-        # Gelegenheiten überhaupt in Betracht kommen.
-        price_a = ma["yes_price"] if side_a == "yes" else ma["no_price"]
-        price_b = mb["yes_price"] if side_b == "yes" else mb["no_price"]
-        if not (0.0 < price_a < 1.0 and 0.0 < price_b < 1.0):
-            continue  # Preis 0 ("kein Angebot") bzw. 1 ist nicht handelbar und wuerde durch 0 teilen
-        if pricing.REQUIRE_EXECUTABLE and pricing.combine_basis(
-                ma.get("price_basis", pricing.BASIS_ESTIMATE), mb.get("price_basis", pricing.BASIS_ESTIMATE)
-        ) != pricing.BASIS_EXECUTABLE:
-            continue  # Schalter pricing.REQUIRE_EXECUTABLE: nur ausfuehrbare Preise handeln
-        if summe < fund_simulator.MIN_PLAUSIBLE_SUM:
-            continue  # "Arbitrage" > 50 %: Datenartefakt bzw. Fehl-Match, nicht handelbar
-        est_fee_per_share = (
-            _leg_entry_fee(ma["platform"], 1.0, price_a) + _leg_entry_fee(mb["platform"], 1.0, price_b)
-            + _worst_case_settle_fee_per_share(ma, mb, price_a, price_b)
-        )
-        spread = 1.0 - summe - est_fee_per_share
-        if spread < MIN_SPREAD:
+        open_pair_ids.add(pair_id)  # dasselbe Paar zweimal in einem Lauf: nur einmal kaufen
+        chk = ac.check_pair(ma, mb, now)
+        if not chk.ok:
             continue
-        if spread > MAX_PLAUSIBLE_SPREAD:
-            continue  # wie Bereinigung R3: so grosse "Arbitrage" war immer Platzhalterkurs oder Fehl-Match
+        candidates.append({"pair_id": pair_id, "match": match, "chk": chk})
 
-        end_a = fund_simulator._days_to_end(ma.get("end_date"), now)
-        end_b = fund_simulator._days_to_end(mb.get("end_date"), now)
-        days_candidates = [d for d in (end_a, end_b) if d is not None]
-        if days_candidates and min(days_candidates) <= 0:
-            continue
-        days = max(days_candidates) if days_candidates else None  # Paar ist erst "fertig", wenn BEIDE Beine aufgelöst sind
-        end_date = None
-        if ma.get("end_date") and mb.get("end_date"):
-            end_date = ma["end_date"] if end_a is None or (end_b is not None and end_a >= end_b) else mb["end_date"]
-        else:
-            end_date = ma.get("end_date") or mb.get("end_date")
-
-        liquidity_a = ma.get("liquidity") or 0.0
-        liquidity_b = mb.get("liquidity") or 0.0
-        edge_shares_cap = _max_shares_for_edge(price_a, liquidity_a, price_b, liquidity_b, est_fee_per_share)
-        hard_caps = []
-        if liquidity_a <= 0:
-            hard_caps.append(UNKNOWN_LIQUIDITY_LEG_CAP / price_a)
-        if liquidity_b <= 0:
-            hard_caps.append(UNKNOWN_LIQUIDITY_LEG_CAP / price_b)
-        shares_cap = min([edge_shares_cap] + hard_caps) if hard_caps else edge_shares_cap
-        if shares_cap <= 0:
-            continue
-
-        candidates.append({
-            "pair_id": pair_id, "match": match, "side_a": side_a, "side_b": side_b,
-            "summe": summe, "spread": spread, "days": days, "end_date": end_date,
-            "shares_cap": shares_cap,
-            "preisbasis": pricing.combine_basis(ma.get("price_basis", pricing.BASIS_ESTIMATE),
-                                                mb.get("price_basis", pricing.BASIS_ESTIMATE)),
-        })
-
-    candidates.sort(key=lambda c: -_score(c["spread"], c["days"]))
     if not candidates:
         return
+    # Hoechste garantierte Jahresrendite zuerst (Kapital ist bis zur spaeteren Aufloesung gebunden).
+    candidates.sort(key=lambda c: -c["chk"].annual)
 
-    # Letzte Sicherheitsstufe (siehe llm_verify.py): cross_platform.py findet
-    # Kandidaten über Textähnlichkeit/Embeddings - reine Mustererkennung,
-    # kein echtes Verständnis. Nach zwei Live-Vorfällen mit Fehl-Matches
-    # (unterschiedliche Wettart selbes Spiel, unterschiedliche Kandidaten
-    # selbe Wahl) prüft ein KI-Modell jeden Kandidaten zusätzlich, BEVOR
-    # tatsächlich gekauft wird. FAIL-CLOSED: nicht verifizierbare Kandidaten
-    # (kein API-Key, Budget erschöpft, Modell nicht erreichbar) werden NICHT
-    # gekauft, sondern beim nächsten Lauf erneut versucht.
+    # Letzte Sicherheitsstufe (siehe llm_verify.py): FAIL-CLOSED, unverifizierte Kandidaten werden nicht gekauft.
     verdicts = llm_verify.verify_candidates(
         [(c["match"]["market_a"], c["match"]["market_b"]) for c in candidates]
     )
@@ -324,81 +260,74 @@ def _select_new_trades(profile, state, matches_by_platforms, now):
         c for c in candidates
         if verdicts.get(llm_verify._pair_key(c["match"]["market_a"], c["match"]["market_b"])) is True
     ]
-    if not candidates:
-        return
-
     free_slots = MAX_OPEN_POSITIONS - len(state["positions"])
-    if free_slots <= 0:
+    if not candidates or free_slots <= 0:
         return
 
+    nav = state["cash"] + sum(book_value(p) for p in state["positions"])
     picks = candidates[:free_slots]
     per_slot_cash = state["cash"] / len(picks)
     for c in picks:
         if state["cash"] < fund_simulator.MIN_TRADE_NOTIONAL:
             break
-        cash_based_shares = per_slot_cash / c["summe"]
-        shares = min(cash_based_shares, c["shares_cap"])
-        _execute_buy(profile, state, c, shares, now)
+        budget = min(state["cash"], per_slot_cash, ac.MAX_PAIR_FRACTION * nav)
+        _execute_buy(profile, state, c, budget, now, depth_fn)
 
 
-def _execute_buy(profile, state, c, shares, now):
-    ma, mb = c["match"]["market_a"], c["match"]["market_b"]
-    if shares * c["summe"] < fund_simulator.MIN_TRADE_NOTIONAL:
+def _execute_buy(profile, state, c, budget, now, depth_fn=None):
+    depth_fn = depth_fn or leg_depth
+    ma, mb, chk = c["match"]["market_a"], c["match"]["market_b"], c["chk"]
+    fill = ac.size_pair(ma, mb, chk, depth_fn(ma, chk.side_a), depth_fn(mb, chk.side_b), budget)
+    for _ in range(5):  # Rundung der Gebuehren kann das Budget um Bruchteile eines Cents ueberschreiten
+        if fill is None or fill.total <= min(budget, state["cash"]):
+            break
+        fill = ac.scale_fill(ma, mb, fill, 0.995 * min(budget, state["cash"]) / fill.total)
+    if fill is None or fill.total > state["cash"] or fill.total < fund_simulator.MIN_TRADE_NOTIONAL:
         return False
+    if not ac.fill_is_safe(fill):
+        return False  # Endkontrolle mit gerundeten Gebuehren: kein garantierter Mindestgewinn -> kein Kauf
 
-    price_a = ma["yes_price"] if c["side_a"] == "yes" else ma["no_price"]
-    price_b = mb["yes_price"] if c["side_b"] == "yes" else mb["no_price"]
-    liq_a, liq_b = ma.get("liquidity") or 0.0, mb.get("liquidity") or 0.0
-
-    def cost_of(n):
-        # Der Kaufimpact wird BEZAHLT (nicht nur als Groessenlimit genutzt): jedes Bein kostet
-        # den um den linearen Impact erhoehten Preis - dasselbe Modell, mit dem
-        # _max_shares_for_edge die Stueckzahl begrenzt.
-        eff_a = _leg_effective_price(price_a, n, liq_a)
-        eff_b = _leg_effective_price(price_b, n, liq_b)
-        fa = _leg_entry_fee(ma["platform"], n, price_a)
-        fb = _leg_entry_fee(mb["platform"], n, price_b)
-        return eff_a, eff_b, fa, fb, n * eff_a + n * eff_b + fa + fb
-
-    eff_a, eff_b, fee_a, fee_b, total_cost = cost_of(shares)
-    if total_cost > state["cash"]:
-        # Die Gebühr steckt nicht in der ursprünglichen Notional-Berechnung -
-        # bei knapper Kasse (v.a. beim 100-USD-Fonds) kann das Budget dadurch
-        # leicht überschritten werden. Einmal proportional zurückskalieren
-        # (Kalshi-Fee ist näherungsweise linear in der Stückzahl), statt den
-        # Trade direkt zu verwerfen.
-        # Kleiner Sicherheitsabstand (0.2%): die Kalshi-Fee rundet auf den
-        # Cent AUF (ceil), ist also nicht exakt linear in der Stückzahl -
-        # eine reine Verhältnis-Skalierung kann das Cash-Limit dadurch um
-        # Bruchteile eines Cents knapp wieder überschreiten.
-        scale = 0.998 * state["cash"] / total_cost
-        shares *= scale
-        eff_a, eff_b, fee_a, fee_b, total_cost = cost_of(shares)
-        if total_cost > state["cash"] or shares * c["summe"] < fund_simulator.MIN_TRADE_NOTIONAL:
-            return False  # auch nach Rückskalierung zu knapp - Sicherheitsnetz
-
-    state["cash"] -= total_cost
-    state["positions"].append({
+    state["cash"] -= fill.total
+    pos = {
         "pair_id": c["pair_id"],
         "frage": f"[{ma['platform']}] {ma['question']}  <->  [{mb['platform']}] {mb['question']}",
-        "shares": shares,
-        "end_date": c["end_date"],
+        "shares": fill.shares,
+        "end_date": _later_end(ma.get("end_date"), mb.get("end_date")),
         "eingestiegen": now.isoformat(),
-        "preisbasis": c["preisbasis"],
+        "preisbasis": pricing.BASIS_EXECUTABLE,
+        "strategie": STRATEGY_VERSION,
+        "zuordnung": chk.alignment,
+        "einstand_gesamt": fill.total,
+        "garantierter_endwert": fill.worst_value,
+        "sport": bool(ma.get("is_sport") or mb.get("is_sport")),
         "leg_a": {
-            "platform": ma["platform"], "market_id": ma["market_id"], "side": c["side_a"],
-            "einstandskurs": eff_a, "letzter_kurs": eff_a, "fee_gezahlt": fee_a,
+            "platform": ma["platform"], "market_id": ma["market_id"], "side": chk.side_a,
+            "ausgang": _label(ma, chk.side_a), "end_date": ma.get("end_date"),
+            "einstandskurs": fill.avg_a, "letzter_kurs": fill.avg_a, "fee_gezahlt": fill.fee_a,
         },
         "leg_b": {
-            "platform": mb["platform"], "market_id": mb["market_id"], "side": c["side_b"],
-            "einstandskurs": eff_b, "letzter_kurs": eff_b, "fee_gezahlt": fee_b,
+            "platform": mb["platform"], "market_id": mb["market_id"], "side": chk.side_b,
+            "ausgang": _label(mb, chk.side_b), "end_date": mb.get("end_date"),
+            "einstandskurs": fill.avg_b, "letzter_kurs": fill.avg_b, "fee_gezahlt": fill.fee_b,
         },
-    })
-    log_trade(profile, now.isoformat(), "KAUF", c["pair_id"], state["positions"][-1]["frage"],
-              shares, eff_a + eff_b, -total_cost, state["cash"],
-              f"Spread {c['spread']*100:.2f}% nach geschaetzten Gebuehren, Edge-Limit {c['shares_cap']:.0f} Anteile, "
-              f"Beine: {ma['platform']}/{c['side_a']} + {mb['platform']}/{c['side_b']}", c["preisbasis"])
+    }
+    state["positions"].append(pos)
+    log_trade(profile, now.isoformat(), "KAUF", c["pair_id"], pos["frage"], fill.shares,
+              fill.avg_a + fill.avg_b, -fill.total, state["cash"],
+              f"Kursunterschied {chk.spread*100:.2f}%, garantiert {fill.worst_value - fill.total:+.2f} USD "
+              f"({chk.annual*100:.1f}% p.a.), Zuordnung {chk.alignment}, Beine: {ma['platform']}/{chk.side_a} "
+              f"({pos['leg_a']['ausgang']}) + {mb['platform']}/{chk.side_b} ({pos['leg_b']['ausgang']})",
+              pricing.BASIS_EXECUTABLE)
     return True
+
+
+def _later_end(a, b):
+    da, db = ac._parse_time(a), ac._parse_time(b)
+    if da is None:
+        return b if db is not None else None
+    if db is None:
+        return a
+    return a if da >= db else b
 
 
 # ---------------------------------------------------------------------
@@ -406,34 +335,40 @@ def _execute_buy(profile, state, c, shares, now):
 # ---------------------------------------------------------------------
 
 def _poly_leg_mark_and_result(leg):
+    """(Geldkurs oder None, Auszahlung je Anteil oder None solange offen)."""
     market = fund_simulator.fetch_market_by_id(leg["market_id"])
     if market is None:
-        return None, None  # (aktueller Kurs oder None, Payout oder None falls noch offen)
-    prices = pricing.parse_outcome_prices(market)  # Aufloesung aus Endkursen (0/1), nicht aus Orderbuch-Asks
-    current_price = None
-    if prices is not None:
-        yes_p, no_p = prices
-        current_price = yes_p if leg["side"] == "yes" else no_p
-    if not market.get("closed"):
-        return current_price, None
-    if current_price is None:
         return None, None
-    # Ausgezahlt wird nur ein ENDKURS: 1, 0 oder 0,5 (50-50-Aufloesung bei Absage/Unklarheit). "closed" allein heisst nur
-    # "Handel beendet"; Letztkurse wie 0,62/0,38 bedeuten, die Aufloesung steht noch aus -> weiter warten.
-    # Frueher: ">= 0,5 -> 1,00" zahlte eine 50-50-Aufloesung voll aus und entschied offene Maerkte nach dem Letztkurs.
+    side_idx = 0 if leg["side"] == "yes" else 1
+    bid = None
+    sq = pricing.sell_quotes(market)
+    if sq is not None and sq.basis == pricing.BASIS_EXECUTABLE:
+        bid = sq.yes if side_idx == 0 else sq.no
+    if not market.get("closed"):
+        return bid, None
+    # Ausgezahlt wird nur ein ENDKURS: 1, 0 oder 0,5 (50-50-Aufloesung bei Absage/Unklarheit). "closed" allein heisst
+    # nur "Handel beendet"; Letztkurse wie 0,62/0,38 bedeuten, die Aufloesung steht noch aus -> weiter warten.
+    # Ein laufender UMA-Streit ("disputed", "proposed" ohne Endkurs) ist ebenfalls noch keine Aufloesung.
+    status = str(market.get("umaResolutionStatus") or "").lower()
+    if status and status != "resolved":
+        return bid, None
+    prices = pricing.parse_outcome_prices(market)  # Endkurse je Ausgang; Sport: ["0","1"] fuer Teamnamen
+    if prices is None:
+        return bid, None
+    final_price = prices[side_idx]
     for final in (0.0, 0.5, 1.0):
-        if abs(current_price - final) <= 0.01:
-            return current_price, final
-    return current_price, None
+        if abs(final_price - final) <= 0.01:
+            return final, final
+    return bid, None
 
 
 def _kalshi_leg_mark_and_result(leg):
     market = kalshi.fetch_market_by_ticker(leg["market_id"])
     if market is None:
         return None, None
-    ask_field = "yes_ask_dollars" if leg["side"] == "yes" else "no_ask_dollars"
+    bid_field = "yes_bid_dollars" if leg["side"] == "yes" else "no_bid_dollars"
     try:
-        current_price = float(market.get(ask_field))
+        current_price = float(market.get(bid_field))
     except (TypeError, ValueError):
         current_price = None
     status, result = market.get("status"), market.get("result")
@@ -442,9 +377,6 @@ def _kalshi_leg_mark_and_result(leg):
     if result == "scalar":
         # Kalshi-Doku (Market Settlement, Settlement Bounds): Bei "scalar" zahlt ein YES-Kontrakt den Abwicklungswert
         # (settlement_value_dollars, Anteil 0..1 des Nennwerts 1,00), ein NO-Kontrakt "1 minus Abwicklungswert".
-        # Beide Seiten zusammen zahlen also weiterhin genau 1,00. Frueher: "result == side" -> 0 fuer BEIDE Seiten.
-        # (Eine Untergrenze/floor, die Kalshi vorab gutschreibt, bildet der Fonds nicht ab: er rechnet mit dem
-        # vollen Abwicklungswert am Ende.) Fehlt der Wert oder ist er ungueltig: nichts erfinden, Position bleibt offen.
         value = _kalshi_settlement_value(market)
         if value is None:
             return current_price, None
@@ -468,22 +400,32 @@ def _kalshi_settlement_value(market):
     return value
 
 
+PREDICTIT_FINAL_TOLERANCE = 0.05
+
+
 def _predictit_leg_mark_and_result(leg):
     _, contract = predictit.fetch_contract_by_market_id(leg["market_id"])
     if contract is None:
         return None, None
-    cost_field = "bestBuyYesCost" if leg["side"] == "yes" else "bestBuyNoCost"
+    sell_field = "bestSellYesCost" if leg["side"] == "yes" else "bestSellNoCost"
     try:
-        current_price = float(contract.get(cost_field))
+        current_price = float(contract.get(sell_field))
     except (TypeError, ValueError):
         current_price = None
     if contract.get("status") == "Open":
         return current_price, None
+    # Frueher: "nicht Open" + Letztkurs >= 0,5 -> Ja gewinnt. Ein geschlossener, aber noch nicht aufgeloester Contract
+    # (Handelsstopp vor dem Ergebnis) wurde damit nach dem Letztkurs entschieden. Jetzt nur bei eindeutigem Endkurs.
     try:
-        last_price = float(contract.get("lastTradePrice") or 0.0)
+        last_price = float(contract.get("lastTradePrice"))
     except (TypeError, ValueError):
-        last_price = 0.0
-    yes_won = last_price >= 0.5
+        return current_price, None
+    if last_price >= 1.0 - PREDICTIT_FINAL_TOLERANCE:
+        yes_won = True
+    elif last_price <= PREDICTIT_FINAL_TOLERANCE:
+        yes_won = False
+    else:
+        return current_price, None
     payout = 1.0 if (yes_won and leg["side"] == "yes") or (not yes_won and leg["side"] == "no") else 0.0
     return current_price, payout
 
@@ -494,7 +436,9 @@ def _sxbet_leg_mark_and_result(leg):
     current_price = None
     if prices is not None:
         yes_price, no_price, _ = prices
-        current_price = yes_price if leg["side"] == "yes" else no_price
+        # SX Bet kennt keinen Verkauf: eine Position wird durch eine Gegenwette glattgestellt.
+        # Wert einer Ja-Position = 1 - Preis der Nein-Wette (und umgekehrt).
+        current_price = 1.0 - (no_price if leg["side"] == "yes" else yes_price)
 
     meta = sxbet.fetch_market_meta(leg["market_id"])
     if meta is None:
@@ -519,30 +463,22 @@ _LEG_HANDLERS = {
 
 
 def _settle_leg(leg, payout):
-    """Zahlt ein einzelnes Bein aus, inkl. plattformspezifischer Gebühr auf
-    den Nettogewinn (aktuell nur bei PredictIt). Gibt die Netto-Proceeds zurück."""
-    shares_proceeds = payout  # pro Anteil - wird vom Aufrufer mit shares multipliziert
-    if leg["platform"] == "predictit":
-        fee = predictit.FEE_RATE_PROFIT * max(0.0, payout - leg["einstandskurs"])
-        return shares_proceeds - fee
-    return shares_proceeds
+    """Netto-Auszahlung je Anteil eines Beins inkl. Gewinngebuehr (PredictIt 10 %, SX Bet 2 %)."""
+    return ac.settle_value(leg["platform"], payout, leg["einstandskurs"])
 
 
 def _mark_and_maybe_settle(pos, now):
-    """Holt für jedes Bein einen gezielten Einzel-Lookup (anders als bei den
-    Polymarket-only-Fonds gibt es hier keinen günstigeren "aus dem Bulk-Scan
-    markieren"-Pfad, da die drei Plattform-Bulk-Listen keine stabile ID-Map
-    wie Polymarket liefern/benötigen - bei max. ~15 offenen Positionen x 2
-    Beinen je Fonds ist das vertretbar). Gibt (proceeds_per_share oder None,
-    results-dict) zurück - proceeds_per_share ist nur gesetzt, wenn BEIDE
-    Beine aufgelöst sind."""
+    """Einzel-Lookup je Bein. Gibt (proceeds_per_share oder None, results-dict) zurueck - proceeds_per_share ist
+    nur gesetzt, wenn BEIDE Beine aufgeloest sind."""
     results = {}
     for leg_key in ("leg_a", "leg_b"):
         leg = pos[leg_key]
         handler = _LEG_HANDLERS[leg["platform"]]
         current_price, payout = handler(leg)
         if current_price is not None:
+            leg["geldkurs"] = current_price
             leg["letzter_kurs"] = current_price
+        leg["geprueft"] = now.isoformat()
         results[leg_key] = payout
 
     if results["leg_a"] is None or results["leg_b"] is None:
@@ -563,10 +499,13 @@ def _mark_and_settle_all(profile, state, now):
             continue
         proceeds = pos["shares"] * proceeds_per_share
         state["cash"] += proceeds
+        note = f"Beide Beine aufgelöst (Payout A={results['leg_a']:.2f}, B={results['leg_b']:.2f})"
+        if results["leg_a"] + results["leg_b"] > 1.0 + 1e-9 or results["leg_a"] + results["leg_b"] < 0.5 - 1e-9:
+            # Bei echter Absicherung zahlt genau ein Bein (oder beide bei Absage teilweise). Beide 1 oder beide 0
+            # heisst: die Beine waren NICHT komplementaer - Fehlpaarung, sichtbar machen statt als Erfolg verbuchen.
+            note += " | WARNUNG: Beine nicht komplementaer (Fehlpaarung?)"
         log_trade(profile, now.isoformat(), "AUSZAHLUNG", pos["pair_id"], pos["frage"], pos["shares"],
-                  proceeds_per_share, proceeds, state["cash"],
-                  f"Beide Beine aufgelöst (Payout A={results['leg_a']:.2f}, B={results['leg_b']:.2f})",
-                  pricing.basis_of(pos))
+                  proceeds_per_share, proceeds, state["cash"], note, pricing.basis_of(pos))
     state["positions"] = still_open
 
 

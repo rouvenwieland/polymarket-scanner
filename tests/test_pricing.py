@@ -13,7 +13,9 @@ import pricing
 from platforms import polymarket as pm
 
 NOW = datetime(2026, 10, 14, 12, 0, tzinfo=timezone.utc)
-END = (NOW + timedelta(days=10)).isoformat()
+# Enddatum relativ zur echten Uhr: snapshot_run nutzt datetime.now(); ein festes Datum (NOW + 10 Tage) lag ab 24.10. in der
+# Vergangenheit, der Markt galt dann als abgelaufen und der Test schlug zeitabhaengig fehl.
+END = (max(NOW, datetime.now(timezone.utc)) + timedelta(days=30)).isoformat()
 
 
 def gm(mid, mid_yes, mid_no, bid=None, ask=None, liq=500.0):
@@ -193,16 +195,21 @@ def test_polymarkt_normalize_markiert_basis():
     assert book["yes_price"] == pytest.approx(0.51) and book["no_price"] == pytest.approx(0.51)
 
 
-def test_cross_paar_ist_nur_ausfuehrbar_wenn_beide_beine_es_sind(datadir, monkeypatch):
-    monkeypatch.setattr(pricing, "REQUIRE_EXECUTABLE", False)  # Kennzeichnung, falls der Schalter abgeschaltet wird
+def test_cross_paar_wird_nur_auf_ausfuehrbaren_preisen_gekauft(datadir, monkeypatch):
+    """Seit der Reparatur (27.10.2026) verlangt die Strategie-Pruefung ausfuehrbare Preise auf BEIDEN Beinen, auch wenn
+    der alte Schalter REQUIRE_EXECUTABLE abgeschaltet wird. Gekauft wird dann mit Basis 'ausfuehrbar'."""
+    monkeypatch.setattr(pricing, "REQUIRE_EXECUTABLE", False)
     E, S = pricing.BASIS_EXECUTABLE, pricing.BASIS_ESTIMATE
-    for basis_a, expected in ((E, E), (S, S)):
-        ma = mk("polymarket", "A", 0.40, 0.60, 1e6, basis_a)  # Summe 0,85: plausibler Spread (<= 25 %)
-        mb = mk("kalshi", "B", 0.55, 0.45, 1e6, E)
+    for basis_a, bought in ((E, True), (S, False)):
+        ma = mk("polymarket", "A", 0.40, 0.62, 1e6, basis_a)  # Yes_A + No_B = 0,92
+        ma["fee_rate"] = 0.0
+        mb = mk("kalshi", "B", 0.50, 0.52, 1e6, E)
+        monkeypatch.setattr(cpf, "leg_depth", lambda m, side: None)
         profile, state = cross_buy(monkeypatch, ma, mb)
-        assert state["positions"][0]["preisbasis"] == expected
-        trades = read_rows(datadir / profile["trades_csv"])
-        assert trades[-1]["preisbasis"] == expected
+        assert bool(state["positions"]) == bought
+        if bought:
+            assert state["positions"][0]["preisbasis"] == E
+            assert read_rows(datadir / profile["trades_csv"])[-1]["preisbasis"] == E
         for f in datadir.iterdir():
             f.unlink()
 

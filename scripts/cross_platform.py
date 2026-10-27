@@ -658,12 +658,79 @@ def find_cross_platform_matches(markets_by_platform, threshold=SIMILARITY_THRESH
     return out
 
 
-def best_arbitrage_combo(market_a, market_b):
+def best_arbitrage_combo(market_a, market_b, alignment="same"):
     """Günstigste Kombination aus beiden Märkten, die bei identischer
-    Auflösung garantiert genau 1.00 USD auszahlt: Yes auf der einen Seite +
-    No auf der anderen. Gibt (side_a, side_b, summe) zurück."""
-    combo_yes_a_no_b = market_a["yes_price"] + market_b["no_price"]
-    combo_no_a_yes_b = market_a["no_price"] + market_b["yes_price"]
-    if combo_yes_a_no_b <= combo_no_a_yes_b:
-        return "yes", "no", combo_yes_a_no_b
-    return "no", "yes", combo_no_a_yes_b
+    Auflösung garantiert genau 1.00 USD auszahlt. Gibt (side_a, side_b, summe) zurück.
+
+    alignment (siehe outcome_alignment): "same" = "yes" bedeutet auf beiden Seiten denselben Ausgang, dann
+    sichert Yes(A) + No(B) bzw. No(A) + Yes(B) ab. "flipped" = "yes" auf A ist "no" auf B (z.B. Teamreihenfolge
+    vertauscht: Polymarkt "Lamar vs. Southeastern Louisiana", SX Bet "Southeastern Louisiana vs Lamar"), dann
+    sichern Yes(A) + Yes(B) bzw. No(A) + No(B) ab. Frueher galt immer "same" - beim Lamar-Paar setzten dadurch
+    beide Beine auf dasselbe Team."""
+    if alignment == "flipped":
+        combos = [("yes", "yes", market_a["yes_price"] + market_b["yes_price"]),
+                  ("no", "no", market_a["no_price"] + market_b["no_price"])]
+    elif alignment == "same":
+        combos = [("yes", "no", market_a["yes_price"] + market_b["no_price"]),
+                  ("no", "yes", market_a["no_price"] + market_b["yes_price"])]
+    else:
+        raise ValueError(f"Seitenzuordnung unklar ({alignment!r}): keine Absicherung bestimmbar")
+    return min(combos, key=lambda c: c[2])
+
+
+# ---------------------------------------------------------------------------
+# Seitenzuordnung (Polaritaet) - Reparatur 27.10.2026
+# ---------------------------------------------------------------------------
+# Bisher wurde angenommen, "yes" bedeute auf beiden Plattformen dasselbe. Bei Sportmaerkten ist "yes" aber der
+# ERSTE Ausgang (Polymarkt: erster Token, SX Bet: outcomeOne), und die Reihenfolge der Teams ist je Plattform
+# verschieden. In cross_platform_hits_003.csv waren 675 von 679 Sport-Trefferzeilen mit SX Bet vertauscht.
+# Jetzt traegt jeder normalisierte Markt yes_label/no_label (None = Ja/Nein auf die Frage), und die Zuordnung
+# wird ueber die Teamnamen bestimmt. Nicht eindeutig = None = kein Trade.
+
+_TEAM_NOISE = {"fc", "cf", "sc", "afc", "club", "team", "the", "women", "men", "university", "univ", "college"}
+
+
+def _label_tokens(label):
+    toks = {t for t in _TOKEN_RE.findall(_strip_accents((label or "").lower())) if len(t) > 1}
+    return {_stem(t) for t in toks if t not in _TEAM_NOISE and t not in STOPWORDS and not t.isdigit()}
+
+
+def labels_match(label_a, label_b):
+    """Zwei Teamnamen meinen (vermutlich) dieselbe Mannschaft: gemeinsamer, nicht generischer Namensbestandteil.
+    "Delaware State Hornets" ~ "Delaware State", "Tennessee-Martin" ~ "UT Martin"."""
+    a, b = _label_tokens(label_a), _label_tokens(label_b)
+    return bool(a and b and a & b)
+
+
+def _has_team_labels(m):
+    y, n = m.get("yes_label"), m.get("no_label")
+    return bool(y and n and str(y).strip().lower() not in ("yes", "no") and str(n).strip().lower() not in ("yes", "no"))
+
+
+def outcome_alignment(market_a, market_b):
+    """"same", "flipped" oder None (unklar).
+      - Beide Maerkte nennen zwei Ausgaenge (Teams): Zuordnung ueber die Namen, und zwar nur, wenn sie
+        eindeutig ist (jedes Team passt zu genau einem Team der Gegenseite).
+      - Genau eine Seite nennt Teams, die andere ist Ja/Nein: unklar (z.B. "Columbus wins" gegen "A vs. B").
+      - Beide Ja/Nein: "same", ausser die Fragen haben erkennbar entgegengesetzte Polaritaet (dann unklar)."""
+    team_a, team_b = _has_team_labels(market_a), _has_team_labels(market_b)
+    if team_a and team_b:
+        ya, na = market_a["yes_label"], market_a["no_label"]
+        yb, nb = market_b["yes_label"], market_b["no_label"]
+        if labels_match(ya, na) or labels_match(yb, nb):
+            return None  # beide Teams einer Seite teilen einen Namensteil ("Georgia" / "Georgia State")
+        same = labels_match(ya, yb) and labels_match(na, nb)
+        flipped = labels_match(ya, nb) and labels_match(na, yb)
+        cross_same = labels_match(ya, nb) or labels_match(na, yb)
+        cross_flip = labels_match(ya, yb) or labels_match(na, nb)
+        if same and not cross_same:
+            return "same"
+        if flipped and not cross_flip:
+            return "flipped"
+        return None
+    if team_a or team_b:
+        return None
+    qa, qb = (market_a.get("question") or "").lower(), (market_b.get("question") or "").lower()
+    if _opposite_polarity(qa, qb):
+        return None
+    return "same"

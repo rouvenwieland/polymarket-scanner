@@ -43,10 +43,13 @@ Gebühren (docs.sx.bet/developers/fees): die vier Payout-Gebühren
 sind PRO ACCOUNT konfiguriert und nur über einen authentifizierten
 /user/fees-v3-Call abrufbar - ohne eigenen Account/API-Key nicht einsehbar.
 Laut Doku bedeutet ein ungesetzter Satz "null" explizit "nichts wird
-berechnet". Für Einzelwetten (keine Parlays - diese Strategie bildet nie
-Parlays) wird daher konservativ mit 0% gerechnet, wie bei einem neuen/
-Standard-Account ohne gesondert vereinbarte Gebühr.
+berechnet". Das ist NICHT vorsichtig: SX Bet hat per Governance-Abstimmung
+eine Taker-Gebühr auf Gewinne (zuletzt 2 % statt 4 %) eingeführt. Seit der
+Reparatur vom 27.10.2026 rechnet die Strategie deshalb mit PROFIT_FEE_RATE
+= 2 % auf den Gewinn des gewinnenden Beins (siehe arbitrage_check.py).
 """
+
+PROFIT_FEE_RATE = 0.02
 
 import time
 from datetime import datetime, timezone
@@ -117,6 +120,27 @@ def _fetch_orderbook(market_hash):
         return None
 
 
+def taker_levels(book):
+    """Ausfuehrbare Tiefe fuer den Taker je Seite: {"yes": [(preis, anteile), ...], "no": [...]} aufsteigend.
+    Auf Outcome 1 ("yes") wetten heisst, gegen outcomeTwo-Maker-Orders zu handeln: Taker-Preis = 1 - q (q =
+    percentageOdds/1e20 des Makers). Der Maker setzt size (USDC, 6 Nachkommastellen) als Anteil q des
+    Gesamtpotts ein, der Pott (= Anteile zu je 1 USD Auszahlung) ist also size / q."""
+    out = {"yes": [], "no": []}
+    if not book:
+        return out
+    for side, maker_key in (("yes", "outcomeTwo"), ("no", "outcomeOne")):
+        for level in book.get(maker_key) or []:
+            try:
+                q = int(level["percentageOdds"]) / ODDS_SCALE
+                size = int(level["size"]) / 1e6
+            except (KeyError, TypeError, ValueError):
+                continue
+            if 0.0 < q < 1.0 and size > 0:
+                out[side].append((1.0 - q, size / q))
+        out[side].sort()
+    return out
+
+
 def _best_taker_prices(book):
     """Siehe Modul-Docstring zur Preis-Umrechnung. Gibt (yes_price, no_price,
     liquidity_usdc) zurück, oder None, wenn eine Seite kein Orderbuch-Level
@@ -166,11 +190,23 @@ def normalize(market, book):
     end_date = None
     if market.get("gameTime"):
         end_date = datetime.fromtimestamp(market["gameTime"], tz=timezone.utc).isoformat()
+    type_id = market.get("type")
+    two_team = type_id in (52, 226)
+    levels = taker_levels(book)
     return {
         "platform": "sxbet",
         "price_basis": "ausfuehrbar",  # beste Taker-Preise aus dem Orderbuch
         "market_id": market_hash,
         "question": question,
+        # "yes" = Outcome 1, "no" = Outcome 2. Bei Sieger-Maerkten sind das Teams - und zwar in der Reihenfolge
+        # von SX Bet, die NICHT der von Polymarkt entsprechen muss (Lamar vs. Southeastern Louisiana, 17.10.).
+        "yes_label": market.get("outcomeOneName") if two_team else None,
+        "no_label": market.get("outcomeTwoName") if two_team else None,
+        "is_sport": True,
+        "sport_market_type": {52: "winner_no_draw", 226: "moneyline", 17: "btts"}.get(type_id, str(type_id)),
+        "start_time": end_date,
+        "depth_yes": levels["yes"],
+        "depth_no": levels["no"],
         "extra_text": extra_text,
         "yes_price": yes_price,
         "no_price": no_price,

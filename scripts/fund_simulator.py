@@ -53,7 +53,7 @@ import csv
 import json
 import math
 import os
-from datetime import datetime
+from datetime import datetime, timezone
 
 import requests
 
@@ -309,10 +309,14 @@ def _days_to_end(end_date_str, now):
     if not end_date_str:
         return None
     try:
-        end_dt = datetime.fromisoformat(end_date_str.replace("Z", "+00:00")).astimezone(now.tzinfo)
+        end_dt = datetime.fromisoformat(str(end_date_str).replace("Z", "+00:00"))
     except ValueError:
         return None
-    return (end_dt - now).total_seconds() / 86400.0
+    if end_dt.tzinfo is None:
+        # Datum ohne Zeitzone ("2026-11-03" oder naiv): als UTC lesen. Frueher wandelte astimezone() einen naiven
+        # Wert als ORTSZEIT des ausfuehrenden Rechners um - im GitHub-Runner UTC, lokal MEZ: andere Laufzeiten.
+        end_dt = end_dt.replace(tzinfo=timezone.utc)
+    return (end_dt.astimezone(now.tzinfo) - now).total_seconds() / 86400.0
 
 
 def _score(spread, liquidity, days_to_end):

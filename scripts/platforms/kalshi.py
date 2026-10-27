@@ -17,6 +17,7 @@ Gebühren (Kalshi Fee Schedule, bestätigt über docs.kalshi.com/kalshi.com):
   da der simulierte Fonds Markt-Orders annimmt statt im Orderbuch zu warten.
 """
 
+import re
 import time
 from decimal import ROUND_CEILING, Decimal
 
@@ -133,6 +134,14 @@ def normalize(market):
         "liquidity": volume,
         "end_date": market.get("close_time"),
         "url": f"https://kalshi.com/markets/{ticker}",
+        # Kalshi-Maerkte sind Ja/Nein auf den Titel ("Columbus wins"): yes_sub_title und no_sub_title nennen
+        # beide dasselbe Team, also KEIN Gegenteam - die Ja-Seite wird nur ueber die Frage beschrieben.
+        "yes_label": None,
+        "no_label": None,
+        "is_sport": is_sport_ticker(ticker),
+        "sport_market_type": "",
+        "start_time": market.get("occurrence_datetime") or market.get("expected_expiration_time"),
+        "rules": " ".join(filter(None, [market.get("rules_primary"), market.get("rules_secondary")])),
     }
 
 
@@ -169,3 +178,47 @@ def taker_fee(contracts, price_dollars, multiplier=1):
     )
     cents = (raw * 100).to_integral_value(rounding=ROUND_CEILING)
     return float(cents) / 100.0
+
+
+# Serien-Kuerzel von Sportmaerkten (Spiele, Spielerwetten, Tore ...). Ein Kalshi-Sportmarkt ist immer eine
+# Ja/Nein-Frage zu EINEM Team/Spieler; Absage/Verschiebung wird zu einem "fair price" abgerechnet, dessen Hoehe
+# vorher nicht feststeht. Die Strategie handelt solche Paare deshalb nicht (arbitrage_check.py).
+_SPORT_TICKER_RE = re.compile(
+    r"^KX(?:[A-Z0-9]*GAME|NFL|NBA|WNBA|NHL|MLB|MLS|NCAA|CFB|CBB|EPL|UCL|UEL|LALIGA|SERIEA|BUNDES|LIGUE|ATP|WTA|ITF|"
+    r"UFC|BOX|F1|NASCAR|PGA|GOLF|TENNIS|SOCCER|[A-Z0-9]*BTTS|[A-Z0-9]*TD|[A-Z0-9]*2H|[A-Z0-9]*1H|[A-Z0-9]*SPREAD|"
+    r"[A-Z0-9]*TOTAL|[A-Z0-9]*MATCH)")
+
+
+def is_sport_ticker(ticker):
+    return bool(_SPORT_TICKER_RE.match(str(ticker or "").upper()))
+
+
+def fetch_ask_levels(ticker, side):
+    """Kauf-Tiefe fuer `side` ("yes"/"no") als [(preis, kontrakte), ...] aufsteigend, oder None.
+    Kalshi listet nur Gebote (bids): Ja kaufen heisst, ein Nein-Gebot zu bedienen, Preis = 1 - Nein-Gebot."""
+    try:
+        resp = requests.get(f"{BASE_URL}/{ticker}/orderbook", timeout=15)
+        resp.raise_for_status()
+        data = resp.json()
+    except (requests.RequestException, ValueError) as e:
+        print(f"[Warnung] Kalshi-Orderbuch {ticker}: {e}")
+        return None
+    other = "no" if side == "yes" else "yes"
+    raw, scale = None, 1.0
+    if isinstance(data.get("orderbook_fp"), dict):
+        raw = data["orderbook_fp"].get(f"{other}_dollars")
+    if raw is None and isinstance(data.get("orderbook"), dict):
+        book = data["orderbook"]
+        raw = book.get(f"{other}_dollars")
+        if raw is None:
+            raw, scale = book.get(other), 100.0  # aeltere Form: Preise in Cent
+    levels = []
+    for lvl in raw or []:
+        try:
+            bid, qty = float(lvl[0]) / scale, float(lvl[1])
+        except (TypeError, ValueError, IndexError):
+            continue
+        if 0.0 < bid < 1.0 and qty > 0:
+            levels.append((round(1.0 - bid, 6), qty))
+    levels.sort()
+    return levels or None

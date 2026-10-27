@@ -107,8 +107,15 @@ def normalize_contract(market, contract):
         # cross_platform_fund.py für den daraus folgenden Positions-Deckel.
         "volume": 0.0,
         "liquidity": 0.0,
-        "end_date": contract.get("dateEnd"),
+        # PredictIt liefert "NA" statt eines Datums, wenn kein Enddatum feststeht - nicht als Datum weiterreichen.
+        "end_date": contract.get("dateEnd") if contract.get("dateEnd") not in (None, "", "NA", "N/A") else None,
         "url": market.get("url"),
+        "yes_label": None,
+        "no_label": None,
+        "is_sport": False,
+        "sport_market_type": "",
+        "start_time": None,
+        "rules": "",
     }
 
 

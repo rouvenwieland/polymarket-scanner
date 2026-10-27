@@ -20,14 +20,37 @@ def load(path):
 
 
 WORKFLOWS = {os.path.basename(p): load(p) for p in FILES}
+WRITER_NAMES = {"cross_platform_watch.yml", "fund_watch.yml", "multi_platform_scan.yml", "polymarket_overnight.yml"}
+TEST_WORKFLOW = "tests.yml"
+DATA_WRITE_GROUP = "polymarket-data-write"
 
 
-def test_vier_workflows_vorhanden():
-    assert set(WORKFLOWS) == {"cross_platform_watch.yml", "fund_watch.yml", "multi_platform_scan.yml", "polymarket_overnight.yml"}
+def test_vier_schreibende_workflows_und_ein_test_workflow():
+    assert set(WORKFLOWS) == WRITER_NAMES | {TEST_WORKFLOW}
+
+
+def test_test_workflow_laeuft_pytest_nur_lesend_und_nicht_bei_daten_commits():
+    """Reparatur 27.10.2026: Tests laufen in CI. Sie schreiben nichts, blockieren die Daten-Workflows nicht und
+    starten nicht bei jedem Bot-Commit (data/**)."""
+    wf = WORKFLOWS[TEST_WORKFLOW]
+    assert wf["permissions"] == {"contents": "read"}
+    assert wf["concurrency"]["group"] != DATA_WRITE_GROUP
+    assert "data/**" in wf["on"]["push"]["paths-ignore"]
+    runs = " ".join(s.get("run", "") for s in wf["jobs"]["test"]["steps"])
+    assert "pytest" in runs and "hypothesis" in runs
+
+
+@pytest.mark.parametrize("name", ["cross_platform_watch.yml", "fund_watch.yml"])
+def test_alarm_fuer_haengende_positionen_nach_dem_commit(name):
+    """Haengt eine Position nach ihrem Enddatum, wird der Lauf rot - aber erst nach dem Commit (Daten gesichert)."""
+    steps = [s.get("name") for s in WORKFLOWS[name]["jobs"]["watch"]["steps"]]
+    alarm = next(i for i, s in enumerate(WORKFLOWS[name]["jobs"]["watch"]["steps"])
+                 if "haengende_positionen.py" in s.get("run", ""))
+    assert alarm > steps.index("Ergebnisse committen")
 
 
 def test_alle_schreibenden_workflows_teilen_eine_concurrency_gruppe_ohne_abbruch():
-    groups = {name: wf["concurrency"] for name, wf in WORKFLOWS.items()}
+    groups = {name: wf["concurrency"] for name, wf in WORKFLOWS.items() if name in WRITER_NAMES}
     assert len({g["group"] for g in groups.values()}) == 1
     assert all(g["cancel-in-progress"] is False for g in groups.values())
 
@@ -41,7 +64,7 @@ def test_jeder_job_hat_ein_timeout(name):
         assert job["timeout-minutes"] <= 120
 
 
-@pytest.mark.parametrize("name", sorted(WORKFLOWS))
+@pytest.mark.parametrize("name", sorted(WRITER_NAMES))
 def test_minimale_rechte(name):
     assert WORKFLOWS[name]["permissions"] == {"contents": "write"}
 
@@ -67,6 +90,8 @@ def test_zeitplaene_sind_realistisch_und_versetzt():
     Verdraengung in der gemeinsamen Gruppe), und die Minuten muessen verschieden und != 0 sein."""
     minutes, intervals = [], []
     for name, wf in WORKFLOWS.items():
+        if name not in WRITER_NAMES:
+            continue
         for item in wf["on"]["schedule"]:
             m, h = item["cron"].split()[:2]
             assert m.isdigit() and int(m) != 0, name
@@ -77,19 +102,19 @@ def test_zeitplaene_sind_realistisch_und_versetzt():
     assert min(intervals) >= 2
 
 
-@pytest.mark.parametrize("name", sorted(WORKFLOWS))
+@pytest.mark.parametrize("name", sorted(WRITER_NAMES))
 def test_push_schleife_endet_mit_fehlercode(name):
-    text = open(os.path.join(ROOT, ".github", "workflows", name), encoding="utf-8").read()
-    assert "git pull --rebase origin main" in text
-    assert re.search(r"exit 1\s*$", text.strip())
+    for job in WORKFLOWS[name]["jobs"].values():
+        run = next(s["run"] for s in job["steps"] if s.get("name") == "Ergebnisse committen")
+        assert "git pull --rebase origin main" in run
+        assert re.search(r"exit 1\s*$", run.strip())
 
 
-DATA_WRITE_GROUP = "polymarket-data-write"
 DATA_WRITERS = sorted(n for n, wf in WORKFLOWS.items() if wf.get("concurrency", {}).get("group") == DATA_WRITE_GROUP)
 
 
 def test_gruppe_der_schreiber_ist_nicht_leer():
-    assert DATA_WRITERS == sorted(WORKFLOWS)
+    assert DATA_WRITERS == sorted(WRITER_NAMES)
 
 
 @pytest.mark.parametrize("name", DATA_WRITERS)

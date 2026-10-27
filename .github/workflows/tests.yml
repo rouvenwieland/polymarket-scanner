@@ -1,0 +1,40 @@
+name: Tests
+
+# Reparatur 27.10.2026: bisher liefen die Tests nur lokal. Jetzt bei jedem Code-Push, jedem Pull Request und einmal
+# taeglich (die Tests lesen auch echte Daten aus data/, die die Bot-Laeufe laufend aendern). Reine Daten-Commits der
+# Bots loesen keinen Testlauf aus (paths-ignore), sonst liefe er alle zwei Stunden.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ["data/**"]
+  pull_request: {}
+  schedule:
+    - cron: "23 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+# Eigene Gruppe: Tests schreiben nichts und duerfen die Daten-Workflows nicht blockieren.
+concurrency:
+  group: tests-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Abhängigkeiten installieren
+        run: pip install requests pandas pyyaml pytest hypothesis
+
+      - name: Tests
+        run: python -m pytest -q

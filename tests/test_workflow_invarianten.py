@@ -185,6 +185,7 @@ def simulate(d, runs, t0=T0, strict=True):
     with patched((fs, "DATA_DIR", d), (fs, "lookup_market", world.lookup),
                  (fs, "fetch_market_by_id", lambda mid: world.poly.get(mid)),
                  (kalshi, "fetch_market_by_ticker", lambda t: world.kalshi.get(t)),
+                 (kalshi, "fetch_ask_levels", lambda t, side: None),
                  (predictit, "fetch_contract_by_market_id", lambda mid: (None, None)),
                  (sxbet, "fetch_market_by_hash", lambda h: None), (sxbet, "fetch_market_meta", lambda h: None),
                  (llm_verify, "verify_candidates", lambda cands: {llm_verify._pair_key(a, b): True for a, b in cands})):
@@ -267,8 +268,10 @@ def test_dasselbe_paar_zweimal_in_einem_lauf_wird_einmal_gekauft():
     check_invariants(d)
 
 
-def test_spread_schwelle_wie_in_der_bereinigung():
-    assert cpf.MAX_PLAUSIBLE_SPREAD == bd.MAX_PLAUSIBLE_SPREAD
+def test_spread_schwelle_mindestens_so_streng_wie_in_der_bereinigung():
+    """Die Bereinigung vom 14.10. verwarf Spreads ueber 25 %; seit der Reparatur vom 27.10. kauft der Fonds nur bis 10 %.
+    Strenger ist erlaubt (die Bereinigung bleibt Fixpunkt), lockerer nicht."""
+    assert cpf.MAX_PLAUSIBLE_SPREAD <= bd.MAX_PLAUSIBLE_SPREAD
 
 
 # ------------------------------------------------------------------ Merge mit Workflow-Laeufen (Snapshot ceddafb, 14.10.)
