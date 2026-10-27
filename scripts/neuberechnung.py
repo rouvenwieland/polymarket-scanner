@@ -99,7 +99,7 @@ def read_csv(path):
 def write_csv(path, fields, rows):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         w.writeheader()
         w.writerows(rows)
 
@@ -488,6 +488,8 @@ def simulate(runs, cands, src, review, start_capital, start_time, leg_cap):
                     "preisbasis": pricing.BASIS_EXECUTABLE, "strategie": STRATEGIE, "zuordnung": ev["chk"].alignment,
                     "einstand_gesamt": fill.total, "garantierter_endwert": fill.worst_value,
                     "sport": bool(ev["ma"].get("is_sport") or ev["mb"].get("is_sport")),
+                    # von Hand als regelgleich bestaetigt: PredictIt-Ergebnis darf aus dem anderen Bein folgen
+                    "predictit_ableiten": "predictit" in (c["plattform_a"], c["plattform_b"]),
                     "leg_a": {"platform": c["plattform_a"], "market_id": c["id_a"], "side": c["seite_a"],
                               "end_date": ev["ma"].get("end_date"), "einstandskurs": fill.avg_a,
                               "letzter_kurs": fill.avg_a, "fee_gezahlt": fill.fee_a},

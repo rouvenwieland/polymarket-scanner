@@ -470,3 +470,19 @@ def test_kalshi_frage_enthaelt_den_untertitel():
     m = {"status": "active", "ticker": "KXBTC-1", "title": "Bitcoin price on Oct 28, 2026?", "yes_sub_title": "Above 82,000",
          "yes_ask_dollars": "0.4", "no_ask_dollars": "0.6"}
     assert kalshi.normalize(m)["question"] == "Bitcoin price on Oct 28, 2026? - Above 82,000"
+
+
+def test_predictit_ergebnis_wird_nur_fuer_bestaetigte_paare_abgeleitet(monkeypatch):
+    """PredictIt nimmt aufgeloeste Maerkte aus der API. Fuer von Hand bestaetigte Paare gilt das Ergebnis des
+    Polymarkt-Beins, sonst bleibt die Position offen (und der Alarm meldet sie)."""
+    m = {"id": "P1", "closed": True, "outcomes": '["Yes", "No"]', "outcomePrices": '["1", "0"]',
+         "umaResolutionStatus": "resolved"}
+    monkeypatch.setattr(cpf.fund_simulator, "fetch_market_by_id", lambda mid: m)
+    monkeypatch.setattr(cpf.predictit, "fetch_contract_by_market_id", lambda mid: (None, None))
+    leg_a = {"platform": "polymarket", "market_id": "P1", "side": "yes", "einstandskurs": 0.2}
+    leg_b = {"platform": "predictit", "market_id": "1:2", "side": "no", "einstandskurs": 0.72}
+    pos = {"zuordnung": "same", "leg_a": dict(leg_a), "leg_b": dict(leg_b)}
+    assert cpf._mark_and_maybe_settle(pos, NOW)[0] is None
+    pos = {"zuordnung": "same", "predictit_ableiten": True, "leg_a": dict(leg_a), "leg_b": dict(leg_b)}
+    proceeds, results = cpf._mark_and_maybe_settle(pos, NOW)
+    assert results == {"leg_a": 1.0, "leg_b": 0.0} and proceeds == pytest.approx(1.0)

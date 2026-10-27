@@ -1,5 +1,9 @@
 {
-  "cash": 100.00082647328622,
-  "positions": [],
-  "started": "2026-09-27T14:55:14.167226+02:00"
+ "cash": 100.0,
+ "neuberechnung": {
+  "skript": "scripts/neuberechnung.py",
+  "strategie": "v2-2026-10-27"
+ },
+ "positions": [],
+ "started": "2026-09-27T14:55:14.167226+02:00"
 }

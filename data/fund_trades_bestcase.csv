@@ -1,1 +1,1 @@
-timestamp,aktion,market_id,frage,anteile,preis,betrag,kasse_danach,notiz,preisbasis,bereinigung
+timestamp,aktion,pair_id,frage,anteile,preis,betrag,kasse_danach,notiz,preisbasis

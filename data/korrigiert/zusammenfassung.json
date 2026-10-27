@@ -1,0 +1,114 @@
+{
+ "empfindlichkeit": {
+  "cross_platform@100": {
+   "kaeufe": 5,
+   "nav": 100.0,
+   "terminierungswert": 102.3022
+  },
+  "cross_platform@1000": {
+   "kaeufe": 5,
+   "nav": 100.0,
+   "terminierungswert": 102.3022
+  },
+  "cross_platform_10k@100": {
+   "kaeufe": 5,
+   "nav": 10000.0,
+   "terminierungswert": 10027.9879
+  },
+  "cross_platform_10k@1000": {
+   "kaeufe": 5,
+   "nav": 10000.0,
+   "terminierungswert": 10230.2152
+  },
+  "cross_platform_1k@100": {
+   "kaeufe": 5,
+   "nav": 1000.0,
+   "terminierungswert": 1023.0215
+  },
+  "cross_platform_1k@1000": {
+   "kaeufe": 5,
+   "nav": 1000.0,
+   "terminierungswert": 1023.0215
+  }
+ },
+ "fonds": {
+  "aggressive": {
+   "auszahlungen": 0,
+   "gebunden_usd": 0.0,
+   "kaeufe": 0,
+   "label": "Aggressiv",
+   "nav": 100.0,
+   "offen": 0,
+   "start": 100.0,
+   "terminierungswert": 100.0
+  },
+  "best_case": {
+   "auszahlungen": 0,
+   "gebunden_usd": 0.0,
+   "kaeufe": 0,
+   "label": "Best Case (unrealistisch)",
+   "nav": 100.0,
+   "offen": 0,
+   "start": 100.0,
+   "terminierungswert": 100.0
+  },
+  "conservative": {
+   "auszahlungen": 0,
+   "gebunden_usd": 0.0,
+   "kaeufe": 0,
+   "label": "Konservativ",
+   "nav": 100.0,
+   "offen": 0,
+   "start": 100.0,
+   "terminierungswert": 100.0
+  },
+  "cross_platform": {
+   "auszahlungen": 0,
+   "gebunden_usd": 50.0,
+   "kaeufe": 5,
+   "label": "Cross-Platform (100 USD)",
+   "nav": 100.0,
+   "offen": 5,
+   "start": 100.0,
+   "terminierungswert": 102.3022
+  },
+  "cross_platform_10k": {
+   "auszahlungen": 0,
+   "gebunden_usd": 60.33,
+   "kaeufe": 5,
+   "label": "Cross-Platform (10.000 USD)",
+   "nav": 10000.0,
+   "offen": 5,
+   "start": 10000.0,
+   "terminierungswert": 10002.7988
+  },
+  "cross_platform_1k": {
+   "auszahlungen": 0,
+   "gebunden_usd": 60.33,
+   "kaeufe": 5,
+   "label": "Cross-Platform (1.000 USD)",
+   "nav": 1000.0,
+   "offen": 5,
+   "start": 1000.0,
+   "terminierungswert": 1002.7988
+  }
+ },
+ "paare_bestanden_automatisch": 7,
+ "paare_echt_nach_pruefung": 5,
+ "paare_kandidaten": 40,
+ "polymarkt_einzelmarkt": {
+  "ausfuehrbar_unter_eins": 0,
+  "snapshot_zeilen": 5787
+ },
+ "scans": 103,
+ "statistik": {
+  "kalshi_sport": 17014,
+  "kandidaten_zeilen": 578,
+  "ki_nicht_bestaetigt": 11109,
+  "kursunterschied_ausserhalb": 500757,
+  "matcher_gegenbeweis": 195,
+  "regel_text": 3077,
+  "schaetzkurs_vor_14_10": 56828,
+  "zeilen": 589558
+ }
+}

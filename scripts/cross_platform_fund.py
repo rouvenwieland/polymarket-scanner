@@ -485,6 +485,17 @@ def _mark_and_maybe_settle(pos, now):
         leg["geprueft"] = now.isoformat()
         results[leg_key] = payout
 
+    # PredictIt nimmt aufgeloeste Maerkte aus der API; das Bein waere dann nie abrechenbar. Nur fuer Paare, deren Regeln
+    # von Hand als gleich bestaetigt sind ("predictit_ableiten", gesetzt von scripts/neuberechnung.py), gilt dort das
+    # Ergebnis des anderen Beins. Sonst bleibt die Position offen und der Alarm (haengende_positionen.py) meldet sie.
+    if pos.get("predictit_ableiten") and pos.get("zuordnung") == "same":
+        for mine, other in (("leg_a", "leg_b"), ("leg_b", "leg_a")):
+            if (results[mine] is None and results[other] is not None and pos[mine]["platform"] == "predictit"
+                    and pos[other]["platform"] != "predictit" and results[other] in (0.0, 0.5, 1.0)):
+                event_yes = results[other] if pos[other]["side"] == "yes" else 1.0 - results[other]
+                results[mine] = event_yes if pos[mine]["side"] == "yes" else 1.0 - event_yes
+                pos[mine]["ergebnis_abgeleitet"] = True
+
     if results["leg_a"] is None or results["leg_b"] is None:
         return None, results  # mindestens ein Bein noch offen - warten, nichts erzwingen
 

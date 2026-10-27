@@ -1,377 +1,171 @@
 {
-  "cash": 4104.211805518094,
-  "positions": [
-    {
-      "pair_id": "polymarket:5378964__predictit:8939:35603",
-      "frage": "[polymarket] Will Maine be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Maine",
-      "shares": 11.340142158191634,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-09T02:32:24.801755+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5378964",
-        "side": "yes",
-        "einstandskurs": 0.10011286470751789,
-        "letzter_kurs": 0.0925,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8939:35603",
-        "side": "no",
-        "einstandskurs": 0.881823160636168,
-        "letzter_kurs": 0.88,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:3344127__predictit:8375:33006",
-      "frage": "[polymarket] Will the Democratic Party candidate win the 2026 South Carolina Senate election?  <->  [predictit] Which party will win the 2026 US Senate election in South Carolina? - Democratic",
-      "shares": 12.179131499098814,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "3344127",
-        "side": "yes",
-        "einstandskurs": 0.15263603641293405,
-        "letzter_kurs": 0.215,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8375:33006",
-        "side": "no",
-        "einstandskurs": 0.8210766096695764,
-        "letzter_kurs": 0.79,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:5378949__predictit:8939:35602",
-      "frage": "[polymarket] Will Alaska be the closest Senate race in 2026?  <->  [predictit] Which 2026 Senate race will be the closest? - Alaska",
-      "shares": 10.52610774042144,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5378949",
-        "side": "yes",
-        "einstandskurs": 0.03810514873970329,
-        "letzter_kurs": 0.064,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8939:35602",
-        "side": "no",
-        "einstandskurs": 0.9500187767980822,
-        "letzter_kurs": 0.91,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:630806__predictit:8158:31953",
-      "frage": "[polymarket] Will the Republicans win the Michigan Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Michigan? - Republican",
-      "shares": 15.384615384615383,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "630806",
-        "side": "yes",
-        "einstandskurs": 0.315,
-        "letzter_kurs": 0.32,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8158:31953",
-        "side": "no",
-        "einstandskurs": 0.65,
-        "letzter_kurs": 0.65,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:635012__predictit:8245:32302",
-      "frage": "[polymarket] Will Bernadette Wilson win the 2026 Alaska governor election?  <->  [predictit] Who will win the 2026 election for governor of Alaska? - Bernadette Wilson",
-      "shares": 12.842455742506532,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "635012",
-        "side": "yes",
-        "einstandskurs": 0.1971949589115934,
-        "letzter_kurs": 0.11,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8245:32302",
-        "side": "no",
-        "einstandskurs": 0.7786672736509072,
-        "letzter_kurs": 0.86,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:3190125__predictit:8804:34867",
-      "frage": "[polymarket] Crypto Market Structure legislation becomes law in 2026?  <->  [predictit] Will crypto regulation (Clarity Act) be enacted in 2026?",
-      "shares": 10.759230985054959,
-      "end_date": "2027-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "3190125",
-        "side": "yes",
-        "einstandskurs": 0.058864182227620264,
-        "letzter_kurs": 0.0905,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8804:34867",
-        "side": "no",
-        "einstandskurs": 0.9294344562255831,
-        "letzter_kurs": 0.9,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:2865981__predictit:8656:34169",
-      "frage": "[polymarket] Will Josh Shapiro be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Josh Shapiro",
-      "shares": 10.339698310339621,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "2865981",
-        "side": "yes",
-        "einstandskurs": 0.019130364529533424,
-        "letzter_kurs": 0.312,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8656:34169",
-        "side": "no",
-        "einstandskurs": 0.9671462067708566,
-        "letzter_kurs": 0.97,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:565064__predictit:8181:32067",
-      "frage": "[polymarket] Will the Republicans win the 2028 US Presidential Election?  <->  [predictit] Which party will win the 2028 US presidential election? - Republican",
-      "shares": 16.43139644110207,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "565064",
-        "side": "yes",
-        "einstandskurs": 0.34993982529791257,
-        "letzter_kurs": 0.345,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8181:32067",
-        "side": "no",
-        "einstandskurs": 0.6085910005181088,
-        "letzter_kurs": 0.6,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:1981997__predictit:8800:34837",
-      "frage": "[polymarket] Will Ron DeSantis be the 2028 Republican Vice-Presidential nominee?  <->  [predictit] Who will win the 2028 Republican vice presidential nomination? - Ron DeSantis",
-      "shares": 10.2046341758722,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-11T22:30:58.391445+02:00",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "1981997",
-        "side": "yes",
-        "einstandskurs": 0.009903719040334536,
-        "letzter_kurs": 0.0235,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8800:34837",
-        "side": "no",
-        "einstandskurs": 0.979946936622575,
-        "letzter_kurs": 0.96,
-        "fee_gezahlt": 0.0
-      },
-      "preisbasis": "schaetzung",
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:629465__predictit:8212:32165",
-      "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
-      "shares": 10.989010989010989,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-14T22:14:18.776518+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "629465",
-        "side": "yes",
-        "einstandskurs": 0.04700003591886818,
-        "letzter_kurs": 0.0665,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8212:32165",
-        "side": "no",
-        "einstandskurs": 0.91,
-        "letzter_kurs": 0.94,
-        "fee_gezahlt": 0.0
-      },
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:4641265__predictit:8983:35852",
-      "frage": "[polymarket] Will Canada become a European Union Association Member by December 31, 2027? (copy)  <->  [predictit] Will Canada become an EU Associate Member by year-end 2027?",
-      "shares": 58.8235294117647,
-      "end_date": "2028-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-15T06:48:17.102416+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "4641265",
-        "side": "no",
-        "einstandskurs": 0.7101844838133934,
-        "letzter_kurs": 0.795,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8983:35852",
-        "side": "yes",
-        "einstandskurs": 0.17,
-        "letzter_kurs": 0.17,
-        "fee_gezahlt": 0.0
-      },
-      "bereinigt": true
-    },
-    {
-      "pair_id": "polymarket:559661__predictit:8153:32160",
-      "frage": "[polymarket] Will Jon Ossoff win the 2028 Democratic presidential nomination?  <->  [predictit] Who will win the 2028 Democratic presidential nomination? - Jon Ossoff",
-      "shares": 12.345679012345679,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-15T15:29:53.682669+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "559661",
-        "side": "yes",
-        "einstandskurs": 0.1390001067768278,
-        "letzter_kurs": 0.1465,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8153:32160",
-        "side": "no",
-        "einstandskurs": 0.81,
-        "letzter_kurs": 0.81,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:2865977__predictit:8656:34166",
-      "frage": "[polymarket] Will Gavin Newsom be the first listed Democrat to announce a run for President in 2028?  <->  [predictit] Which of these Democratic candidates will announce a 2028 POTUS run first? - Gavin Newsom",
-      "shares": 16.39344262295082,
-      "end_date": "NA",
-      "eingestiegen": "2026-10-16T06:38:35.627986+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "2865977",
-        "side": "yes",
-        "einstandskurs": 0.18700741410976,
-        "letzter_kurs": 0.147,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8656:34166",
-        "side": "no",
-        "einstandskurs": 0.61,
-        "letzter_kurs": 0.76,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:3347348__predictit:8570:33724",
-      "frage": "[polymarket] Will Jon Ossoff announce a Presidential run before 2028?  <->  [predictit] Will Jon Ossoff announce a run for President before 2028? - Will John Ossoff announce a run for President before 2028?",
-      "shares": 28.571428571428573,
-      "end_date": "2028-01-01T04:59:00Z",
-      "eingestiegen": "2026-10-17T06:35:33.628100+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "3347348",
-        "side": "yes",
-        "einstandskurs": 0.5000496255265376,
-        "letzter_kurs": 0.515,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8570:33724",
-        "side": "no",
-        "einstandskurs": 0.35,
-        "letzter_kurs": 0.37,
-        "fee_gezahlt": 0.0
-      }
-    },
-    {
-      "pair_id": "polymarket:5353156__sxbet:0x14d7a922850399d3f06b223f87b503db16308155892935c2001d681e2e9facb9",
-      "frage": "[polymarket] Lamar vs. Southeastern Louisiana  <->  [sxbet] Southeastern Louisiana vs Lamar - wer gewinnt?",
-      "shares": 6353.358969424528,
-      "end_date": "2026-10-17T21:00:00Z",
-      "eingestiegen": "2026-10-17T14:14:36.142263+02:00",
-      "preisbasis": "ausfuehrbar",
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "5353156",
-        "side": "no",
-        "einstandskurs": 0.38653856139656284,
-        "letzter_kurs": 0.38653856139656284,
-        "fee_gezahlt": 0.0
-      },
-      "leg_b": {
-        "platform": "sxbet",
-        "market_id": "0x14d7a922850399d3f06b223f87b503db16308155892935c2001d681e2e9facb9",
-        "side": "yes",
-        "einstandskurs": 0.507,
-        "letzter_kurs": 0.41625,
-        "fee_gezahlt": 0.0
-      }
-    }
-  ],
-  "started": "2026-10-07T17:30:18.239410+02:00"
+ "cash": 9939.669333239946,
+ "neuberechnung": {
+  "bein_deckel_usd": 10.0,
+  "skript": "scripts/neuberechnung.py",
+  "strategie": "v2-2026-10-27"
+ },
+ "positions": [
+  {
+   "eingestiegen": "2026-10-14T14:14:13.555736+02:00",
+   "einstand_gesamt": 10.506607929515418,
+   "end_date": "2026-11-04T04:59:00Z",
+   "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
+   "garantierter_endwert": 10.911894273127755,
+   "leg_a": {
+    "einstandskurs": 0.046,
+    "end_date": "2026-11-04T04:59:00Z",
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.046,
+    "market_id": "629465",
+    "platform": "polymarket",
+    "side": "yes"
+   },
+   "leg_b": {
+    "einstandskurs": 0.9079999999999999,
+    "end_date": null,
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.9079999999999999,
+    "market_id": "8212:32165",
+    "platform": "predictit",
+    "side": "no"
+   },
+   "pair_id": "polymarket:629465__predictit:8212:32165",
+   "predictit_ableiten": true,
+   "preisbasis": "ausfuehrbar",
+   "shares": 11.013215859030838,
+   "sport": false,
+   "strategie": "v2-2026-10-27",
+   "zuordnung": "same"
+  },
+  {
+   "eingestiegen": "2026-10-18T14:38:49.011455+02:00",
+   "einstand_gesamt": 12.727272727272727,
+   "end_date": "2026-10-26T03:59:00Z",
+   "frage": "[polymarket] Will Luiz Inácio Lula da Silva win the 2026 Brazilian presidential election?  <->  [predictit] Who will win the 2026 Brazilian presidential election? - Luiz Inácio Lula",
+   "garantierter_endwert": 13.587412587412587,
+   "leg_a": {
+    "einstandskurs": 0.195,
+    "end_date": "2026-10-26T03:59:00Z",
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.195,
+    "market_id": "601819",
+    "platform": "polymarket",
+    "side": "yes"
+   },
+   "leg_b": {
+    "einstandskurs": 0.7150000000000001,
+    "end_date": null,
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.7150000000000001,
+    "market_id": "8544:33623",
+    "platform": "predictit",
+    "side": "no"
+   },
+   "pair_id": "polymarket:601819__predictit:8544:33623",
+   "predictit_ableiten": true,
+   "preisbasis": "ausfuehrbar",
+   "shares": 13.986013986013985,
+   "sport": false,
+   "strategie": "v2-2026-10-27",
+   "zuordnung": "same"
+  },
+  {
+   "eingestiegen": "2026-10-21T01:13:31.604788+02:00",
+   "einstand_gesamt": 11.11111111111111,
+   "end_date": "2026-11-04T04:59:00Z",
+   "frage": "[polymarket] Will the Democrats win the Florida Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Florida? - Democratic (Nixon)",
+   "garantierter_endwert": 11.526315789473685,
+   "leg_a": {
+    "einstandskurs": 0.095,
+    "end_date": "2026-11-04T04:59:00Z",
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.095,
+    "market_id": "631044",
+    "platform": "polymarket",
+    "side": "yes"
+   },
+   "leg_b": {
+    "einstandskurs": 0.855,
+    "end_date": null,
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.855,
+    "market_id": "8228:32196",
+    "platform": "predictit",
+    "side": "no"
+   },
+   "pair_id": "polymarket:631044__predictit:8228:32196",
+   "predictit_ableiten": true,
+   "preisbasis": "ausfuehrbar",
+   "shares": 11.695906432748538,
+   "sport": false,
+   "strategie": "v2-2026-10-27",
+   "zuordnung": "same"
+  },
+  {
+   "eingestiegen": "2026-10-21T22:13:18.640448+02:00",
+   "einstand_gesamt": 15.726495726495727,
+   "end_date": "2026-11-04T04:59:00Z",
+   "frage": "[polymarket] Will the Republicans win the Nevada governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Nevada? - Republican",
+   "garantierter_endwert": 16.384615384615383,
+   "leg_a": {
+    "einstandskurs": 0.335,
+    "end_date": "2026-11-04T04:59:00Z",
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.335,
+    "market_id": "629506",
+    "platform": "polymarket",
+    "side": "yes"
+   },
+   "leg_b": {
+    "einstandskurs": 0.585,
+    "end_date": null,
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.585,
+    "market_id": "8419:33125",
+    "platform": "predictit",
+    "side": "no"
+   },
+   "pair_id": "polymarket:629506__predictit:8419:33125",
+   "predictit_ableiten": true,
+   "preisbasis": "ausfuehrbar",
+   "shares": 17.094017094017094,
+   "sport": false,
+   "strategie": "v2-2026-10-27",
+   "zuordnung": "same"
+  },
+  {
+   "eingestiegen": "2026-10-26T05:55:09.950351+01:00",
+   "einstand_gesamt": 10.259179265658748,
+   "end_date": "2026-11-04T04:59:00Z",
+   "frage": "[polymarket] Will the Democrats win the Kentucky Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Kentucky? - Democratic (Booker)",
+   "garantierter_endwert": 10.719222462203025,
+   "leg_a": {
+    "einstandskurs": 0.024,
+    "end_date": "2026-11-04T04:59:00Z",
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.024,
+    "market_id": "630759",
+    "platform": "polymarket",
+    "side": "yes"
+   },
+   "leg_b": {
+    "einstandskurs": 0.9259999999999999,
+    "end_date": null,
+    "fee_gezahlt": 0.0,
+    "letzter_kurs": 0.9259999999999999,
+    "market_id": "8386:33043",
+    "platform": "predictit",
+    "side": "no"
+   },
+   "pair_id": "polymarket:630759__predictit:8386:33043",
+   "predictit_ableiten": true,
+   "preisbasis": "ausfuehrbar",
+   "shares": 10.799136069114471,
+   "sport": false,
+   "strategie": "v2-2026-10-27",
+   "zuordnung": "same"
+  }
+ ],
+ "started": "2026-10-07T17:30:18.239410+02:00"
 }
