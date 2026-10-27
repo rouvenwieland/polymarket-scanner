@@ -44140,5 +44140,12 @@
     "checked_at": "2026-10-27T05:55:38.206527+00:00",
     "frage_a": "Will Marine Le Pen receive the most signatures from elected officials in the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Marine Le Pen"
+  },
+  "polymarket:562803__predictit:8157:31952": {
+    "same_event": true,
+    "reason": "Beide Fragen fragen exakt dasselbe: Ob die Republikaner nach der Wahl 2026 das Repräsentantenhaus kontrollieren/gewinnen. 'Control the House' und 'win the House' sind im US-Zweiparteiensystem synonym. Polarität identisch (Yes = Republikaner-Mehrheit).",
+    "checked_at": "2026-10-27T21:20:31.750601+00:00",
+    "frage_a": "Will the Republican Party control the House after the 2026 Midterm elections?",
+    "frage_b": "Which party will win the House in the 2026 election? - Republican"
   }
 }
