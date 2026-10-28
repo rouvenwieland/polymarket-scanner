@@ -44147,5 +44147,12 @@
     "checked_at": "2026-10-27T21:20:31.750601+00:00",
     "frage_a": "Will the Republican Party control the House after the 2026 Midterm elections?",
     "frage_b": "Which party will win the House in the 2026 election? - Republican"
+  },
+  "polymarket:5420672__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage A ist ein Parlay auf drei verschiedene Senatswahlen (Ohio, Iowa, Maine) mit Sieg der Demokraten; Frage B betrifft nur die Ohio-Spezialwahl 2026 mit Fokus auf Republikaner Husted. Unterschiedlicher Umfang, unterschiedliche Parteien, keine exakte Entsprechung.",
+    "checked_at": "2026-10-28T06:22:08.427233+00:00",
+    "frage_a": "Will Democrats win the Ohio, Iowa, and Maine Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
   }
 }
