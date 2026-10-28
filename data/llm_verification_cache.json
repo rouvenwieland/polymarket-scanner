@@ -44154,5 +44154,12 @@
     "checked_at": "2026-10-28T06:22:08.427233+00:00",
     "frage_a": "Will Democrats win the Ohio, Iowa, and Maine Senate seats?",
     "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6027275__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Frage A fragt nach exakter Sitzanzahl (126-131), Frage B nach gesamtem Wahlsieg (Pluralität/Regierungsbildung).",
+    "checked_at": "2026-10-28T15:56:28.023447+00:00",
+    "frage_a": "Will PP win 126-131 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
   }
 }
