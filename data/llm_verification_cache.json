@@ -44203,5 +44203,26 @@
     "checked_at": "2026-10-29T16:14:38.041230+00:00",
     "frage_a": "Will Republicans win the Michigan Senate seat, and Democrats win Ohio?",
     "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367348__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage_a ist eine Kombiwette auf Michigan UND Ohio; Frage_b betrifft nur die Ohio-Special-Election 2026 (einzelnes Rennen, anderes Jahr/Typ).",
+    "checked_at": "2026-10-29T22:06:33.312385+00:00",
+    "frage_a": "Will Republicans win the Michigan and Ohio Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367343__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage_a kombiniert Ohio und Texas; Frage_b betrifft nur Ohio-Special-Election 2026. Unterschiedliche Staaten, unterschiedliche Wettstruktur.",
+    "checked_at": "2026-10-29T22:06:33.312385+00:00",
+    "frage_a": "Will Republicans win the Ohio and Texas Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6027277__predictit:9047:36158": {
+    "same_event": false,
+    "reason": "Frage_a fragt nach exaktem Sitzbereich (138-143) für PP; Frage_b fragt nach Wahlsieger (Pluralität/Regierungsbildung). Unterschiedliche Auszahlungskriterien.",
+    "checked_at": "2026-10-29T22:06:33.312385+00:00",
+    "frage_a": "Will PP win 138-143 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PP"
   }
 }
