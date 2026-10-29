@@ -44161,5 +44161,40 @@
     "checked_at": "2026-10-28T15:56:28.023447+00:00",
     "frage_a": "Will PP win 126-131 seats in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:5784290__predictit:9030:36068": {
+    "same_event": false,
+    "reason": "Different deadlines: Oct 31, 2026 vs Election Day (Nov 3, 2026)",
+    "checked_at": "2026-10-29T06:40:18.881330+00:00",
+    "frage_a": "Next White House Press Secretary announced by October 31, 2026?",
+    "frage_b": "Next White House press secretary announced by Election Day?"
+  },
+  "polymarket:629532__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "Different states: New Mexico governor race vs Arizona governor race",
+    "checked_at": "2026-10-29T06:40:18.881330+00:00",
+    "frage_a": "Will the Republicans win the New Mexico governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican"
+  },
+  "polymarket:6367386__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Different scope and polarity: compound bet on 3 seats (R win MI/TX, D win OH) vs single Ohio special election (R win)",
+    "checked_at": "2026-10-29T06:40:18.881330+00:00",
+    "frage_a": "Will Republicans win the Michigan and Texas Senate seats, and Democrats win Ohio?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367388__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Different scope and polarity: compound bet on 3 seats (R win MI, D win TX/OH) vs single Ohio special election (R win)",
+    "checked_at": "2026-10-29T06:40:18.881330+00:00",
+    "frage_a": "Will Republicans win the Michigan Senate seat, and Democrats win Texas and Ohio?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367380__predictit:8158:31953": {
+    "same_event": false,
+    "reason": "Different scope: compound bet on 2 seats (MI and TX) vs single Michigan Senate election",
+    "checked_at": "2026-10-29T06:40:18.881330+00:00",
+    "frage_a": "Will Republicans win the Michigan and Texas Senate seats?",
+    "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican (Rogers)"
   }
 }
