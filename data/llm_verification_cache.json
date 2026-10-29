@@ -44196,5 +44196,12 @@
     "checked_at": "2026-10-29T06:40:18.881330+00:00",
     "frage_a": "Will Republicans win the Michigan and Texas Senate seats?",
     "frage_b": "Which party will win the 2026 US Senate election in Michigan? - Republican (Rogers)"
+  },
+  "polymarket:6367349__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage A ist ein Kombiwetten-Parlay (Michigan UND Ohio), Frage B betrifft nur Ohio. Unterschiedliche Struktur, Umfang und Polarität beim gemeinsamen Teil (Ohio).",
+    "checked_at": "2026-10-29T16:14:38.041230+00:00",
+    "frage_a": "Will Republicans win the Michigan Senate seat, and Democrats win Ohio?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
   }
 }
