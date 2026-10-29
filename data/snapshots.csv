@@ -6361,3 +6361,81 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-10-28T21:33:46.034468+01:00,6334108,Map 2 Total Rounds: Over/Under 22.5,val-kru-tl-2026-10-28-game2-round-total-22pt5,0.5,0.485,0.985,0.0,0.0,2026-10-29T01:45:00Z,schaetzung
 2026-10-28T21:33:46.034468+01:00,6347115,Max Rosenfelder: 1+ shots,dfb-scf-wob-2026-10-28-shots-max-rosenfelder-90112670-gte1,0.49,0.5,0.99,0.0,0.0,2026-10-28T17:00:00Z,schaetzung
 2026-10-28T21:33:46.034468+01:00,6349953,Spread: Weston-super-Mare (-2.5),nls-dor-wsm-2026-10-31-spread-away-2pt5,0.48,0.515,0.995,0.0,16.5395,2026-10-31T15:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4371201,Will Rudi Pozeg Vancas score the most goals in the 2026-27 UEFA Europa League?,will-rudi-pozeg-vancas-score-the-most-goals-in-the-2026-27-uefa-europa-league,0.494,0.5055,0.9994999999999999,20.0,9.51293,2027-06-09T23:59:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4519289,Stevenage FC vs. Sheffield Wednesday FC: 1st Half O/U 3.5 Total Corners,el1-ste-swe-2026-09-26-corners-first-half-total-3pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T19:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4750883,Peterborough United FC vs. Notts County FC: Both Teams to Score in First Half,el1-pet-not-2026-10-03-btts-first-half,0.49,0.5,0.99,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5654728,4Q Spread: Browns (-7.5),nfl-cle-pit-2026-11-01-4q-spread-away-7pt5,0.495,0.5,0.995,0.0,2.5,2026-11-01T18:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5742708,Will Sejuani be the most banned champion at Worlds 2026?,will-sejuani-be-the-most-banned-champion-at-worlds-2026,0.46,0.535,0.9950000000000001,10.0,7.8878,2026-12-15T04:59:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5743385,New York City FC vs. Atlanta United FC: Atlanta United FC O/U 3.5 Corners,mls-nyc-atl-2026-10-28-corners-team-away-3pt5,0.5,0.35,0.85,0.0,0.0,2026-10-28T23:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5743443,Charlotte FC vs. CF Montréal: 1st Half O/U 3.5 Total Corners,mls-clt-mim-2026-10-28-corners-first-half-total-3pt5,0.5,0.005,0.505,0.0,0.0,2026-10-28T23:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5744726,St. Louis City SC vs. Portland Timbers: St. Louis City SC 2nd Half O/U 2.5,mls-stl-por-2026-10-28-second-half-team-total-home-2pt5,0.27,0.5,0.77,0.0,0.0,2026-10-29T00:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5758831,Exact Score: HB Køge 0 - 4 FC Barcelona?,uwcl-hbk-fcb-2026-10-29-exact-score-0-4,0.245,0.75,0.995,0.0,74.3098,2026-10-29T20:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5767220,Spread: Atalanta BC (-4.5),sea-fio-ata-2026-10-29-spread-away-4pt5,0.12,0.875,0.995,0.0,908.0299,2026-10-29T19:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5808287,Spread: NK Istra 1961 (-4.5),hr1-sla-ist-2026-10-30-spread-away-4pt5,0.485,0.51,0.995,0.0,2.0997,2026-10-30T17:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940565,Asian Table Tennis Championships: John Misal vs Mohamed Saleh,wtt-misal-saleh-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940572,Asian Table Tennis Championships: Rustamjon Fuzaili vs Dortguly Allanazarov,wtt-fuzaili-allanaz-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940596,Asian Table Tennis Championships: Gang-Hyeon Park vs Edouard Valenet,wtt-par-valenet-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940646,Asian Table Tennis Championships: Menwah Alshammari vs Althea Gudes,wtt-alshamm-gudes-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940670,Asian Table Tennis Championships: Jana Abedali vs Swastika Ghosh,wtt-abedali-ghosh-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940672,Asian Table Tennis Championships: Citra Rasmi vs Im Ying,wtt-rasmi-ying-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940680,Asian Table Tennis Championships: Mishka Ibrahim vs Setayesh Iloukhani,wtt-ibrahim-iloukha-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5940683,Asian Table Tennis Championships: Szu-Yu Chen vs Iok Nam Leong,wtt-chen-leong-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5941194,Jacksonville State 1H Team Total: O/U 13.5,cfb-jaxst-nmxst-2026-10-28-1h-team-total-jaxst-13pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5941200,Jacksonville State 2H Team Total: O/U 13.5,cfb-jaxst-nmxst-2026-10-28-2h-team-total-jaxst-13pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5942140,Spread: Campbell (-10.5),cfb-camp-albny-2026-10-31-spread-away-10pt5,0.495,0.5,0.995,0.0,0.1,2026-10-31T16:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5943429,Spread: Richmond (-7.5),cfb-rich-holy-2026-10-31-spread-away-7pt5,0.5,0.495,0.995,0.0,0.1,2026-10-31T17:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5943925,Spread: Norfolk State (-7.5),cfb-delst-norfst-2026-10-31-spread-home-7pt5,0.495,0.5,0.995,0.0,0.1,2026-10-31T19:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5950770,Exact Score: US Sassuolo Calcio 5 - 1 ACF Fiorentina?,sea-sas-fio-2026-11-02-exact-score-5-1,0.17,0.825,0.995,0.0,133.1846,2026-11-02T17:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5955984,New Mexico State Total Passing Yards: O/U 200.5,cfb-jaxst-nmxst-2026-10-28-team-pass-yards-nmxst-200pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5955998,Jacksonville State Total Rushing Yards: O/U 150.5,cfb-jaxst-nmxst-2026-10-28-team-rush-yards-jaxst-150pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5956107,Jacksonville State Total First Downs: O/U 19.5,cfb-jaxst-nmxst-2026-10-28-team-first-downs-jaxst-19pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5960646,Exact Score: RC Deportivo A Coruña 5 - 0 CA Osasuna?,lal-dep-osa-2026-11-02-exact-score-5-0,0.13,0.865,0.995,0.0,112.7598,2026-11-02T20:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5988886,Asian Table Tennis Championships: Setayesh Iloukhani vs Yi Chen,wtt-iloukha-che-2026-10-21,0.495,0.5,0.995,0.0,0.0,2026-10-28T11:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,5988892,Asian Table Tennis Championships: Zion Lee vs Yashaswini Ghorpade,wtt-lee-ghorpad-2026-10-21,0.495,0.5,0.995,0.0,0.0,2026-10-28T11:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6004485,FK Zorya Luhansk vs. FK Epitsentr Dunaivtsi: O/U 8.5,ukr1-zor-epi-2026-11-02-total-8pt5,0.485,0.51,0.995,0.0,2.3196,2026-11-02T11:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6038299,Will the match end in a draw?,cricranji-vid-goa-2026-10-26-draw,0.5,0.495,0.995,0.0,0.0,2026-11-02T04:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6041437,Asian Table Tennis Championships: Muhammad Negara vs Baldwin Chan,wtt-negara-cha-2026-10-23,0.5,0.495,0.995,0.0,0.0,2026-10-30T11:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6061904,AC Sparta Praha vs. AFC Bournemouth: 1st Half O/U 5.5 Total Corners,uel-spp-bou-2026-11-05-corners-first-half-total-5pt5,0.49,0.5,0.99,0.0,4.0,2026-11-05T17:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6061995,Real Sociedad de Fútbol vs. Olympique Lyonnais: 1st Half O/U 4.5 Total Corners,uel-rso-lyo-2026-11-05-corners-first-half-total-4pt5,0.5,0.49,0.99,0.0,8.0,2026-11-05T17:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6062383,Real Sociedad de Fútbol vs. Olympique Lyonnais: Real Sociedad de Fútbol O/U 2.5,uel-rso-lyo-2026-11-05-team-total-home-2pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-05T17:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6084306,Asian Table Tennis Championships: Youzheng Huang vs Tomokazu Harimoto,wtt-huang-harimo-2026-10-24,0.495,0.5,0.995,0.0,0.0,2026-10-31T11:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6119513,Cruzeiro EC vs. EC Bahia: Cruzeiro EC O/U 2.5,bra-cru-bah-2026-11-05-team-total-home-2pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-06T00:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6161144,FC Volendam vs. De Graafschap: De Graafschap 1st Half O/U 1.5,ned2-vol-gra-2026-10-30-first-half-team-total-away-1pt5,0.485,0.51,0.995,0.0,1.2997,2026-10-30T19:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6219054,Stafford Rangers FC vs. Grimsby Town FC: Stafford Rangers FC O/U 3.5,efa-sta2-gri2-2026-11-07-team-total-home-3pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-08T12:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6269006,Spread: Toledo (-4.5),cfb-toledo-sacst-2026-11-04-spread-away-4pt5,0.495,0.5,0.995,0.0,0.1,2026-11-05T00:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6269885,Spread: Arizona (-20.5),cfb-tcu-arz-2026-11-06-spread-home-20pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T03:15:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6270113,Spread: Lehigh (-7.5),cfb-colg-lehi-2026-11-07-spread-home-7pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T17:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6270140,Spread: Tulane (-1.5),cfb-tulsa-tulane-2026-11-07-spread-home-1pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T17:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6270779,Spread: North Carolina (-17.5),cfb-ncar-uconn-2026-11-07-spread-away-17pt5,0.5,0.495,0.995,0.0,0.1,2026-11-07T17:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6271181,Spread: Arkansas (-6.5),cfb-ark-aubrn-2026-11-07-spread-away-6pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T17:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6272452,Spread: Wisconsin (-10.5),cfb-rutger-wisc-2026-11-07-spread-home-10pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T18:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6274894,Spread: San Jose State (-20.5),cfb-nill-sjst-2026-11-07-spread-home-20pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T21:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6275100,Spread: Florida International (-16.5),cfb-msrst-flint-2026-11-07-spread-home-16pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T21:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6275468,Spread: South Alabama (-14.5),cfb-sala-loulaf-2026-11-07-spread-away-14pt5,0.5,0.495,0.995,0.0,0.1,2026-11-07T22:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6275661,Spread: Boise State (-8.5),cfb-boise-colst-2026-11-07-spread-away-8pt5,0.5,0.495,0.995,0.0,0.1,2026-11-07T23:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6276225,Spread: Miami (FL) (-12.5),cfb-mia-nd-2026-11-07-spread-away-12pt5,0.5,0.495,0.995,0.0,0.1,2026-11-08T00:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6276495,Spread: Arizona State (-17.5),cfb-col-arzst-2026-11-07-spread-home-17pt5,0.495,0.5,0.995,0.0,0.1,2026-11-08T00:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6278807,2H Spread: Wake Forest (-5.5),cfb-vir-wake-2026-10-31-2h-spread-home-5pt5,0.35,0.48,0.83,0.0,107.076,2026-10-31T19:45:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6291547,Spread: FK Shakhtar Donetsk (-2.5),ukr1-shd-dyn-2026-11-08-spread-home-2pt5,0.49,0.505,0.995,0.0,5.9598,2026-11-08T16:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6296704,Persebaya Surabaya vs. Persijap Jepara: O/U 8.5,idn1-ps-pje-2026-10-30-total-8pt5,0.485,0.51,0.995,0.0,1.4352,2026-10-30T12:00:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6298071,FCSB vs. FC Corvinul 1921 Hunedoara: FCSB O/U 3.5,rou1-fcs-cor-2026-11-07-team-total-home-3pt5,0.485,0.51,0.995,0.0,0.9599,2026-11-07T18:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6329170,Portland Timbers to score first in the 1st half vs. St. Louis City SC?,mls-stl-por-2026-10-28-first-half-first-to-score-away,0.325,0.5,0.825,0.0,0.0,2026-10-29T00:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6337826,Deportes Quindio vs. Real Cundinamarca: Deportes Quindio O/U 1.5,col2-qui-rea-2026-10-28-team-total-home-1pt5,0.49,0.5,0.99,0.0,0.0,2026-10-29T01:05:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6337837,Deportes Quindio vs. Real Cundinamarca: Deportes Quindio 1st Half O/U 0.5,col2-qui-rea-2026-10-28-first-half-team-total-home-0pt5,0.495,0.5,0.995,0.0,0.0,2026-10-29T01:05:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6352546,Konstantinos Grozos: 3+ goals,grc-ael-ofi-2026-10-28-goals-konstantinos-grozos-90140222-gte3,0.25,0.5,0.75,0.0,0.0,2026-10-28T17:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6352551,Nikos Nitsos: 2+ goals,grc-ael-ofi-2026-10-28-goals-nikos-nitsos-90198180-gte2,0.1,0.5,0.6,0.0,0.0,2026-10-28T17:30:00Z,schaetzung
+2026-10-29T02:14:26.135770+01:00,6352603,Nikolaos Ztoupis: 2+ assists,grc-ael-ofi-2026-10-28-assists-nikolaos-ztoupis-90198317-gte2,0.1,0.5,0.6,0.0,0.0,2026-10-28T17:30:00Z,schaetzung
