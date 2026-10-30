@@ -44224,5 +44224,33 @@
     "checked_at": "2026-10-29T22:06:33.312385+00:00",
     "frage_a": "Will PP win 138-143 seats in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PP"
+  },
+  "polymarket:6367350__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage_a ist eine Kombiwette auf zwei Sitze (MI Dem + OH Rep), Frage_b nur auf Ohio-Senats-Spezialwahl (Rep). Unterschiedlicher Umfang und Polarität für Ohio.",
+    "checked_at": "2026-10-30T06:49:08.477702+00:00",
+    "frage_a": "Will Democrats win the Michigan Senate seat, and Republicans win Ohio?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367390__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage_a ist Kombiwette auf drei Sitze (MI Dem, OH Dem, TX Rep), Frage_b nur Ohio-Spezialwahl (Rep). Unterschiedlicher Umfang, andere Polarität für Ohio.",
+    "checked_at": "2026-10-30T06:49:08.477702+00:00",
+    "frage_a": "Will Democrats win the Michigan and Ohio Senate seats, and Republicans win Texas?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:629707__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Frage_a: einzelnes Gouverneursrennen Vermont 2026. Frage_b: 'Sweep' aller Swing-State-Gouverneursrennen. Vermont ist kein Swing State; unterschiedlicher Umfang und Entitäten.",
+    "checked_at": "2026-10-30T06:49:08.477702+00:00",
+    "frage_a": "Will the Democrats win the Vermont governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:629412__predictit:9045:36143": {
+    "same_event": false,
+    "reason": "Frage_a: einzelnes Gouverneursrennen Kansas 2026. Frage_b: 'Sweep' aller Swing-State-Gouverneursrennen. Kansas ist kein Swing State; unterschiedlicher Umfang und Entitäten.",
+    "checked_at": "2026-10-30T06:49:08.477702+00:00",
+    "frage_a": "Will the Democrats win the Kansas governor race in 2026?",
+    "frage_b": "Will Democrats sweep the swing state Governor races?"
   }
 }
