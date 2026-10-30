@@ -44252,5 +44252,26 @@
     "checked_at": "2026-10-30T06:49:08.477702+00:00",
     "frage_a": "Will the Democrats win the Kansas governor race in 2026?",
     "frage_b": "Will Democrats sweep the swing state Governor races?"
+  },
+  "polymarket:6367389__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage A ist eine Kombiwette auf drei verschiedene Senatsrennen (MI, TX, OH), Frage B betrifft nur das OH-Senats-Spezialwahl-Rennen.",
+    "checked_at": "2026-10-30T21:28:30.803940+00:00",
+    "frage_a": "Will Democrats win the Michigan Senate seat, and Republicans win Texas and Ohio?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:6367387__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage A ist eine Kombiwette auf drei Senatsrennen (MI, OH, TX), Frage B nur auf das OH-Senats-Spezialwahl-Rennen.",
+    "checked_at": "2026-10-30T21:28:30.803940+00:00",
+    "frage_a": "Will Republicans win the Michigan and Ohio Senate seats, and Democrats win Texas?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:3369148__predictit:8472:33331": {
+    "same_event": true,
+    "reason": "Beide fragen exakt dasselbe: Gewinnt die Demokratische Partei die Gouverneurswahl in Nebraska 2026? Gleiche Polartität, gleiche Entität, gleicher Zeitraum.",
+    "checked_at": "2026-10-30T21:28:30.803940+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Nebraska gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Nebraska? - Democratic"
   }
 }
