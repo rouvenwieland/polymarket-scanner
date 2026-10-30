@@ -107,3 +107,20 @@ def test_basis_stats_altbestand_ist_schaetzung():
     import render_dashboard as rd
     st = rd.basis_stats({"positions": [{}, {"preisbasis": "ausfuehrbar"}], "trades": [{"aktion": "KAUF"}, {"aktion": "VERKAUF"}]})
     assert st == {"pos_total": 2, "pos_est": 1, "buy_total": 1, "buy_est": 1}
+
+
+def test_abgelehnte_treffer_je_lauf_begrenzt(tmp_path, monkeypatch):
+    from datetime import datetime
+    monkeypatch.setattr(mps, "DATA_DIR", str(tmp_path))
+    monkeypatch.setattr(mps, "CROSS_HITS_CSV", str(tmp_path / "cross_platform_hits.csv"))
+    monkeypatch.setattr(mps, "HITS_MAX_REJECTED_PER_RUN", 3)
+    matches = []
+    for i in range(10):
+        ma = {"platform": "polymarket", "question": f"Q{i}?", "yes_price": 0.3, "no_price": 0.7, "url": ""}
+        mb = {"platform": "kalshi", "question": f"Q{i}?", "yes_price": 0.4, "no_price": 0.5, "url": ""}
+        matches.append({"market_a": ma, "market_b": mb, "score": 0.5 + i / 100})
+    mps.write_cross_platform_hits(matches, datetime(2026, 10, 30))
+    rows = list(csv.DictReader(open(tmp_path / "cross_platform_hits.csv", encoding="utf-8")))
+    ok = [r for r in rows if r["pruefung"] == "ok"]
+    assert len(rows) - len(ok) <= 3                      # abgelehnte begrenzt
+    assert all(float(r["score"]) >= 0.57 for r in rows if r["pruefung"] != "ok")  # die 3 mit hoechstem Score bleiben

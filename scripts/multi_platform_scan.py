@@ -49,6 +49,10 @@ CROSS_HITS_CSV = os.path.join(DATA_DIR, "cross_platform_hits.csv")
 # Datei wuchs unbegrenzt (Stand 13.10.: 95,8 MiB, ~2 MB/Tag). Ab dieser Groesse beginnt eine neue Teildatei
 # (cross_platform_hits_002.csv, ...); die alte bleibt unveraendert im Repo.
 HITS_MAX_BYTES = 50 * 1024 * 1024
+# Datenwachstum begrenzen (30.10.2026): Zwei Laeufe am 29.10. schrieben je ~25.000 Zeilen (fast nur abgelehnte
+# Fussball-Genauergebnis-Paare), das sind ~12 MB/Tag. Zeilen mit Ergebnis "ok" werden immer geschrieben; abgelehnte
+# Zeilen nur bis zu dieser Zahl je Lauf (bevorzugt mit hohem Aehnlichkeitswert). Der Rest wird nur gezaehlt.
+HITS_MAX_REJECTED_PER_RUN = 1500
 
 
 HITS_FIELDNAMES = [
@@ -154,6 +158,13 @@ def write_cross_platform_hits(matches, now):
         })
     if not rows:
         return
+    rejected = [r for r in rows if r["pruefung"] != "ok"]
+    if len(rejected) > HITS_MAX_REJECTED_PER_RUN:
+        keep = sorted(rejected, key=lambda r: -r["score"])[:HITS_MAX_REJECTED_PER_RUN]
+        keep_ids = {id(r) for r in keep}
+        omitted = len(rejected) - len(keep)
+        rows = [r for r in rows if r["pruefung"] == "ok" or id(r) in keep_ids]
+        print(f"{omitted} abgelehnte Treffer nicht geschrieben (Limit {HITS_MAX_REJECTED_PER_RUN} je Lauf).")
     with open(target, "a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         if not file_exists:
