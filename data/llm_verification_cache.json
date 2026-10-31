@@ -44273,5 +44273,12 @@
     "checked_at": "2026-10-30T21:28:30.803940+00:00",
     "frage_a": "Will the Democratic Party candidate win the 2026 Nebraska gubernatorial election?",
     "frage_b": "Which party will win the 2026 election for governor of Nebraska? - Democratic"
+  },
+  "polymarket:3409453__predictit:9020:36010": {
+    "same_event": false,
+    "reason": "Frage A fragt nach einem spezifischen Ergebnis (Rep Gov UND Dem Sen). Frage B fragt nach 'unterschiedliche Parteien', was ZWEI mögliche Ergebnisse umfasst (Rep Gov/Dem Sen ODER Dem Gov/Rep Sen). Bei Ausgang Rep Gov/Dem Sen lösen BEIDE mit 'Yes' auf (keine gegensätzliche Auflösung).",
+    "checked_at": "2026-10-31T06:48:53.496345+00:00",
+    "frage_a": "Will Republicans win the Texas Governor election and Democrats win the Texas Senate election?",
+    "frage_b": "Will Texas elect a Senator and Governor from different parties?"
   }
 }
