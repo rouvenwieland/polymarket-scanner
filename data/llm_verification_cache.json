@@ -44350,5 +44350,19 @@
     "checked_at": "2026-11-01T16:08:06.706170+00:00",
     "frage_a": "Will Democrats win the Ohio Senate seat, and Republicans win Texas?",
     "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:1194657__predictit:9054:36204": {
+    "same_event": true,
+    "reason": "Beide Fragen beziehen sich auf denselben Kandidaten (Andrey Gyurov) bei derselben Wahl (nächste bulgarische Präsidentschaftswahl = 2026), gleiche Polarität (Yes = Gyurov gewinnt).",
+    "checked_at": "2026-11-01T21:14:22.182179+00:00",
+    "frage_a": "Will Аndrey Gyurov win the next Bulgarian presidential election?",
+    "frage_b": "Who will win the 2026 Bulgarian presidential election? - Andrey Gyurov"
+  },
+  "polymarket:6367344__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage_a ist ein Kombi-Markt (Ohio Republican UND Texas Democrat), Frage_b nur Ohio-Spezialwahl (Republican/Husted). Unterschiedlicher Umfang, unterschiedliche Ereignisse.",
+    "checked_at": "2026-11-01T21:14:22.182179+00:00",
+    "frage_a": "Will Republicans win the Ohio Senate seat, and Democrats win Texas?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
   }
 }
