@@ -44315,5 +44315,33 @@
     "checked_at": "2026-10-31T20:33:52.418008+00:00",
     "frage_a": "Will Brian Bengs win the South Dakota Senate race in 2026?",
     "frage_b": "Which party will win the 2026 US Senate election in South Dakota? - Independent (Bengs)"
+  },
+  "polymarket:3515972__predictit:9056:36210": {
+    "same_event": false,
+    "reason": "Different geographic scope (Alaska vs Midwest) and different offices (Senate+Governor vs Senate only)",
+    "checked_at": "2026-11-01T00:13:32.119046+00:00",
+    "frage_a": "Will Democrats sweep the Alaska Senate and Governor elections?",
+    "frage_b": "Will Democrats sweep the Midwest Senate races?"
+  },
+  "polymarket:634974__predictit:8271:32429": {
+    "same_event": true,
+    "reason": "Both ask whether Dan Sullivan (GOP incumbent) wins the 2026 Alaska Senate race; same candidate, same race, same polarity",
+    "checked_at": "2026-11-01T00:13:32.119046+00:00",
+    "frage_a": "Will Dan Sullivan win the Alaska Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - GOP (S. Sullivan)"
+  },
+  "polymarket:5676475__predictit:9068:36283": {
+    "same_event": false,
+    "reason": "Different thresholds: 'mega-tsunami' vs 'tsunami' imply different magnitude definitions",
+    "checked_at": "2026-11-01T00:13:32.119046+00:00",
+    "frage_a": "Blue mega-tsunami in 2026?",
+    "frage_b": "Will there be a blue tsunami in 2026?"
+  },
+  "polymarket:902977__predictit:8157:31951": {
+    "same_event": false,
+    "reason": "Frage_a is a compound event (shutdown by Jan 31 AND Dem House win), Frage_b only asks about House control",
+    "checked_at": "2026-11-01T00:13:32.119046+00:00",
+    "frage_a": "Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026?",
+    "frage_b": "Which party will win the House in the 2026 election? - Democratic"
   }
 }
