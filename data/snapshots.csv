@@ -7499,3 +7499,90 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-01T07:51:35.733364+01:00,6498450,FC Ingolstadt 04 vs. Fortuna Dusseldorf: FC Ingolstadt 04 O/U 3.5,bl3-fci-f95-2026-11-07-team-total-home-3pt5,0.485,0.51,0.995,0.0,0.9599,2026-11-07T13:00:00Z,schaetzung
 2026-11-01T07:51:35.733364+01:00,6500443,Set 2 Winner: Andrea Colombo vs Adrian Andreev,atp-colombo-andreev-2026-11-01-set-2-winner-Colombo-vs-Andreev,0.49,0.5,0.99,0.0,30.0,2026-11-08T10:10:00Z,schaetzung
 2026-11-01T07:51:35.733364+01:00,6505010,Map 2 Total Rounds: Over/Under 20.5,val-ur1-nova-2026-11-01-game2-round-total-20pt5,0.485,0.5,0.985,0.0,0.0,2026-11-01T15:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,3914344,Will CF Montréal keep the most clean sheets in the 2026 MLS?,will-cf-montreal-keep-the-most-clean-sheets-in-mls-2026,0.475,0.52,0.995,58.0,3.5678,2027-01-01T04:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,3914401,Will Toronto FC keep the most clean sheets in the 2026 MLS?,will-toronto-fc-keep-the-most-clean-sheets-in-mls-2026,0.475,0.52,0.995,58.0,2.7228,2027-01-01T04:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4411655,Will Pachuca win the 2027 CONCACAF Champions Cup?,will-pachuca-win-the-2027-concacaf-champions-cup,0.46,0.535,0.9950000000000001,20.0,9.0083,2027-06-30T03:59:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4519289,Stevenage FC vs. Sheffield Wednesday FC: 1st Half O/U 3.5 Total Corners,el1-ste-swe-2026-09-26-corners-first-half-total-3pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T19:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5654177,1H Spread: Buccaneers (-14.5),nfl-atl-tb-2026-11-01-1h-spread-home-14pt5,0.495,0.5,0.995,0.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5655347,2H Spread: Raiders (-13.5),nfl-lv-nyj-2026-11-01-2h-spread-away-13pt5,0.5,0.495,0.995,0.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5655350,2H Spread: Raiders (-14.5),nfl-lv-nyj-2026-11-01-2h-spread-away-14pt5,0.495,0.5,0.995,0.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5655682,Raiders vs. Jets: 3Q O/U 5.5,nfl-lv-nyj-2026-11-01-3q-total-5pt5,0.495,0.5,0.995,0.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5656975,2H Spread: Ravens (-8.5),nfl-bal-buf-2026-11-01-2h-spread-away-8pt5,0.5,0.495,0.995,0.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5656978,2H Spread: Ravens (-13.5),nfl-bal-buf-2026-11-01-2h-spread-away-13pt5,0.5,0.495,0.995,1706.0,0.0,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5747295,Spread: CF Trival Valderas (-1.5),cdr-tri-leg-2026-10-28-spread-home-1pt5,0.499,0.5005,0.9994999999999999,0.0,0.98799,2026-11-10T19:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5901551,Exact Score: CD Cobresal 4 - 0 Everton de Viña del Mar?,chi1-cdc-edv-2026-11-01-exact-score-4-0,0.147,0.751,0.898,0.0,104.72999,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5921056,CD Cobresal vs. Everton de Viña del Mar: 1st Half O/U 4.5,chi1-cdc-edv-2026-11-01-first-half-total-4pt5,0.47,0.525,0.995,0.0,1.0105,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5921921,Universitatea Craiova CS vs. FC Botoşani: Universitatea Craiova CS O/U 5.5,rou1-ucc-fcb-2026-11-01-team-total-home-5pt5,0.3035,0.5,0.8035,0.0,0.0,2026-11-01T15:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940565,Asian Table Tennis Championships: John Misal vs Mohamed Saleh,wtt-misal-saleh-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940572,Asian Table Tennis Championships: Rustamjon Fuzaili vs Dortguly Allanazarov,wtt-fuzaili-allanaz-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940596,Asian Table Tennis Championships: Gang-Hyeon Park vs Edouard Valenet,wtt-par-valenet-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940646,Asian Table Tennis Championships: Menwah Alshammari vs Althea Gudes,wtt-alshamm-gudes-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940670,Asian Table Tennis Championships: Jana Abedali vs Swastika Ghosh,wtt-abedali-ghosh-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940672,Asian Table Tennis Championships: Citra Rasmi vs Im Ying,wtt-rasmi-ying-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5940680,Asian Table Tennis Championships: Mishka Ibrahim vs Setayesh Iloukhani,wtt-ibrahim-iloukha-2026-10-20,0.5,0.495,0.995,0.0,0.0,2026-10-27T09:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5966766,CA Boca Juniors vs. CA River Plate: CA Boca Juniors 1st Half O/U 3.5,arg-boc-riv-2026-11-01-first-half-team-total-home-3pt5,0.465,0.53,0.9950000000000001,0.0,10.9198,2026-11-01T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5980040,Will Jacob Roulstone win the 2026 Moto2 Grand Prix of Malaysia?,moto2-grand-prix-of-malaysia-winner-jacob-roulstone-2026-11-01,0.495,0.5,0.995,0.0,0.0,2026-11-08T05:15:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5988886,Asian Table Tennis Championships: Setayesh Iloukhani vs Yi Chen,wtt-iloukha-che-2026-10-21,0.495,0.5,0.995,0.0,0.0,2026-10-28T11:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5988892,Asian Table Tennis Championships: Zion Lee vs Yashaswini Ghorpade,wtt-lee-ghorpad-2026-10-21,0.495,0.5,0.995,0.0,0.0,2026-10-28T11:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5993859,Shōnan Bellmāre vs. Sagan Tosu: Shōnan Bellmāre 1st Half O/U 3.5,ja2-sho-sag-2026-11-03-first-half-team-total-home-3pt5,0.475,0.52,0.995,0.0,11.6797,2026-11-03T05:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,5994131,Tegevajaro Miyazaki vs. Tochigi City FC: Tochigi City FC O/U 5.5,ja2-teg-tct-2026-11-03-team-total-away-5pt5,0.475,0.52,0.995,0.0,11.5398,2026-11-03T05:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6007364,CSyD Defensa y Justicia vs. CA Independiente: CA Independiente O/U 5.5,arg-def-ind-2026-11-02-team-total-away-5pt5,0.475,0.52,0.995,0.0,11.5404,2026-11-02T22:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6037760,Sporting FC vs. AD Municipal Pérez Zeledón: AD Municipal Pérez Zeledón O/U 5.5,fpd-spo-per-2026-11-03-team-total-away-5pt5,0.475,0.52,0.995,0.0,11.5398,2026-11-04T01:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6041437,Asian Table Tennis Championships: Muhammad Negara vs Baldwin Chan,wtt-negara-cha-2026-10-23,0.5,0.495,0.995,0.0,0.0,2026-10-30T11:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6084306,Asian Table Tennis Championships: Youzheng Huang vs Tomokazu Harimoto,wtt-huang-harimo-2026-10-24,0.495,0.5,0.995,0.0,0.0,2026-10-31T11:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6109588,Exact Score: Sevilla FC 0 - 4 Deportivo Alavés?,lal-sev-ala-2026-11-06-exact-score-0-4,0.1,0.895,0.995,0.0,166.3495,2026-11-06T20:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6151137,Barnet FC vs. Tranmere Rovers FC: Tranmere Rovers FC O/U 3.5,efa-bar2-tra1-2026-11-07-team-total-away-3pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-07T15:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6153847,Grenoble Foot 38 vs. Stade de Reims: Grenoble Foot 38 1st Half O/U 3.5,fr2-gre-rei-2026-11-06-first-half-team-total-home-3pt5,0.475,0.52,0.995,0.0,11.8398,2026-11-06T19:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6175599,Nottingham Forest FC vs. Manchester City FC: Nottingham Forest FC 1st Half O/U 2.5,epl-not-mac-2026-11-07-first-half-team-total-home-2pt5,0.465,0.53,0.9950000000000001,0.0,12.0598,2026-11-07T17:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6175940,Spread: Hull City AFC (-5.5),epl-ars-hul-2026-11-07-spread-away-5pt5,0.12,0.875,0.995,0.0,17.8349,2026-11-07T15:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6176059,Torino FC vs. US Lecce: Torino FC O/U 4.5,sea-tor-lec-2026-11-07-team-total-home-4pt5,0.485,0.51,0.995,0.0,0.7184,2026-11-07T14:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6191343,Operário Ferroviário EC vs. SC Recife: Operário Ferroviário EC O/U 4.5,bra2-ope-rec-2026-11-06-team-total-home-4pt5,0.465,0.53,0.9950000000000001,0.0,11.5395,2026-11-06T22:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6200796,Kashiwa Reysol vs. Kawasaki Frontale: Kashiwa Reysol 1st Half O/U 3.5,jap-rey-kaw-2026-11-07-first-half-team-total-home-3pt5,0.475,0.52,0.995,0.0,11.3338,2026-11-07T07:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6225417,Vegalta Sendai vs. Ventforet Kōfu: O/U 7.5,ja2-veg-ven-2026-11-08-total-7pt5,0.465,0.53,0.9950000000000001,0.0,11.6793,2026-11-08T06:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6225583,Júbilo Iwata vs. Shōnan Bellmāre: Júbilo Iwata 1st Half O/U 2.5,ja2-jub-sho-2026-11-08-first-half-team-total-home-2pt5,0.465,0.53,0.9950000000000001,0.0,11.7995,2026-11-08T05:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6245104,Tigres de la UANL vs. CF Cruz Azul: Tigres de la UANL O/U 5.5,mex-tig-caz-2026-11-07-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,11.5394,2026-11-07T23:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6255495,Viking FK vs. KFUM-Kameratene Oslo: KFUM-Kameratene Oslo O/U 2.5,nor-vik-kfu-2026-11-08-team-total-away-2pt5,0.475,0.52,0.995,0.0,11.1598,2026-11-08T16:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6271419,Spread: Kansas State (-3.5),cfb-okst-kanst-2026-11-07-spread-home-3pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6271862,Spread: Rhode Island (-1.5),cfb-ri-nhamp-2026-11-07-spread-away-1pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6271905,Spread: Bryant (-3.5),cfb-albny-bryant-2026-11-07-spread-home-3pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T18:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6272790,Spread: Gardner-Webb (-10.5),cfb-jac-gardwb-2026-11-07-spread-home-10pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T18:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6273970,Spread: Navy (-13.5),cfb-templ-navy-2026-11-07-spread-home-13pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T20:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6274970,Spread: Rice (-17.5),cfb-rice-ntx-2026-11-07-spread-away-17pt5,0.495,0.5,0.995,0.0,0.1,2026-11-07T21:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6275469,Spread: South Alabama (-13.5),cfb-sala-loulaf-2026-11-07-spread-away-13pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T22:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6275601,Spread: Idaho (-1.5),cfb-ewash-idaho-2026-11-07-spread-home-1pt5,0.5,0.495,0.995,0.0,0.2,2026-11-07T22:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6297456,Jaguares de Córdoba FC vs. CA Bucaramanga: O/U 5.5,col1-jdc-cab-2026-11-08-total-5pt5,0.465,0.53,0.9950000000000001,0.0,11.6798,2026-11-08T21:05:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6314465,Lexington SC vs. Colorado Springs Switchbacks FC: Colorado Springs Switchbacks FC O/U 3.5,uslc-lex-css-2026-11-01-team-total-away-3pt5,0.475,0.52,0.995,0.0,11.1598,2026-11-01T19:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6414681,Guinea vs. Eritrea: Eritrea O/U 4.5,afcq-gui-eri-2026-11-12-team-total-away-4pt5,0.485,0.51,0.995,0.0,0.9599,2026-11-12T16:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6428564,Set 1 Winner: Alanya Belediye vs Ziraat Bankasi Ankara,vbefeler-ala-zir-2026-10-31-set-1-winner,0.5,0.005,0.505,0.0,0.0,2026-11-07T13:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6443961,VV Monza vs. Perugia Volley,vbsuperlega-vv-per-2026-10-31,0.005,0.5,0.505,0.0,0.0,2026-11-07T17:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6450728,Morocco vs. Niger: O/U 8.5,afcq-mor-nige-2026-11-13-total-8pt5,0.49,0.505,0.995,0.0,0.96,2026-11-13T20:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6452734,Slovenia vs. Switzerland: Switzerland O/U 5.5,unl-slv-che-2026-11-13-team-total-away-5pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-13T19:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6453417,Andorra vs. Gibraltar: 1st Half O/U 4.5 Total Corners,unl-and-gib-2026-11-13-corners-first-half-total-4pt5,0.49,0.5,0.99,0.0,4.0,2026-11-13T19:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6454202,Rolex Paris Masters: Completed Match: Ignacio Buse vs Zizou Bergs,atp-buse-bergs-2026-11-02-completed-match,0.505,0.49,0.995,0.0,0.05,2026-11-09T09:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6457930,CD Universidad Católica vs. CD Limache: O/U 4.5,chi1-cuc-cdl-2026-11-08-total-4pt5,0.49,0.505,0.995,0.0,1.06,2026-11-08T23:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6490636,Ecuador vs. Costa Rica: Ecuador O/U 4.5,fif-ecu-cri-2026-11-13-team-total-home-4pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-14T00:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6491864,M15 Sharm ElSheikh: Paul Popoaca vs Joao Azzari Cabas,itf-popoac1-cabas1-2026-11-01,0.5,0.48,0.98,0.0,0.5,2026-11-08T12:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6494692,Set Handicap: Srivaant Reddy Mummadi (-1.5) vs Fnu Nidunjianzan (+1.5),itf-mummad1-nidunj1-2026-11-01-set-handicap-home-1pt5,0.495,0.5,0.995,0.0,0.0,2026-11-08T11:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6498450,FC Ingolstadt 04 vs. Fortuna Dusseldorf: FC Ingolstadt 04 O/U 3.5,bl3-fci-f95-2026-11-07-team-total-home-3pt5,0.485,0.51,0.995,0.0,0.9599,2026-11-07T13:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6499377,Taranto: Completed Match: Maxim Mrva vs Michele Ribecai,atp-mrva-ribecai-2026-11-02-completed-match,0.505,0.48,0.985,0.0,0.05,2026-11-09T09:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6507345,Charlottesville: Completed Match: Liam Draxl vs Maks Kasnikowski,atp-draxl-kasniko-2026-11-02-completed-match,0.505,0.49,0.995,0.0,0.05,2026-11-09T15:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6508310,Runar Sandefjord IL vs. Fjellhammer IL,hbeliteserien-run-fhr-2026-11-01,0.495,0.5,0.995,0.0,0.0,2026-11-08T16:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6515922,Rotherham United FC vs. Crawley Town FC: O/U 6.5,el2-rot-cra-2026-11-14-total-6pt5,0.465,0.53,0.9950000000000001,0.0,11.3937,2026-11-14T15:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6518283,Sweden vs. Bosnia and Herzegovina: 1st Half O/U 3.5 Total Corners,unl-swe-bih-2026-11-14-corners-first-half-total-3pt5,0.49,0.5,0.99,0.0,4.0,2026-11-14T19:45:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6528404,Catania FC vs. ASD Sorrento 1945: O/U 6.5,serc-cat-sor-2026-11-08-total-6pt5,0.49,0.505,0.995,0.0,0.96,2026-11-08T13:30:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6532514,Saint-Martin vs. El Salvador: Saint-Martin O/U 3.5,conl-maf-slv-2026-11-13-team-total-home-3pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-13T23:00:00Z,schaetzung
+2026-11-01T17:23:38.679256+01:00,6532651,Puerto Rico vs. Dominica: Puerto Rico O/U 2.5,conl-pur-dma-2026-11-13-team-total-home-2pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-13T19:00:00Z,schaetzung
