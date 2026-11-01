@@ -44343,5 +44343,12 @@
     "checked_at": "2026-11-01T00:13:32.119046+00:00",
     "frage_a": "Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026?",
     "frage_b": "Which party will win the House in the 2026 election? - Democratic"
+  },
+  "polymarket:6367345__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Frage A ist eine Kombiwette auf zwei Bundesstaaten (Democrats gewinnen Ohio UND Republicans gewinnen Texas). Frage B betrifft nur die Ohio-Senatswahl 2026 und fragt nach Republican (Husted) – also gegenteilige Polarität für Ohio und zusätzlicher Texas-Bestandteil in A.",
+    "checked_at": "2026-11-01T16:08:06.706170+00:00",
+    "frage_a": "Will Democrats win the Ohio Senate seat, and Republicans win Texas?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
   }
 }
