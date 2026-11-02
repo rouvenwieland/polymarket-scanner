@@ -44364,5 +44364,12 @@
     "checked_at": "2026-11-01T21:14:22.182179+00:00",
     "frage_a": "Will Republicans win the Ohio Senate seat, and Democrats win Texas?",
     "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:5634831__predictit:9054:36204": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Frage A behandelt zwei separate politische Ergebnisse (serbischer Premierminister und bulgarischer Sieg), während Frage B sich auf den spezifischen Ausgang der Präsidentschaftswahl in Bulgarien 2026 bezieht.",
+    "checked_at": "2026-11-02T06:44:32.669358+00:00",
+    "frage_a": "Will Ilija Srdanović become Serbian PM and Andrey Gyurov win Bulgaria?",
+    "frage_b": "Who will win the 2026 Bulgarian presidential election? - Andrey Gyurov"
   }
 }
