@@ -44371,5 +44371,26 @@
     "checked_at": "2026-11-02T06:44:32.669358+00:00",
     "frage_a": "Will Ilija Srdanović become Serbian PM and Andrey Gyurov win Bulgaria?",
     "frage_b": "Who will win the 2026 Bulgarian presidential election? - Andrey Gyurov"
+  },
+  "kalshi:KXWTIH-26NOV0214-T95.69__polymarket:6577598": {
+    "same_event": false,
+    "reason": "Different strike prices ($103 vs $95.69) and different dates (Nov 3 unspecified year vs Nov 2, 2026 2pm ET)",
+    "checked_at": "2026-11-02T19:16:33.656621+00:00",
+    "frage_a": "WTI Crude Oil (WTI) closes above $103 on November 3?",
+    "frage_b": "Will the WTI Oil close price be above 95.69 USD/barrel on November 02, 2026 at 2:00 PM ET? - Above $95.69"
+  },
+  "polymarket:630666__predictit:9057:36211": {
+    "same_event": false,
+    "reason": "Specific single race (Colorado 2026) vs category of multiple 'reach' races",
+    "checked_at": "2026-11-02T19:16:33.656621+00:00",
+    "frage_a": "Will the Democrats win the Colorado Senate race in 2026?",
+    "frage_b": "Will Democrats win any \"reach\" Senate races?"
+  },
+  "polymarket:630911__predictit:9057:36211": {
+    "same_event": false,
+    "reason": "Specific single race (Rhode Island 2026) vs category of multiple 'reach' races",
+    "checked_at": "2026-11-02T19:16:33.656621+00:00",
+    "frage_a": "Will the Democrats win the Rhode Island Senate race in 2026?",
+    "frage_b": "Will Democrats win any \"reach\" Senate races?"
   }
 }
