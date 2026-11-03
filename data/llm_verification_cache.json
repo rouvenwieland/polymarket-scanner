@@ -44406,5 +44406,47 @@
     "checked_at": "2026-11-03T03:16:08.702799+00:00",
     "frage_a": "Will the Republicans win the New Jersey Senate race in 2026?",
     "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican (Sununu)"
+  },
+  "polymarket:3364160__predictit:8377:33519": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten/Parteien: Democratic Candidate vs. Independent (Bodnar) im selben Rennen",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will the Democratic Party Candidate win the 2026 Montana Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Montana? - Independent (Bodnar)"
+  },
+  "polymarket:3516135__predictit:8175:32034": {
+    "same_event": false,
+    "reason": "Unterschiedlicher Umfang: Sweep (Senate + Governor) vs. nur Senate Special Election (Husted)",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will Republicans sweep the Ohio Senate and Governor elections?",
+    "frage_b": "Which party will win the 2026 US Senate special election in Ohio? - Republican (Husted)"
+  },
+  "polymarket:3729067__predictit:8214:32170": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Compound-Event (Gov + Senate) vs. nur Governor; zudem andere Partei bei Governor (Rep vs. Dem)",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will Republicans win the Kansas Governor election and Democrats win the Kansas Senate election?",
+    "frage_b": "Which party will win the 2026 election for governor of Kansas? - Democrats (Holscher)"
+  },
+  "polymarket:2773660__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Völlig verschiedene Ereignisse: 0 Siege in Kamala-Staaten vs. Gesamt-Senatsmehrheit",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will Republicans win 0 Senate and Governor elections in states won by Kamala?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:3365667__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "Unterschiedliche Bundesstaaten: Illinois vs. Arizona",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Illinois gubernatorial election?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican (Biggs)"
+  },
+  "polymarket:6027261__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Exakter Sitzbereich (102-107) vs. 'Gewinn der Wahl' (Pluralität/Mehrheit)",
+    "checked_at": "2026-11-03T12:34:52.977348+00:00",
+    "frage_a": "Will PSOE win 102-107 seats in the 2026 Spanish general election?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
