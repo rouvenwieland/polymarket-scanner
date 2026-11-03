@@ -44392,5 +44392,19 @@
     "checked_at": "2026-11-02T19:16:33.656621+00:00",
     "frage_a": "Will the Democrats win the Rhode Island Senate race in 2026?",
     "frage_b": "Will Democrats win any \"reach\" Senate races?"
+  },
+  "polymarket:630871__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "Different states: New Mexico vs New Hampshire Senate races",
+    "checked_at": "2026-11-03T03:16:08.702799+00:00",
+    "frage_a": "Will the Republicans win the New Mexico Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican (Sununu)"
+  },
+  "polymarket:630858__predictit:8161:31959": {
+    "same_event": false,
+    "reason": "Different states: New Jersey vs New Hampshire Senate races",
+    "checked_at": "2026-11-03T03:16:08.702799+00:00",
+    "frage_a": "Will the Republicans win the New Jersey Senate race in 2026?",
+    "frage_b": "Which party will win the 2026 US Senate election in New Hampshire? - Republican (Sununu)"
   }
 }
