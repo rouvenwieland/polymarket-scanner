@@ -44448,5 +44448,19 @@
     "checked_at": "2026-11-03T12:34:52.977348+00:00",
     "frage_a": "Will PSOE win 102-107 seats in the 2026 Spanish general election?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:629312__predictit:8211:32163": {
+    "same_event": false,
+    "reason": "Different states (Connecticut vs Arizona) and different governor races.",
+    "checked_at": "2026-11-03T20:31:10.644411+00:00",
+    "frage_a": "Will the Republicans win the Connecticut governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Arizona? - Republican (Biggs)"
+  },
+  "polymarket:6027442__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Different parties (SALF vs PSOE) and different metrics (winning a seat vs winning the election).",
+    "checked_at": "2026-11-03T20:31:10.644411+00:00",
+    "frage_a": "Spain General Election: SALF wins a seat?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
