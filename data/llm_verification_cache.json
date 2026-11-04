@@ -44539,5 +44539,26 @@
     "checked_at": "2026-11-04T12:45:51.401944+00:00",
     "frage_a": "Gavin Newsom Democratic nomination odds leader on November 30?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
+  },
+  "polymarket:4443264__predictit:9046:36148": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gremien (Wisconsin State Senate vs. US Senate), unterschiedliche Fragestellungen (Kontrolle der Kammer vs. konkrete Sitzanzahl 55 für Demokraten), unterschiedliche Parteien im Fokus.",
+    "checked_at": "2026-11-04T20:17:57.842658+00:00",
+    "frage_a": "Will the Republican Party control the Wisconsin Senate after the 2026 Midterm elections?",
+    "frage_b": "How many Senate seats will Democrats control after the 2026 midterms? - 55"
+  },
+  "polymarket:4443120__predictit:9046:36148": {
+    "same_event": false,
+    "reason": "Unterschiedliche Gremien (Pennsylvania State Senate vs. US Senate), unterschiedliche Fragestellungen (Kontrolle der Kammer vs. konkrete Sitzanzahl 55 für Demokraten), unterschiedliche Parteien im Fokus.",
+    "checked_at": "2026-11-04T20:17:57.842658+00:00",
+    "frage_a": "Will the Republican Party control the Pennsylvania Senate after the 2026 Midterm elections?",
+    "frage_b": "How many Senate seats will Democrats control after the 2026 midterms? - 55"
+  },
+  "polymarket:6659489__predictit:8153:31935": {
+    "same_event": false,
+    "reason": "Frage A fragt nach Wettquoten-Favorit ('odds leader') an einem Stichtag (30. Nov.), Frage B nach tatsächlichem Gewinner der Nomination 2028. Unterschiedliche Ereignisse.",
+    "checked_at": "2026-11-04T20:17:57.842658+00:00",
+    "frage_a": "Pete Buttigieg Democratic nomination odds leader on November 30?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Pete Buttigieg"
   }
 }
