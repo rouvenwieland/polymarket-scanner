@@ -44462,5 +44462,68 @@
     "checked_at": "2026-11-03T20:31:10.644411+00:00",
     "frage_a": "Spain General Election: SALF wins a seat?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:630680__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: spezifischer Rennen in Delaware vs. allgemeine Kontrolle des Senats",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will the Republicans win the Delaware Senate race in 2026?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:3343130__predictit:8155:31948": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Rennen in Colorado vs. allgemeine Kontrolle des Senats",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 Colorado Senate election?",
+    "frage_b": "Which party will control the Senate after the 2026 election? - Republican"
+  },
+  "polymarket:4064461__predictit:8419:33126": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Wahlergebnis im County vs. Gesamtsieger der Gouverneurswahl",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will the Democrats win Clark County in the Nevada governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Nevada? - Democratic (Ford)"
+  },
+  "polymarket:3516137__predictit:9031:36069": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: spezifische Parteiergebnisse vs. beliebige unterschiedliche Parteiergebnisse",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will Republicans win the Ohio Governor election and Democrats win the Ohio Senate election?",
+    "frage_b": "Will Ohio elect a Senator and Governor from different parties?"
+  },
+  "polymarket:629325__predictit:8413:33112": {
+    "same_event": true,
+    "reason": "Beide fragen, ob die Republikaner die Gouverneurswahl in Florida gewinnen werden",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will the Republicans win the Florida governor race in 2026?",
+    "frage_b": "Which party will win the 2026 election for governor of Florida? - Republican (Donalds)"
+  },
+  "polymarket:6403106__predictit:8549:33641": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Treffen von Musk mit Putin vs. Trump begnadigt Musk",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Elon Musk meets with Putin by December 31, 2026?",
+    "frage_b": "Will Trump pardon Elon Musk in 2026?"
+  },
+  "polymarket:566760__predictit:8549:33641": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Begnadigung von Maxwell vs. Begnadigung von Musk",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Will Trump pardon Ghislaine Maxwell by end of 2026?",
+    "frage_b": "Will Trump pardon Elon Musk in 2026?"
+  },
+  "polymarket:1170844__predictit:9068:36283": {
+    "same_event": true,
+    "reason": "Beide fragen, ob es 2026 einen blauen Tsunami geben wird",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Blue tsunami in 2026?",
+    "frage_b": "Will there be a blue tsunami in 2026?"
+  },
+  "polymarket:6654951__predictit:8461:33311": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Absetzung vor 2028 vs. Zeitpunkt der Absetzung durch das Repräsentantenhaus",
+    "checked_at": "2026-11-04T01:36:17.055564+00:00",
+    "frage_a": "Trump impeached and removed before 2028?",
+    "frage_b": "When will the House impeach Trump again? - Not by 1/20/29"
   }
 }
