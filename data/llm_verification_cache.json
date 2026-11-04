@@ -44525,5 +44525,19 @@
     "checked_at": "2026-11-04T01:36:17.055564+00:00",
     "frage_a": "Trump impeached and removed before 2028?",
     "frage_b": "When will the House impeach Trump again? - Not by 1/20/29"
+  },
+  "polymarket:3520761__predictit:8177:32046": {
+    "same_event": false,
+    "reason": "Different geographic districts: South Dakota At-Large vs Maine's 2nd District",
+    "checked_at": "2026-11-04T12:45:51.401944+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 SD-AL House election?",
+    "frage_b": "Which party will win the 2026 US House election in Maine's 2nd District? - Democratic"
+  },
+  "polymarket:6659480__predictit:8153:31937": {
+    "same_event": false,
+    "reason": "Different events: being odds leader on a specific date vs actually winning the nomination",
+    "checked_at": "2026-11-04T12:45:51.401944+00:00",
+    "frage_a": "Gavin Newsom Democratic nomination odds leader on November 30?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
   }
 }

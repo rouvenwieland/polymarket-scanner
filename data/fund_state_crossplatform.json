@@ -1,47 +1,11 @@
 {
-  "cash": 21.2682041642568,
+  "cash": 31.65394839905764,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
     "strategie": "v2-2026-10-27"
   },
   "positions": [
-    {
-      "eingestiegen": "2026-10-14T14:14:13.555736+02:00",
-      "einstand_gesamt": 10.0,
-      "end_date": "2026-11-04T04:59:00Z",
-      "frage": "[polymarket] Will the Republicans win the Michigan governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Michigan? - Republican",
-      "garantierter_endwert": 10.385744234800839,
-      "leg_a": {
-        "einstandskurs": 0.046,
-        "end_date": "2026-11-04T04:59:00Z",
-        "fee_gezahlt": 0.0,
-        "letzter_kurs": 0.005,
-        "market_id": "629465",
-        "platform": "polymarket",
-        "side": "yes",
-        "geldkurs": 0.005,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
-      },
-      "leg_b": {
-        "einstandskurs": 0.9079999999999999,
-        "end_date": null,
-        "fee_gezahlt": 0.0,
-        "letzter_kurs": 0.99,
-        "market_id": "8212:32165",
-        "platform": "predictit",
-        "side": "no",
-        "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
-      },
-      "pair_id": "polymarket:629465__predictit:8212:32165",
-      "predictit_ableiten": true,
-      "preisbasis": "ausfuehrbar",
-      "shares": 10.482180293501049,
-      "sport": false,
-      "strategie": "v2-2026-10-27",
-      "zuordnung": "same"
-    },
     {
       "eingestiegen": "2026-10-21T22:13:18.640448+02:00",
       "einstand_gesamt": 10.0,
@@ -57,7 +21,7 @@
         "platform": "polymarket",
         "side": "yes",
         "geldkurs": 0.06,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "einstandskurs": 0.585,
@@ -68,7 +32,7 @@
         "platform": "predictit",
         "side": "no",
         "geldkurs": 0.98,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "pair_id": "polymarket:629506__predictit:8419:33125",
       "predictit_ableiten": true,
@@ -97,10 +61,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.09,
-        "letzter_kurs": 0.006,
+        "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.006,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geldkurs": 0.0,
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -112,7 +76,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     },
     {
@@ -137,7 +101,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -146,10 +110,10 @@
         "ausgang": "Nein",
         "end_date": null,
         "einstandskurs": 0.9400000000000001,
-        "letzter_kurs": 0.97,
+        "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.97,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geldkurs": 0.99,
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     },
     {
@@ -171,10 +135,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.155,
-        "letzter_kurs": 0.005,
+        "letzter_kurs": 0.008,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.005,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geldkurs": 0.008,
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -186,7 +150,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     },
     {
@@ -211,7 +175,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -223,7 +187,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     },
     {
@@ -245,10 +209,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.2,
-        "letzter_kurs": 0.04,
+        "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.04,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geldkurs": 0.0,
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -260,7 +224,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     },
     {
@@ -285,7 +249,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -297,7 +261,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-04T10:46:54.547731+01:00"
+        "geprueft": "2026-11-04T13:14:20.064752+01:00"
       }
     }
   ],
