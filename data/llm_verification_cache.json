@@ -44609,5 +44609,12 @@
     "checked_at": "2026-11-05T12:51:16.297141+00:00",
     "frage_a": "Josh Shapiro Democratic nomination odds leader on November 30?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Josh Shapiro"
+  },
+  "polymarket:3347406__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (Erika Kirk vs. Stephen A. Smith).",
+    "checked_at": "2026-11-05T22:48:39.311918+00:00",
+    "frage_a": "Will Erika Kirk announce a presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
   }
 }
