@@ -189,7 +189,9 @@
         "fee_gezahlt": 0.0,
         "geldkurs": 0.02,
         "geprueft": "2026-11-05T17:45:35.080742+01:00"
-      }
+      },
+      "alarm_quittiert_bis": "2026-11-20T00:00:00+00:00",
+      "alarm_notiz": "Polymarket am 2.11. aufgeloest (Gyurov nicht gewaehlt, Ja=0). PredictIt-Markt 9054 noch offen/illiquide, Nein-Bein zahlt bei Aufloesung 1,00. Aufloesung verzoegert, keine Fehlpaarung."
     },
     {
       "pair_id": "polymarket:629325__predictit:8413:33112",
