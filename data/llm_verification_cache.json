@@ -44560,5 +44560,26 @@
     "checked_at": "2026-11-04T20:17:57.842658+00:00",
     "frage_a": "Pete Buttigieg Democratic nomination odds leader on November 30?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Pete Buttigieg"
+  },
+  "polymarket:3344127__predictit:8271:32430": {
+    "same_event": false,
+    "reason": "Unterschiedliche Bundesstaaten und spezifische Kandidaten",
+    "checked_at": "2026-11-05T01:29:46.900020+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 South Carolina Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Democratic (Peltola)"
+  },
+  "polymarket:4443242__predictit:8271:32430": {
+    "same_event": false,
+    "reason": "Unterschiedliche Bundesstaaten und Fragearten (Kontrolle des Senats vs. Wahlsieger)",
+    "checked_at": "2026-11-05T01:29:46.900020+00:00",
+    "frage_a": "Will the Democratic Party control the Minnesota Senate after the 2026 Midterm elections?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Democratic (Peltola)"
+  },
+  "polymarket:561246__predictit:8152:32069": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse (Präsidentschaftswahl vs. Nominierung)",
+    "checked_at": "2026-11-05T01:29:46.900020+00:00",
+    "frage_a": "Will Ron DeSantis win the 2028 US Presidential Election?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
   }
 }
