@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-05T13:27:35.485313+01:00"
+        "geprueft": "2026-11-05T17:45:35.080742+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-05T13:27:35.485313+01:00"
+        "geprueft": "2026-11-05T17:45:35.080742+01:00"
       }
     },
     {
@@ -65,7 +65,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-05T13:27:35.485313+01:00"
+        "geprueft": "2026-11-05T17:45:35.080742+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -77,7 +77,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-05T13:27:35.485313+01:00"
+        "geprueft": "2026-11-05T17:45:35.080742+01:00"
       }
     }
   ],
