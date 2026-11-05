@@ -44581,5 +44581,33 @@
     "checked_at": "2026-11-05T01:29:46.900020+00:00",
     "frage_a": "Will Ron DeSantis win the 2028 US Presidential Election?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
+  },
+  "kalshi:KXPALLADIUMH-26NOV0508-T1039.99__polymarket:6675753": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Assets: Meta-Aktie vs. Palladium-Rohstoff, unterschiedliche Preise, unterschiedliche Jahre (2024/2025 vs. 2026).",
+    "checked_at": "2026-11-05T12:51:16.297141+00:00",
+    "frage_a": "Will Meta (META) close above $600 on November 5?",
+    "frage_b": "Will the palladium close price be above 1039.99 USD/ounce on November 05, 2026 at 8:00 AM ET? - Above $1039.99"
+  },
+  "kalshi:KXPALLADIUMH-26NOV0508-T1039.99__polymarket:6675754": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Assets: Meta-Aktie vs. Palladium-Rohstoff, unterschiedliche Preise, unterschiedliche Jahre.",
+    "checked_at": "2026-11-05T12:51:16.297141+00:00",
+    "frage_a": "Will Meta (META) close above $610 on November 5?",
+    "frage_b": "Will the palladium close price be above 1039.99 USD/ounce on November 05, 2026 at 8:00 AM ET? - Above $1039.99"
+  },
+  "polymarket:6659483__predictit:8153:31934": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 'Odds Leader am 30. November' (Momentaufnahme der Wettquoten) vs. 'Gewinner der Nomination 2028' (endgültiges Wahlergebnis).",
+    "checked_at": "2026-11-05T12:51:16.297141+00:00",
+    "frage_a": "Kamala Harris Democratic nomination odds leader on November 30?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Kamala Harris"
+  },
+  "polymarket:6659491__predictit:8153:31940": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 'Odds Leader am 30. November' vs. 'Gewinner der Nomination 2028'.",
+    "checked_at": "2026-11-05T12:51:16.297141+00:00",
+    "frage_a": "Josh Shapiro Democratic nomination odds leader on November 30?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Josh Shapiro"
   }
 }
