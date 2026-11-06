@@ -44616,5 +44616,26 @@
     "checked_at": "2026-11-05T22:48:39.311918+00:00",
     "frage_a": "Will Erika Kirk announce a presidential run before 2028?",
     "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:3405676__predictit:9080:36337": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wahlkreise: Delaware At-Large vs. Arizona 2. Distrikt",
+    "checked_at": "2026-11-06T07:30:47.845045+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 DE-AL House election?",
+    "frage_b": "Which party will win the 2026 US House race in Arizona's 2nd District? - Republican"
+  },
+  "polymarket:2332983__predictit:8850:35122": {
+    "same_event": true,
+    "reason": "Beide fragen exakt dasselbe: Marco Rubio als nächstes Kabinettsmitglied, das geht (vor 2027/office), gleiche Polarität",
+    "checked_at": "2026-11-06T07:30:47.845045+00:00",
+    "frage_a": "Will Marco Rubio be the next to leave the Trump Cabinet before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - Marco Rubio"
+  },
+  "polymarket:3347358__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten: Zohran Mamdani vs. Stephen A. Smith",
+    "checked_at": "2026-11-06T07:30:47.845045+00:00",
+    "frage_a": "Will Zohran Mamdani announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
   }
 }
