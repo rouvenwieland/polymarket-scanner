@@ -44637,5 +44637,26 @@
     "checked_at": "2026-11-06T07:30:47.845045+00:00",
     "frage_a": "Will Zohran Mamdani announce a Presidential run before 2028?",
     "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:666660__predictit:8850:35122": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: A fragt ob Rubio vor 2027 geht, B ob er der *nächste* Kabinettsmitglied ist, das geht (zeitlich unbeschränkt, relativ zu anderen).",
+    "checked_at": "2026-11-06T16:35:18.765143+00:00",
+    "frage_a": "Will Marco Rubio leave the Trump administration before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - Marco Rubio"
+  },
+  "polymarket:2054257__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Völlig verschiedene Personen (Fauvergue vs. Mélenchon) und verschiedene Fragen (Ballot-Zugang vs. Wahlsieg).",
+    "checked_at": "2026-11-06T16:35:18.765143+00:00",
+    "frage_a": "Will Jean-Michel Fauvergue be on the ballot for the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:6267535__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Selbe Person/Wahl, aber unterschiedliche Ereignisse: A = meisten Unterstützerunterschriften (Parrainages), B = Gewinn der Präsidentschaftswahl.",
+    "checked_at": "2026-11-06T16:35:18.765143+00:00",
+    "frage_a": "Will Jean-Luc Mélenchon receive the most signatures from elected officials in the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
   }
 }
