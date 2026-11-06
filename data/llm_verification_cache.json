@@ -44658,5 +44658,19 @@
     "checked_at": "2026-11-06T16:35:18.765143+00:00",
     "frage_a": "Will Jean-Luc Mélenchon receive the most signatures from elected officials in the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:3343547__predictit:8271:32430": {
+    "same_event": false,
+    "reason": "Different states (Kansas vs Alaska) and different Senate races",
+    "checked_at": "2026-11-06T22:11:56.481246+00:00",
+    "frage_a": "Will the Democratic Party candidate win the 2026 Kansas Senate election?",
+    "frage_b": "Which party will win the 2026 US Senate election in Alaska? - Democratic (Peltola)"
+  },
+  "polymarket:3347368__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Different candidates (LeBron James vs Stephen A. Smith)",
+    "checked_at": "2026-11-06T22:11:56.481246+00:00",
+    "frage_a": "Will LeBron James announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
   }
 }
