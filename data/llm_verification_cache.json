@@ -44672,5 +44672,19 @@
     "checked_at": "2026-11-06T22:11:56.481246+00:00",
     "frage_a": "Will LeBron James announce a Presidential run before 2028?",
     "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:3405676__predictit:9081:36339": {
+    "same_event": false,
+    "reason": "Different House districts: Delaware At-Large vs California 23rd District",
+    "checked_at": "2026-11-07T06:34:48.003093+00:00",
+    "frage_a": "Will the Republican Party candidate win the 2026 DE-AL House election?",
+    "frage_b": "Which party will win the 2026 US House race in California's 23rd District? - Republican"
+  },
+  "polymarket:6723101__predictit:9089:36356": {
+    "same_event": true,
+    "reason": "Same person (Marco Rubio), same office (Secretary of State), same timeframe (2026), same polarity (Yes = leaves/out)",
+    "checked_at": "2026-11-07T06:34:48.003093+00:00",
+    "frage_a": "Marco Rubio out as Secretary of State by December 31, 2026?",
+    "frage_b": "Will Marco Rubio leave office in 2026?"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "cash": 911.330304730325,
+  "cash": 899.3508705531098,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -65,7 +65,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -77,7 +77,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -99,10 +99,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.28,
-        "letzter_kurs": 0.015,
+        "letzter_kurs": 0.021,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.015,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geldkurs": 0.021,
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -114,7 +114,7 @@
         "letzter_kurs": 0.95,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.95,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -139,7 +139,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -151,7 +151,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -176,7 +176,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.00163,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -188,7 +188,7 @@
         "letzter_kurs": 0.02,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.02,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "alarm_quittiert_bis": "2026-11-20T00:00:00+00:00",
       "alarm_notiz": "Polymarket am 2.11. aufgeloest (Gyurov nicht gewaehlt, Ja=0). PredictIt-Markt 9054 noch offen/illiquide, Nein-Bein zahlt bei Aufloesung 1,00. Aufloesung verzoegert, keine Fehlpaarung."
@@ -215,7 +215,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.00794,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -227,7 +227,7 @@
         "letzter_kurs": 0.98,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.98,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -252,7 +252,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05008,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -264,7 +264,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -289,7 +289,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05033,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -301,7 +301,40 @@
         "letzter_kurs": 0.64,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.64,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
+      }
+    },
+    {
+      "pair_id": "polymarket:6723101__predictit:9089:36356",
+      "frage": "[polymarket] Marco Rubio out as Secretary of State by December 31, 2026?  <->  [predictit] Will Marco Rubio leave office in 2026?",
+      "shares": 12.658227848101266,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-11-07T07:06:45.742149+01:00",
+      "preisbasis": "ausfuehrbar",
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same",
+      "einstand_gesamt": 11.97943417721519,
+      "garantierter_endwert": 12.39240506329114,
+      "sport": false,
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "6723101",
+        "side": "yes",
+        "ausgang": "Ja",
+        "end_date": "2027-01-01T04:59:00Z",
+        "einstandskurs": 0.15,
+        "letzter_kurs": 0.15,
+        "fee_gezahlt": 0.0807
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "9089:36356",
+        "side": "no",
+        "ausgang": "Nein",
+        "end_date": "2026-12-31T23:59:00",
+        "einstandskurs": 0.79,
+        "letzter_kurs": 0.79,
+        "fee_gezahlt": 0.0
       }
     }
   ],

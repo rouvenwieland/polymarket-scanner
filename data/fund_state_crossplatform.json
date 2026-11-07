@@ -1,5 +1,5 @@
 {
-  "cash": 73.4501096901766,
+  "cash": 63.10256056307788,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -65,7 +65,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -77,7 +77,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       }
     },
     {
@@ -102,7 +102,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.04667,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -114,7 +114,40 @@
         "letzter_kurs": 0.64,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.64,
-        "geprueft": "2026-11-07T03:19:46.556168+01:00"
+        "geprueft": "2026-11-07T07:06:45.742149+01:00"
+      }
+    },
+    {
+      "pair_id": "polymarket:6723101__predictit:9089:36356",
+      "frage": "[polymarket] Marco Rubio out as Secretary of State by December 31, 2026?  <->  [predictit] Will Marco Rubio leave office in 2026?",
+      "shares": 10.93387141180715,
+      "end_date": "2027-01-01T04:59:00Z",
+      "eingestiegen": "2026-11-07T07:06:45.742149+01:00",
+      "preisbasis": "ausfuehrbar",
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same",
+      "einstand_gesamt": 10.347549127098723,
+      "garantierter_endwert": 10.704260112159199,
+      "sport": false,
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "6723101",
+        "side": "yes",
+        "ausgang": "Ja",
+        "end_date": "2027-01-01T04:59:00Z",
+        "einstandskurs": 0.15,
+        "letzter_kurs": 0.15,
+        "fee_gezahlt": 0.06971
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "9089:36356",
+        "side": "no",
+        "ausgang": "Nein",
+        "end_date": "2026-12-31T23:59:00",
+        "einstandskurs": 0.79,
+        "letzter_kurs": 0.79,
+        "fee_gezahlt": 0.0
       }
     }
   ],
