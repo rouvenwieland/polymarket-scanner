@@ -44686,5 +44686,12 @@
     "checked_at": "2026-11-07T06:34:48.003093+00:00",
     "frage_a": "Marco Rubio out as Secretary of State by December 31, 2026?",
     "frage_b": "Will Marco Rubio leave office in 2026?"
+  },
+  "polymarket:6659482__predictit:8153:31936": {
+    "same_event": false,
+    "reason": "Frage A fragt, ob AOC am 30. November (Jahr unklar) Favorit in den Wettquoten ist; Frage B fragt, ob sie die Nominierung 2028 tatsächlich gewinnt. Unterschiedlicher Metrik (Quotenführung vs. tatsächlicher Sieg) und anderer Zeithorizont.",
+    "checked_at": "2026-11-07T21:00:39.753003+00:00",
+    "frage_a": "Alexandria Ocasio-Cortez Democratic nomination odds leader on November 30?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - A. Ocasio-Cortez"
   }
 }
