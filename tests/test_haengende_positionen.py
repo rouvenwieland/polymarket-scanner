@@ -45,3 +45,20 @@ def test_naives_datum_gilt_als_utc(tmp_path):
     write(tmp_path, [{"market_id": "1", "end_date": "2026-10-23T12:00:00"}])
     assert len(hp.find_stale(str(tmp_path), NOW)) == 1        # 96 h > 72 h
     assert hp.find_stale(str(tmp_path), NOW, grace_hours=100) == []
+
+
+def test_warnung_vor_fehler_nach_14_tagen(tmp_path, capsys):
+    """Beendet, Aufloesung ausstehend: bis 14 Tage Warnung (Exit 0), danach Fehler (Exit 1)."""
+    now = datetime.now(timezone.utc)
+    write(tmp_path, [{"pair_id": "a", "frage": "Wahl", "end_date": (now - timedelta(hours=108)).isoformat()}])
+    assert hp.main(["--data", str(tmp_path)]) == 0
+    out = capsys.readouterr().out
+    assert "::warning" in out and "::error" not in out
+    write(tmp_path, [{"pair_id": "a", "frage": "Wahl", "end_date": (now - timedelta(days=15)).isoformat()}])
+    assert hp.main(["--data", str(tmp_path)]) == 1
+    assert "::error" in capsys.readouterr().out
+
+
+def test_unlesbare_state_datei_bleibt_fehler(tmp_path):
+    (tmp_path / "fund_state_x.json").write_text("{kaputt", encoding="utf-8")
+    assert hp.main(["--data", str(tmp_path)]) == 1

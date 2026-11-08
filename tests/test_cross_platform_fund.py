@@ -486,3 +486,33 @@ def test_predictit_ergebnis_wird_nur_fuer_bestaetigte_paare_abgeleitet(monkeypat
     pos = {"zuordnung": "same", "predictit_ableiten": True, "leg_a": dict(leg_a), "leg_b": dict(leg_b)}
     proceeds, results = cpf._mark_and_maybe_settle(pos, NOW)
     assert results == {"leg_a": 1.0, "leg_b": 0.0} and proceeds == pytest.approx(1.0)
+
+
+def _pi_pos(monkeypatch, pm_prices, pi_last, pi_status="Closed", side_pm="yes", side_pi="no", pm_status="resolved"):
+    m = {"id": "P1", "closed": True, "outcomes": '["Yes", "No"]', "outcomePrices": pm_prices,
+         "umaResolutionStatus": pm_status}
+    monkeypatch.setattr(cpf.fund_simulator, "fetch_market_by_id", lambda mid: m)
+    contract = {"status": pi_status, "lastTradePrice": pi_last, "bestSellYesCost": None, "bestSellNoCost": None}
+    monkeypatch.setattr(cpf.predictit, "fetch_contract_by_market_id", lambda mid: (None, contract))
+    return {"zuordnung": "same",
+            "leg_a": {"platform": "polymarket", "market_id": "P1", "side": side_pm, "einstandskurs": 0.2},
+            "leg_b": {"platform": "predictit", "market_id": "1:2", "side": side_pi, "einstandskurs": 0.72}}
+
+
+def test_geschlossenes_predictit_bein_wird_bei_bestaetigendem_letztkurs_abgeleitet(monkeypatch):
+    """Michigan/Wisconsin/Florida 2026: PredictIt 'Closed' mit Letztkurs 0,02/0,05/0,98 (nicht exakt 0/1)."""
+    pos = _pi_pos(monkeypatch, '["0", "1"]', 0.02, side_pm="yes", side_pi="no")  # Ereignis nein, PI-Ja-Kurs 0,02
+    proceeds, results = cpf._mark_and_maybe_settle(pos, NOW)
+    assert results == {"leg_a": 0.0, "leg_b": 1.0} and proceeds is not None
+    assert pos["leg_b"]["ergebnis_abgeleitet"] is True
+    pos = _pi_pos(monkeypatch, '["1", "0"]', 0.98, side_pm="yes", side_pi="no")  # Ereignis ja, PI-Ja-Kurs 0,98
+    assert cpf._mark_and_maybe_settle(pos, NOW)[1] == {"leg_a": 1.0, "leg_b": 0.0}
+
+
+def test_predictit_ableitung_nicht_bei_widerspruch_offenem_contract_oder_unaufgeloestem_polymarkt(monkeypatch):
+    # Letztkurs widerspricht dem aufgeloesten Polymarkt-Ergebnis (Ereignis nein, PI-Ja-Kurs 0,60)
+    assert cpf._mark_and_maybe_settle(_pi_pos(monkeypatch, '["0", "1"]', 0.60), NOW)[0] is None
+    # PredictIt noch offen
+    assert cpf._mark_and_maybe_settle(_pi_pos(monkeypatch, '["0", "1"]', 0.02, pi_status="Open"), NOW)[0] is None
+    # Polymarkt nicht aufgeloest (UMA-Vorschlag/Streit)
+    assert cpf._mark_and_maybe_settle(_pi_pos(monkeypatch, '["0", "1"]', 0.02, pm_status="proposed"), NOW)[0] is None

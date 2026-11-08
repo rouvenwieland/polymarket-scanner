@@ -405,6 +405,9 @@ def _kalshi_settlement_value(market):
 
 
 PREDICTIT_FINAL_TOLERANCE = 0.01
+# Geschlossener PredictIt-Contract, dessen letzter Handel klar auf das Ergebnis des anderen (aufgeloesten) Beins zeigt
+# (Gewinner >= 0,90, Verlierer <= 0,10): PredictIt nimmt Endkurse oft nicht exakt auf 1/0 (z.B. 0,02 / 0,05 / 0,98).
+PREDICTIT_BESTAETIGUNG = 0.10
 
 
 def _predictit_leg_mark_and_result(leg):
@@ -416,6 +419,8 @@ def _predictit_leg_mark_and_result(leg):
         current_price = float(contract.get(sell_field))
     except (TypeError, ValueError):
         current_price = None
+    # Rohdaten fuer die Ableitung in _mark_and_maybe_settle (nur lesen, nie als Auszahlung verwenden)
+    leg["status_api"] = contract.get("status")
     if contract.get("status") == "Open":
         return current_price, None
     # Frueher: "nicht Open" + Letztkurs >= 0,5 -> Ja gewinnt. Ein geschlossener, aber noch nicht aufgeloester Contract
@@ -424,6 +429,7 @@ def _predictit_leg_mark_and_result(leg):
         last_price = float(contract.get("lastTradePrice"))
     except (TypeError, ValueError):
         return current_price, None
+    leg["letzter_handelskurs"] = last_price
     if last_price >= 1.0 - PREDICTIT_FINAL_TOLERANCE:
         yes_won = True
     elif last_price <= PREDICTIT_FINAL_TOLERANCE:
@@ -488,11 +494,20 @@ def _mark_and_maybe_settle(pos, now):
     # PredictIt nimmt aufgeloeste Maerkte aus der API; das Bein waere dann nie abrechenbar. Nur fuer Paare, deren Regeln
     # von Hand als gleich bestaetigt sind ("predictit_ableiten", gesetzt von scripts/neuberechnung.py), gilt dort das
     # Ergebnis des anderen Beins. Sonst bleibt die Position offen und der Alarm (haengende_positionen.py) meldet sie.
-    if pos.get("predictit_ableiten") and pos.get("zuordnung") == "same":
+    # Zusaetzlich ohne Handbestaetigung, wenn der PredictIt-Contract "Closed" ist UND sein letzter Handelskurs das
+    # Ergebnis des aufgeloesten Beins bestaetigt (siehe PREDICTIT_BESTAETIGUNG). Nur bei 0/1-Ergebnis, nie bei 50-50.
+    if pos.get("zuordnung") == "same":
         for mine, other in (("leg_a", "leg_b"), ("leg_b", "leg_a")):
             if (results[mine] is None and results[other] is not None and pos[mine]["platform"] == "predictit"
                     and pos[other]["platform"] != "predictit" and results[other] in (0.0, 0.5, 1.0)):
                 event_yes = results[other] if pos[other]["side"] == "yes" else 1.0 - results[other]
+                if not pos.get("predictit_ableiten"):
+                    yes_last = pos[mine].get("letzter_handelskurs")  # Ja-Contract = Ereignis (zuordnung "same")
+                    bestaetigt = (pos[mine].get("status_api") == "Closed" and yes_last is not None
+                                  and ((event_yes == 1.0 and yes_last >= 1.0 - PREDICTIT_BESTAETIGUNG)
+                                       or (event_yes == 0.0 and yes_last <= PREDICTIT_BESTAETIGUNG)))
+                    if not bestaetigt:
+                        continue
                 results[mine] = event_yes if pos[mine]["side"] == "yes" else 1.0 - event_yes
                 pos[mine]["ergebnis_abgeleitet"] = True
 

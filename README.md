@@ -76,8 +76,10 @@ Die Tests stehen in `tests/test_cross_platform_fund.py`.
 
 - **`.github/workflows/tests.yml`:** führt alle Tests aus. Er läuft bei Code-Änderungen, bei Pull Requests und
   täglich.
-- **`scripts/haengende_positionen.py`:** färbt Fonds-Watch und Cross-Watch rot, wenn eine Position mehr als 72 h nach
-  ihrem Enddatum noch offen ist. Wer eine Position bewusst offen lässt, setzt im State `"alarm_quittiert_bis"`.
+- **`scripts/haengende_positionen.py`:** warnt (gelbe Annotation, Lauf bleibt grün), wenn eine Position mehr als 72 h nach
+  ihrem Enddatum noch offen ist (Aufloesung ausstehend), und färbt Fonds-Watch und Cross-Watch erst nach 14 Tagen rot.
+  Wer eine Position bewusst länger offen lässt, setzt im State `"alarm_quittiert_bis"`. Geschlossene PredictIt-Contracts
+  werden über das aufgelöste Polymarkt-Bein abgerechnet, wenn ihr letzter Handelskurs es bestätigt (>= 0,90 / <= 0,10).
 
 ## Neuberechnung ausführen
 
