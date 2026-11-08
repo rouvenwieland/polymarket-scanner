@@ -44693,5 +44693,26 @@
     "checked_at": "2026-11-07T21:00:39.753003+00:00",
     "frage_a": "Alexandria Ocasio-Cortez Democratic nomination odds leader on November 30?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - A. Ocasio-Cortez"
+  },
+  "polymarket:1105750__predictit:9093:36372": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Führer von Venezuela vs. Amtsenthebung (vermutlich als US-Verteidigungsminister).",
+    "checked_at": "2026-11-08T00:14:24.538316+00:00",
+    "frage_a": "Will Pete Hegseth be the leader of Venezuela end of 2026?",
+    "frage_b": "Will Pete Hegseth be impeached in 2026?"
+  },
+  "polymarket:2724048__predictit:9093:36372": {
+    "same_event": true,
+    "reason": "Beide fragen exakt dasselbe: Wird Pete Hegseth 2026 impeached? 'By Dec 31, 2026' und 'in 2026' sind äquivalent, gleiche Polarität.",
+    "checked_at": "2026-11-08T00:14:24.538316+00:00",
+    "frage_a": "Pete Hegseth impeached by December 31, 2026?",
+    "frage_b": "Will Pete Hegseth be impeached in 2026?"
+  },
+  "polymarket:6658909__predictit:8153:31937": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Nevada-Vorwahl (einzelner Bundesstaat) vs. gesamtparteiische Präsidentschaftskandidatur 2028.",
+    "checked_at": "2026-11-08T00:14:24.538316+00:00",
+    "frage_a": "Will Gavin Newsom win the Nevada Democratic primary?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
   }
 }
