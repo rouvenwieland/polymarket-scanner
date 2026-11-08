@@ -9483,3 +9483,31 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-08T14:51:56.339231+01:00,6857983,Exact Score: Charlotte Independence 0 - 5 Forward Madison FC?,usl1-cin-for-2026-11-08-exact-score-0-5,0.465,0.53,0.9950000000000001,0.0,51.0658,2026-11-09T00:00:00Z,schaetzung
 2026-11-08T14:51:56.339231+01:00,6858377,FC Baník Ostrava vs. FK Teplice: O/U 8.5,cze1-fbo-fkt-2026-11-21-total-8pt5,0.49,0.505,0.995,0.0,0.96,2026-11-21T14:00:00Z,schaetzung
 2026-11-08T14:51:56.339231+01:00,6858474,SK Sigma Olomouc vs. SK Slavia Praha: 1st Half O/U 2.5,cze1-sso-ssp-2026-11-21-first-half-total-2pt5,0.5,0.49,0.99,0.0,30.0,2026-11-21T14:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4519289,Stevenage FC vs. Sheffield Wednesday FC: 1st Half O/U 3.5 Total Corners,el1-ste-swe-2026-09-26-corners-first-half-total-3pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T19:45:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6239229,Racing Club de Lens vs. Olympique de Marseille: Racing Club de Lens 2nd Half O/U 2.5,fl1-rcl-olm-2026-11-08-second-half-team-total-home-2pt5,0.48,0.5,0.98,0.0,0.0,2026-11-08T19:45:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6400544,Will Kerolin win the 2027 Women's Ballon d'Or?,will-kerolin-win-the-2027-womens-ballon-dor,0.475,0.52,0.995,0.0,4.3125,2028-01-01T04:59:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6415640,Italy vs. France: Italy 2nd Half O/U 2.5,unl-ita-fra-2026-11-12-second-half-team-total-home-2pt5,0.475,0.52,0.995,0.0,52.0995,2026-11-12T19:45:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6450821,Nigeria vs. Tanzania: O/U 8.5,afcq-nig-tan-2026-11-13-total-8pt5,0.49,0.505,0.995,0.0,1.06,2026-11-13T16:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6498931,Spread: Al Hilal Saudi Club (-4.5),spl-ett-hil-2026-11-07-spread-away-4pt5,0.5,0.295,0.7949999999999999,0.0,246.0,2026-11-07T14:30:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6512658,Exact Score: Bromley FC 4 - 1 Notts County FC?,el1-bro-not-2026-11-14-exact-score-4-1,0.095,0.9,0.995,0.0,292.1049,2026-11-14T15:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6513646,Stockport County FC vs. Reading FC: Reading FC O/U 5.5,el1-sto-rea-2026-11-14-team-total-away-5pt5,0.475,0.52,0.995,0.0,52.0398,2026-11-14T15:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6517956,Kosovo vs. Israel: Kosovo O/U 5.5,unl-kvx-isr-2026-11-14-team-total-home-5pt5,0.48,0.515,0.995,0.0,1.1599,2026-11-14T14:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6539694,Exact Margin: Panthers by 7-13,nfl-den-car-2026-11-08-exact-margin-short-7-13,0.495,0.5,0.995,0.0,0.0,2026-11-08T18:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6542392,Exact Score: Hapoel Be`er Sheva FC 0 - 0 Hapoel Tel Aviv FC?,isr-hbs-hta-2026-11-08-exact-score-0-0,0.235,0.76,0.995,357.131429,599.78,2026-11-08T18:30:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6547150,Spread: Kyrgyz Republic (-1.5),fif-kyr-vie-2026-11-15-spread-home-1pt5,0.49,0.505,0.995,0.0,10.9598,2026-11-15T12:00:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6578333,Fortaleza EC vs. Vila Nova FC: Fortaleza EC O/U 2.5,bra2-fec-vln-2026-11-14-team-total-home-2pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-14T19:30:00Z,schaetzung
+2026-11-08T20:57:42.874650+01:00,6604251,Spread: Virginia-Lynchburg (-7.5),cfb-vlb-chs-2026-11-14-spread-away-7pt5,0.495,0.5,0.995,0.0,0.0,2026-11-14T18:00:00Z,schaetzung
