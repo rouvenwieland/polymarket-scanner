@@ -44721,5 +44721,40 @@
     "checked_at": "2026-11-08T06:40:42.024733+00:00",
     "frage_a": "Will Pete Hegseth attend a US x Iran diplomatic meeting by December 31, 2026?",
     "frage_b": "Will Pete Hegseth be impeached in 2026?"
+  },
+  "polymarket:6027430__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: 'PSOE gains seats' (Sitzgewinne) vs. 'PSOE wins 2026 snap election' (Wahlsieg/Regierungsbildung); unterschiedliche Zeitpunkte/Wahlarten.",
+    "checked_at": "2026-11-08T21:00:35.119511+00:00",
+    "frage_a": "Spain General Election: PSOE gains seats?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6764588__predictit:9093:36372": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: spezifische Stimmzahl-Spanne (220-224) bis Jahresende vs. generelles Impeachment im Jahr 2026; unterschiedliche Fristen und Bedingungen.",
+    "checked_at": "2026-11-08T21:00:35.119511+00:00",
+    "frage_a": "Will 220-224 House members vote to impeach Hegseth by December 31?",
+    "frage_b": "Will Pete Hegseth be impeached in 2026?"
+  },
+  "polymarket:6765346__predictit:8643:34100": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Erhalt des zweiten Mandats zur Regierungsbildung vs. tatsächliche Amtsübernahme als Premierminister; prozessual verschiedene Schritte.",
+    "checked_at": "2026-11-08T21:00:35.119511+00:00",
+    "frage_a": "Will Avigdor Lieberman receive the second mandate to form a government after the 2026 Israeli election?",
+    "frage_b": "Who will be the Prime Minister of Israel after the 2026 election? - Avigdor Lieberman"
+  },
+  "polymarket:6764587__predictit:9093:36372": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: andere Stimmzahl-Spanne (215-219) bis Jahresende vs. Impeachment im Jahr 2026; unterschiedliche Schwellen und Zeiträume.",
+    "checked_at": "2026-11-08T21:00:35.119511+00:00",
+    "frage_a": "Will 215-219 House members vote to impeach Hegseth by December 31?",
+    "frage_b": "Will Pete Hegseth be impeached in 2026?"
+  },
+  "polymarket:5782530__predictit:9029:36067": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Personen: Rachel Campos-Duffy vs. Danielle Alvarez für denselben Posten; gegenseitig ausschließende Kandidaten, nicht dieselbe Frage.",
+    "checked_at": "2026-11-08T21:00:35.119511+00:00",
+    "frage_a": "Will Rachel Campos-Duffy be the next White House Press Secretary?",
+    "frage_b": "Who will be the next White House press secretary? - Danielle Alvarez"
   }
 }
