@@ -1,5 +1,5 @@
 {
-  "cash": 899.3508705531098,
+  "cash": 936.2502653647699,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,44 +40,9 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      }
-    },
-    {
-      "pair_id": "polymarket:630806__predictit:8158:31953",
-      "frage": "[polymarket] Will the Republicans win the Michigan Senate race in 2026?  <->  [predictit] Which party will win the 2026 US Senate election in Michigan? - Republican (Rogers)",
-      "shares": 13.513513513513514,
-      "end_date": "2026-11-04T04:59:00Z",
-      "eingestiegen": "2026-10-31T15:34:59.927785+01:00",
-      "preisbasis": "ausfuehrbar",
-      "strategie": "v2-2026-10-27",
-      "zuordnung": "same",
-      "einstand_gesamt": 12.702702702702704,
-      "garantierter_endwert": 13.162162162162163,
-      "sport": false,
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "630806",
-        "side": "yes",
-        "ausgang": "Ja",
-        "end_date": "2026-11-04T04:59:00Z",
-        "einstandskurs": 0.2,
-        "letzter_kurs": 0.0,
-        "fee_gezahlt": 0.0,
-        "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8158:31953",
-        "side": "no",
-        "ausgang": "Nein",
-        "end_date": null,
-        "einstandskurs": 0.74,
-        "letzter_kurs": 0.99,
-        "fee_gezahlt": 0.0,
-        "geldkurs": 0.99,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Closed",
+        "letzter_handelskurs": 0.01
       }
     },
     {
@@ -99,10 +64,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.28,
-        "letzter_kurs": 0.014,
+        "letzter_kurs": 0.011,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.014,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geldkurs": 0.011,
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -114,44 +79,8 @@
         "letzter_kurs": 0.96,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.96,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      }
-    },
-    {
-      "pair_id": "polymarket:629721__predictit:8213:32167",
-      "frage": "[polymarket] Will the Republicans win the Wisconsin governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Wisconsin? - Republican (Tiffany)",
-      "shares": 12.658227848101266,
-      "end_date": "2026-11-04T04:59:00Z",
-      "eingestiegen": "2026-11-01T00:26:25.260863+01:00",
-      "preisbasis": "ausfuehrbar",
-      "strategie": "v2-2026-10-27",
-      "zuordnung": "same",
-      "einstand_gesamt": 11.89873417721519,
-      "garantierter_endwert": 12.39240506329114,
-      "sport": false,
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "629721",
-        "side": "yes",
-        "ausgang": "Ja",
-        "end_date": "2026-11-04T04:59:00Z",
-        "einstandskurs": 0.15,
-        "letzter_kurs": 0.0,
-        "fee_gezahlt": 0.0,
-        "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8213:32167",
-        "side": "no",
-        "ausgang": "Nein",
-        "end_date": null,
-        "einstandskurs": 0.79,
-        "letzter_kurs": 0.99,
-        "fee_gezahlt": 0.0,
-        "geldkurs": 0.99,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Open"
       }
     },
     {
@@ -176,7 +105,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.00163,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -188,47 +117,11 @@
         "letzter_kurs": 0.02,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.02,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Open"
       },
       "alarm_quittiert_bis": "2026-11-20T00:00:00+00:00",
       "alarm_notiz": "Polymarket am 2.11. aufgeloest (Gyurov nicht gewaehlt, Ja=0). PredictIt-Markt 9054 noch offen/illiquide, Nein-Bein zahlt bei Aufloesung 1,00. Aufloesung verzoegert, keine Fehlpaarung."
-    },
-    {
-      "pair_id": "polymarket:629325__predictit:8413:33112",
-      "frage": "[polymarket] Will the Republicans win the Florida governor race in 2026?  <->  [predictit] Which party will win the 2026 election for governor of Florida? - Republican (Donalds)",
-      "shares": 11.494252873563218,
-      "end_date": "2026-11-04T04:59:00Z",
-      "eingestiegen": "2026-11-04T01:39:11.558799+01:00",
-      "preisbasis": "ausfuehrbar",
-      "strategie": "v2-2026-10-27",
-      "zuordnung": "same",
-      "einstand_gesamt": 10.168859540229885,
-      "garantierter_endwert": 11.344827586206895,
-      "sport": false,
-      "leg_a": {
-        "platform": "polymarket",
-        "market_id": "629325",
-        "side": "no",
-        "ausgang": "Nein",
-        "end_date": "2026-11-04T04:59:00Z",
-        "einstandskurs": 0.014,
-        "letzter_kurs": 0.0,
-        "fee_gezahlt": 0.00794,
-        "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      },
-      "leg_b": {
-        "platform": "predictit",
-        "market_id": "8413:33112",
-        "side": "yes",
-        "ausgang": "Ja",
-        "end_date": null,
-        "einstandskurs": 0.8700000000000001,
-        "letzter_kurs": 0.98,
-        "fee_gezahlt": 0.0,
-        "geldkurs": 0.98,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
-      }
     },
     {
       "pair_id": "polymarket:1170844__predictit:9068:36283",
@@ -252,7 +145,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05008,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -264,7 +157,8 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Open"
       }
     },
     {
@@ -289,7 +183,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05033,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -298,10 +192,11 @@
         "ausgang": "Nein",
         "end_date": null,
         "einstandskurs": 0.83,
-        "letzter_kurs": 0.66,
+        "letzter_kurs": 0.68,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.66,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geldkurs": 0.68,
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Open"
       }
     },
     {
@@ -326,7 +221,7 @@
         "letzter_kurs": 0.12,
         "fee_gezahlt": 0.0807,
         "geldkurs": 0.12,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -338,7 +233,8 @@
         "letzter_kurs": 0.8,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.8,
-        "geprueft": "2026-11-08T16:43:18.472014+01:00"
+        "geprueft": "2026-11-08T20:51:00.110071+01:00",
+        "status_api": "Open"
       }
     }
   ],
