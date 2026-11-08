@@ -44714,5 +44714,12 @@
     "checked_at": "2026-11-08T00:14:24.538316+00:00",
     "frage_a": "Will Gavin Newsom win the Nevada Democratic primary?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
+  },
+  "polymarket:3553885__predictit:9093:36372": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Teilnahme an diplomatischem Treffen vs. Amtsenthebungsverfahren.",
+    "checked_at": "2026-11-08T06:40:42.024733+00:00",
+    "frage_a": "Will Pete Hegseth attend a US x Iran diplomatic meeting by December 31, 2026?",
+    "frage_b": "Will Pete Hegseth be impeached in 2026?"
   }
 }
