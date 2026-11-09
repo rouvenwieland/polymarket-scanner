@@ -44756,5 +44756,47 @@
     "checked_at": "2026-11-08T21:00:35.119511+00:00",
     "frage_a": "Will Rachel Campos-Duffy be the next White House Press Secretary?",
     "frage_b": "Who will be the next White House press secretary? - Danielle Alvarez"
+  },
+  "polymarket:6619206__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (PP vs. PSOE) und unterschiedliche Wettart (Sitzvorsprung-Range vs. Wahlsieg)",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will PP win the Spanish election by 22-28 seats over PSOE?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6619208__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (PP vs. PSOE) und unterschiedliche Wettart (Sitzvorsprung-Range vs. Wahlsieg)",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will PP win the Spanish election by 8-14 seats over PSOE?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6267534__predictit:8766:34698": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Unterschriften/Parrainages vs. Gewinn der Präsidentschaftswahl",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will Gabriel Attal receive the most signatures from elected officials in the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:5621945__predictit:8766:34698": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wahlphasen: 1. Runde (Mehrheit der Stimmen) vs. Gesamtsieg (Stichwahl/Präsidentschaft)",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will Gabriel Attal win the most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:679026__predictit:8766:34698": {
+    "same_event": true,
+    "reason": "Beide fragen exakt dasselbe: Gewinnt Gabriel Attal die französische Präsidentschaftswahl 2027/nächste Wahl? Gleiche Polarität.",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will Gabriel Attal win the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:5622462__predictit:8766:34698": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Zweitstärkste in 1. Runde vs. Gewinn der Präsidentschaftswahl",
+    "checked_at": "2026-11-09T07:17:14.096388+00:00",
+    "frage_a": "Will Gabriel Attal win the second-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
   }
 }

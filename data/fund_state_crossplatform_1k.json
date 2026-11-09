@@ -1,5 +1,5 @@
 {
-  "cash": 936.2502653647699,
+  "cash": 926.1932075386829,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Closed",
         "letzter_handelskurs": 0.01
       }
@@ -67,7 +67,7 @@
         "letzter_kurs": 0.015,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.015,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -79,7 +79,7 @@
         "letzter_kurs": 0.96,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.96,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Open"
       }
     },
@@ -105,7 +105,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.00163,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -117,7 +117,7 @@
         "letzter_kurs": 0.02,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.02,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Open"
       },
       "alarm_quittiert_bis": "2026-11-20T00:00:00+00:00",
@@ -145,7 +145,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05008,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -157,7 +157,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Open"
       }
     },
@@ -183,7 +183,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.05033,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -192,10 +192,10 @@
         "ausgang": "Nein",
         "end_date": null,
         "einstandskurs": 0.83,
-        "letzter_kurs": 0.71,
+        "letzter_kurs": 0.76,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.71,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geldkurs": 0.76,
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Open"
       }
     },
@@ -218,10 +218,10 @@
         "ausgang": "Ja",
         "end_date": "2027-01-01T04:59:00Z",
         "einstandskurs": 0.15,
-        "letzter_kurs": 0.1,
+        "letzter_kurs": 0.11,
         "fee_gezahlt": 0.0807,
-        "geldkurs": 0.1,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00"
+        "geldkurs": 0.11,
+        "geprueft": "2026-11-09T07:45:19.656804+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -233,8 +233,41 @@
         "letzter_kurs": 0.49,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.49,
-        "geprueft": "2026-11-09T02:56:01.460585+01:00",
+        "geprueft": "2026-11-09T07:45:19.656804+01:00",
         "status_api": "Open"
+      }
+    },
+    {
+      "pair_id": "polymarket:679026__predictit:8766:34698",
+      "frage": "[polymarket] Will Gabriel Attal win the 2027 French presidential election?  <->  [predictit] Who will win the next French presidential election? - Gabriel Attal",
+      "shares": 10.869565217391305,
+      "end_date": "2027-04-19T03:59:00Z",
+      "eingestiegen": "2026-11-09T07:45:19.656804+01:00",
+      "preisbasis": "ausfuehrbar",
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same",
+      "einstand_gesamt": 10.057057826086957,
+      "garantierter_endwert": 10.782608695652174,
+      "sport": false,
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "679026",
+        "side": "yes",
+        "ausgang": "Ja",
+        "end_date": "2027-04-19T03:59:00Z",
+        "einstandskurs": 0.005,
+        "letzter_kurs": 0.005,
+        "fee_gezahlt": 0.00271
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8766:34698",
+        "side": "no",
+        "ausgang": "Nein",
+        "end_date": null,
+        "einstandskurs": 0.9199999999999999,
+        "letzter_kurs": 0.9199999999999999,
+        "fee_gezahlt": 0.0
       }
     }
   ],
