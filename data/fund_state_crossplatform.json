@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00"
+        "geprueft": "2026-11-09T19:53:03.658040+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00",
+        "geprueft": "2026-11-09T19:53:03.658040+01:00",
         "status_api": "Closed",
         "letzter_handelskurs": 0.01
       }
@@ -67,7 +67,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.04667,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00"
+        "geprueft": "2026-11-09T19:53:03.658040+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -76,10 +76,10 @@
         "ausgang": "Nein",
         "end_date": null,
         "einstandskurs": 0.83,
-        "letzter_kurs": 0.76,
+        "letzter_kurs": 0.8,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.76,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00",
+        "geldkurs": 0.8,
+        "geprueft": "2026-11-09T19:53:03.658040+01:00",
         "status_api": "Open"
       }
     },
@@ -102,10 +102,10 @@
         "ausgang": "Ja",
         "end_date": "2027-01-01T04:59:00Z",
         "einstandskurs": 0.15,
-        "letzter_kurs": 0.1,
+        "letzter_kurs": 0.11,
         "fee_gezahlt": 0.06971,
-        "geldkurs": 0.1,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00"
+        "geldkurs": 0.11,
+        "geprueft": "2026-11-09T19:53:03.658040+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -114,10 +114,10 @@
         "ausgang": "Nein",
         "end_date": "2026-12-31T23:59:00",
         "einstandskurs": 0.79,
-        "letzter_kurs": 0.49,
+        "letzter_kurs": 0.7,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.49,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00",
+        "geldkurs": 0.7,
+        "geprueft": "2026-11-09T19:53:03.658040+01:00",
         "status_api": "Open"
       }
     },
@@ -143,7 +143,7 @@
         "letzter_kurs": 0.004,
         "fee_gezahlt": 0.00271,
         "geldkurs": 0.004,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00"
+        "geprueft": "2026-11-09T19:53:03.658040+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -156,7 +156,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Open",
         "geldkurs": 0.91,
-        "geprueft": "2026-11-09T11:14:48.376774+01:00"
+        "geprueft": "2026-11-09T19:53:03.658040+01:00"
       }
     }
   ],

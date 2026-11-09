@@ -44798,5 +44798,12 @@
     "checked_at": "2026-11-09T07:17:14.096388+00:00",
     "frage_a": "Will Gabriel Attal win the second-most votes in the first round of the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Gabriel Attal"
+  },
+  "polymarket:6619211__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: die eine Frage bezieht sich auf PSOE, das Rennen mit einem Vorsprung von 1-7 Sitzen zu gewinnen, die andere fragt nur danach, ob PSOE die Wahl gewinnt.",
+    "checked_at": "2026-11-09T19:07:31.144469+00:00",
+    "frage_a": "Will PSOE win the Spanish election by 1-7 seats over PP?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
