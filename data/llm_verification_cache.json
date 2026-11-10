@@ -44805,5 +44805,26 @@
     "checked_at": "2026-11-09T19:07:31.144469+00:00",
     "frage_a": "Will PSOE win the Spanish election by 1-7 seats over PP?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:6619209__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Sitzvorsprung (1-7 Sitze) vs. Wahlsieg; unterschiedliche Polarität (PP vs. PSOE); Wahltermin unklar vs. 2026 Snap Election",
+    "checked_at": "2026-11-10T03:05:30.325812+00:00",
+    "frage_a": "Will PP win the Spanish election by 1-7 seats over PSOE?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:5622541__predictit:8766:34691": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 3. Platz im 1. Wahlgang vs. Gewinn der Präsidentschaft (gesamt)",
+    "checked_at": "2026-11-10T03:05:30.325812+00:00",
+    "frage_a": "Will Jordan Bardella win the third-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
+  },
+  "polymarket:5622476__predictit:8766:34691": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 2. Platz im 1. Wahlgang vs. Gewinn der Präsidentschaft (gesamt)",
+    "checked_at": "2026-11-10T03:05:30.325812+00:00",
+    "frage_a": "Will Jordan Bardella win the second-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
   }
 }
