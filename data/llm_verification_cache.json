@@ -44826,5 +44826,26 @@
     "checked_at": "2026-11-10T03:05:30.325812+00:00",
     "frage_a": "Will Jordan Bardella win the second-most votes in the first round of the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
+  },
+  "polymarket:6934680__predictit:8697:34409": {
+    "same_event": false,
+    "reason": "Unterschiedliche Auflösungsbedingungen: 'impeached and removed' (spezifisches Amtsenthebungsverfahren) vs. 'leave office' (beliebiger Amtsverlust z.B. Rücktritt, Tod, Ablauf der Amtszeit).",
+    "checked_at": "2026-11-11T07:03:18.383397+00:00",
+    "frage_a": "Hegseth impeached and removed by December 31, 2026?",
+    "frage_b": "Will Pete Hegseth leave office in 2026?"
+  },
+  "polymarket:1231857__predictit:8957:35729": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fallkategorien: 'sports event contract case' vs. 'sports prediction market case'; zudem 'accepts case' vs. 'grant certiorari' (verfahrensrechtlich nicht identisch).",
+    "checked_at": "2026-11-11T07:03:18.383397+00:00",
+    "frage_a": "SCOTUS accepts sports event contract case by December 31, 2026?",
+    "frage_b": "Will Supreme Court grant certiorari in a sports prediction market case in 2026?"
+  },
+  "polymarket:6364506__predictit:8892:35371": {
+    "same_event": true,
+    "reason": "Beide fragen exakt dasselbe Ereignis ab: Erklärung eines nationalen Notstands durch Trump bis zum 31.12.2026 (Year-End 2026), gleiche Polarität.",
+    "checked_at": "2026-11-11T07:03:18.383397+00:00",
+    "frage_a": "Trump declares a national emergency by December 31, 2026?",
+    "frage_b": "Will Trump declare a national emergency by year-end?"
   }
 }
