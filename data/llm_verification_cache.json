@@ -44847,5 +44847,26 @@
     "checked_at": "2026-11-11T07:03:18.383397+00:00",
     "frage_a": "Trump declares a national emergency by December 31, 2026?",
     "frage_b": "Will Trump declare a national emergency by year-end?"
+  },
+  "kalshi:KXGOLDH-26NOV1113-T3995.99__polymarket:6930370": {
+    "same_event": false,
+    "reason": "Unterschiedliches Asset (Meta-Aktie vs. Goldpreis), Datum und Schwellenwert.",
+    "checked_at": "2026-11-11T16:43:52.989770+00:00",
+    "frage_a": "Will Meta (META) close above $640 on November 11?",
+    "frage_b": "Will the gold close price be above 3995.99 USD/ounce on November 11, 2026 at 1:00 PM ET? - Above $3995.99"
+  },
+  "kalshi:KXGOLDH-26NOV1113-T3995.99__polymarket:6961479": {
+    "same_event": false,
+    "reason": "Unterschiedliches Asset (Meta vs. Gold), Datum (12. Nov. vs. 11. Nov. 2026) und Schwellenwert.",
+    "checked_at": "2026-11-11T16:43:52.989770+00:00",
+    "frage_a": "Will Meta (META) close above $640 on November 12?",
+    "frage_b": "Will the gold close price be above 3995.99 USD/ounce on November 11, 2026 at 1:00 PM ET? - Above $3995.99"
+  },
+  "polymarket:5765892__predictit:8171:32021": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse (Führerschaft in den Umfragen vs. Wahlsieg).",
+    "checked_at": "2026-11-11T16:43:52.989770+00:00",
+    "frage_a": "Kamala Harris 2028 presidential odds leader on November 30?",
+    "frage_b": "Who will win the 2028 US presidential election? - Kamala Harris"
   }
 }
