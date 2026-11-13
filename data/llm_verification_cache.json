@@ -44882,5 +44882,19 @@
     "checked_at": "2026-11-13T01:31:17.000240+00:00",
     "frage_a": "JD Vance 2028 presidential odds leader on November 30?",
     "frage_b": "Who will win the 2028 US presidential election? - JD Vance"
+  },
+  "kalshi:KXFAAGROUNDSTOPLIFT-13NOV26-13NOV261830__polymarket:7023300": {
+    "same_event": false,
+    "reason": "Unterschiedliche Fristen (22:00 ET vs 18:30 EST) und unterschiedliche Ereignisse (tatsächliche Aufhebung vs. Ankündigung der Aufhebung)",
+    "checked_at": "2026-11-13T22:21:05.417366+00:00",
+    "frage_a": "Will the FAA's nationwide ground stop be lifted by November 13, 10:00 PM ET?",
+    "frage_b": "FAA lift announcement before Nov 13, 6:30 PM EST?"
+  },
+  "polymarket:6763445__predictit:8766:34693": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: 4. Platz in der 1. Runde vs. Gewinn der gesamten Präsidentschaftswahl (Stichwahl)",
+    "checked_at": "2026-11-13T22:21:05.417366+00:00",
+    "frage_a": "Will Jean-Luc Mélenchon win the fourth-most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
   }
 }
