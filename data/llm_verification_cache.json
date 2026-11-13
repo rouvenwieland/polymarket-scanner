@@ -44875,5 +44875,12 @@
     "checked_at": "2026-11-12T07:49:09.181286+00:00",
     "frage_a": "Will Jordan Bardella receive the most signatures from elected officials in the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Jordan Bardella"
+  },
+  "polymarket:5765888__predictit:8171:32018": {
+    "same_event": false,
+    "reason": "Frage A fragt nach dem Wettquoten-Favoriten (odds leader) an einem Stichtag (Nov 30), Frage B nach dem tatsächlichen Wahlsieger 2028. Unterschiedliche Ereignisse, Auflösungslogik und Zeitpunkte.",
+    "checked_at": "2026-11-13T01:31:17.000240+00:00",
+    "frage_a": "JD Vance 2028 presidential odds leader on November 30?",
+    "frage_b": "Who will win the 2028 US presidential election? - JD Vance"
   }
 }
