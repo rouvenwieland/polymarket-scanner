@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00",
+        "geprueft": "2026-11-14T07:37:20.044012+01:00",
         "status_api": "Closed",
         "letzter_handelskurs": 0.01
       }
@@ -67,7 +67,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.04667,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -76,10 +76,10 @@
         "ausgang": "Nein",
         "end_date": null,
         "einstandskurs": 0.83,
-        "letzter_kurs": 0.85,
+        "letzter_kurs": 0.86,
         "fee_gezahlt": 0.0,
-        "geldkurs": 0.85,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00",
+        "geldkurs": 0.86,
+        "geprueft": "2026-11-14T07:37:20.044012+01:00",
         "status_api": "Open"
       }
     },
@@ -105,7 +105,7 @@
         "letzter_kurs": 0.06,
         "fee_gezahlt": 0.06971,
         "geldkurs": 0.06,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -117,7 +117,7 @@
         "letzter_kurs": 0.94,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.94,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00",
+        "geprueft": "2026-11-14T07:37:20.044012+01:00",
         "status_api": "Open"
       }
     },
@@ -143,7 +143,7 @@
         "letzter_kurs": 0.004,
         "fee_gezahlt": 0.00271,
         "geldkurs": 0.004,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -156,7 +156,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Open",
         "geldkurs": 0.91,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       }
     },
     {
@@ -178,10 +178,10 @@
         "ausgang": "Ja",
         "end_date": "2027-01-01T04:59:00Z",
         "einstandskurs": 0.14,
-        "letzter_kurs": 0.11,
+        "letzter_kurs": 0.1,
         "fee_gezahlt": 0.06608,
-        "geldkurs": 0.11,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00"
+        "geldkurs": 0.1,
+        "geprueft": "2026-11-14T07:37:20.044012+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -194,7 +194,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Closed",
         "geldkurs": 0.8,
-        "geprueft": "2026-11-14T05:37:22.069956+01:00",
+        "geprueft": "2026-11-14T07:37:20.044012+01:00",
         "letzter_handelskurs": 0.16
       }
     }
