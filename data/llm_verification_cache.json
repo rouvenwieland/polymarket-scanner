@@ -44896,5 +44896,19 @@
     "checked_at": "2026-11-13T22:21:05.417366+00:00",
     "frage_a": "Will Jean-Luc Mélenchon win the fourth-most votes in the first round of the 2027 French presidential election?",
     "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:1662429__predictit:9107:36409": {
+    "same_event": true,
+    "reason": "Beide Fragen fragen exakt dasselbe: wird Chris Van Hollen nächster Senate Majority Leader? Ja/Nein auf A entspricht Auswahl Van Hollen auf B.",
+    "checked_at": "2026-11-14T21:04:29.124395+00:00",
+    "frage_a": "Will Chris Van Hollen be the next Senate Majority Leader?",
+    "frage_b": "Who will be the next Senate Majority Leader? - Chris Van Hollen"
+  },
+  "polymarket:1662423__predictit:9107:36408": {
+    "same_event": true,
+    "reason": "Beide Fragen fragen exakt dasselbe: wird Chuck Schumer nächster Senate Majority Leader? Ja/Nein auf A entspricht Auswahl Schumer auf B.",
+    "checked_at": "2026-11-14T21:04:29.124395+00:00",
+    "frage_a": "Will Chuck Schumer be the next Senate Majority Leader?",
+    "frage_b": "Who will be the next Senate Majority Leader? - Chuck Schumer"
   }
 }
