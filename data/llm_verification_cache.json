@@ -44910,5 +44910,12 @@
     "checked_at": "2026-11-14T21:04:29.124395+00:00",
     "frage_a": "Will Chuck Schumer be the next Senate Majority Leader?",
     "frage_b": "Who will be the next Senate Majority Leader? - Chuck Schumer"
+  },
+  "polymarket:666665__predictit:8850:35135": {
+    "same_event": false,
+    "reason": "Frage A ist binär (verlässt er vor 2027?), Frage B ist kategorial (ist er der *nächste* Kabinettsmitglied, das geht?). Unterschiedliche Auflösungsbedingungen: Wenn ein anderes Mitglied zuerst geht und Lutnick später vor 2027 geht -> A=Yes, B=No. Wenn Lutnick der nächste ist, aber nach 2027 -> A=No, B=Yes. Keine garantierte Absicherung.",
+    "checked_at": "2026-11-15T21:18:42.373562+00:00",
+    "frage_a": "Will Howard Lutnick leave the Trump administration before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - Howard Lutnick"
   }
 }
