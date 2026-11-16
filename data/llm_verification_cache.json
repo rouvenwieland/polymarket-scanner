@@ -44917,5 +44917,19 @@
     "checked_at": "2026-11-15T21:18:42.373562+00:00",
     "frage_a": "Will Howard Lutnick leave the Trump administration before 2027?",
     "frage_b": "Who will be the next Cabinet member to leave office? - Howard Lutnick"
+  },
+  "kalshi:KXPALLADIUMH-26NOV1614-T972.49__polymarket:7013487": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Assets: Meta-Aktie vs. Palladium-Rohstoff; unterschiedliche Preise, Daten (2026 vs. unbestimmt) und Märkte.",
+    "checked_at": "2026-11-16T18:54:44.241432+00:00",
+    "frage_a": "Will Meta (META) close above $630 on November 16?",
+    "frage_b": "Will the palladium close price be above 972.49 USD/ounce on November 16, 2026 at 2:00 PM ET? - Above $972.49"
+  },
+  "kalshi:KXPALLADIUMH-26NOV1614-T972.49__polymarket:7092210": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Assets: Meta-Aktie vs. Palladium-Rohstoff; unterschiedliche Preise, Daten (17. vs. 16. November, 2026 vs. unbestimmt) und Märkte.",
+    "checked_at": "2026-11-16T18:54:44.241432+00:00",
+    "frage_a": "Will Meta (META) close above $650 on November 17?",
+    "frage_b": "Will the palladium close price be above 972.49 USD/ounce on November 16, 2026 at 2:00 PM ET? - Above $972.49"
   }
 }
