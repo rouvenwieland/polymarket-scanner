@@ -44959,5 +44959,19 @@
     "checked_at": "2026-11-17T13:52:47.058429+00:00",
     "frage_a": "Ron DeSantis Republican nomination odds leader on March 31?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
+  },
+  "polymarket:7104788__predictit:8153:31935": {
+    "same_event": false,
+    "reason": "Frage A fragt nach dem Wettquoten-Favoriten (odds leader) am 31.12., Frage B nach dem tatsächlichen Gewinner der Nominierung 2028. Unterschiedliches Ereignis (Marktmeinung zu Stichtag vs. Wahlergebnis).",
+    "checked_at": "2026-11-17T23:53:14.762009+00:00",
+    "frage_a": "Pete Buttigieg Democratic nomination odds leader on December 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Pete Buttigieg"
+  },
+  "polymarket:7104768__predictit:8171:36387": {
+    "same_event": false,
+    "reason": "Frage A fragt nach dem Wettquoten-Favoriten (odds leader) für die Präsidentschaftswahl am 31.12., Frage B nach dem tatsächlichen Gewinner der Wahl 2028. Unterschiedliches Ereignis (Marktmeinung zu Stichtag vs. Wahlergebnis).",
+    "checked_at": "2026-11-17T23:53:14.762009+00:00",
+    "frage_a": "Ron DeSantis 2028 presidential odds leader on December 31?",
+    "frage_b": "Who will win the 2028 US presidential election? - Ron DeSantis"
   }
 }
