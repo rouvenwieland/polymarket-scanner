@@ -44931,5 +44931,33 @@
     "checked_at": "2026-11-16T18:54:44.241432+00:00",
     "frage_a": "Will Meta (META) close above $650 on November 17?",
     "frage_b": "Will the palladium close price be above 972.49 USD/ounce on November 16, 2026 at 2:00 PM ET? - Above $972.49"
+  },
+  "polymarket:7104945__predictit:8152:31930": {
+    "same_event": false,
+    "reason": "Frage A fragt nach 'odds leader' (Wettfavorit) am 31. März, Frage B nach tatsächlichem Gewinner der Nomination 2028 - unterschiedliche Ereignisse/Auflösungskriterien",
+    "checked_at": "2026-11-17T13:52:47.058429+00:00",
+    "frage_a": "Marco Rubio Republican nomination odds leader on March 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Marco Rubio"
+  },
+  "polymarket:7104786__predictit:8153:31936": {
+    "same_event": false,
+    "reason": "Frage A: 'odds leader' am 31. Dezember; Frage B: tatsächlicher Gewinner der Democratic Nomination 2028 - unterschiedliche Ereignisse",
+    "checked_at": "2026-11-17T13:52:47.058429+00:00",
+    "frage_a": "Alexandria Ocasio-Cortez Democratic nomination odds leader on December 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - A. Ocasio-Cortez"
+  },
+  "polymarket:7107378__predictit:8766:34692": {
+    "same_event": false,
+    "reason": "Frage A: 'odds leader' am 31. Dezember; Frage B: Gewinner der nächsten französischen Präsidentschaftswahl - unterschiedliche Ereignisse (Wettmarkt-Favorit vs. Wahlergebnis)",
+    "checked_at": "2026-11-17T13:52:47.058429+00:00",
+    "frage_a": "Édouard Philippe French presidential odds leader on December 31?",
+    "frage_b": "Who will win the next French presidential election? - Édouard Philippe"
+  },
+  "polymarket:7104953__predictit:8152:32069": {
+    "same_event": false,
+    "reason": "Frage A: 'odds leader' am 31. März; Frage B: tatsächlicher Gewinner der Republican Nomination 2028 - unterschiedliche Ereignisse",
+    "checked_at": "2026-11-17T13:52:47.058429+00:00",
+    "frage_a": "Ron DeSantis Republican nomination odds leader on March 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ron DeSantis"
   }
 }
