@@ -80,6 +80,7 @@ jobs:
         # unverändert weiter.
         env:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          LLM_BACKEND: openrouter  # Actions hat kein lokales Modell (Oracle-Server: auto)
         run: python scripts/multi_platform_scan.py
 
       - name: Ergebnisse committen

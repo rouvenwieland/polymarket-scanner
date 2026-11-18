@@ -22,6 +22,13 @@ def _no_network(monkeypatch):
     monkeypatch.setattr(requests.Session, "request", _boom)
 
 
+@pytest.fixture(autouse=True)
+def _lokal_ohne_wartezeit(monkeypatch):
+    import llm_verify
+    monkeypatch.setattr(llm_verify, "LOCAL_RETRY_WAIT", 0)
+    monkeypatch.setenv("LLM_BACKEND", "openrouter")  # alte Tests: nur OpenRouter-Pfad; lokale Tests setzen es selbst
+
+
 @pytest.fixture
 def datadir(tmp_path, monkeypatch):
     """Leitet alle Module, die DATA_DIR/CSV-Pfade kennen, in ein Temp-Verzeichnis um."""

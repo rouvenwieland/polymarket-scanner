@@ -1,5 +1,5 @@
 """
-Finale KI-Prüfstufe für Cross-Platform-Matches (kostenlos über OpenRouter)
+Finale KI-Prüfstufe für Cross-Platform-Matches (lokales Modell, Rückfall OpenRouter :free)
 ==============================================================================
 
 Letzte Sicherheitsstufe VOR dem tatsächlichen Kauf einer Cross-Platform-
@@ -10,6 +10,14 @@ zusätzlich an ein KI-Modell mit der expliziten Frage, ob beide Seiten
 GENAU dasselbe Realwelt-Ereignis mit IDENTISCHEN Auflösungskriterien
 beschreiben - und verlangt eine begründete Ja/Nein-Antwort, bevor ein Fonds
 die Position kauft.
+
+LOKALES MODELL (seit 13.11.2026, siehe docs/lokales-modell-vergleich.md): Zuerst fragt diese Stufe einen
+OpenAI-kompatiblen Endpunkt (LLM_BASE_URL, Standard http://127.0.0.1:8080/v1 = llama.cpp auf dem Oracle-Server;
+Modell-ID aus GET /models, optional LLM_MODEL) mit JSON-Schema-Antwort: ohne Schluessel, ohne Tageslimit.
+Ungueltige/fehlende Antworten = None (nicht kaufen, nicht cachen, naechster Lauf versucht es erneut).
+Nur wenn der Endpunkt NICHT ERREICHBAR ist UND ein OpenRouter-Schluessel vorliegt, greift der Rueckfall
+(nur ":free"-Modelle). LLM_BACKEND=local|openrouter|auto steuert das; Standard siehe DEFAULT_BACKEND.
+Schluessel: Datei $CREDENTIALS_DIRECTORY/openrouter (systemd LoadCredential), sonst Env OPENROUTER_API_KEY.
 
 Nutzt OpenRouters kostenlose Modelle (":free"-Suffix, eigener API-Key des
 Nutzers über den Secret OPENROUTER_API_KEY) statt der bezahlten Claude-API -
@@ -53,6 +61,12 @@ FREE_MODELS = [
     "qwen/qwen3-next-80b-a3b-instruct:free",
     "cohere/north-mini-code:free",
 ]
+DEFAULT_BACKEND = "auto"  # lokal zuerst, Rueckfall OpenRouter :free (Guetemessung bestanden: docs/lokales-modell-vergleich.md)
+LOCAL_BASE_URL = "http://127.0.0.1:8080/v1"
+LOCAL_PAIRS_PER_REQUEST = 5
+LOCAL_TIMEOUT = 900
+LOCAL_RETRIES = 3        # Verbindungsfehler (Dienst startet gerade neu) vor dem Aufgeben
+LOCAL_RETRY_WAIT = 20
 MAX_PAIRS_PER_REQUEST = 15  # Prompt-Länge/Antwort-Zuverlässigkeit vs. Anfrage-Budget
 DAILY_REQUEST_BUDGET = 35   # konservativ unter dem offiziellen 50/Tag-Limit (siehe Moduldoku)
 REQUEST_TIMEOUT = 45
@@ -83,6 +97,91 @@ Antworte "Nein", wenn IRGENDEINER dieser Unterschiede vorliegt, auch wenn Thema/
 
 Antworte NUR mit kompaktem JSON: {"results": [{"id": <id>, "same_event": true|false, "reason": "<kurz>"}]} \
 - ein Eintrag pro Paar, in der Reihenfolge/mit der ID der Eingabe. Kein weiterer Text."""
+
+
+def schluessel(name="openrouter"):
+    """Einziger Zugriff auf Anbieter-Schluessel: systemd-Credential-Datei, sonst Umgebungsvariable
+    (<NAME>_API_KEY, fuer Actions/Tests). None, wenn nichts gesetzt ist. Nie ausgeben oder loggen."""
+    d = os.environ.get("CREDENTIALS_DIRECTORY")
+    if d:
+        try:
+            with open(os.path.join(d, name), "r", encoding="utf-8") as f:
+                wert = f.read().strip()
+            if wert:
+                return wert
+        except OSError:
+            pass
+    wert = os.environ.get(f"{name.upper()}_API_KEY", "").strip()
+    return wert or None
+
+
+def _nur_free(model):
+    if not str(model).endswith(":free"):
+        raise ValueError(f"Nur ':free'-Modelle erlaubt (Kosten 0), nicht: {model!r}")
+    return model
+
+
+class LokalNichtErreichbar(Exception):
+    pass
+
+
+_LOCAL_SCHEMA = {
+    "type": "object",
+    "properties": {"results": {"type": "array", "items": {
+        "type": "object",
+        "properties": {"id": {"type": "integer"}, "same_event": {"type": "boolean"},
+                       "reason": {"type": "string", "maxLength": 100}},
+        "required": ["id", "same_event", "reason"], "additionalProperties": False}}},
+    "required": ["results"], "additionalProperties": False}
+
+
+def _local_model(base):
+    """Modell-ID des lokalen Endpunkts: LLM_MODEL oder erster Eintrag aus GET /models (nie fest eintragen)."""
+    if os.environ.get("LLM_MODEL"):
+        return os.environ["LLM_MODEL"]
+    r = requests.get(base + "/models", timeout=10)
+    r.raise_for_status()
+    j = r.json()
+    items = j.get("data") or j.get("models") or []
+    return items[0].get("id") or items[0]["name"]
+
+
+def _call_local(pairs_payload):
+    for versuch in range(LOCAL_RETRIES):
+        try:
+            return _call_local_einmal(pairs_payload)
+        except LokalNichtErreichbar:
+            if versuch == LOCAL_RETRIES - 1:
+                raise
+            time.sleep(LOCAL_RETRY_WAIT)
+
+
+def _call_local_einmal(pairs_payload):
+    """Fragt das lokale Modell. LokalNichtErreichbar bei Verbindungs-/Zeitueberschreitungsfehlern,
+    ValueError (u. a.) bei kaputter Antwort."""
+    base = os.environ.get("LLM_BASE_URL", LOCAL_BASE_URL).rstrip("/")
+    try:
+        model = _local_model(base)
+        body = {
+            "model": model,
+            "messages": [
+                {"role": "system", "content": _SYSTEM_PROMPT},
+                {"role": "user", "content": "Paare (JSON):\n" + json.dumps(pairs_payload, ensure_ascii=False)},
+            ],
+            "temperature": 0,
+            "response_format": {"type": "json_schema",
+                                "json_schema": {"name": "urteile", "strict": True, "schema": _LOCAL_SCHEMA}},
+        }
+        resp = requests.post(base + "/chat/completions", json=body, timeout=LOCAL_TIMEOUT)
+        resp.raise_for_status()
+    except (requests.ConnectionError, requests.Timeout) as e:
+        raise LokalNichtErreichbar(str(e)) from e
+    content = resp.json()["choices"][0]["message"].get("content") or ""
+    parsed = json.loads(content)
+    results = parsed.get("results", [])
+    if not isinstance(results, list):
+        raise ValueError(f"'results' ist keine Liste: {type(results).__name__}")
+    return results
 
 
 def _load_json(path, default):
@@ -134,8 +233,9 @@ def _load_budget():
 
 
 def _call_model(model, pairs_payload):
+    _nur_free(model)
     headers = {
-        "Authorization": f"Bearer {os.environ['OPENROUTER_API_KEY']}",
+        "Authorization": f"Bearer {schluessel('openrouter')}",
         "Content-Type": "application/json",
     }
     user_msg = "Paare (JSON):\n" + json.dumps(pairs_payload, ensure_ascii=False)
@@ -164,6 +264,48 @@ def _call_model(model, pairs_payload):
     return results
 
 
+def _urteil_uebernehmen(key, ma, mb, verdict, results, cache, now_iso):
+    same_event = _parse_same_event(verdict.get("same_event")) if verdict is not None else None
+    if same_event is None:
+        results[key] = None
+        return
+    results[key] = same_event
+    cache[key] = {
+        "same_event": same_event,
+        "reason": verdict.get("reason", ""),
+        "checked_at": now_iso,
+        "frage_a": ma["question"],
+        "frage_b": mb["question"],
+    }
+
+
+def _verify_local(to_check, results, cache, now_iso):
+    """Prueft to_check ueber das lokale Modell (kein Budget, kein Schluessel). Traegt Urteile in results/cache ein.
+    Rueckgabe: (nicht geprueft/unbeurteilt, lokal_nicht_erreichbar). Ungueltige Antworten bleiben None und
+    werden nicht gecacht (kein Rueckfall auf OpenRouter: der Endpunkt lebt, nur diese Antwort taugt nicht)."""
+    offen = []
+    for start in range(0, len(to_check), LOCAL_PAIRS_PER_REQUEST):
+        batch = to_check[start:start + LOCAL_PAIRS_PER_REQUEST]
+        payload = [{"id": i, "frage_a": ma["question"], "frage_b": mb["question"]} for i, (_, ma, mb) in enumerate(batch)]
+        try:
+            parsed = _call_local(payload)
+        except LokalNichtErreichbar as e:
+            print(f"[Warnung] Lokales Modell nicht erreichbar ({e}).")
+            return to_check[start:], True
+        except (requests.RequestException, KeyError, ValueError, json.JSONDecodeError,
+                TypeError, IndexError, AttributeError) as e:
+            print(f"[Warnung] Lokales Modell: ungueltige Antwort ({e}) - {len(batch)} Kandidat(en) = nein.")
+            for key, _, _ in batch:
+                results[key] = None
+            continue
+        by_id = {r.get("id"): r for r in parsed if isinstance(r, dict)}
+        for i, (key, ma, mb) in enumerate(batch):
+            _urteil_uebernehmen(key, ma, mb, by_id.get(i), results, cache, now_iso)
+        _save_json(CACHE_PATH, cache)
+    print(f"[Info] Lokale KI-Prüfstufe: {len(to_check)} Kandidat(en) geprüft.")
+    return offen, False
+
+
 def verify_candidates(candidates):
     """candidates: Liste von (market_a, market_b) Tupeln. Gibt dict
     pair_key -> True/False/None zurück (None = nicht verifizierbar - siehe
@@ -183,15 +325,26 @@ def verify_candidates(candidates):
     if not to_check:
         return results
 
-    if "OPENROUTER_API_KEY" not in os.environ or not os.environ["OPENROUTER_API_KEY"]:
-        print("[Hinweis] OPENROUTER_API_KEY nicht gesetzt - KI-Prüfstufe deaktiviert, "
+    now_iso = datetime.now(timezone.utc).isoformat()
+    backend = os.environ.get("LLM_BACKEND", DEFAULT_BACKEND)
+    if backend in ("local", "auto"):
+        to_check, lokal_aus = _verify_local(to_check, results, cache, now_iso)
+        if not to_check:
+            return results
+        if backend == "local" or not lokal_aus:
+            for key, _, _ in to_check:
+                results[key] = None
+            return results
+        print("[Hinweis] Lokales Modell nicht erreichbar - Rueckfall auf OpenRouter (:free).")
+
+    if not schluessel("openrouter"):
+        print("[Hinweis] Kein OpenRouter-Schluessel - KI-Prüfstufe deaktiviert, "
               f"{len(to_check)} Kandidat(en) bleiben unverifiziert (kein Kauf).")
         for key, _, _ in to_check:
             results[key] = None
         return results
 
     budget = _load_budget()
-    now_iso = datetime.now(timezone.utc).isoformat()
 
     for batch_start in range(0, len(to_check), MAX_PAIRS_PER_REQUEST):
         batch = to_check[batch_start:batch_start + MAX_PAIRS_PER_REQUEST]
@@ -240,19 +393,7 @@ def verify_candidates(candidates):
 
         verdicts_by_id = {r.get("id"): r for r in parsed_results if isinstance(r, dict)}
         for i, (key, ma, mb) in enumerate(batch):
-            verdict = verdicts_by_id.get(i)
-            same_event = _parse_same_event(verdict.get("same_event")) if verdict is not None else None
-            if same_event is None:
-                results[key] = None
-                continue
-            results[key] = same_event
-            cache[key] = {
-                "same_event": same_event,
-                "reason": verdict.get("reason", ""),
-                "checked_at": now_iso,
-                "frage_a": ma["question"],
-                "frage_b": mb["question"],
-            }
+            _urteil_uebernehmen(key, ma, mb, verdicts_by_id.get(i), results, cache, now_iso)
         _save_json(CACHE_PATH, cache)
 
     _save_json(BUDGET_PATH, budget)

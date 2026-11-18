@@ -142,3 +142,105 @@ def test_alle_modelle_liefern_null_fail_closed_ohne_absturz(api, monkeypatch):
     monkeypatch.setattr(llm_verify.requests, "post", fake_post)
     assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
     assert calls == llm_verify.FREE_MODELS
+
+
+# --- Lokales Modell, Schluessel-Zugriff (13.11.2026) ---------------------------------------------------
+
+class _LokalResp(_FakeResp):
+    pass
+
+
+def _lokal_antwort(inhalt):
+    return {"choices": [{"message": {"content": inhalt}}]}
+
+
+@pytest.fixture
+def lokal(monkeypatch, datadir):
+    monkeypatch.setenv("LLM_BACKEND", "local")
+    monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
+    monkeypatch.delenv("CREDENTIALS_DIRECTORY", raising=False)
+    monkeypatch.delenv("LLM_MODEL", raising=False)
+    monkeypatch.setattr(llm_verify.requests, "get",
+                        lambda url, timeout=None: _FakeResp({"data": [{"id": "test-modell"}]}))
+    return datadir
+
+
+@pytest.mark.parametrize("urteil,erwartet", [(True, True), (False, False)])
+def test_lokal_gleich_ungleich_ohne_schluessel(lokal, monkeypatch, urteil, erwartet):
+    gesehen = {}
+
+    def fake_post(url, headers=None, json=None, timeout=None):
+        gesehen["url"], gesehen["body"] = url, json
+        return _FakeResp(_lokal_antwort(
+            '{"results": [{"id": 0, "same_event": %s, "reason": "r"}]}' % ("true" if urteil else "false")))
+
+    monkeypatch.setattr(llm_verify.requests, "post", fake_post)
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: erwartet}
+    assert gesehen["url"] == "http://127.0.0.1:8080/v1/chat/completions"
+    assert gesehen["body"]["model"] == "test-modell"  # Modell-ID aus /models, nicht fest
+    assert gesehen["body"]["response_format"]["type"] == "json_schema"
+    assert json.load(open(llm_verify.CACHE_PATH))[KEY]["same_event"] is erwartet
+    assert not (lokal / "llm_verification_budget.json").exists()  # lokal kein Tageslimit
+
+
+def test_lokal_ungueltiges_json_ist_nein_und_wird_nicht_gecacht(lokal, monkeypatch):
+    monkeypatch.setattr(llm_verify.requests, "post", lambda *a, **k: _FakeResp(_lokal_antwort("das ist kein json")))
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
+    assert not (lokal / "llm_verification_cache.json").exists()
+
+
+def test_lokal_unerreichbar_ohne_schluessel_fail_closed(lokal, monkeypatch):
+    def boom(*a, **k):
+        raise llm_verify.requests.ConnectionError("refused")
+
+    monkeypatch.setattr(llm_verify.requests, "get", boom)
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
+
+
+def test_auto_unerreichbar_mit_schluessel_faellt_auf_openrouter_free_zurueck(lokal, monkeypatch):
+    monkeypatch.setenv("LLM_BACKEND", "auto")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-dummy")
+
+    def boom(*a, **k):
+        raise llm_verify.requests.ConnectionError("refused")
+
+    monkeypatch.setattr(llm_verify.requests, "get", boom)
+    modelle = []
+    monkeypatch.setattr(llm_verify, "_call_model",
+                        lambda m, p: modelle.append(m) or [{"id": 0, "same_event": True, "reason": "ok"}])
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: True}
+    assert modelle[0].endswith(":free")
+
+
+def test_auto_lokal_erreichbar_aber_ungueltig_kein_rueckfall(lokal, monkeypatch):
+    monkeypatch.setenv("LLM_BACKEND", "auto")
+    monkeypatch.setenv("OPENROUTER_API_KEY", "test-dummy")
+    monkeypatch.setattr(llm_verify.requests, "post", lambda *a, **k: _FakeResp(_lokal_antwort("{}")))
+    monkeypatch.setattr(llm_verify, "_call_model", lambda m, p: pytest.fail("kein OpenRouter bei lebendem lokalem Endpunkt"))
+    assert llm_verify.verify_candidates([(MA, MB)]) == {KEY: None}
+
+
+def test_schluessel_aus_credential_datei(tmp_path, monkeypatch):
+    (tmp_path / "openrouter").write_text("sk-test-platzhalter\n")
+    monkeypatch.setenv("CREDENTIALS_DIRECTORY", str(tmp_path))
+    monkeypatch.setenv("OPENROUTER_API_KEY", "aus-env")
+    assert llm_verify.schluessel("openrouter") == "sk-test-platzhalter"  # Datei hat Vorrang
+
+
+def test_schluessel_aus_env_und_fehlend(tmp_path, monkeypatch):
+    monkeypatch.delenv("CREDENTIALS_DIRECTORY", raising=False)
+    monkeypatch.setenv("OPENROUTER_API_KEY", "aus-env")
+    assert llm_verify.schluessel("openrouter") == "aus-env"
+    monkeypatch.delenv("OPENROUTER_API_KEY")
+    assert llm_verify.schluessel("openrouter") is None
+    monkeypatch.setenv("CREDENTIALS_DIRECTORY", str(tmp_path))  # Verzeichnis ohne Datei
+    assert llm_verify.schluessel("openrouter") is None
+
+
+def test_nicht_free_modell_bricht_ab():
+    with pytest.raises(ValueError, match=":free"):
+        llm_verify._call_model("openai/gpt-4o", [])
+
+
+def test_alle_konfigurierten_modelle_sind_free():
+    assert all(m.endswith(":free") for m in llm_verify.FREE_MODELS)
