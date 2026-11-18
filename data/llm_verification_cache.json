@@ -44987,5 +44987,26 @@
     "checked_at": "2026-11-18T08:07:57.221664+00:00",
     "frage_a": "Gavin Newsom 2028 presidential odds leader on December 31?",
     "frage_b": "Who will win the 2028 US presidential election? - Gavin Newsom"
+  },
+  "polymarket:7104766__predictit:8171:32019": {
+    "same_event": false,
+    "reason": "Frage A fragt nach Quoten-Favorit (odds leader) an einem Stichtag, Frage B nach tatsächlichem Wahlsieg - unterschiedliche Ereignisse.",
+    "checked_at": "2026-11-18T17:38:29.764304+00:00",
+    "frage_a": "Alexandria Ocasio-Cortez 2028 presidential odds leader on December 31?",
+    "frage_b": "Who will win the 2028 US presidential election? - A. Ocasio-Cortez"
+  },
+  "polymarket:666657__predictit:8850:35128": {
+    "same_event": false,
+    "reason": "Frage A: Ausscheiden vor 2027 (Ja/Nein). Frage B: 'next Cabinet member to leave' (Reihenfolge/Relativ zu anderen) - unterschiedliche Auflösungslogik.",
+    "checked_at": "2026-11-18T17:38:29.764304+00:00",
+    "frage_a": "Will Robert F. Kennedy Jr. leave the Trump administration before 2027?",
+    "frage_b": "Who will be the next Cabinet member to leave office? - R. F. Kennedy Jr."
+  },
+  "polymarket:7104891__predictit:8152:31927": {
+    "same_event": false,
+    "reason": "Frage A: Quoten-Zweiter (runner-up in odds) an Stichtag. Frage B: Gewinner der Nomination - unterschiedliche Ereignisse.",
+    "checked_at": "2026-11-18T17:38:29.764304+00:00",
+    "frage_a": "Ted Cruz Republican nomination odds runner-up on December 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ted Cruz"
   }
 }
