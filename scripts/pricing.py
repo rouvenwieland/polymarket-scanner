@@ -23,6 +23,8 @@ Jede Zahl, die in Fonds-Logs/Dashboard auftaucht, traegt die Kennzeichnung `prei
 
 import json
 import math
+
+import kurs_db
 from collections import namedtuple
 
 BASIS_EXECUTABLE = "ausfuehrbar"
@@ -121,8 +123,16 @@ def parse_outcome_prices(market):
 
 
 def _book(market):
-    """(bestBid, bestAsk) des Yes-Tokens, nur wenn plausibel (0 < bid <= ask < 1), sonst None."""
+    """(bestBid, bestAsk) des Yes-Tokens, nur wenn plausibel (0 < bid <= ask < 1), sonst None.
+
+    Liegt im Echtzeit-Sammler (kurs.db, hoechstens 60 s alt) ein Kurs fuer den ersten Token, ersetzt er
+    die Gamma-Felder; ohne Datei/Treffer bleibt alles wie bisher (Aufrufer pruefen die Yes-Seite vorher)."""
     bid, ask = _num(market.get("bestBid")), _num(market.get("bestAsk"))
+    tokens = _json_list(market.get("clobTokenIds"))
+    if tokens:
+        live = kurs_db.lese("polymarket", str(tokens[0]))
+        if live is not None and live["bid"] is not None and live["ask"] is not None:
+            bid, ask = live["bid"], live["ask"]
     if bid is None or ask is None:
         return None
     if not (0.0 < bid <= ask < 1.0):
