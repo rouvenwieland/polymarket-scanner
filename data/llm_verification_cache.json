@@ -44973,5 +44973,19 @@
     "checked_at": "2026-11-17T23:53:14.762009+00:00",
     "frage_a": "Ron DeSantis 2028 presidential odds leader on December 31?",
     "frage_b": "Who will win the 2028 US presidential election? - Ron DeSantis"
+  },
+  "polymarket:2116883__predictit:9112:36419": {
+    "same_event": false,
+    "reason": "Völlig unterschiedliche Ereignisse: Festnahme vor 2027 vs. Wahlsieg als Chicagoer Bürgermeister 2027.",
+    "checked_at": "2026-11-18T08:07:57.221664+00:00",
+    "frage_a": "Will Brandon Johnson be arrested before 2027?",
+    "frage_b": "Who will be elected Chicago mayor in 2027? - Brandon Johnson"
+  },
+  "polymarket:7104767__predictit:8171:32023": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: 'Odds Leader (Favorit) am 31.12.' vs. 'tatsächlicher Wahlsieger 2028'.",
+    "checked_at": "2026-11-18T08:07:57.221664+00:00",
+    "frage_a": "Gavin Newsom 2028 presidential odds leader on December 31?",
+    "frage_b": "Who will win the 2028 US presidential election? - Gavin Newsom"
   }
 }
