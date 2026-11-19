@@ -45022,5 +45022,19 @@
     "checked_at": "2026-11-19T05:21:00.374697+00:00",
     "frage_a": "Will Jon Ossoff win the Nevada Democratic primary?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Jon Ossoff"
+  },
+  "polymarket:7104789__predictit:8153:31940": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (Josh Shapiro vs. generelles 'who will win')",
+    "checked_at": "2026-11-19T13:17:31.441188+00:00",
+    "frage_a": "Josh Shapiro Democratic nomination odds leader on December 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Josh Shapiro"
+  },
+  "polymarket:7104790__predictit:8153:31934": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (Kamala Harris vs. generelles 'who will win')",
+    "checked_at": "2026-11-19T13:17:31.441188+00:00",
+    "frage_a": "Kamala Harris Democratic nomination odds leader on December 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Kamala Harris"
   }
 }
