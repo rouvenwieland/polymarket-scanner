@@ -45036,5 +45036,12 @@
     "checked_at": "2026-11-19T13:17:31.441188+00:00",
     "frage_a": "Kamala Harris Democratic nomination odds leader on December 31?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Kamala Harris"
+  },
+  "polymarket:666604__predictit:9125:36494": {
+    "same_event": false,
+    "reason": "Unterschiedliche Personen (Yoon Suk Yeol vs. Kim Jong Un)",
+    "checked_at": "2026-11-19T21:32:08.502998+00:00",
+    "frage_a": "Will Trump meet with Yoon Suk Yeol in 2026?",
+    "frage_b": "Will Trump meet with Kim Jong Un in 2026?"
   }
 }
