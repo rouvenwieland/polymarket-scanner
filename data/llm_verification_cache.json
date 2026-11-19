@@ -45015,5 +45015,12 @@
     "checked_at": "2026-11-18T20:41:54.128208+00:00",
     "frage_a": "Will Rachel Campos-Duffy be the next White House Press Secretary?",
     "frage_b": "Who will be the next White House press secretary? - Ben Ferguson"
+  },
+  "polymarket:6658908__predictit:8153:32160": {
+    "same_event": false,
+    "reason": "Different events: Nevada primary vs. 2028 presidential nomination; Ossoff's primary win does not equ",
+    "checked_at": "2026-11-19T05:21:00.374697+00:00",
+    "frage_a": "Will Jon Ossoff win the Nevada Democratic primary?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Jon Ossoff"
   }
 }
