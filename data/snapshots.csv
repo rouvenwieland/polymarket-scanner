@@ -13786,3 +13786,53 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-20T07:47:08.303659+01:00,7040477,KS Cracovia Krakow vs. Jagiellonia Bialystok: Jagiellonia Bialystok O/U 4.5,pol-cra-jag-2026-11-21-team-total-away-4pt5,0.465,0.53,0.9950000000000001,0.0,51.4585,2026-11-21T13:45:00Z,schaetzung
 2026-11-20T07:47:08.303659+01:00,7050385,Spread: Southern Miss (-16.5),cfb-soumis-old-2026-11-28-spread-away-16pt5,0.495,0.5,0.995,0.0,0.1,2026-11-28T18:00:00Z,schaetzung
 2026-11-20T07:47:08.303659+01:00,7052241,Spread: Wyoming (-4.5),cfb-uconn-wyom-2026-11-28-spread-home-4pt5,0.5,0.495,0.995,0.0,0.1,2026-11-28T17:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6639919,2Q Spread: Jaguars (-7.5),nfl-jax-nyg-2026-11-22-2q-spread-away-7pt5,0.5,0.495,0.995,0.0,2.5,2026-11-22T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6639966,4Q Spread: Giants (-10.5),nfl-jax-nyg-2026-11-22-4q-spread-home-10pt5,0.495,0.5,0.995,0.0,2.5,2026-11-22T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6640789,3Q Spread: Cowboys (-4.5),nfl-ten-dal-2026-11-22-3q-spread-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-11-22T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6640915,Titans 1H Team Total: O/U 17.5,nfl-ten-dal-2026-11-22-1h-team-total-ten-17pt5,0.49,0.5,0.99,0.0,52.8716,2026-11-22T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6641218,Bears 1H Team Total: O/U 6.5,nfl-no-chi-2026-11-22-1h-team-total-chi-6pt5,0.495,0.5,0.995,0.0,2.5,2026-11-22T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6643022,2Q Spread: Eagles (-2.5),nfl-pit-phi-2026-11-22-2q-spread-home-2pt5,0.495,0.5,0.995,0.0,2.5,2026-11-22T21:25:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6643263,1H Spread: Raiders (-2.5),nfl-lv-den-2026-11-22-1h-spread-away-2pt5,0.495,0.5,0.995,0.0,2.5,2026-11-22T21:25:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6643330,1Q Spread: Raiders (-7.5),nfl-lv-den-2026-11-22-1q-spread-away-7pt5,0.5,0.495,0.995,0.0,2.5,2026-11-22T21:25:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6734502,Gabriel Taliari: 2+ shots,bra-pal-cre-2026-11-05-shots-gabriel-taliari-90064344-gte2,0.5,0.455,0.9550000000000001,0.0,0.0,2026-11-05T22:30:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6819062,Ventforet Kōfu vs. Vanraure Hachinohe FC: Ventforet Kōfu O/U 5.5,ja2-ven-van-2026-11-21-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,61.1393,2026-11-21T05:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6853160,Wealdstone FC vs. Hornchurch FC: Wealdstone FC O/U 5.5,enl-wea-hor-2026-11-21-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,51.4961,2026-11-21T15:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6857465,CD Coquimbo Unido vs. Everton de Viña del Mar: CD Coquimbo Unido 1st Half O/U 2.5,chi1-ccu-edv-2026-11-21-first-half-team-total-home-2pt5,0.465,0.53,0.9950000000000001,0.0,51.8797,2026-11-21T15:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6873403,Tromsø IL vs. Viking FK: Tromsø IL 1st Half O/U 2.5,nor-tro-vik-2026-11-21-first-half-team-total-home-2pt5,0.465,0.53,0.9950000000000001,0.0,51.8798,2026-11-21T13:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6882524,Stade Lavallois Mayenne FC vs. Montpellier HSC: Montpellier HSC O/U 5.5,fr2-lav-mon-2026-11-21-team-total-away-5pt5,0.465,0.53,0.9950000000000001,0.0,51.5053,2026-11-21T13:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6899634,Tigres de la UANL vs. CF América: Tigres de la UANL O/U 3.5,mex-tig-ame-2026-11-21-team-total-home-3pt5,0.475,0.52,0.995,0.0,51.5197,2026-11-22T03:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6900742,Exact Score: FK Kryvbas Kryvyi Rih 1 - 5 FK Kudrivka?,ukr1-kry-kud-2026-11-21-exact-score-1-5,0.175,0.82,0.9949999999999999,0.0,1521.2787,2026-11-21T11:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6936479,Rams 1H Team Total: O/U 13.5,nfl-gb-la-2026-11-26-1h-team-total-la-13pt5,0.495,0.5,0.995,0.0,2.5,2026-11-26T01:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6936753,Bears 1H Team Total: O/U 19.5,nfl-chi-det-2026-11-26-1h-team-total-chi-19pt5,0.495,0.5,0.995,0.0,2.5,2026-11-26T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6959941,Wolverhampton Wanderers FC vs. Derby County FC: Derby County FC O/U 5.5,elc-wol-der-2026-11-24-team-total-away-5pt5,0.475,0.52,0.995,0.0,51.3938,2026-11-24T20:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6975222,Shōnan Bellmāre vs. Ventforet Kōfu: Ventforet Kōfu O/U 5.5,ja2-sho-ven-2026-11-25-team-total-away-5pt5,0.475,0.52,0.995,0.0,51.8995,2026-11-25T10:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,6975226,Shōnan Bellmāre vs. Ventforet Kōfu: Shōnan Bellmāre 1st Half O/U 3.5,ja2-sho-ven-2026-11-25-first-half-team-total-home-3pt5,0.475,0.52,0.995,0.0,51.4997,2026-11-25T10:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7037384,1st Half Spread: Venezia FC (-2.5),sea-juv-ven-2026-11-22-first-half-spread-away-2pt5,0.465,0.53,0.9950000000000001,0.0,51.3854,2026-11-22T11:30:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7050464,Spread: Kentucky (-20.5),cfb-lou-uk-2026-11-28-spread-home-20pt5,0.5,0.495,0.995,0.0,0.1,2026-11-28T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7051200,Spread: Alabama (-8.5),cfb-aubrn-ala-2026-11-28-spread-home-8pt5,0.5,0.495,0.995,0.0,0.1,2026-11-28T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7051467,Spread: California (-0.5),cfb-pitt-cah-2026-11-28-spread-home-0pt5,0.5,0.495,0.995,0.0,0.1,2026-11-29T00:30:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7051585,Spread: Rutgers (-20.5),cfb-mst-rutger-2026-11-28-spread-home-20pt5,0.495,0.5,0.995,0.0,0.1,2026-11-28T21:15:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7051631,Spread: Miami (FL) (-8.5),cfb-boscol-mia-2026-11-28-spread-home-8pt5,0.5,0.495,0.995,0.0,0.1,2026-11-28T17:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7051963,Spread: SMU (-7.5),cfb-smu-stan-2026-11-28-spread-away-7pt5,0.495,0.5,0.995,0.0,0.1,2026-11-28T18:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7052146,Spread: BYU (-17.5),cfb-cin-byu-2026-11-28-spread-home-17pt5,0.5,0.495,0.995,0.0,0.1,2026-11-28T20:30:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7089094,Troon FC vs. Raith Rovers FC: O/U 7.5,scoc-tro-rai-2026-11-28-total-7pt5,0.465,0.53,0.9950000000000001,0.0,51.5797,2026-11-28T15:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7099099,Budapest Honved FC vs. Paksi FC: Paksi FC O/U 5.5,hun-hon-pak-2026-11-22-team-total-away-5pt5,0.475,0.52,0.995,0.0,51.9597,2026-11-22T17:30:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7113558,FK Kryvbas Kryvyi Rih vs. RNK Veres Rivne: FK Kryvbas Kryvyi Rih O/U 4.5,ukr1-kry-ver-2026-11-29-team-total-home-4pt5,0.475,0.52,0.995,0.0,51.9397,2026-11-29T11:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7131921,Christian McCaffrey: Receiving Yards O/U 69.5,nfl-min-sf-2026-11-23-recyd-christian-mccaffrey-69pt5,0.09,0.89,0.98,0.0,2880.76,2026-11-23T01:20:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7154907,FK Mladost Lucani vs. FK Zeleznicar Pancevo: O/U 8.5,srb-mla-zel-2026-11-21-total-8pt5,0.014,0.982,0.996,0.0,89.67217,2026-11-21T14:00:00Z,schaetzung
+2026-11-20T10:47:25.507585+01:00,7168354,Go Ahead Eagles vs. TOP Oss: O/U 7.5,nlc-goa-top-2026-12-01-total-7pt5,0.465,0.53,0.9950000000000001,0.0,51.6095,2026-12-01T20:00:00Z,schaetzung
