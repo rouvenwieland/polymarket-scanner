@@ -1,5 +1,5 @@
 {
-  "cash": 32.357996998285536,
+  "cash": 12.197639220507758,
   "neuberechnung": {
     "bein_deckel_usd": 10.0,
     "skript": "scripts/neuberechnung.py",
@@ -28,7 +28,7 @@
         "letzter_kurs": 0.001,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.001,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -40,7 +40,7 @@
         "letzter_kurs": 0.99,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.99,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00",
+        "geprueft": "2026-11-20T01:17:05.761947+01:00",
         "status_api": "Closed",
         "letzter_handelskurs": 0.01
       }
@@ -67,7 +67,7 @@
         "letzter_kurs": 0.0,
         "fee_gezahlt": 0.04667,
         "geldkurs": 0.0,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -79,7 +79,7 @@
         "letzter_kurs": 0.9,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.9,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00",
+        "geprueft": "2026-11-20T01:17:05.761947+01:00",
         "status_api": "Open"
       }
     },
@@ -105,7 +105,7 @@
         "letzter_kurs": 0.06,
         "fee_gezahlt": 0.06971,
         "geldkurs": 0.06,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -117,7 +117,7 @@
         "letzter_kurs": 0.95,
         "fee_gezahlt": 0.0,
         "geldkurs": 0.95,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00",
+        "geprueft": "2026-11-20T01:17:05.761947+01:00",
         "status_api": "Open"
       }
     },
@@ -143,7 +143,7 @@
         "letzter_kurs": 0.003,
         "fee_gezahlt": 0.00271,
         "geldkurs": 0.003,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -156,7 +156,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Open",
         "geldkurs": 0.91,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       }
     },
     {
@@ -178,10 +178,10 @@
         "ausgang": "Ja",
         "end_date": "2027-01-01T04:59:00Z",
         "einstandskurs": 0.14,
-        "letzter_kurs": 0.12,
+        "letzter_kurs": 0.11,
         "fee_gezahlt": 0.06608,
-        "geldkurs": 0.12,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geldkurs": 0.11,
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -194,7 +194,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Closed",
         "geldkurs": 0.8,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00",
+        "geprueft": "2026-11-20T01:17:05.761947+01:00",
         "letzter_handelskurs": 0.16
       }
     },
@@ -217,10 +217,10 @@
         "ausgang": "Ja",
         "end_date": "2026-11-04T04:59:00Z",
         "einstandskurs": 0.07,
-        "letzter_kurs": 0.046,
+        "letzter_kurs": 0.047,
         "fee_gezahlt": 0.03661,
-        "geldkurs": 0.046,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geldkurs": 0.047,
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -233,7 +233,7 @@
         "fee_gezahlt": 0.0,
         "status_api": "Open",
         "geldkurs": 0.91,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       }
     },
     {
@@ -258,7 +258,7 @@
         "letzter_kurs": 0.050000000000000044,
         "fee_gezahlt": 0.04138,
         "geldkurs": 0.050000000000000044,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
       },
       "leg_b": {
         "platform": "predictit",
@@ -271,7 +271,73 @@
         "fee_gezahlt": 0.0,
         "status_api": "Open",
         "geldkurs": 0.91,
-        "geprueft": "2026-11-19T23:37:27.735875+01:00"
+        "geprueft": "2026-11-20T01:17:05.761947+01:00"
+      }
+    },
+    {
+      "pair_id": "polymarket:7107376__predictit:8766:34693",
+      "frage": "[polymarket] Jean-Luc Mélenchon French presidential odds leader on December 31?  <->  [predictit] Who will win the next French presidential election? - Jean-Luc Mélenchon",
+      "shares": 11.11111111111111,
+      "end_date": "2026-12-31T17:00:00Z",
+      "eingestiegen": "2026-11-20T01:17:05.761947+01:00",
+      "preisbasis": "ausfuehrbar",
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same",
+      "einstand_gesamt": 10.11661111111111,
+      "garantierter_endwert": 11.0,
+      "sport": false,
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "7107376",
+        "side": "yes",
+        "ausgang": "Ja",
+        "end_date": "2026-12-31T17:00:00Z",
+        "einstandskurs": 0.01,
+        "letzter_kurs": 0.01,
+        "fee_gezahlt": 0.0055
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8766:34693",
+        "side": "no",
+        "ausgang": "Nein",
+        "end_date": null,
+        "einstandskurs": 0.9,
+        "letzter_kurs": 0.9,
+        "fee_gezahlt": 0.0
+      }
+    },
+    {
+      "pair_id": "polymarket:7104967__predictit:8152:31927",
+      "frage": "[polymarket] Ted Cruz Republican nomination odds leader on March 31?  <->  [predictit] Who will win the 2028 Republican presidential nomination? - Ted Cruz",
+      "shares": 10.416666666666668,
+      "end_date": "2027-03-31T16:00:00Z",
+      "eingestiegen": "2026-11-20T01:17:05.761947+01:00",
+      "preisbasis": "ausfuehrbar",
+      "strategie": "v2-2026-10-27",
+      "zuordnung": "same",
+      "einstand_gesamt": 10.043746666666665,
+      "garantierter_endwert": 10.375000000000002,
+      "sport": false,
+      "leg_a": {
+        "platform": "polymarket",
+        "market_id": "7104967",
+        "side": "yes",
+        "ausgang": "Ja",
+        "end_date": "2027-03-31T16:00:00Z",
+        "einstandskurs": 0.004,
+        "letzter_kurs": 0.004,
+        "fee_gezahlt": 0.00208
+      },
+      "leg_b": {
+        "platform": "predictit",
+        "market_id": "8152:31927",
+        "side": "no",
+        "ausgang": "Nein",
+        "end_date": null,
+        "einstandskurs": 0.9599999999999999,
+        "letzter_kurs": 0.9599999999999999,
+        "fee_gezahlt": 0.0
       }
     }
   ],

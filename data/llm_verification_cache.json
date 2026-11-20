@@ -45043,5 +45043,19 @@
     "checked_at": "2026-11-19T21:32:08.502998+00:00",
     "frage_a": "Will Trump meet with Yoon Suk Yeol in 2026?",
     "frage_b": "Will Trump meet with Kim Jong Un in 2026?"
+  },
+  "polymarket:7107376__predictit:8766:34693": {
+    "same_event": true,
+    "reason": "Both ask whether Jean-Luc Mélenchon wins the French presidential election; identical event and polar",
+    "checked_at": "2026-11-20T01:17:09.229516+00:00",
+    "frage_a": "Jean-Luc Mélenchon French presidential odds leader on December 31?",
+    "frage_b": "Who will win the next French presidential election? - Jean-Luc Mélenchon"
+  },
+  "polymarket:7104967__predictit:8152:31927": {
+    "same_event": true,
+    "reason": "Both ask whether Ted Cruz wins the 2028 Republican nomination; identical event and polar",
+    "checked_at": "2026-11-20T01:17:09.229516+00:00",
+    "frage_a": "Ted Cruz Republican nomination odds leader on March 31?",
+    "frage_b": "Who will win the 2028 Republican presidential nomination? - Ted Cruz"
   }
 }
