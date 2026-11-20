@@ -45057,5 +45057,12 @@
     "checked_at": "2026-11-20T01:17:09.229516+00:00",
     "frage_a": "Ted Cruz Republican nomination odds leader on March 31?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Ted Cruz"
+  },
+  "polymarket:7121769__predictit:9122:36476": {
+    "same_event": false,
+    "reason": "Different parties and outcomes; Angie Craig's nomination is specific to one candidate, while the ask",
+    "checked_at": "2026-11-20T05:26:02.597830+00:00",
+    "frage_a": "Will Angie Craig be the Democratic nominee for the Minnesota Senate special election?",
+    "frage_b": "Which party will win the 2027 Minnesota US Senate special election? - Democratic (DFL)"
   }
 }
