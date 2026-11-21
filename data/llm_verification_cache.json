@@ -45071,5 +45071,12 @@
     "checked_at": "2026-11-20T17:32:11.486098+00:00",
     "frage_a": "Glenn Youngkin Republican nomination odds leader on March 31?",
     "frage_b": "Who will win the 2028 Republican presidential nomination? - Glenn Youngkin"
+  },
+  "polymarket:1175411__predictit:9125:36494": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettart: Besuch vs. Treffen mit Kim Jong Un; ein Besuch könnte ohne Treffen erfolgt",
+    "checked_at": "2026-11-21T09:20:05.112436+00:00",
+    "frage_a": "Will Donald Trump visit North Korea in 2026?",
+    "frage_b": "Will Trump meet with Kim Jong Un in 2026?"
   }
 }
