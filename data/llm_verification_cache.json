@@ -45106,5 +45106,12 @@
     "checked_at": "2026-11-22T13:14:22.113451+00:00",
     "frage_a": "Will Beto O’Rourke announce a Presidential run before 2028?",
     "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:3347371__predictit:8599:33865": {
+    "same_event": false,
+    "reason": "Unterschiedliche Personen (Chelsea Clinton vs. Stephen A. Smith)",
+    "checked_at": "2026-11-22T21:03:05.054324+00:00",
+    "frage_a": "Will Chelsea Clinton announce a Presidential run before 2028?",
+    "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
   }
 }
