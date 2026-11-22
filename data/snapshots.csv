@@ -14367,3 +14367,33 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-22T04:47:03.523330+01:00,7242994,Spread: TSG Hoffenheim II (-2.5),bl3-rwe-hof-2026-11-28-spread-away-2pt5,0.49,0.505,0.995,0.0,10.9598,2026-11-28T13:00:00Z,schaetzung
 2026-11-22T04:47:03.523330+01:00,7245298,Exact Score: Any Other Score?,acle-itj-pak-2026-11-23-exact-score-any-other,0.49,0.505,0.995,0.0,2.9716,2026-11-23T18:15:00Z,schaetzung
 2026-11-22T04:47:03.523330+01:00,7245563,Set Handicap: Juan Carlos Fuentes Vasquez (-1.5) vs Andres Urrea (+1.5),atp-vasquez-urrea-2026-11-22-set-handicap-home-1pt5,0.5,0.49,0.99,0.0,4.0,2026-11-29T17:10:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,3491731,Will the Democratic Party candidate win the 2026 MI-10 House election by 15%-18%?,will-the-democratic-party-candidate-win-the-2026-mi-10-house-election-by-15-18,0.0245,0.975,0.9994999999999999,539.105333,1733.00109,2026-11-04T04:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4371962,Will Mihael Zaper record the most assists in the 2026-27 UEFA Conference League?,will-mihael-zaper-record-the-most-assists-in-the-2026-27-uefa-conference-league,0.456,0.5435,0.9995,0.0,3.80737,2027-06-16T23:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,6640915,Titans 1H Team Total: O/U 17.5,nfl-ten-dal-2026-11-22-1h-team-total-ten-17pt5,0.49,0.5,0.99,0.0,52.8716,2026-11-22T18:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,6641876,Bills 2H Team Total: O/U 13.5,nfl-mia-buf-2026-11-22-2h-team-total-buf-13pt5,0.5,0.495,0.995,0.0,0.0,2026-11-22T18:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,6734502,Gabriel Taliari: 2+ shots,bra-pal-cre-2026-11-05-shots-gabriel-taliari-90064344-gte2,0.5,0.455,0.9550000000000001,0.0,0.0,2026-11-05T22:30:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,6936751,Bears 1H Team Total: O/U 16.5,nfl-chi-det-2026-11-26-1h-team-total-chi-16pt5,0.495,0.5,0.995,0.0,2.5,2026-11-26T18:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,6938994,Raiders vs. Browns: O/U 42.5,nfl-lv-cle-2026-11-29-total-42pt5,0.49,0.505,0.995,0.0,100.05,2026-11-29T18:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7126721,J.J. McCarthy: Passing Touchdowns O/U 0.5,nfl-jax-nyg-2026-11-22-ptd-jj-mccarthy-0pt5,0.375,0.615,0.99,0.0,81.2,2026-11-22T21:25:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7180181,Exact Score: Levante UD 5 - 4 Real Racing Club?,lal-lev-rrc-2026-11-27-exact-score-5-4,0.205,0.76,0.965,0.0,893.6792,2026-11-27T20:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7230702,Vissel Kōbe vs. JEF United Ichihara Chiba: Vissel Kōbe O/U 4.5,jap-vis-jef-2026-11-28-team-total-home-4pt5,0.465,0.53,0.9950000000000001,0.0,51.8193,2026-11-28T06:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7231437,RC Deportivo A Coruña vs. FC Barcelona: RC Deportivo A Coruña 1st Half O/U 3.5,lal-dep-bar-2026-11-29-first-half-team-total-home-3pt5,0.465,0.53,0.9950000000000001,0.0,51.3924,2026-11-29T15:15:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7239182,Tarvet vs. Mitsui: Match O/U 21.5,atp-tarvet-mitsui-2026-11-22-match-total-21pt5,0.485,0.51,0.995,0.0,11.0598,2026-11-29T16:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7240388,Mantova 1911 vs. SS Arezzo: SS Arezzo O/U 5.5,itsb-man-are-2026-11-25-team-total-away-5pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-25T19:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7242796,Silva vs. Zormann: Match O/U 23.5,atp-silva-zormann-2026-11-22-match-total-23pt5,0.485,0.51,0.995,0.0,11.0598,2026-11-29T16:00:00Z,schaetzung
+2026-11-22T07:47:27.511007+01:00,7242994,Spread: TSG Hoffenheim II (-2.5),bl3-rwe-hof-2026-11-28-spread-away-2pt5,0.49,0.505,0.995,0.0,10.9598,2026-11-28T13:00:00Z,schaetzung
