@@ -45078,5 +45078,19 @@
     "checked_at": "2026-11-21T09:20:05.112436+00:00",
     "frage_a": "Will Donald Trump visit North Korea in 2026?",
     "frage_b": "Will Trump meet with Kim Jong Un in 2026?"
+  },
+  "polymarket:7107375__predictit:8766:36467": {
+    "same_event": true,
+    "reason": "Both questions refer to the same event: David Lisnard winning the French presidential election, with",
+    "checked_at": "2026-11-22T05:06:53.129588+00:00",
+    "frage_a": "David Lisnard French presidential odds leader on December 31?",
+    "frage_b": "Who will win the next French presidential election? - David Lisnard"
+  },
+  "polymarket:5621939__predictit:8766:36467": {
+    "same_event": false,
+    "reason": "Question A asks about winning the first round (partial election), Question B asks about winning the\n",
+    "checked_at": "2026-11-22T05:06:53.129588+00:00",
+    "frage_a": "Will David Lisnard win the most votes in the first round of the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - David Lisnard"
   }
 }
