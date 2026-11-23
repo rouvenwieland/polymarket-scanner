@@ -45113,5 +45113,19 @@
     "checked_at": "2026-11-22T21:03:05.054324+00:00",
     "frage_a": "Will Chelsea Clinton announce a Presidential run before 2028?",
     "frage_b": "Will Stephen A. Smith announce a run for president before 2028?"
+  },
+  "polymarket:7104764__predictit:8171:32018": {
+    "same_event": false,
+    "reason": "Different outcomes: 'odds leader' vs. 'will win' - not equivalent events",
+    "checked_at": "2026-11-23T09:09:46.680231+00:00",
+    "frage_a": "JD Vance 2028 presidential odds leader on December 31?",
+    "frage_b": "Who will win the 2028 US presidential election? - JD Vance"
+  },
+  "polymarket:6762579__predictit:9094:36374": {
+    "same_event": false,
+    "reason": "Different parties and chambers: full party win vs. Republican House only",
+    "checked_at": "2026-11-23T09:09:46.680231+00:00",
+    "frage_a": "Will the Democrats win the Presidency, and the Republicans the Senate and House in 2028?",
+    "frage_b": "Which party will win the US House in 2028? - Republican"
   }
 }
