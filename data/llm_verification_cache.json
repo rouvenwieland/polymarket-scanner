@@ -45148,5 +45148,19 @@
     "checked_at": "2026-11-24T13:16:54.171406+00:00",
     "frage_a": "Gavin Newsom Democratic nomination odds leader on December 31?",
     "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
+  },
+  "kalshi:KXPALLADIUMH-26NOV2416-T852.99__polymarket:7284570": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse (Meta vs. Palladium), verschiedene Werte und Märkte",
+    "checked_at": "2026-11-24T21:14:01.213300+00:00",
+    "frage_a": "Will Meta (META) close above $600 on November 24?",
+    "frage_b": "Will the palladium close price be above 852.99 USD/ounce on November 24, 2026 at 4:00 PM ET? - Above $852.99"
+  },
+  "polymarket:6619207__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Unterschiedliche Kandidaten (PP vs. PSOE), unterschiedliche Ausgangsbedingungen (Seats vs. Winner)",
+    "checked_at": "2026-11-24T21:14:01.213300+00:00",
+    "frage_a": "Will PP win the Spanish election by 15-21 seats over PSOE?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
