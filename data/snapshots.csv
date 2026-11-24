@@ -14899,3 +14899,51 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-23T22:47:07.992765+01:00,7285183,São Paulo FC vs. Clube do Remo: São Paulo FC O/U 4.5,bra-sao-cre-2026-11-26-team-total-home-4pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-26T23:00:00Z,schaetzung
 2026-11-23T22:47:07.992765+01:00,7292597,Coventry City FC vs. Ipswich Town FC: Ipswich Town FC 1st Half O/U 3.5,epl-cov-ips-2026-12-01-first-half-team-total-away-3pt5,0.485,0.51,0.995,0.0,50.2918,2026-12-01T20:00:00Z,schaetzung
 2026-11-23T22:47:07.992765+01:00,7293280,Kyle Monangai: Rushing Yards O/U 19.5,nfl-chi-det-2026-11-26-ryd-kyle-monangai-19pt5,0.385,0.605,0.99,0.0,21.27,2026-11-26T18:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,2617336,Game 1: Any Player Ultra Kill?,dota2-xctn-rnx-2026-06-21-game1-any-player-ultra-kill,0.5,0.495,0.995,0.0,0.0,2026-06-21T12:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,4919621,Western Kentucky Total Scrimmage Yards: O/U 350.5,cfb-wkent-nmxst-2026-10-01-team-scrimmage-yards-wkent-350pt5,0.495,0.5,0.995,0.0,0.0,2026-10-02T00:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,6734502,Gabriel Taliari: 2+ shots,bra-pal-cre-2026-11-05-shots-gabriel-taliari-90064344-gte2,0.5,0.455,0.9550000000000001,0.0,0.0,2026-11-05T22:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,6938229,Dolphins 1H Team Total: O/U 13.5,nfl-nyj-mia-2026-11-29-1h-team-total-mia-13pt5,0.495,0.5,0.995,0.0,2.5,2026-11-29T18:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,6940491,Patriots 1H Team Total: O/U 6.5,nfl-ne-lac-2026-11-30-1h-team-total-ne-6pt5,0.495,0.5,0.995,0.0,2.5,2026-11-30T01:20:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,6987550,El Mokawloon El Arab SC vs. El Qanah Club: El Qanah Club O/U 5.5,egy1-eme-elq-2026-11-25-team-total-away-5pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-25T15:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7179242,Levante UD vs. Real Racing Club: Levante UD O/U 5.5,lal-lev-rrc-2026-11-27-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,51.4794,2026-11-27T20:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7199224,Exact Score: Real Betis Balompié 5 - 3 Rayo Vallecano de Madrid?,lal-bet-ray-2026-11-28-exact-score-5-3,0.2,0.795,0.9950000000000001,0.0,1299.9399,2026-11-28T13:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7204515,Torino FC vs. SS Lazio: SS Lazio O/U 5.5,sea-tor-laz-2026-11-28-team-total-away-5pt5,0.475,0.52,0.995,0.0,51.9396,2026-11-28T17:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7209209,East Bengal FC vs. Punjab FC: East Bengal FC O/U 3.5,isp-ebe-pun-2026-12-04-team-total-home-3pt5,0.475,0.52,0.995,0.0,51.8799,2026-12-04T14:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7222261,Udinese Calcio vs. ACF Fiorentina: ACF Fiorentina O/U 4.5,sea-udi-fio-2026-11-29-team-total-away-4pt5,0.475,0.52,0.995,0.0,51.9398,2026-11-29T11:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7242994,Spread: TSG Hoffenheim II (-2.5),bl3-rwe-hof-2026-11-28-spread-away-2pt5,0.49,0.505,0.995,0.0,10.9598,2026-11-28T13:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7252189,Map 2 Total Rounds: Over/Under 19.5,val-9z-malaju-2026-11-23-game2-round-total-19pt5,0.495,0.5,0.995,0.0,0.0,2026-11-24T04:15:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7252654,Crewe Alexandra FC vs. Grimsby Town FC: Crewe Alexandra FC O/U 3.5,el2-cre-gri-2026-11-28-team-total-home-3pt5,0.465,0.53,0.9950000000000001,0.0,102.186,2026-11-28T15:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7252755,Walsall FC vs. Northampton Town FC: Northampton Town FC O/U 5.5,el2-wal-nth-2026-11-28-team-total-away-5pt5,0.475,0.52,0.995,0.0,51.9599,2026-11-28T15:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7266067,Barrow AFC vs. Kidderminster Harriers FC: Kidderminster Harriers FC O/U 5.5,efa-bar5-kid-2026-12-05-team-total-away-5pt5,0.485,0.51,0.995,0.0,1.1597,2026-12-05T20:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7269847,Júbilo Iwata vs. Tochigi City FC: Júbilo Iwata 1st Half O/U 1.5,ja2-jub-tct-2026-11-29-first-half-team-total-home-1pt5,0.465,0.53,0.9950000000000001,0.0,51.0578,2026-11-29T05:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7269897,Albirex Niigata vs. Ventforet Kōfu: Ventforet Kōfu 1st Half O/U 2.5,ja2-alb-ven-2026-11-29-first-half-team-total-away-2pt5,0.475,0.52,0.995,0.0,51.8998,2026-11-29T05:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7271594,Spread: Cerro Porteno (-2.5),par1-rub-cpo-2026-11-29-spread-away-2pt5,0.49,0.505,0.995,0.0,10.9598,2026-11-29T22:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7271774,Club Guarani Asuncion vs. Sportivo Trinidense: O/U 7.5,par1-gua-tri-2026-11-29-total-7pt5,0.49,0.505,0.995,0.0,1.1099,2026-11-29T22:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7272311,Spread: Kansas Jayhawks (-43.5),cbb-den-kan-2026-11-23-spread-home-43pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T01:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7272811,Damian Lillard: Points O/U 34.5,nba-por-phi-2026-11-23-points-damian-lillard-34pt5,0.49,0.5,0.99,0.0,0.0,2026-11-24T00:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7272975,Jrue Holiday: Points O/U 24.5,nba-por-phi-2026-11-23-points-jrue-holiday-24pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T00:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7273559,Deni Avdija: Rebounds O/U 9.5,nba-por-phi-2026-11-23-rebounds-deni-avdija-9pt5,0.08,0.915,0.995,0.0,2605.87,2026-11-24T00:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7275031,Jaden McDaniels: Points O/U 16.5,nba-bkn-min-2026-11-23-points-jaden-mcdaniels-16pt5,0.495,0.5,0.995,0.0,0.0,2026-11-24T00:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7276430,Central Arkansas Bears vs. North Florida Ospreys: O/U 173.5,cbb-cark-nfl-2026-11-23-total-173pt5,0.5,0.45,0.95,0.0,0.0,2026-11-24T00:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7285183,São Paulo FC vs. Clube do Remo: São Paulo FC O/U 4.5,bra-sao-cre-2026-11-26-team-total-home-4pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-26T23:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7286293,HNK Hajduk Split vs. NK Rudeš: NK Rudeš O/U 2.5,hr1-haj-rud-2026-11-29-team-total-away-2pt5,0.465,0.53,0.9950000000000001,0.0,51.3021,2026-11-29T17:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7287605,James Harden: 3-Pointers Made O/U 5.5,nba-cle-chi-2026-11-23-threes-james-harden-5pt5,0.495,0.5,0.995,0.0,0.0,2026-11-24T01:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7289008,"Will Coinbase Global, Inc. (COIN) hit (HIGH) $110 Week of November 23 2026?",will-coin-reach-110-by-november-23-2026-from-november-23,0.52,0.475,0.995,0.0,8.9999,2026-11-27T21:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7289964,Shai Gilgeous-Alexander: Steals O/U 2.5,nba-okc-ind-2026-11-23-steals-shai-gilgeous-alexander-2pt5,0.47,0.525,0.995,5.681816,2.6998,2026-11-24T00:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7293827,Pacers 2H Team Total: O/U 57.5,nba-okc-ind-2026-11-23-2h-team-total-ind-57pt5,0.495,0.5,0.995,0.0,0.0,2026-11-24T00:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7293832,Nets 2H Team Total: O/U 55.5,nba-bkn-min-2026-11-23-2h-team-total-bkn-55pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T00:30:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7294283,Suns 2H Team Total: O/U 59.5,nba-phx-nop-2026-11-23-2h-team-total-phx-59pt5,0.5,0.495,0.995,0.0,0.0,2026-11-24T01:00:00Z,schaetzung
+2026-11-24T02:12:53.318456+01:00,7294802,Will Ax1Le be the PGL Major Singapore 2026 MVP?,will-ax1le-be-the-pgl-major-singapore-2026-mvp,0.48,0.515,0.995,0.0,6.1795,2027-01-13T04:59:00Z,schaetzung
