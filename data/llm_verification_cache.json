@@ -45141,5 +45141,12 @@
     "checked_at": "2026-11-24T05:14:00.329808+00:00",
     "frage_a": "Will the Republicans win the Presidency and Senate, and the Democrats the House in 2028?",
     "frage_b": "Which party will win the US House in 2028? - Republican"
+  },
+  "polymarket:7104787__predictit:8153:31937": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: 'Odds leader' vs. 'who will win' – nicht exakt gleiches Ereignis, da 'od",
+    "checked_at": "2026-11-24T13:16:54.171406+00:00",
+    "frage_a": "Gavin Newsom Democratic nomination odds leader on December 31?",
+    "frage_b": "Who will win the 2028 Democratic presidential nomination? - Gavin Newsom"
   }
 }
