@@ -45127,5 +45127,12 @@
     "checked_at": "2026-11-23T09:09:46.680231+00:00",
     "frage_a": "Will the Democrats win the Presidency, and the Republicans the Senate and House in 2028?",
     "frage_b": "Which party will win the US House in 2028? - Republican"
+  },
+  "polymarket:679064__predictit:8766:36468": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: 'Will Teddy Riner win' vs. 'Who will win - Teddy Riner'. Erstere ist ein",
+    "checked_at": "2026-11-24T01:12:22.619141+00:00",
+    "frage_a": "Will Teddy Riner win the 2027 French presidential election?",
+    "frage_b": "Who will win the next French presidential election? - Teddy Riner"
   }
 }
