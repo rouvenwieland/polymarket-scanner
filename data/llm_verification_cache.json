@@ -45162,5 +45162,12 @@
     "checked_at": "2026-11-24T21:14:01.213300+00:00",
     "frage_a": "Will PP win the Spanish election by 15-21 seats over PSOE?",
     "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
+  },
+  "polymarket:5634830__predictit:9054:36203": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: A fragt nach PM-Positionen in Serbien und Bulgarien, B nach bulgarisчем",
+    "checked_at": "2026-11-25T05:15:02.846555+00:00",
+    "frage_a": "Will Ilija Srdanović become Serbian PM and Iliana Iotova win Bulgaria?",
+    "frage_b": "Who will win the 2026 Bulgarian presidential election? - Iliana Iotova"
   }
 }
