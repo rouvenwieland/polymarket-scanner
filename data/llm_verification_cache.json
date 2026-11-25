@@ -45176,5 +45176,19 @@
     "checked_at": "2026-11-25T09:17:24.402566+00:00",
     "frage_a": "Will the Democrats win the Presidency and House, and the Republicans the Senate in 2028?",
     "frage_b": "Which party will win the US House in 2028? - Republican"
+  },
+  "kalshi:KXPALLADIUMH-26NOV2512-T829.49__polymarket:7309783": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Meta vs. Palladium",
+    "checked_at": "2026-11-25T17:19:49.025570+00:00",
+    "frage_a": "Will Meta (META) close above $610 on November 25?",
+    "frage_b": "Will the palladium close price be above 829.49 USD/ounce on November 25, 2026 at 12:00 PM ET? - Above $829.49"
+  },
+  "kalshi:KXPALLADIUMH-26NOV2512-T829.49__polymarket:7309782": {
+    "same_event": false,
+    "reason": "Unterschiedliche Ereignisse: Meta vs. Palladium",
+    "checked_at": "2026-11-25T17:19:49.025570+00:00",
+    "frage_a": "Will Meta (META) close above $600 on November 25?",
+    "frage_b": "Will the palladium close price be above 829.49 USD/ounce on November 25, 2026 at 12:00 PM ET? - Above $829.49"
   }
 }
