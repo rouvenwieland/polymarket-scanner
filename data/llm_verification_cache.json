@@ -45169,5 +45169,12 @@
     "checked_at": "2026-11-25T05:15:02.846555+00:00",
     "frage_a": "Will Ilija Srdanović become Serbian PM and Iliana Iotova win Bulgaria?",
     "frage_b": "Who will win the 2026 Bulgarian presidential election? - Iliana Iotova"
+  },
+  "polymarket:6762578__predictit:9094:36374": {
+    "same_event": false,
+    "reason": "Unterschiedliche Wettarten: Frage A fragt nach mehreren Parteien in mehreren Kammern, Frage B nur um",
+    "checked_at": "2026-11-25T09:17:24.402566+00:00",
+    "frage_a": "Will the Democrats win the Presidency and House, and the Republicans the Senate in 2028?",
+    "frage_b": "Which party will win the US House in 2028? - Republican"
   }
 }
