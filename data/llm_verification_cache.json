@@ -45190,5 +45190,12 @@
     "checked_at": "2026-11-25T17:19:49.025570+00:00",
     "frage_a": "Will Meta (META) close above $600 on November 25?",
     "frage_b": "Will the palladium close price be above 829.49 USD/ounce on November 25, 2026 at 12:00 PM ET? - Above $829.49"
+  },
+  "polymarket:5787490__predictit:9029:36062": {
+    "same_event": false,
+    "reason": "Different candidates: Anna Kelly vs. unspecified",
+    "checked_at": "2026-11-26T00:46:15.447041+00:00",
+    "frage_a": "Next White House Press Secretary announced by November 30, 2026?",
+    "frage_b": "Who will be the next White House press secretary? - Anna Kelly"
   }
 }
