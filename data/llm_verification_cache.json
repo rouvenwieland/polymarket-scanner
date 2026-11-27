@@ -45197,5 +45197,12 @@
     "checked_at": "2026-11-26T00:46:15.447041+00:00",
     "frage_a": "Next White House Press Secretary announced by November 30, 2026?",
     "frage_b": "Who will be the next White House press secretary? - Anna Kelly"
+  },
+  "polymarket:6619205__predictit:9047:36154": {
+    "same_event": false,
+    "reason": "Different outcomes: one asks for seat margin (29-35 over PSOE), the other for winner (PSOE vs. PP).",
+    "checked_at": "2026-11-27T17:19:06.181894+00:00",
+    "frage_a": "Will PP win the Spanish election by 29-35 seats over PSOE?",
+    "frage_b": "Who will win the 2026 Spain snap election? - PSOE"
   }
 }
