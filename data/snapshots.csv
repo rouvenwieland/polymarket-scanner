@@ -16029,3 +16029,30 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-28T14:09:49.822543+01:00,7417583,Exact Score: Ayutthaya United FC 2 - 4 Rayong FC?,tha1-ayu-ray-2026-11-29-exact-score-2-4,0.49,0.505,0.995,0.0,3.0116,2026-11-29T11:30:00Z,schaetzung
 2026-11-28T14:09:49.822543+01:00,7417586,Exact Score: Ayutthaya United FC 5 - 1 Rayong FC?,tha1-ayu-ray-2026-11-29-exact-score-5-1,0.49,0.505,0.995,0.0,3.0116,2026-11-29T11:30:00Z,schaetzung
 2026-11-28T14:09:49.822543+01:00,7417710,1. FC Nürnberg leading at halftime?,bl2-fcn-boc-2026-12-05-halftime-result-home,0.5,0.495,0.995,0.0,30.0,2026-12-05T12:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,6939884,Seahawks vs. 49ers: 2Q O/U 6.5,nfl-sea-sf-2026-11-29-2q-total-6pt5,0.84,0.155,0.995,0.0,5479.0388,2026-11-29T21:25:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7208012,1st Half Spread: Deportivo Alavés (-2.5),lal-rea-ala-2026-11-28-first-half-spread-away-2pt5,0.465,0.53,0.9950000000000001,0.0,50.9396,2026-11-28T20:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7230337,Exact Score: Fulham FC 0 - 5 AFC Bournemouth?,epl-ful-bou-2026-11-29-exact-score-0-5,0.013,0.9865,0.9995,0.0,5136.51803,2026-11-29T14:05:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7253216,Cheonan City FC vs. Daegu FC: Cheonan City FC O/U 5.5,kor2-che-dag-2026-11-29-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,51.6597,2026-11-29T05:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7257760,Ravenna FC 1913 vs. SEF Torres Sassari: Ravenna FC 1913 O/U 4.5,serc-rav-tor-2026-11-29-team-total-home-4pt5,0.485,0.51,0.995,0.0,1.1597,2026-11-29T13:30:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7276824,Exact Score: SG Sonnenhof Grossaspach 4 - 0 MSV Duisburg?,bl3-gro-msv-2026-11-28-exact-score-4-0,0.493,0.5065,0.9994999999999999,0.0,1.63995,2026-11-28T15:30:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7289423,Spread: Wellington Phoenix FC (-2.5),aus-wel-ade-2026-12-05-spread-home-2pt5,0.23,0.765,0.995,0.0,152.456,2026-12-06T02:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7322386,Spread: Reus FC Reddis (-3.5),cdr-red-rrc-2026-12-01-spread-home-3pt5,0.475,0.52,0.995,0.0,51.5398,2026-12-01T18:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7340482,Plymouth Argyle FC vs. Bromley FC: Plymouth Argyle FC O/U 5.5,el1-ply-bro-2026-12-01-team-total-home-5pt5,0.475,0.52,0.995,0.0,51.4044,2026-12-01T19:45:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7340872,Leyton Orient FC vs. Peterborough United FC: Peterborough United FC O/U 4.5,el1-ley-pet-2026-12-01-team-total-away-4pt5,0.465,0.53,0.9950000000000001,0.0,51.5354,2026-12-01T19:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7368065,FK Zeleznicar Pancevo vs. OFK Beograd: OFK Beograd O/U 3.5,srb-zel-obe-2026-11-29-team-total-away-3pt5,0.465,0.53,0.9950000000000001,0.0,51.5134,2026-11-29T16:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7384891,Rafael Navarro: Anytime Goalscorer,mls-laf-stl-2026-11-28-ags-rafael-navarro-90085325,0.465,0.53,0.9950000000000001,0.0,4.2598,2026-11-29T01:30:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7397486,1st Half Spread: Ipswich Town FC (-1.5),epl-lee-ips-2026-12-05-first-half-spread-away-1pt5,0.47,0.525,0.995,0.0,51.5599,2026-12-05T15:00:00Z,schaetzung
+2026-11-28T16:47:16.384903+01:00,7419452,Maccabi Tel Aviv FC vs. Ironi Tiberias: Ironi Tiberias O/U 5.5,isr-mta-iti-2026-12-05-team-total-away-5pt5,0.485,0.51,0.995,0.0,1.1597,2026-12-05T13:00:00Z,schaetzung
