@@ -16008,3 +16008,24 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-28T10:47:22.243441+01:00,7386171,Lucas Ocampos: Anytime Goalscorer,mex-ame-mon1-2026-11-28-ags-lucas-ocampos-90035930,0.485,0.51,0.995,0.0,1.2197,2026-11-29T03:10:00Z,schaetzung
 2026-11-28T10:47:22.243441+01:00,7395490,Millwall FC vs. Burnley FC: Burnley FC 1st Half O/U 2.5,elc-mil-bur-2026-11-28-first-half-team-total-away-2pt5,0.465,0.53,0.9950000000000001,0.0,50.9397,2026-11-28T15:00:00Z,schaetzung
 2026-11-28T10:47:22.243441+01:00,7401515,US Livorno 1915 vs. Vis Pesaro 1898: Vis Pesaro 1898 O/U 4.5,serc-liv-p98-2026-12-04-team-total-away-4pt5,0.475,0.52,0.995,0.0,51.5197,2026-12-04T19:30:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7238105,Reading FC vs. Stockport County FC: O/U 6.5,efa-rea-sto5-2026-12-05-total-6pt5,0.475,0.52,0.995,0.0,55.6272,2026-12-05T15:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7268507,Kerala Blasters FC vs. Churchill Brothers SC: Churchill Brothers SC O/U 4.5,isp-ker-chb-2026-12-06-team-total-away-4pt5,0.465,0.53,0.9950000000000001,0.0,51.5149,2026-12-06T11:30:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7318631,Will Alireza Firouzja win Titled Tuesday on December 1?,titled-tuesday-2026-12-01-winner-alireza-firouzja,0.48,0.5,0.98,0.0,0.0,2026-12-16T04:59:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7351865,AEK vs. AGS Astéras Trípolis: O/U 7.5,grc-aek-ast-2026-12-02-total-7pt5,0.465,0.53,0.9950000000000001,0.0,51.5898,2026-12-02T17:00:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7394791,Bayer 04 Leverkusen vs. Borussia Mönchengladbach: Borussia Mönchengladbach O/U 2.5,bun-b04-moe-2026-12-05-team-total-away-2pt5,0.475,0.52,0.995,0.0,50.9903,2026-12-05T14:30:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7417583,Exact Score: Ayutthaya United FC 2 - 4 Rayong FC?,tha1-ayu-ray-2026-11-29-exact-score-2-4,0.49,0.505,0.995,0.0,3.0116,2026-11-29T11:30:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7417586,Exact Score: Ayutthaya United FC 5 - 1 Rayong FC?,tha1-ayu-ray-2026-11-29-exact-score-5-1,0.49,0.505,0.995,0.0,3.0116,2026-11-29T11:30:00Z,schaetzung
+2026-11-28T14:09:49.822543+01:00,7417710,1. FC Nürnberg leading at halftime?,bl2-fcn-boc-2026-12-05-halftime-result-home,0.5,0.495,0.995,0.0,30.0,2026-12-05T12:00:00Z,schaetzung
