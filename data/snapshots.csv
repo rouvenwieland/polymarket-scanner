@@ -15952,3 +15952,22 @@ timestamp,market_id,frage,slug,yes_preis,no_preis,summe,volumen,liquiditaet,end_
 2026-11-28T01:58:42.154170+01:00,7381639,Mikal Bridges: 3-Pointers Made O/U 3.5,nba-mia-nyk-2026-11-27-threes-mikal-bridges-3pt5,0.125,0.5,0.625,0.0,2269.36,2026-11-28T00:00:00Z,schaetzung
 2026-11-28T01:58:42.154170+01:00,7395374,Persela Lamongan vs. Rans Nusantara: Rans Nusantara O/U 5.5,idn2-pla-ran-2026-11-28-team-total-away-5pt5,0.465,0.53,0.9950000000000001,0.0,51.8798,2026-11-28T08:30:00Z,schaetzung
 2026-11-28T01:58:42.154170+01:00,7397124,Brayden Burries: Rebounds O/U 11.5,nba-mil-det-2026-11-27-rebounds-brayden-burries-11pt5,0.495,0.5,0.995,0.0,0.0,2026-11-28T00:30:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,2180577,Map 2: Odd/Even Total Kills?,cs2-ldp-alkaa-2026-05-07-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,0.05,2026-05-15T03:59:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,2297958,Map 2: Odd/Even Total Kills?,cs2-wraith-algo1-2026-05-19-game2-odd-even-total-kills,0.495,0.5,0.995,0.0,1.0,2026-05-27T03:59:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,2352221,Map 3: Odd/Even Total Rounds?,cs2-ldp-reda-2026-05-25-game3-odd-even-total-rounds,0.495,0.5,0.995,0.0,0.0,2026-06-02T03:59:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,3459650,Lingfield FC vs. Corinthian FC: Team to Take First Corner,efa-lin-cor-2026-08-12-first-corner,0.5,0.495,0.995,0.0,0.5,2026-08-12T19:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,3459719,Aylesbury United FC vs. Flackwell Heath FC: O/U 10.5 Total Corners,efa-ayu-fla-2026-08-12-corners-total-10pt5,0.5,0.495,0.995,0.0,0.0,2026-08-12T18:45:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4283845,Antigua GFC vs. CSD Municipal: 2nd Half O/U 4.5 Total Corners,gtm-ant-mun-2026-09-19-corners-second-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-10-09T01:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4416705,Cambridge City FC vs. Buckhurst Hill FC: O/U 12.5 Total Corners,efa-cam2-buc1-2026-09-19-corners-total-12pt5,0.5,0.495,0.995,0.0,0.0,2026-09-19T14:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4582943,CSD Cobán Imperial vs. Aurora FC: 1st Half O/U 4.5 Total Corners,gtm-cob-aur-2026-09-27-corners-first-half-total-4pt5,0.5,0.005,0.505,0.0,0.0,2026-09-27T19:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4754374,CSD Mixco vs. CSD Municipal: CSD Municipal O/U 5.5 Corners,gtm-mix-mun-2026-10-03-corners-team-away-5pt5,0.5,0.495,0.995,0.0,0.0,2026-10-21T21:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4787382,Comunicaciones FC vs. CSD Suchitepéquez: 2nd Half O/U 4.5 Total Corners,gtm-com-suc-2026-10-04-corners-second-half-total-4pt5,0.005,0.5,0.505,0.0,0.0,2026-10-05T01:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,4847535,Weymouth FC vs. South East Dons FC: Weymouth FC O/U 4.5 Corners,efa-wey-sed-2026-10-03-corners-team-home-4pt5,0.495,0.5,0.995,0.0,0.0,2026-10-03T14:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,5671580,Will Hapoel Tel-Aviv win the 2026-27 Israeli Basketball Premier League championship?,israeli-basketball-premier-league-2027-champion-hapoel-tel-aviv,0.44,0.5,0.94,0.0,0.0,2027-07-17T03:59:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,5940594,Asian Table Tennis Championships: Zeyad Aldmaisy vs Talgat Sagyndykov,wtt-aldmais-sagyndy-2026-10-20,0.495,0.5,0.995,0.0,0.0,2026-10-27T11:45:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,6938117,3Q Spread: Dolphins (-6.5),nfl-nyj-mia-2026-11-29-3q-spread-home-6pt5,0.495,0.5,0.995,0.0,5.89,2026-11-29T18:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,6939043,Raiders vs. Browns: 4Q O/U 6.5,nfl-lv-cle-2026-11-29-4q-total-6pt5,0.495,0.5,0.995,0.0,3.21,2026-11-29T18:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,7238429,Port Vale FC vs. Leyton Orient FC: Port Vale FC O/U 5.5,efa-pvl-ley-2026-12-05-team-total-home-5pt5,0.465,0.53,0.9950000000000001,0.0,51.8793,2026-12-05T15:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,7322191,RS Gimnástica de Torrelavega vs. Deportivo Alavés: O/U 8.5,cdr-rgt-ala-2026-12-01-total-8pt5,0.465,0.53,0.9950000000000001,0.0,51.6631,2026-12-01T20:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,7389514,Will the lowest temperature in Denver be between 24-25°F on November 29?,lowest-temperature-in-denver-on-november-29-2026-24-25f,0.35,0.635,0.985,0.0,34.6555,2026-11-29T12:00:00Z,schaetzung
+2026-11-28T04:47:32.364803+01:00,7396307,FC Tōkyō vs. Kawasaki Frontale: FC Tōkyō 1st Half O/U 2.5,jap-fct-kaw-2026-12-04-first-half-team-total-home-2pt5,0.465,0.53,0.9950000000000001,0.0,51.4794,2026-12-04T09:30:00Z,schaetzung
